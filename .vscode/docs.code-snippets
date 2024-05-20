@@ -1,0 +1,122 @@
+{
+  "Class": {
+    "scope": "md,markdown",
+    "prefix": "doc.class",
+    "body": [
+      "---",
+      "title: $0",
+      "---",
+      "",
+      "# $0",
+      "",
+      "## Parameters",
+      "",
+      "| Name       | Type | Description |",
+      "| ---------- | ---- | ----------- |",
+      "| `arg_name` |      |             |",
+      "",
+      "## Methods",
+      "",
+      "- [name](#name)",
+      "",
+      "### name",
+      "",
+      "#### Parameters",
+      "",
+      "| Name   | Type | Description |",
+      "| ------ | ---- | ----------- |",
+      "| `name` |      |             |",
+      "",
+      "## Example",
+      "",
+      "```py",
+      "",
+      "```"
+    ]
+  },
+  "Functions": {
+    "scope": "md,markdown",
+    "prefix": "doc.functions",
+    "body": [
+      "---",
+      "title: Functions",
+      "---",
+      "",
+      "# Functions",
+      "",
+      "- [func](#func)",
+      "",
+      "## func",
+      "### Parameters",
+      "",
+      "| Name       | Type | Description |",
+      "| ---------- | ---- | ----------- |",
+      "| `arg_name` |      |             |",
+      "",
+      "## Example",
+      "",
+      "```py",
+      "",
+      "```"
+    ]
+  },
+  "Undocumented": {
+    "scope": "md,markdown",
+    "prefix": "undocumented",
+    "body": [
+      "---",
+      "title: $0",
+      "---",
+      "",
+      "# $0",
+      "",
+      "undocumented",
+      ""
+    ]
+  },
+  "Info": {
+    "scope": "md,markdown",
+    "prefix": "container.info",
+    "body": [
+      "::: info",
+      "$0",
+      ":::"
+    ]
+  },
+  "Tip": {
+    "scope": "md,markdown",
+    "prefix": "container.tip",
+    "body": [
+      "::: tip",
+      "$0",
+      ":::"
+    ]
+  },
+  "Warning": {
+    "scope": "md,markdown",
+    "prefix": "container.warning",
+    "body": [
+      "::: warning",
+      "$0",
+      ":::"
+    ]
+  },
+  "Danger": {
+    "scope": "md,markdown",
+    "prefix": "container.danger",
+    "body": [
+      "::: danger",
+      "$0",
+      ":::"
+    ]
+  },
+  "Details": {
+    "scope": "md,markdown",
+    "prefix": "container.details",
+    "body": [
+      "::: details",
+      "$0",
+      ":::"
+    ]
+  },
+}
