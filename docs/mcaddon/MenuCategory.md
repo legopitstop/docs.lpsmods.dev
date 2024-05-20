@@ -1,0 +1,7 @@
+---
+title: MenuCategory
+---
+
+# MenuCategory
+
+undocumented

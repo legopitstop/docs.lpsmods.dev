@@ -21,7 +21,7 @@ Recipes are stored in `rcore:register recipes`.
 | ------ | -------------------------- | ---------------------------------------------------------------------------------------- |
 | `id`   | String                     | ID of the recipe. should be unique between recipes                                       |
 | `tags` | Array[String]              | List of table tags that this recipe should work for                                      |
-| `type` | [RecipeType](recipe_types) | `shaped` All items need to be in these exact slots. `shapeless` - Any item in this table |
+| `type` | [RecipeType](/rcore-api/recipe-types) | `shaped` All items need to be in these exact slots. `shapeless` - Any item in this table |
 
 ## Minecraft Recipes
 

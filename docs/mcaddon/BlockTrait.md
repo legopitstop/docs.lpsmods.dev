@@ -1,0 +1,7 @@
+---
+title: BlockTrait
+---
+
+# BlockTrait
+
+undocumented

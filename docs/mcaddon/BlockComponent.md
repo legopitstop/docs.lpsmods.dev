@@ -1,0 +1,7 @@
+---
+title: BlockComponent
+---
+
+# BlockComponent
+
+undocumented

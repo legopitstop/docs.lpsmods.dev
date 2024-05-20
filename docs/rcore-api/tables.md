@@ -32,6 +32,6 @@ function rcore:crafting_table/drop
 | `tags`       | Array[String] | List of recipe tags that this table uses.                                                               |
 | `table_name` | TextComponent | The name displayed in the GUI. default is "Crafting"                                                    |
 | `nbt`        | Object        | NBT data for the block. This is where you place the CustomModelData and display.Name data.              |
-| `custom`     | Object        | Custom NBT data that should get copied over to the [crafting table](crafting_table) block               |
+| `custom`     | Object        | Custom NBT data that should get copied over to the [crafting table](/rcore-api/crafting-table) block               |
 | `conditions` |               | NOT IMPLEMENTED - Array of conditions that must pass for recipes to work.                               |
 | `grid`       | Boolean       | EXPERIMENTAL - A grid on the top of the block that lets you craft items without having to open the GUI. |

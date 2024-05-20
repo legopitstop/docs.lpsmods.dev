@@ -33,7 +33,7 @@ Below you can find the syntax for the JSON recipe.
 
 ### Resources
 
-Where to get diffrent resrouces depending on the item namespace id.
+Where to get different resources depending on the item namespace ID.
 
 | Name       | Required | Type                  |
 | ---------- | -------- | --------------------- |
@@ -135,7 +135,7 @@ A map of the namespace id and the file location/url to link to.
 
 ### Varables
 
-A list of varables that will get replaced in the string.
+A list of variables that will get replaced in the string.
 
 | Varable        | Description                                           | Example        |
 | -------------- | ----------------------------------------------------- | -------------- |
@@ -373,7 +373,7 @@ Additional properties
 | No       | description               |         | [RAW JSON](https://minecraft.wiki/w/Raw_JSON_text_format) | The description of the recipe |
 | Yes      | [ingredients](#item)      |         | Object                                                             | A list of ingredients         |
 | No       | count                     | `1`     | Integer [`1-64`]                                                   | The number of items to give.  |
-| Yes      | [result](<(#item-count)>) |         | Object                                                             | The resulting recipe.         |
+| Yes      | [result](#item-count) |         | Object                                                             | The resulting recipe.         |
 
 #### Example
 

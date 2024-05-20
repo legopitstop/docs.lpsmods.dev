@@ -4,7 +4,7 @@ title: Events
 
 # Events
 
-These tags are held inside item trigger events. see [Trigger Events]().
+These tags are held inside item trigger events. see [Trigger Events](/morenbt/item/trigger-events).
 
 ## Parameters
 
