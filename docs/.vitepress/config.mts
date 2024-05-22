@@ -4,12 +4,12 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Legopitstop Docs",
   description: "Documentation for all my projects",
-  head: [["link", { rel: "shortcut icon", href: "/assets/favicon.ico" }]],
+  head: [["link", { rel: "shortcut icon", href: "/favicon.ico" }]],
   cleanUrls: true, // remove .html
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     externalLinkIcon: true,
-    logo: "/assets/favicon.ico",
+    logo: "/images/logo.png",
     footer: {
       message: "Not associated with or approved by Mojang Studios or Microsoft",
     },
@@ -93,10 +93,8 @@ export default defineConfig({
           items: [
             { text: "Index", link: "/" },
             { text: "Functions", link: "/functions" },
-            { text: "Classes", items: [
-            ]},
-            { text: "Examples", items: [
-            ]}
+            { text: "Classes", items: [] },
+            { text: "Examples", items: [] },
           ],
         },
       ],
@@ -104,27 +102,32 @@ export default defineConfig({
         {
           text: "mcaddon",
           base: "/mcaddon/",
-          docFooterText: 'desc',
+          docFooterText: "desc",
           items: [
             { text: "Index", link: "/" },
             { text: "Functions", link: "/functions" },
             { text: "Constants", link: "/constants" },
-            { text: "Classes", items: [
-              {text: 'Item', link: '/Item'},
-              {text: 'ItemComponent', link: '/ItemComponent'},
-              {text: 'Block', link: '/Block'},
-              {text: 'BlockComponent', link: '/BlockComponent'},
-              {text: 'GeometryPart', link: '/GeometryPart'},
-              {text: 'CullingRule', link: '/CullingRule'},
-              {text: 'BlockCullingRules', link: '/BlockCullingRules'},
-              {text: 'CameraPreset', link: '/CameraPreset'},
-              {text: 'Event', link: '/Event'},
-            ]},
-            { text: "Examples", items: [
-              {text: 'Item', link: '/example-items'},
-              {text: 'Block', link: '/example-blocks'},
-            ]}
-
+            {
+              text: "Classes",
+              items: [
+                { text: "Item", link: "/Item" },
+                { text: "ItemComponent", link: "/ItemComponent" },
+                { text: "Block", link: "/Block" },
+                { text: "BlockComponent", link: "/BlockComponent" },
+                { text: "GeometryPart", link: "/GeometryPart" },
+                { text: "CullingRule", link: "/CullingRule" },
+                { text: "BlockCullingRules", link: "/BlockCullingRules" },
+                { text: "CameraPreset", link: "/CameraPreset" },
+                { text: "Event", link: "/Event" },
+              ],
+            },
+            {
+              text: "Examples",
+              items: [
+                { text: "Item", link: "/example-items" },
+                { text: "Block", link: "/example-blocks" },
+              ],
+            },
           ],
         },
       ],
@@ -167,9 +170,7 @@ export default defineConfig({
           items: [
             { text: "Index", link: "/" },
             { text: "Functions", link: "/functions" },
-            { text: "Classes", items: [
-              {text: 'Molang', link: '/Molang'}
-            ] },
+            { text: "Classes", items: [{ text: "Molang", link: "/Molang" }] },
           ],
         },
       ],
@@ -305,7 +306,7 @@ export default defineConfig({
                 { text: "Dialog", link: "/Dialog" },
                 { text: "Message", link: "/Message" },
                 { text: "Modal", link: "/Modal" },
-                { text: "ModalBox", link: "/ModalBox" },
+                { text: "modalbox", link: "/modalbox" },
                 {
                   text: "ModalDialog",
                   link: "/ModalDialog",
@@ -503,6 +504,7 @@ export default defineConfig({
           items: [{ text: "Index", link: "/" }],
         },
       ],
+      // Misc
       "/recipe-display/": [
         {
           text: "Recipe Display",
@@ -510,6 +512,26 @@ export default defineConfig({
           items: [
             { text: "Index", link: "/" },
             { text: "Syntax", link: "/syntax" },
+          ],
+        },
+      ],
+      "/update-checker/": [
+        {
+          text: "Update Checker",
+          base: "/update-checker/",
+          items: [
+            { text: "Index", link: "/" },
+            { text: "Schema", link: "/schema" },
+            { text: "Syntax", link: "/syntax" },
+            { text: "Background Options", link: "/background-options" },
+            { text: "Markdown Flavor", link: "/markdown-flavor" },
+            {
+              text: "Examples",
+              items: [
+                { text: "Example", link: "/example" },
+                { text: "Premium Example", link: "/premium-example" },
+              ],
+            },
           ],
         },
       ],
