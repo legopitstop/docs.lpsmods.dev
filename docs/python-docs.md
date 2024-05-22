@@ -1,3 +1,7 @@
+---
+title: Python Docs
+---
+
 # Python Docs
 
 - [accentcolordetect](/accentcolordetect/)

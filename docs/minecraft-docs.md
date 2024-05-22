@@ -1,3 +1,7 @@
+---
+title: Minecraft Docs
+---
+
 # Minecraft Docs
 
 - [Assets+](/assetsplus/)
