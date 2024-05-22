@@ -1,5 +1,9 @@
 ---
 title: damage_tool
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # damage_tool

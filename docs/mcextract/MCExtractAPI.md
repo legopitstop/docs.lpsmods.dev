@@ -1,5 +1,9 @@
 ---
 title: MCExtractAPI
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,java,minecraft,data,assets,pypi,jar,reports,pythonpackage,customtkinter,serverjars,userfolder
 ---
 
 # MCExtractAPI

@@ -1,13 +1,17 @@
 ---
 title: Server
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---
 
 # Server
 
 ## Parameters
 
-| name      | type | description |
-| --------- | ---- | ----------- |
+| name        | type | description |
+| ----------- | ---- | ----------- |
 | `id`        |      |             |
 | `name`      |      |             |
 | `daemon_id` |      |             |

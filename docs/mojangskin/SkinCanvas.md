@@ -1,15 +1,19 @@
 ---
 title: SkinCanvas
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,minecraft,skin,images,pypi,pillow,mojang,pythonpackage
 ---
 
 # SkinCanvas
 
 ## Parameters
 
-| Name   | Type  | Description |
-| ------ | ----- | ----------- |
-| `master` | tkinter.Tk    |             |
-| `scale`  | float |             |
+| Name     | Type       | Description |
+| -------- | ---------- | ----------- |
+| `master` | tkinter.Tk |             |
+| `scale`  | float      |             |
 
 ## Methods
 

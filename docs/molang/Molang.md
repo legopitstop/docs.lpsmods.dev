@@ -1,5 +1,10 @@
 ---
 title: Molang
+description: Molang to Python Translator & interpreter written in pure Python.
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,language,minecraft,bedrock,molang
 ---
 
 # Molang
@@ -16,8 +21,8 @@ extends str
 
 #### Parameters
 
-| Name     | Type       | Description |
-| -------- | ---------- | ----------- |
+| Name       | Type       | Description |
+| ---------- | ---------- | ----------- |
 | `ast_node` | ast.Module |             |
 
 ### append
@@ -26,7 +31,7 @@ extends str
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| `s`    | str  |             |
+| `s`  | str  |             |
 
 ### prepend
 
@@ -34,7 +39,7 @@ extends str
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| `s`    | str  |             |
+| `s`  | str  |             |
 
 ## Example
 

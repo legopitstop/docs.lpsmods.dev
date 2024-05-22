@@ -1,5 +1,9 @@
 ---
 title: Example Sea Treasure Loot
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # Sea Treasure Loot

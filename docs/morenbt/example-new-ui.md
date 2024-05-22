@@ -1,5 +1,9 @@
 ---
 title: Example New UI
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # New UI

@@ -1,13 +1,18 @@
 ---
 title: AskEnum
+description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
 # AskEnum
 
 ## Parameters
 
-| Name    | Type | Description |
-| ------- | ---- | ----------- |
+| Name      | Type | Description |
+| --------- | ---- | ----------- |
 | `master`  |      |             |
 | `title`   |      |             |
 | `prompt`  |      |             |

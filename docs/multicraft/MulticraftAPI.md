@@ -1,13 +1,17 @@
 ---
 title: MulticraftAPI
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---
 
 # MulticraftAPI
 
 ## Parameters
 
-| name       | type | default value                                                | description |
-| ---------- | ---- | ------------------------------------------------------------ | ----------- |
+| name         | type | default value                                                | description |
+| ------------ | ---- | ------------------------------------------------------------ | ----------- |
 | `url`        |      |                                                              |             |
 | `user`       |      |                                                              |             |
 | `key`        |      |                                                              |             |

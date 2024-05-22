@@ -1,5 +1,9 @@
 ---
 title: food
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # food

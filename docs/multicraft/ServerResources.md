@@ -1,13 +1,17 @@
 ---
 title: ServerResources
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---
 
 # ServerResources
 
 ## Parameters
 
-| name   | type | description |
-| ------ | ---- | ----------- |
+| name     | type | description |
+| -------- | ---- | ----------- |
 | `cpu`    |      |             |
 | `memory` |      |             |
 | `quota`  |      |             |

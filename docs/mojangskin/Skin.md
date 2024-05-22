@@ -1,16 +1,20 @@
 ---
 title: Constants
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,minecraft,skin,images,pypi,pillow,mojang,pythonpackage
 ---
 
 # Constants
 
 ## Parameters
 
-| Name      | Type   | Description |
-| --------- | ------ | ----------- |
-| `skin_file` | str |             |
-| `model`     | [Model](/mojangskin/constants#model)  |             |
-| `cape_file` | str |             |
+| Name        | Type                                 | Description |
+| ----------- | ------------------------------------ | ----------- |
+| `skin_file` | str                                  |             |
+| `model`     | [Model](/mojangskin/constants#model) |             |
+| `cape_file` | str                                  |             |
 
 ## Methods
 

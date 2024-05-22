@@ -1,5 +1,9 @@
 ---
 title: Entity Tags
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # Entity Tags

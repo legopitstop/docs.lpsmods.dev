@@ -1,5 +1,9 @@
 ---
 title: Constants
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,minecraft,skin,images,pypi,pillow,mojang,pythonpackage
 ---
 
 # Constants

@@ -1,5 +1,9 @@
 ---
 title: Example Carrot Thrower
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # Carrot Thrower

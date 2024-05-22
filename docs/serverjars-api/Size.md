@@ -1,13 +1,17 @@
 ---
 title: Size
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,java,api,minecraft,pypi,bedrock,servers,pythonpackage,serverjars
 ---
 
 # Size
 
 ## Parameters
 
-| name    | type | description |
-| ------- | ---- | ----------- |
+| name      | type | description |
+| --------- | ---- | ----------- |
 | `display` |      |             |
 | `bytes`   |      |             |
 

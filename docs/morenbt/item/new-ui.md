@@ -1,5 +1,9 @@
 ---
 title: new_ui
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # new_ui

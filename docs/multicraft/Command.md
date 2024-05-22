@@ -1,13 +1,17 @@
 ---
 title: Command
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---
 
 # Command
 
 ## Parameters
 
-| name      | type | description |
-| --------- | ---- | ----------- |
+| name        | type | description |
+| ----------- | ---- | ----------- |
 | `id`        |      |             |
 | `name`      |      |             |
 | `server_id` |      |             |

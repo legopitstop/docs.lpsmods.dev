@@ -1,5 +1,10 @@
 ---
 title: ModalBox
+description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
 # ModalBox
@@ -19,7 +24,15 @@ title: ModalBox
 
 ```py
 import tkinter
+from tkinterplus.modalbox import showinfo
 
 root = tkinter.Tk()
+
+def callback():
+    showinfo('Title', 'Message', parent=root)
+
+tkinter.Button(root, text='Open Modal', command=callback).pack()
 root.mainloop()
 ```
+
+![example-modalbox](/images/example-modalbox.png)

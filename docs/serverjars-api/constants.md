@@ -1,13 +1,17 @@
 ---
 title: Constants
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,java,api,minecraft,pypi,bedrock,servers,pythonpackage,serverjars
 ---
 
 # Constants
 
 ## Category
 
-| name       | value      |
-| ---------- | ---------- |
+| name         | value      |
+| ------------ | ---------- |
 | `NUKKITX`    | nukkitx    |
 | `POCKETMINE` | pocketmine |
 | `MOHIST`     | mohist     |
@@ -29,8 +33,8 @@ title: Constants
 
 ## type
 
-| name    | value   |
-| ------- | ------- |
+| name      | value   |
+| --------- | ------- |
 | `BEDROCK` | bedrock |
 | `MODDED`  | modded  |
 | `PROXIES` | proxies |
@@ -38,8 +42,8 @@ title: Constants
 
 ## Stability
 
-| name         | value        |
-| ------------ | ------------ |
+| name           | value        |
+| -------------- | ------------ |
 | `STABLE`       | stable       |
 | `EXPERIMENTAL` | experimental |
 | `UNSTABLE`     | unstable     |

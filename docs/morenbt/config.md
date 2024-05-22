@@ -1,5 +1,9 @@
 ---
 title: Config
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # Config

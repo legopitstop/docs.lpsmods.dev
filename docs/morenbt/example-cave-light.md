@@ -1,5 +1,9 @@
 ---
 title: Example Cave Light
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # Cave Light

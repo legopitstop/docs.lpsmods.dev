@@ -1,5 +1,10 @@
 ---
 title: Armor Stand Poses
+description: Armor Stand Poses supports data-driven Poses letting you create your own!
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,minecraft,mods,datadriven,customizable,poses,armorstand,datapack,fabricmc
 ---
 
 # Armor Stand Poses

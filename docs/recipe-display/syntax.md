@@ -1,5 +1,10 @@
 ---
 title: Syntax
+description: Easily create a webpage that will display all your recipes!
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,minecraft,website,customizable,recipes,display
 ---
 
 # Syntax
@@ -16,11 +21,11 @@ Below you can find the syntax for the JSON recipe.
 
 ### Root
 
-| Name          | Required | Type                   | Description                                                      |
-| ------------- | -------- | ---------------------- | ---------------------------------------------------------------- |
+| Name          | Required | Type                        | Description                                                      |
+| ------------- | -------- | --------------------------- | ---------------------------------------------------------------- |
 | `description` | No       | [Description](#description) | Data that may be needed.                                         |
-| `resources`   | No       | [Resources](#resources)   | A list of resrouce locations for tags, textures, and lang files. |
-| `recipes`     | Yes      | Array[Recipes](#recipes) | A list of recipes to add to the document.                        |
+| `resources`   | No       | [Resources](#resources)     | A list of resrouce locations for tags, textures, and lang files. |
+| `recipes`     | Yes      | Array[Recipes](#recipes)    | A list of recipes to add to the document.                        |
 
 ### Description
 
@@ -116,10 +121,10 @@ A map of the namespace id and the file location/url to grab the lang from.
 
 A map of the namespace id and the file location/url to link to.
 
-| Name          | Default                                          | Type                | Description                    |
-| ------------- | ------------------------------------------------ | ------------------- | ------------------------------ |
+| Name          | Default                                 | Type                | Description                    |
+| ------------- | --------------------------------------- | ------------------- | ------------------------------ |
 | `minecraft`   | `https://minecraft.wiki/w/${NAME.WIKI}` | [String](#varables) | Built-in location to get langs |
-| `<namespace>` |                                                  | [String](#varables) | The location to get the langs  |
+| `<namespace>` |                                         | [String](#varables) | The location to get the langs  |
 
 #### Examples
 
@@ -176,12 +181,12 @@ Recipe schema is similar to Minecraft Java Edition's
 
 Additional properties
 
-| Required | Name                  | Type                                                               | Description                   |
-| -------- | --------------------- | ------------------------------------------------------------------ | ----------------------------- |
-| Yes      | identifier            | String                                                             | The id of the recipe          |
+| Required | Name                  | Type                                                      | Description                   |
+| -------- | --------------------- | --------------------------------------------------------- | ----------------------------- |
+| Yes      | identifier            | String                                                    | The id of the recipe          |
 | No       | description           | [RAW JSON](https://minecraft.wiki/w/Raw_JSON_text_format) | The description of the recipe |
-| Yes      | [ingredients](#item)  | Array                                                              | A list of ingredients         |
-| Yes      | [result](#item-count) | Object                                                             | The resulting recipe.         |
+| Yes      | [ingredients](#item)  | Array                                                     | A list of ingredients         |
+| Yes      | [result](#item-count) | Object                                                    | The resulting recipe.         |
 
 #### Example
 
@@ -211,13 +216,13 @@ Additional properties
 
 Additional properties
 
-| Required | Name                  | Type                                                               | Description                        |
-| -------- | --------------------- | ------------------------------------------------------------------ | ---------------------------------- |
-| Yes      | identifier            | String                                                             | The id of the recipe               |
+| Required | Name                  | Type                                                      | Description                        |
+| -------- | --------------------- | --------------------------------------------------------- | ---------------------------------- |
+| Yes      | identifier            | String                                                    | The id of the recipe               |
 | No       | description           | [RAW JSON](https://minecraft.wiki/w/Raw_JSON_text_format) | The description of the recipe      |
-| Yes      | [pattern](#pattern)   | Array                                                              | The pattern to insert the keys.    |
-| Yes      | [key](#key)           | Object                                                             | Contains the keys for the pattern. |
-| Yes      | [result](#item-count) | Object                                                             | The resulting recipe.              |
+| Yes      | [pattern](#pattern)   | Array                                                     | The pattern to insert the keys.    |
+| Yes      | [key](#key)           | Object                                                    | Contains the keys for the pattern. |
+| Yes      | [result](#item-count) | Object                                                    | The resulting recipe.              |
 
 #### Example
 
@@ -243,14 +248,14 @@ Additional properties
 
 Additional properties
 
-| Required | Name                 | Default | Type                                                               | Description                                             |
-| -------- | -------------------- | ------- | ------------------------------------------------------------------ | ------------------------------------------------------- |
-| Yes      | identifier           |         | String                                                             | The id of the recipe                                    |
+| Required | Name                 | Default | Type                                                      | Description                                             |
+| -------- | -------------------- | ------- | --------------------------------------------------------- | ------------------------------------------------------- |
+| Yes      | identifier           |         | String                                                    | The id of the recipe                                    |
 | No       | description          |         | [RAW JSON](https://minecraft.wiki/w/Raw_JSON_text_format) | The description of the recipe                           |
-| Yes      | [ingredients](#item) |         | Object                                                             | A list of ingredients                                   |
-| No       | experience           | `0.1`   | Number                                                             | The amount of experiance you get from smelting an item. |
-| No       | cookingtime          | `200`   | Number                                                             | The number of ticks it takes to cook this item.         |
-| Yes      | [result](#item)      |         | Object                                                             | The resulting recipe.                                   |
+| Yes      | [ingredients](#item) |         | Object                                                    | A list of ingredients                                   |
+| No       | experience           | `0.1`   | Number                                                    | The amount of experiance you get from smelting an item. |
+| No       | cookingtime          | `200`   | Number                                                    | The number of ticks it takes to cook this item.         |
+| Yes      | [result](#item)      |         | Object                                                    | The resulting recipe.                                   |
 
 #### Example
 
@@ -274,14 +279,14 @@ Additional properties
 
 Additional properties
 
-| Required | Name                 | Default | Type                                                               | Description                                             |
-| -------- | -------------------- | ------- | ------------------------------------------------------------------ | ------------------------------------------------------- |
-| Yes      | identifier           |         | String                                                             | The id of the recipe                                    |
+| Required | Name                 | Default | Type                                                      | Description                                             |
+| -------- | -------------------- | ------- | --------------------------------------------------------- | ------------------------------------------------------- |
+| Yes      | identifier           |         | String                                                    | The id of the recipe                                    |
 | No       | description          |         | [RAW JSON](https://minecraft.wiki/w/Raw_JSON_text_format) | The description of the recipe                           |
-| Yes      | [ingredients](#item) |         | Object                                                             | A list of ingredients                                   |
-| No       | experience           | `0.1`   | Number                                                             | The amount of experiance you get from smelting an item. |
-| No       | cookingtime          | `200`   | Number                                                             | The number of ticks it takes to cook this item.         |
-| Yes      | [result](#item)      |         | Object                                                             | The resulting recipe.                                   |
+| Yes      | [ingredients](#item) |         | Object                                                    | A list of ingredients                                   |
+| No       | experience           | `0.1`   | Number                                                    | The amount of experiance you get from smelting an item. |
+| No       | cookingtime          | `200`   | Number                                                    | The number of ticks it takes to cook this item.         |
+| Yes      | [result](#item)      |         | Object                                                    | The resulting recipe.                                   |
 
 #### Example
 
@@ -305,14 +310,14 @@ Additional properties
 
 Additional properties
 
-| Required | Name                 | Default | Type                                                               | Description                                             |
-| -------- | -------------------- | ------- | ------------------------------------------------------------------ | ------------------------------------------------------- |
-| Yes      | identifier           |         | String                                                             | The id of the recipe                                    |
+| Required | Name                 | Default | Type                                                      | Description                                             |
+| -------- | -------------------- | ------- | --------------------------------------------------------- | ------------------------------------------------------- |
+| Yes      | identifier           |         | String                                                    | The id of the recipe                                    |
 | No       | description          |         | [RAW JSON](https://minecraft.wiki/w/Raw_JSON_text_format) | The description of the recipe                           |
-| Yes      | [ingredients](#item) |         | Object                                                             | A list of ingredients                                   |
-| No       | experience           | `0.1`   | Number                                                             | The amount of experiance you get from smelting an item. |
-| No       | cookingtime          | `200`   | Number                                                             | The number of ticks it takes to cook this item.         |
-| Yes      | [result](#item)      |         | Object                                                             | The resulting recipe.                                   |
+| Yes      | [ingredients](#item) |         | Object                                                    | A list of ingredients                                   |
+| No       | experience           | `0.1`   | Number                                                    | The amount of experiance you get from smelting an item. |
+| No       | cookingtime          | `200`   | Number                                                    | The number of ticks it takes to cook this item.         |
+| Yes      | [result](#item)      |         | Object                                                    | The resulting recipe.                                   |
 
 #### Example
 
@@ -336,14 +341,14 @@ Additional properties
 
 Additional properties
 
-| Required | Name                 | Default | Type                                                               | Description                                             |
-| -------- | -------------------- | ------- | ------------------------------------------------------------------ | ------------------------------------------------------- |
-| Yes      | identifier           |         | String                                                             | The id of the recipe                                    |
+| Required | Name                 | Default | Type                                                      | Description                                             |
+| -------- | -------------------- | ------- | --------------------------------------------------------- | ------------------------------------------------------- |
+| Yes      | identifier           |         | String                                                    | The id of the recipe                                    |
 | No       | description          |         | [RAW JSON](https://minecraft.wiki/w/Raw_JSON_text_format) | The description of the recipe                           |
-| Yes      | [ingredients](#item) |         | Object                                                             | A list of ingredients                                   |
-| No       | experience           | `0.1`   | Number                                                             | The amount of experiance you get from smelting an item. |
-| No       | cookingtime          | `200`   | Number                                                             | The number of ticks it takes to cook this item.         |
-| Yes      | [result](#item)      |         | Object                                                             | The resulting recipe.                                   |
+| Yes      | [ingredients](#item) |         | Object                                                    | A list of ingredients                                   |
+| No       | experience           | `0.1`   | Number                                                    | The amount of experiance you get from smelting an item. |
+| No       | cookingtime          | `200`   | Number                                                    | The number of ticks it takes to cook this item.         |
+| Yes      | [result](#item)      |         | Object                                                    | The resulting recipe.                                   |
 
 #### Example
 
@@ -367,13 +372,13 @@ Additional properties
 
 Additional properties
 
-| Required | Name                      | Default | Type                                                               | Description                   |
-| -------- | ------------------------- | ------- | ------------------------------------------------------------------ | ----------------------------- |
-| Yes      | identifier                |         | String                                                             | The id of the recipe          |
-| No       | description               |         | [RAW JSON](https://minecraft.wiki/w/Raw_JSON_text_format) | The description of the recipe |
-| Yes      | [ingredients](#item)      |         | Object                                                             | A list of ingredients         |
-| No       | count                     | `1`     | Integer [`1-64`]                                                   | The number of items to give.  |
-| Yes      | [result](#item-count) |         | Object                                                             | The resulting recipe.         |
+| Required | Name                  | Default | Type                                                      | Description                   |
+| -------- | --------------------- | ------- | --------------------------------------------------------- | ----------------------------- |
+| Yes      | identifier            |         | String                                                    | The id of the recipe          |
+| No       | description           |         | [RAW JSON](https://minecraft.wiki/w/Raw_JSON_text_format) | The description of the recipe |
+| Yes      | [ingredients](#item)  |         | Object                                                    | A list of ingredients         |
+| No       | count                 | `1`     | Integer [`1-64`]                                          | The number of items to give.  |
+| Yes      | [result](#item-count) |         | Object                                                    | The resulting recipe.         |
 
 #### Example
 
@@ -396,13 +401,13 @@ Additional properties
 
 Additional properties
 
-| Required | Name                  | Default | Type                                                               | Description                             |
-| -------- | --------------------- | ------- | ------------------------------------------------------------------ | --------------------------------------- |
-| Yes      | identifier            |         | String                                                             | The id of the recipe                    |
+| Required | Name                  | Default | Type                                                      | Description                             |
+| -------- | --------------------- | ------- | --------------------------------------------------------- | --------------------------------------- |
+| Yes      | identifier            |         | String                                                    | The id of the recipe                    |
 | No       | description           |         | [RAW JSON](https://minecraft.wiki/w/Raw_JSON_text_format) | The description of the recipe           |
-| Yes      | [base](#item)         |         | Object                                                             | The base item                           |
-| Yes      | [addition](#item)     |         | Object                                                             | The item that you add to the base item. |
-| Yes      | [result](#item-count) |         | Object                                                             | The resulting recipe.                   |
+| Yes      | [base](#item)         |         | Object                                                    | The base item                           |
+| Yes      | [addition](#item)     |         | Object                                                    | The item that you add to the base item. |
+| Yes      | [result](#item-count) |         | Object                                                    | The resulting recipe.                   |
 
 #### Example
 
@@ -501,10 +506,10 @@ Additional properties
 
 ### Msgbox
 
-| Required | Name     | Default | Type                                                               | Description                                     |
-| -------- | -------- | ------- | ------------------------------------------------------------------ | ----------------------------------------------- |
-| No       | icon     |         | String                                                             | The image to use as a icon.                     |
-| No       | color    |         | String                                                             | The color for the msgbox. Must be a 6 digit hex |
+| Required | Name     | Default | Type                                                      | Description                                     |
+| -------- | -------- | ------- | --------------------------------------------------------- | ----------------------------------------------- |
+| No       | icon     |         | String                                                    | The image to use as a icon.                     |
+| No       | color    |         | String                                                    | The color for the msgbox. Must be a 6 digit hex |
 | Yes      | contents |         | [RAW JSON](https://minecraft.wiki/w/Raw_JSON_text_format) | The contents of the msgbox, supports RAW JSON   |
 
 #### Examples

@@ -1,13 +1,18 @@
 ---
 title: ScrolledFrame
+description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
 # ScrolledFrame
 
 ## Parameters
 
-| Name      | Type | Description |
-| --------- | ---- | ----------- |
+| Name        | Type | Description |
+| ----------- | ---- | ----------- |
 | `container` |      |             |
 | `bg_color`  |      |             |
 
@@ -31,6 +36,10 @@ import tkinterplus
 
 root = tkinter.Tk()
 widget = tkinterplus.ScrolledFrame(root)
+for i in range(100):
+    tkinter.Label(widget, text=f'Label {i}').pack()
 widget.pack()
 root.mainloop()
 ```
+
+![example-ScrolledFrame](/images/example-ScrolledFrame.png)

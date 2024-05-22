@@ -1,5 +1,10 @@
 ---
 title: Download
+description: The unofficial Python wrapper for geysermc.org
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,minecraft,pypi,geysermc,pythonpackage
 ---
 
 # Download

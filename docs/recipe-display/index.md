@@ -1,5 +1,10 @@
 ---
 title: Recipe Display
+description: Easily create a webpage that will display all your recipes!
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,minecraft,website,customizable,recipes,display
 ---
 
 # Recipe Display

@@ -1,13 +1,18 @@
 ---
 title: Modal
+description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
 # Modal
 
 ## Parameters
 
-| Name                | Type | Description |
-| ------------------- | ---- | ----------- |
+| Name                  | Type | Description |
+| --------------------- | ---- | ----------- |
 | `master`              |      |             |
 | `bg_color`            |      |             |
 | `titlebar_bg_color`   |      |             |
@@ -43,7 +48,15 @@ title: Modal
 
 ```py
 import tkinter
+import tkinterplus
 
 root = tkinter.Tk()
+
+modal = Modal(root)
+tkinter.Label(modal, text='Hello World').pack()
+
+tkinter.Button(root, text='Open Modal', command=modal.show).pack()
 root.mainloop()
 ```
+
+![example-Modal](/images/example-Modal.png)

@@ -1,5 +1,9 @@
 ---
 title: Example Pocket Ender Chest
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # Pocket Ender Chest

@@ -1,13 +1,18 @@
 ---
 title: Accordian
+description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
 # Accordian
 
 ## Parameters
 
-| Name                       | Type | Description |
-| -------------------------- | ---- | ----------- |
+| Name                         | Type | Description |
+| ---------------------------- | ---- | ----------- |
 | `master`                     |      |             |
 | `text`                       |      |             |
 | `image`                      |      |             |
@@ -42,7 +47,10 @@ import tkinter
 import tkinterplus
 
 root = tkinter.Tk()
-widget = tkinterplus.Accordian(root)
+widget = tkinterplus.Accordion(root, text='Accordion')
+tkinter.Label(widget, text='Hello World').pack()
 widget.pack()
 root.mainloop()
 ```
+
+![example-Accordion](/images/example-Accordion.png)

@@ -1,6 +1,11 @@
 ---
 title: Block Textures
 aside: false
+description: This is a resource pack library that adds all the vanilla Minecraft block ids use better IDs.
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop
 ---
 
 # Block Textures

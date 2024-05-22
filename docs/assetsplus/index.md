@@ -1,10 +1,20 @@
 ---
 title: Assets+
+description: This is a resource pack library that adds all the vanilla Minecraft block ids use better IDs.
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop
 ---
 
 # Assets+
 
 This is a resource pack library that adds all the vanilla Minecraft block ids use better IDs to use these just add the `minecraft` namespace before the texture for example: `minecraft:lime_concrete` to use the lime concrete texture. This resource pack also adds a few new textures like Java Edition’s debug textures
+
+## Links
+
+- [Download](https://github.com/legopitstop/Assets_Plus/releases)
+- [Source Code](https://github.com/legopitstop/Assets_Plus)
 
 ## Note
 

@@ -1,11 +1,15 @@
 ---
 title: Hosts
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---
 
 # Hosts
 
-| Name             | Base URL                                        |
-| ---------------- | ----------------------------------------------- |
+| Name               | Base URL                                        |
+| ------------------ | ----------------------------------------------- |
 | `APEX_PANEL`       | 'https://panel.apexminecrafthosting.com/api.php |
 | `BISECT_PANEL`     | 'https://panel.bisecthosting.com/api.php        |
 | `BISECT_PREMIUM`   | 'https://premium.bisecthosting.com/api.php      |

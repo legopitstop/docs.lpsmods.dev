@@ -1,20 +1,24 @@
 ---
 title: Constants
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---
 
 # Constants
 
 ## Status
 
-| name    | value   |
-| ------- | ------- |
+| name      | value   |
+| --------- | ------- |
 | `online`  | online  |
 | `offline` | offline |
 
 ## ScheduleStatus
 
-| name        | value |
-| ----------- | ----- |
+| name          | value |
+| ------------- | ----- |
 | `scheduled`   | 0     |
 | `rescheduled` | 1     |
 | `done`        | 2     |
@@ -22,8 +26,8 @@ title: Constants
 
 ## Role
 
-| name    | value   |
-| ------- | ------- |
+| name      | value   |
+| --------- | ------- |
 | `none`    | none    |
 | `user`    | user    |
 | `guest`   | guest   |
@@ -42,11 +46,11 @@ title: Constants
 
 | name | value |
 | ---- | ----- |
-| `ro`   | ro    |
-| `rw`   | rw    |
+| `ro` | ro    |
+| `rw` | rw    |
 
 ## BackupStatus
 
-| name | value |
-| ---- | ----- |
+| name   | value |
+| ------ | ----- |
 | `done` | done  |

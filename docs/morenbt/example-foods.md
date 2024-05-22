@@ -1,5 +1,9 @@
 ---
 title: Example Foods
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # Example Foods

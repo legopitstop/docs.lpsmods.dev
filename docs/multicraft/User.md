@@ -1,13 +1,17 @@
 ---
 title: User
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---
 
 # User
 
 ## Parameters
 
-| name         | type | description |
-| ------------ | ---- | ----------- |
+| name           | type | description |
+| -------------- | ---- | ----------- |
 | `id`           |      |             |
 | `name`         |      |             |
 | `email`        |      |             |

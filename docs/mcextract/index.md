@@ -1,10 +1,20 @@
 ---
 title: mcextract
+description: Extract assets and data from the Minecraft jar.
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,python,java,minecraft,data,assets,pypi,jar,reports,pythonpackage,customtkinter,serverjars,userfolder
 ---
 
 # mcextract
 
 Extract assets and data from the Minecraft jar.
+
+## Links
+
+- [Download](https://github.com/legopitstop/mcextract/releases)
+- [Source Code](https://github.com/legopitstop/mcextract)
 
 ## Examples
 

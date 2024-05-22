@@ -1,5 +1,9 @@
 ---
 title: Trigger Events
+head:
+  - - meta
+    - name: keywords
+      content: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # Trigger Events
