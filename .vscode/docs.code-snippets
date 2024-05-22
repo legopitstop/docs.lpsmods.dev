@@ -74,7 +74,7 @@
       ""
     ]
   },
-  "Info": {
+  "ContainerInfo": {
     "scope": "md,markdown",
     "prefix": "container.info",
     "body": [
@@ -83,7 +83,7 @@
       ":::"
     ]
   },
-  "Tip": {
+  "ContainerTip": {
     "scope": "md,markdown",
     "prefix": "container.tip",
     "body": [
@@ -92,7 +92,7 @@
       ":::"
     ]
   },
-  "Warning": {
+  "ContainerWarning": {
     "scope": "md,markdown",
     "prefix": "container.warning",
     "body": [
@@ -101,7 +101,7 @@
       ":::"
     ]
   },
-  "Danger": {
+  "ContainerDanger": {
     "scope": "md,markdown",
     "prefix": "container.danger",
     "body": [
@@ -110,7 +110,7 @@
       ":::"
     ]
   },
-  "Details": {
+  "ContainerDetails": {
     "scope": "md,markdown",
     "prefix": "container.details",
     "body": [
@@ -119,4 +119,33 @@
       ":::"
     ]
   },
+  "BadgeInfo": {
+    "scope": "md,markdown",
+    "prefix": "badge.info",
+    "body": [
+      "<Badge type=\"info\" text=\"$0\" />"
+    ]
+  },
+  "BadgeTip": {
+    "scope": "md,markdown",
+    "prefix": "badge.tip",
+    "body": [
+      "<Badge type=\"tip\" text=\"$0\" />"
+    ]
+  },
+  "BadgeWarning": {
+    "scope": "md,markdown",
+    "prefix": "badge.warning",
+    "body": [
+      "<Badge type=\"warning\" text=\"$0\" />"
+    ]
+  },
+  "BadgeDanger": {
+    "scope": "md,markdown",
+    "prefix": "badge.danger",
+    "body": [
+      "<Badge type=\"danger\" text=\"$0\" />"
+    ]
+  },
+  
 }
