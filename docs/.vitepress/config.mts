@@ -1,4 +1,6 @@
 import { defineConfig } from "vitepress";
+import mcfunctionGrammar from "./theme/syntaxes/mcfunction.tmLanguage.json";
+import snbtGrammar from "./theme/syntaxes/snbt.tmLanguage.json";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -6,9 +8,12 @@ export default defineConfig({
   description: "Documentation for all my projects",
   head: [["link", { rel: "shortcut icon", href: "/favicon.ico" }]],
   cleanUrls: true, // remove .html
+  markdown: {
+    languages: [mcfunctionGrammar, snbtGrammar],
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    externalLinkIcon: true,
+    // externalLinkIcon: true, disable in InvSlot.vue
     logo: "/images/logo.png",
     footer: {
       message: "Not associated with or approved by Mojang Studios or Microsoft",
