@@ -22,12 +22,12 @@ The root tag.
 
 ## Example
 
-```json
+```snbt
 {
-  "version": 1,
-  "config": {
-    "debugLog": false,
-    "on_use_reload": false
+  version: 1,
+  config: {
+    debugLog: false,
+    on_use_reload: false
   }
 }
 ```

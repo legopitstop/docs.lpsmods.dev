@@ -31,29 +31,29 @@ Milk Carton
 give @p potion{moreNBT:{nbt_format:"IgnoreFormatOverride"},CustomPotionColor:16777215,display:{Name:'{"text":"Milk Carton","italic":false}'},food:{using_converts_to:{id:"minecraft:glass_bottle",tag:{display:{Name:'{"text":"Empty Carton","italic":false}'}}}}}
 ```
 
-## NBT (in JSON format)
+## NBT
 
 Glow Berries
 
-```json
+```snbt
 {
   // custom
-  "moreNBT": {
-    "nbt_format": "IgnoreFormatOverride"
+  moreNBT: {
+    nbt_format: "IgnoreFormatOverride"
   },
   // vanilla
-  "display": {
-    "Lore": [
-      "{\"text\": \"They actually make you glow!\",\"color\": \"gray\",\"italic\": false}"
+  display: {
+    Lore: [
+      '{\"text\": \"They actually make you glow!\",\"color\": \"gray\",\"italic\": false}'
     ]
   },
   // custom
-  "food": {
-    "on_consume": {
-      "add_mob_effect": [
+  food: {
+    on_consume: {
+      add_mob_effect: [
         {
-          "target": "@p",
-          "effect": "minecraft:glowing"
+          target: "@p",
+          effect: "minecraft:glowing"
         }
       ]
     }
@@ -63,25 +63,25 @@ Glow Berries
 
 Milk Carton
 
-```json
+```snbt
 {
   // custom
-  "moreNBT": {
+  moreNBT: {
     "nbt_format": "IgnoreFormatOverride"
   },
   // vanilla
-  "CustomPotionColor": 16777215,
+  CustomPotionColor: 16777215,
   // vanilla
-  "display": {
-    "Name": "{\"text\": \"Milk Carton\",\"italic\": false}"
+  display: {
+    Name: "{\"text\": \"Milk Carton\",\"italic\": false}"
   },
   // custom
-  "food": {
-    "using_converts_to": {
-      "id": "minecraft:glass_bottle",
-      "tag": {
-        "display": {
-          "Name": "{\"text\": \"Empty Carton\",\"italic\": false}"
+  food: {
+    using_converts_to: {
+      id: "minecraft:glass_bottle",
+      tag: {
+        display: {
+          Name: "{\"text\": \"Empty Carton\",\"italic\": false}"
         }
       }
     }

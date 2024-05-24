@@ -22,11 +22,11 @@ The root item tag.
 
 ## Example
 
-```json
+```snbt
 {
-  "NoGravity": true,
-  "NoMotion": true,
-  "Invulnerable": true,
-  "foil": true
+  NoGravity: true,
+  NoMotion: true,
+  Invulnerable: true,
+  foil: true
 }
 ```

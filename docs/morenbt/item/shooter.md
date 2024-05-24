@@ -23,14 +23,14 @@ shooter - The root tag.
 
 ## Example
 
-```json
+```snbt
 {
-  "shooter": {
-    "max_draw_duration": 1,
-    "max_launch_power": 1,
-    "ammunition": {
-      "entity": "minecraft:pig",
-      "nbt": "{CustomName:'{\"text\":\"I am pig\"}'}"
+  shooter: {
+    max_draw_duration: 1,
+    max_launch_power: 1,
+    ammunition: {
+      entity: "minecraft:pig",
+      nbt: "{CustomName:'{\"text\":\"I am pig\"}'}"
     }
   }
 }

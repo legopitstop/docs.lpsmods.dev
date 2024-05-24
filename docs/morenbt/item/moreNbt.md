@@ -19,10 +19,10 @@ moreNBT - The root tag.
 
 ## Example
 
-```json
+```snbt
 {
-  "moreNBT": {
-    "nbt_format": 4
+  moreNBT: {
+    nbt_format: 4
   }
 }
 ```

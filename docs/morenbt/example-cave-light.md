@@ -20,22 +20,22 @@ data modify storage minecraft:entity entity.<entityID> set value {triggers:[{<tr
 
 ```
 
-## NBT (in JSON format)
+## NBT
 
-```json
+```snbt
 {
   // custom
-  "entity": {
-    "player": {
-      "triggers": [
+  entity: {
+    player: {
+      triggers: [
         {
-          "type": "minecraft:condition",
-          "conditions": [],
-          "events": {
-            "add_mob_effect": [
+          type: "minecraft:condition",
+          conditions: [],
+          events: {
+            add_mob_effect: [
               {
-                "effect": "minecraft:night_vision",
-                "target": "this"
+                effect: "minecraft:night_vision",
+                target: "this"
               }
             ]
           }

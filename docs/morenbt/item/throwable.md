@@ -21,12 +21,12 @@ throwable - The root tag.
 
 ## Example
 
-```json
+```snbt
 {
-  "throwable": {
-    "ammunition": {
-      "entity": "minecraft:pig",
-      "nbt": "{CustomName:'{\"text\":\"Projectile\"}'}"
+  throwable: {
+    ammunition: {
+      entity: "minecraft:pig",
+      nbt: "{CustomName:'{\"text\":\"Projectile\"}'}"
     }
   }
 }

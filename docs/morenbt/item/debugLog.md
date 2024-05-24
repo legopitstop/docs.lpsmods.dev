@@ -18,8 +18,8 @@ debugLog: (bool) If true it will give an output log via game chat. (default: fal
 
 ## Example
 
-```json
+```snbt
 {
-  "debugLog": true
+  debugLog: true
 }
 ```

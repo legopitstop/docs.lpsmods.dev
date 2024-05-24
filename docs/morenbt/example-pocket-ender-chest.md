@@ -22,31 +22,31 @@ function more_nbt:example_items/pocket_ender_chest
 give @p ender_chest{display:{Name:'{"text":"Pocket Ender Chest","italic":false}',Lore:['{"text":"Hold to summon pocket ender chest.","italic":false}']},moreNBT:{nbt_format:"IgnoreFormatOverride"},Inventory:{inventory_name:'{"translate":"container.enderchest"}',display_block:{Name:"minecraft:ender_chest"},can_be_siphoned_from:false,inventory_type:"chest",auto_save:{storage:"enderChest"}}}
 ```
 
-## NBT (in JSON format)
+## NBT
 
-```json
+```snbt
 {
   // vanilla
-  "display": {
-    "Name": "{\"text\":\"Pocket Ender Chest\",\"italic\":false}",
-    "Lore": [
-      "{\"text\": \"Hold to summon pocket ender chest.\",\"italic\": false}"
+  display: {
+    Name: "{\"text\":\"Pocket Ender Chest\",\"italic\":false}",
+    Lore: [
+      '{\"text\": \"Hold to summon pocket ender chest.\",\"italic\": false}'
     ]
   },
   // custom
-  "moreNBT": {
-    "nbt_format": "IgnoreFormatOverride"
+  moreNBT: {
+    nbt_format: "IgnoreFormatOverride"
   },
   // custom
-  "Inventory": {
-    "inventory_name": "{\"translate\": \"container.enderchest\"}",
-    "display_block": {
-      "Name": "minecraft:ender_chest"
+  Inventory: {
+    inventory_name: "{\"translate\": \"container.enderchest\"}",
+    display_block: {
+      Name: "minecraft:ender_chest"
     },
-    "can_be_siphoned_from": false,
-    "inventory_type": "chest",
-    "auto_save": {
-      "storage": "enderChest"
+    can_be_siphoned_from: false,
+    inventory_type: "chest",
+    auto_save: {
+      storage: "enderChest"
     }
   }
 }

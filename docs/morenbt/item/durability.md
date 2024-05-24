@@ -34,28 +34,28 @@ Custom Colored Themes; orange, brown, cyan, pink
 
 Simple example
 
-```json
+```snbt
 {
-  "durability": {
-    "max_durability": 500,
-    "display": "actionbarBar"
+  durability: {
+    max_durability: 500,
+    display: "actionbarBar"
   }
 }
 ```
 
 Advanced example
 
-```json
+```snbt
 {
-  "durabilty": {
-    "max_durability": 500,
-    "display": {
-      "type": "actionbarBar",
-      "color_theme": "orange"
+  durabilty: {
+    max_durability: 500,
+    display: {
+      type: "actionbarBar",
+      color_theme: "orange"
     },
-    "custom_display": {
-      "location": "actionbar",
-      "values": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+    custom_display: {
+      location: "actionbar",
+      values: [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
     }
   }
 }

@@ -65,55 +65,55 @@ entity_properties - Test properties of an entity.
 
 ## Example
 
-```json
+```snbt
 {
-    "conditions": [
+    conditions: [
         {
-            "condition": "minecraft:time_check",
-            "value": 6000
+            condition: "minecraft:time_check",
+            value: 6000
         },
         {
-            "condition": "minecraft:weather_check",
-            "raining": false,
-            "thundering": false
+            condition: "minecraft:weather_check",
+            raining: false,
+            thundering: false
         },
         {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-                "type": "player",
-                "flags": {
-                    "is_on_fire": false,
-                    "is_sleeping": false,
-                    "is_jumping": false,
-                    "is_flying": false,
-                    "is_falling": false,
-                    "is_walking": false,
-                    "is_sneaking": false,
-                    "is_sprinting": false,
-                    "is_swimming": false,
-                    "is_climbing": false,
-                    "is_in_water": false,
-                    "is_in_lava": false,
-                    "is_in_cave": false,
-                    "is_in_void": false,
-                    "is_on_ground": false,
-                    "is_holding_item": false
+            condition: "minecraft:entity_properties",
+            entity: "this",
+            predicate: {
+                type: "player",
+                flags: {
+                    is_on_fire: false,
+                    is_sleeping: false,
+                    is_jumping: false,
+                    is_flying: false,
+                    is_falling: false,
+                    is_walking: false,
+                    is_sneaking: false,
+                    is_sprinting: false,
+                    is_swimming: false,
+                    is_climbing: false,
+                    is_in_water: false,
+                    is_in_lava: false,
+                    is_in_cave: false,
+                    is_in_void: false,
+                    is_on_ground: false,
+                    is_holding_item: false
                 },
-                "player": {
-                    "gamemode": "adventure"
+                player: {
+                    gamemode: "adventure"
                 }
             }
         },
         {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-                "item": "minecraft:stone_pickaxe",
-                "count": 1,
-                "nbt": "{...}"
+            condition: "minecraft:match_tool",
+            predicate: {
+                item: "minecraft:stone_pickaxe",
+                count: 1,
+                nbt: "{...}"
             }
         }
     ],
-    "event": {...}
+    event: {...}
 }
 ```

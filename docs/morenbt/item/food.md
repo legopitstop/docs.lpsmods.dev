@@ -22,14 +22,14 @@ food - The root tag.
 
 ## Example
 
-```json
+```snbt
 {
-  "food": {
-    "on_consume": {},
-    "using_converts_to": {
-      "id": "minecraft:glass_bottle",
-      "tag": {
-        "CustomModelData": 1
+  food: {
+    on_consume: {},
+    using_converts_to: {
+      id: "minecraft:glass_bottle",
+      tag: {
+        CustomModelData: 1
       }
     }
   }

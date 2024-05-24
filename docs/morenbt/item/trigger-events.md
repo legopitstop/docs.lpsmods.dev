@@ -20,10 +20,10 @@ on_use_on - Will trigger when the player clicks on a block.
 
 ## Example
 
-```json
+```snbt
 {
-    "on_use": {...}, // Holds the events that it will run.
-    "on_hold": {...},
-    "on_use_on": {...}
+    on_use: {...}, // Holds the events that it will run.
+    on_hold: {...},
+    on_use_on: {...}
 }
 ```

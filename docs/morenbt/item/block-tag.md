@@ -23,17 +23,17 @@ BlockTag - The root tag.
 
 ## Example
 
-```json
+```snbt
 {
-  "BlockTag": {
-    "id": "custom:block",
-    "material": "minecraft:cobblestone",
-    "loot": {
-      "ignore_gaemmode": true,
-      "type": "minecraft:loot",
-      "table": "<the loot-table to use>"
+  BlockTag: {
+    id: "custom:block",
+    material: "minecraft:cobblestone",
+    loot: {
+      ignore_gaemmode: true,
+      type: "minecraft:loot",
+      table: "<the loot-table to use>"
     },
-    "on_destory": {}
+    on_destory: {}
   }
 }
 ```

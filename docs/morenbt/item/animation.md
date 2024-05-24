@@ -22,12 +22,12 @@ animation - The root tag.
 
 ## Example
 
-```json
+```snbt
 {
-  "animation": {
-    "looping": true,
-    "frametime": 3,
-    "frames": [1, 2, 3, 2]
+  animation: {
+    looping: true,
+    frametime: 3,
+    frames: [1, 2, 3, 2]
   }
 }
 ```

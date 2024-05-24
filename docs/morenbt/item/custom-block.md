@@ -22,34 +22,34 @@ function more_nbt:example_items/custom_block
 give @p armor_stand{moreNBT:{nbt_format:"IgnoreFormatOverride"},BlockTag:{id:"more_nbt:custom_block",material:"minecraft:slime_block",components:{on_break:{show_text:{tellraw:{target:"this",raw_text:'{"text":"asd"}'}},decrement_stack:{ignore_game_mode:true}}},loot:{ignore_gamemode:true,type:"minecraft:this"}}}
 ```
 
-## NBT (in JSON format)
+## NBT
 
-```json
+```snbt
 {
   // custom
-  "moreNBT": {
-    "nbt_format": "IgnoreFormatOverride"
+  moreNBT: {
+    nbt_format: "IgnoreFormatOverride"
   },
   // custom
-  "BlockTag": {
-    "id": "more_nbt:custom_block",
-    "material": "minecraft:slime_block",
-    "components": {
-      "on_break": {
-        "show_text": {
-          "tellraw": {
-            "target": "this",
-            "raw_text": "{\"text\": \"asd\"}"
+  BlockTag: {
+    id: "more_nbt:custom_block",
+    material: "minecraft:slime_block",
+    components: {
+      on_break: {
+        show_text: {
+          tellraw: {
+            target: "this",
+            raw_text: "{\"text\": \"asd\"}"
           }
         },
-        "decrement_stack": {
-          "ignore_game_mode": true
+        decrement_stack: {
+          ignore_game_mode: true
         }
       }
     },
-    "loot": {
-      "ignore_gamemode": true,
-      "type": "minecraft:this"
+    loot: {
+      ignore_gamemode: true,
+      type: "minecraft:this"
     }
   }
 }

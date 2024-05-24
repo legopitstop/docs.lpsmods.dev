@@ -33,20 +33,20 @@ Inventory - The root tag.
 
 ## Example
 
-```json
+```snbt
 {
-  "Inventory": {
-    "can_be_siphoned_from": false,
-    "inventory_name": "{\"text\":\"Custom Inventory Name\"}",
-    "inventory_type": "chest",
-    "display_block": {
-      "Name": "minecraft:barrel",
-      "BlockStates": {
-        "facing": "top"
+  Inventory: {
+    can_be_siphoned_from: false,
+    inventory_name: "{\"text\":\"Custom Inventory Name\"}",
+    inventory_type: "chest",
+    display_block: {
+      Name: "minecraft:barrel",
+      BlockStates: {
+        facing: "top"
       }
     },
-    "auto_save": {
-      "storage": "item"
+    auto_save: {
+      storage: "item"
     }
   }
 }

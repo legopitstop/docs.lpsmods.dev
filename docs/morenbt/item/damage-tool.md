@@ -21,12 +21,12 @@ damage_tool - The root tag.
 
 ## Example
 
-```json
+```snbt
 {
-  "damage_tool": {
-    "damage": 2,
-    "break_sound": true,
-    "disappears": true
+  damage_tool: {
+    damage: 2,
+    break_sound: true,
+    disappears: true
   }
 }
 ```

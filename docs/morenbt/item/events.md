@@ -138,23 +138,23 @@ run_command - (not working) will run the command or commands.
 
 `cooldown`
 
-```json
+```snbt
 {
-  "cooldown": {
-    "value": 20
+  cooldown: {
+    value: 20
   }
 }
 ```
 
 `add_mob_effect`
 
-```json
+```snbt
 {
-  "add_mob_effect": [
+  add_mob_effect: [
     {
-      "target": "this",
-      "effect": "minecraft:luck",
-      "showIcon": false
+      target: "this",
+      effect: "minecraft:luck",
+      showIcon: false
     }
   ]
 }
@@ -162,12 +162,12 @@ run_command - (not working) will run the command or commands.
 
 `remove_mob_effect`
 
-```json
+```snbt
 {
-  "remove_mob_effect": [
+  remove_mob_effect: [
     {
-      "target": "this",
-      "effect": "minecraft:luck"
+      target: "this",
+      effect: "minecraft:luck"
     }
   ]
 }
@@ -175,34 +175,34 @@ run_command - (not working) will run the command or commands.
 
 `die`
 
-```json
+```snbt
 {
-  "die": {
-    "target": "this"
+  die: {
+    target: "this"
   }
 }
 ```
 
 `transform_item`
 
-```json
+```snbt
 {
-  "transform_item": {
-    "transform": "minecraft:paper"
+  transform_item: {
+    transform: "minecraft:paper"
   }
 }
 ```
 
 `item`
 
-```json
+```snbt
 {
-  "item": {
-    "type": "entity",
-    "slot": "armor.head",
-    "copy": {
-      "type": "entity",
-      "slot": "weapon.mainhand"
+  item: {
+    type: "entity",
+    slot: "armor.head",
+    copy: {
+      type: "entity",
+      slot: "weapon.mainhand"
     }
   }
 }
@@ -210,16 +210,16 @@ run_command - (not working) will run the command or commands.
 
 `item`
 
-```json
+```snbt
 {
-  "item": {
-    "type": "block",
-    "pos": [0, -1, 0],
-    "slot": "container.0",
-    "copy": {
-      "type": "block",
-      "pos": [0, -1, 0],
-      "slot": "container.0"
+  item: {
+    type: "block",
+    pos: [0, -1, 0],
+    slot: "container.0",
+    copy: {
+      type: "block",
+      pos: [0, -1, 0],
+      slot: "container.0"
     }
   }
 }
@@ -227,20 +227,20 @@ run_command - (not working) will run the command or commands.
 
 `merge_data`
 
-```json
+```snbt
 {
-  "merge_data": {
-    "CustomModelData": {
-      "value": 1
+  merge_data: {
+    CustomModelData: {
+      value: 1
     },
-    "Damage": {
-      "value": 1
+    Damage: {
+      value: 1
     },
-    "HideFlags": {
-      "value": 34
+    HideFlags: {
+      value: 34
     },
-    "Unbreakable": {
-      "value": 1
+    Unbreakable: {
+      value: 1
     }
   }
 }
@@ -248,30 +248,30 @@ run_command - (not working) will run the command or commands.
 
 `show_text`
 
-```json
+```snbt
 {
-  "show_text": {
-    "clear": {
-      "target": "this"
+  show_text: {
+    clear: {
+      target: "this"
     },
-    "say": {
-      "text": "<message to display>"
+    say: {
+      text: "<message to display>"
     },
-    "tellraw": {
-      "target": "this",
-      "raw_text": "{\"text\":\"<message to display>\"}"
+    tellraw: {
+      target: "this",
+      raw_text: "{\"text\":\"<message to display>\"}"
     },
-    "title": {
-      "target": "this",
-      "raw_text": "{\"text\":\"<message to display>\"}"
+    title: {
+      target: "this",
+      raw_text: "{\"text\":\"<message to display>\"}"
     },
-    "subtitle": {
-      "target": "this",
-      "raw_text": "{\"text\":\"<message to display>\"}"
+    subtitle: {
+      target: "this",
+      raw_text: "{\"text\":\"<message to display>\"}"
     },
-    "actionbar": {
-      "target": "this",
-      "raw_text": "{\"text\":\"<message to display>\"}"
+    actionbar: {
+      target: "this",
+      raw_text: "{\"text\":\"<message to display>\"}"
     }
   }
 }
@@ -279,44 +279,44 @@ run_command - (not working) will run the command or commands.
 
 `decreasement_stack`
 
-```json
+```snbt
 {
-  "decrement_stack": {
-    "ignore_game_mode": true
+  decrement_stack: {
+    ignore_game_mode: true
   }
 }
 ```
 
 `play_sound`
 
-```json
+```snbt
 {
-  "play_sound": {
-    "target": "this",
-    "sound": "minecraft:block.barrel.open"
+  play_sound: {
+    target: "this",
+    sound: "minecraft:block.barrel.open"
   }
 }
 ```
 
 `score`
 
-```json
+```snbt
 {
-  "score": {
-    "add": {
-      "name": "@p",
-      "objective": "score.test0",
-      "amount": 1
+  score: {
+    add: {
+      name: "@p",
+      objective: "score.test0",
+      amount: 1
     },
-    "set": {
-      "name": "@p",
-      "objective": "score.test0",
-      "amount": 1
+    set: {
+      name: "@p",
+      objective: "score.test0",
+      amount: 1
     },
-    "remove": {
-      "name": "@p",
-      "objective": "score.test0",
-      "amount": 1
+    remove: {
+      name: "@p",
+      objective: "score.test0",
+      amount: 1
     }
   }
 }
@@ -324,58 +324,58 @@ run_command - (not working) will run the command or commands.
 
 `damage`
 
-```json
+```snbt
 {
-  "damage": {
-    "target": "this",
-    "type": "EFFECT",
-    "amount": 2
+  damage: {
+    target: "this",
+    type: "EFFECT",
+    amount: 2
   }
 }
 ```
 
 `reload`
 
-```json
+```snbt
 {
-  "reload": {
-    "confirm": true
+  reload: {
+    confirm: true
   }
 }
 ```
 
 `random`
 
-```json
+```snbt
 {
-  "random": {
-    "min": 0,
-    "max": 10,
-    "result": 5
+  random: {
+    min: 0,
+    max: 10,
+    result: 5
   }
 }
 ```
 
 `summon`
 
-```json
+```snbt
 {
-  "summon": {
-    "placement": "ON_PLAYER",
-    "entity": "minecraft:pig",
-    "nbt": "{CustomName:'{\"text\":\"Summoned Entity\"}'}"
+  summon: {
+    placement: "ON_PLAYER",
+    entity: "minecraft:pig",
+    nbt: "{CustomName:'{\"text\":\"Summoned Entity\"}'}"
   }
 }
 ```
 
 `structure`
 
-```json
+```snbt
 {
-  "structure": {
-    "structure_name": "minecraft:village/small_house",
-    "pos": [0, -1, 0],
-    "ignoreEntities": true
+  structure: {
+    structure_name: "minecraft:village/small_house",
+    pos: [0, -1, 0],
+    ignoreEntities: true
   }
 }
 ```
@@ -384,21 +384,21 @@ run_command - (not working) will run the command or commands.
 
 `loot`
 
-```json
+```snbt
 {
-  "loot": {
+  loot: {
     // gives the player the loot from loot_tables file.
-    "target": "give",
-    "source": "loot",
-    "table": "minecraft:chest/empty"
+    target: "give",
+    source: "loot",
+    table: "minecraft:chest/empty"
   },
-  "loot": {
+  loot: {
     // gives the player the loot when you kill the nearest pig.
-    "target": "give",
-    "source": "kill",
-    "entity": {
-      "type": "minecraft:pig",
-      "sort": "nearest"
+    target: "give",
+    source: "kill",
+    entity: {
+      type: "minecraft:pig",
+      sort: "nearest"
     }
   }
 }
@@ -406,23 +406,23 @@ run_command - (not working) will run the command or commands.
 
 `set_block`
 
-```json
+```snbt
 {
-  "set_block": {
-    "block_type": "minecraft:barrel",
-    "pos": [0, 0, 0],
-    "nbt": "{CustomName:'{\"text\":\"Renamed Barrel\"}'}",
-    "blockstate": ["facing=north"]
+  set_block: {
+    block_type: "minecraft:barrel",
+    pos: [0, 0, 0],
+    nbt: "{CustomName:'{\"text\":\"Renamed Barrel\"}'}",
+    blockstate: ["facing=north"]
   }
 }
 ```
 
 `run_command`
 
-```json
+```snbt
 {
-  "run_command": {
-    "command": "give @p diamond_block"
+  run_command: {
+    command: "give @p diamond_block"
   }
 }
 ```

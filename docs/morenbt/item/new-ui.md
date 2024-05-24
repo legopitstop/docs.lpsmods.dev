@@ -53,148 +53,148 @@ new_ui - The root tag.
 
 This example UI will bring you to the correct or wrong screens. depending on what button you click on the home screen.
 
-```json
+```snbt
 {
-  "new_ui": {
-    "1": {
+  new_ui: {
+    1: {
       // Home screen id=1 will always be the first UI to open.
-      "display": {
-        "title": "{\"text\":\"Home\"}"
+      display: {
+        title: "{\"text\":\"Home\"}"
       },
-      "buttons": [
+      buttons: [
         {
           // exit button
-          "name": "{\"text\":\"Close\"}",
-          "slot": 8,
-          "custom_button": {
-            "item": "minecraft:barrier"
+          name: "{\"text\":\"Close\"}",
+          slot: 8,
+          custom_button: {
+            item: "minecraft:barrier"
           },
-          "clickEvent": {
-            "close_ui": true
+          clickEvent: {
+            close_ui: true
           }
         },
         {
           // correct button
-          "name": "{\"text\":\"Correct\"}",
-          "slot": 10,
-          "custom_button": {
-            "item": "minecraft:lime_concrete"
+          name: "{\"text\":\"Correct\"}",
+          slot: 10,
+          custom_button: {
+            item: "minecraft:lime_concrete"
           },
-          "clickEvent": {
-            "open_ui": {
-              "id": 2
+          clickEvent: {
+            open_ui: {
+              id: 2
             }
           }
         },
         {
           // wrong button
-          "name": "{\"text\":\"Wrong\"}",
-          "slot": 14,
-          "custom_button": {
-            "item": "minecraft:red_concrete"
+          name: "{\"text\":\"Wrong\"}",
+          slot: 14,
+          custom_button: {
+            item: "minecraft:red_concrete"
           },
-          "clickEvent": {
-            "open_ui": {
-              "id": 3
+          clickEvent: {
+            open_ui: {
+              id: 3
             }
           }
         }
       ],
-      "icon": {
+      icon: {
         // lime concrete in the middle.
-        "item": "minecraft:lime_concrete",
-        "slot": 0,
-        "nbt": "{display:{Name:'{\"text\":\"Home\"}'}}"
+        item: "minecraft:lime_concrete",
+        slot: 0,
+        nbt: "{display:{Name:'{\"text\":\"Home\"}'}}"
       },
-      "fill_empty": {
+      fill_empty: {
         // fills all empty slots with gray stained glass panes.
-        "item": "minecraft:gray_stained_glass_pane"
+        item: "minecraft:gray_stained_glass_pane"
       }
     },
-    "2": {
+    2: {
       // correct screen
-      "display": {
+      display: {
         // the title of the UI.
-        "title": "{\"text\":\"Correct\"}"
+        title: "{\"text\":\"Correct\"}"
       },
-      "buttons": [
+      buttons: [
         {
           // close ui button. (top right)
-          "name": "{\"text\":\"Close\"}",
-          "slot": 8,
-          "custom_button": {
-            "item": "minecraft:barrier"
+          name: "{\"text\":\"Close\"}",
+          slot: 8,
+          custom_button: {
+            item: "minecraft:barrier"
           },
-          "clickEvent": {
-            "close_ui": true
+          clickEvent: {
+            close_ui: true
           }
         },
         {
           // back button (top left)
-          "name": "{\"text\":\"Back\"}",
-          "slot": 0,
-          "custom_button": {
-            "item": "minecraft:arrow"
+          name: "{\"text\":\"Back\"}",
+          slot: 0,
+          custom_button: {
+            item: "minecraft:arrow"
           },
-          "clickEvent": {
-            "open_ui": {
-              "id": 1
+          clickEvent: {
+            open_ui: {
+              id: 1
             }
           }
         }
       ],
-      "icon": {
+      icon: {
         // lime concrete in the middle.
-        "item": "minecraft:lime_concrete",
-        "slot": 12,
-        "nbt": "{display:{Name:'{\"text\":\"Correct!\"}'}}"
+        item: "minecraft:lime_concrete",
+        slot: 12,
+        nbt: "{display:{Name:'{\"text\":\"Correct!\"}'}}"
       },
-      "fill_empty": {
+      fill_empty: {
         // fills all empty slots with lime stained glass panes.
-        "item": "minecraft:lime_stained_glass_pane"
+        item: "minecraft:lime_stained_glass_pane"
       }
     },
-    "3": {
+    3: {
       // Wrong screen
-      "display": {
+      display: {
         // the title of the UI.
-        "title": "{\"text\":\"Wrong\"}"
+        title: "{\"text\":\"Wrong\"}"
       },
-      "buttons": [
+      buttons: [
         {
           // close ui button. (top right)
-          "name": "{\"text\":\"Close\"}",
-          "slot": 8,
-          "custom_button": {
-            "item": "minecraft:barrier"
+          name: "{\"text\":\"Close\"}",
+          slot: 8,
+          custom_button: {
+            item: "minecraft:barrier"
           },
-          "clickEvent": {
-            "close_ui": true
+          clickEvent: {
+            close_ui: true
           }
         },
         {
           // back button (top left)
-          "name": "{\"text\":\"Back\"}",
-          "slot": 0,
-          "custom_button": {
-            "item": "minecraft:arrow"
+          name: "{\"text\":\"Back\"}",
+          slot: 0,
+          custom_button: {
+            item: "minecraft:arrow"
           },
-          "clickEvent": {
-            "open_ui": {
-              "id": 1
+          clickEvent: {
+            open_ui: {
+              id: 1
             }
           }
         }
       ],
-      "icon": {
+      icon: {
         // red concrete in the middle.
-        "item": "minecraft:red_concrete",
-        "slot": 12,
-        "nbt": "{display:{Name:'{\"text\":\"Wrong!\"}'}}"
+        item: "minecraft:red_concrete",
+        slot: 12,
+        nbt: "{display:{Name:'{\"text\":\"Wrong!\"}'}}"
       },
-      "fill_empty": {
+      fill_empty: {
         // fills all empty slots with red stained glass panes.
-        "item": "minecraft:red_stained_glass_pane"
+        item: "minecraft:red_stained_glass_pane"
       }
     }
   }
