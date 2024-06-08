@@ -1,15 +1,45 @@
 import { defineConfig } from "vitepress";
 import mcfunctionGrammar from "./theme/syntaxes/mcfunction.tmLanguage.json";
 import snbtGrammar from "./theme/syntaxes/snbt.tmLanguage.json";
+import langGrammar from "./theme/syntaxes/lang.tmLanguage.json";
+import molangGrammar from "./theme/syntaxes/molang.tmLanguage.json";
+import mcscriptGrammar from "./theme/syntaxes/mcscript.tmLanguage.json";
 
 // https://vitepress.dev/reference/site-config
+
 export default defineConfig({
   title: "Legopitstop Docs",
   description: "Documentation for all my projects",
-  head: [["link", { rel: "shortcut icon", href: "/favicon.ico" }]],
+  head: [
+    ["link", { rel: "shortcut icon", href: "/favicon.ico" }],
+    ["meta", { name: "theme-color", content: "#ff8800" }],
+    ["meta", { property: "og:type", content: "website" }],
+    ["meta", { property: "og:locale", content: "en" }],
+    ["meta", { property: "og:title", content: "Legopitstop Docs" }],
+    ["meta", { property: "og:site_name", content: "Legopitstop Docs" }],
+    ["meta", { property: "og:image", content: "/images/logo.png" }],
+    ["meta", { property: "og:url", content: "https://docs.lpsmods.dev/" }],
+  ],
+  transformPageData(pageData) {
+    pageData.titleTemplate = ":title | Legopitstop Docs";
+    if (pageData.frontmatter.redirect) {
+      var head = ['meta', {'http-equiv': "refresh", content: `0; url=${ pageData.frontmatter.redirect }`}]
+      if (!pageData.frontmatter.head) {pageData.frontmatter.head = [head]}
+      pageData.frontmatter.head.push(head);
+    }
+  },
   cleanUrls: true, // remove .html
   markdown: {
-    languages: [mcfunctionGrammar, snbtGrammar],
+    languages: [
+      mcfunctionGrammar,
+      snbtGrammar,
+      langGrammar,
+      molangGrammar,
+      mcscriptGrammar,
+    ],
+  },
+  sitemap: {
+    hostname: "https://docs.lpsmods.dev/",
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -62,6 +92,10 @@ export default defineConfig({
           items: [
             { text: "Index", link: "/" },
             {
+              text: "Functions",
+              link: "/functions",
+            },
+            {
               text: "Classes",
               items: [
                 { text: "BuildChange", link: "/BuildChange" },
@@ -83,10 +117,6 @@ export default defineConfig({
                 { text: "Statistics", link: "/Statistics" },
                 { text: "UsernameProfile", link: "/UsernameProfile" },
               ],
-            },
-            {
-              text: "Functions",
-              items: [],
             },
           ],
         },
@@ -186,15 +216,16 @@ export default defineConfig({
           items: [
             { text: "Index", link: "/" },
             { text: "Constants", link: "/constants" },
+            { text: "Functions", link: "/functions" },
             {
               text: "Classes",
               items: [
+                { text: "MulticraftAPI", link: "/MulticraftAPI" },
                 { text: "Backup", link: "/Backup" },
                 { text: "ChatMessage", link: "/ChatMessage" },
                 { text: "Command", link: "/Command" },
                 { text: "Database", link: "/DataBase" },
                 { text: "Hosts", link: "/hosts" },
-                { text: "MulticraftAPI", link: "/MulticraftAPI" },
                 { text: "Player", link: "/Player" },
                 { text: "Schedule", link: "/Schedule" },
                 {
@@ -234,6 +265,7 @@ export default defineConfig({
           items: [
             { text: "Index", link: "/" },
             { text: "Constants", link: "/constants" },
+            { text: "Functions", link: "/functions" },
             { text: "util", link: "/util" },
             {
               text: "Classes",
@@ -253,7 +285,10 @@ export default defineConfig({
               base: "/tkinterplus/widgets/",
               items: [
                 { text: "Accordion", link: "/Accordion" },
-                { text: "Audio", link: "/Audio" },
+                {
+                  text: 'Audio <Badge type="warning" text="Experimental" />',
+                  link: "/Audio",
+                },
                 {
                   text: "BaseWidgetPlus",
                   link: "/BaseWidgetPlus",
@@ -302,7 +337,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: "Format", link: "/Format" },
-                { text: "askenum", link: "/askenum" },
+                { text: "AskEnum", link: "/AskEnum" },
                 { text: "Config", link: "/Config" },
                 {
                   text: "DeveloperTools",
@@ -311,20 +346,39 @@ export default defineConfig({
                 { text: "Dialog", link: "/Dialog" },
                 { text: "Message", link: "/Message" },
                 { text: "Modal", link: "/Modal" },
+                { text: "Geometry", link: "/Geometry" },
                 { text: "modalbox", link: "/modalbox" },
                 {
                   text: "ModalDialog",
                   link: "/ModalDialog",
                 },
                 {
-                  text: "showprogress",
-                  link: "/showprogress",
+                  text: "ShowProgress",
+                  link: "/ShowProgress",
                 },
                 {
                   text: "SimpleModal",
                   link: "/SimpleModal",
                 },
                 { text: "TextEditor", link: "/TextEditor" },
+              ],
+            },
+            {
+              text: "Examples",
+              base: "/tkinterplus/examples/",
+              collapsed: true,
+              items: [
+                { text: "Accordian", link: "/accordian" },
+                { text: "Buttons", link: "/buttons" },
+                { text: "Code", link: "/code" },
+                { text: "Console", link: "/console" },
+                { text: "Developer Tools", link: "/developer_tools" },
+                { text: "Footer", link: "/footer" },
+                { text: "Form", link: "/form" },
+                { text: "Modal", link: "/modal" },
+                { text: "PictureBox", link: "/picturebox" },
+                { text: "ScrolledFrame", link: "/scrolledframe" },
+                { text: "SimpleDialog", link: "/simpledialog" },
               ],
             },
           ],
@@ -499,6 +553,7 @@ export default defineConfig({
                 },
               ],
             },
+            // { text: "Generator", link: "/generator" },
           ],
         },
       ],
@@ -506,7 +561,102 @@ export default defineConfig({
         {
           text: "Armor Stand Poses",
           base: "/poses/",
-          items: [{ text: "Index", link: "/" }],
+          items: [
+            { text: "Index", link: "/" },
+            { text: "Fabric", link: "/fabric" },
+            { text: "Datapack", link: "/datapack" },
+            // { text: "Generator", link: "/generator" },
+          ],
+        },
+      ],
+      "/spawner-craft/": [
+        {
+          text: "Spawner Craft",
+          base: "/spawner-craft/",
+          items: [
+            { text: "Index", link: "/" },
+            { text: "Hostile", link: "/hostile" },
+            { text: "Friendly", link: "/friendly" },
+            { text: "Underwater", link: "/underwater" },
+            { text: "Nether", link: "/nether" },
+            { text: "Misc", link: "/misc" },
+            { text: "Upcoming", link: "/upcoming" },
+          ],
+        },
+      ],
+      "/magnet/": [
+        {
+          text: "Simple Magnets",
+          base: "/magnet/",
+          items: [
+            { text: "Index", link: "/" },
+            { text: "Blocks", link: "/blocks" },
+            { text: "Items", link: "/items" },
+          ],
+        },
+      ],
+      "/breaker/": [
+        {
+          text: "Ultimate Block Breaker",
+          base: "/breaker/",
+          items: [
+            { text: "Index", link: "/" },
+            { text: "Blocks", link: "/blocks" },
+            { text: "Items", link: "/items" },
+          ],
+        },
+      ],
+      "/more-block/": [
+        {
+          text: "More Blocks",
+          base: "/more-block/",
+          items: [
+            { text: "Index", link: "/" },
+            { text: "Blocks", link: "/blocks" },
+          ],
+        },
+      ],
+      "/more-pumpkin/": [
+        {
+          text: "More Pumpkins",
+          base: "/more-pumpkin/",
+          items: [
+            { text: "Index", link: "/" },
+            { text: "Blocks", link: "/blocks" },
+          ],
+        },
+      ],
+      "/more-honey/": [
+        {
+          text: "More Honey",
+          base: "/more-honey/",
+          items: [
+            { text: "Index", link: "/" },
+            { text: "Blocks", link: "/blocks" },
+            { text: "Items", link: "/items" },
+          ],
+        },
+      ],
+      "/more-gold/": [
+        {
+          text: "More Gold",
+          base: "/more-gold/",
+          items: [
+            { text: "Index", link: "/" },
+            { text: "Blocks", link: "/blocks" },
+            { text: "Items", link: "/items" },
+          ],
+        },
+      ],
+      "/bandage/": [
+        {
+          text: "Bandage",
+          base: "/bandage/",
+          items: [
+            { text: "Index", link: "/" },
+            { text: "Items", link: "/items" },
+            { text: "Item Format", link: "/item-format" },
+          ],
         },
       ],
       // Misc
@@ -535,6 +685,38 @@ export default defineConfig({
               items: [
                 { text: "Example", link: "/example" },
                 { text: "Premium Example", link: "/premium-example" },
+              ],
+            },
+          ],
+        },
+      ],
+      "/lpsmods/": [
+        {
+          text: "lpsmods Docs",
+          base: "/lpsmods/",
+          items: [
+            { text: "Index", link: "/" },
+            {
+              text: "docs.lpsmods.dev",
+              base: "/lpsmods/docs/",
+              collapsed: false,
+              items: [
+                { text: "Frontmatter Config", link: "/frontmatter-config" },
+                { text: "Markdown Extensions", link: "/markdown" },
+                {
+                  text: "Components",
+                  base: "/lpsmods/docs/components/",
+                  items: [
+                    { text: "ShapedRecipe", link: "/ShapedRecipe" },
+                    { text: "ShapelessRecipe", link: "/ShapelessRecipe" },
+                    { text: "SmeltingRecipe", link: "/SmeltingRecipe" },
+                    { text: "BrewingRecipe", link: "/BrewingRecipe" },
+                    { text: "StonecutterRecipe", link: "/StonecutterRecipe" },
+                    { text: "SmithingRecipe", link: "/SmithingRecipe" },
+                    { text: "Inventory", link: "/Inventory" },
+                    { text: "InvSlot", link: "/InvSlot" },
+                  ],
+                },
               ],
             },
           ],
