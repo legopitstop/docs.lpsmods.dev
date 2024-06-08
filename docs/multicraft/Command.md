@@ -12,18 +12,18 @@ head:
 
 | name        | type | description |
 | ----------- | ---- | ----------- |
-| `id`        |      |             |
-| `name`      |      |             |
-| `server_id` |      |             |
-| `level`     |      |             |
-| `prereq`    |      |             |
-| `chat`      |      |             |
-| `response`  |      |             |
-| `run`       |      |             |
-| `hidden`    |      |             |
+| `id`        | int  |             |
+| `name`      | str  |             |
+| `server_id` | int  |             |
+| `level`     | int  |             |
+| `prereq`    | int  |             |
+| `chat`      | str  |             |
+| `response`  | str  |             |
+| `run`       | str  |             |
+| `hidden`    | bool |             |
 
 ## Methods
 
 - [from_json](#from_json)
-- [delete](#delete)
-- [run](#run)
+- [delete](./MulticraftAPI#delete-command)
+- [run](./MulticraftAPI#run-command)

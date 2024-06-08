@@ -10,13 +10,13 @@ head:
 
 ## Parameters
 
-| name      | type | description |
-| --------- | ---- | ----------- |
-| `status`  |      |             |
-| `ftp`     |      |             |
-| `message` |      |             |
-| `file`    |      |             |
-| `time`    |      |             |
+| name      | type              | description |
+| --------- | ----------------- | ----------- |
+| `status`  | BackupStatus      |             |
+| `ftp`     | str               |             |
+| `message` | str               |             |
+| `file`    | str               |             |
+| `time`    | datatime.datetime |             |
 
 ## Methods
 

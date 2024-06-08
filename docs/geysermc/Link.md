@@ -11,12 +11,12 @@ head:
 
 ## Parameters
 
-| Name             | Type    | Description |
-| ---------------- | ------- | ----------- |
-| `bedrock_id`       | int |             |
+| Name               | Type | Description |
+| ------------------ | ---- | ----------- |
+| `bedrock_id`       | int  |             |
 | `java_id`          | str  |             |
 | `java_name`        | str  |             |
-| `last_name_update` | int |             |
+| `last_name_update` | int  |             |
 
 ## Methods
 

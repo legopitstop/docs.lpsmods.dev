@@ -19,30 +19,30 @@ extends str
 
 ### from_ast
 
+Converts a Python abstract syntax tree to Molang
+
 #### Parameters
 
-| Name       | Type       | Description |
-| ---------- | ---------- | ----------- |
-| `ast_node` | ast.Module |             |
+| Name       | Type       | Description           |
+| ---------- | ---------- | --------------------- |
+| `ast_node` | ast.Module | The ast node to parse |
 
 ### append
 
+Add text to the end of the expression
+
 #### Parameters
 
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| `s`  | str  |             |
+| Name | Type | Description        |
+| ---- | ---- | ------------------ |
+| `s`  | str  | The text to append |
 
 ### prepend
 
+Add text to the start of the expression
+
 #### Parameters
 
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| `s`  | str  |             |
-
-## Example
-
-```py
-
-```
+| Name | Type | Description         |
+| ---- | ---- | ------------------- |
+| `s`  | str  | The text to prepend |

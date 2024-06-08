@@ -9,15 +9,17 @@ head:
 
 # AskEnum
 
+Construct a askenum widget with the parent MASTER.
+
 ## Parameters
 
-| Name      | Type | Description |
-| --------- | ---- | ----------- |
-| `master`  |      |             |
-| `title`   |      |             |
-| `prompt`  |      |             |
-| `default` |      |             |
-| `value`   |      |             |
+| Name      | Type       | Description |
+| --------- | ---------- | ----------- |
+| `master`  | tkinter.Tk |             |
+| `title`   | str        |             |
+| `prompt`  | str        |             |
+| `default` | str        |             |
+| `value`   | list       |             |
 
 ## Example
 

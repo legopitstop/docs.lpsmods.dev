@@ -5,7 +5,7 @@ description: This is a resource pack library that adds all the vanilla Minecraft
 head:
   - - meta
     - name: keywords
-      content: legopitstop
+      content: legopitstop,assetsplus,resourcepack
 ---
 
 # Item Textures

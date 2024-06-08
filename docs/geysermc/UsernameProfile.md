@@ -11,8 +11,8 @@ head:
 
 ## Parameters
 
-| Name | Type | Description |
-| ---- | ---- | ----------- |
+| Name   | Type | Description |
+| ------ | ---- | ----------- |
 | `id`   | str  |             |
 | `name` | str  |             |
 

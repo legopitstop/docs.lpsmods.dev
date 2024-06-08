@@ -11,18 +11,16 @@ head:
 
 ## Parameters
 
-| Name        | Type | Description |
-| ----------- | ---- | ----------- |
-| `anim`        |      |             |
-| `stepcommand` |      |             |
-| `callback`    |      |             |
+| Name          | Type     | Description |
+| ------------- | -------- | ----------- |
+| `anim`        |          |             |
+| `stepcommand` | Callable |             |
+| `callback`    | Callable |             |
 
 ## Methods
 
-- c
+- [c](#c)
 
-## Example
+### c
 
-```py
-
-```
+Run the callback

@@ -1,4 +1,16 @@
 {
+  "Doc": {
+    "scope": "md,markdown",
+    "prefix": "doc",
+    "body": [
+      "---",
+      "title: $0",
+      "---",
+      "",
+      "# $0",
+      ""
+    ]
+  },
   "Class": {
     "scope": "md,markdown",
     "prefix": "doc.class",
@@ -147,5 +159,108 @@
       "<Badge type=\"danger\" text=\"$0\" />"
     ]
   },
-  
+  "BrewingRecipe": {
+    "scope": "md,markdown",
+    "prefix": "recipe.brewing",
+    "body": [
+      "<BrewingRecipe",
+      "input=\"$1\"",
+      "output=\"$0\"/>",
+    ]
+  },
+  "ShapedRecipe": {
+    "scope": "md,markdown",
+    "prefix": "recipe.shaped",
+    "body": [
+      "<ShapedRecipe",
+      "a1=\"$1\" b1=\"$2\" c1=\"$3\"",
+      "a2=\"$4\" b2=\"$5\" c2=\"$6\"",
+      "a3=\"$7\" b3=\"$8\" c3=\"$9\"",
+      "output=\"$10\"",
+      ":count=\"${0:1}\"/>",
+    ]
+  },
+  "ShapelessRecipe": {
+    "scope": "md,markdown",
+    "prefix": "recipe.shapeless",
+    "body": [
+      "<ShapelessRecipe",
+      ":ingredients=\"[$1]\"",
+      "output=\"$2\"",
+      ":count=\"${0:1}\"/>",
+    ]
+  },
+  "SmeltingRecipe": {
+    "scope": "md,markdown",
+    "prefix": "recipe.smelting",
+    "body": [
+      "<SmeltingRecipe",
+      "input=\"$1\"",
+      "output=\"$2\"",
+      "fuel=\"${0:coal}\"/>",
+    ]
+  },
+  "SmithingRecipe": {
+    "scope": "md,markdown",
+    "prefix": "recipe.smithing",
+    "body": [
+      "<SmithingRecipe",
+      "template=\"$1\"",
+      "base=\"$2\"",
+      "addition=\"$3\"",
+      "output=\"$0\"/>",
+    ]
+  },
+  "StonecutterRecipe": {
+    "scope": "md,markdown",
+    "prefix": "recipe.stonecutter",
+    "body": [
+      "<StonecutterRecipe",
+      "input=\"$1\"",
+      "output=\"$2\"",
+      ":count=\"${0:1}\"/>",
+    ]
+  },
+  "InvSlot": {
+    "scope": "md,markdown",
+    "prefix": "invslot",
+    "body": [
+      "<InvSlot item=\"$1\" :count=\"${0:1}\"/>"
+    ]
+  },
+  "Function": {
+    "scope": "md,markdown",
+    "prefix": "doc.function",
+    "body": [
+      "## $1",
+      "",
+      "$2",
+      "",
+      "### Parameters",
+      "",
+      "| Name | Type | Description |",
+      "| ---- | ---- | ----------- |",
+      "| `$0`   |      |             |",
+      "",
+    ]
+  },
+  "Parameters": {
+    "scope": "md,markdown",
+    "prefix": "doc.parameters",
+    "body": [
+      "### Parameters",
+      "",
+      "| Name | Type | Description |",
+      "| ---- | ---- | ----------- |",
+      "| `$0`   |      |             |",
+      "",
+    ]
+  },
+  "ImportCodeSnippet": {
+    "scope": "md,markdown",
+    "prefix": "importCodeSnippet",
+    "body": [
+      "<<< @/filepath"
+    ]
+  },
 }

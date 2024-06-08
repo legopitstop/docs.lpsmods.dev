@@ -12,9 +12,9 @@ head:
 
 | name   | type | description |
 | ------ | ---- | ----------- |
-| `text` |      |             |
-| `name` |      |             |
-| `time` |      |             |
+| `text` |  str    |             |
+| `name` | str     |             |
+| `time` |  datetime.datetime    |             |
 
 ## Methods
 

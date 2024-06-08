@@ -11,8 +11,8 @@ head:
 
 ## Parameters
 
-| Name       | Type    | Description |
-| ---------- | ------- | ----------- |
+| Name         | Type | Description |
+| ------------ | ---- | ----------- |
 | `hash`       | str  |             |
 | `is_steve`   | bool |             |
 | `signature`  | str  |             |

@@ -9,6 +9,26 @@ head:
 
 # Functions
 
-- [accent](#accent)
-- [rgb2hex](#rgb2hex)
-- [hex2rgb](#hex2rgb)
+## accent
+
+The accent color is RGB
+
+## rgb2hex
+
+Converts RGB to HEX value
+
+### Parameters
+
+| Name  | Type  | Description                 |
+| ----- | ----- | --------------------------- |
+| `rgb` | tuple | The RGB color in tuple form |
+
+## hex2rgb
+
+Converts hex value to RGB
+
+### Parameters
+
+| Name  | Type | Description               |
+| ----- | ---- | ------------------------- |
+| `hex` | str  | The HEX color as a string |

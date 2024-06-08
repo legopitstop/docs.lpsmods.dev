@@ -12,8 +12,8 @@ head:
 
 | name      | type | description |
 | --------- | ---- | ----------- |
-| `display` |      |             |
-| `bytes`   |      |             |
+| `display` | str  |             |
+| `bytes`   | int  |             |
 
 ## Methods
 

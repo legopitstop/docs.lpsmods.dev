@@ -11,10 +11,10 @@ head:
 
 ## Parameters
 
-| Name      | Type   | Description |
-| --------- | ------ | ----------- |
-| `url`       | str |             |
-| `variables` | dict   |             |
+| Name        | Type | Description |
+| ----------- | ---- | ----------- |
+| `url`       | str  |             |
+| `variables` | dict |             |
 
 ## Methods
 

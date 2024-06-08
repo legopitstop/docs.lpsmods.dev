@@ -12,12 +12,12 @@ head:
 
 | name        | type | description |
 | ----------- | ---- | ----------- |
-| `version`   |      |             |
-| `file`      |      |             |
-| `size`      |      |             |
-| `md5`       |      |             |
-| `built`     |      |             |
-| `stability` |      |             |
+| `version`   | str  |             |
+| `file`      | str  |             |
+| `size`      | Size |             |
+| `md5`       | str  |             |
+| `built`     | int  |             |
+| `stability` | str  |             |
 
 ## Methods
 

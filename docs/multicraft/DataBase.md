@@ -12,13 +12,13 @@ head:
 
 | name       | type | description |
 | ---------- | ---- | ----------- |
-| `host`     |      |             |
-| `name`     |      |             |
-| `username` |      |             |
-| `password` |      |             |
-| `link`     |      |             |
+| `host`     | str  |             |
+| `name`     | str  |             |
+| `username` | str  |             |
+| `password` | str  |             |
+| `link`     | str  |             |
 
 ## Methods
 
 - [from_json](#from_json)
-- [delete](#delete)
+- [delete](./MulticraftAPI#delete-database)

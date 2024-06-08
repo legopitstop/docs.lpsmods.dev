@@ -10,12 +10,12 @@ head:
 
 ## Parameters
 
-| name             | type | description |
-| ---------------- | ---- | ----------- |
-| `status`         |      |             |
-| `online_players` |      |             |
-| `max_players`    |      |             |
-| `players`        |      |             |
+| name             | type         | description |
+| ---------------- | ------------ | ----------- |
+| `status`         | Status       |             |
+| `online_players` | int          |             |
+| `max_players`    | int          |             |
+| `players`        | list[Player] |             |
 
 ## Methods
 

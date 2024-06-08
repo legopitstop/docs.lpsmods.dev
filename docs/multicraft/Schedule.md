@@ -10,19 +10,19 @@ head:
 
 ## Parameters
 
-| name           | type | description |
-| -------------- | ---- | ----------- |
-| `id`           |      |             |
-| `name`         |      |             |
-| `server_id`    |      |             |
-| `scheduled_ts` |      |             |
-| `last_run_ts`  |      |             |
-| `interval`     |      |             |
-| `command`      |      |             |
-| `run_for`      |      |             |
-| `status`       |      |             |
-| `args`         |      |             |
-| `hidden`       |      |             |
+| name           | type              | description |
+| -------------- | ----------------- | ----------- |
+| `id`           | int               |             |
+| `name`         | str               |             |
+| `server_id`    | id                |             |
+| `scheduled_ts` | datetime.datetime |             |
+| `last_run_ts`  | datetime.datetime |             |
+| `interval`     | float             |             |
+| `command`      | int               |             |
+| `run_for`      | int               |             |
+| `status`       | int               |             |
+| `args`         | str               |             |
+| `hidden`       | bool              |             |
 
 ## Methods
 

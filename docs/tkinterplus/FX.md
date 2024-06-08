@@ -36,8 +36,14 @@ head:
 - [done](#done)
 - [run](#run)
 
-## Example
+### step
 
-```py
+Run the step command
 
-```
+### done
+
+When the animation is donecommand
+
+### run
+
+Run the fx

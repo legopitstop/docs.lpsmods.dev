@@ -1,5 +1,6 @@
 ---
 title: More NBT Tags
+description: Add new NBT Tags to make customization easier! 
 head:
   - - meta
     - name: keywords
@@ -7,3 +8,5 @@ head:
 ---
 
 # More NBT Tags
+
+Add new NBT Tags to make customization easier! 

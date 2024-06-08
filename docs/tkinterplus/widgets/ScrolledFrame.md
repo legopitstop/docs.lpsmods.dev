@@ -9,12 +9,14 @@ head:
 
 # ScrolledFrame
 
+Construct a scrolledframe widget with the parent MASTER.
+
 ## Parameters
 
-| Name        | Type | Description |
-| ----------- | ---- | ----------- |
-| `container` |      |             |
-| `bg_color`  |      |             |
+| Name        | Type       | Description |
+| ----------- | ---------- | ----------- |
+| `container` | tkinter.Tk |             |
+| `bg_color`  | str        |             |
 
 ## Methods
 
@@ -27,6 +29,71 @@ head:
 - [unbind_all](#unbind_all)
 - [bind](#bind)
 - [unbind](#unbind)
+
+### configure
+
+ScrolledText
+
+### pack_configure
+
+Pack a widget in the parent widget.
+
+### grid_configure
+
+osition a widget in the parent widget in a grid.
+
+### place_configure
+
+Place a widget in the parent widget.
+
+### destroy
+
+Destroy this and all descendants widgets.
+
+### bind_all
+
+Bind to all widgets at an event SEQUENCE a call to function FUNC.
+
+#### Parameters
+
+| Name       | Type     | Description |
+| ---------- | -------- | ----------- |
+| `sequence` | str      |             |
+| `func`     | Callable |             |
+| `add`      | bool     |             |
+
+### unbind_all
+
+Unbind for all widgets for event SEQUENCE all functions.
+
+#### Parameters
+
+| Name       | Type | Description |
+| ---------- | ---- | ----------- |
+| `sequence` | str  |             |
+
+### bind
+
+Bind to this widget at event SEQUENCE a call to function FUNC.
+
+#### Parameters
+
+| Name       | Type     | Description |
+| ---------- | -------- | ----------- |
+| `sequence` | str      |             |
+| `func`     | Callable |             |
+| `add`      | bool     |             |
+
+### unbind
+
+Unbind for this widget for event SEQUENCE the function identified with FUNCID.
+
+#### Parameters
+
+| Name       | Type | Description |
+| ---------- | ---- | ----------- |
+| `sequence` | str  |             |
+| `funcid`   | str  |             |
 
 ## Example
 

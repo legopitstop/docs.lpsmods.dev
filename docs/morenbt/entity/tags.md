@@ -1,5 +1,6 @@
 ---
 title: Entity Tags
+description: Add new NBT Tags to make customization easier! 
 head:
   - - meta
     - name: keywords

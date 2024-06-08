@@ -9,11 +9,9 @@ head:
 
 # Functions
 
-- [molang](#molang)
-- [run](#run)
-- [run_file](#run-file)
-
 ## molang
+
+Convert this function to Molang
 
 #### Parameters
 

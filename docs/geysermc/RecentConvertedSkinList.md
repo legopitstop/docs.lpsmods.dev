@@ -11,8 +11,8 @@ head:
 
 ## Parameters
 
-| Name        | Type                                | Description |
-| ----------- | ----------------------------------- | ----------- |
+| Name          | Type                                | Description |
+| ------------- | ----------------------------------- | ----------- |
 | `data`        | list[RecentConvertedSkinRefrance]() |             |
 | `total_pages` | integer                             |             |
 

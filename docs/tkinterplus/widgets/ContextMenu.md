@@ -9,12 +9,14 @@ head:
 
 # ContextMenu
 
+Make a right click context menu.
+
 ## Parameters
 
-| Name          | Type | Description |
-| ------------- | ---- | ----------- |
-| `master`      |      |             |
-| `showcommand` |      |             |
+| Name          | Type       | Description |
+| ------------- | ---------- | ----------- |
+| `master`      | tkinter.Tk |             |
+| `showcommand` | Callable   |             |
 
 ## Methods
 
@@ -22,6 +24,30 @@ head:
 - [disable](#disable)
 - [enable](#enable)
 - [add_command](#add_command)
+
+### configure
+
+Config the context menu
+
+### disable
+
+Unbind context menu so it will not show
+
+### enable
+
+Bind the context menu so it will show
+
+### add_command
+
+Add command menu item. add type for a built-in command ie. type=ContextMenuType.COPY
+
+## Parameters
+
+| Name      | Type | Description |
+| --------- | ---- | ----------- |
+| `label`   |      |             |
+| `command` |      |             |
+| `type`    |      |             |
 
 ## Example
 

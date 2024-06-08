@@ -11,12 +11,12 @@ head:
 
 ## Parameters
 
-| Name        | Type | Description |
-| ----------- | ---- | ----------- |
-| `master`    |      |             |
-| `variable`  |      |             |
-| `seperator` |      |             |
-| `command`   |      |             |
+| Name        | Type              | Description |
+| ----------- | ----------------- | ----------- |
+| `master`    | tkinter.Tk        |             |
+| `variable`  | tkinter.StringVar |             |
+| `seperator` | str               |             |
+| `command`   | Callable          |             |
 
 ## Methods
 
@@ -25,6 +25,28 @@ head:
 - [get](#get)
 - [set](#set)
 - [configure](#configure)
+
+### callback
+
+#### Parameters
+
+| Name | Type          | Description |
+| ---- | ------------- | ----------- |
+| `e`  | tkinter.Event |             |
+
+### listen
+
+### get
+
+### set
+
+#### Parameters
+
+| Name    | Type | Description |
+| ------- | ---- | ----------- |
+| `value` | str  |             |
+
+### configure
 
 ## Example
 

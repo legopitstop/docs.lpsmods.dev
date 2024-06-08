@@ -7,28 +7,30 @@ head:
       content: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
+<!-- TODO: Add type & desc from  https://github.com/legopitstop/tkinterplus/tree/main/tkinterplus/widgets -->
+
 # Accordian
 
 ## Parameters
 
-| Name                         | Type | Description |
-| ---------------------------- | ---- | ----------- |
-| `master`                     |      |             |
-| `text`                       |      |             |
-| `image`                      |      |             |
-| `textvariable`               |      |             |
-| `bg`                         |      |             |
-| `background_header`          |      |             |
-| `disabled_foreground_header` |      |             |
-| `active_background_header`   |      |             |
-| `active_foreground_header`   |      |             |
-| `foreground_header`          |      |             |
-| `show_icon`                  |      |             |
-| `hide_icon`                  |      |             |
-| `name`                       |      |             |
-| `variable`                   |      |             |
-| `state`                      |      |             |
-| `font`                       |      |             |
+| Name                         | Type              | Description |
+| ---------------------------- | ----------------- | ----------- |
+| `master`                     | tkinter.Tk        |             |
+| `text`                       | str               |             |
+| `image`                      | str               |             |
+| `textvariable`               | tkinter.StringVar |             |
+| `bg`                         | str               |             |
+| `background_header`          | str               |             |
+| `disabled_foreground_header` | str               |             |
+| `active_background_header`   | str               |             |
+| `active_foreground_header`   | str               |             |
+| `foreground_header`          | str               |             |
+| `show_icon`                  | str               |             |
+| `hide_icon`                  | str               |             |
+| `name`                       | str               |             |
+| `variable`                   | str               |             |
+| `state`                      | str               |             |
+| `font`                       | str               |             |
 
 ## Methods
 
@@ -39,6 +41,26 @@ head:
 - [grid_configure](#grid_configure)
 - [place_configure](#place_configure)
 - [pack_configure](#pack_configure)
+
+### configure
+
+### update
+
+updates the icons
+
+### show
+
+Expand the accordion
+
+### hide
+
+Shrink the accordion
+
+### grid_configure
+
+### place_configure
+
+### pack_configure
 
 ## Example
 

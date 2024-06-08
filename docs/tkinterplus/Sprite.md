@@ -11,15 +11,9 @@ head:
 
 ## Parameters
 
-| Name   | Type | Description |
-| ------ | ---- | ----------- |
-| `row`    |      |             |
-| `column` |      |             |
-| `name`   |      |             |
-| `fp`     |      |             |
-
-## Example
-
-```py
-
-```
+| Name     | Type | Description |
+| -------- | ---- | ----------- |
+| `row`    | int  |             |
+| `column` | int  |             |
+| `name`   | str  |             |
+| `fp`     | str  |             |

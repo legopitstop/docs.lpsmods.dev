@@ -9,23 +9,33 @@ head:
 
 # Picture
 
+Construct a picture widget with the parent MASTER.
+
 ## Parameters
 
-| Name           | Type | Description |
-| -------------- | ---- | ----------- |
-| `master`       |      |             |
-| `image`        |      |             |
-| `width`        |      |             |
-| `height`       |      |             |
-| `text`         |      |             |
-| `fg`           |      |             |
-| `bg`           |      |             |
-| `textvariable` |      |             |
+| Name           | Type              | Description |
+| -------------- | ----------------- | ----------- |
+| `master`       | tkinter.Tk        |             |
+| `image`        | PIL.Image         |             |
+| `width`        | int               |             |
+| `height`       | int               |             |
+| `text`         | str               |             |
+| `fg`           | str               |             |
+| `bg`           | str               |             |
+| `textvariable` | tkinter.StringVar |             |
 
 ## Methods
 
 - [update](#update)
 - [configure](#configure)
+
+### update
+
+Clear canvas to redraw
+
+### configure
+
+Modify the widget
 
 ## Example
 

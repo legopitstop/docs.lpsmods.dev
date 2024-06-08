@@ -59,7 +59,9 @@ execute as @e[type=marker, tag=rcore_crafting_table, limit=1] at @s run function
 
 Select the table.
 
-> `tag` selector cannot have `:` which is why we use the `nbt` selector instead.
+::: info
+`tag` selector cannot have `:` which is why we use the `nbt` selector instead.
+:::
 
 ```mcfunction
 execute as @e[type=marker, tag=rcore_crafting_table, nbt={Tags: ["TABLE_ID"]}] at @s run ...
@@ -91,7 +93,9 @@ function rcore:items/drop
 
 Select the item from [items](items) registry.
 
-> `tag` selector cannot have `:` which is why we use the `nbt` selector instead.
+::: info
+`tag` selector cannot have `:` which is why we use the `nbt` selector instead.
+:::
 
 ```mcfunction
 execute as @e[type=item, tag=rcore_item, nbt={Tags: ["ITEM_ID"]}] at @s run ...
@@ -142,7 +146,9 @@ scoreboard players get #Recipes rcore.util
 
 Select the result item.
 
-> `tag` selector cannot have `:` which is why we use the `nbt` selector instead.
+::: info
+`tag` selector cannot have `:` which is why we use the `nbt` selector instead.
+:::
 
 ```mcfunction
 execute as @e[type=item, tag=rcore_result, nbt={Tags: ["RECIPE_ID"]}] at @s run ...

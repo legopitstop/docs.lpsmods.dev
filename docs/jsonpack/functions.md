@@ -9,10 +9,9 @@ head:
 
 # Functions
 
-- [exit](#exit)
-- [getApp](#getapp)
-
 ## exit
+
+
 ### Parameters
 
 | Name       | Type | Description |
@@ -22,9 +21,3 @@ head:
 ## getApp
 
 Returns the root [App](/jsonpack/App)
-
-## Example
-
-```py
-
-```

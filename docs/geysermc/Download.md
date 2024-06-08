@@ -11,10 +11,10 @@ head:
 
 ## Parameters
 
-| Name   | Type   | Description |
-| ------ | ------ | ----------- |
-| `name`   | str |             |
-| `sha256` | str |             |
+| Name     | Type | Description |
+| -------- | ---- | ----------- |
+| `name`   | str  |             |
+| `sha256` | str  |             |
 
 ## Methods
 

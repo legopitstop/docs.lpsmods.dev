@@ -9,22 +9,51 @@ head:
 
 # ShowProgress
 
+Construct a showprogress widget with the parent MASTER.
+
 ## Parameters
 
-| Name              | Type | Description |
-| ----------------- | ---- | ----------- |
-| `master`          |      |             |
-| `title`           |      |             |
-| `label`           |      |             |
-| `value`           |      |             |
-| `max`             |      |             |
-| `completecommand` |      |             |
+| Name              | Type       | Description |
+| ----------------- | ---------- | ----------- |
+| `master`          | tkinter.Tk |             |
+| `title`           | str        |             |
+| `label`           | str        |             |
+| `value`           | float      |             |
+| `max`             | float      |             |
+| `completecommand` | Callable   |             |
 
 ## Methods
 
 - [config](#config)
 - [step](#step)
 - [get](#get)
+
+### config
+
+Update the progressbar
+
+#### Parameters
+
+| Name     | Type       | Description |
+| -------- | ---------- | ----------- |
+| `master` | tkinter.Tk |             |
+| `label`  | str        |             |
+| `value`  | float      |             |
+| `max`    | float      |             |
+
+### step
+
+Increments the value option by amount.
+
+#### Parameters
+
+| Name     | Type  | Description |
+| -------- | ----- | ----------- |
+| `amount` | float |             |
+
+### get
+
+Returns the currrent value
 
 ## Example
 

@@ -11,11 +11,11 @@ head:
 
 ## Parameters
 
-| Name    | Type   | Description |
-| ------- | ------ | ----------- |
-| `commit`  | str |             |
-| `summary` | str |             |
-| `message` | str |             |
+| Name      | Type | Description |
+| --------- | ---- | ----------- |
+| `commit`  | str  |             |
+| `summary` | str  |             |
+| `message` | str  |             |
 
 ## Methods
 

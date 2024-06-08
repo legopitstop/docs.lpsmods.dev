@@ -11,8 +11,8 @@ head:
 
 ## Parameters
 
-| Name             | Type | Description |
-| ---------------- | ---- | ----------- |
+| Name               | Type | Description |
+| ------------------ | ---- | ----------- |
 | `pre_upload_queue` | dict |             |
 | `upload_queue`     | dict |             |
 

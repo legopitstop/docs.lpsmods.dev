@@ -11,9 +11,9 @@ head:
 
 ## Parameters
 
-| Name     | Type | Description |
-| -------- | ---- | ----------- |
-| `master` |      |             |
+| Name     | Type       | Description |
+| -------- | ---------- | ----------- |
+| `master` | tkinter.Tk |             |
 
 ## Methods
 
@@ -22,6 +22,37 @@ head:
 - [set](#set)
 - [delete](#delete)
 - [get](#get)
+
+### exit
+
+### open
+
+Reads, then applies the text from the file to the textarea
+
+#### Parameters
+
+| Name   | Type | Description |
+| ------ | ---- | ----------- |
+| `fp`   | str  |             |
+| `mode` | str  |             |
+
+### set
+
+Set text in textarea
+
+#### Parameters
+
+| Name   | Type | Description |
+| ------ | ---- | ----------- |
+| `text` | str  |             |
+
+### delete
+
+Clears all text in textarea
+
+### get
+
+Get text inside textarea
 
 ## Example
 

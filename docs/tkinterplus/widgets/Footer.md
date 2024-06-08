@@ -9,12 +9,14 @@ head:
 
 # Footer
 
+Construct a footer widget with the parent MASTER.
+
 ## Parameters
 
-| Name     | Type | Description |
-| -------- | ---- | ----------- |
-| `master` |      |             |
-| `bg`     |      |             |
+| Name     | Type       | Description |
+| -------- | ---------- | ----------- |
+| `master` | tkinter.Tk |             |
+| `bg`     | str        |             |
 
 ## Methods
 
@@ -22,6 +24,38 @@ head:
 - [remove_button](#remove_button)
 - [configure_button](#configure_button)
 - [configure](#configure)
+
+### add_button
+
+Add a button to the footer
+
+## Parameters
+
+| Name   | Type | Description |
+| ------ | ---- | ----------- |
+| `text` | str  |             |
+
+### remove_button
+
+Delete a button from the footer
+
+## Parameters
+
+| Name    | Type | Description |
+| ------- | ---- | ----------- |
+| `index` | int  |             |
+
+### configure_button
+
+Update the buttons properties
+
+## Parameters
+
+| Name    | Type | Description |
+| ------- | ---- | ----------- |
+| `index` | int  |             |
+
+### configure
 
 ## Example
 

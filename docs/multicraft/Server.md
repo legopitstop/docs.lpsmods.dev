@@ -12,18 +12,18 @@ head:
 
 | name        | type | description |
 | ----------- | ---- | ----------- |
-| `id`        |      |             |
-| `name`      |      |             |
-| `daemon_id` |      |             |
-| `ip`        |      |             |
-| `port`      |      |             |
-| `players`   |      |             |
-| `memory`    |      |             |
+| `id`        | int  |             |
+| `name`      | str  |             |
+| `daemon_id` | int  |             |
+| `ip`        | str  |             |
+| `port`      | int  |             |
+| `players`   | int  |             |
+| `memory`    | int  |             |
 
 ## Methods
 
-- [start](#start)
-- [stop](#stop)
-- [restart](#restart)
-- [kill](#kill)
+- [start](./MulticraftAPI#start-server)
+- [stop](./MulticraftAPI#stop-server)
+- [restart](./MulticraftAPI#restart-server)
+- [kill](./MulticraftAPI#kill-server)
 - [from_json](#from_json)

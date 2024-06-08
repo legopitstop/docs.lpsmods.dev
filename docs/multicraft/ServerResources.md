@@ -10,11 +10,11 @@ head:
 
 ## Parameters
 
-| name     | type | description |
-| -------- | ---- | ----------- |
-| `cpu`    |      |             |
-| `memory` |      |             |
-| `quota`  |      |             |
+| name     | type  | description |
+| -------- | ----- | ----------- |
+| `cpu`    | float |             |
+| `memory` | float |             |
+| `quota`  | int   |             |
 
 ## Methods
 

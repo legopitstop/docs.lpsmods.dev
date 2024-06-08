@@ -11,10 +11,10 @@ head:
 
 ## Parameters
 
-| Name         | Type      | Description |
-| ------------ | --------- | ----------- |
-| `project_id`   | str    |             |
-| `project_name` | str    |             |
+| Name           | Type      | Description |
+| -------------- | --------- | ----------- |
+| `project_id`   | str       |             |
+| `project_name` | str       |             |
 | `versions`     | list[str] |             |
 
 ## Methods

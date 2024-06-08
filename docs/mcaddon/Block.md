@@ -9,6 +9,8 @@ head:
 
 # Block
 
+Represents a data-driven Block. [MS Docs](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/blockreference/examples/blockjsonfilestructure?view=minecraft-bedrock-stable)
+
 ## Parameters
 
 | Name            | Type                                                 | Description |
@@ -23,18 +25,13 @@ head:
 
 ## Methods
 
-- 
-
-### name
-
-#### Parameters
-
-| Name   | Type | Description |
-| ------ | ---- | ----------- |
-| `name` |      |             |
-
 ## Example
 
 ```py
+from mcaddon import *
 
+blk = Block('test:on_interact_change_state_block')
+blk.add_component(OnInteractComponent(event='test_event'))
+blk.add_event('test_event', SetBlockProperty({'custom:direction': "1"}))
+blk.save('block.json')
 ```

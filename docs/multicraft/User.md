@@ -12,15 +12,15 @@ head:
 
 | name           | type | description |
 | -------------- | ---- | ----------- |
-| `id`           |      |             |
-| `name`         |      |             |
-| `email`        |      |             |
-| `global_role`  |      |             |
-| `lang`         |      |             |
-| `theme`        |      |             |
-| `gauth_secret` |      |             |
-| `gauth_token`  |      |             |
-| `timezone`     |      |             |
+| `id`           | int  |             |
+| `name`         | str  |             |
+| `email`        | str  |             |
+| `global_role`  | str  |             |
+| `lang`         | str  |             |
+| `theme`        | str  |             |
+| `gauth_secret` | str  |             |
+| `gauth_token`  | str  |             |
+| `timezone`     | str  |             |
 
 ## Methods
 

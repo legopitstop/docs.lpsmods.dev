@@ -4,9 +4,11 @@ title: Python Docs
 
 # Python Docs
 
+- [GeyserMC](/geysermc/)
+- [TkinterPlus](/tkinterplus/)
+- [UserFolder](/userfolder/)
 - [accentcolordetect](/accentcolordetect/)
 - [datapackutils](/datapackutils/)
-- [GeyserMC](/geysermc/)
 - [jsonpack](/jsonpack/)
 - [mcaddon](/mcaddon/)
 - [mcextract](/mcextract/)
@@ -14,5 +16,3 @@ title: Python Docs
 - [molang](/molang/)
 - [multicraft](/multicraft/)
 - [serverjars](/serverjars-api/)
-- [TkinterPlus](/tkinterplus/)
-- [UserFolder](/userfolder/)

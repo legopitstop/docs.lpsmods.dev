@@ -8,5 +8,3 @@ head:
 ---
 
 # Functions
-
-undocumented

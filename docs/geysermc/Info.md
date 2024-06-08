@@ -11,10 +11,10 @@ head:
 
 ## Parameters
 
-| Name    | Type   | Description |
-| ------- | ------ | ----------- |
-| `title`   | str |             |
-| `version` | str |             |
+| Name      | Type | Description |
+| --------- | ---- | ----------- |
+| `title`   | str  |             |
+| `version` | str  |             |
 
 ## Methods
 

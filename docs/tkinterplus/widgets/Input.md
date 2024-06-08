@@ -9,12 +9,14 @@ head:
 
 # Input
 
+Construct an input widget with the parent MASTER.
+
 ## Parameters
 
-| Name     | Type | Description |
-| -------- | ---- | ----------- |
-| `master` |      |             |
-| `type`   |      |             |
+| Name     | Type       | Description |
+| -------- | ---------- | ----------- |
+| `master` | tkinter.Tk |             |
+| `type`   | str        |             |
 
 ## Example
 
