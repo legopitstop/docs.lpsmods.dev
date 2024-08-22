@@ -1,9 +1,7 @@
 ---
-title: Constants
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,java,api,minecraft,pypi,bedrock,servers,pythonpackage,serverjars
+title: Constants | serverjars
+description: Download and fetch details about Minecraft server jars.
+keywords: legopitstop,python,java,api,minecraft,pypi,bedrock,servers,pythonpackage,serverjars
 ---
 
 # Constants
@@ -12,33 +10,35 @@ head:
 
 | name         | value      |
 | ------------ | ---------- |
-| `NUKKITX`    | nukkitx    |
-| `POCKETMINE` | pocketmine |
+| `RELEASE`    | release    |
+| `SNAPSHOT`   | snapshot   |
+| `FABRIC`     | fabric     |
 | `MOHIST`     | mohist     |
+| `PAPER`      | paper      |
+
+<!-- | `NUKKITX`    | nukkitx    |
+| `POCKETMINE` | pocketmine |
 | `FORGE`      | forge      |
 | `CATSERVER`  | catserver  |
-| `FABRIC`     | fabric     |
 | `BUNGEECORD` | bungeecord |
 | `VELOCITY`   | velocity   |
 | `WATERFALL`  | waterfall  |
 | `FLAMECORD`  | flamecord  |
 | `BUKKIT`     | bukkit     |
-| `PAPER`      | paper      |
 | `SPIGOT`     | spigot     |
 | `PURPUR`     | purpur     |
 | `TUINITY`    | tuinity    |
-| `SPONGE`     | sponge     |
-| `SNAPSHOT`   | snapshot   |
-| `VANILLA`    | vanilla    |
+| `SPONGE`     | sponge     | -->
 
 ## type
 
 | name      | value   |
 | --------- | ------- |
-| `BEDROCK` | bedrock |
 | `MODDED`  | modded  |
+| `VANILLA`  | vanilla  |
+<!-- | `BEDROCK` | bedrock |
 | `PROXIES` | proxies |
-| `SERVERS` | servers |
+| `SERVERS` | servers | -->
 
 ## Stability
 
