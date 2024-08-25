@@ -1,10 +1,7 @@
 ---
-title: Creeper Loot
+title: Creeper Loot | Record API
 description: This wiki contains all the added custom nbt. Everything inside this wiki is free to use. If you have any ideas for custom NBT tags feel free to leave a feature suggestion.
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,resourcepack,record,music,sounds,api,customizable,creeper,nbt
+keywords: legopitstop,minecraft,datapack,resourcepack,record,music,sounds,api,customizable,creeper,nbt
 ---
 
 # Creeper Loot
@@ -15,7 +12,7 @@ Record API introduces a way to easily make your disc drop from a creeper that ha
 
 First you will need to create a MCFUNCTION file that will register all your item loot tables.
 
-```
+```txt
 <datapack>/data/<namespace>/functions/record/register_creeper_drops.mcfunction
 ```
 
@@ -23,7 +20,7 @@ First you will need to create a MCFUNCTION file that will register all your item
 
 The following will add the loot table "example:item/music_disc_5" to the registry.
 
-```
+```mcfunction
 data modify storage record:loot_tables creeper append value "example:item/music_disc_5"
 ```
 
@@ -31,8 +28,8 @@ data modify storage record:loot_tables creeper append value "example:item/music_
 
 Now you will need to add the MCFUNCTION file that you created above to the function tag located:
 
-```
-Now you will need to add the MCFUNCTION file that you created above to the function tag located:
+```txt
+<datapack>/data/recordapi/tags/functions/test.json
 ```
 
 Example

@@ -1,10 +1,7 @@
 ---
-title: Schema
+title: Schema | Update Checker
 description: Check to see if you have the latest version of a pack installed.
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,website,updatechecker,updater,customizable,free,premium,json
+keywords: legopitstop,minecraft,website,updatechecker,updater,customizable,free,premium,json
 ---
 
 # Schema

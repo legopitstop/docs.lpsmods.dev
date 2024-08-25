@@ -1,17 +1,14 @@
 ---
 title: BlockTag
-description: Add new NBT Tags to make customization easier! 
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,customizable,mod
+description: Add new NBT Tags to make customization easier!
+keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # BlockTag
 
 ## Parameters
 
-```
+```txt
 BlockTag - The root tag.
  ├ id: (string) The id of the custom block.
  ├ material: (string) The vanilla Minecraft block to use. Keep note of all the vanilla behaviors.

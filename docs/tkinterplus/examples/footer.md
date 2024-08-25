@@ -1,5 +1,5 @@
 ---
-title: Footer
+title: Footer | TkinterPlus
 ---
 
 # Footer

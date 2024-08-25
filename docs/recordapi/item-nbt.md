@@ -1,17 +1,14 @@
 ---
-title: Item NBT
+title: Item NBT | Record API
 description: This wiki contains all the added custom nbt. Everything inside this wiki is free to use. If you have any ideas for custom NBT tags feel free to leave a feature suggestion.
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,resourcepack,record,music,sounds,api,customizable,creeper,nbt
+keywords: legopitstop,minecraft,datapack,resourcepack,record,music,sounds,api,customizable,creeper,nbt
 ---
 
 # Item NBT
 
 ## Parameters
 
-```
+```txt
 id = The custom id for the item
 record - The root tag for all records
  ├ power_level (int) - The redstone power level when placed in a jukebox. *Currently does not work*
@@ -20,7 +17,7 @@ record - The root tag for all records
 
 ## Example
 
-```
+```snbt
 {
    id: "test:music_disc_5",
    record: {

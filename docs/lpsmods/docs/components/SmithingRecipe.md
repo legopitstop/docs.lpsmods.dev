@@ -1,5 +1,5 @@
 ---
-title: SmithingRecipe
+title: SmithingRecipe | docs.lpsmods.dev
 ---
 
 # SmithingRecipe

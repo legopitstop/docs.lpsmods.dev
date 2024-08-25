@@ -1,5 +1,5 @@
 ---
-title: ShapelessRecipe
+title: ShapelessRecipe | docs.lpsmods.dev
 ---
 
 # ShapelessRecipe

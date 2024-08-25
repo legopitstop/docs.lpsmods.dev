@@ -1,9 +1,7 @@
 ---
-title: ServerStatus
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
+title: ServerStatus | multicraft
+description: Interact with your Minecraft server from hosts that use Multicraft using Python
+keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---
 
 # ServerStatus
@@ -19,4 +17,6 @@ head:
 
 ## Methods
 
-- [from_json](#from-json)
+- [from_json](#from_json)
+
+### from_json

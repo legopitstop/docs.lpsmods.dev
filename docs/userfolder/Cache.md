@@ -1,17 +1,14 @@
 ---
-title: Cache
+title: Cache | UserFolder
 description: This is a simple library that allows you to read, write and create files within your own folder inside the user folder `C:/User/USER/.python/PACKAGE_ID`
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,pypi,folder,easy,filemanagment,pythonpackage,userfolder
+keywords: legopitstop,python,pypi,folder,easy,filemanagment,pythonpackage,userfolder
 ---
 
 # Cache
 
 Cache any file.
 
-## Parameters:
+## Parameters
 
 | Parameter   | Type                     | Value                                                                                                 |
 | ----------- | ------------------------ | ----------------------------------------------------------------------------------------------------- |
@@ -27,6 +24,18 @@ Cache any file.
 - [add_directory](#add_directory)
 - [remove_file](#remove_file)
 - [get_file](#get_file)
+
+### exists
+
+### key
+
+### add_file
+
+### add_directory
+
+### remove_file
+
+### get_file
 
 ## Example
 

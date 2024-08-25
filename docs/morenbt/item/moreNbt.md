@@ -1,10 +1,7 @@
 ---
 title: MoreNBT
-description: Add new NBT Tags to make customization easier! 
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,customizable,mod
+description: Add new NBT Tags to make customization easier!
+keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # MoreNBT
@@ -13,7 +10,7 @@ This tag is required for all items that use More NBT Tags Datapack. Get the late
 
 ## Parameters
 
-```
+```txt
 moreNBT - The root tag.
  └ nbt_format: (int) The format of the More NBT Datapack Tags.
 ```

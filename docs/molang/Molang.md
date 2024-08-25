@@ -1,10 +1,7 @@
 ---
-title: Molang
+title: Molang | molang
 description: Molang to Python Translator & interpreter written in pure Python.
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,language,minecraft,bedrock,molang
+keywords: legopitstop,language,minecraft,bedrock,molang
 ---
 
 # Molang

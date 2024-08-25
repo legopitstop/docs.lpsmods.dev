@@ -1,10 +1,7 @@
 ---
-title: Storage
+title: Storage | UserFolder
 description: This is a simple library that allows you to read, write and create files within your own folder inside the user folder `C:/User/USER/.python/PACKAGE_ID`
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,pypi,folder,easy,filemanagment,pythonpackage,userfolder
+keywords: legopitstop,python,pypi,folder,easy,filemanagment,pythonpackage,userfolder
 ---
 
 # Storage
@@ -25,17 +22,31 @@ print(version)
 
 ## Parameters
 
-| Name | Description                                               |
-| -------- | --------------------------------------------------- |
+| Name       | Description                                         |
+| ---------- | --------------------------------------------------- |
 | `user`     | The [User](/userfolder/User) class for the storage. |
 | `filename` | The name of the file to store all values.           |
 
 ## Methods
 
-- [getItem](#getItem)
-- [setItem](#setItem)
-- [removeItem](#removeItem)
+- [getItem](#getitem)
+- [setItem](#setitem)
+- [removeItem](#removeitem)
 - [clear](#clear)
 - [key](#key)
 - [exists](#exists)
 - [show](#show)
+
+### getItem
+
+### setItem
+
+### removeItem
+
+### clear
+
+### key
+
+### exists
+
+### show

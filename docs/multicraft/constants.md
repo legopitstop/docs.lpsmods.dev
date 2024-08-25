@@ -1,9 +1,7 @@
 ---
-title: Constants
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
+title: Constants | multicraft
+description: Interact with your Minecraft server from hosts that use Multicraft using Python
+keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---
 
 # Constants
@@ -41,6 +39,10 @@ head:
 
 - [from_int](#from_int)
 - [to_int](#to_int)
+
+#### from_int
+
+#### to_int
 
 ## Mode
 

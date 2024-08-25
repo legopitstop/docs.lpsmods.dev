@@ -1,5 +1,5 @@
 ---
-title: Modal
+title: Modal | TkinterPlus
 ---
 
 # Modal

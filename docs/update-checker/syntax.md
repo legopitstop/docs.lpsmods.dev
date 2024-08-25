@@ -1,10 +1,7 @@
 ---
-title: Syntax
+title: Syntax | Update Checker
 description: Check to see if you have the latest version of a pack installed.
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,website,updatechecker,updater,customizable,free,premium,json
+keywords: legopitstop,minecraft,website,updatechecker,updater,customizable,free,premium,json
 ---
 
 # Syntax
@@ -17,11 +14,11 @@ head:
 
 Additional Properties for premium users
 
-| Name                  | Type                                        | Description                                                                                                       |
-| --------------------- | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| `premium_badge`       | boolean                                     | The premium badge is a diamond on the top left corner that users can click to see how to make their link premium. |
-| `premium:description` | [premium_description](#premium-description) | The style description for the page.                                                                               |
-| `premium:style`       | [premium_style](#premium-style)             | The style properties for the page.                                                                                |
+| Name                  | Type                        | Description                                                                                                       |
+| --------------------- | --------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `premium_badge`       | boolean                     | The premium badge is a diamond on the top left corner that users can click to see how to make their link premium. |
+| `premium:description` | [description](#description) | The style description for the page.                                                                               |
+| `premium:style`       | [style](#style)             | The style properties for the page.                                                                                |
 
 ## Promos
 
@@ -35,7 +32,7 @@ Additional Properties for premium users
 | -------------- | ------ | ---------------------------------------------------- | ----------------------- |
 | `<modversion>` | string | The changelog for the modversion. Supports markdown! | `{"1.0.0":"changelog"}` |
 
-## premium:description
+## description
 
 | Name      | Type                          | Description                                                                   |
 | --------- | ----------------------------- | ----------------------------------------------------------------------------- |
@@ -45,11 +42,11 @@ Additional Properties for premium users
 
 ### theme
 
-| Name        | Type                                | Description                                                                                                            |
-| ----------- | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| `type`      | enum[url, preset, base64, animated] | The type to use. for type 'base64' you can use this converter: https://www.base64encoder.io/image-to-base64-converter/ |
-| `animation` | [animation](#animation)             | Create an animated background.                                                                                         |
-| `value`     | string                              | The value to use.                                                                                                      |
+| Name        | Type                                | Description                                                                                                              |
+| ----------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `type`      | enum[url, preset, base64, animated] | The type to use. for type 'base64' you can use this [converter](https://www.base64encoder.io/image-to-base64-converter/) |
+| `animation` | [animation](#animation)             | Create an animated background.                                                                                           |
+| `value`     | string                              | The value to use.                                                                                                        |
 
 #### animation
 
@@ -84,12 +81,12 @@ Additional Properties for premium users
 
 ### favicon
 
-| Name    | Type                                | Description                                                                                                            |
-| ------- | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| `type`  | enum[url, preset, base64, animated] | The type to use. for type 'base64' you can use this converter: https://www.base64encoder.io/image-to-base64-converter/ |
-| `value` | string                              | The value to use.                                                                                                      |
+| Name    | Type                                | Description                                                                                                              |
+| ------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `type`  | enum[url, preset, base64, animated] | The type to use. for type 'base64' you can use this [converter](https://www.base64encoder.io/image-to-base64-converter/) |
+| `value` | string                              | The value to use.                                                                                                        |
 
-## premium:style
+## style
 
 | Name               | Type                                | Default | Description                   |
 | ------------------ | ----------------------------------- | ------- | ----------------------------- |

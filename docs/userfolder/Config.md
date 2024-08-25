@@ -1,10 +1,7 @@
 ---
-title: Config
+title: Config | UserFolder
 description: This is a simple library that allows you to read, write and create files within your own folder inside the user folder `C:/User/USER/.python/PACKAGE_ID`
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,pypi,folder,easy,filemanagment,pythonpackage,userfolder
+keywords: legopitstop,python,pypi,folder,easy,filemanagment,pythonpackage,userfolder
 ---
 
 # Config
@@ -21,9 +18,17 @@ General config file for the program settings. Saves the file as `.cfg` in the us
 ## Methods
 
 - [section](#section)
-- [setItem](#setItem)
-- [getItem](#getItem)
-- [removeItem](#removeItem)
+- [setItem](#setitem)
+- [getItem](#getitem)
+- [removeItem](#removeitem)
+
+### section
+
+### setItem
+
+### getItem
+
+### removeItem
 
 ## Example
 

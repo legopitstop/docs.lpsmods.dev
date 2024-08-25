@@ -1,9 +1,7 @@
 ---
-title: Server
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
+title: Server | multicraft
+description: Interact with your Minecraft server from hosts that use Multicraft using Python
+keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---
 
 # Server
@@ -27,3 +25,5 @@ head:
 - [restart](./MulticraftAPI#restart-server)
 - [kill](./MulticraftAPI#kill-server)
 - [from_json](#from_json)
+
+### from_json

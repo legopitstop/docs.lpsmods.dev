@@ -1,10 +1,7 @@
 ---
 title: Custom Block
-description: Add new NBT Tags to make customization easier! 
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,customizable,mod
+description: Add new NBT Tags to make customization easier!
+keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # Custom Block
@@ -13,13 +10,13 @@ Will place a custom block that when you break it will drop its custom block item
 
 ## Give Function
 
-```
+```txt
 function more_nbt:example_items/custom_block
 ```
 
 ## Give Item Command
 
-```
+```txt
 give @p armor_stand{moreNBT:{nbt_format:"IgnoreFormatOverride"},BlockTag:{id:"more_nbt:custom_block",material:"minecraft:slime_block",components:{on_break:{show_text:{tellraw:{target:"this",raw_text:'{"text":"asd"}'}},decrement_stack:{ignore_game_mode:true}}},loot:{ignore_gamemode:true,type:"minecraft:this"}}}
 ```
 

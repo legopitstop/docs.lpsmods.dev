@@ -1,5 +1,5 @@
 ---
-title: SmeltingRecipe
+title: SmeltingRecipe | docs.lpsmods.dev
 ---
 
 # SmeltingRecipe

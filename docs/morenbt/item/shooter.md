@@ -1,10 +1,7 @@
 ---
 title: shooter
-description: Add new NBT Tags to make customization easier! 
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,customizable,mod
+description: Add new NBT Tags to make customization easier!
+keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # shooter
@@ -13,7 +10,7 @@ head:
 
 ## Parameters
 
-```
+```txt
 shooter - The root tag.
  ├ max_draw_duration (int) Draw Duration.
  ├ max_launch_power: (int) Launch power.

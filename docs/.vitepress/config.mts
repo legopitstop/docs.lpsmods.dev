@@ -1,35 +1,120 @@
-import { defineConfig } from "vitepress";
+import { HeadConfig, defineConfig } from "vitepress";
 import mcfunctionGrammar from "./theme/syntaxes/mcfunction.tmLanguage.json";
 import snbtGrammar from "./theme/syntaxes/snbt.tmLanguage.json";
 import langGrammar from "./theme/syntaxes/lang.tmLanguage.json";
 import molangGrammar from "./theme/syntaxes/molang.tmLanguage.json";
 import mcscriptGrammar from "./theme/syntaxes/mcscript.tmLanguage.json";
 
+// register
+// "SoftwareFileSize",
+// "SoftwareFile",
+// "SoftwareBuilder",
 // https://vitepress.dev/reference/site-config
-
 export default defineConfig({
   title: "Legopitstop Docs",
   description: "Documentation for all my projects",
   head: [
-    ["link", { rel: "shortcut icon", href: "/favicon.ico" }],
+    // Google Analytics
+    [
+      "script",
+      {
+        async: "",
+        src: "https://www.googletagmanager.com/gtag/js?id=GTM-NDP4W9JV",
+      },
+    ],
+    [
+      "script",
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'YOURID');`,
+    ],
+    // Google AdSense
+    [
+      "script",
+      {
+        "data-ad-client": "pub-9949841791324306",
+        async: "",
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+      },
+    ],
+
+    // SEO
     ["meta", { name: "theme-color", content: "#ff8800" }],
     ["meta", { property: "og:type", content: "website" }],
-    ["meta", { property: "og:locale", content: "en" }],
-    ["meta", { property: "og:title", content: "Legopitstop Docs" }],
-    ["meta", { property: "og:site_name", content: "Legopitstop Docs" }],
-    ["meta", { property: "og:image", content: "/images/logo.png" }],
     ["meta", { property: "og:url", content: "https://docs.lpsmods.dev/" }],
+    ["meta", { property: "og:locale", content: "en" }],
+    ["meta", { property: "og:image", content: "/images/logo.png" }],
+
+    ["meta", { property: "twitter:card", content: "summary_large_image" }],
+    ["meta", { property: "twitter:url", content: "https://docs.lpsmods.dev/" }],
+    ["meta", { property: "twitter:image", content: "/images/logo.png" }],
+
+    ["meta", { property: "fb:app_id", content: "458136053278758" }],
   ],
   transformPageData(pageData) {
-    pageData.titleTemplate = ":title | Legopitstop Docs";
+    pageData.titleTemplate = ":title";
     if (pageData.frontmatter.redirect) {
-      var head = ['meta', {'http-equiv': "refresh", content: `0; url=${ pageData.frontmatter.redirect }`}]
-      if (!pageData.frontmatter.head) {pageData.frontmatter.head = [head]}
+      var head = [
+        "meta",
+        {
+          "http-equiv": "refresh",
+          content: `0; url=${pageData.frontmatter.redirect}`,
+        },
+      ];
+      if (!pageData.frontmatter.head) {
+        pageData.frontmatter.head = [head];
+      }
       pageData.frontmatter.head.push(head);
     }
   },
+  transformHead: ({ pageData }) => {
+    const head: HeadConfig[] = [];
+    if (!pageData.frontmatter.logo) {
+      pageData.frontmatter.logo = "/favicon.ico";
+    }
+    // Primary
+    head.push([
+      "meta",
+      { property: "title", content: pageData.frontmatter.title },
+    ]);
+    head.push([
+      "meta",
+      { name: "keywords", content: pageData.frontmatter.keywords },
+    ]);
+    head.push(["link", { rel: "icon", href: pageData.frontmatter.favicon }]);
+    head.push([
+      "link",
+      { rel: "shortcut icon", href: pageData.frontmatter.favicon },
+    ]);
+    // Open Graph / Facebook
+    head.push([
+      "meta",
+      { property: "og:title", content: pageData.frontmatter.title },
+    ]);
+    head.push([
+      "meta",
+      { property: "og:description", content: pageData.frontmatter.description },
+    ]);
+    // Twitter
+    head.push([
+      "meta",
+      { property: "twitter:title", content: pageData.frontmatter.title },
+    ]);
+    head.push([
+      "meta",
+      {
+        property: "twitter:description",
+        content: pageData.frontmatter.description,
+      },
+    ]);
+    // Meta tags
+    return head;
+  },
   cleanUrls: true, // remove .html
   markdown: {
+    breaks: true,
     languages: [
       mcfunctionGrammar,
       snbtGrammar,
@@ -43,7 +128,8 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    // externalLinkIcon: true, disable in InvSlot.vue
+    // externalLinkIcon: true, disabled because of InvSlot.vue
+    lastUpdated: {},
     logo: "/images/logo.png",
     footer: {
       message: "Not associated with or approved by Mojang Studios or Microsoft",
@@ -56,6 +142,39 @@ export default defineConfig({
           { text: "Python", link: "/python-docs" },
           { text: "Minecraft", link: "/minecraft-docs" },
           { text: "Misc", link: "/misc-docs" },
+        ],
+      },
+      {
+        text: "Tutorials",
+        items: [
+          {
+            text: "How to Extract Minecraft Assets",
+            link: "/tutorials/how-to-extract-minecraft-assets",
+          },
+          {
+            text: "How to Find .minecraft Folder",
+            link: "/tutorials/how-to-find-minecraft-folder",
+          },
+          {
+            text: "How to Find Pack Validation",
+            link: "/tutorials/how-to-find-pack-validation",
+          },
+          {
+            text: "How to Install Add-Ons",
+            link: "/tutorials/how-to-install-addons",
+          },
+          {
+            text: "How to Install Data Packs",
+            link: "/tutorials/how-to-install-data-packs",
+          },
+          {
+            text: "How to Install Maps",
+            link: "/tutorials/how-to-install-maps",
+          },
+          {
+            text: "How to Install Resource Packs",
+            link: "/tutorials/how-to-install-texture-packs",
+          },
         ],
       },
     ],
@@ -172,6 +291,7 @@ export default defineConfig({
           base: "/mcextract/",
           items: [
             { text: "Index", link: "/" },
+            { text: "CLI", link: "/cli" },
             {
               text: "Classes",
               items: [{ text: "MCExtractAPI", link: "/MCExtractAPI" }],
@@ -240,10 +360,10 @@ export default defineConfig({
           ],
         },
       ],
-      "/serverjars-api/": [
+      "/serverjars/": [
         {
           text: "serverjars",
-          base: "/serverjars-api/",
+          base: "/serverjars/",
           items: [
             { text: "Index", link: "/" },
             { text: "Constants", link: "/constants" },
@@ -251,8 +371,21 @@ export default defineConfig({
             {
               text: "Classes",
               items: [
-                { text: "Jar", link: "/Jar" },
-                { text: "Size", link: "/Size" },
+                { text: "SoftwareBuilder", link: "/SoftwareBuilder" },
+                { text: "SoftwareFile", link: "/SoftwareFile" },
+                { text: "SoftwareFileSize", link: "/SoftwareFileSize" },
+              ],
+            },
+            {
+              text: "Examples",
+              collapsed: true,
+              items: [
+                { text: "fetch_types", link: "/example-fetch_types" },
+                { text: "fetch_all", link: "/example-fetch_all" },
+                { text: "fetch_all_types", link: "/example-fetch_all_types" },
+                { text: "fetch_details", link: "/example-fetch_details" },
+                { text: "fetch_jar", link: "/example-fetch_jar" },
+                { text: "fetch_latest", link: "/example-fetch_latest" },
               ],
             },
           ],
@@ -412,7 +545,7 @@ export default defineConfig({
       // Minecraft
       "/assetsplus/": [
         {
-          text: "assetsplus",
+          text: "Assets+",
           base: "/assetsplus/",
           items: [
             { text: "Index", link: "/" },
@@ -422,11 +555,37 @@ export default defineConfig({
           ],
         },
       ],
-      "/morefood/": [
+      "/dataplus/": [
         {
-          text: "morefood",
-          base: "/morefood/",
-          items: [{ text: "Index", link: "/" }],
+          text: "Data+",
+          base: "/dataplus/",
+          items: [
+            { text: "Index", link: "/" },
+            {
+              text: "Item",
+              base: "/dataplus/item",
+              items: [{ text: "LoreComponent", link: "/LoreComponent" }],
+            },
+            {
+              text: "Block",
+              base: "/dataplus/block",
+              items: [
+                { text: "ButtonComponent", link: "/ButtonComponent" },
+                { text: "HeightComponent", link: "/HeightComponent" },
+                { text: "LeverComponent", link: "/LeverComponent" },
+                { text: "LogComponent", link: "/LogComponent" },
+                { text: "SlabComponent", link: "/SlabComponent" },
+                { text: "StairsComponent", link: "/StairsComponent" },
+                { text: "Strippable", link: "/Strippable" },
+                { text: "ToggleStateComponent", link: "/ToggleStateComponent" },
+                { text: "TrapdoorComponent", link: "/TrapdoorComponent" },
+                {
+                  text: "VerticalSlabComponent",
+                  link: "/VerticalSlabComponent",
+                },
+              ],
+            },
+          ],
         },
       ],
       "/morenbt/": [
@@ -478,20 +637,20 @@ export default defineConfig({
               text: "Examples",
               collapsed: true,
               items: [
-                { text: "Cave Light", link: "/morenbt/example-cave-light" },
+                { text: "Cave Light", link: "/example-cave-light" },
                 {
                   text: "Carrot Thrower",
-                  link: "/morenbt/example-carrot-thrower",
+                  link: "/example-carrot-thrower",
                 },
-                { text: "Foods", link: "/morenbt/example-foods" },
-                { text: "New UI", link: "/morenbt/example-new-ui" },
+                { text: "Foods", link: "/example-foods" },
+                { text: "New UI", link: "/example-new-ui" },
                 {
                   text: "Pocket Ender Chest",
-                  link: "/morenbt/example-pocket-ender-chest",
+                  link: "/example-pocket-ender-chest",
                 },
                 {
                   text: "Sea Treasure Loot",
-                  link: "/morenbt/example-sea-treasure-loot",
+                  link: "/example-sea-treasure-loot",
                 },
               ],
             },
@@ -507,6 +666,7 @@ export default defineConfig({
             { text: "Creeper Loot", link: "/creeper-loot" },
             { text: "Custom Model Data", link: "/custom-model-data" },
             { text: "Item NBT", link: "/item-nbt" },
+            // { text: "Music Disc Studio", link: "/music-disc-studio" },
           ],
         },
       ],
@@ -522,10 +682,10 @@ export default defineConfig({
           ],
         },
       ],
-      "/rcore-api/": [
+      "/rcore/": [
         {
           text: "LPS Rcore API",
-          base: "/rcore-api/",
+          base: "/rcore/",
           items: [
             { text: "Index", link: "/" },
             {
@@ -563,8 +723,9 @@ export default defineConfig({
           base: "/poses/",
           items: [
             { text: "Index", link: "/" },
-            { text: "Fabric", link: "/fabric" },
-            { text: "Datapack", link: "/datapack" },
+            { text: "Data-Driven", link: "/data-driven" },
+            { text: "Pose Format", link: "/pose-format" },
+            { text: "Built-in Poses", link: "/builtin-poses" },
             // { text: "Generator", link: "/generator" },
           ],
         },
@@ -580,7 +741,6 @@ export default defineConfig({
             { text: "Underwater", link: "/underwater" },
             { text: "Nether", link: "/nether" },
             { text: "Misc", link: "/misc" },
-            { text: "Upcoming", link: "/upcoming" },
           ],
         },
       ],
@@ -606,45 +766,76 @@ export default defineConfig({
           ],
         },
       ],
-      "/more-block/": [
+      "/moreblocks/": [
         {
           text: "More Blocks",
-          base: "/more-block/",
+          base: "/moreblocks/",
           items: [
             { text: "Index", link: "/" },
             { text: "Blocks", link: "/blocks" },
           ],
         },
       ],
-      "/more-pumpkin/": [
+      "/morepumpkin/": [
         {
           text: "More Pumpkins",
-          base: "/more-pumpkin/",
+          base: "/morepumpkin/",
           items: [
             { text: "Index", link: "/" },
             { text: "Blocks", link: "/blocks" },
           ],
         },
       ],
-      "/more-honey/": [
+      "/morehoney/": [
         {
           text: "More Honey",
-          base: "/more-honey/",
+          base: "/morehoney/",
           items: [
             { text: "Index", link: "/" },
-            { text: "Blocks", link: "/blocks" },
-            { text: "Items", link: "/items" },
+            { text: "Blocks", link: "/Blocks" },
+            { text: "Items", link: "/Items" },
           ],
         },
       ],
-      "/more-gold/": [
+      "/moregold/": [
         {
           text: "More Gold",
-          base: "/more-gold/",
+          base: "/moregold/",
           items: [
             { text: "Index", link: "/" },
-            { text: "Blocks", link: "/blocks" },
-            { text: "Items", link: "/items" },
+            { text: "Items", link: "/Items" },
+          ],
+        },
+      ],
+      "/morefood/": [
+        {
+          text: "Lot's More Food",
+          base: "/morefood/",
+          items: [
+            { text: "Index", link: "/" },
+            // { text: "Blocks", link: "/Blocks" },
+            // { text: "Items", link: "/Items" },
+            // { text: "Foods", link: "/Foods" },
+            // { text: "Drinks", link: "/Drinks" },
+            {
+              text: "Components",
+              base: "/morefood/component/",
+              collapsed: true,
+              items: [
+                { text: "MintyComponent", link: "/MintyComponent" },
+                { text: "MREComponent", link: "/MREComponent" },
+                { text: "PourableComponent", link: "/PourableComponent" },
+                { text: "BushComponent", link: "/BushComponent" },
+                { text: "CakeComponent", link: "/CakeComponent" },
+                { text: "CandleCakeComponent", link: "/CandleCakeComponent" },
+                { text: "CauldronComponent", link: "/CauldronComponent" },
+                { text: "CropComponent", link: "/CropComponent" },
+                { text: "HangingComponent", link: "/HangingComponent" },
+                { text: "SaplingComponent", link: "/SaplingComponent" },
+                { text: "SpileComponent", link: "/SpileComponent" },
+                { text: "TallCropComponent", link: "/TallCropComponent" },
+              ],
+            },
           ],
         },
       ],
@@ -729,6 +920,7 @@ export default defineConfig({
             { text: "Python", link: "/python-docs" },
             { text: "Minecraft", link: "/minecraft-docs" },
             { text: "Misc", link: "/misc-docs" },
+            { text: "Tutorials", link: "/tutorials" },
           ],
         },
       ],

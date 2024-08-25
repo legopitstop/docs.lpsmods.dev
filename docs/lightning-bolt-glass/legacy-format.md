@@ -1,5 +1,5 @@
 ---
-title: Legacy Format
+title: Legacy Format | Lightning Bolt Glass
 ---
 
 # Legacy Format
@@ -13,7 +13,7 @@ This page describes the old version of fulgurites **v1.0.0**! For newer format *
 | Name       | Type                                          | Description                                       |
 | ---------- | --------------------------------------------- | ------------------------------------------------- |
 | `source`   | String or [Block Predicate](#block-predicate) | The block to test for.                            |
-| `result`   | String or [Block](#block) | The block to place                                |
+| `result`   | String or [Block](#block)                     | The block to place                                |
 | `function` | String                                        | ID of the function to call. **(Not Implemented)** |
 
 ## Block Predicate

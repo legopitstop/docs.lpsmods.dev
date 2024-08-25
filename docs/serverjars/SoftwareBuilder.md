@@ -15,13 +15,13 @@ keywords: legopitstop,python,java,api,minecraft,pypi,bedrock,servers,pythonpacka
 
 ## Methods
 
-- [available_versions](#available-versions)
-- [get_version](#get-version)
-- [get_meta](#get-meta)
-- [get_hash](#get-hash)
-- [get_download](#get-download)
-- [get_built](#get-built)
-- [get_stability](#get-stability)
+- [available_versions](#available_versions)
+- [get_version](#get_version)
+- [get_meta](#get_meta)
+- [get_hash](#get_hash)
+- [get_download](#get_download)
+- [get_built](#get_built)
+- [get_stability](#get_stability)
 - [build](#build)
 
 ### available_versions

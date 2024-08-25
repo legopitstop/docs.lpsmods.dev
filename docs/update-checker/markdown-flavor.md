@@ -1,17 +1,14 @@
 ---
-title: Markdown Flavor
+title: Markdown Flavor | Update Checker
 description: Check to see if you have the latest version of a pack installed.
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,website,updatechecker,updater,customizable,free,premium,json
+keywords: legopitstop,minecraft,website,updatechecker,updater,customizable,free,premium,json
 ---
 
 # Markdown Flavor
 
 Changelogs inside the JSON support [Markdown](https://www.markdownguide.org/). Powdered by [markedjs/marked](https://github.com/markedjs/marked). Since JSONS don't support line breaks you can instead add `\n` to define a line break or to enter down a line. This will come in handy because markdown needs it for formatting.
 
-### Update Checker Markdown Support
+## Update Checker Markdown Support
 
 | Element                                                                                                 | Support | Notes                                                                                                                             |
 | ------------------------------------------------------------------------------------------------------- | :-----: | --------------------------------------------------------------------------------------------------------------------------------- |
@@ -31,7 +28,7 @@ Changelogs inside the JSON support [Markdown](https://www.markdownguide.org/). P
 | [Fenced Codeblocks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)                  |   Yes   |                                                                                                                                   |
 | [Syntax Highlighting](https://www.markdownguide.org/extended-syntax/#syntax-highlighting)               |   No    |                                                                                                                                   |
 | [Footnotes](https://www.markdownguide.org/extended-syntax/#footnotes)                                   |   No    |                                                                                                                                   |
-| [Heading ID's ](https://www.markdownguide.org/extended-syntax/#heading-ids)                             |   No    |
+| [Heading ID's](https://www.markdownguide.org/extended-syntax/#heading-ids)                              |   No    |                                                                                                                                   |
 | [Definition Lists](https://www.markdownguide.org/extended-syntax/#definition-lists)                     |   No    |                                                                                                                                   |
 | [Strikethrough](https://www.markdownguide.org/extended-syntax/#strikethrough)                           |   Yes   | Two tildes (`~~word~~`) only.                                                                                                     |
 | [Task Lists](https://www.markdownguide.org/extended-syntax/#task-lists)                                 |   Yes   |                                                                                                                                   |

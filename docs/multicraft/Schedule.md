@@ -1,9 +1,7 @@
 ---
-title: Schedule
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
+title: Schedule | multicraft
+description: Interact with your Minecraft server from hosts that use Multicraft using Python
+keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---
 
 # Schedule
@@ -26,4 +24,6 @@ head:
 
 ## Methods
 
-- [from_json](#from-json)
+- [from_json](#from_json)
+
+### from_json

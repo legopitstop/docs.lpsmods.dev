@@ -1,5 +1,7 @@
 ---
 title: Test
+prev: false
+next: false
 recipeItems:
   - id: wiki:custom
     name: Custom
@@ -23,10 +25,65 @@ This page is for testing custom components.
 
 ## Recipe
 
+### Inventory
+
 <Inventory
 title="Items"
 :rows="1"
 :items="['music_disc_precipice', 'music_disc_creator', 'music_disc_creator_music_box']"/>
 
+### ShapedRecipe
+
 <ShapedRecipe
-output="stone" />
+a1="paper" b1="paper" c1="paper"
+a2="paper" b2="paper" c2="paper"
+a3="paper" b3="paper" c3="paper"
+output="paper"
+:count="1"/>
+
+### ShapelessRecipe
+
+<ShapelessRecipe
+:ingredients="['paper']"
+output="paper"
+:count="1"/>
+
+### SmeltingRecipe
+
+<SmeltingRecipe
+input="paper"
+output="paper"
+fuel="coal"/>
+
+### SmithingRecipe
+
+<SmithingRecipe
+template="paper"
+base="paper"
+addition="paper"
+output=""/>
+
+### StonecutterRecipe
+
+<StonecutterRecipe
+input="paper"
+output="paper"
+:count="1"/>
+
+## Custom Element Styling
+
+<label for="select">Select</label>
+
+<select id="select" name="select">
+  <option>Item 1</option>
+  <option>Item 2</option>
+  <option>Item 3</option>
+</select>
+
+<label for="input">Input</label>
+
+<input id="input" name="input" type="text">
+
+---
+
+<ModelRenderer geometry="/models/armor_stand.geo.json" identifier="geometry.armor_stand" texture="/textures/armor_stand.png" rotate/>

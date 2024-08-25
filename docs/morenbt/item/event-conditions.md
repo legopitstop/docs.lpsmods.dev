@@ -1,10 +1,7 @@
 ---
 title: Event Conditions
-description: Add new NBT Tags to make customization easier! 
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,customizable,mod
+description: Add new NBT Tags to make customization easier!
+keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # Event Conditions
@@ -13,7 +10,7 @@ Used to make an event run only when the condition is true. Makes your code a lit
 
 ## Parameters
 
-```
+```txt
 conditions - (obj list) The root tag.
  ├ condition: (string) The condition's ID.
  └ Other parts of the condition, specified below.

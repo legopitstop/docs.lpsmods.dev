@@ -1,5 +1,5 @@
 ---
-title: ShapedRecipe
+title: ShapedRecipe | docs.lpsmods.dev
 ---
 
 # ShapedRecipe

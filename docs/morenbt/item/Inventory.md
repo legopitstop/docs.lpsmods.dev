@@ -1,10 +1,7 @@
 ---
 title: Inventory
-description: Add new NBT Tags to make customization easier! 
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,customizable,mod
+description: Add new NBT Tags to make customization easier!
+keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # Inventory
@@ -13,7 +10,7 @@ Inventory to store items and save them.
 
 ## Parameters
 
-```
+```txt
 Inventory - The root tag.
  ├ can_be_siphoned_from: (bool) Can hoppers suck items out of this inventory.
  ├ inventory_size: (int) 	(Not Functional) How many slots the inventory will have. default: 26

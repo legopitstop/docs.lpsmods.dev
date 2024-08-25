@@ -1,9 +1,7 @@
 ---
-title: MulticraftAPI
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
+title: MulticraftAPI | multicraft
+description: Interact with your Minecraft server from hosts that use Multicraft using Python
+keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---
 
 # MulticraftAPI

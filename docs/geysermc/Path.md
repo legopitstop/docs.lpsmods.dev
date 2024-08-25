@@ -1,10 +1,7 @@
 ---
-title: Path
+title: Path | GeyserMC
 description: The unofficial Python wrapper for geysermc.org
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,minecraft,pypi,geysermc,pythonpackage
+keywords: legopitstop,python,minecraft,pypi,geysermc,pythonpackage
 ---
 
 # Path
@@ -17,10 +14,6 @@ head:
 
 ## Methods
 
-- [from_json](#from-json)
+- [from_json](#from_json)
 
-## Example
-
-```py
-
-```
+### from_json

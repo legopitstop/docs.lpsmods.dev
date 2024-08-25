@@ -1,10 +1,7 @@
 ---
 title: throwable
 description: Add new NBT Tags to make customization easier! 
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,customizable,mod
+keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # throwable
@@ -13,7 +10,7 @@ Throwable item componet. Throwable items, such as a snowball. Right now it is a 
 
 ## Parameters
 
-```
+```txt
 throwable - The root tag.
  └ ammunition: (obj)
    ├ entity: (string) The item/entity to throw.

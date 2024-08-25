@@ -1,5 +1,5 @@
 ---
-title: BrewingRecipe
+title: BrewingRecipe | docs.lpsmods.dev
 ---
 
 # BrewingRecipe

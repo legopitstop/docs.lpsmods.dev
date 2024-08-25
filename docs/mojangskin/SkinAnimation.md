@@ -1,9 +1,6 @@
 ---
-title: SkinAnimation
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,minecraft,skin,images,pypi,pillow,mojang,pythonpackage
+title: SkinAnimation | mojangskin
+keywords: legopitstop,python,minecraft,skin,images,pypi,pillow,mojang,pythonpackage
 ---
 
 # SkinAnimation

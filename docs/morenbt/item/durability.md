@@ -1,10 +1,7 @@
 ---
 title: durablity
-description: Add new NBT Tags to make customization easier! 
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,customizable,mod
+description: Add new NBT Tags to make customization easier!
+keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # durablity
@@ -13,7 +10,7 @@ Custom durability for this item. Note that 'display' and 'custom_display' are a 
 
 ## Parameters
 
-```
+```txt
 durability - The root tag.
  ├ max_durability: (int) The max amount of damage the item has.
  ├ display: How to display the damage, leave blank to not show. Valid Strings: "actionbarText", "actionbarBar", "actionbarPercent","title"

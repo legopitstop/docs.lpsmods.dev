@@ -1,10 +1,7 @@
 ---
 title: food
-description: Add new NBT Tags to make customization easier! 
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,customizable,mod
+description: Add new NBT Tags to make customization easier!
+keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # food
@@ -13,7 +10,7 @@ Tags that are only for food items.
 
 ## Parameters
 
-```
+```txt
 food - The root tag.
  ├ on_consume: (obj) Event Trigger
  └ using_converts_to: (obj) Will give the item when it is consumed.

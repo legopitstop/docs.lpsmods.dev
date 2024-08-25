@@ -1,10 +1,7 @@
 ---
-title: Accordian
+title: Accordian | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
+keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
 <!-- TODO: Add type & desc from  https://github.com/legopitstop/tkinterplus/tree/main/tkinterplus/widgets -->

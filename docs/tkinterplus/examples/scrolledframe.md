@@ -1,5 +1,5 @@
 ---
-title: ScrolledFrame
+title: ScrolledFrame | TkinterPlus
 ---
 
 # ScrolledFrame

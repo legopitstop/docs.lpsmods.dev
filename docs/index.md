@@ -1,10 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,documentation,docs,python,minecraft,misc,projects
+keywords: legopitstop,documentation,docs,python,minecraft,misc,projects
 
 hero:
   name: "Legopitstop"
@@ -19,4 +16,7 @@ hero:
     - theme: alt
       text: Misc
       link: /misc-docs
+    - theme: alt
+      text: Tutorials
+      link: /tutorials
 ---

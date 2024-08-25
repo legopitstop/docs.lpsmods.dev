@@ -1,7 +1,7 @@
 <!-- WARN: Not ready for production!! -->
 
 <template>
-  <div>
+  <div class="rcore-generator">
     <span class="mcui mcui-Crafting_Table pixel-image">
       <span class="mcui-input">
         <span class="mcui-row">
@@ -26,7 +26,9 @@
       </span>
     </span>
     <br />
-    <pre class="language-mcfunction vp-adaptive-theme">{}</pre>
+    <pre class="language-mcfunction vp-adaptive-theme">
+      <code id="rcore-output">{}</code>
+    </pre>
   </div>
 </template>
 
@@ -37,6 +39,13 @@ export default {
 </script>
 
 <style scoped>
+.rcore-generator {
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  padding: 1px 10px;
+  margin: 10px 0;
+}
+
 pre {
   background-color: var(--vp-c-bg-alt);
 }

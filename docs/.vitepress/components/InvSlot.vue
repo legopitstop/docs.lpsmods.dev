@@ -17,6 +17,7 @@
         <img
           :alt="item.name"
           :src="item.texture"
+          class="nozoom"
           decoding="async"
           loading="lazy"
           width="32"

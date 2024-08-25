@@ -1,5 +1,5 @@
 ---
-title: InvSlot
+title: InvSlot | docs.lpsmods.dev
 ---
 
 # InvSlot

@@ -1,10 +1,7 @@
 ---
 title: new_ui
-description: Add new NBT Tags to make customization easier! 
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,customizable,mod
+description: Add new NBT Tags to make customization easier!
+keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # new_ui
@@ -13,7 +10,7 @@ These tags are used directly inside the item's tag. when you have the item in yo
 
 ## Parameters
 
-```
+```txt
 new_ui - The root tag.
  ├ display: The name for the button that shows up in-game.
  | └ title: (RAW JSON) The title of the UI located at the top. the default will use chest translation.

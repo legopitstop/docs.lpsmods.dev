@@ -1,5 +1,5 @@
 ---
-title: Markdown Extensions
+title: Markdown Extensions | docs.lpsmods.dev
 ---
 
 # Markdown Extensions

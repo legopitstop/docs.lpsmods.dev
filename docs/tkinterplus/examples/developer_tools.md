@@ -1,5 +1,5 @@
 ---
-title: DeveloperTools
+title: DeveloperTools | TkinterPlus
 ---
 
 # DeveloperTools

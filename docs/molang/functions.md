@@ -1,10 +1,7 @@
 ---
-title: Functions
+title: Functions | molang
 description: Molang to Python Translator & interpreter written in pure Python.
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,language,minecraft,bedrock,molang
+keywords: legopitstop,language,minecraft,bedrock,molang
 ---
 
 # Functions
@@ -13,7 +10,7 @@ head:
 
 Convert this function to Molang
 
-#### Parameters
+### Parameters
 
 | Name   | Type     | Description |
 | ------ | -------- | ----------- |
@@ -21,7 +18,7 @@ Convert this function to Molang
 
 ## run
 
-#### Parameters
+### Parameters
 
 | Name   | Type | Description |
 | ------ | ---- | ----------- |
@@ -30,7 +27,7 @@ Convert this function to Molang
 
 ## run_file
 
-#### Parameters
+### Parameters
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |

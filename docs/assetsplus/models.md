@@ -1,11 +1,8 @@
 ---
-title: Models
+title: Models | Assets+
 aside: false
 description: This is a resource pack library that adds all the vanilla Minecraft block ids use better IDs.
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,assetsplus,resourcepack
+keywords: legopitstop,assetsplus,resourcepack
 ---
 
 # Models
@@ -14,10 +11,11 @@ This page describes all the texture additions in the resource pack. Use the belo
 
 ```json
 {
-  "minecraft:geometry": "geometry.template_cake_with_candle", // The model refrance
+  // The model refrance
+  "minecraft:geometry": "geometry.template_cake_with_candle",
 
+  // Textures to display
   "minecraft:material_instances": {
-    // Textures to display
     "*": { "texture": "minecraft:cake_bottom" }, // `*` is needed for the block particle
     "side": { "texture": "minecraft:cake_side" },
     "top": { "texture": "minecraft:cake_top" },

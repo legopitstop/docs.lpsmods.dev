@@ -1,9 +1,6 @@
 ---
-title: MCExtractAPI
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,java,minecraft,data,assets,pypi,jar,reports,pythonpackage,customtkinter,serverjars,userfolder
+title: MCExtractAPI | mcextract
+keywords: legopitstop,python,java,minecraft,data,assets,pypi,jar,reports,pythonpackage,customtkinter,serverjars,userfolder
 ---
 
 # MCExtractAPI
@@ -17,8 +14,8 @@ head:
 
 ## Methods
 
-- [accept_eula](#accept-eula)
-- [get_docker](#get-docker)
+- [accept_eula](#accept_eula)
+- [get_docker](#get_docker)
 - [extract](#extract)
 - [generate](#generate)
 - [map](#map)

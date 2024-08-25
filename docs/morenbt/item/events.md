@@ -1,10 +1,7 @@
 ---
 title: Events
-description: Add new NBT Tags to make customization easier! 
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,customizable,mod
+description: Add new NBT Tags to make customization easier!
+keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # Events
@@ -13,7 +10,7 @@ These tags are held inside item trigger events. see [Trigger Events](/morenbt/it
 
 ## Parameters
 
-```
+```txt
 cooldown: (obj) Only for `on_use` trigger. Will have a cooldown to prevent spamming
  └ value: (int) The amount of delay/cooldown. in ticks (sec * 20 = ticks)
 
@@ -117,7 +114,7 @@ structure - places a structure
 
 ## Experimental Parameters
 
-```
+```txt
 loot - Get the loot from a loot table.
  ├ target: (string) How to get the resulting items. Valid strings: "spawn","give"
  ├ source: (string) Where to get the loot from. Valid strings: "loot","kill"

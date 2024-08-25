@@ -1,5 +1,5 @@
 ---
-title: Code
+title: Code | TkinterPlus
 ---
 
 # Code

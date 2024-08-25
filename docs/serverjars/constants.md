@@ -8,13 +8,13 @@ keywords: legopitstop,python,java,api,minecraft,pypi,bedrock,servers,pythonpacka
 
 ## Category
 
-| name         | value      |
-| ------------ | ---------- |
-| `RELEASE`    | release    |
-| `SNAPSHOT`   | snapshot   |
-| `FABRIC`     | fabric     |
-| `MOHIST`     | mohist     |
-| `PAPER`      | paper      |
+| name       | value    |
+| ---------- | -------- |
+| `RELEASE`  | release  |
+| `SNAPSHOT` | snapshot |
+| `FABRIC`   | fabric   |
+| `MOHIST`   | mohist   |
+| `PAPER`    | paper    |
 
 <!-- | `NUKKITX`    | nukkitx    |
 | `POCKETMINE` | pocketmine |
@@ -32,13 +32,13 @@ keywords: legopitstop,python,java,api,minecraft,pypi,bedrock,servers,pythonpacka
 
 ## type
 
-| name      | value   |
-| --------- | ------- |
-| `MODDED`  | modded  |
-| `VANILLA`  | vanilla  |
-<!-- | `BEDROCK` | bedrock |
-| `PROXIES` | proxies |
-| `SERVERS` | servers | -->
+| name      | value     |
+| --------- | --------- | ------- |
+| `MODDED`  | modded    |
+| `VANILLA` | vanilla   |
+| <!--      | `BEDROCK` | bedrock |
+| `PROXIES` | proxies   |
+| `SERVERS` | servers   | -->     |
 
 ## Stability
 

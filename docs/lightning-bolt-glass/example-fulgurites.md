@@ -1,10 +1,7 @@
 ---
-title: Example Fulgurites
+title: Example Fulgurites | Lightning Bolt Glass
 description: What is Lightning Bolt Glass? Whenever lightning hits sand it turns into glass.
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,fulgurite,minecraft,fabricmc,mod,datapack,datadriven,customizable
+keywords: legopitstop,fulgurite,minecraft,fabricmc,mod,datapack,datadriven,customizable
 ---
 
 # Example Fulgurites
@@ -32,7 +29,7 @@ When lightning hits Orange Concrete Powder it will replace it with Orange Staine
 {
   "type": "minecraft:replace_single_block",
   "predicate": {
-      "blocks": ["minecraft:orange_concrete_powder"]
+    "blocks": ["minecraft:orange_concrete_powder"]
   },
   "block": {
     "Name": "minecraft:orange_stained_glass"

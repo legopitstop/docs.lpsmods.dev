@@ -1,31 +1,24 @@
 ---
-title: Build
+title: Build | GeyserMC
 description: The unofficial Python wrapper for geysermc.org
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,minecraft,pypi,geysermc,pythonpackage
+keywords: legopitstop,python,minecraft,pypi,geysermc,pythonpackage
 ---
 
 # Build
 
 ## Parameters
 
-| Name        | Type                       | Description |
-| ----------- | -------------------------- | ----------- |
-| `build`     | int                        |             |
-| `time`      | str                        |             |
-| `channel`   | str                        |             |
-| `promoted`  | bool                       |             |
-| `changes`   | list[BuildChange]()        |             |
-| `downloads` | dict{string: [Download]()} |             |
+| Name        | Type                                    | Description |
+| ----------- | --------------------------------------- | ----------- |
+| `build`     | int                                     |             |
+| `time`      | str                                     |             |
+| `channel`   | str                                     |             |
+| `promoted`  | bool                                    |             |
+| `changes`   | list[BuildChange](./BuildChange.md)     |             |
+| `downloads` | dict{string: [Download](./Download.md)} |             |
 
 ## Methods
 
-- [from_json](#from-json)
+- [from_json](#from_json)
 
-## Example
-
-```py
-
-```
+### from_json

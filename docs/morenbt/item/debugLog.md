@@ -1,10 +1,7 @@
 ---
 title: debugLog
-description: Add new NBT Tags to make customization easier! 
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,customizable,mod
+description: Add new NBT Tags to make customization easier!
+keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # debugLog
@@ -13,7 +10,7 @@ DebugLog is used to see if there are any issues with the custom tags provided by
 
 ## Parameters
 
-```
+```txt
 debugLog: (bool) If true it will give an output log via game chat. (default: false)
 ```
 

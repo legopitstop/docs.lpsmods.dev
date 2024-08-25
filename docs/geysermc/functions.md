@@ -1,10 +1,7 @@
 ---
-title: Functions
+title: Functions | GeyserMC
 description: The unofficial Python wrapper for geysermc.org
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,minecraft,pypi,geysermc,pythonpackage
+keywords: legopitstop,python,minecraft,pypi,geysermc,pythonpackage
 ---
 
 # Functions

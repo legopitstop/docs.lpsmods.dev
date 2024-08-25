@@ -1,10 +1,7 @@
 ---
 title: damage_tool
-description: Add new NBT Tags to make customization easier! 
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,customizable,mod
+description: Add new NBT Tags to make customization easier!
+keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # damage_tool
@@ -13,7 +10,7 @@ Will deal damage to the tool when used. Only on `minecraft:carrot_on_a_stick` an
 
 ## Parameters
 
-```
+```txt
 damage_tool - The root tag.
  ├ remove: (int) How much damage to remove from the tool
  ├ break_sound: (bool) Use the break sound when the item has been consumed/broken. (may add more customizability to this.)

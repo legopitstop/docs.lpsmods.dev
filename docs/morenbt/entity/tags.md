@@ -1,10 +1,7 @@
 ---
 title: Entity Tags
-description: Add new NBT Tags to make customization easier! 
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,customizable,mod
+description: Add new NBT Tags to make customization easier!
+keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # Entity Tags
@@ -13,7 +10,7 @@ This nbt can only be used inside the storage 'minecraft:entity' Below you can fi
 
 ## Parameters
 
-```
+```txt
 minecraft:entity - The root tag.
  ├ entity: (enum) The entity to use. supported entities; 'minecraft:player'
  └ triggers: (array obj)

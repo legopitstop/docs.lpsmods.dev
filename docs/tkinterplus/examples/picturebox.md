@@ -1,5 +1,5 @@
 ---
-title: PictureBox
+title: PictureBox | TkinterPlus
 ---
 
 # PictureBox

@@ -1,5 +1,5 @@
 ---
-title: Frontmatter Config
+title: Frontmatter Config | docs.lpsmods.dev
 recipeItems:
   - id: wiki:custom
     name: Custom

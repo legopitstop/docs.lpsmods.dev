@@ -1,10 +1,7 @@
 ---
 title: Trigger Events
-description: Add new NBT Tags to make customization easier! 
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,customizable,mod
+description: Add new NBT Tags to make customization easier!
+keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # Trigger Events
@@ -13,7 +10,7 @@ Trigger events will run events depending on the trigger event you use. The follo
 
 ## Parameters
 
-```
+```txt
 on_use - Will trigger when the player clicks on the item (only works on some items.)
 on_hold - Will trigger when the player holds the item in their `mainhand`
 on_use_on - Will trigger when the player clicks on a block.

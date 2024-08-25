@@ -1,10 +1,7 @@
 ---
 title: Example Foods
-description: Add new NBT Tags to make customization easier! 
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,customizable,mod
+description: Add new NBT Tags to make customization easier!
+keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # Example Foods
@@ -14,7 +11,7 @@ head:
 
 ## Give Function
 
-```
+```mcfunction
 function more_nbt:example_items/foods
 ```
 
@@ -22,33 +19,22 @@ function more_nbt:example_items/foods
 
 Glow Berries
 
-```
+::: code-group
+
+```mcfunction [mcfunction]
 give @p glow_berries{moreNBT:{nbt_format:"IgnoreFormatOverride"},display:{Lore:['{"text":"They actually make you glow!","color":"gray","italic":false}']},food:{on_consume:{add_mob_effect:[{target:"@p",effect:"minecraft:glowing"}]}}}
 ```
 
-Milk Carton
-
-```
-give @p potion{moreNBT:{nbt_format:"IgnoreFormatOverride"},CustomPotionColor:16777215,display:{Name:'{"text":"Milk Carton","italic":false}'},food:{using_converts_to:{id:"minecraft:glass_bottle",tag:{display:{Name:'{"text":"Empty Carton","italic":false}'}}}}}
-```
-
-## NBT
-
-Glow Berries
-
-```snbt
+```snbt [snbt]
 {
-  // custom
   moreNBT: {
     nbt_format: "IgnoreFormatOverride"
   },
-  // vanilla
   display: {
     Lore: [
       '{\"text\": \"They actually make you glow!\",\"color\": \"gray\",\"italic\": false}'
     ]
   },
-  // custom
   food: {
     on_consume: {
       add_mob_effect: [
@@ -62,21 +48,25 @@ Glow Berries
 }
 ```
 
+:::
+
 Milk Carton
 
-```snbt
+::: code-group
+
+```mcfunction [mcfunction]
+give @p potion{moreNBT:{nbt_format:"IgnoreFormatOverride"},CustomPotionColor:16777215,display:{Name:'{"text":"Milk Carton","italic":false}'},food:{using_converts_to:{id:"minecraft:glass_bottle",tag:{display:{Name:'{"text":"Empty Carton","italic":false}'}}}}}
+```
+
+```snbt [snbt]
 {
-  // custom
   moreNBT: {
     "nbt_format": "IgnoreFormatOverride"
   },
-  // vanilla
   CustomPotionColor: 16777215,
-  // vanilla
   display: {
     Name: "{\"text\": \"Milk Carton\",\"italic\": false}"
   },
-  // custom
   food: {
     using_converts_to: {
       id: "minecraft:glass_bottle",
@@ -89,3 +79,5 @@ Milk Carton
   }
 }
 ```
+
+:::

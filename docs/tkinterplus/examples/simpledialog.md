@@ -1,5 +1,5 @@
 ---
-title: SimpleDialog
+title: SimpleDialog | TkinterPlus
 ---
 
 # SimpleDialog

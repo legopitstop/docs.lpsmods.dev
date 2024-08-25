@@ -1,10 +1,7 @@
 ---
 title: simple
 description: Add new NBT Tags to make customization easier! 
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,customizable,mod
+keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # simple
@@ -13,7 +10,7 @@ Simple tags. These tags go directly to the item. `/give @p minecraft:paper{<Simp
 
 ## Parameters
 
-```
+```txt
 The root item tag.
  ├ NoGravity: (boolean) When the item is dropped it will not fall down. However, it will still follow the direction that you threw it.
  ├ NoMotion: (boolean) When the item is dropped it will not move.

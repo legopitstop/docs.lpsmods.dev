@@ -1,10 +1,7 @@
 ---
 title: Config
-description: Add new NBT Tags to make customization easier! 
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,datapack,customizable,mod
+description: Add new NBT Tags to make customization easier!
+keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # Config
@@ -13,7 +10,7 @@ Config file is located storage `more_nbt:config`. use `/function more_nbt:config
 
 ## Parameters
 
-```
+```txt
 The root tag.
  ├ version: (int) The version of config.
  └ config:

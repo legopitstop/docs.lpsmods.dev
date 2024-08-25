@@ -1,9 +1,6 @@
 ---
-title: MojangSkin
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,minecraft,skin,images,pypi,pillow,mojang,pythonpackage
+title: MojangSkin | mojangskin
+keywords: legopitstop,python,minecraft,skin,images,pypi,pillow,mojang,pythonpackage
 ---
 
 # MojangSkin

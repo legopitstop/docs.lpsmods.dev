@@ -1,9 +1,6 @@
 ---
-title: SkinCanvas
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,minecraft,skin,images,pypi,pillow,mojang,pythonpackage
+title: SkinCanvas | mojangskin
+keywords: legopitstop,python,minecraft,skin,images,pypi,pillow,mojang,pythonpackage
 ---
 
 # SkinCanvas
@@ -21,3 +18,11 @@ head:
 - [create_paperdoll](#create_paperdoll)
 - [bone_configure](#bone_configure)
 - [paperdoll_configure](#paperdoll_configure)
+
+### create_bone
+
+### create_paperdoll
+
+### bone_configure
+
+### paperdoll_configure

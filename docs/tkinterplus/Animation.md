@@ -1,10 +1,7 @@
 ---
-title: Animation
+title: Animation | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
+keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
 # Animation
@@ -185,7 +182,7 @@ Display or hide the matched widgets by animating their opacity.
 | `donecommand` | Callable | A function to call once the animation is donecommand, called once per matched element.                                    |
 | `queue`       | bool     | A Boolean indicating whether to place the animation in the effects queue. If false, the animation will begin immediately. |
 
-###n bh slide_down
+### slide_down
 
 Display the matched widgets with a sliding motion.
 

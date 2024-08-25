@@ -1,9 +1,6 @@
 ---
-title: Skin
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,minecraft,skin,images,pypi,pillow,mojang,pythonpackage
+title: Skin | mojangskin
+keywords: legopitstop,python,minecraft,skin,images,pypi,pillow,mojang,pythonpackage
 ---
 
 # Skin
@@ -25,4 +22,16 @@ Load skin from file
 - [bone_face](#bone_face)
 - [paperdoll](#paperdoll)
 - [show](#show)
-- [bone_face_imageTk](#bone_face_imageTk)
+- [bone_face_imageTk](#bone_face_imagetk)
+
+### origin
+
+### bone
+
+### bone_face
+
+### paperdoll
+
+### show
+
+### bone_face_imageTk
