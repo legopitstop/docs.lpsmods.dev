@@ -1,15 +1,21 @@
 ---
 title: Recipe Display
 description: Easily create a webpage that will display all your recipes!
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,minecraft,website,customizable,recipes,display
+keywords: legopitstop,minecraft,website,customizable,recipes,display
+prev: false
+next:
+  text: Update Checker
+  link: /update-checker/
 ---
 
 # Recipe Display
 
 Easily create a webpage that will display all your recipes!
+
+## Links
+
+- :computer: [Website](https://legopitstop.github.io/Minecraft-Recipe-Display/)
+- :gear: [Source Code](https://github.com/legopitstop/Minecraft-Recipe-Display)
 
 ## Getting Started
 

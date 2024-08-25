@@ -1,10 +1,13 @@
 ---
 title: mojangskin
 description: Get Minecraft player skins from the Mojang API.
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,minecraft,skin,images,pypi,pillow,mojang,pythonpackage
+keywords: legopitstop,python,minecraft,skin,images,pypi,pillow,mojang,pythonpackage
+prev:
+  text: mcextract
+  link: /mcextract/
+next:
+  text: molang
+  link: /molang/
 ---
 
 # mojangskin
@@ -17,5 +20,6 @@ This project is still being worked on and may have a few errors with functions o
 
 ## Links
 
-- [Download](https://github.com/legopitstop/mojangskin/releases)
-- [Source Code](https://github.com/legopitstop/mojangskin)
+- :pie: [PyPI](https://pypi.org/project/mojangskin)
+- :file_folder: [Download](https://github.com/legopitstop/mojangskin/releases)
+- :gear: [Source Code](https://github.com/legopitstop/mojangskin)

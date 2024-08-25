@@ -1,18 +1,20 @@
 ---
-title: Python Docs
+title: Python Documentations
+prev: false
+next: false
 ---
 
-# Python Docs
+# Python Documentations
 
-- [GeyserMC](/geysermc/)
-- [TkinterPlus](/tkinterplus/)
-- [UserFolder](/userfolder/)
-- [accentcolordetect](/accentcolordetect/)
-- [datapackutils](/datapackutils/)
-- [jsonpack](/jsonpack/)
-- [mcaddon](/mcaddon/)
-- [mcextract](/mcextract/)
-- [mojangskin](/mojangskin/)
-- [molang](/molang/)
-- [multicraft](/multicraft/)
-- [serverjars](/serverjars-api/)
+- :desktop_computer: [GeyserMC](/geysermc/)
+- :heavy_plus_sign: [TkinterPlus](/tkinterplus/)
+- :file_folder: [UserFolder](/userfolder/)
+- :paintbrush: [accentcolordetect](/accentcolordetect/)
+- :package: [datapackutils](/datapackutils/)
+- :package: [jsonpack](/jsonpack/)
+- :toolbox: [mcaddon](/mcaddon/)
+- :next_track_button: [mcextract](/mcextract/)
+- :smile: [mojangskin](/mojangskin/)
+- :key: [molang](/molang/)
+- :wrench: [multicraft](/multicraft/)
+- :jar: [serverjars](/serverjars/)

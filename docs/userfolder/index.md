@@ -1,10 +1,13 @@
 ---
 title: UserFolder
 description: This is a simple library that allows you to read, write and create files within your own folder inside the user folder `C:/User/USER/.python/PACKAGE_ID`
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,pypi,folder,easy,filemanagment,pythonpackage,userfolder
+keywords: legopitstop,python,pypi,folder,easy,filemanagment,pythonpackage,userfolder
+prev:
+  text: TkinterPlus
+  link: /tkinterplus/
+next:
+  text: accentcolordetect
+  link: /accentcolordetect/
 ---
 
 # UserFolder
@@ -13,8 +16,9 @@ This is a simple library that allows you to read, write and create files within 
 
 ## Links
 
-- [Download](https://github.com/legopitstop/UserFolder/releases)
-- [Source Code](https://github.com/legopitstop/UserFolder)
+- :pie: [PyPI](https://pypi.org/project/UserFolder)
+- :file_folder: [Download](https://github.com/legopitstop/UserFolder/releases)
+- :gear: [Source Code](https://github.com/legopitstop/UserFolder)
 
 ## Examples
 

@@ -1,24 +1,32 @@
 ---
 title: Assets+
 description: This is a resource pack library that adds all the vanilla Minecraft block ids use better IDs.
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,assetsplus,resourcepack
+keywords: legopitstop,assetsplus,resourcepack
+prev:
+  text: Armor Stand Poses
+  link: /poses/
+next:
+  text: Data+
+  link: /dataplus/
 ---
 
 # Assets+
 
 This is a resource pack library that adds all the vanilla Minecraft block ids use better IDs to use these just add the `minecraft` namespace before the texture for example: `minecraft:lime_concrete` to use the lime concrete texture. This resource pack also adds a few new textures like Java Edition’s debug textures
 
+::: info
+This resource pack library does not contain vanilla Minecraft assets. It will use vanilla Minecraft, or the highest-tier resource pack, textures.
+:::
+
+## Loaders
+
+- Bedrock
+
 ## Links
 
-- [Download](https://github.com/legopitstop/Assets_Plus/releases)
-- [Source Code](https://github.com/legopitstop/Assets_Plus)
-
-## Note
-
-This resource pack library does not contain vanilla Minecraft assets. It will use vanilla Minecraft, or the highest-tier resource pack, textures.
+- :fire: [Curseforge](https://www.curseforge.com/minecraft-bedrock/addons/assets-plus)
+- :wrench: [MCPEDL](https://mcpedl.com/assets-plus-pack-1/)
+- :gear: [Source Code](https://github.com/legopitstop/Assets_Plus)
 
 ## Dependencies
 

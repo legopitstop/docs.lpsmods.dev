@@ -1,10 +1,10 @@
 ---
 title: GeyserMC
 description: The unofficial Python wrapper for geysermc.org
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,minecraft,pypi,geysermc,pythonpackage
+keywords: legopitstop,python,minecraft,pypi,geysermc,pythonpackage
+next:
+  text: TkinterPlus
+  link: /tkinterplus/
 ---
 
 # GeyserMC
@@ -13,8 +13,9 @@ The unofficial Python wrapper for [geysermc.org](https://geysermc.org)
 
 ## Links
 
-- [Download](https://github.com/legopitstop/geysermc/releases)
-- [Source Code](https://github.com/legopitstop/geysermc)
+- :pie: [PyPI](https://pypi.org/project/geysermc)
+- :file_folder: [Download](https://github.com/legopitstop/geysermc/releases)
+- :gear: [Source Code](https://github.com/legopitstop/geysermc)
 
 ## Examples
 

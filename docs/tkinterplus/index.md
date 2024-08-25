@@ -1,10 +1,13 @@
 ---
 title: TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
-head:
-  - - meta
-    - name: keywords
-      content: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
+keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
+prev:
+  text: GeyserMC
+  link: /geysermc/
+next:
+  text: UserFolder
+  link: /userfolder/
 ---
 
 # TkinterPlus
@@ -13,5 +16,6 @@ TkinterPlus is a Python UI library that adds more widgets to Tkinter
 
 ## Links
 
-- [Download](https://github.com/legopitstop/tkinterplus/releases)
-- [Source Code](https://github.com/legopitstop/tkinterplus)
+- :pie: [PyPI](https://pypi.org/project/tkinterplus)
+- :file_folder: [Download](https://github.com/legopitstop/tkinterplus/releases)
+- :gear: [Source Code](https://github.com/legopitstop/tkinterplus)

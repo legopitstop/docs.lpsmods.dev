@@ -2,11 +2,11 @@
 title: More Blocks
 description: Adds new variants of blocks! One block variant that you can find in the mod is "Layer" blocks, these blocks are like the Top Snow. increasing the height of the block.
 prev:
-    text: Lightning Bolt Glass
-    link: /lightning-bolt-glass/
+  text: Lightning Bolt Glass
+  link: /lightning-bolt-glass/
 next:
-    text: More Gold
-    link: /more-gold/
+  text: More Gold
+  link: /more-gold/
 ---
 
 # More Blocks

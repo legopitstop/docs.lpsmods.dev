@@ -1,9 +1,11 @@
 ---
-title: Misc Docs
+title: Miscellaneous Documentations
+prev: false
+next: false
 ---
 
-# Misc Docs
+# Miscellaneous Documentations
 
-- [Recipe Display](/recipe-display/)
-- [Update Checker](/update-checker/)
-- [lpsmods.dev](/lpsmods/)
+- :desktop_computer: [Recipe Display](/recipe-display/)
+- :heavy_check_mark: [Update Checker](/update-checker/)
+- :toolbox: [lpsmods.dev](/lpsmods/)
