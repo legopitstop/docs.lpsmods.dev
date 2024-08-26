@@ -14,22 +14,7 @@ export default defineConfig({
   title: "Legopitstop Docs",
   description: "Documentation for all my projects",
   head: [
-    // Google Analytics
-    [
-      "script",
-      {
-        async: "",
-        src: "https://www.googletagmanager.com/gtag/js?id=GTM-NDP4W9JV",
-      },
-    ],
-    [
-      "script",
-      {},
-      `window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'YOURID');`,
-    ],
+    ["link", { rel: "shortcut icon", href: "/favicon.ico" }],
     // Google AdSense
     [
       "script",
@@ -50,8 +35,6 @@ export default defineConfig({
     ["meta", { property: "twitter:card", content: "summary_large_image" }],
     ["meta", { property: "twitter:url", content: "https://docs.lpsmods.dev/" }],
     ["meta", { property: "twitter:image", content: "/images/logo.png" }],
-
-    ["meta", { property: "fb:app_id", content: "458136053278758" }],
   ],
   transformPageData(pageData) {
     pageData.titleTemplate = ":title";
@@ -822,6 +805,8 @@ export default defineConfig({
               base: "/morefood/component/",
               collapsed: true,
               items: [
+                { text: "PottedFlowerComponent", link: "/PottedFlowerComponent" },
+                { text: "PottableComponent", link: "/PottableComponent" },
                 { text: "MintyComponent", link: "/MintyComponent" },
                 { text: "MREComponent", link: "/MREComponent" },
                 { text: "PourableComponent", link: "/PourableComponent" },
