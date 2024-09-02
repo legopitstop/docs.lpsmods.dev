@@ -25,9 +25,9 @@ export default {
     input: String,
     output: String,
     fuel: String,
-    input_count: { type: String, default: 1 },
-    output_count: { type: String, default: 1 },
-    fuel_count: { type: String, default: 1 },
+    input_count: { type: Number, default: 1 },
+    output_count: { type: Number, default: 1 },
+    fuel_count: { type: Number, default: 1 },
   },
   computed: {
     recipeId() {
