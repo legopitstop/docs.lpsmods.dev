@@ -1,17 +1,18 @@
 ---
-title: Bandage
-description: This datapack adds 4 new items! (called bandages) All of these items will replenish your heart and hunger, while some have added effects.
-prev:
-  text: Data+
-  link: /dataplus/
-next:
-  text: LPS Rcore API
-  link: /rcore-api/
+title: Bandage Mod Wiki
+description: This Minecraft mod adds 4 new items! (called bandages) All of these items will replenish your heart and hunger, while some have added effects.
+keywords: legopitstop,minecraft,mod,datapack,resourcepack,bandage
 ---
 
 # Bandage
 
-This datapack adds 4 new items! (called bandages) All of these items will replenish your heart and hunger, while some have added effects.
+This Minecraft mod adds 4 new items! (called bandages) All of these items will replenish your heart and hunger, while some have added effects.
+
+## Technical Info
+
+| Key        | Value     |
+| ---------- | --------- |
+| namespace  | `bandage` |
 
 ## Loaders
 

@@ -1,7 +1,7 @@
 ---
-title: DeveloperTools | TkinterPlus
+title: DeveloperTools Example | TkinterPlus
 ---
 
-# DeveloperTools
+# DeveloperTools Example
 
 <<< @/public/examples/developer_tools.py

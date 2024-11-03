@@ -1,0 +1,41 @@
+{
+  "links": [{ "namespace": "bright", "pattern": "/bright/:name" }],
+  "items": [
+    {
+      "id": "bright:iron_candle_stick",
+      "name": "Iron Candle Stick"
+    },
+    {
+      "id": "bright:gold_candle_stick",
+      "name": "Gold Candle Stick"
+    },
+    {
+      "id": "bright:copper_candle_stick",
+      "name": "Copper Candle Stick"
+    },
+    {
+      "id": "bright:diamond_candle_stick",
+      "name": "Diamond Candle Stick"
+    },
+    {
+      "id": "bright:netherite_candle_stick",
+      "name": "Netherite Candle Stick"
+    },
+    {
+      "id": "bright:black_ceiling_light",
+      "name": "Black Ceiling Light"
+    },
+    {
+      "id": "bright:black_floor_light",
+      "name": "Black Floor Light"
+    },
+    {
+      "id": "bright:black_light_bulb",
+      "name": "Black Light Bulb"
+    },
+    {
+      "id": "bright:black_light_fixture",
+      "name": "Black Light Fixture"
+    }
+  ]
+}

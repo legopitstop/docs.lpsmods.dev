@@ -1,7 +1,7 @@
 ---
-title: Code | TkinterPlus
+title: Code Example | TkinterPlus
 ---
 
-# Code
+# Code Example
 
 <<< @/public/examples/code.py

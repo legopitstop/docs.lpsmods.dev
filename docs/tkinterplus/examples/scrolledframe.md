@@ -1,7 +1,7 @@
 ---
-title: ScrolledFrame | TkinterPlus
+title: ScrolledFrame Example | TkinterPlus
 ---
 
-# ScrolledFrame
+# ScrolledFrame Example
 
 <<< @/public/examples/scrolledframe.py

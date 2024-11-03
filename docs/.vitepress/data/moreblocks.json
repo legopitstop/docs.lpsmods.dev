@@ -1,0 +1,10 @@
+{
+  "links": [{ "namespace": "moreblocks", "pattern": "/moreblocks/:name" }],
+  "items": [
+    {
+      "id": "moreblocks:stone_layer",
+      "name": "Stone Layer",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAARdQTFRFAAAAf39/f39/gICAjIyMj4+PfX19dHR0dHR0jY2NcXFxaWlpdHR0iIiIjo6Of39/j4+PgICAdnZ2dnZ2gICAenp6cnJyb29vdXV1gYGBgoKCfHx8d3d3h4eHbW1te3t7eHh4dXV1dHR0j4+PiYmJioqKf39/fHx8fHx8hISEeXl5fn5+f39/fn5+c3NzampqjIyMjY2NcnJyhYWFg4ODhoaGZmZmXV1daGhoVlZWVVVVYWFhTExMZGRkZmZmZmZmZ2dnbm5ubGxsVFRUUFBQSEhITExMTExMcHBwa2trXFxcUlJSSkpKZmZmX19fUVFRTExMXV1dZWVlRkZGSUlJU1NTcnJyRkZGRkZGcHBwV1dXWFhYSkpK0M+hSwAAAF10Uk5TAIDEAYD//84Q7////////1AQ7///////////7///////zgGA///OgP////9Q7//////p////9////////wHO//////////sk/////yRQ//+gUP///6DO+yQB////6IyHGgAAAaxJREFUeJzVkk1PGlEUhs/LwM1lEHv5sAM4FYOgURNN2sbdLF26cNFF/6GJGxfddNe/oCGpn6OoMAEGGQZlZJwBmX4YsaRdNWnP5uSc++Sc3Pe8oD8E/kcAgP8bIIwA8fzJAIcXAYIZBGsCkAC60wiiF2vGrJcAcujcZ3qyxaMdgTaJEPRnwAKaQZLN+Yd7hxImiS4l2Jn/A+B5m4EbCaqlxDBUVf1bK+qO+gorBwAvHeXMKX7nFEYzs3XlIlK6tleh+6p0a70p4+0ZsZkqUfFgsULplGnwYcZtRV2Hzcm4csLYgNERWV3uzh+snVKxErbjvaJObOBlW24sD2xEvPO0Kd9JyZP8ZdwTUd9urx9PU7yqXocXEYKGQL120jDeDXWLDaasQtcutOpLx+/7PFCF6DvCr3yDOSqo7ZSO5ioa7FcdmX369k1NjAo6v1GlymBlP9+caeRyLqUaivP5Scnt2qzT+yop1dDqvicWXFKA3fFbaNkvy4eKNOzXViSiWez8cqyPfr2vZ6Tyh36d5OTP9zE/aKIBfRMX6WD3ZMPQlv3wem+s8y/a/i8Aj3KfnvGpFigLAAAAAElFTkSuQmCC"
+    }
+  ]
+}

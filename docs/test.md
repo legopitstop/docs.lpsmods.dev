@@ -1,7 +1,5 @@
 ---
 title: Test
-prev: false
-next: false
 recipeItems:
   - id: wiki:custom
     name: Custom
@@ -39,14 +37,14 @@ a1="paper" b1="paper" c1="paper"
 a2="paper" b2="paper" c2="paper"
 a3="paper" b3="paper" c3="paper"
 output="paper"
-:count="1"/>
+:count="2"/>
 
 ### ShapelessRecipe
 
 <ShapelessRecipe
 :ingredients="['paper']"
 output="paper"
-:count="1"/>
+:count="2"/>
 
 ### SmeltingRecipe
 
@@ -68,7 +66,7 @@ output=""/>
 <StonecutterRecipe
 input="paper"
 output="paper"
-:count="1"/>
+:count="2"/>
 
 ## Custom Element Styling
 
@@ -84,6 +82,12 @@ output="paper"
 
 <input id="input" name="input" type="text">
 
----
+## Misc
+
+### ModelRenderer
 
 <ModelRenderer geometry="/models/armor_stand.geo.json" identifier="geometry.armor_stand" texture="/textures/armor_stand.png" rotate/>
+
+### ArmorStandGenerator
+
+### MusicDiscStudio

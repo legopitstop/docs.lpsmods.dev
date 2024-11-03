@@ -1,5 +1,5 @@
 ---
-title: SaplingGenerator | Lot's More Food
+title: SaplingGenerator | Lot's More Food Documentation
 ---
 
 # SaplingGenerator

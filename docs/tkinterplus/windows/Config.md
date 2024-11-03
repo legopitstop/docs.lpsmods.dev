@@ -1,10 +1,10 @@
 ---
-title: Config | TkinterPlus
+title: Config Class | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
 keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
-# Config
+# Config Class
 
 Construct a config widget with the parent MASTER.
 

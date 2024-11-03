@@ -1,9 +1,9 @@
 ---
-title: Underwater | Spawner Craft
+title: Underwater Recipes | Spawner Craft Mod Wiki
 description: This mod adds new recipes that make all of the spawn eggs craftable. Use the eggs to customize your mob spawner!
 ---
 
-# Underwater
+# Underwater Recipes
 
 ## Tropical Fish Spawn Egg
 

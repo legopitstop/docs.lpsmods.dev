@@ -1,7 +1,7 @@
 ---
-title: PictureBox | TkinterPlus
+title: PictureBox Example | TkinterPlus
 ---
 
-# PictureBox
+# PictureBox Example
 
 <<< @/public/examples/picturebox.py

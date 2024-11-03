@@ -1,11 +1,11 @@
 ---
 title: How to Install Add-Ons
 description: Step-by-step instructions on how to install addons for Minecraft Bedrock Edition
-prev: false
-next: false
 ---
 
 # How to Install Add-Ons
+
+<!-- TODO: Other OS need screenshots -->
 
 Step-by-step instructions on how to install addons for [Minecraft: Bedrock Edition](https://minecraft.wiki/w/Bedrock_Edition)
 

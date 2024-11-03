@@ -1,13 +1,7 @@
 ---
-title: mcextract
+title: mcextract Documentation
 description: Extract assets and data from the Minecraft jar.
 keywords: legopitstop,python,java,minecraft,data,assets,pypi,jar,reports,pythonpackage,customtkinter,serverjars,userfolder
-prev:
-  text: mcaddon
-  link: /mcaddon/
-next:
-  text: mojangskin
-  link: /mojangskin/
 ---
 
 # mcextract
@@ -19,6 +13,16 @@ Extract assets and data from the Minecraft jar.
 - :pie: [PyPI](https://pypi.org/project/mcextract)
 - :file_folder: [Download](https://github.com/legopitstop/mcextract/releases)
 - :gear: [Source Code](https://github.com/legopitstop/mcextract)
+
+## Installation
+
+Install the module with pip:
+
+```bat
+pip3 install mcextract
+```
+
+Update existing installation: `pip3 install mcextract --upgrade`
 
 ## Examples
 

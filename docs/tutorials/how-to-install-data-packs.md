@@ -1,8 +1,6 @@
 ---
 title: How to Install Data Packs
 description: Step-by-step instructions on how to install data packs for Minecraft Java Edition
-prev: false
-next: false
 ---
 
 # How to Install Data Packs

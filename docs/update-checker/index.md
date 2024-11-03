@@ -1,13 +1,7 @@
 ---
-title: Update Checker
+title: Update Checker Documentation
 description: Check to see if you have the latest version of a pack installed.
 keywords: legopitstop,minecraft,website,updatechecker,updater,customizable,free,premium,json
-prev:
-  text: Recipe Display
-  link: /recipe-display/
-next:
-  text: lpsmods.dev
-  link: /lpsmods/
 ---
 
 # Update Checker

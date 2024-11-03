@@ -1,5 +1,5 @@
 ---
-title: Tables | LPS Rcore API
+title: Tables | LPS Rcore API Documentation
 description: We are currently working on changing up the entire API system. Hopefully, it will be released soon! For now you can see the up-coming changes to the API.
 keywords: legopitstop,minecraft,mod,datapack,resroucepack,morenbt,nbt,data
 ---
@@ -13,9 +13,9 @@ Tables are stored in `rcore:register tables`.
 ## Create Table
 
 1. Create a MCFUNCTION file in your datapack called tables.mcfunction. This file can be located anywhere in your datapack.
-2. Now using the [NBT Schema](#table-schema) and [examples](./example-tables.md) from below you can add all your tables to the created tables.mcfunction.
-3. You now need to create a function tag located `data/rcore/tags/functions/register_tables.json` and enter the path to your tables function.
-4. Now in-game run `/reload` to reload your datapack. Then run `/function rcore:reload` to reload all tables.
+1. Now using the [NBT Schema](#table-schema) and [examples](./example-tables.md) from below you can add all your tables to the created tables.mcfunction.
+1. You now need to create a function tag located `data/rcore/tags/functions/register_tables.json` and enter the path to your tables function.
+1. Now in-game run `/reload` to reload your datapack. Then run `/function rcore:reload` to reload all tables.
 
 ## Obtaining
 

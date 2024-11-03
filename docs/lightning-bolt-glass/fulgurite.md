@@ -1,5 +1,5 @@
 ---
-title: Fulgurite | Lightning Bolt Glass
+title: Fulgurite | Lightning Bolt Glass Documentation
 description: What is Lightning Bolt Glass? Whenever lightning hits sand it turns into glass.
 keywords: legopitstop,fulgurite,minecraft,fabricmc,mod,datapack,datadriven,customizable
 ---
@@ -18,9 +18,9 @@ Lightning bolt glass comes with 2 fulgurites. One for converting Sand -> Glass a
 Lightning Bolt Glass supports data-driven Fulgurites letting you create your own!
 
 1. Create a folder in the `<pack>/data/<namespace>` path in your datapack called `fulgurite`. This is where you will be placing all your fulgurite JSONs.
-2. Create a JSON file. This can be called anything as long as it ends with ".json"
-3. Using the JSON [Schema](#schema) below create your own fulgurite.
-4. Now run `/reload` in-game for the changes to apply. You can use `/summon lightning_bolt ~ ~ ~` to test if it works.
+1. Create a JSON file. This can be called anything as long as it ends with ".json"
+1. Using the JSON [Schema](#schema) below create your own fulgurite.
+1. Now run `/reload` in-game for the changes to apply. You can use `/summon lightning_bolt ~ ~ ~` to test if it works.
 
 ## Schema
 

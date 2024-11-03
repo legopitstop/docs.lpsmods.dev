@@ -1,7 +1,7 @@
 ---
-title: Footer | TkinterPlus
+title: Footer Example | TkinterPlus
 ---
 
-# Footer
+# Footer Example
 
 <<< @/public/examples/footer.py

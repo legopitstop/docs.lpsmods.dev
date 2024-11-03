@@ -1,9 +1,9 @@
 ---
-title: Nether | Spawner Craft
+title: Nether Recipes | Spawner Craft Mod Wiki
 description: This mod adds new recipes that make all of the spawn eggs craftable. Use the eggs to customize your mob spawner!
 ---
 
-# Nether
+# Nether Recipes
 
 ## Baze Spawn Egg
 

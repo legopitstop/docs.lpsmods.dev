@@ -1,11 +1,11 @@
 ---
-title: Item Format | Bandage
-description: This datapack adds 4 new items! (called bandages) All of these items will replenish your heart and hunger, while some have added effects.
+title: Item Format | Bandage Mod Wiki
+description: Item format to make custom bandages.
 ---
 
 # Item Format
 
-Custom item format to make custom bandages.
+Item format to make custom bandages.
 
 ## bandage
 
@@ -27,6 +27,30 @@ Custom item format to make custom bandages.
 
 ## Example
 
+This bandage gives the user [Speed](https://minecraft.wiki/w/Speed) for 2 seconds when used.
+
+::: code-group
+
 ```mcfunction
-give @s bow{bandage:[{"effect":"speed", "duration":2, "amplifier":1}]}
+give @s minecraft:bow{bandage:[{effect:"speed", duration:2, amplifier:1}]}
 ```
+
+```snbt
+{
+    bandage: [
+        {
+            effect: "speed",
+            duration: 2,
+            amplifier: 1
+        }
+    ]
+}
+```
+
+:::
+
+## History
+
+|       | Data pack Edition                                             |
+| ----- | ------------------------------------------------------------- |
+| 1.4.0 | Added custom data to create your own [Bandages](./Bandage.md) |

@@ -1,5 +1,5 @@
 ---
-title: MCExtractAPI | mcextract
+title: MCExtractAPI | mcextract Documentation
 keywords: legopitstop,python,java,minecraft,data,assets,pypi,jar,reports,pythonpackage,customtkinter,serverjars,userfolder
 ---
 
@@ -24,17 +24,17 @@ keywords: legopitstop,python,java,minecraft,data,assets,pypi,jar,reports,pythonp
 
 #### Parameters
 
-| Name     | Type | Description |
-| -------- | ---- | ----------- |
-| `prompt` | str  |             |
+| Name     | Type | Description               |
+| -------- | ---- | ------------------------- |
+| `prompt` | str  | Message to show the user. |
 
 ### get_docker
 
 #### Parameters
 
-| Name        | Type | Description |
-| ----------- | ---- | ----------- |
-| `mcversion` | str  |             |
+| Name        | Type | Description                              |
+| ----------- | ---- | ---------------------------------------- |
+| `mcversion` | str  | Get path to the java runtime executable. |
 
 ### extract
 
@@ -59,7 +59,7 @@ Use Minecraft's built-in data generator.
 | Name          | Type | Description                                                                           |
 | ------------- | ---- | ------------------------------------------------------------------------------------- |
 | `mcversion`   | str  | The Minecraft version to download or path to the jar.                                 |
-| `args`        | list |                                                                                       |
+| `args`        | list | Additional arguments to pass to the jar.                                              |
 | `output`      | str  | The output folder, defaults to generate                                               |
 | `accept_eula` | bool | Specifies whether to automatically accept the Minecraft EULA Terms, defaults to False |
 

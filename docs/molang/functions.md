@@ -1,5 +1,5 @@
 ---
-title: Functions | molang
+title: Functions | molang Documentation
 description: Molang to Python Translator & interpreter written in pure Python.
 keywords: legopitstop,language,minecraft,bedrock,molang
 ---
@@ -8,13 +8,25 @@ keywords: legopitstop,language,minecraft,bedrock,molang
 
 ## molang
 
-Convert this function to Molang
+Decorator function which converts this function to Molang.
 
 ### Parameters
 
 | Name   | Type     | Description |
 | ------ | -------- | ----------- |
 | `func` | Callable |             |
+
+### Example
+
+```Python
+from molang import molang
+
+@molang
+def convert_to_molang(n):
+    return n * 2
+print(convert_to_molang)
+# return t.n*2;
+```
 
 ## run
 

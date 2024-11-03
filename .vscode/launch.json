@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "command": "npm run docs:dev -- --host --port 5500",
+            // "command": "npm run docs:dev -- --port 5500",
+            "name": "Start development server",
+            "request": "launch",
+            "type": "node-terminal"
+        }
+    ]
+}

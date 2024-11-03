@@ -1,8 +1,6 @@
 ---
 title: How to Find Pack Validation
 description: Step-by-step instructions on how to find the pack validation for Minecraft Bedrock Edition
-prev: false
-next: false
 ---
 
 # How to Find Pack Validation

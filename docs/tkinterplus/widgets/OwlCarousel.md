@@ -1,10 +1,10 @@
 ---
-title: OwlCarousel | TkinterPlus
+title: OwlCarousel Widget | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
 keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
-# OwlCarousel <Badge type="warning" text="Experimental" />
+# OwlCarousel Widget <Badge type="warning" text="Experimental" />
 
 ::: warning
 This widget is experimental

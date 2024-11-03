@@ -1,0 +1,16 @@
+{
+  "name": "Legopitstop Docs",
+  "short_name": "Legopitstop Docs",
+  "description": "Documentation for all my projects",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "256x256"
+    }
+  ],
+	"start_url": "./index.html",
+  "theme_color": "#ff8800",
+  "background_color": "#1b1b1f",
+  "display": "standalone"
+}

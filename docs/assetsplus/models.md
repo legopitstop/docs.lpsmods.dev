@@ -1,5 +1,5 @@
 ---
-title: Models | Assets+
+title: Models | Assets+ Documentation
 aside: false
 description: This is a resource pack library that adds all the vanilla Minecraft block ids use better IDs.
 keywords: legopitstop,assetsplus,resourcepack

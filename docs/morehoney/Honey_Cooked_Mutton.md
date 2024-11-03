@@ -1,11 +1,11 @@
 ---
-title: Honey Cooked Mutton | More Honey
-description: Ever thought that Minecraft needed more honey food? Then this is your mod! This mod adds more than 5+ honey foods. Use it to replenish those health and hunger points and have some good buffs.
+title: Honey Cooked Mutton | More Honey Mod Wiki
+description: Honey Cooked Mutton is a consumable food item. Honey Cooked Mutton can remove Poison when ate.
 ---
 
 # Honey Cooked Mutton
 
-**Honey Cooked Mutton** is a consumable food item. Honey Cookies can remove Poison when ate.
+**Honey Cooked Mutton** is a consumable food item. Honey Cooked Mutton can remove Poison when ate.
 
 ## Obtaining
 

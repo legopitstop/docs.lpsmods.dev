@@ -1,8 +1,10 @@
 ---
-title: Blocks | More Pumpkins
-description: This mod adds 200+ new carved pumpkins to your world that also includes their jack o' lantern variant! It also adds a new type of jack o' lantern called the Soul Jack O' Lantern which is like the regular jack o' lantern but with a blue glow.
+title: Blocks | More Pumpkins Mod Wiki
+description: A list of all blocks More Pumpkins adds.
 ---
 
 # Blocks
 
-UNDOCUMENTED
+- [Carved Pumpkin](Carved_Pumpkin.md)
+- [Jack o'Lantern](Jack_o_Lantern.md)
+- [Soul Jack o'Lantern](Soul_Jack_o_Lantern.md)

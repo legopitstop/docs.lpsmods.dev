@@ -1,6 +1,6 @@
 ---
-title: Golden Strawberry | More Gold
-description: Ever thought that Minecraft needed more golden food? Then this is your mod! This mod adds more than 5+ gold foods. Use it to replenish those health and hunger points and have some good buffs.
+title: Golden Strawberry | More Gold Mod Wiki
+description: Golden Strawberry is a food item that bestows beneficial effects when consumed (Absorption and Regeneration).
 ---
 
 # Golden Strawberry

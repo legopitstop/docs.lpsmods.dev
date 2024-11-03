@@ -1,10 +1,10 @@
 ---
-title: DeveloperTools | TkinterPlus
+title: DeveloperTools Class | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
 keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
-# DeveloperTools <Badge type="warning" text="Experimental" />
+# DeveloperTools Class <Badge type="warning" text="Experimental" />
 
 ::: warning
 This widget is experimental

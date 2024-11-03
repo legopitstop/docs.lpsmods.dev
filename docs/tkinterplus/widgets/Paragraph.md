@@ -1,10 +1,10 @@
 ---
-title: Paragraph | TkinterPlus
+title: Paragraph Widget | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
 keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
-# Paragraph <Badge type="warning" text="Experimental" />
+# Paragraph Widget <Badge type="warning" text="Experimental" />
 
 ::: warning
 This widget is experimental

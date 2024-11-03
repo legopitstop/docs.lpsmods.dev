@@ -1,29 +1,33 @@
 ---
-title: MintyComponent | Lot's More Food
+title: MintyComponent | Lot's More Food Documentation
 ---
 
-# MintyComponent
+# MintyComponent Class
 
-## Parameters
-
-| Name       | Type | Description |
-| ---------- | ---- | ----------- |
-| `arg_name` |      |             |
+Gives the consumer mint like effects
 
 ## Methods
 
-- [name](#name)
+- [onConsume](#onconsume)
 
-### name
-
-#### Parameters
-
-| Name   | Type | Description |
-| ------ | ---- | ----------- |
-| `name` |      |             |
+### onConsume
 
 ## Example
 
-```py
+```js
+new MintyComponent();
+```
 
+```json
+{
+  "format_version": "1.21.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_mint"
+    },
+    "component": {
+      "minecraft:custom_components": ["morefood:minty"]
+    }
+  }
+}
 ```

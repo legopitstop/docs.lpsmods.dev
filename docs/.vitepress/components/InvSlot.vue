@@ -1,43 +1,17 @@
 <template>
   <span class="invslot" v-bind:class="large ? 'invslot-large' : ''">
-    <span
-      v-if="useItem != undefined"
-      class="invslot-item invslot-item-image"
-      :data-minetip-title="useItem.getMinetip()"
-      @mouseenter="minetipMouseover"
-      @mouseleave="minetipMouseout"
-      @mousemove="minetipMousemove"
-    >
-      <a
-        :href="editable ? '#' : useItem.getLink()"
-        :target="item.getLinkTarget()"
-        rel="nofollow noreferrer"
-        @click="selectItem"
-      >
-        <img
-          :alt="item.name"
-          :src="item.texture"
-          class="nozoom"
-          decoding="async"
-          loading="lazy"
-          width="32"
-          height="32"
-          data-relevant="0"
-      /></a>
+    <span v-if="useItem != undefined" class="invslot-item invslot-item-image" :data-minetip-title="useItem.getMinetip()"
+      @mouseenter="minetipMouseover" @mouseleave="minetipMouseout" @mousemove="minetipMousemove">
+      <a :href="editable ? '#' : useItem.getLink()" :target="item.getLinkTarget()" rel="nofollow noreferrer"
+        @click="selectItem">
+        <img :alt="item.name" :src="item.texture" class="nozoom" decoding="async" loading="lazy" width="32" height="32"
+          data-relevant="0" /></a>
 
-      <a
-        v-if="count > 1"
-        target="_blank"
-        rel="nofollow noreferrer"
-        class="external text"
-        :href="useItem.getLink()"
-        ><span class="invslot-stacksize">{{ count }}</span></a
-      >
+      <a v-if="count > 1" target="_blank" rel="nofollow noreferrer" class="external text"
+        :href="useItem.getLink()"><span class="invslot-stacksize">{{ count }}</span></a>
     </span>
   </span>
 </template>
-
-<!-- :src="useItem.icon" -->
 
 <script>
 import { useData } from "vitepress";

@@ -1,13 +1,7 @@
 ---
-title: Command Line Interface | mcextract
+title: Command Line Interface | mcextract Documentation
 description: Extract assets and data from the Minecraft jar.
 keywords: legopitstop,python,java,minecraft,data,assets,pypi,jar,reports,pythonpackage,customtkinter,serverjars,userfolder
-prev:
-  text: mcaddon
-  link: /mcaddon/
-next:
-  text: mojangskin
-  link: /mojangskin/
 ---
 
 # Command Line Interface
@@ -52,7 +46,7 @@ mcextract map [index_file] [objects_directory]
 
 ## `mcextract generate`
 
-Use Minecraft's built-in data generator.
+Use Minecraft's built-in [data generator](https://minecraft.wiki/w/Tutorials/Running_the_data_generator).
 
 ### Usage
 

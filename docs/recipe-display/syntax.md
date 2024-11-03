@@ -1,5 +1,5 @@
 ---
-title: Syntax | Recipe Display
+title: Syntax | Recipe Display Documentation
 description: Easily create a webpage that will display all your recipes!
 keywords: legopitstop,minecraft,website,customizable,recipes,display
 ---

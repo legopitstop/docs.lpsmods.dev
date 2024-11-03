@@ -1,18 +1,19 @@
 ---
-title: LPS Rcore API | LPS Rcore API
+title: LPS Rcore API Documentation
 description: We are currently working on changing up the entire API system. Hopefully, it will be released soon! For now, you can see the upcoming changes to the API.
 keywords: legopitstop,minecraft,mod,datapack,resroucepack,morenbt,nbt,data
-prev:
-  text: Bandage
-  link: /bandage/
-next:
-  text: Lightning Bolt Glass
-  link: /lightning-bolt-glass/
 ---
 
 # LPS Rcore API
 
 We are currently working on changing up the entire API system. Hopefully, it will be released soon! For now, you can see the upcoming changes to the API.
+
+## Technical Info
+
+| Key        | Value        |
+| ---------- | ------------ |
+| namespace  | `rcore`      |
+| version    | `2.8.0-beta` |
 
 ## Loaders
 

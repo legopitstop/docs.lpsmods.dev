@@ -1,5 +1,5 @@
 ---
-title: Schema | GeyserMC
+title: Schema | GeyserMC Documentation
 description: The unofficial Python wrapper for geysermc.org
 keywords: legopitstop,python,minecraft,pypi,geysermc,pythonpackage
 ---

@@ -1,17 +1,20 @@
 ---
-title: Ultimate Block Breaker
-description: This add-on adds different tiered block breakers to break any blocks (besides bedrock). Perfect for automating cobblestone generators. Not to mention they are easy to use and upgrade!
-prev:
-  text: Spawner Craft
-  link: /spawner-craft/
-next:
-  text: Lot's More Food
-  link: /more-food/
+title: Ultimate Block Breaker Mod Wiki
+description: This Minecraft mod adds different tiered block breakers to break any blocks (besides bedrock). Perfect for automating cobblestone generators. Not to mention they are easy to use and upgrade!
+keywords: legopitstop,minecraft,mod,add-on,datapack,breaker,ultimate block breaker
 ---
 
 # Ultimate Block Breaker
 
-This add-on adds different tiered block breakers to break any blocks (besides bedrock). Perfect for automating cobblestone generators. Not to mention they are easy to use and upgrade!
+This Minecraft mod adds different tiered block breakers to break any blocks (besides bedrock). Perfect for automating cobblestone generators. Not to mention they are easy to use and upgrade!
+
+## Technical Info
+
+| Key           | Value                                  |
+| ------------- | -------------------------------------- |
+| namespace     | `breaker`                              |
+| resource UUID | `fab6b726-c1f9-4fff-889b-27010898272a` |
+| behavior UUID | `7fda5795-39b2-40bb-8996-e20901af09ca` |
 
 ## Loaders
 

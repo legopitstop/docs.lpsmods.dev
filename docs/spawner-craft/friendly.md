@@ -1,9 +1,9 @@
 ---
-title: Friendly | Spawner Craft
+title: Friendly Recipes | Spawner Craft Mod Wiki
 description: This mod adds new recipes that make all of the spawn eggs craftable. Use the eggs to customize your mob spawner!
 ---
 
-# Friendly
+# Friendly Recipes
 
 ## Armadillo Spawn Egg
 

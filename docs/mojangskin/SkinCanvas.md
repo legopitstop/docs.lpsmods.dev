@@ -1,9 +1,11 @@
 ---
-title: SkinCanvas | mojangskin
+title: SkinCanvas | mojangskin Documentation
 keywords: legopitstop,python,minecraft,skin,images,pypi,pillow,mojang,pythonpackage
 ---
 
 # SkinCanvas
+
+Widget for tkinter to render a Minecraft skin.
 
 ## Parameters
 

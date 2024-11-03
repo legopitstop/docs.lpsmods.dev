@@ -1,7 +1,7 @@
 ---
-title: Accordian | TkinterPlus
+title: Accordion Example | TkinterPlus
 ---
 
-# Accordian
+# Accordion Example
 
 <<< @/public/examples/accordion.py

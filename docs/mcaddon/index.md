@@ -1,13 +1,7 @@
 ---
-title: mcaddon
+title: mcaddon Documentation
 description: Utility functions for creating Minecraft Bedrock Add-Ons.
 keywords: legopitstop,python,minecraft,json,pypi,resourcepack,development-kit,add-on,bedrock-edition,mcpack,pythonpackage,behaviorpack,mcaddon
-prev:
-  text: jsonpack
-  link: /jsonpack/
-next:
-  text: mcextract
-  link: /mcextract/
 ---
 
 # mcaddon
@@ -19,6 +13,16 @@ Utility functions for creating Minecraft Bedrock Add-Ons.
 - :pie: [PyPI](https://pypi.org/project/mcaddon)
 - :file_folder: [Download](https://github.com/legopitstop/mcaddon/releases)
 - :gear: [Source Code](https://github.com/legopitstop/mcaddon)
+
+## Installation
+
+Install the module with pip:
+
+```bat
+pip3 install mcaddon
+```
+
+Update existing installation: `pip3 install mcaddon --upgrade`
 
 ## Examples
 
