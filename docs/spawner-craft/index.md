@@ -1,20 +1,23 @@
 ---
-title: Spawner Craft
-description: This mod adds new recipes that make all of the spawn eggs craftable. Use the eggs to customize your mob spawner!
-prev:
-  text: Simple Magnet
-  link: /magnet/
-next:
-  text: Ultimate Block Breaker
-  link: /breaker/
+title: Spawner Craft Mod Wiki
+description: This Minecraft mod adds new recipes that make all of the spawn eggs craftable. Use the eggs to customize your mob spawner!
+keywords: legopitstop,minecraft,mod,datapack,behaviorpack,spawnercraft,spawer craft,recipes
 ---
 
 # Spawner Craft
 
-This mod adds new recipes that make all of the spawn eggs craftable. Use the eggs to customize your mob spawner!
+This Minecraft mod adds new recipes that make all of the spawn eggs craftable. Use the eggs to customize your mob spawner!
+
+## Technical Info
+
+| Key        | Value          |
+| ---------- | -------------- |
+| namespace  | `spawnercraft` |
+| version    | `1.15.0`       |
 
 ## Loaders
 
+- Behavior Pack
 - Data Pack
 
 ## Links

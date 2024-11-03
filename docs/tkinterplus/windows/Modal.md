@@ -1,10 +1,10 @@
 ---
-title: Modal | TkinterPlus
+title: Modal Class | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
 keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
-# Modal
+# Modal Class
 
 Construct a modal widget with the parent MASTER."
 

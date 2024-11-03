@@ -1,5 +1,5 @@
 ---
-title: Download | GeyserMC
+title: Download | GeyserMC Documentation
 description: The unofficial Python wrapper for geysermc.org
 keywords: legopitstop,python,minecraft,pypi,geysermc,pythonpackage
 ---

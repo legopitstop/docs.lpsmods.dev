@@ -1,13 +1,7 @@
 ---
-title: Record API
+title: Record API Documentation
 description: This wiki contains all the added custom nbt. Everything inside this wiki is free to use. If you have any ideas for custom NBT tags feel free to leave a feature suggestion.
 keywords: legopitstop,minecraft,datapack,resourcepack,record,music,sounds,api,customizable,creeper,nbt
-prev:
-  text: More Pumpkins
-  link: /more-pumpkin/
-next:
-  text: Simple Magnets
-  link: /magnet/
 ---
 
 # Record API

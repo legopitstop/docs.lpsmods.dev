@@ -1,5 +1,5 @@
 ---
-title: Data-Driven | Armor Stand Poses
+title: Data-Driven | Armor Stand Poses Documentation
 description: This datapack adds poses to armor stands like Bedrock Edition. Redstone is the same as bedrock. You can even create your data-driven poses!
 keywords: legopitstop,minecraft,mods,datadriven,customizable,poses,armorstand,datapack,fabricmc
 ---
@@ -11,9 +11,9 @@ Armor Stand Poses supports custom poses letting you create your own!
 ## Fabric
 
 1. Create a folder in the `/data/<namespace>` path of your datapack called `pose`.
-2. Create a JSON file in the created folder. This can be called anything as long as it ends with ".json"
-3. Using the [Pose Format](/poses/pose-format) page, create your own pose.
-4. Now to run `/reload` in-game for the changes to apply. Then keep right-clicking on an armor stand until it stops on your pose.
+1. Create a JSON file in the created folder. This can be called anything as long as it ends with ".json"
+1. Using the [Pose Format](/poses/pose-format) page, create your own pose.
+1. Now to run `/reload` in-game for the changes to apply. Then keep right-clicking on an armor stand until it stops on your pose.
 
 ## Datapack
 

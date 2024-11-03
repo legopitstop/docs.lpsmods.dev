@@ -1,6 +1,6 @@
 ---
-title: Golden Fruit Seeds | More Gold
-description: Ever thought that Minecraft needed more golden food? Then this is your mod! This mod adds more than 5+ gold foods. Use it to replenish those health and hunger points and have some good buffs.
+title: Golden Fruit Seeds | More Gold Mod Wiki
+description: Golden Fruit Seeds is a seed item used to grow golden foods.
 ---
 
 # Golden Fruit Seeds

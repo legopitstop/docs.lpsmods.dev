@@ -1,10 +1,10 @@
 ---
-title: FormattedText | TkinterPlus
+title: FormattedText Widget | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
 keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
-# FormattedText <Badge type="warning" text="Experimental" />
+# FormattedText Widget <Badge type="warning" text="Experimental" />
 
 ::: warning
 This widget is experimental

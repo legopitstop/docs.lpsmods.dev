@@ -1,10 +1,10 @@
 ---
-title: TextEditor | TkinterPlus
+title: TextEditor Class | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
 keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
-# TextEditor
+# TextEditor Class
 
 ## Parameters
 

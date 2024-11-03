@@ -1,13 +1,7 @@
 ---
-title: molang
+title: molang Documentation
 description: Molang to Python Translator & interpreter written in pure Python.
 keywords: legopitstop,language,minecraft,bedrock,molang
-prev:
-  text: mojangskin
-  link: /mojangskin/
-next:
-  text: multicraft
-  link: /multicraft/
 ---
 
 # molang
@@ -23,3 +17,13 @@ Molang to Python Translator & interpreter written in pure Python.
 - :pie: [PyPI](https://pypi.org/project/molang)
 - :file_folder: [Download](https://github.com/legopitstop/molang/releases)
 - :gear: [Source Code](https://github.com/legopitstop/molang)
+
+## Installation
+
+Install the module with pip:
+
+```bat
+pip3 install molang
+```
+
+Update existing installation: `pip3 install molang --upgrade`

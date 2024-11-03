@@ -1,10 +1,10 @@
 ---
-title: Form | TkinterPlus
+title: Form Widget | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
 keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
-# Form
+# Form Widget
 
 Construct a form widget with the parent MASTER.
 

@@ -1,13 +1,7 @@
 ---
-title: Assets+
+title: Assets+ Documentation
 description: This is a resource pack library that adds all the vanilla Minecraft block ids use better IDs.
 keywords: legopitstop,assetsplus,resourcepack
-prev:
-  text: Armor Stand Poses
-  link: /poses/
-next:
-  text: Data+
-  link: /dataplus/
 ---
 
 # Assets+
@@ -17,6 +11,13 @@ This is a resource pack library that adds all the vanilla Minecraft block ids us
 ::: info
 This resource pack library does not contain vanilla Minecraft assets. It will use vanilla Minecraft, or the highest-tier resource pack, textures.
 :::
+
+## Technical Info
+
+| Key           | Value                                  |
+| ------------- | -------------------------------------- |
+| namespace     | `assets`                               |
+| resource UUID | `c86dd7d9-e84e-456f-a84f-1993e353da4c` |
 
 ## Loaders
 

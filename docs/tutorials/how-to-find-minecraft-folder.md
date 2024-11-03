@@ -1,13 +1,11 @@
 ---
 title: How to Find .minecraft Folder
 description: Step-by-step instructions on how to find the .minecraft folder for Minecraft Java Edition
-prev: false
-next: false
 ---
 
-<!-- Use `%appdata%/.minecraft`in File Explorer instead -->
-
 # How to Find .minecraft Folder
+
+<!-- TODO: Needs screenshots -->
 
 Step-by-step instructions on how to find the `.minecraft` folder for [Minecraft: Java Edition](https://minecraft.wiki/w/Java_Edition)
 

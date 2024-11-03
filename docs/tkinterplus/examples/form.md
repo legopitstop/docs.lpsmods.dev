@@ -1,7 +1,7 @@
 ---
-title: Form | TkinterPlus
+title: Form Example | TkinterPlus
 ---
 
-# Form
+# Form Example
 
 <<< @/public/examples/form.py

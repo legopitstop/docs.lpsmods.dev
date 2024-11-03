@@ -1,5 +1,5 @@
 ---
-title: Recipes | LPS Rcore API
+title: Recipes | LPS Rcore API Documentation
 description: We are currently working on changing up the entire API system. Hopefully, it will be released soon! For now you can see the up-coming changes to the API.
 keywords: legopitstop,minecraft,mod,datapack,resroucepack,morenbt,nbt,data
 ---
@@ -13,9 +13,9 @@ Recipes are stored in `rcore:register recipes`.
 ## Create Recipe
 
 1. Create a MCFUNCTION file in your datapack called `recipes.mcfunction`. This file can be located anywhere in your datapack.
-2. Now using the [NBT Schema](#recipe-schema) and [examples](./example-recipes.md) from below you can add all your recipes to the created recipes.mcfunction.
-3. You now need to create a function tag located `data/rcore/tags/functions/register_recipes.json` and enter the path to your recipes function.
-4. Now in-game run `/reload` to reload your datapack. Then run `/function rcore:reload` to reload all recipes
+1. Now using the [NBT Schema](#recipe-schema) and [examples](./example-recipes.md) from below you can add all your recipes to the created recipes.mcfunction.
+1. You now need to create a function tag located `data/rcore/tags/functions/register_recipes.json` and enter the path to your recipes function.
+1. Now in-game run `/reload` to reload your datapack. Then run `/function rcore:reload` to reload all recipes
 
 ## Recipe Schema
 

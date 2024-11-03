@@ -1,6 +1,6 @@
 ---
-title: Golden Grape | More Gold
-description: Ever thought that Minecraft needed more golden food? Then this is your mod! This mod adds more than 5+ gold foods. Use it to replenish those health and hunger points and have some good buffs.
+title: Golden Grape | More Gold Mod Wiki
+description: Golden Grape is a food item that bestows beneficial effects when consumed (Absorption and Regeneration).
 ---
 
 # Golden Grape

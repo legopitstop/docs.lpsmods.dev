@@ -1,15 +1,21 @@
 ---
-title: CropComponent | Lot's More Food
+title: CropComponent | Lot's More Food Documentation
 ---
 
-# CropComponent
+# CropComponent Class
+
+Makes this block behave like [Crops](https://minecraft.wiki/w/Crops)
+
+## Extends
+
+- [Fertilizable](../Fertilizable.md)
 
 ## Parameters
 
-| Name        | Type   | Default          | Description |
-| ----------- | ------ | ---------------- | ----------- |
-| `stateName` | String | `morefood:stage` |             |
-| `maxStage`  | Number | `7`              |             |
+| Name        | Type   | Default          | Description                  |
+| ----------- | ------ | ---------------- | ---------------------------- |
+| `stateName` | String | `morefood:stage` | The name of the growth state |
+| `maxStage`  | Number | `7`              | The max growth stage         |
 
 ## Methods
 
@@ -36,4 +42,18 @@ title: CropComponent | Lot's More Food
 
 ```js
 new CropComponent("stage", 7);
+```
+
+```json
+{
+  "format_version": "1.21.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_crop"
+    },
+    "component": {
+      "minecraft:custom_components": ["morefood:crop"]
+    }
+  }
+}
 ```

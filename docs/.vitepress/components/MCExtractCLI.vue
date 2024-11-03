@@ -11,36 +11,23 @@
 
     <p>
       Client Files:
-      <input
-        type="checkbox"
-        name="client"
-        id="client"
-        @change="onChange"
-        checked
-      />
+      <input type="checkbox" name="client" id="client" @change="onChange" checked />
     </p>
 
     <p>
       Server Files:
-      <input
-        type="checkbox"
-        name="server"
-        id="server"
-        @change="onChange"
-        checked
-      />
+      <input type="checkbox" name="server" id="server" @change="onChange" checked />
     </p>
 
     <div class="language-sh vp-adaptive-theme">
-      <button title="Copy Code" class="copy"></button
-      ><span class="lang">sh</span>
+      <button title="Copy Code" class="copy"></button><span class="lang">sh</span>
       <div v-html="output"></div>
     </div>
   </div>
 </template>
 
 <script>
-import mcextract from "../mcextract.json";
+import mcextract from "../data/mcextract.json";
 import { codeToHtml } from "shiki";
 
 export default {
@@ -65,13 +52,10 @@ export default {
     getCLI(version, server = true, client = true) {
       const ver = this.versions.find((x) => x.version === version);
       if (ver) {
-        return `mcextract extract ${ver.jar} ${client ? "--assets " : ""}${
-          server ? "--data " : ""
-        }-eula\nmcextract map ${
-          ver.index
-        } -eula\nmcextract generate ${version} ${client ? "--client " : ""}${
-          server ? "--server " : ""
-        }--reports -eula`;
+        return `mcextract extract ${ver.jar} ${client ? "--assets " : ""}${server ? "--data " : ""
+          }-eula\nmcextract map ${ver.index
+          } -eula\nmcextract generate ${version} ${client ? "--client " : ""}${server ? "--server " : ""
+          }--reports -eula`;
       }
       return "mcextract -h"; // Version not found.
     },
@@ -97,6 +81,7 @@ export default {
   padding: 1px 10px;
   margin: 10px 0;
 }
+
 select {
   display: inline;
   min-width: 200px;

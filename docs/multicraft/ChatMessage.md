@@ -1,5 +1,5 @@
 ---
-title: ChatMessage | multicraft
+title: ChatMessage | multicraft Documentation
 description: Interact with your Minecraft server from hosts that use Multicraft using Python
 keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---

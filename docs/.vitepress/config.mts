@@ -1,9 +1,21 @@
 import { HeadConfig, defineConfig } from "vitepress";
+
+import gradleGrammar from "./theme/syntaxes/gradle.tmLanguage.json";
 import mcfunctionGrammar from "./theme/syntaxes/mcfunction.tmLanguage.json";
 import snbtGrammar from "./theme/syntaxes/snbt.tmLanguage.json";
 import langGrammar from "./theme/syntaxes/lang.tmLanguage.json";
 import molangGrammar from "./theme/syntaxes/molang.tmLanguage.json";
 import mcscriptGrammar from "./theme/syntaxes/mcscript.tmLanguage.json";
+
+function getIcon(path, icons) {
+  const s = "/" + path.replace("\\", "/");
+  for (const [key, value] of Object.entries(icons)) {
+    if (s.includes(key)) {
+      return value;
+    }
+  }
+  return undefined;
+}
 
 // register
 // "SoftwareFileSize",
@@ -14,7 +26,7 @@ export default defineConfig({
   title: "Legopitstop Docs",
   description: "Documentation for all my projects",
   head: [
-    ["link", { rel: "shortcut icon", href: "/favicon.ico" }],
+    // ["link", { rel: "shortcut icon", href: "/favicon.ico" }],
     // Google AdSense
     [
       "script",
@@ -25,7 +37,10 @@ export default defineConfig({
       },
     ],
 
-    // SEO
+    // Manifest
+    ["link", { rel: "manifest", href: "/site.webmanifest" }],
+
+    // Global SEO
     ["meta", { name: "theme-color", content: "#ff8800" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:url", content: "https://docs.lpsmods.dev/" }],
@@ -38,12 +53,15 @@ export default defineConfig({
   ],
   transformPageData(pageData) {
     pageData.titleTemplate = ":title";
+
     if (pageData.frontmatter.redirect) {
+      var url = pageData.frontmatter.redirect.replace(".md", "");
+      pageData.title = "Redirecting…";
       var head = [
         "meta",
         {
           "http-equiv": "refresh",
-          content: `0; url=${pageData.frontmatter.redirect}`,
+          content: `0; url=${url}`,
         },
       ];
       if (!pageData.frontmatter.head) {
@@ -52,11 +70,12 @@ export default defineConfig({
       pageData.frontmatter.head.push(head);
     }
   },
-  transformHead: ({ pageData }) => {
+  transformHead: ({ pageData, siteConfig, page }) => {
     const head: HeadConfig[] = [];
-    if (!pageData.frontmatter.logo) {
-      pageData.frontmatter.logo = "/favicon.ico";
-    }
+    // Per-page favicon
+    var icon = getIcon(page, siteConfig.userConfig.icon);
+    var favicon = icon ? icon.favicon : "/favicon.ico";
+    // Per-page SEO
     // Primary
     head.push([
       "meta",
@@ -66,10 +85,28 @@ export default defineConfig({
       "meta",
       { name: "keywords", content: pageData.frontmatter.keywords },
     ]);
-    head.push(["link", { rel: "icon", href: pageData.frontmatter.favicon }]);
+    // icons
     head.push([
       "link",
-      { rel: "shortcut icon", href: pageData.frontmatter.favicon },
+      {
+        rel: "apple-touch-icon",
+        type: "image/x-icon",
+        sizes: "256x256",
+        href: favicon,
+      },
+    ]);
+    head.push([
+      "link",
+      { rel: "icon", type: "image/x-icon", sizes: "256x256", href: favicon },
+    ]);
+    head.push([
+      "link",
+      {
+        rel: "shortcut icon",
+        type: "image/x-icon",
+        sizes: "256x256",
+        href: favicon,
+      },
     ]);
     // Open Graph / Facebook
     head.push([
@@ -104,17 +141,45 @@ export default defineConfig({
       langGrammar,
       molangGrammar,
       mcscriptGrammar,
+      gradleGrammar,
     ],
   },
   sitemap: {
     hostname: "https://docs.lpsmods.dev/",
   },
+
+  // NOTE: This is a custom property used in transformHead
+  icon: {
+    "/assetsplus/": { favicon: "/images/assetsplus/favicon.ico" },
+    "/bandage/": { favicon: "/images/bandage/favicon.ico" },
+    "/barked/": { favicon: "/images/barked/favicon.ico" },
+    "/basaltblocks/": { favicon: "/images/basaltblocks/favicon.ico" },
+    "/breaker/": { favicon: "/images/breaker/favicon.ico" },
+    "/bright/": { favicon: "/images/bright/favicon.ico" },
+    "/canned/": { favicon: "/images/canned/favicon.ico" },
+    "/lightning-bolt-glass/": {
+      favicon: "/images/lightning-bolt-glass/favicon.ico",
+    },
+    "/magnet/": { favicon: "/images/magnet/favicon.ico" },
+    "/moreblocks/": { favicon: "/images/moreblocks/favicon.ico" },
+    "/morefood/": { favicon: "/images/morefood/favicon.ico" },
+    "/moregold/": { favicon: "/images/moregold/favicon.ico" },
+    "/morehoney/": { favicon: "/images/morehoney/favicon.ico" },
+    "/morepumpkin/": { favicon: "/images/morepumpkin/favicon.ico" },
+    "/more_ss/": { favicon: "/images/more_ss/favicon.ico" },
+    "/poses/": { favicon: "/images/poses/favicon.ico" },
+    "/rcore/": { favicon: "/images/rcore/favicon.ico" },
+    "/record/": { favicon: "/images/record/favicon.ico" },
+    "/spawnercraft/": { favicon: "/images/spawnercraft/favicon.ico" },
+    "/tweaks_n_stuff/": { favicon: "/images/tweaks_n_stuff/favicon.ico" },
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // externalLinkIcon: true, disabled because of InvSlot.vue
     lastUpdated: {},
-    logo: "/images/logo.png",
+    logo: { src: "/images/logo.png", alt: "Logo" },
     footer: {
+      copyright: "2024 © Legopitstop",
       message: "Not associated with or approved by Mojang Studios or Microsoft",
     },
     nav: [
@@ -125,6 +190,7 @@ export default defineConfig({
           { text: "Python", link: "/python-docs" },
           { text: "Minecraft", link: "/minecraft-docs" },
           { text: "Misc", link: "/misc-docs" },
+          { text: "Blockbench Plugins", link: "/blockbench-plugins" },
         ],
       },
       {
@@ -137,6 +203,10 @@ export default defineConfig({
           {
             text: "How to Find .minecraft Folder",
             link: "/tutorials/how-to-find-minecraft-folder",
+          },
+          {
+            text: "How to Find com.mojang Folder",
+            link: "/tutorials/how-to-find-com.mojang-folder",
           },
           {
             text: "How to Find Pack Validation",
@@ -170,24 +240,35 @@ export default defineConfig({
     },
     sidebar: {
       // Python
-      "/accentcolordetect/": [
+      "/accentcolordetect": [
         {
           text: "accentcolordetect",
           base: "/accentcolordetect/",
           items: [
             { text: "Index", link: "/" },
-            { text: "Functions", link: "/functions" },
+            { text: "Functions", link: "/accentcolordetect/functions" },
           ],
         },
       ],
-      "/datapackutils/": [
+      "/mcpath": [
+        {
+          text: "mcpath",
+          base: "/mcpath/",
+          items: [
+            { text: "Index", link: "/" },
+            { text: "globals", link: "/globals" },
+            { text: "MCPath", link: "/MCPath" },
+          ],
+        },
+      ],
+      "/datapackutils": [
         {
           text: "datapackutils",
           base: "/datapackutils/",
           items: [{ text: "Index", link: "/" }],
         },
       ],
-      "/geysermc/": [
+      "/geysermc": [
         {
           text: "GeyserMC",
           base: "/geysermc/",
@@ -223,7 +304,7 @@ export default defineConfig({
           ],
         },
       ],
-      "/jsonpack/": [
+      "/jsonpack": [
         {
           text: "jsonpack",
           base: "/jsonpack/",
@@ -235,11 +316,29 @@ export default defineConfig({
           ],
         },
       ],
-      "/mcaddon/": [
+      "/mclang": [
+        {
+          text: "mclang",
+          base: "/mclang/",
+          items: [
+            { text: "Index", link: "/" },
+            { text: "globals", link: "/globals" },
+            { text: "Exceptions", link: "/Exceptions" },
+            {
+              text: "Classes",
+              items: [
+                { text: "Lang", link: "/Lang" },
+                { text: "LANGEncoder", link: "/LANGEncoder" },
+                { text: "LANGDecoder", link: "/LANGDecoder" },
+              ],
+            },
+          ],
+        },
+      ],
+      "/mcaddon": [
         {
           text: "mcaddon",
           base: "/mcaddon/",
-          docFooterText: "desc",
           items: [
             { text: "Index", link: "/" },
             { text: "Functions", link: "/functions" },
@@ -268,7 +367,7 @@ export default defineConfig({
           ],
         },
       ],
-      "/mcextract/": [
+      "/mcextract": [
         {
           text: "mcextract",
           base: "/mcextract/",
@@ -282,7 +381,7 @@ export default defineConfig({
           ],
         },
       ],
-      "/mojangskin/": [
+      "/mojangskin": [
         {
           text: "mojangskin",
           base: "/mojangskin/",
@@ -301,7 +400,7 @@ export default defineConfig({
           ],
         },
       ],
-      "/molang/": [
+      "/molang": [
         {
           text: "molang",
           base: "/molang/",
@@ -312,12 +411,13 @@ export default defineConfig({
           ],
         },
       ],
-      "/multicraft/": [
+      "/multicraft": [
         {
           text: "multicraft",
           base: "/multicraft/",
           items: [
             { text: "Index", link: "/" },
+            { text: "Known Hosts", link: "/Known_Hosts" },
             { text: "Constants", link: "/constants" },
             { text: "Functions", link: "/functions" },
             {
@@ -343,7 +443,7 @@ export default defineConfig({
           ],
         },
       ],
-      "/serverjars/": [
+      "/serverjars": [
         {
           text: "serverjars",
           base: "/serverjars/",
@@ -374,7 +474,7 @@ export default defineConfig({
           ],
         },
       ],
-      "/tkinterplus/": [
+      "/tkinterplus": [
         {
           text: "TkinterPlus",
           base: "/tkinterplus/",
@@ -500,7 +600,7 @@ export default defineConfig({
           ],
         },
       ],
-      "/userfolder/": [
+      "/userfolder": [
         {
           text: "UserFolder",
           base: "/userfolder/",
@@ -526,7 +626,7 @@ export default defineConfig({
         },
       ],
       // Minecraft
-      "/assetsplus/": [
+      "/assetsplus": [
         {
           text: "Assets+",
           base: "/assetsplus/",
@@ -538,7 +638,7 @@ export default defineConfig({
           ],
         },
       ],
-      "/dataplus/": [
+      "/dataplus": [
         {
           text: "Data+",
           base: "/dataplus/",
@@ -571,7 +671,7 @@ export default defineConfig({
           ],
         },
       ],
-      "/morenbt/": [
+      "/morenbt": [
         {
           text: "morenbt",
           base: "/morenbt/",
@@ -640,7 +740,7 @@ export default defineConfig({
           ],
         },
       ],
-      "/recordapi/": [
+      "/recordapi": [
         {
           text: "recordapi",
           base: "/recordapi/",
@@ -653,7 +753,7 @@ export default defineConfig({
           ],
         },
       ],
-      "/lightning-bolt-glass/": [
+      "/lightning-bolt-glass": [
         {
           text: "Lightning Bolt Glass",
           base: "/lightning-bolt-glass/",
@@ -665,7 +765,7 @@ export default defineConfig({
           ],
         },
       ],
-      "/rcore/": [
+      "/rcore": [
         {
           text: "LPS Rcore API",
           base: "/rcore/",
@@ -696,11 +796,11 @@ export default defineConfig({
                 },
               ],
             },
-            // { text: "Generator", link: "/generator" },
+            { text: "Generator", link: "/generator" },
           ],
         },
       ],
-      "/poses/": [
+      "/poses": [
         {
           text: "Armor Stand Poses",
           base: "/poses/",
@@ -709,11 +809,11 @@ export default defineConfig({
             { text: "Data-Driven", link: "/data-driven" },
             { text: "Pose Format", link: "/pose-format" },
             { text: "Built-in Poses", link: "/builtin-poses" },
-            // { text: "Generator", link: "/generator" },
+            { text: "Generator", link: "/generator" },
           ],
         },
       ],
-      "/spawner-craft/": [
+      "/spawner-craft": [
         {
           text: "Spawner Craft",
           base: "/spawner-craft/",
@@ -727,70 +827,215 @@ export default defineConfig({
           ],
         },
       ],
-      "/magnet/": [
+      "/magnet": [
         {
           text: "Simple Magnets",
           base: "/magnet/",
           items: [
             { text: "Index", link: "/" },
-            { text: "Blocks", link: "/blocks" },
-            { text: "Items", link: "/items" },
+            {
+              text: "Blocks",
+              collapsed: true,
+              items: [
+                { text: "Iron Magnet Block", link: "./Magnet_Block.md#iron" },
+                { text: "Gold Magnet Block", link: "./Magnet_Block.md#gold" },
+                {
+                  text: "Copper Magnet Block",
+                  link: "./Magnet_Block.md#copper",
+                },
+                {
+                  text: "Diamond Magnet Block",
+                  link: "./Magnet_Block.md#diamond",
+                },
+                {
+                  text: "Netherite Magnet Block",
+                  link: "./Magnet_Block.md#netherite",
+                },
+              ],
+            },
+            {
+              text: "Items",
+              collapsed: true,
+              items: [
+                { text: "Iron Magnet", link: "./Magnet.md#iron" },
+                { text: "Gold Magnet", link: "./Magnet.md#gold" },
+                { text: "Copper Magnet", link: "./Magnet.md#copper" },
+                { text: "Diamond Magnet", link: "./Magnet.md#diamond" },
+                { text: "Netherite Magnet", link: "./Magnet.md#netherite" },
+              ],
+            },
           ],
         },
       ],
-      "/breaker/": [
+      "/breaker": [
         {
           text: "Ultimate Block Breaker",
           base: "/breaker/",
           items: [
             { text: "Index", link: "/" },
-            { text: "Blocks", link: "/blocks" },
-            { text: "Items", link: "/items" },
+            {
+              text: "Blocks",
+              collapsed: true,
+              items: [
+                {
+                  text: "Wooden Breaker Block",
+                  link: "./Block_Breaker.md#wooden",
+                },
+                {
+                  text: "Stone Breaker Block",
+                  link: "./Block_Breaker.md#stone",
+                },
+                { text: "Iron Breaker Block", link: "./Block_Breaker.md#iron" },
+                { text: "Gold Breaker Block", link: "./Block_Breaker.md#gold" },
+                {
+                  text: "Diamond Breaker Block",
+                  link: "./Block_Breaker.md#diamond",
+                },
+                {
+                  text: "Netherite Breaker Block",
+                  link: "./Block_Breaker.md#netherite",
+                },
+              ],
+            },
+            {
+              text: "Items",
+              collapsed: true,
+              items: [
+                {
+                  text: "Stone Breaker Upgrade",
+                  link: "./Breaker_Upgrade.md#stone",
+                },
+                {
+                  text: "Iron Breaker Upgrade",
+                  link: "./Breaker_Upgrade.md#iron",
+                },
+                {
+                  text: "Gold Breaker Upgrade",
+                  link: "./Breaker_Upgrade.md#gold",
+                },
+                {
+                  text: "Diamond Breaker Upgrade",
+                  link: "./Breaker_Upgrade.md#diamond",
+                },
+                {
+                  text: "Netherite Breaker Upgrade",
+                  link: "./Breaker_Upgrade.md#netherite",
+                },
+              ],
+            },
           ],
         },
       ],
-      "/moreblocks/": [
+      "/moreblocks": [
         {
           text: "More Blocks",
           base: "/moreblocks/",
           items: [
             { text: "Index", link: "/" },
-            { text: "Blocks", link: "/blocks" },
+            { text: "Blocks", items: [{ text: "Layer", link: "./Layer.md" }] },
           ],
         },
       ],
-      "/morepumpkin/": [
+      "/morepumpkin": [
         {
           text: "More Pumpkins",
           base: "/morepumpkin/",
           items: [
             { text: "Index", link: "/" },
-            { text: "Blocks", link: "/blocks" },
+            {
+              text: "Blocks",
+              collapsed: true,
+              items: [
+                { text: "Carved Pumpkin", link: "./Carved_Pumpkin.md" },
+                { text: "Jack o'Lantern", link: "./Jack_o_Lantern.md" },
+                {
+                  text: "Soul Jack o'Lantern",
+                  link: "./Soul_Jack_o_Lantern.md",
+                },
+              ],
+            },
           ],
         },
       ],
-      "/morehoney/": [
+      "/barked": [
+        {
+          text: "Barked",
+          base: "/barked/",
+          items: [
+            { text: "Index", link: "/" },
+            {
+              text: "Items",
+              collapsed: true,
+              items: [
+                { text: "Bark", link: "./Bark.md" },
+                { text: "Stipe", link: "./Stipe.md" },
+                { text: "Sheath", link: "./Sheath.md" },
+              ],
+            },
+          ],
+        },
+      ],
+      "/morehoney": [
         {
           text: "More Honey",
           base: "/morehoney/",
           items: [
             { text: "Index", link: "/" },
-            { text: "Blocks", link: "/Blocks" },
-            { text: "Items", link: "/Items" },
+            {
+              text: "Blocks",
+              collapsed: true,
+              items: [{ text: "Honey Press", link: "./Honey_Press.md" }],
+            },
+            {
+              text: "Items",
+              collapsed: true,
+              items: [
+                { text: "Honey Cooked Beef", link: "./Honey_Cooked_Beef.md" },
+                {
+                  text: "Honey Cooked Chicken",
+                  link: "./Honey_Cooked_Chicken.md",
+                },
+                {
+                  text: "Honey Cooked Mutton",
+                  link: "./Honey_Cooked_Mutton.md",
+                },
+                {
+                  text: "Honey Cooked Porkchop",
+                  link: "./Honey_Cooked_Porkchop.md",
+                },
+                { text: "Honey Cookie", link: "./Honey_Cookie.md" },
+                { text: "Honey Lemon Tea", link: "./Honey_Lemon_Tea.md" },
+                { text: "Honey Pancakes", link: "./Honey_Pancakes.md" },
+                { text: "Honey Sandwich", link: "./Honey_Sandwich.md" },
+                { text: "Honey Toastie", link: "./Honey_Toastie.md" },
+                { text: "Honey Waffle", link: "./Honey_Waffle.md" },
+              ],
+            },
           ],
         },
       ],
-      "/moregold/": [
+      "/moregold": [
         {
           text: "More Gold",
           base: "/moregold/",
           items: [
             { text: "Index", link: "/" },
-            { text: "Items", link: "/Items" },
+            {
+              text: "Items",
+              collapsed: true,
+              items: [
+                { text: "Golden Banana", link: "./Golden_Banana.md" },
+                { text: "Golden Fruit Seeds", link: "./Golden_Fruit_Seeds.md" },
+                { text: "Golden Grape", link: "./Golden_Grape.md" },
+                { text: "Golden Lemon", link: "./Golden_Lemon.md" },
+                { text: "Golden Orange", link: "./Golden_Orange.md" },
+                { text: "Golden Strawberry", link: "./Golden_Strawberry.md" },
+              ],
+            },
           ],
         },
       ],
-      "/morefood/": [
+      "/morefood": [
         {
           text: "Lot's More Food",
           base: "/morefood/",
@@ -805,7 +1050,10 @@ export default defineConfig({
               base: "/morefood/component/",
               collapsed: true,
               items: [
-                { text: "PottedFlowerComponent", link: "/PottedFlowerComponent" },
+                {
+                  text: "PottedFlowerComponent",
+                  link: "/PottedFlowerComponent",
+                },
                 { text: "PottableComponent", link: "/PottableComponent" },
                 { text: "MintyComponent", link: "/MintyComponent" },
                 { text: "MREComponent", link: "/MREComponent" },
@@ -824,19 +1072,62 @@ export default defineConfig({
           ],
         },
       ],
-      "/bandage/": [
+      "/bandage": [
         {
           text: "Bandage",
           base: "/bandage/",
           items: [
             { text: "Index", link: "/" },
-            { text: "Items", link: "/items" },
             { text: "Item Format", link: "/item-format" },
+            {
+              text: "Items",
+              collapsed: true,
+              items: [{ text: "Bandage", link: "/Bandage.md" }],
+            },
+          ],
+        },
+      ],
+      "/canned": [
+        {
+          text: "Canned",
+          base: "/canned/",
+          items: [
+            { text: "Index", link: "/" },
+            {
+              text: "Items",
+              collapsed: true,
+              items: [{ text: "Can Opener", link: "/Can_Opener.md" }],
+            },
+            {
+              text: "Blocks",
+              collapsed: true,
+              items: [{ text: "Can", link: "/Can.md" }],
+            },
+          ],
+        },
+      ],
+      "/bright": [
+        {
+          text: "Bright",
+          base: "/bright/",
+          items: [
+            { text: "Index", link: "/" },
+            {
+              text: "Blocks",
+              collapsed: true,
+              items: [
+                { text: "Candle Stick", link: "/Candle_Stick.md" },
+                { text: "Ceiling Light", link: "/Ceiling_Light.md" },
+                { text: "Floor Light", link: "/Floor_Light.md" },
+                { text: "Light Bulb", link: "/Light_Bulb.md" },
+                { text: "Light Fixture", link: "/Light_Fixture.md" },
+              ],
+            },
           ],
         },
       ],
       // Misc
-      "/recipe-display/": [
+      "/recipe-display": [
         {
           text: "Recipe Display",
           base: "/recipe-display/",
@@ -846,7 +1137,7 @@ export default defineConfig({
           ],
         },
       ],
-      "/update-checker/": [
+      "/update-checker": [
         {
           text: "Update Checker",
           base: "/update-checker/",
@@ -866,7 +1157,7 @@ export default defineConfig({
           ],
         },
       ],
-      "/lpsmods/": [
+      "/lpsmods": [
         {
           text: "lpsmods Docs",
           base: "/lpsmods/",
@@ -898,6 +1189,41 @@ export default defineConfig({
           ],
         },
       ],
+      "/tweaks_n_stuff": [
+        {
+          text: "Tweaks & Stuff",
+          base: "/tweaks_n_stuff/",
+          items: [
+            { text: "Index", link: "/" },
+            {
+              text: "Tweaks",
+              collapsed: false,
+              items: [
+                { text: "Header Color", link: "/header_color" },
+                { text: "Wrap Tabs", link: "/wrap_tabs" },
+                { text: "Image Exporter", link: "/image_exporter" },
+                { text: "Close Actions", link: "/close_actions" },
+              ],
+            },
+            {
+              text: "Documentation",
+              base: '/tweaks_n_stuff/docs/',
+              collapsed: false,
+              items: [
+                { text: "Creating a Tweak", link: "/tweak" },
+              ],
+            },
+            {
+              text: "API Reference",
+              base: '/tweaks_n_stuff/api/',
+              collapsed: false,
+              items: [
+                { text: "Tweak", link: "/Tweak" },
+              ],
+            },
+          ],
+        },
+      ],
       "/": [
         {
           text: "Documentation",
@@ -906,15 +1232,31 @@ export default defineConfig({
             { text: "Minecraft", link: "/minecraft-docs" },
             { text: "Misc", link: "/misc-docs" },
             { text: "Tutorials", link: "/tutorials" },
+            { text: "Blockbench Plugins", link: "/blockbench-plugins" },
           ],
         },
       ],
     },
-
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/legopitstop/docs.lpsmods.dev",
+        link: "https://github.com/legopitstop",
+      },
+      {
+        icon: "twitter",
+        link: "https://x.com/legopitstop",
+      },
+      {
+        icon: "instagram",
+        link: "https://instagram.com/legopitstop",
+      },
+      {
+        icon: "youtube",
+        link: "https://www.youtube.com/c/@legopitstop",
+      },
+      {
+        icon: "discord",
+        link: "https://lnk.lpsmods.dev/discord",
       },
     ],
   },

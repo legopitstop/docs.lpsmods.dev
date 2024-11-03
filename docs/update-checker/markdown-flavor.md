@@ -1,5 +1,5 @@
 ---
-title: Markdown Flavor | Update Checker
+title: Markdown Flavor | Update Checker Documentation
 description: Check to see if you have the latest version of a pack installed.
 keywords: legopitstop,minecraft,website,updatechecker,updater,customizable,free,premium,json
 ---

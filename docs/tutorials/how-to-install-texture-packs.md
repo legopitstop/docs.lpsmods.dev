@@ -1,8 +1,6 @@
 ---
 title: How to Install Resource Packs
 description: Step-by-step instructions on how to install resource packs for Minecraft Java Edition
-prev: false
-next: false
 ---
 
 # How to Install Resource Packs

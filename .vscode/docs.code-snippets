@@ -1,8 +1,40 @@
 {
+  "VersionTable": {
+    "scope": "md,markdown",
+    "prefix": "table-version",
+    "body": [
+      "|                   | ${1:v1.0.0} |",
+      "| ----------------- | ------ |",
+      "| Edition           | $2      |",
+      "| Official Name     | $3      |",
+      "| Minecraft Version | $4      |",
+      "| Release Date      | $5      |",
+      "| Download          | $0      |"
+    ]
+  },
   "Doc": {
     "scope": "md,markdown",
     "prefix": "doc",
-    "body": ["---", "title: $0", "---", "", "# $0", ""]
+    "body": [
+      "---",
+      "title: $1",
+      "description: ${0:desc}",
+      "---",
+      "",
+      "# $1",
+      ""
+    ]
+  },
+  "Redirect": {
+    "scope": "md,markdown",
+    "prefix": "redirect",
+    "body": [
+      "---",
+      "title: Redirecting…",
+      "redirect: ./${0}",
+      "---",
+      ""
+    ]
   },
   "Class": {
     "scope": "md,markdown",
@@ -68,32 +100,61 @@
   "Undocumented": {
     "scope": "md,markdown",
     "prefix": "undocumented",
-    "body": ["---", "title: $0", "---", "", "# $0", "", "undocumented", ""]
+    "body": [
+      "---",
+      "title: $0",
+      "---",
+      "",
+      "# $0",
+      "",
+      "undocumented",
+      ""
+    ]
   },
   "ContainerInfo": {
     "scope": "md,markdown",
     "prefix": "container.info",
-    "body": ["::: info", "$0", ":::"]
+    "body": [
+      "::: info",
+      "$0",
+      ":::"
+    ]
   },
   "ContainerTip": {
     "scope": "md,markdown",
     "prefix": "container.tip",
-    "body": ["::: tip", "$0", ":::"]
+    "body": [
+      "::: tip",
+      "$0",
+      ":::"
+    ]
   },
   "ContainerWarning": {
     "scope": "md,markdown",
     "prefix": "container.warning",
-    "body": ["::: warning", "$0", ":::"]
+    "body": [
+      "::: warning",
+      "$0",
+      ":::"
+    ]
   },
   "ContainerDanger": {
     "scope": "md,markdown",
     "prefix": "container.danger",
-    "body": ["::: danger", "$0", ":::"]
+    "body": [
+      "::: danger",
+      "$0",
+      ":::"
+    ]
   },
   "ContainerDetails": {
     "scope": "md,markdown",
     "prefix": "container.details",
-    "body": ["::: details", "$0", ":::"]
+    "body": [
+      "::: details",
+      "$0",
+      ":::"
+    ]
   },
   "ContainerOutdated": {
     "scope": "md,markdown",
@@ -107,27 +168,39 @@
   "BadgeInfo": {
     "scope": "md,markdown",
     "prefix": "badge.info",
-    "body": ["<Badge type=\"info\" text=\"$0\" />"]
+    "body": [
+      "<Badge type=\"info\" text=\"$0\" />"
+    ]
   },
   "BadgeTip": {
     "scope": "md,markdown",
     "prefix": "badge.tip",
-    "body": ["<Badge type=\"tip\" text=\"$0\" />"]
+    "body": [
+      "<Badge type=\"tip\" text=\"$0\" />"
+    ]
   },
   "BadgeWarning": {
     "scope": "md,markdown",
     "prefix": "badge.warning",
-    "body": ["<Badge type=\"warning\" text=\"$0\" />"]
+    "body": [
+      "<Badge type=\"warning\" text=\"$0\" />"
+    ]
   },
   "BadgeDanger": {
     "scope": "md,markdown",
     "prefix": "badge.danger",
-    "body": ["<Badge type=\"danger\" text=\"$0\" />"]
+    "body": [
+      "<Badge type=\"danger\" text=\"$0\" />"
+    ]
   },
   "BrewingRecipe": {
     "scope": "md,markdown",
     "prefix": "recipe.brewing",
-    "body": ["<BrewingRecipe", "input=\"$1\"", "output=\"$0\"/>"]
+    "body": [
+      "<BrewingRecipe",
+      "input=\"$1\"",
+      "output=\"$0\"/>"
+    ]
   },
   "ShapedRecipe": {
     "scope": "md,markdown",
@@ -185,7 +258,9 @@
   "InvSlot": {
     "scope": "md,markdown",
     "prefix": "invslot",
-    "body": ["<InvSlot item=\"$1\" :count=\"${0:1}\"/>"]
+    "body": [
+      "<InvSlot id=\"$1\" :count=\"${0:1}\"/>"
+    ]
   },
   "Function": {
     "scope": "md,markdown",
@@ -218,12 +293,22 @@
   "ImportCodeSnippet": {
     "scope": "md,markdown",
     "prefix": "importCodeSnippet",
-    "body": ["<<< @/filepath"]
+    "body": [
+      "<<< @/filepath"
+    ]
   },
   "CodeGroup": {
     "scope": "md,markdown",
     "prefix": "codegroup",
-    "body": ["::: code-group", "", "```$1", "$0", "```", "", ":::"]
+    "body": [
+      "::: code-group",
+      "",
+      "```$1",
+      "$0",
+      "```",
+      "",
+      ":::"
+    ]
   },
   "mc-item": {
     "scope": "md,markdown",
@@ -287,6 +372,21 @@
       "|                 | Fabric Edition |",
       "| --------------- | -------------- |",
       "| Initial release | Added ${1}     |"
+    ]
+  },
+  "Variants": {
+    "scope": "md,markdown",
+    "prefix": "Variants",
+    "body": [
+      "## Variants",
+      "",
+      "There are ${0} variants of ${1}:",
+      "",
+      "::: details Show all variants",
+      "",
+      "${2}",
+      "",
+      ":::"
     ]
   }
 }

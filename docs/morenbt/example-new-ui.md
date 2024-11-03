@@ -1,5 +1,5 @@
 ---
-title: Example New UI
+title: Example New UI | More NBT Tags Documentation
 description: Add new NBT Tags to make customization easier!
 keywords: legopitstop,minecraft,datapack,customizable,mod
 ---

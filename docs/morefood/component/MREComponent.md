@@ -1,29 +1,37 @@
 ---
-title: MREComponent | Lot's More Food
+title: MREComponent | Lot's More Food Documentation
 ---
 
-# MREComponent
+# MREComponent Class
 
 ## Parameters
 
-| Name       | Type | Description |
-| ---------- | ---- | ----------- |
-| `arg_name` |      |             |
+| Name    | Type   | Default | Description                |
+| ------- | ------ | ------- | -------------------------- |
+| `table` | String | `mre`   | The loot table to generate |
 
 ## Methods
 
-- [name](#name)
+- [onUse](#onuse)
 
-### name
-
-#### Parameters
-
-| Name   | Type | Description |
-| ------ | ---- | ----------- |
-| `name` |      |             |
+### onUse
 
 ## Example
 
-```py
+```js
+new MREComponent("mre");
+```
 
+```json
+{
+  "format_version": "1.21.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_mre"
+    },
+    "component": {
+      "minecraft:custom_components": ["wiki:custom_mre"]
+    }
+  }
+}
 ```

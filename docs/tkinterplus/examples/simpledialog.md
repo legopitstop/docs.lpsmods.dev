@@ -1,7 +1,7 @@
 ---
-title: SimpleDialog | TkinterPlus
+title: SimpleDialog Example | TkinterPlus
 ---
 
-# SimpleDialog
+# SimpleDialog Example
 
 <<< @/public/examples/simpledialog.py

@@ -1,11 +1,11 @@
 ---
-title: Honey Lemon Tea | More Honey
-description: Ever thought that Minecraft needed more honey food? Then this is your mod! This mod adds more than 5+ honey foods. Use it to replenish those health and hunger points and have some good buffs.
+title: Honey Lemon Tea | More Honey Mod Wiki
+description: Honey Lemon Tea is a consumable drink item. Honey Lemon Tea can remove Poison when ate.
 ---
 
 # Honey Lemon Tea
 
-**Honey Lemon Tea** is a consumable food item. Honey Cookies can remove Poison when ate.
+**Honey Lemon Tea** is a consumable drink item. Honey Cookies can remove Poison when ate.
 
 ## Obtaining
 

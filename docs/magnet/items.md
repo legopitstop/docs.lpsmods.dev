@@ -1,38 +1,12 @@
 ---
-title: Items | Simple Magnets
-description: Adds simple magnet items and blocks to make gathering dropped items easier. Upgrade your magnet to make it reach further out. Use the magnet blocks to gather items from your mob farm instead of using tons of hoppers!
+title: Items | Simple Magnets Mod Wiki
+description: A list of all items Simple Magnets adds.
 ---
 
 # Items
 
-## Iron Magnet
-
-<ShapedRecipe
-a1="red_dye" b1="" c1="blue_dye"
-a2="iron_ingot" b2="" c2="iron_ingot"
-a3="iron_ingot" b3="iron_ingot" c3="iron_ingot"
-output="magnet:iron_magnet"/>
-
-## Gold Magnet
-
-<ShapelessRecipe
-:ingredients="['magnet:iron_magnet', 'gold_ingot']"
-output="magnet:gold_magnet"/>
-
-## Copper Magnet
-
-<ShapelessRecipe
-:ingredients="['magnet:gold_magnet', 'copper_ingot']"
-output="magnet:copper_magnet"/>
-
-## Diamond Magnet
-
-<ShapelessRecipe
-:ingredients="['magnet:copper_magnet', 'diamond']"
-output="magnet:diamond_magnet"/>
-
-## Netherite Magnet
-
-<ShapelessRecipe
-:ingredients="['magnet:diamond_magnet', 'netherite_ingot']"
-output="magnet:netherite_magnet"/>
+- [Iron Magnet](Magnet.md#iron)
+- [Gold Magnet](Magnet.md#gold)
+- [Copper Magnet](Magnet.md#copper)
+- [Diamond Magnet](Magnet.md#diamond)
+- [Netherite Magnet](Magnet.md#netherite)

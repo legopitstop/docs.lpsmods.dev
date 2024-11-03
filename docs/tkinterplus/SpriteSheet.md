@@ -1,10 +1,10 @@
 ---
-title: SpriteSheet | TkinterPlus
+title: SpriteSheet Class | TkinterPlus Documentation
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
 keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
-# SpriteSheet
+# SpriteSheet Class
 
 ## Parameters
 

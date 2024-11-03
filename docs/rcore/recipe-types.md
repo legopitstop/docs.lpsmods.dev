@@ -1,5 +1,5 @@
 ---
-title: Recipe Types | LPS Rcore API
+title: Recipe Types | LPS Rcore API Documentation
 description: We are currently working on changing up the entire API system. Hopefully, it will be released soon! For now you can see the up-coming changes to the API.
 keywords: legopitstop,minecraft,mod,datapack,resroucepack,morenbt,nbt,data
 ---
@@ -131,9 +131,9 @@ This is an expanded view of the item and should be on one line.
 ## Custom Type
 
 1. Create a MCFUNCTION file in your datapack called `recipe_types.mcfunction`. This file can be located anywhere in your datapack.
-2. Now using the [NBT Schema](#recipe-type-schema) and [examples](./example-recipe-types.md) from below you can add all your recipe types to the created recipe_types.mcfunction.
-3. You now need to create a function tag located `data/rcore/tags/functions/register_recipe_types.json` and enter the path to your recipe types function.
-4. Now in-game run `/reload` to reload your datapack. Then run `/function rcore:reload` to reload all recipe types
+1. Now using the [NBT Schema](#recipe-type-schema) and [examples](./example-recipe-types.md) from below you can add all your recipe types to the created recipe_types.mcfunction.
+1. You now need to create a function tag located `data/rcore/tags/functions/register_recipe_types.json` and enter the path to your recipe types function.
+1. Now in-game run `/reload` to reload your datapack. Then run `/function rcore:reload` to reload all recipe types
 
 ### Recipe Type Schema
 

@@ -1,13 +1,7 @@
 ---
-title: datapackutils
+title: datapackutils Documentation
 description: Utility functions for creating Minecraft datapacks.
 keywords: legopitstop,python,minecraft,pypi,util,datapack,pythonpackage
-prev:
-  text: accentcolordetect
-  link: /accentcolordetect/
-next:
-  text: jsonpack
-  link: /jsonpack/
 ---
 
 # datapackutils
@@ -19,3 +13,13 @@ Utility functions for creating Minecraft datapacks.
 - :pie: [PyPI](https://pypi.org/project/datapackutils)
 - :file_folder: [Download](https://github.com/legopitstop/datapackutils/releases)
 - :gear: [Source Code](https://github.com/legopitstop/datapackutils)
+
+## Installation
+
+Install the module with pip:
+
+```bat
+pip3 install datapackutils
+```
+
+Update existing installation: `pip3 install datapackutils --upgrade`

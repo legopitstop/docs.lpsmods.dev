@@ -1,29 +1,44 @@
 ---
-title: PourableComponent | Lot's More Food
+title: PourableComponent | Lot's More Food Documentation
 ---
 
-# PourableComponent
+# PourableComponent Class
 
 ## Parameters
 
-| Name       | Type | Description |
-| ---------- | ---- | ----------- |
-| `arg_name` |      |             |
+| Name         | Type   | Description    |
+| ------------ | ------ | -------------- |
+| `emptyItem`  | String | The empty item |
+| `filledItem` | String | The fill item  |
 
 ## Methods
 
-- [name](#name)
+- [onUse](#onuse)
+- [pour](#pour)
+- [canPour](#canpour)
 
-### name
+### onUse
 
-#### Parameters
+### pour
 
-| Name   | Type | Description |
-| ------ | ---- | ----------- |
-| `name` |      |             |
+### canPour
 
 ## Example
 
-```py
+```js
+new PourableComponent("minecraft:bucket", "minecraft:milk_bucket");
+```
 
+```json
+{
+  "format_version": "1.21.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_pourable"
+    },
+    "component": {
+      "minecraft:custom_components": ["wiki:custom_pourable"]
+    }
+  }
+}
 ```

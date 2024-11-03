@@ -1,5 +1,5 @@
 ---
-title: Notification | TkinterPlus
+title: Notification Widget | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
 keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
@@ -8,7 +8,7 @@ keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 This widget is experimental
 :::
 
-# Notification <Badge type="warning" text="Experimental" />
+# Notification Widget <Badge type="warning" text="Experimental" />
 
 ## Parameters
 

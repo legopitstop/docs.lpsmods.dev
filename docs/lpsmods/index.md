@@ -1,10 +1,6 @@
 ---
-title: lpsmods.dev Docs
+title: lpsmods.dev Documentation
 description: desc
-prev:
-  text: Update Checker
-  link: /update-checker/
-next: false
 ---
 
 # lpsmods.dev Docs

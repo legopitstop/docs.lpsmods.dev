@@ -1,10 +1,10 @@
 ---
-title: CodeBlock | TkinterPlus
+title: CodeBlock Widget | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
 keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
-# CodeBlock <Badge type="warning" text="Experimental" />
+# CodeBlock Widget <Badge type="warning" text="Experimental" />
 
 ::: warning
 This widget is experimental

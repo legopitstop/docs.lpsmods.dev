@@ -1,15 +1,19 @@
 ---
-title: Lot's More Food
+title: Lot's More Food Documentation
 keywords: legopitstop,minecraft,mod,lotsmorefood,morefood,datapack,resourcepack,fabricmc,forge,add-on
-prev:
-  text: Ultimate Block Breaker
-  link: /breaker/
-next: false
 ---
 
 # Lot's More Food
 
 Adds over 200+ foods, tools, and items!
+
+## Technical Info
+
+| Key           | Value                                  |
+| ------------- | -------------------------------------- |
+| namespace     | `morefood`                             |
+| resource UUID | `4e098d16-f6b4-11e9-802a-5aa538984bd8` |
+| behavior UUID | `ee649bcf-256c-4013-9068-6a802b89d756` |
 
 ## Loaders
 

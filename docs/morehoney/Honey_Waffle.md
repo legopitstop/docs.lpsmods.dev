@@ -1,11 +1,11 @@
 ---
-title: Honey Waffle | More Honey
-description: Ever thought that Minecraft needed more honey food? Then this is your mod! This mod adds more than 5+ honey foods. Use it to replenish those health and hunger points and have some good buffs.
+title: Honey Waffle | More Honey Mod Wiki
+description: Honey Waffle is a consumable food item. Honey Waffle can remove Poison when ate.
 ---
 
 # Honey Waffle
 
-**Honey Waffle** is a consumable food item. Honey Cookies can remove Poison when ate.
+**Honey Waffle** is a consumable food item. Honey Waffle can remove Poison when ate.
 
 ## Obtaining
 

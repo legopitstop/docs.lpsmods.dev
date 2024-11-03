@@ -9,14 +9,14 @@ hero:
   actions:
     - theme: alt
       text: Python
-      link: /python-docs
+      link: /python-docs.md
     - theme: alt
       text: Minecraft
-      link: /minecraft-docs
+      link: /minecraft-docs.md
     - theme: alt
       text: Misc
-      link: /misc-docs
+      link: /misc-docs.md
     - theme: alt
       text: Tutorials
-      link: /tutorials
+      link: /tutorials.md
 ---

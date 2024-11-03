@@ -1,5 +1,5 @@
 ---
-title: Legacy Format | Lightning Bolt Glass
+title: Legacy Format | Lightning Bolt Glass Documentation
 ---
 
 # Legacy Format

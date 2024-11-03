@@ -1,10 +1,10 @@
 ---
-title: CanvasPlus | TkinterPlus
+title: CanvasPlus Widget | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
 keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
-# CanvasPlus <Badge type="warning" text="Experimental" />
+# CanvasPlus Widget <Badge type="warning" text="Experimental" />
 
 ::: warning
 This widget is experimental

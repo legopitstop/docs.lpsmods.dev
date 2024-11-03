@@ -1,13 +1,7 @@
 ---
-title: More NBT Tags
+title: More NBT Tags Documentation
 description: Add new NBT Tags to make customization easier!
 keywords: legopitstop,minecraft,datapack,customizable,mod
-prev:
-  text: More Honey
-  link: /more-honey/
-next:
-  text: More Pumpkins
-  link: /more-pumpkin/
 ---
 
 # More NBT Tags

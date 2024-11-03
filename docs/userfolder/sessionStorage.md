@@ -1,5 +1,5 @@
 ---
-title: sessionStorage | UserFolder
+title: sessionStorage | UserFolder Documentation
 description: This is a simple library that allows you to read, write and create files within your own folder inside the user folder `C:/User/USER/.python/PACKAGE_ID`
 keywords: legopitstop,python,pypi,folder,easy,filemanagment,pythonpackage,userfolder
 ---

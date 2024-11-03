@@ -1,10 +1,10 @@
 ---
-title: Slideshow | TkinterPlus
+title: Slideshow Widget | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
 keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
-# Slideshow <Badge type="warning" text="Experimental" />
+# Slideshow Widget <Badge type="warning" text="Experimental" />
 
 ::: warning
 This widget is experimental

@@ -1,16 +1,22 @@
 ---
-title: TallCropComponent | Lot's More Food
+title: TallCropComponent | Lot's More Food Documentation
 ---
 
-# TallCropComponent
+# TallCropComponent Class
+
+The custom behavior for Sweet Corn
+
+## Extends
+
+- [CropComponent](./CropComponent.md)
 
 ## Parameters
 
-| Name        | Type   | Default          | Description |
-| ----------- | ------ | ---------------- | ----------- |
-| `stateName` | String | `morefood:stage` |             |
-| `halfName`  | String | `morefood:half`  |             |
-| `maxStage`  | Number | `7`              |             |
+| Name        | Type   | Default          | Description                      |
+| ----------- | ------ | ---------------- | -------------------------------- |
+| `stateName` | String | `morefood:stage` | The name of the growth state     |
+| `halfName`  | String | `morefood:half`  | The name of the half block state |
+| `maxStage`  | Number | `7`              | The max growth stage             |
 
 ## Methods
 
@@ -43,4 +49,18 @@ title: TallCropComponent | Lot's More Food
 
 ```js
 new TallCropComponent("stage", "half", 7);
+```
+
+```json
+{
+  "format_version": "1.21.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_double_crop"
+    },
+    "component": {
+      "minecraft:custom_components": ["morefood:tall_crop"]
+    }
+  }
+}
 ```

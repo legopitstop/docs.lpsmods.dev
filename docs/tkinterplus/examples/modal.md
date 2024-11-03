@@ -1,7 +1,7 @@
 ---
-title: Modal | TkinterPlus
+title: Modal Example | TkinterPlus
 ---
 
-# Modal
+# Modal Example
 
 <<< @/public/examples/modal.py

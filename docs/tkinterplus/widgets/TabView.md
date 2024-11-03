@@ -1,10 +1,10 @@
 ---
-title: TabView | TkinterPlus
+title: TabView Widget | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
 keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
-# TabView <Badge type="warning" text="Experimental" />
+# TabView Widget <Badge type="warning" text="Experimental" />
 
 ::: warning
 This widget is experimental

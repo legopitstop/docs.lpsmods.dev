@@ -1,7 +1,7 @@
 ---
-title: Buttons | TkinterPlus
+title: Buttons Example | TkinterPlus
 ---
 
-# Buttons
+# Buttons Example
 
 <<< @/public/examples/buttons.py

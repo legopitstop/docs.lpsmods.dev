@@ -1,7 +1,7 @@
 ---
-title: Console | TkinterPlus
+title: Console Example | TkinterPlus
 ---
 
-# Console
+# Console Example
 
 <<< @/public/examples/console.py

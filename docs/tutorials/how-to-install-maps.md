@@ -1,11 +1,11 @@
 ---
 title: How to Install Maps
 description: Step-by-step instructions on how to install maps for Minecraft Java Edition
-prev: false
-next: false
 ---
 
 # How to Install Maps
+
+<!-- TODO: Needs screenshots -->
 
 Step-by-step instructions on how to install maps for [Minecraft: Java Edition](https://minecraft.wiki/w/Java_Edition)
 

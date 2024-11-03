@@ -1,10 +1,10 @@
 ---
-title: Canvas3d | TkinterPlus
+title: Canvas3d Widget | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
 keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
-# Canvas3d <Badge type="warning" text="Experimental" />
+# Canvas3d Widget <Badge type="warning" text="Experimental" />
 
 ::: warning
 This widget is experimental

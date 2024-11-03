@@ -1,10 +1,10 @@
 ---
-title: ShowProgress | TkinterPlus
+title: ShowProgress Class | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
 keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
-# ShowProgress
+# ShowProgress Class
 
 Construct a showprogress widget with the parent MASTER.
 

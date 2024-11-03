@@ -1,17 +1,20 @@
 ---
-title: Simple Magnets
-description: Adds simple magnet items and blocks to make gathering dropped items easier. Upgrade your magnet to make it reach further out. Use the magnet blocks to gather items from your mob farm instead of using tons of hoppers!
-prev:
-  text: Recore API
-  link: /recordapi/
-next:
-  text: Spawner Craft
-  link: /spawner-craft/
+title: Simple Magnets Mod Wiki
+description: This Minecraft mod adds simple magnet items and blocks to make gathering dropped items easier. Upgrade your magnet to make it reach further out. Use the magnet blocks to gather items from your mob farm instead of using tons of hoppers!
+keywords: legopitstop,minecraft,mod,add-on,simple magnets,magnets
 ---
 
 # Simple Magnets
 
-Adds simple magnet items and blocks to make gathering dropped items easier. Upgrade your magnet to make it reach further out. Use the magnet blocks to gather items from your mob farm instead of using tons of hoppers!
+This Minecraft mod adds simple magnet items and blocks to make gathering dropped items easier. Upgrade your magnet to make it reach further out. Use the magnet blocks to gather items from your mob farm instead of using tons of hoppers!
+
+## Technical Info
+
+| Key           | Value                                  |
+| ------------- | -------------------------------------- |
+| namespace     | `magnet`                               |
+| resource UUID | `16a46bd0-f937-4f63-88f3-c70280f6ffac` |
+| behavior UUID | `c626559c-6a9e-4851-9b97-0213a2650294` |
 
 ## Loaders
 

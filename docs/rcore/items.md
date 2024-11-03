@@ -1,25 +1,25 @@
 ---
-title: Items | LPS Rcore API
+title: Items | LPS Rcore API Documentation
 description: We are currently working on changing up the entire API system. Hopefully, it will be released soon! For now you can see the up-coming changes to the API.
 keywords: legopitstop,minecraft,mod,datapack,resroucepack,morenbt,nbt,data
 ---
 
 # Items
 
-"items" lets you register custom items with NBT data so you can easily reference them multiple times in [recipes](./recipes.md)
+"items" lets you register custom items with NBT data so you can easily reference them multiple times in [recipes](recipes.md)
 
 items are stored in `rcore:register items`.
 
 ::: info
-[crafting tables](./crafting-table.md) are automatically added to the items registry.
+[crafting tables](crafting-table.md) are automatically added to the items registry.
 :::
 
 ## Create Item
 
 1. Create a MCFUNCTION file in your datapack called `items.mcfunction`. This file can be located anywhere in your datapack.
-2. Now using the [NBT Schema](#item-schema) and [examples](./example-items.md) from below you can add all your items to the created items.mcfunction.
-3. You now need to create a function tag located `<pack>/data/rcore/tags/functions/register_items.json` and enter the path to your items function.
-4. Now in-game run `/reload` to reload your datapack. Then run `/function rcore:reload` to reload all items
+1. Now using the [NBT Schema](#item-schema) and [examples](example-items.md) from below you can add all your items to the created items.mcfunction.
+1. You now need to create a function tag located `<pack>/data/rcore/tags/functions/register_items.json` and enter the path to your items function.
+1. Now in-game run `/reload` to reload your datapack. Then run `/function rcore:reload` to reload all items
 
 ## Item Schema
 
