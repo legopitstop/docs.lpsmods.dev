@@ -1,5 +1,5 @@
 {
-  "links": [{ "namespace": "morepumpkin", "pattern": "/morepumpkin/:name" }],
+  "links": [{ "namespace": "morepumpkin", "pattern": "/more-pumpkins/:name" }],
   "items": [
     {
       "id": "morepumpkin:soul_jack_o_lantern",

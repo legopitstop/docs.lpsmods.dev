@@ -1,5 +1,5 @@
 {
-  "links": [{ "namespace": "morefood", "pattern": "./:name" }],
+  "links": [{ "namespace": "morefood", "pattern": "https://more-food.fandom.com/wiki/:name" }],
   "items": [
     {
       "id": "morefood:waffle",

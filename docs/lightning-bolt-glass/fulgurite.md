@@ -11,7 +11,7 @@ keywords: legopitstop,fulgurite,minecraft,fabricmc,mod,datapack,datadriven,custo
 
 ## Built-in Fulgurites
 
-Lightning bolt glass comes with 2 fulgurites. One for converting Sand -> Glass and another for converting Red Sand -> Orange Stained Glass. You can find the code [here](https://github.com/legopitstop/Fabric/tree/main/Lightning_Bolt_Glass/src/main/resources/data/lightning_glass/fulgurites)
+Lightning bolt glass comes with 2 fulgurites. One for converting Sand -> Glass and another for converting Red Sand -> Orange Stained Glass. You can find the code [here](https://github.com/legopitstop/Fabric/tree/main/Lightning_Bolt_Glass/src/main/resources/data/lightning_glass/fulgurite)
 
 ## Custom Fulgurites
 

@@ -281,7 +281,7 @@ export default defineConfig({
           base: "/mcpath/",
           items: [
             { text: "Index", link: "/" },
-            { text: "Globals", link: "/Globals" },
+            { text: "Globals", link: "/globals" },
             {
               text: "Classes",
               items: [
@@ -532,7 +532,6 @@ export default defineConfig({
                 { text: "FX", link: "/FX" },
                 { text: "Sprite", link: "/Sprite" },
                 { text: "SpriteSheet", link: "/SpriteSheet" },
-                { text: "Test", link: "/test" },
                 { text: "Tween", link: "/Tween" },
               ],
             },
@@ -594,7 +593,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: "Format", link: "/Format" },
-                { text: "AskEnum", link: "/AskEnum" },
+                { text: "AskEnum", link: "/askenum" },
                 { text: "Config", link: "/Config" },
                 {
                   text: "DeveloperTools",
@@ -604,14 +603,14 @@ export default defineConfig({
                 { text: "Message", link: "/Message" },
                 { text: "Modal", link: "/Modal" },
                 { text: "Geometry", link: "/Geometry" },
-                { text: "modalbox", link: "/modalbox" },
+                { text: "modalbox", link: "/ModalBox" },
                 {
                   text: "ModalDialog",
                   link: "/ModalDialog",
                 },
                 {
                   text: "ShowProgress",
-                  link: "/ShowProgress",
+                  link: "/showprogress",
                 },
                 {
                   text: "SimpleModal",
@@ -1034,7 +1033,7 @@ export default defineConfig({
                 { text: "DebugLog", link: "/item/debugLog" },
                 { text: "Durability", link: "/item/durability" },
                 { text: "Food", link: "/item/food" },
-                { text: "Inventory", link: "/item/inventory" },
+                { text: "Inventory", link: "/item/Inventory" },
                 { text: "MoreNBT", link: "/item/moreNbt" },
                 { text: "New UI", link: "/item/new-ui" },
                 { text: "Shooter", link: "/item/shooter" },

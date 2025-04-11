@@ -44,7 +44,7 @@ Additional Properties for premium users
 
 | Name        | Type                                | Description                                                                                                              |
 | ----------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| `type`      | enum[url, preset, base64, animated] | The type to use. for type 'base64' you can use this [converter](https://www.base64encoder.io/image-to-base64-converter/) |
+| `type`      | enum[url, preset, base64, animated] | The type to use. for type 'base64' you can use this [converter](https://emn178.github.io/online-tools/base64_encode_file.html) |
 | `animation` | [animation](#animation)             | Create an animated background.                                                                                           |
 | `value`     | string                              | The value to use.                                                                                                        |
 
