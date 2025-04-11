@@ -23,17 +23,17 @@ import MusicDiscStudio from "../components/MusicDiscStudio.vue";
 
 // Items
 import items1 from "../data/minecraft.json";
-import items2 from "../data/moreblocks.json";
-import items3 from "../data/morefood.json";
-import items4 from "../data/moregold.json";
-import items5 from "../data/morehoney.json";
-import items6 from "../data/morepumpkin.json";
-import items7 from "../data/bandage.json";
+import items2 from "../data/more_blocks.json";
+import items3 from "../data/more_food.json";
+import items4 from "../data/more_gold.json";
+import items5 from "../data/more_honey.json";
+import items6 from "../data/more_pumpkins.json";
+import items7 from "../data/bandages.json";
 import items8 from "../data/barked.json";
-import items9 from "../data/breaker.json";
+import items9 from "../data/ultimate_block_breaker.json";
 import items10 from "../data/bright.json";
 import items11 from "../data/canned.json";
-import items12 from "../data/magnets.json";
+import items12 from "../data/simple_magnets.json";
 
 export default {
   extends: DefaultTheme,

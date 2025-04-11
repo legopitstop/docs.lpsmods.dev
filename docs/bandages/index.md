@@ -22,5 +22,5 @@ This Minecraft mod adds 4 new items! (called bandages) All of these items will r
 ## Links
 
 - :fire: [Curseforge](https://www.curseforge.com/minecraft/customization/bandages-datapack)
-- :wrench: [Modrinth](https://modrinth.com/datapack/bandages)
-- :gear: [Source Code](https://github.com/lpsmods/bandages)
+- :wrench: [Modrinth](https://modrinth.com/datapack/bandage-datapack)
+- :gear: [Source Code](https://github.com/lpsmods/bandage)

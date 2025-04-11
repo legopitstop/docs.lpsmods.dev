@@ -1,5 +1,5 @@
 {
-  "links": [{ "namespace": "morehoney", "pattern": "/morehoney/:name" }],
+  "links": [{ "namespace": "morehoney", "pattern": "/more-honey/:name" }],
   "items": [
     {
       "id": "morehoney:honey_press",

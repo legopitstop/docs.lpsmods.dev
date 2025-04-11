@@ -1,5 +1,5 @@
 {
-  "links": [{ "namespace": "breaker", "pattern": "/breaker/:name" }],
+  "links": [{ "namespace": "breaker", "pattern": "/ultimate-block-breaker/:name" }],
   "items": [
     {
       "id": "breaker:stone_breaker_upgrade",

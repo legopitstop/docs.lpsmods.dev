@@ -1,5 +1,5 @@
 {
-  "links": [{ "namespace": "moreblocks", "pattern": "/moreblocks/:name" }],
+  "links": [{ "namespace": "moreblocks", "pattern": "/more-blocks/:name" }],
   "items": [
     {
       "id": "moreblocks:stone_layer",

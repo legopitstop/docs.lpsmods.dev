@@ -22,5 +22,5 @@ This wiki contains all the added custom nbt. Everything inside this wiki is free
 ## Links
 
 - :fire: [Curseforge](https://www.curseforge.com/minecraft/customization/record-api-datapack)
-- :wrench: [Modrinth](https://modrinth.com/datapack/record-api-datapack)
+<!-- - :wrench: [Modrinth](https://modrinth.com/datapack/record-api-datapack) -->
 - :gear: [Source Code](https://github.com/lpsmods/record-api)
