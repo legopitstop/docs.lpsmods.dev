@@ -1,66 +1,147 @@
+<!-- TODO: cache version data (data fetched from manifest.json) -->
+
 <template>
   <div class="mcextract-cli">
-    <p>
-      Minecraft Version:
-      <select name="version" id="version" @change="onChange">
-        <option v-for="version in versions" :key="version">
-          {{ version.version }}
-        </option>
-      </select>
-    </p>
+    <div>
+      <div v-if="loading" class="loading">Loading...</div>
 
-    <p>
-      Client Files:
-      <input type="checkbox" name="client" id="client" @change="onChange" checked />
-    </p>
+      <div v-if="error" class="error">{{ error }}</div>
 
-    <p>
-      Server Files:
-      <input type="checkbox" name="server" id="server" @change="onChange" checked />
-    </p>
+      <div v-if="manifest" class="content">
+        <div>
+          <label for="version">Minecraft Version:</label>
+          <select
+            name="version"
+            id="version"
+            @change="onChange"
+            v-model="version"
+          >
+            <option
+              v-for="v in versions"
+              :key="v.id"
+              :value="v.id"
+              :selected="v.id == manifest.latest.release"
+            >
+              {{ v.id }}{{ getLabel(v.id) }}
+            </option>
+          </select>
+        </div>
 
-    <div class="language-sh vp-adaptive-theme">
-      <button title="Copy Code" class="copy"></button><span class="lang">sh</span>
-      <div v-html="output"></div>
+        <div>
+          <label for="snapshots">Show Snapshots</label>
+          <input
+            type="checkbox"
+            name="snapshots"
+            id="snapshots"
+            @change="onChange"
+            v-model="snapshots"
+          />
+        </div>
+
+        <div>
+          <label for="client">Client Files:</label>
+          <input
+            type="checkbox"
+            name="client"
+            id="client"
+            @change="onChange"
+            v-model="client"
+          />
+        </div>
+
+        <div>
+          <label for="server">Server Files:</label>
+          <input
+            type="checkbox"
+            name="server"
+            id="server"
+            @change="onChange"
+            v-model="server"
+          />
+        </div>
+
+        <div class="language-sh vp-adaptive-theme">
+          <button title="Copy Code" class="copy"></button
+          ><span class="lang">sh</span>
+          <div v-html="output"></div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import mcextract from "../data/mcextract.json";
 import { codeToHtml } from "shiki";
+
+const CACHE = {};
 
 export default {
   name: "MCExtractCLI",
   data() {
     return {
+      loading: true,
+      error: null,
+      server: true,
+      client: true,
+      version: "",
       output: "",
-      versions: mcextract,
+      versions: [],
+      manifest: null,
+      snapshots: false,
     };
   },
   methods: {
     init: function () {
-      this.updateCLI(this.versions[0].version);
+      this.onChange();
+      this.loading = false;
+    },
+    async cachedFetch(url) {
+      var cached = CACHE[url];
+      if (cached) {
+        return new Promise((resolve) => {
+          resolve(cached);
+        });
+      }
+      return await fetch(url)
+        .then((res) => {
+          var data = res.json();
+          CACHE[url] = data;
+          return data;
+        })
+        .catch((error) => {
+          this.error = error;
+          this.loading = false;
+        });
+    },
+    getLabel(versionId) {
+      if (versionId == this.manifest.latest.release) return " (latest)";
+      return "";
     },
     onChange() {
-      const version = document.getElementById("version");
-      const client = document.getElementById("client");
-      const server = document.getElementById("server");
-      this.updateCLI(version.value, server.checked, client.checked);
-      // this.output = this.getCLI(version.value, server.checked, client.checked);
+      this.versions = this.manifest.versions.filter((v) => {
+        if (this.snapshots) return true;
+        return v.type != "snapshot";
+      });
+
+      var versionManifest = this.manifest.versions.find(
+        (v) => v.id == this.version
+      );
+      this.cachedFetch(versionManifest.url).then((data) => {
+        this.updateCLI(data);
+      });
     },
-    getCLI(version, server = true, client = true) {
-      const ver = this.versions.find((x) => x.version === version);
-      if (ver) {
-        return `mcextract extract ${ver.jar} ${client ? "--assets " : ""}${server ? "--data " : ""
-          }-eula\nmcextract map ${ver.index
-          } -eula\nmcextract generate ${version} ${client ? "--client " : ""}${server ? "--server " : ""
-          }--reports -eula`;
-      }
-      return "mcextract -h"; // Version not found.
+    getCLI(versionData) {
+      var jar = `${versionData.id}/${versionData.id}.jar`;
+      return `mcextract extract ${jar} ${this.client ? "--assets " : ""}${
+        this.server ? "--data " : ""
+      }-eula\nmcextract map ${
+        versionData.assets
+      }.json -eula\nmcextract generate ${versionData.id} ${
+        this.client ? "--client " : ""
+      }${this.server ? "--server " : ""}--reports -eula`;
     },
-    updateCLI(version, server = true, client = true) {
-      codeToHtml(this.getCLI(version, server, client), {
+    updateCLI(versionData) {
+      codeToHtml(this.getCLI(versionData), {
         lang: "sh",
         theme: "github-dark",
       }).then((e) => {
@@ -69,7 +150,13 @@ export default {
     },
   },
   mounted() {
-    this.init();
+    this.cachedFetch(
+      "https://launchermeta.mojang.com/mc/game/version_manifest.json"
+    ).then((manifest) => {
+      this.manifest = manifest;
+      this.version = manifest.latest.release;
+      this.init();
+    });
   },
 };
 </script>

@@ -37,6 +37,42 @@ This widget is experimental
 - [grid_configure](#grid_configure)
 - [place_configure](#place_configure)
 
+### `add_image`
+
+UNDOCUMENTED
+
+### `remove_image`
+
+UNDOCUMENTED
+
+### `insert_image`
+
+UNDOCUMENTED
+
+### `get_image`
+
+UNDOCUMENTED
+
+### `render`
+
+UNDOCUMENTED
+
+### `configure`
+
+UNDOCUMENTED
+
+### `pack_configure`
+
+UNDOCUMENTED
+
+### `grid_configure`
+
+UNDOCUMENTED
+
+### `place_configure`
+
+UNDOCUMENTED
+
 ## Example
 
 ```py

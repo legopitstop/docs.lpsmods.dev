@@ -54,10 +54,10 @@
         :id="item.uuid"
         @click="selectItem(item.uuid)"
       >
-        <button>
+        <div>
           {{ item.name }}
           <button class="close" @click="removeItem(item.uuid)">X</button>
-        </button>
+        </div>
       </div>
     </div>
     <div id="content">

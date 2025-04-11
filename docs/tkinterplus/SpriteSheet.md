@@ -24,7 +24,7 @@ keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 - [get_sprite](#get_sprite)
 - [get_sprite_name](#get_sprite_name)
 
-### open
+### `open`
 
 Create a new spritesheet
 
@@ -35,9 +35,9 @@ Create a new spritesheet
 | `fp`      | str  |             |
 | `formats` |      |             |
 
-### new
+### `new`
 
-### resize
+### `resize`
 
 Resize the spritesheet to fit more spites
 
@@ -48,11 +48,11 @@ Resize the spritesheet to fit more spites
 | `row`    | int  |             |
 | `column` | int  |             |
 
-### show
+### `show`
 
 Show the spritesheet
 
-### add_sprite
+### `add_sprite`
 
 Add an image sprite to the spritesheet
 
@@ -64,7 +64,7 @@ Add an image sprite to the spritesheet
 | `name`    | str  |             |
 | `formats` |      |             |
 
-### save
+### `save`
 
 #### Parameters
 
@@ -73,7 +73,7 @@ Add an image sprite to the spritesheet
 | `fp`     | str  |             |
 | `format` |      |             |
 
-### get_sprite
+### `get_sprite`
 
 Get a sprite from the spritesheet using the sprite position.
 
@@ -84,7 +84,7 @@ Get a sprite from the spritesheet using the sprite position.
 | `row`    | int  |             |
 | `column` | int  |             |
 
-### get_sprite_name
+### `get_sprite_name`
 
 Get a sprite from the spritesheet using the sprite name
 

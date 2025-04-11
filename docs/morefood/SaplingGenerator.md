@@ -1,7 +1,4 @@
 ---
-title: SaplingGenerator | Lot's More Food Documentation
+title: Redirecting…
+redirect: /more-food/SaplingGenerator
 ---
-
-# SaplingGenerator
-
-UNDOCUMENTED

@@ -31,6 +31,54 @@ This widget is experimental
 - [edit](#edit)
 - [highlight](#highlight)
 
+### `refresh`
+
+UNDOCUMENTED
+
+### `destroy`
+
+UNDOCUMENTED
+
+### `update_widget_list`
+
+UNDOCUMENTED
+
+### `get_children`
+
+UNDOCUMENTED
+
+### `deselect`
+
+UNDOCUMENTED
+
+### `deselect_all`
+
+UNDOCUMENTED
+
+### `get_selected`
+
+UNDOCUMENTED
+
+### `find_registered`
+
+UNDOCUMENTED
+
+### `destroy_widget`
+
+UNDOCUMENTED
+
+### `context_menus`
+
+UNDOCUMENTED
+
+### `edit`
+
+UNDOCUMENTED
+
+### `highlight`
+
+UNDOCUMENTED
+
 ## Example
 
 ```py

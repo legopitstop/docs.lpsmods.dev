@@ -22,13 +22,21 @@ General config file for the program settings. Saves the file as `.cfg` in the us
 - [getItem](#getitem)
 - [removeItem](#removeitem)
 
-### section
+### `section`
 
-### setItem
+UNDOCUMENTED
 
-### getItem
+### `setItem`
 
-### removeItem
+UNDOCUMENTED
+
+### `getItem`
+
+UNDOCUMENTED
+
+### `removeItem`
+
+UNDOCUMENTED
 
 ## Example
 

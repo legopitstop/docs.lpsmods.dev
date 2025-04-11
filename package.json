@@ -1,11 +1,12 @@
 {
+  "name": "@lpsmods/docs",
   "devDependencies": {
-    "vitepress": "^1.1.4"
+    "vitepress": "^1.6.3"
   },
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "dev": "vitepress dev docs --port 80",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
   },
   "dependencies": {
     "file-dialog": "^0.0.8",

@@ -25,17 +25,29 @@ Cache any file.
 - [remove_file](#remove_file)
 - [get_file](#get_file)
 
-### exists
+### `exists`
 
-### key
+UNDOCUMENTED
 
-### add_file
+### `key`
 
-### add_directory
+UNDOCUMENTED
 
-### remove_file
+### `add_file`
 
-### get_file
+UNDOCUMENTED
+
+### `add_directory`
+
+UNDOCUMENTED
+
+### `remove_file`
+
+UNDOCUMENTED
+
+### `get_file`
+
+UNDOCUMENTED
 
 ## Example
 

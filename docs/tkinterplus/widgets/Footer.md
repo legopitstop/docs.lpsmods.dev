@@ -22,37 +22,37 @@ Construct a footer widget with the parent MASTER.
 - [configure_button](#configure_button)
 - [configure](#configure)
 
-### add_button
+### `add_button`
 
 Add a button to the footer
 
-## Parameters
+#### Parameters
 
 | Name   | Type | Description |
 | ------ | ---- | ----------- |
 | `text` | str  |             |
 
-### remove_button
+### `remove_button`
 
 Delete a button from the footer
 
-## Parameters
+#### Parameters
 
 | Name    | Type | Description |
 | ------- | ---- | ----------- |
 | `index` | int  |             |
 
-### configure_button
+### `configure_button`
 
 Update the buttons properties
 
-## Parameters
+#### Parameters
 
 | Name    | Type | Description |
 | ------- | ---- | ----------- |
 | `index` | int  |             |
 
-### configure
+### `configure`
 
 ## Example
 

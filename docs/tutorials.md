@@ -12,3 +12,5 @@ title: Tutorials
 - :file_folder: [How to install Data Packs](/tutorials/how-to-install-data-packs.md)
 - :world_map: [How to install Maps](/tutorials/how-to-install-maps.md)
 - :evergreen_tree: [How to install Resource Packs](/tutorials/how-to-install-texture-packs.md)
+- :file_folder: [How to Enable Content Log GUI](/tutorials/how-to-enable-log-gui.md)
+- :file_cabinet: [What In The Pack Format?](/tutorials/what-in-the-pack-format.md)

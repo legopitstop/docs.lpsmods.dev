@@ -18,6 +18,6 @@ keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 
 - [c](#c)
 
-### c
+### `c`
 
 Run the callback

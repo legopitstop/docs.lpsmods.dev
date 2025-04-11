@@ -26,7 +26,7 @@ Animate the paperdoll
 - [play](#play)
 - [stop](#stop)
 
-### command
+### `command`
 
 Add a command
 
@@ -38,7 +38,7 @@ Add a command
 | `tag`  | str      | The items's tag or id to modify           |
 | `post` | Callable | The command to trigger                    |
 
-### rotate
+### `rotate`
 
 Add a rotation
 
@@ -51,7 +51,7 @@ Add a rotation
 | `post` | int  | Set the new rotation                      |
 | `rel`  | int  | Add the rotation to the current rotation  |
 
-### scale
+### `scale`
 
 Add a scale
 
@@ -64,7 +64,7 @@ Add a scale
 | `post` | float | Set the new scale                         |
 | `rel`  | float | Add the scale to the current scale        |
 
-### translate
+### `translate`
 
 Add a position
 
@@ -77,10 +77,10 @@ Add a position
 | `post` | float | Set the new scale                         |
 | `rel`  | float | Add the scale to the current scale        |
 
-### play
+### `play`
 
 Start the animation
 
-### stop
+### `stop`
 
 Stop the animation

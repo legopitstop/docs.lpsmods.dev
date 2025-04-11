@@ -38,3 +38,7 @@ Data pack Edition:
 | --------------- | ----------------------------------------------------------- |
 | Initial release | Added Warped and Crimson Bark                               |
 | 1.1.0           | Renamed Warped and Crimson Bark to Warped and Crimson Stipe |
+
+|                 | Bedrock Edition                |
+| --------------- | ------------------------------ |
+| Initial release | Added Warped and Crimson Stipe |

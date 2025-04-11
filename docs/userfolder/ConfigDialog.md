@@ -22,13 +22,21 @@ Creates a Toplevel window with all options from the [Config](/userfolder/Config)
 - [save](#save)
 - [footer](#footer)
 
-### add_datatype
+### `add_datatype`
 
-### create_option
+UNDOCUMENTED
 
-### save
+### `create_option`
 
-### footer
+UNDOCUMENTED
+
+### `save`
+
+UNDOCUMENTED
+
+### `footer`
+
+UNDOCUMENTED
 
 ## Example
 

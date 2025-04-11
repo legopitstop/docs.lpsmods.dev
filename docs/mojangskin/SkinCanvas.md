@@ -21,10 +21,18 @@ Widget for tkinter to render a Minecraft skin.
 - [bone_configure](#bone_configure)
 - [paperdoll_configure](#paperdoll_configure)
 
-### create_bone
+### `create_bone`
 
-### create_paperdoll
+UNDOCUMENTED
 
-### bone_configure
+### `create_paperdoll`
 
-### paperdoll_configure
+UNDOCUMENTED
+
+### `bone_configure`
+
+UNDOCUMENTED
+
+### `paperdoll_configure`
+
+UNDOCUMENTED

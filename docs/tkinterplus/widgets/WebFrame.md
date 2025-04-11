@@ -38,6 +38,50 @@ This widget is experimental
 - [pack_configure](#pack_configure)
 - [place_configure](#place_configure)
 
+### `developer_tools`
+
+UNDOCUMENTED
+
+### `view_page_source`
+
+UNDOCUMENTED
+
+### `render`
+
+UNDOCUMENTED
+
+### `reload`
+
+UNDOCUMENTED
+
+### `save`
+
+UNDOCUMENTED
+
+### `print`
+
+UNDOCUMENTED
+
+### `open_menu`
+
+UNDOCUMENTED
+
+### `configure`
+
+UNDOCUMENTED
+
+### `grid_configure`
+
+UNDOCUMENTED
+
+### `pack_configure`
+
+UNDOCUMENTED
+
+### `place_configure`
+
+UNDOCUMENTED
+
 ## Example
 
 ```py

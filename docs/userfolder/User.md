@@ -40,20 +40,38 @@ user.show()
 - [Download](#download)
 - [unarchive](#unarchive)
 
-### join
+### `join`
 
-### uninstall
+UNDOCUMENTED
 
-### exists
+### `uninstall`
 
-### open
+UNDOCUMENTED
 
-### listdir
+### `exists`
 
-### show
+UNDOCUMENTED
 
-### get
+### `open`
 
-### download
+UNDOCUMENTED
 
-### unarchive
+### `listdir`
+
+UNDOCUMENTED
+
+### `show`
+
+UNDOCUMENTED
+
+### `get`
+
+UNDOCUMENTED
+
+### `download`
+
+UNDOCUMENTED
+
+### `unarchive`
+
+UNDOCUMENTED

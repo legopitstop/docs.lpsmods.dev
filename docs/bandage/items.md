@@ -1,11 +1,4 @@
 ---
-title: Items | Bandage Mod Wiki
-description: A list of all items that Bandage adds.
+title: Redirecting…
+redirect: /bandages/items
 ---
-
-# Items
-
-- [Bandage](Bandage.md)
-- [Nether Bandage](Bandage.md#nether)
-- [End Bandage](Bandage.md#end)
-- [Water Bandage](Bandage.md#water)

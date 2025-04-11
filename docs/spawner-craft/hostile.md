@@ -5,6 +5,14 @@ description: This mod adds new recipes that make all of the spawn eggs craftable
 
 # Hostile Recipes
 
+## Creaking Spawn Egg
+
+<ShapedRecipe
+a1="" b1="creaking_heart" c1=""
+a2="resin_clump" b2="egg" c2="resin_clump"
+a3="" b3="gold_ingot" c3=""
+output="creaking_spawn_egg"/>
+
 ## Breeze Spawn Egg
 
 <ShapedRecipe
@@ -109,7 +117,7 @@ a2="emerald" b2="egg" c2="emerald"
 a3="" b3="gold_ingot" c3=""
 output="pillager_spawn_egg"/>
 
-## Skeleton Spawn Egg
+## Skeleton Horse Spawn Egg
 
 <ShapelessRecipe
 :ingredients="['skeleton_spawn_egg', 'horse_spawn_egg']"

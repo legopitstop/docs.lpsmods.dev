@@ -30,14 +30,15 @@ Update existing installation: `pip3 install mcpath --upgrade`
 | ----------- | ---- | ------- | ------------ | --------- |
 | **Android** | ❌   | ✅      | ❌           | ❌        |
 | **Darwin**  | ✅   | ✅      | ❌           | ❌        |
-| **iOS**     | ❌   | ❌      | ❌           | ❌        |
+| **iOS**     | ❌   | ✅      | ✅           | ✅        |
 | **Linux**   | ✅   | ✅      | ❌           | ❌        |
 | **Windows** | ✅   | ✅      | ✅           | ✅        |
 
 ## Examples
 
 ```Python
-from mcpath import java
+import mcpath
 
-print(java.worlds)
+print(mcpath.java.get_saves_dir())
+# C:\Users\USER\AppData\Roaming\.minecraft\saves
 ```

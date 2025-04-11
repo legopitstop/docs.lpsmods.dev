@@ -26,11 +26,11 @@ Construct a picture widget with the parent MASTER.
 - [update](#update)
 - [configure](#configure)
 
-### update
+### `update`
 
 Clear canvas to redraw
 
-### configure
+### `configure`
 
 Modify the widget
 

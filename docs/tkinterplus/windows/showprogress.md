@@ -25,7 +25,7 @@ Construct a showprogress widget with the parent MASTER.
 - [step](#step)
 - [get](#get)
 
-### config
+### `config`
 
 Update the progressbar
 
@@ -38,7 +38,7 @@ Update the progressbar
 | `value`  | float      |             |
 | `max`    | float      |             |
 
-### step
+### `step`
 
 Increments the value option by amount.
 
@@ -48,7 +48,7 @@ Increments the value option by amount.
 | -------- | ----- | ----------- |
 | `amount` | float |             |
 
-### get
+### `get`
 
 Returns the currrent value
 

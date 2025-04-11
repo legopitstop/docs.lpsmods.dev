@@ -5,6 +5,6 @@ description: Adds "close others", "close to the right", "close saved", and "clos
 
 # Close Actions
 
-Adds "close others", "close to the right", "close saved", and "close all" to the project context menu (right-click on project tab). You can disable this tweak in `Settings > Interface > Close Actions`.
+Adds `Close Others`, `Close to the Right`, `Close Saved`, and `Close All` to the project context menu, opened by right-clicking on a project tab.
 
 ![close actions](/images/tweaks_n_stuff/close_actions.webp)

@@ -11,6 +11,7 @@ import SmithingRecipe from "../components/SmithingRecipe.vue";
 import Inventory from "../components/Inventory.vue";
 import InvSlot from "../components/InvSlot.vue";
 
+import PackFormat from "../components/PackFormat.vue";
 import MCExtractCLI from "../components/MCExtractCLI.vue";
 import ModelRenderer from "../components/ModelRenderer.vue";
 import ArmorStandGenerator from "../components/ArmorStandGenerator.vue";
@@ -52,6 +53,7 @@ export default {
     e.component("RcoreGenerator", RcoreGenerator);
     e.component("MusicDiscStudio", MusicDiscStudio);
     e.component("MultiloaderGradleGenerator", MultiloaderGradleGenerator);
+    e.component("PackFormat", PackFormat);
     registerFile(items1);
     registerFile(items2);
     registerFile(items3);

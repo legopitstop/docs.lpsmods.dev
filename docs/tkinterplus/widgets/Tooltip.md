@@ -41,6 +41,30 @@ This widget is experimental
 - [configure](#configure)
 - [destroy](#destroy)
 
+### `update`
+
+UNDOCUMENTED
+
+### `moveto`
+
+UNDOCUMENTED
+
+### `show`
+
+UNDOCUMENTED
+
+### `hide`
+
+UNDOCUMENTED
+
+### `configure`
+
+UNDOCUMENTED
+
+### `destroy`
+
+UNDOCUMENTED
+
 ## Example
 
 ```py

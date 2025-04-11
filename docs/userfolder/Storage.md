@@ -37,16 +37,30 @@ print(version)
 - [exists](#exists)
 - [show](#show)
 
-### getItem
+### `getItem`
 
-### setItem
+UNDOCUMENTED
 
-### removeItem
+### `setItem`
 
-### clear
+UNDOCUMENTED
 
-### key
+### `removeItem`
 
-### exists
+UNDOCUMENTED
 
-### show
+### `clear`
+
+UNDOCUMENTED
+
+### `key`
+
+UNDOCUMENTED
+
+### `exists`
+
+UNDOCUMENTED
+
+### `show`
+
+UNDOCUMENTED

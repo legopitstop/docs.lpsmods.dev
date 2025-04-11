@@ -6,7 +6,10 @@ keywords: legopitstop,python,components,events,json,pypi,scripts,pillow,pack,man
 
 # Functions
 
-## exit
+- [exit](#exit)
+- [getApp](#getapp)
+
+## `exit`
 
 ### Parameters
 
@@ -14,6 +17,6 @@ keywords: legopitstop,python,components,events,json,pypi,scripts,pillow,pack,man
 | ------ | ---- | ----------- |
 | `code` | int  |             |
 
-## getApp
+## `getApp`
 
 Returns the root [App](./App.md)

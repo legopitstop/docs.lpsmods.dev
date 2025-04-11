@@ -28,7 +28,7 @@ A list of all comments.
 - `__setitem__`
 - `__getitem__`
 
-### format
+### `format`
 
 #### Parameters
 
@@ -37,7 +37,7 @@ A list of all comments.
 | `s`    | str  | The key to translate                                                                               |
 | `subs` |      | List of values to substitute. These can either be ordered (`%1`, `%2`, etc.) or not ordered (`%s`) |
 
-### translate
+### `translate`
 
 #### Parameters
 
@@ -47,7 +47,7 @@ A list of all comments.
 | `subs`     |      |         | List of values to substitute. These can either be ordered (`%1`, `%2`, etc.) or not ordered (`%s`) |
 | `fallback` | str  | None    | The fallback text if key can't be found. Returns key by default.                                   |
 
-### insert_comment
+### `insert_comment`
 
 Inserts a comment to the file at a specified line before the key/value if any.
 
@@ -58,7 +58,7 @@ Inserts a comment to the file at a specified line before the key/value if any.
 | `line` | int  | The line to insert at.      |
 | `s`    | str  | The content of the comment. |
 
-### remove_comment
+### `remove_comment`
 
 Removes a comment at the specified index.
 
@@ -68,6 +68,6 @@ Removes a comment at the specified index.
 | ------ | ---- | ---------------------- |
 | `line` | int  | The comment to remove. |
 
-### clear_comments
+### `clear_comments`
 
 Removes all comments from this file.

@@ -33,14 +33,14 @@ keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 - [done](#done)
 - [run](#run)
 
-### step
+### `step`
 
 Run the step command
 
-### done
+### `done`
 
 When the animation is donecommand
 
-### run
+### `run`
 
 Run the fx

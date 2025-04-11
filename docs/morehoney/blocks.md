@@ -1,8 +1,4 @@
 ---
-title: Blocks | More Honey Mod Wiki
-description: A list of all blocks More Honey adds.
+title: Redirecting…
+redirect: /more-honey/blocks
 ---
-
-# Blocks
-
-- [Honey Press](Honey_Press.md)

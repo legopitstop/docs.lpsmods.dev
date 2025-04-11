@@ -3,8 +3,8 @@ title: GeyserMC Documentation
 description: The unofficial Python wrapper for geysermc.org
 keywords: legopitstop,python,minecraft,pypi,geysermc,pythonpackage
 next:
-  text: TkinterPlus
-  link: /tkinterplus/
+  text: gitfiles
+  link: /gitfiles/
 ---
 
 # GeyserMC
@@ -50,25 +50,3 @@ with open('geyser-spigot.jar', 'wb') as fd:
     data = geysermc.get_download('geyser', 'spigot')
     fd.write(data)
 ```
-
-## Methods
-
-- get_bedrock_link
-- get_java_link
-- verify_online_link
-- get_all_stats
-- get_gamertag_batch
-- get_gamertag
-- get_xuid
-- get_recent_uploads
-- get_skin
-- get_project_news
-- get_bedrock_or_java_uuid
-- get_openapi
-- get_projects
-- get_project
-- get_version
-- get_version_builds
-- get_build
-- get_download
-- get_raw_texture

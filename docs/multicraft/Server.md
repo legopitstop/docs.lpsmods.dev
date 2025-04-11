@@ -26,4 +26,6 @@ keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,py
 - [kill](./MulticraftAPI#kill-server)
 - [from_json](#from_json)
 
-### from_json
+### `from_json`
+
+UNDOCUMENTED

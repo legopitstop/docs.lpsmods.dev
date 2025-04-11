@@ -17,7 +17,7 @@ keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,py
 
 ## Methods
 
-### set_user_agent
+### `set_user_agent`
 
 Set the User-Agent string to be used for all requests.
 
@@ -27,11 +27,11 @@ Set the User-Agent string to be used for all requests.
 | ----- | ---- | ----------------------------------------- |
 | `str` |      | A string specifying the User-Agent header |
 
-### get_current_user
+### `get_current_user`
 
 Get the current user
 
-### get_user_role
+### `get_user_role`
 
 Get the users role
 
@@ -42,7 +42,7 @@ Get the users role
 | `user_id`   | int  | The id of the user to get                      |
 | `server_id` | int  | The id of the server that this user belongs to |
 
-### set_user_role
+### `set_user_role`
 
 Sets the users role
 
@@ -54,7 +54,7 @@ Sets the users role
 | `server_id` | int  | The id of the server that this user belongs to |
 | `role`      | Role | The role to set                                |
 
-### get_user_ftp_access
+### `get_user_ftp_access`
 
 Get the users ftp access
 
@@ -65,7 +65,7 @@ Get the users ftp access
 | `user_id`   | int  | The id of the user to get                      |
 | `server_id` | int  | The id of the server that this user belongs to |
 
-### set_user_ftp_access
+### `set_user_ftp_access`
 
 Sets the users ftp access
 
@@ -77,7 +77,7 @@ Sets the users ftp access
 | `server_id` | int  | The id of the server that this user belongs to |
 | `mode`      | Mode | The mode to set                                |
 
-### get_user_id
+### `get_user_id`
 
 Get the users id from name
 
@@ -87,7 +87,7 @@ Get the users id from name
 | ------ | ---- | -------------------- |
 | `name` | str  | The name of the user |
 
-### get_own_api_key
+### `get_own_api_key`
 
 #### Parameters
 
@@ -95,7 +95,7 @@ Get the users id from name
 | ---- | ---- | ----------- |
 | ``   |      |             |
 
-### list_players
+### `list_players`
 
 Get a list of all players
 
@@ -105,7 +105,7 @@ Get a list of all players
 | ----------- | ---- | -------------------- |
 | `server_id` | int  | The id of the server |
 
-### get_player
+### `get_player`
 
 Get the player from id
 
@@ -115,7 +115,7 @@ Get the player from id
 | ----------- | ---- | --------------------------- |
 | `player_id` | int  | The id of the player to get |
 
-### find_players
+### `find_players`
 
 Get player from field-value
 
@@ -127,7 +127,7 @@ Get player from field-value
 | `field`     | list[str] | The field to match   |
 | `value`     | list[str] | The value to match   |
 
-### update_player
+### `update_player`
 
 Update this player
 
@@ -139,7 +139,7 @@ Update this player
 | `field`     | list[str] | The field to update            |
 | `value`     | list[str] | The value to update            |
 
-### create_player
+### `create_player`
 
 Create a new player
 
@@ -151,7 +151,7 @@ Create a new player
 | `name`       | str  | The name of the player to create              |
 | `op_command` | int  | The op command, defaults to 0                 |
 
-### delete_player
+### `delete_player`
 
 Remove a player
 
@@ -161,7 +161,7 @@ Remove a player
 | ----------- | ---- | ------------------------------ |
 | `player_id` | int  | The id of the player to remove |
 
-### assign_player_to_user
+### `assign_player_to_user`
 
 Assign a player to a user
 
@@ -172,7 +172,7 @@ Assign a player to a user
 | `player_id` | int  | The id of the player to assign |
 | `user_id`   | int  | The id of the user to assign   |
 
-### list_commands
+### `list_commands`
 
 Get a list of all commands
 
@@ -182,7 +182,7 @@ Get a list of all commands
 | ----------- | ---- | -------------------- |
 | `server_id` | int  | The id of the server |
 
-### find_commands
+### `find_commands`
 
 Get command from field-value
 
@@ -194,7 +194,7 @@ Get command from field-value
 | `field`     | list[str] | The field to match   |
 | `value`     | list[str] | The value to match   |
 
-### get_command
+### `get_command`
 
 Get the command from id
 
@@ -204,7 +204,7 @@ Get the command from id
 | ------------ | ---- | ---------------------------- |
 | `command_id` | int  | The id of the command to get |
 
-### update_command
+### `update_command`
 
 Update this command
 
@@ -216,7 +216,7 @@ Update this command
 | `field`      | list[str] | The field to update             |
 | `value`      | list[str] | The value to update             |
 
-### create_command
+### `create_command`
 
 Create a new command
 
@@ -231,7 +231,7 @@ Create a new command
 | `response`  | str  | The response text                              |
 | `run`       |      | str                                            | The command to run |
 
-### delete_command
+### `delete_command`
 
 Remove a command
 
@@ -241,7 +241,7 @@ Remove a command
 | ------------ | ---- | ------------------------------- |
 | `command_id` | int  | The id of the command to remove |
 
-### list_servers_by_owner
+### `list_servers_by_owner`
 
 Get a list of all servers that this user owns
 
@@ -251,9 +251,9 @@ Get a list of all servers that this user owns
 | --------- | ---- | ------------------ |
 | `user_id` | int  | The id of the user |
 
-### list_servers_by_connection
+### `list_servers_by_connection`
 
-### update_server
+### `update_server`
 
 Update this server
 
@@ -265,7 +265,7 @@ Update this server
 | `field`     | list[str] | The field to update            |
 | `value`     | list[str] | The value to update            |
 
-### start_server
+### `start_server`
 
 Start this server
 
@@ -275,7 +275,7 @@ Start this server
 | ----------- | ---- | ----------------------------- |
 | `server_id` | int  | The id of the server to start |
 
-### stop_server
+### `stop_server`
 
 Stop this server
 
@@ -285,7 +285,7 @@ Stop this server
 | ----------- | ---- | ---------------------------- |
 | `server_id` | int  | The id of the server to stop |
 
-### restart_server
+### `restart_server`
 
 Restart this server
 
@@ -295,7 +295,7 @@ Restart this server
 | ----------- | ---- | ------------------------------- |
 | `server_id` | int  | The id of the server to restart |
 
-### kill_server
+### `kill_server`
 
 Kill this server
 
@@ -305,7 +305,7 @@ Kill this server
 | ----------- | ---- | ---------------------------- |
 | `server_id` | int  | The id of the server to kill |
 
-### send_console_command
+### `send_console_command`
 
 Send this command to console
 
@@ -316,7 +316,7 @@ Send this command to console
 | `server_id` | int  | The id of the server to send the command to |
 | `command`   | str  | The command to run                          |
 
-### run_command
+### `run_command`
 
 Run a command from id
 
@@ -328,7 +328,7 @@ Run a command from id
 | `command_id` | int  | The id of the command to run                                |
 | `run_for`    | int  | The id of the player to run this command for, defaults to 0 |
 
-### clear_server_log
+### `clear_server_log`
 
 Clear the server log history
 
@@ -338,7 +338,7 @@ Clear the server log history
 | ----------- | ---- | --------------------------------- |
 | `server_id` | int  | The id of the server log to clear |
 
-### clear_server_chat
+### `clear_server_chat`
 
 Clear the server chat history
 
@@ -348,7 +348,7 @@ Clear the server chat history
 | ----------- | ---- | ---------------------------------- |
 | `server_id` | int  | The id of the server chat to clear |
 
-### get_server
+### `get_server`
 
 Get the server from id
 
@@ -358,7 +358,7 @@ Get the server from id
 | ----------- | ---- | --------------------------- |
 | `server_id` | int  | The id of the server to get |
 
-### get_server_status
+### `get_server_status`
 
 Get the server's status
 
@@ -369,7 +369,7 @@ Get the server's status
 | `server_id`   | int  | The id of the server                                                         |
 | `player_list` | bool | Whether or not it should include a list of online players, defaults to False |
 
-### get_server_log
+### `get_server_log`
 
 Get the server's log
 
@@ -379,7 +379,7 @@ Get the server's log
 | ----------- | ---- | -------------------- |
 | `server_id` | int  | The id of the server |
 
-### get_server_chat
+### `get_server_chat`
 
 Get the server's chat
 
@@ -389,7 +389,7 @@ Get the server's chat
 | ----------- | ---- | -------------------- |
 | `server_id` | int  | The id of the server |
 
-### get_server_resources
+### `get_server_resources`
 
 Get the server's resources
 
@@ -399,7 +399,7 @@ Get the server's resources
 | ----------- | ---- | -------------------- |
 | `server_id` | int  | The id of the server |
 
-### list_schedules
+### `list_schedules`
 
 Get a list of all schedules
 
@@ -409,7 +409,7 @@ Get a list of all schedules
 | ----------- | ---- | -------------------- |
 | `server_id` | int  | The id of the server |
 
-### find_schedules
+### `find_schedules`
 
 Get schedule from field-value
 
@@ -421,7 +421,7 @@ Get schedule from field-value
 | `field`     | list[str] | The field to match   |
 | `value`     | list[str] | The value to match   |
 
-### update_schedules
+### `update_schedules`
 
 Update this schedule
 
@@ -433,7 +433,7 @@ Update this schedule
 | `field`       | list[str] | The field to update              |
 | `value`       | list[str] | The value to update              |
 
-### get_schedule
+### `get_schedule`
 
 Get the schedule from id
 
@@ -443,7 +443,7 @@ Get the schedule from id
 | ------------- | ---- | ----------------------------- |
 | `scheudle_id` | int  | The id of the schedule to get |
 
-### create_schedule
+### `create_schedule`
 
 Create a new schedule
 
@@ -459,7 +459,7 @@ Create a new schedule
 | `status`    | ScheduleStatus    | The schedule's status, defaults to ScheduleStatus.scheduled         |
 | `_for`      | int               | The player to run this schedule for, defaults to 0                  |
 
-### delete_schedule
+### `delete_schedule`
 
 Remove a schedule
 
@@ -469,7 +469,7 @@ Remove a schedule
 | ------------- | ---- | -------------------------------- |
 | `schedule_id` | int  | The id of the schedule to remove |
 
-### get_database_info
+### `get_database_info`
 
 Get info about the database
 
@@ -479,7 +479,7 @@ Get info about the database
 | ----------- | ---- | --------------------------------------------- |
 | `server_id` | int  | The id of the server to get the database from |
 
-### create_database
+### `create_database`
 
 Create a new database (Limit of one database per server)
 
@@ -491,7 +491,7 @@ Create a new database (Limit of one database per server)
 | `name`      | str  | The name of the database (Autogenerated for some hosts), defaults to None     |
 | `password`  | str  | The password of the database (Autogenerated for some hosts), defaults to None |
 
-### change_database_password
+### `change_database_password`
 
 Change the database password
 
@@ -503,7 +503,7 @@ Change the database password
 | `database_id` | int  | The id of the database (For some hosts this is the same as the server id), defaults to server_id if None |
 | `password`    | str  | The new password for the database (Autogenerated for some hosts), defaults to None                       |
 
-### delete_database
+### `delete_database`
 
 Remove a database
 
@@ -514,7 +514,7 @@ Remove a database
 | `server_id`   | int  | The id of the server that this database belongs to                                                       |
 | `database_id` | int  | The id of the database (For some hosts this is the same as the server id), defaults to server_id if None |
 
-### start_server_backup
+### `start_server_backup`
 
 Starts a backup of the server
 
@@ -524,7 +524,7 @@ Starts a backup of the server
 | ----------- | ---- | ------------------------------ |
 | `server_id` | int  | The id of the server to backup |
 
-### get_server_backup_status
+### `get_server_backup_status`
 
 Get the backup status of the server
 

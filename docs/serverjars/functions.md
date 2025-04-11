@@ -6,11 +6,20 @@ keywords: legopitstop,python,java,api,minecraft,pypi,bedrock,servers,pythonpacka
 
 # Functions
 
-## register
+- [register](#register)
+- [download_jar](#download_jar)
+- [fetch_all_types](#fetch_all_types)
+- [fetch_all](#fetch_all)
+- [fetch_details](#fetch_details)
+- [fetch_jar](#fetch_jar)
+- [fetch_latest](#fetch_latest)
+- [fetch_types](#fetch_types)
+
+## `register`
 
 Register this [SoftwareBuilder](./SoftwareBuilder).
 
-## download_jar
+## `download_jar`
 
 Fetch a direct download link to a specific jar type with either the latest version or a specified one
 
@@ -25,11 +34,11 @@ Fetch a direct download link to a specific jar type with either the latest versi
 | `chunk_size` | int  | `1000000`    | Download the jar in chunks.                                     |
 | `block`      | bool | `True`       | When true it will wait until the file has finished downloading. |
 
-## fetch_all_types
+## `fetch_all_types`
 
 All types and categories.
 
-## fetch_all
+## `fetch_all`
 
 Fetch details on the latest jar for a type
 
@@ -41,7 +50,7 @@ Fetch details on the latest jar for a type
 | `category` | str  | The category of jars (spigot, bukkit, paper, etc..) |
 | `max`      | int  | The max number of jars to fetch                     |
 
-## fetch_details
+## `fetch_details`
 
 Fetch the details of a single jar
 
@@ -53,7 +62,7 @@ Fetch the details of a single jar
 | `category` | str  |          | The type of jars (servers, proxies, modded, etc..)                  |
 | `version`  | str  | `latest` | The version of the jar (don't provide for latest), defaults to None |
 
-## fetch_jar
+## `fetch_jar`
 
 Fetch the jar file.
 
@@ -65,7 +74,7 @@ Fetch the jar file.
 | `category` | str  |          | The type of jars (servers, proxies, modded, etc..)                  |
 | `version`  | str  | `latest` | The version of the jar (don't provide for latest), defaults to None |
 
-## fetch_latest
+## `fetch_latest`
 
 Fetch details on the latest jar for a type
 
@@ -76,7 +85,7 @@ Fetch details on the latest jar for a type
 | `type`     | str  | The type of jar (vanilla, modded, etc..)            |
 | `category` | str  | The category of jars (spigot, bukkit, paper, etc..) |
 
-## fetch_types
+## `fetch_types`
 
 Fetch a list of the possible jar categories
 

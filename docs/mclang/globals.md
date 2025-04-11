@@ -18,7 +18,7 @@ description: Read and write to .lang files.
 - [load](#load)
 - [loads](#loads)
 
-### set_language
+### `set_language`
 
 Override the locale language.
 
@@ -28,11 +28,11 @@ Override the locale language.
 | ------ | ---- | ---------------- |
 | `lang` | str  | The lang to use. |
 
-### get_language
+### `get_language`
 
 Returns the configured language code
 
-### init
+### `init`
 
 Load lang file from the directory path.
 
@@ -43,7 +43,7 @@ Load lang file from the directory path.
 | `path`    | str  |         | Directory path to the .lang files                               |
 | `default` | str  | `en_US` | The default lang file to use if the locale lang does not exist. |
 
-### translate
+### `translate`
 
 Use the root translator.
 
@@ -55,7 +55,7 @@ Use the root translator.
 | `subs`     |      |         | List of values to substitute. These can either be ordered (`%1`, `%2`, etc.) or not ordered (`%s`) |
 | `fallback` | str  | None    | The fallback text if key can't be found. Returns key by default.                                   |
 
-### dump
+### `dump`
 
 Serialize obj as a LANG formatted stream to fp (a `.write()`-supporting file-like object).
 
@@ -66,7 +66,7 @@ Serialize obj as a LANG formatted stream to fp (a `.write()`-supporting file-lik
 | `obj` | [Lang](./Lang.md) or dict | The object to serialize |
 | `fp`  | str                       | The file-like object    |
 
-### dumps
+### `dumps`
 
 Serialize obj to a LANG formatted str.
 
@@ -76,7 +76,7 @@ Serialize obj to a LANG formatted str.
 | ----- | ------------------------- | ----------------------- |
 | `obj` | [Lang](./Lang.md) or dict | The object to serialize |
 
-### load
+### `load`
 
 Deserialize fp (a `.read()`-supporting file-like object containing a LANG document) to a Python object.
 
@@ -86,7 +86,7 @@ Deserialize fp (a `.read()`-supporting file-like object containing a LANG docume
 | ---- | ------------ | ----------------------------------- |
 | `fp` | str or bytes | The file-like object to deserialize |
 
-### loads
+### `loads`
 
 Deserialize s (a str, bytes or bytearray instance containing a LANG document) to a Python object.
 

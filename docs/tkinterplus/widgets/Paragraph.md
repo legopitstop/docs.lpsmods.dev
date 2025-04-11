@@ -33,6 +33,38 @@ This widget is experimental
 - [delete](#delete)
 - [get](#get)
 
+### `update`
+
+UNDOCUMENTED
+
+### `load_document`
+
+UNDOCUMENTED
+
+### `load_format`
+
+UNDOCUMENTED
+
+### `format`
+
+UNDOCUMENTED
+
+### `configure`
+
+UNDOCUMENTED
+
+### `insert`
+
+UNDOCUMENTED
+
+### `delete`
+
+UNDOCUMENTED
+
+### `get`
+
+UNDOCUMENTED
+
 ## Example
 
 ```py

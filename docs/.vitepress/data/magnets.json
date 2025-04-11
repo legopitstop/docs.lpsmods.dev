@@ -1,5 +1,5 @@
 {
-  "links": [{ "namespace": "magnet", "pattern": "/magnet/:name" }],
+  "links": [{ "namespace": "magnet", "pattern": "/simple-magnets/:name" }],
   "items": [
     {
       "id": "magnet:iron_magnet",

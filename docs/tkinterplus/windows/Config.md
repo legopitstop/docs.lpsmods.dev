@@ -32,11 +32,11 @@ Construct a config widget with the parent MASTER.
 - [add_color](#add_color)
 - [add_object](#add_object)
 
-### get
+### `get`
 
 Returns an object containing the new config.
 
-### add_string
+### `add_string`
 
 Add a string option to the config
 
@@ -48,7 +48,7 @@ Add a string option to the config
 | `label`    | str  |             |
 | `required` | bool |             |
 
-### add_boolean
+### `add_boolean`
 
 Add a boolean (checkbox) option to the config
 
@@ -60,7 +60,7 @@ Add a boolean (checkbox) option to the config
 | `label`    | str  |             |
 | `required` | bool |             |
 
-### add_integer
+### `add_integer`
 
 Add an integer option to the config
 
@@ -74,7 +74,7 @@ Add an integer option to the config
 | `max`      | int  |             |
 | `required` | bool |             |
 
-### add_float
+### `add_float`
 
 Add a float option to the config
 
@@ -88,7 +88,7 @@ Add a float option to the config
 | `max`      | float |             |
 | `required` | bool  |             |
 
-### add_enum
+### `add_enum`
 
 Add an enum option to the config
 
@@ -100,7 +100,7 @@ Add an enum option to the config
 | `label`    | str  |             |
 | `required` | bool |             |
 
-### add_filename
+### `add_filename`
 
 Add a file option to the config
 
@@ -112,7 +112,7 @@ Add a file option to the config
 | `label`    | str  |             |
 | `required` | bool |             |
 
-### add_directory
+### `add_directory`
 
 Add a directory option to the config
 
@@ -124,7 +124,7 @@ Add a directory option to the config
 | `label`    | str  |             |
 | `required` | bool |             |
 
-### add_color
+### `add_color`
 
 Add a color option to the config
 
@@ -136,7 +136,7 @@ Add a color option to the config
 | `label`    | str  |             |
 | `required` | bool |             |
 
-### add_object
+### `add_object`
 
 #### Parameters
 

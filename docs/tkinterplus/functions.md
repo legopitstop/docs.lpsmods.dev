@@ -6,7 +6,7 @@ keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 
 # Functions
 
-## opacity_color
+## `opacity_color`
 
 ### Parameters
 
@@ -15,7 +15,7 @@ keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 | `color1` | str  | The widget color      |
 | `color2` | str  | The master (bg) color |
 
-## winfo_geometry_manager
+## `winfo_geometry_manager`
 
 Returns with the geoemtry type [GRID, PACK, PLACE, None]
 
@@ -25,7 +25,7 @@ Returns with the geoemtry type [GRID, PACK, PLACE, None]
 | -------- | ---------- | ----------- |
 | `master` | tkinter.Tk |             |
 
-## easing
+## `easing`
 
 ### Parameters
 

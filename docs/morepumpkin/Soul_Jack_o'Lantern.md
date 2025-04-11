@@ -1,4 +1,4 @@
 ---
 title: Redirecting…
-redirect: ./Soul_Jack_o_Lantern
+redirect: /morepumpkin/Soul_Jack_o_Lantern
 ---

@@ -10,5 +10,5 @@ Tweaks & Stuff adds a few Blockbench events.
 | Event ID          | Description                     |
 | ----------------- | ------------------------------- |
 | `profile_changed` | User has changed their profile. |
-| `show_dialog`     | A dialog has been opened.         |
-| `close_dialog`    | A dialog has been closed.         |
+| `show_dialog`     | A dialog has been opened.       |
+| `hide_dialog`     | A dialog has been hidden.       |

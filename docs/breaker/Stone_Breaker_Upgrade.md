@@ -1,4 +1,4 @@
 ---
 title: Redirecting…
-redirect: ./Breaker_Upgrade#stone
+redirect: /ultimate-block-breaker/Breaker_Upgrade#stone
 ---

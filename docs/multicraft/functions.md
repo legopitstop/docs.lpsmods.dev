@@ -6,7 +6,9 @@ keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,py
 
 # Functions
 
-## page
+- [page](#page)
+
+## `page`
 
 ### Parameters
 

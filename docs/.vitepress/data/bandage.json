@@ -1,5 +1,5 @@
 {
-  "links": [{ "namespace": "bandage", "pattern": "/bandage/:name" }],
+  "links": [{ "namespace": "bandage", "pattern": "/bandages/:name" }],
   "items": [
     {
       "id": "bandage:bandage",

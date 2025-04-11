@@ -28,6 +28,18 @@ This widget is experimental
 - [hide](#hide)
 - [configure](#configure)
 
+### `show`
+
+UNDOCUMENTED
+
+### `hide`
+
+UNDOCUMENTED
+
+### `configure`
+
+UNDOCUMENTED
+
 ## Example
 
 ```py
