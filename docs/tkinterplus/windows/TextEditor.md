@@ -20,9 +20,9 @@ keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 - [delete](#delete)
 - [get](#get)
 
-### exit
+### `exit`
 
-### open
+### `open`
 
 Reads, then applies the text from the file to the textarea
 
@@ -33,7 +33,7 @@ Reads, then applies the text from the file to the textarea
 | `fp`   | str  |             |
 | `mode` | str  |             |
 
-### set
+### `set`
 
 Set text in textarea
 
@@ -43,11 +43,11 @@ Set text in textarea
 | ------ | ---- | ----------- |
 | `text` | str  |             |
 
-### delete
+### `delete`
 
 Clears all text in textarea
 
-### get
+### `get`
 
 Get text inside textarea
 

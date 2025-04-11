@@ -1,4 +1,4 @@
 ---
 title: Redirecting…
-redirect: ./Magnet#netherite
+redirect: /simple-magnets/Magnet#netherite
 ---

@@ -6,7 +6,7 @@ keywords: legopitstop,python,pypi,folder,easy,filemanagment,pythonpackage,userfo
 
 # Functions
 
-## get_user
+## `get_user`
 
 The root user. If not defined it will create a user
 
@@ -16,7 +16,7 @@ The root user. If not defined it will create a user
 | -------- | ---- | ---------------------------------------------------- |
 | `create` | bool | If no user can be found create one, defaults to True |
 
-## get_config
+## `get_config`
 
 The root config. If not defined it will create the config
 
@@ -26,7 +26,7 @@ The root config. If not defined it will create the config
 | -------- | ---- | ------------------------------------------------------ |
 | `create` | bool | If no config can be found create one, defaults to True |
 
-## get_session_storage
+## `get_session_storage`
 
 The root session storage. If not defined it will create one
 
@@ -36,7 +36,7 @@ The root session storage. If not defined it will create one
 | -------- | ---- | ------------------------------------------------------- |
 | `create` | bool | If no storage can be found create one, defaults to True |
 
-## get_cache
+## `get_cache`
 
 The root cache. If not defined it will create one.
 
@@ -46,7 +46,7 @@ The root cache. If not defined it will create one.
 | -------- | ---- | ----------------------------------------------------- |
 | `create` | bool | If no cache can be found create one, defaults to True |
 
-## get_local_storage
+## `get_local_storage`
 
 The root local storage. If not defined it will create one
 

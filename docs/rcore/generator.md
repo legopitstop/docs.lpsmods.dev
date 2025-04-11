@@ -1,11 +1,4 @@
 ---
-title: Generator | LPS Rcore API Documentation
-description: We are currently working on changing up the entire API system. Hopefully, it will be released soon! For now you can see the up-coming changes to the API.
-keywords: legopitstop,minecraft,mod,datapack,resroucepack,morenbt,nbt,data
+title: Redirecting…
+redirect: /lps-recipe-core/generator
 ---
-
-# Generator
-
-Coming Soon!
-
-<!-- <RcoreGenerator /> -->

@@ -1,4 +1,4 @@
 ---
 title: Redirecting…
-redirect: ./Block_Breaker#diamond
+redirect: /ultimate-block-breaker/Block_Breaker#diamond
 ---

@@ -1,4 +1,4 @@
 ---
 title: Redirecting…
-redirect: ./Magnet_Block#iron
+redirect: /simple-magnets/Magnet_Block#iron
 ---

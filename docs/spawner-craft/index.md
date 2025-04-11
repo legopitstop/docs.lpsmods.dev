@@ -10,10 +10,12 @@ This Minecraft mod adds new recipes that make all of the spawn eggs craftable. U
 
 ## Technical Info
 
-| Key        | Value          |
-| ---------- | -------------- |
-| namespace  | `spawnercraft` |
-| version    | `1.15.0`       |
+| Key           | Value                                  |
+| ------------- | -------------------------------------- |
+| namespace     | `spawnercraft`                         |
+| version       | `1.15.0`                               |
+| behavior UUID | `52e6666c-5423-4c0b-bf8c-12f75f3b0d3c` |
+| slug          | `spawner-craft`                        |
 
 ## Loaders
 
@@ -23,5 +25,5 @@ This Minecraft mod adds new recipes that make all of the spawn eggs craftable. U
 ## Links
 
 - :fire: [Curseforge](https://www.curseforge.com/minecraft/customization/spawner-craft-datapack)
-- :wrench: [Modrinth](https://modrinth.com/datapack/spawnercraft-datapack)
-- :gear: [Source Code](https://github.com/legopitstop/Datapacks)
+- :wrench: [Modrinth](https://modrinth.com/datapack/spawner-craft-datapack)
+- :gear: [Source Code](https://github.com/lpsmods/spawner-craft)

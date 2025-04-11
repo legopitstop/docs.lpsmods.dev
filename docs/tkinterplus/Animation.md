@@ -17,7 +17,25 @@ Universal tkinter animations for Widgets, and Canvas items
 
 ## Methods
 
-### hide
+- [hide](#hide)
+- [show](#show)
+- [toggle](#toggle)
+- [animate](#animate)
+- [clear_queue](#clear_queue)
+- [delay](#delay)
+- [dequeue](#dequeue)
+- [finish](#finish)
+- [queue](#queue)
+- [stop](#stop)
+- [fade_in](#fade_in)
+- [fade_out](#fade_out)
+- [fade_to](#fade_to)
+- [fade_toggle](#fade_toggle)
+- [slide_down](#slide_down)
+- [slide_up](#slide_up)
+- [slide_toggle](#slide_toggle)
+
+### `hide`
 
 Hide the matched widgets.
 
@@ -29,7 +47,7 @@ Hide the matched widgets.
 | `easing`      | str      | A string indicating which easing function to use for the transition.                   |
 | `donecommand` | Callable | A function to call once the animation is donecommand, called once per matched element. |
 
-### show
+### `show`
 
 Display the matched widgets.
 
@@ -41,7 +59,7 @@ Display the matched widgets.
 | `easing`      | str      | A string indicating which easing function to use for the transition.                   |
 | `donecommand` | Callable | A function to call once the animation is donecommand, called once per matched element. |
 
-### toggle
+### `toggle`
 
 Display or hide the matched widgets.
 
@@ -53,7 +71,7 @@ Display or hide the matched widgets.
 | `easing`      | str      | A string indicating which easing function to use for the transition.                   |
 | `donecommand` | Callable | A function to call once the animation is donecommand, called once per matched element. |
 
-### animate
+### `animate`
 
 Perform a custom animation of a set of CSS kw.
 
@@ -68,7 +86,7 @@ Perform a custom animation of a set of CSS kw.
 | `progresscommand` | Callable |                                                                                        |
 | `donecommand`     | Callable | A function to call once the animation is donecommand, called once per matched element. |
 
-### clear_queue
+### `clear_queue`
 
 Remove from the queue all iteduration that have not yet been run.
 
@@ -78,7 +96,7 @@ Remove from the queue all iteduration that have not yet been run.
 | ------ | ---- | -------------------------------------------------------------------------------------- |
 | `name` | str  | A string containing the name of the queue. Defaults to fx, the standard effects queue. |
 
-### delay
+### `delay`
 
 Set a timer to delay execution of subsequent iteduration in the queue.
 
@@ -89,7 +107,7 @@ Set a timer to delay execution of subsequent iteduration in the queue.
 | `duration` | int  | An integer indicating the number of milliseconds to delay execution of the next item in the queue. |
 | `name`     | str  | A string containing the name of the queue. Defaults to fx, the standard effects queue.             |
 
-### dequeue
+### `dequeue`
 
 Execute the next function on the queue for the matched widgets.
 
@@ -99,7 +117,7 @@ Execute the next function on the queue for the matched widgets.
 | ------ | ---- | -------------------------------------------------------------------------------------- |
 | `name` | str  | A string containing the name of the queue. Defaults to fx, the standard effects queue. |
 
-### finish
+### `finish`
 
 Stop the currently-running animation, remove all queued animations, and donecommand all animations for the matched widgets.
 
@@ -109,7 +127,7 @@ Stop the currently-running animation, remove all queued animations, and donecomm
 | ------- | ---- | -------------------------------------------------- |
 | `queue` | str  | The name of the queue in which to stop animations. |
 
-### queue
+### `queue`
 
 Show or manipulate the queue of functions to be executed on the matched widgets.
 
@@ -119,7 +137,7 @@ Show or manipulate the queue of functions to be executed on the matched widgets.
 | ------ | ---- | -------------------------------------------------------------------------------------- |
 | `name` | str  | A string containing the name of the queue. Defaults to fx, the standard effects queue. |
 
-### stop
+### `stop`
 
 Stop the currently running animation on the matched widgets.
 
@@ -130,7 +148,7 @@ Stop the currently running animation on the matched widgets.
 | `stop_queue`  | bool | A Boolean indicating whether to remove queued animation as well. Defaults to false.               |
 | `jump_to_end` | bool | A Boolean indicating whether to donecommand the current animation immediately. Defaults to false. |
 
-### fade_in
+### `fade_in`
 
 Display the matched widgets by fading them to opaque.
 
@@ -143,7 +161,7 @@ Display the matched widgets by fading them to opaque.
 | `donecommand` | Callable | A function to call once the animation is donecommand, called once per matched element.                                    |
 | `queue`       | bool     | A Boolean indicating whether to place the animation in the effects queue. If false, the animation will begin immediately. |
 
-### fage_out
+### `fade_out`
 
 Hide the matched widgets by fading them to transparent.
 
@@ -156,7 +174,7 @@ Hide the matched widgets by fading them to transparent.
 | `donecommand` | Callable | A function to call once the animation is donecommand, called once per matched element.                                    |
 | `queue`       | bool     | A Boolean indicating whether to place the animation in the effects queue. If false, the animation will begin immediately. |
 
-### fade_to
+### `fade_to`
 
 Adjust the opacity of the matched widgets.
 
@@ -169,7 +187,7 @@ Adjust the opacity of the matched widgets.
 | `easing`      | str      | A string indicating which easing function to use for the transition.                   |
 | `donecommand` | Callable | A function to call once the animation is donecommand, called once per matched element. |
 
-### fade_toggle
+### `fade_toggle`
 
 Display or hide the matched widgets by animating their opacity.
 
@@ -182,7 +200,7 @@ Display or hide the matched widgets by animating their opacity.
 | `donecommand` | Callable | A function to call once the animation is donecommand, called once per matched element.                                    |
 | `queue`       | bool     | A Boolean indicating whether to place the animation in the effects queue. If false, the animation will begin immediately. |
 
-### slide_down
+### `slide_down`
 
 Display the matched widgets with a sliding motion.
 
@@ -195,7 +213,7 @@ Display the matched widgets with a sliding motion.
 | `donecommand` | Callable | A function to call once the animation is donecommand, called once per matched element.                                    |
 | `queue`       | bool     | A Boolean indicating whether to place the animation in the effects queue. If false, the animation will begin immediately. |
 
-### slide_up
+### `slide_up`
 
 Hide the matched widgets with a sliding motion.
 
@@ -208,7 +226,7 @@ Hide the matched widgets with a sliding motion.
 | `donecommand` | Callable | A function to call once the animation is donecommand, called once per matched element.                                    |
 | `queue`       | bool     | A Boolean indicating whether to place the animation in the effects queue. If false, the animation will begin immediately. |
 
-### slide_toggle
+### `slide_toggle`
 
 Display or hide the matched widgets with a sliding motion.
 

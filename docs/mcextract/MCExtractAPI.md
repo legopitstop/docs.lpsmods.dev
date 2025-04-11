@@ -20,7 +20,7 @@ keywords: legopitstop,python,java,minecraft,data,assets,pypi,jar,reports,pythonp
 - [generate](#generate)
 - [map](#map)
 
-### accept_eula
+### `accept_eula`
 
 #### Parameters
 
@@ -28,7 +28,7 @@ keywords: legopitstop,python,java,minecraft,data,assets,pypi,jar,reports,pythonp
 | -------- | ---- | ------------------------- |
 | `prompt` | str  | Message to show the user. |
 
-### get_docker
+### `get_docker`
 
 #### Parameters
 
@@ -36,7 +36,7 @@ keywords: legopitstop,python,java,minecraft,data,assets,pypi,jar,reports,pythonp
 | ----------- | ---- | ---------------------------------------- |
 | `mcversion` | str  | Get path to the java runtime executable. |
 
-### extract
+### `extract`
 
 Extracts data and assets folders from the Minecraft jar.
 
@@ -50,7 +50,7 @@ Extracts data and assets folders from the Minecraft jar.
 | `output`      | str  | The output folder, defaults to generate                                               |
 | `accept_eula` | bool | Specifies whether to automatically accept the Minecraft EULA Terms, defaults to False |
 
-### generate
+### `generate`
 
 Use Minecraft's built-in data generator.
 
@@ -63,7 +63,7 @@ Use Minecraft's built-in data generator.
 | `output`      | str  | The output folder, defaults to generate                                               |
 | `accept_eula` | bool | Specifies whether to automatically accept the Minecraft EULA Terms, defaults to False |
 
-### map
+### `map`
 
 Maps Minecraft's objects using an index file.
 

@@ -22,19 +22,19 @@ Make a right click context menu.
 - [enable](#enable)
 - [add_command](#add_command)
 
-### configure
+### `configure`
 
 Config the context menu
 
-### disable
+### `disable`
 
 Unbind context menu so it will not show
 
-### enable
+### `enable`
 
 Bind the context menu so it will show
 
-### add_command
+### `add_command`
 
 Add command menu item. add type for a built-in command ie. type=ContextMenuType.COPY
 

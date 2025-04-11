@@ -70,3 +70,7 @@ input[type="checkbox"]:disabled {
   color: var(--form-control-disabled);
   cursor: not-allowed;
 }
+
+.error {
+  color: red;
+}

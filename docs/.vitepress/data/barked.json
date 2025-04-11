@@ -2,6 +2,11 @@
   "links": [{ "namespace": "barked", "pattern": "/barked/:name" }],
   "items": [
     {
+      "id": "barked:pale_oak_bark",
+      "name": "Pale Oak Bark",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAVxQTFRFAAAAPDY0S0NARj48ODEvPTY0UEVEUEdFWU9KSUA+ODIwPjY0UklGZFpXcmhlYVZTVUpHV0xJWlBMT0ZEVkxIZFlXXlNQYVdUVUlGUkdEUEVCTkRBTEJARz48U0hGRDw6X1NQaWBdYVZUUUZDcGdlYldUWE1KdWtpX1VST0VDc2hmRz89YFVSW1BNTkNAY1lWXFFOU0dFQjs5Z15aWU5LZlxZUkZDbWRiaF1ba2FfVktIXVJPX1RRQzs4OTEvTkM/V0xITUI/aWBeWVBNUUdEQzo4WE5LZltZQjo4amBecWZkSUA9Pzc0NzEvUUhGY1tZST47SEA9TkRDXlNPSD88WExJc2hlZVlXQDc2Qzs5PjUzVkxJYlhTVktJNjAuWU1LbWJgeW5sPjg1Rj47XlJPd2xqYFVUZ15bXFNRYVVScmdlXlRQST87X1dVXVFOZVpZWk9NXFFNZ1xZaF1aAWOXdAAAAHR0Uk5TAP////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9T3FC+AAAAqUlEQVR4nGNkQAOMMJrxH4oAMyMQ/GTg+AEV4GSEgXdgAeGPDAJQgZ8gARmopDCYYmDQYGT8z8T4SpzxhSRYwJiR8RcjG4j5D2y0PSPj53cKt9VA7PNiMjsYPYGMr+d5DBnABqxjYAw+bPeTg5Fxsx+Qu/cF0GExYJk3oiByFtilIpL/rZfEMm5/FzMN6vTs1WGMn/nOmkxE+KXggyAjYy+K52z+HYN6GwCY/yi8iFwdfwAAAABJRU5ErkJggg=="
+    },
+    {
       "id": "barked:acacia_bark",
       "name": "Acacia Bark",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAUpQTFRFAAAAfXhwh4B4fXdwhoB4g311aGRZnpaKZF1UiYN7hn93g310fHZtfnZsYFpSY1xUQz42QDszh4F5hX93hX91b2phcm1ka2VdY11UTUk/Qz02RkA5VExCfXdvjYZ9bmlgcWtjX1lRYlxTUEpDSEM8RD43UElANDApbGdea2RbYlxUX1dOQTs0LCokLSokg3x0cWxjcWpgYFlRUUpDRT84Qjw2OzYwJiMeMSwme3dthH52gnxzc21lV1FJSEE5QDs0LCciIR8aiYN6enVrWVRLV1BINS4rKSUgHRoXiIJ5bWdeXVdPR0E5RT43OjQvMS0mHx0XbGddc21kZ2FYXlhQWlNKSUM7QDozQjw1Qjs0PTYvfXZseXJnUUxCRUE6QDo0NzIrQzw1PjcvXldOQjs1ODMsLCkiUko+QTw1R0A6LywlNjIsLyskNTErH2+lhAAAAG50Uk5TAP////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8V1OFtAAAAv0lEQVR4nGNgwAEYmVD5zCysbOwMDBwwPicXNxsPLx+/gCCELyQsIiomzichKSUtA+LLCsuJyisoKimrqKqpA/nCwqyiohqaWtqqqjq6eiC+voGohqGRsZSJqZm5BYOllbWNvLwWn62qtJ29gyMDA4uTs7y8i6KrlImqm7sH0ARPMVFRL0VvKR9fP/8AkBWBokHBIaFh4VIRkVEQR0THxNrGScUnJCbBnOmS7COVkpqWjuSTjMwsvWxUz+XkwlgAJakcKejPj10AAAAASUVORK5CYII="

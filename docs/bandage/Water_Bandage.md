@@ -1,4 +1,4 @@
 ---
 title: Redirecting…
-redirect: ./Bandage#water
+redirect: /bandages/Bandage#water
 ---

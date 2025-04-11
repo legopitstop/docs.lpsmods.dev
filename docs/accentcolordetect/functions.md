@@ -6,11 +6,15 @@ keywords: legopitstop,python,windows,gui,darwin,pypi,tkinter,colordetect,pythonp
 
 # Functions
 
-## accent
+- [accent](#accent)
+- [rgb2hex](#rgb2hex)
+- [hex2rgb](#hex2rgb)
+
+## `accent`
 
 The accent color is RGB
 
-## rgb2hex
+## `rgb2hex`
 
 Converts RGB to HEX value
 
@@ -20,7 +24,7 @@ Converts RGB to HEX value
 | ----- | ----- | --------------------------- |
 | `rgb` | tuple | The RGB color in tuple form |
 
-## hex2rgb
+## `hex2rgb`
 
 Converts hex value to RGB
 

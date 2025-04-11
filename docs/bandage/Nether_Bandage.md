@@ -1,4 +1,4 @@
 ---
 title: Redirecting…
-redirect: ./Bandage#nether
+redirect: /bandages/Bandage#nether
 ---

@@ -10,15 +10,17 @@ This Minecraft mod gives you a bark item when you strip logs, wood, stem, or hyp
 
 ## Technical Info
 
-| Key        | Value    |
-| ---------- | -------- |
-| namespace  | `barked` |
+| Key       | Value    |
+| --------- | -------- |
+| namespace | `barked` |
+| slug      | `barked` |
 
 ## Loaders
 
 - Data Pack & Resource Pack
+- Bedrock
 
 ## Links
 
 - :fire: [Curseforge](https://www.curseforge.com/minecraft/customization/barked-datapack)
-- :gear: [Source Code](https://github.com/legopitstop/Datapacks)
+- :gear: [Source Code](https://github.com/lpsmods/barked)

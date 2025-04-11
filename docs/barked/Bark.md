@@ -13,6 +13,7 @@ description: Bark is an item you get when you strip logs, or wood.
 <InvSlot id="barked:mangrove_bark"/>
 <InvSlot id="barked:oak_bark"/>
 <InvSlot id="barked:spruce_bark"/>
+<InvSlot id="barked:pale_oak_bark"/>
 
 **Bark** is an item you get when you strip logs, or wood.
 
@@ -30,6 +31,7 @@ There are 8 variants of bark:
 - Mangrove Bark
 - Oak Bark
 - Spruce Bark
+- Pale Oak Bark
 
 :::
 
@@ -53,6 +55,7 @@ Data pack Edition:
 | Mangrove Bark | Internal:<br>`barked:mangrove_bark`<br>In-game:<br>`minecraft:stick` | `item.barked.mangrove_bark` |
 | Oak Bark      | Internal:<br>`barked:oak_bark`<br>In-game:<br>`minecraft:stick`      | `item.barked.oak_bark`      |
 | Spruce Bark   | Internal:<br>`barked:spruce_bark`<br>In-game:<br>`minecraft:stick`   | `item.barked.spruce_bark`   |
+| Pale Oak Bark | Internal:<br>`barked:pale_oak_bark`<br>In-game:<br>`minecraft:stick` | `item.barked.pale_oak_bark` |
 
 ## History
 
@@ -60,3 +63,7 @@ Data pack Edition:
 | --------------- | ----------------------------------------------------------- |
 | Initial release | Added Acacia, Birch, Dark Oak, Jungle, Oak and Spruce Bark. |
 | 1.3.0           | Added Cherry, and Mangrove Bark.                            |
+
+|                 | Bedrock Edition                                                             |
+| --------------- | --------------------------------------------------------------------------- |
+| Initial release | Added Acacia, Birch, Dark Oak, Jungle, Oak, Spruce Bark, and Pale Oak Bark. |

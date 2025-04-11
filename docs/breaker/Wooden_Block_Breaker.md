@@ -1,4 +1,4 @@
 ---
 title: Redirecting…
-redirect: ./Block_Breaker#wooden
+redirect: /ultimate-block-breaker/Block_Breaker#wooden
 ---

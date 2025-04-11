@@ -27,6 +27,34 @@ This widget is experimental
 - [add_format](#add_format)
 - [insert](#insert)
 
+### `set_language`
+
+UNDOCUMENTED
+
+### `load_extension`
+
+UNDOCUMENTED
+
+### `closePairs`
+
+UNDOCUMENTED
+
+### `format`
+
+UNDOCUMENTED
+
+### `contextMenu`
+
+UNDOCUMENTED
+
+### `add_format`
+
+UNDOCUMENTED
+
+### `insert`
+
+UNDOCUMENTED
+
 ## Example
 
 ```py

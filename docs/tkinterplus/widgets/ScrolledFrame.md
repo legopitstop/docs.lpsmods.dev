@@ -27,27 +27,27 @@ Construct a scrolledframe widget with the parent MASTER.
 - [bind](#bind)
 - [unbind](#unbind)
 
-### configure
+### `configure`
 
 ScrolledText
 
-### pack_configure
+### `pack_configure`
 
 Pack a widget in the parent widget.
 
-### grid_configure
+### `grid_configure`
 
-osition a widget in the parent widget in a grid.
+Position a widget in the parent widget in a grid.
 
-### place_configure
+### `place_configure`
 
 Place a widget in the parent widget.
 
-### destroy
+### `destroy`
 
 Destroy this and all descendants widgets.
 
-### bind_all
+### `bind_all`
 
 Bind to all widgets at an event SEQUENCE a call to function FUNC.
 
@@ -59,7 +59,7 @@ Bind to all widgets at an event SEQUENCE a call to function FUNC.
 | `func`     | Callable |             |
 | `add`      | bool     |             |
 
-### unbind_all
+### `unbind_all`
 
 Unbind for all widgets for event SEQUENCE all functions.
 
@@ -69,7 +69,7 @@ Unbind for all widgets for event SEQUENCE all functions.
 | ---------- | ---- | ----------- |
 | `sequence` | str  |             |
 
-### bind
+### `bind`
 
 Bind to this widget at event SEQUENCE a call to function FUNC.
 
@@ -81,7 +81,7 @@ Bind to this widget at event SEQUENCE a call to function FUNC.
 | `func`     | Callable |             |
 | `add`      | bool     |             |
 
-### unbind
+### `unbind`
 
 Unbind for this widget for event SEQUENCE the function identified with FUNCID.
 

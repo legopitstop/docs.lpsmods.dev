@@ -28,3 +28,7 @@ Data pack Edition:
 |       | Data pack Edition   |
 | ----- | ------------------- |
 | 1.3.0 | Added Bamboo Sheath |
+
+|                 | Bedrock Edition     |
+| --------------- | ------------------- |
+| Initial release | Added Bamboo Sheath |

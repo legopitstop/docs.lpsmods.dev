@@ -17,6 +17,38 @@ keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 - [askyesnocancel](#askyesnocancel)
 - [askretrycancel](#askretrycancel)
 
+### `showinfo`
+
+UNDOCUMENTEd
+
+### `showwarning`
+
+UNDOCUMENTEd
+
+### `showerror`
+
+UNDOCUMENTEd
+
+### `askquestion`
+
+UNDOCUMENTEd
+
+### `askokcancel`
+
+UNDOCUMENTEd
+
+### `askyesno`
+
+UNDOCUMENTEd
+
+### `askyesnocancel`
+
+UNDOCUMENTEd
+
+### `askretrycancel`
+
+UNDOCUMENTEd
+
 ## Example
 
 ```py

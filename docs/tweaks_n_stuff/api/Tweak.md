@@ -1,46 +1,55 @@
 ---
 title: Tweak Class | Tweaks & Stuff Plugin
-description: desc
+description: Base tweak class.
 ---
 
 # Tweak class
 
+Base tweak class.
+
+## Classes that extend Tweak
+
+- [EditTweak](./EditTweak.md)
+- [SelectTweak](./SelectTweak.md)
+- [ToggleTweak](./ToggleTweak.md)
+
 ## Parameters
 
-| Name          | Type   | Description                          |
-| ------------- | ------ | ------------------------------------ |
-| `id`          | string | ID of the tweak used for setting.    |
-| `name`        | string | User friendly name for this setting. |
-| `description` | string | Description of this setting.         |
-| `category`    | string | The category in settings.            |
+| Name          | Type   | Description                             |
+| ------------- | ------ | --------------------------------------- |
+| `id`          | string | ID of the tweak used for setting.       |
+| `name`        | string | User friendly name for this setting.    |
+| `author`      | string | The user who created this tweak.        |
+| `description` | string | Description of this setting.            |
+| `category`    | string | The category in settings.               |
+| `condition`   | string | Conditions to match to show this tweak. |
 
 ## Methods
 
-- [load](#load)
-- [onChange](#onchange)
-- [install](#install)
-- [uninstall](#uninstall)
-- [enable](#enable)
-- [disable](#disable)
 - [delete](#delete)
-- [onEnable](#onenable)
-- [onDisable](#ondisable)
-- [oninstall](#oninstall)
-- [onuninstall](#onuninstall)
+- [disable](#disable)
+- [enable](#enable)
+- [install](#install)
+- [load](#load)
+- [onInstall](#oninstall)
+- [onLoad](#onload)
+- [onUninstall](#onuninstall)
+- [onUnload](#onunload)
+- [setup](#setup)
+- [uninstall](#uninstall)
+- [unload](#unload)
 
-### load
+### delete
 
-When this tweak is first loaded.
+Delete this tweak with its setting and deleteables.
 
-### onChange
+### disable
 
-Callback used for this tweaks setting.
+Disable this tweak.
 
-#### Parameters
+### enable
 
-| Name    | Type | Description |
-| ------- | ---- | ----------- |
-| `value` |      |             |
+Enable this tweak.
 
 ### install
 
@@ -50,6 +59,26 @@ Install this tweak.
 Do not override! You should override [onInstall](#oninstall) instead.
 :::
 
+### load
+
+Load this tweak.
+
+### onInstall
+
+Called when this plugin is installed.
+
+### onLoad
+
+Called when this tweak is loaded.
+
+### onUninstall
+
+Called when this plugin is uninstalled.
+
+### onUnload
+
+Called when this tweak is unloaded.
+
 ### uninstall
 
 Uninstall this tweak.
@@ -58,38 +87,10 @@ Uninstall this tweak.
 Do not override! You should override [onUninstall](#onuninstall) instead.
 :::
 
-### enable
+### unload
 
-Enable this tweak.
+Unload this tweak.
 
-::: warning
-Do not override! You should override [onEnable](#onenable) instead.
-:::
+### setup
 
-### disable
-
-Disable this tweak.
-
-::: warning
-Do not override! You should override [onDisable](#ondisable) instead.
-:::
-
-### delete
-
-Delete this tweak and its settings.
-
-### onEnable
-
-Override this method to add features when enabled.
-
-### onDisable
-
-Override this method to remove features when disabled.
-
-### oninstall
-
-Override this method to add features when installed.
-
-### onuninstall
-
-Override this method to remove features when uninstalled.
+Called when this tweak is created.

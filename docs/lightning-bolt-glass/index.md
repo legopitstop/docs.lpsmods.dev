@@ -10,9 +10,10 @@ What is Lightning Bolt Glass? Whenever lightning hits sand it turns into glass.
 
 ## Technical Info
 
-| Key        | Value       |
-| ---------- | ----------- |
-| namespace  | `lightning` |
+| Key       | Value                  |
+| --------- | ---------------------- |
+| namespace | `lightning`            |
+| slug      | `lightning-bolt-glass` |
 
 ## Loaders
 
@@ -22,4 +23,4 @@ What is Lightning Bolt Glass? Whenever lightning hits sand it turns into glass.
 
 - :fire: [Curseforge](https://www.curseforge.com/minecraft/mc-mods/lightning-bolt-glass)
 - :wrench: [Modrinth](https://modrinth.com/mod/lightning-bolt-glass)
-- :gear: [Source Code](https://github.com/legopitstop/Fabric)
+- :gear: [Source Code](https://github.com/lpsmods/lightning-bolt-glass)

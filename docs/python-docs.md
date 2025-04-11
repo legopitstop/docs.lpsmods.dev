@@ -5,6 +5,7 @@ title: Python Documentations
 # Python Documentations
 
 - :desktop_computer: [GeyserMC](./geysermc/index.md)
+- :file_cabinet: [gitfiles](./gitfiles/index.md)
 - :heavy_plus_sign: [TkinterPlus](./tkinterplus/index.md)
 - :file_folder: [UserFolder](./userfolder/index.md)
 - :paintbrush: [accentcolordetect](./accentcolordetect/index.md)

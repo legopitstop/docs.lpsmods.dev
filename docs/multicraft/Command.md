@@ -26,4 +26,14 @@ keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,py
 - [delete](./MulticraftAPI#delete-command)
 - [run](./MulticraftAPI#run-command)
 
-### from_json
+### `from_json`
+
+UNDOCUMENTED
+
+### `delete`
+
+UNDOCUMENTED
+
+### `run`
+
+UNDOCUMENTED

@@ -24,14 +24,26 @@ Load skin from file
 - [show](#show)
 - [bone_face_imageTk](#bone_face_imagetk)
 
-### origin
+### `origin`
 
-### bone
+UNDOCUMENTED
 
-### bone_face
+### `bone`
 
-### paperdoll
+UNDOCUMENTED
 
-### show
+### `bone_face`
 
-### bone_face_imageTk
+UNDOCUMENTED
+
+### `paperdoll`
+
+UNDOCUMENTED
+
+### `show`
+
+UNDOCUMENTED
+
+### `bone_face_imageTk`
+
+UNDOCUMENTED

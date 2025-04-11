@@ -1,4 +1,4 @@
 ---
 title: Redirecting…
-redirect: ./Magnet_Block#copper
+redirect: /simple-magnets/Magnet_Block#copper
 ---

@@ -10,4 +10,6 @@ keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 
 - [easing](#easing)
 
-### easing
+### `easing`
+
+UNDOCUMENTED

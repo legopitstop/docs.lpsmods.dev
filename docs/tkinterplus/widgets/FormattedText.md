@@ -44,6 +44,38 @@ This widget is experimental
 - [get](#get)
 - [delete](#delete)
 
+### `update`
+
+UNDOCUMENTED
+
+### `update_style`
+
+UNDOCUMENTED
+
+### `configure`
+
+UNDOCUMENTED
+
+### `bind`
+
+UNDOCUMENTED
+
+### `unbind`
+
+UNDOCUMENTED
+
+### `insert`
+
+UNDOCUMENTED
+
+### `get`
+
+UNDOCUMENTED
+
+### `delete`
+
+UNDOCUMENTED
+
 ## Example
 
 ```py

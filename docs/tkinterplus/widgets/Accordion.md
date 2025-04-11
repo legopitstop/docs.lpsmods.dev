@@ -39,25 +39,25 @@ keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 - [place_configure](#place_configure)
 - [pack_configure](#pack_configure)
 
-### configure
+### `configure`
 
-### update
+### `update`
 
 updates the icons
 
-### show
+### `show`
 
 Expand the accordion
 
-### hide
+### `hide`
 
 Shrink the accordion
 
-### grid_configure
+### `grid_configure`
 
-### place_configure
+### `place_configure`
 
-### pack_configure
+### `pack_configure`
 
 ## Example
 

@@ -51,6 +51,134 @@ This widget is experimental
 - [after](#after)
 - [raycast](#raycast)
 
+### `find_coeffs`
+
+UNDOCUMENTED
+
+### `bind_rotation`
+
+UNDOCUMENTED
+
+### `bind_movement`
+
+UNDOCUMENTED
+
+### `controls`
+
+UNDOCUMENTED
+
+### `delete`
+
+UNDOCUMENTED
+
+### `create_arc`
+
+UNDOCUMENTED
+
+### `create_bitmap`
+
+UNDOCUMENTED
+
+### `create_image`
+
+UNDOCUMENTED
+
+### `create_line`
+
+UNDOCUMENTED
+
+### `create_oval`
+
+UNDOCUMENTED
+
+### `create_polygon`
+
+UNDOCUMENTED
+
+### `create_rectangle`
+
+UNDOCUMENTED
+
+### `create_text`
+
+UNDOCUMENTED
+
+### `create_window`
+
+UNDOCUMENTED
+
+### `create_face`
+
+UNDOCUMENTED
+
+### `draw`
+
+UNDOCUMENTED
+
+### `get_items`
+
+UNDOCUMENTED
+
+### `show_origin`
+
+UNDOCUMENTED
+
+### `move`
+
+UNDOCUMENTED
+
+### `rotate`
+
+UNDOCUMENTED
+
+### `grid_configure`
+
+UNDOCUMENTED
+
+### `pack_configure`
+
+UNDOCUMENTED
+
+### `place_configure`
+
+UNDOCUMENTED
+
+### `configure`
+
+UNDOCUMENTED
+
+### `bind`
+
+UNDOCUMENTED
+
+### `tag_bind`
+
+UNDOCUMENTED
+
+### `tag_unbind`
+
+UNDOCUMENTED
+
+### `tag_lower`
+
+UNDOCUMENTED
+
+### `tag_raise`
+
+UNDOCUMENTED
+
+### `itemconfigure`
+
+UNDOCUMENTED
+
+### `after`
+
+UNDOCUMENTED
+
+### `raycast`
+
+UNDOCUMENTED
+
 ## Example
 
 ```py

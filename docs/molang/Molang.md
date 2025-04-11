@@ -20,7 +20,7 @@ This is a placeholder class and could be removed in a future version.
 - [append](#append)
 - [prepend](#prepend)
 
-### from_ast
+### `from_ast`
 
 Converts a Python abstract syntax tree to Molang.
 
@@ -30,7 +30,7 @@ Converts a Python abstract syntax tree to Molang.
 | ---------- | ---------- | ---------------------- |
 | `ast_node` | ast.Module | The ast node to parse. |
 
-### append
+### `append`
 
 Adds text to the end of the expression.
 
@@ -40,7 +40,7 @@ Adds text to the end of the expression.
 | ---- | ---- | ------------------- |
 | `s`  | str  | The text to append. |
 
-### prepend
+### `prepend`
 
 Adds text to the start of the expression.
 

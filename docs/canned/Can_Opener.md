@@ -21,7 +21,7 @@ output="canned:can_opener"
 
 ## Usage
 
-UNDOCUMENTED
+Holding a non-empty can in your offhand and using a Can Opener will open the can and give you its contents.
 
 ## Data Values
 

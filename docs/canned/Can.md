@@ -64,10 +64,8 @@ a3="iron_nugget" b3="iron_nugget" c3="iron_nugget"
 output="canned:empty_can"
 :count="1"/>
 
-<ShapedRecipe
-a1="canned:empty_can" b1="apple" c1="apple"
-a2="apple" b2="apple" c2="apple"
-a3="apple" b3="apple" c3="apple"
+<ShapelessRecipe
+:ingredients="['canned:empty_can','apple','apple','apple','apple','apple','apple','apple','apple']"
 output="canned:apple_can"
 :count="1"/>
 

@@ -33,7 +33,7 @@ Construct a form widget with the parent MASTER.
 - [add_submit_button](#add_submit_button)
 - [add_reset_button](#add_reset_button)
 
-### add_radio
+### `add_radio`
 
 Add multiple choice
 
@@ -43,7 +43,7 @@ Add multiple choice
 | ---------- | ---- | ----------- |
 | `question` | str  |             |
 
-### add_checkbox
+### `add_checkbox`
 
 Add checkbox
 
@@ -53,7 +53,7 @@ Add checkbox
 | ---------- | ---- | ----------- |
 | `question` | str  |             |
 
-### add_dropdown
+### `add_dropdown`
 
 Add dropdown list
 
@@ -63,7 +63,7 @@ Add dropdown list
 | ---------- | ---- | ----------- |
 | `question` | str  |             |
 
-### add_file
+### `add_file`
 
 Add file upload
 
@@ -76,7 +76,7 @@ Add file upload
 | `multiple`  | bool |             |
 | `maxsize`   | int  |             |
 
-### add_linear_scale
+### `add_linear_scale`
 
 Add linear scale
 
@@ -90,7 +90,7 @@ Add linear scale
 | `start`    | int  |             |
 | `end`      | int  |             |
 
-### add_radio_grid
+### `add_radio_grid`
 
 Add multiple choice grid
 
@@ -102,7 +102,7 @@ Add multiple choice grid
 | `row`      | int  |             |
 | `column`   | int  |             |
 
-### add_checkbox_grid
+### `add_checkbox_grid`
 
 Add checkbox grid
 
@@ -114,7 +114,7 @@ Add checkbox grid
 | `row`      | int  |             |
 | `column`   | int  |             |
 
-### add_short_answer
+### `add_short_answer`
 
 Add short answer
 
@@ -124,7 +124,7 @@ Add short answer
 | ---------- | ---- | ----------- |
 | `question` | str  |             |
 
-### add_paragraph
+### `add_paragraph`
 
 Add paragraph
 
@@ -134,7 +134,7 @@ Add paragraph
 | ---------- | ---- | ----------- |
 | `question` | str  |             |
 
-### add_title
+### `add_title`
 
 Add title and description
 
@@ -145,7 +145,7 @@ Add title and description
 | `title`       | str  |             |
 | `description` | str  |             |
 
-### add_image
+### `add_image`
 
 Add image
 
@@ -156,7 +156,7 @@ Add image
 | `file`  | str  |             |
 | `title` | str  |             |
 
-### add_submit_button
+### `add_submit_button`
 
 Add submit button
 
@@ -166,7 +166,7 @@ Add submit button
 | --------- | -------- | ----------- |
 | `command` | Callable |             |
 
-### add_reset_button
+### `add_reset_button`
 
 Add reset button
 

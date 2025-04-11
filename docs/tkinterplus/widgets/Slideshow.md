@@ -34,6 +34,26 @@ This widget is experimental
 - [start](#start)
 - [stop](#stop)
 
+### `next`
+
+UNDOCUMENTED
+
+### `previous`
+
+UNDOCUMENTED
+
+### `configure`
+
+UNDOCUMENTED
+
+### `start`
+
+UNDOCUMENTED
+
+### `stop`
+
+UNDOCUMENTED
+
 ## Example
 
 ```py

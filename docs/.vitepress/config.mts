@@ -55,9 +55,9 @@ export default defineConfig({
     pageData.titleTemplate = ":title";
 
     if (pageData.frontmatter.redirect) {
-      var url = pageData.frontmatter.redirect.replace(".md", "");
+      const url = pageData.frontmatter.redirect.replace(".md", "");
       pageData.title = "Redirecting…";
-      var head = [
+      const head = [
         "meta",
         {
           "http-equiv": "refresh",
@@ -66,8 +66,9 @@ export default defineConfig({
       ];
       if (!pageData.frontmatter.head) {
         pageData.frontmatter.head = [head];
+      } else {
+        pageData.frontmatter.head.push(head);
       }
-      pageData.frontmatter.head.push(head);
     }
   },
   transformHead: ({ pageData, siteConfig, page }) => {
@@ -75,15 +76,16 @@ export default defineConfig({
     // Per-page favicon
     var icon = getIcon(page, siteConfig.userConfig.icon);
     var favicon = icon ? icon.favicon : "/favicon.ico";
+
     // Per-page SEO
     // Primary
     head.push([
       "meta",
-      { property: "title", content: pageData.frontmatter.title },
+      { property: "title", content: pageData.frontmatter?.title ?? "Untitled" },
     ]);
     head.push([
       "meta",
-      { name: "keywords", content: pageData.frontmatter.keywords },
+      { name: "keywords", content: pageData.frontmatter?.keywords ?? "" },
     ]);
     // icons
     head.push([
@@ -111,22 +113,31 @@ export default defineConfig({
     // Open Graph / Facebook
     head.push([
       "meta",
-      { property: "og:title", content: pageData.frontmatter.title },
+      {
+        property: "og:title",
+        content: pageData.frontmatter?.title ?? "Untitled",
+      },
     ]);
     head.push([
       "meta",
-      { property: "og:description", content: pageData.frontmatter.description },
+      {
+        property: "og:description",
+        content: pageData.frontmatter?.description ?? "",
+      },
     ]);
     // Twitter
     head.push([
       "meta",
-      { property: "twitter:title", content: pageData.frontmatter.title },
+      {
+        property: "twitter:title",
+        content: pageData.frontmatter?.title ?? "Untitled",
+      },
     ]);
     head.push([
       "meta",
       {
         property: "twitter:description",
-        content: pageData.frontmatter.description,
+        content: pageData.frontmatter?.description ?? "",
       },
     ]);
     // Meta tags
@@ -135,6 +146,7 @@ export default defineConfig({
   cleanUrls: true, // remove .html
   markdown: {
     breaks: true,
+    checkLinks: true,
     languages: [
       mcfunctionGrammar,
       snbtGrammar,
@@ -150,28 +162,33 @@ export default defineConfig({
 
   // NOTE: This is a custom property used in transformHead
   icon: {
-    "/assetsplus/": { favicon: "/images/assetsplus/favicon.ico" },
-    "/bandage/": { favicon: "/images/bandage/favicon.ico" },
+    "/assets-plus/": { favicon: "/images/assets-plus/favicon.ico" },
+    "/bandages/": { favicon: "/images/bandages/favicon.ico" },
     "/barked/": { favicon: "/images/barked/favicon.ico" },
-    "/basaltblocks/": { favicon: "/images/basaltblocks/favicon.ico" },
-    "/breaker/": { favicon: "/images/breaker/favicon.ico" },
+    "/basalt-blocks/": { favicon: "/images/basalt-blocks/favicon.ico" },
+    "/ultimate-block-breaker/": {
+      favicon: "/images/ultimate-block-breaker/favicon.ico",
+    },
     "/bright/": { favicon: "/images/bright/favicon.ico" },
     "/canned/": { favicon: "/images/canned/favicon.ico" },
     "/lightning-bolt-glass/": {
       favicon: "/images/lightning-bolt-glass/favicon.ico",
     },
-    "/magnet/": { favicon: "/images/magnet/favicon.ico" },
-    "/moreblocks/": { favicon: "/images/moreblocks/favicon.ico" },
-    "/morefood/": { favicon: "/images/morefood/favicon.ico" },
-    "/moregold/": { favicon: "/images/moregold/favicon.ico" },
-    "/morehoney/": { favicon: "/images/morehoney/favicon.ico" },
-    "/morepumpkin/": { favicon: "/images/morepumpkin/favicon.ico" },
-    "/more_ss/": { favicon: "/images/more_ss/favicon.ico" },
-    "/poses/": { favicon: "/images/poses/favicon.ico" },
-    "/rcore/": { favicon: "/images/rcore/favicon.ico" },
-    "/record/": { favicon: "/images/record/favicon.ico" },
-    "/spawnercraft/": { favicon: "/images/spawnercraft/favicon.ico" },
+    "/simple-magnets/": { favicon: "/images/simple-magnets/favicon.ico" },
+    "/more-blocks/": { favicon: "/images/more-blocks/favicon.ico" },
+    "/more-food/": { favicon: "/images/more-food/favicon.ico" },
+    "/more-gold/": { favicon: "/images/more-gold/favicon.ico" },
+    "/more-honey/": { favicon: "/images/more-honey/favicon.ico" },
+    "/more-pumpkins/": { favicon: "/images/more-pumpkins/favicon.ico" },
+    "/more-stairs-and-slabs/": {
+      favicon: "/images/more-stairs-and-slabs/favicon.ico",
+    },
+    "/armor-stand-poses/": { favicon: "/images/armor-stand-poses/favicon.ico" },
+    "/lps-recipe-core/": { favicon: "/images/lps-recipe-core/favicon.ico" },
+    "/record-api/": { favicon: "/images/record-api/favicon.ico" },
+    "/spawner-craft/": { favicon: "/images/spawner-craft/favicon.ico" },
     "/tweaks_n_stuff/": { favicon: "/images/tweaks_n_stuff/favicon.ico" },
+    "/ai_bench/": { favicon: "/images/ai_bench/favicon.ico" },
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -228,6 +245,14 @@ export default defineConfig({
             text: "How to Install Resource Packs",
             link: "/tutorials/how-to-install-texture-packs",
           },
+          {
+            text: "How to Enable Content Log GUI",
+            link: "/tutorials/how-to-enable-log-gui",
+          },
+          {
+            text: "What In The Pack Format?",
+            link: "/tutorials/what-in-the-pack-format",
+          },
         ],
       },
     ],
@@ -246,7 +271,7 @@ export default defineConfig({
           base: "/accentcolordetect/",
           items: [
             { text: "Index", link: "/" },
-            { text: "Functions", link: "/accentcolordetect/functions" },
+            { text: "Functions", link: "/functions" },
           ],
         },
       ],
@@ -256,8 +281,24 @@ export default defineConfig({
           base: "/mcpath/",
           items: [
             { text: "Index", link: "/" },
-            { text: "globals", link: "/globals" },
-            { text: "MCPath", link: "/MCPath" },
+            { text: "Globals", link: "/Globals" },
+            {
+              text: "Classes",
+              items: [
+                { text: "Bedrock", link: "/Bedrock" },
+                { text: "Java", link: "/Java" },
+                { text: "Preview", link: "/Preview" },
+                { text: "Education", link: "/Education" },
+              ],
+            },
+            {
+              text: "Legacy (1.1.0)",
+              base: "/mcpath/legacy",
+              items: [
+                { text: "globals", link: "/globals" },
+                { text: "MCPath", link: "/MCPath" },
+              ],
+            },
           ],
         },
       ],
@@ -625,11 +666,25 @@ export default defineConfig({
           ],
         },
       ],
+      "/gitfiles": [
+        {
+          text: "gitfiles",
+          base: "/gitfiles/",
+          items: [
+            { text: "Index", link: "/" },
+            { text: "Functions", link: "/functions" },
+            {
+              text: "Classes",
+              items: [{ text: "IgnoreFilter", link: "/IgnoreFilter" }],
+            },
+          ],
+        },
+      ],
       // Minecraft
-      "/assetsplus": [
+      "/assets-plus": [
         {
           text: "Assets+",
-          base: "/assetsplus/",
+          base: "/assets-plus/",
           items: [
             { text: "Index", link: "/" },
             { text: "Models", link: "/models" },
@@ -638,43 +693,323 @@ export default defineConfig({
           ],
         },
       ],
-      "/dataplus": [
+      "/basalt-blocks": [
         {
-          text: "Data+",
-          base: "/dataplus/",
+          text: "Basalt Blocks",
+          base: "/basalt-blocks/",
           items: [
             { text: "Index", link: "/" },
             {
-              text: "Item",
-              base: "/dataplus/item",
-              items: [{ text: "LoreComponent", link: "/LoreComponent" }],
+              text: "Blocks",
+              collapsed: true,
+              items: [
+                { text: "Basalt", link: "./Basalt.md" },
+                { text: "Smooth Basalt", link: "./Smooth_Basalt.md" },
+                { text: "Polished Basalt", link: "./Polished_Basalt.md" },
+                {
+                  text: "Polished Basalt Bricks",
+                  link: "./Polished_Basalt_Bricks.md",
+                },
+                { text: "Cobbled Basalt", link: "./Cobbled_Basalt.md" },
+              ],
+            },
+          ],
+        },
+      ],
+      "/record-api": [
+        {
+          text: "Record API",
+          base: "/record-api/",
+          items: [
+            { text: "Index", link: "/" },
+            { text: "Creeper Loot", link: "/creeper-loot" },
+            { text: "Custom Model Data", link: "/custom-model-data" },
+            { text: "Item NBT", link: "/item-nbt" },
+            // { text: "Music Disc Studio", link: "/music-disc-studio" },
+          ],
+        },
+      ],
+      "/lightning-bolt-glass": [
+        {
+          text: "Lightning Bolt Glass",
+          base: "/lightning-bolt-glass/",
+          items: [
+            { text: "Index", link: "/" },
+            { text: "Fulgurite", link: "/fulgurite" },
+            { text: "Legacy Format", link: "/legacy-format" },
+            { text: "Examples", link: "/example-fulgurites" },
+          ],
+        },
+      ],
+      "/lps-recipe-core": [
+        {
+          text: "LPS Rcore API",
+          base: "/lps-recipe-core/",
+          items: [
+            { text: "Index", link: "/" },
+            {
+              text: "Upcoming Features",
+              collapsed: true,
+              items: [
+                { text: "Crafting Table", link: "/crafting-table" },
+                { text: "Items", link: "/items" },
+                { text: "Item Types", link: "/item-types" },
+                { text: "Recipes", link: "/recipes" },
+                { text: "Recipe Types", link: "/recipe-types" },
+                { text: "Tables", link: "/tables" },
+                { text: "Events", link: "/events" },
+                { text: "utils", link: "/utils" },
+                {
+                  text: "Examples",
+                  collapsed: true,
+                  items: [
+                    { text: "Items", link: "/example-items" },
+                    { text: "Item Types", link: "/example-item-types" },
+                    { text: "Recipes", link: "/example-recipes" },
+                    { text: "Recipe Types", link: "/example-recipe-types" },
+                    { text: "Tables", link: "/example-tables" },
+                  ],
+                },
+              ],
+            },
+            { text: "Generator", link: "/generator" },
+          ],
+        },
+      ],
+      "/armor-stand-poses": [
+        {
+          text: "Armor Stand Poses",
+          base: "/armor-stand-poses/",
+          items: [
+            { text: "Index", link: "/" },
+            { text: "Data-Driven", link: "/data-driven" },
+            { text: "Pose Format", link: "/pose-format" },
+            { text: "Built-in Poses", link: "/builtin-poses" },
+            { text: "Armor Stand Data", link: "/armor-stand-data" },
+            { text: "Generator", link: "/generator" },
+          ],
+        },
+      ],
+      "/spawner-craft": [
+        {
+          text: "Spawner Craft",
+          base: "/spawner-craft/",
+          items: [
+            { text: "Index", link: "/" },
+            { text: "Hostile", link: "/hostile" },
+            { text: "Friendly", link: "/friendly" },
+            { text: "Underwater", link: "/underwater" },
+            { text: "Nether", link: "/nether" },
+            { text: "Misc", link: "/misc" },
+          ],
+        },
+      ],
+      "/simple-magnets": [
+        {
+          text: "Simple Magnets",
+          base: "/simple-magnets/",
+          items: [
+            { text: "Index", link: "/" },
+            {
+              text: "Blocks",
+              collapsed: true,
+              items: [
+                { text: "Iron Magnet Block", link: "./Magnet_Block.md#iron" },
+                { text: "Gold Magnet Block", link: "./Magnet_Block.md#gold" },
+                {
+                  text: "Copper Magnet Block",
+                  link: "./Magnet_Block.md#copper",
+                },
+                {
+                  text: "Diamond Magnet Block",
+                  link: "./Magnet_Block.md#diamond",
+                },
+                {
+                  text: "Netherite Magnet Block",
+                  link: "./Magnet_Block.md#netherite",
+                },
+              ],
             },
             {
-              text: "Block",
-              base: "/dataplus/block",
+              text: "Items",
+              collapsed: true,
               items: [
-                { text: "ButtonComponent", link: "/ButtonComponent" },
-                { text: "HeightComponent", link: "/HeightComponent" },
-                { text: "LeverComponent", link: "/LeverComponent" },
-                { text: "LogComponent", link: "/LogComponent" },
-                { text: "SlabComponent", link: "/SlabComponent" },
-                { text: "StairsComponent", link: "/StairsComponent" },
-                { text: "Strippable", link: "/Strippable" },
-                { text: "ToggleStateComponent", link: "/ToggleStateComponent" },
-                { text: "TrapdoorComponent", link: "/TrapdoorComponent" },
+                { text: "Iron Magnet", link: "./Magnet.md#iron" },
+                { text: "Gold Magnet", link: "./Magnet.md#gold" },
+                { text: "Copper Magnet", link: "./Magnet.md#copper" },
+                { text: "Diamond Magnet", link: "./Magnet.md#diamond" },
+                { text: "Netherite Magnet", link: "./Magnet.md#netherite" },
+              ],
+            },
+          ],
+        },
+      ],
+      "/ultimate-block-breaker": [
+        {
+          text: "Ultimate Block Breaker",
+          base: "/ultimate-block-breaker/",
+          items: [
+            { text: "Index", link: "/" },
+            {
+              text: "Blocks",
+              collapsed: true,
+              items: [
                 {
-                  text: "VerticalSlabComponent",
-                  link: "/VerticalSlabComponent",
+                  text: "Wooden Breaker Block",
+                  link: "./Block_Breaker.md#wooden",
+                },
+                {
+                  text: "Stone Breaker Block",
+                  link: "./Block_Breaker.md#stone",
+                },
+                { text: "Iron Breaker Block", link: "./Block_Breaker.md#iron" },
+                { text: "Gold Breaker Block", link: "./Block_Breaker.md#gold" },
+                {
+                  text: "Diamond Breaker Block",
+                  link: "./Block_Breaker.md#diamond",
+                },
+                {
+                  text: "Netherite Breaker Block",
+                  link: "./Block_Breaker.md#netherite",
+                },
+              ],
+            },
+            {
+              text: "Items",
+              collapsed: true,
+              items: [
+                {
+                  text: "Stone Breaker Upgrade",
+                  link: "./Breaker_Upgrade.md#stone",
+                },
+                {
+                  text: "Iron Breaker Upgrade",
+                  link: "./Breaker_Upgrade.md#iron",
+                },
+                {
+                  text: "Gold Breaker Upgrade",
+                  link: "./Breaker_Upgrade.md#gold",
+                },
+                {
+                  text: "Diamond Breaker Upgrade",
+                  link: "./Breaker_Upgrade.md#diamond",
+                },
+                {
+                  text: "Netherite Breaker Upgrade",
+                  link: "./Breaker_Upgrade.md#netherite",
                 },
               ],
             },
           ],
         },
       ],
-      "/morenbt": [
+      "/barked": [
+        {
+          text: "Barked",
+          base: "/barked/",
+          items: [
+            { text: "Index", link: "/" },
+            {
+              text: "Items",
+              collapsed: true,
+              items: [
+                { text: "Bark", link: "./Bark.md" },
+                { text: "Stipe", link: "./Stipe.md" },
+                { text: "Sheath", link: "./Sheath.md" },
+              ],
+            },
+          ],
+        },
+      ],
+      "/bandages": [
+        {
+          text: "Bandages",
+          base: "/bandages/",
+          items: [
+            { text: "Index", link: "/" },
+            { text: "Item Format", link: "/item-format" },
+            {
+              text: "Items",
+              collapsed: true,
+              items: [{ text: "Bandage", link: "/Bandage.md" }],
+            },
+          ],
+        },
+      ],
+      "/canned": [
+        {
+          text: "Canned",
+          base: "/canned/",
+          items: [
+            { text: "Index", link: "/" },
+            {
+              text: "Items",
+              collapsed: true,
+              items: [{ text: "Can Opener", link: "/Can_Opener.md" }],
+            },
+            {
+              text: "Blocks",
+              collapsed: true,
+              items: [{ text: "Can", link: "/Can.md" }],
+            },
+          ],
+        },
+      ],
+      "/bright": [
+        {
+          text: "Bright",
+          base: "/bright/",
+          items: [
+            { text: "Index", link: "/" },
+            {
+              text: "Blocks",
+              collapsed: true,
+              items: [
+                { text: "Candle Stick", link: "/Candle_Stick.md" },
+                { text: "Ceiling Light", link: "/Ceiling_Light.md" },
+                { text: "Floor Light", link: "/Floor_Light.md" },
+                { text: "Light Bulb", link: "/Light_Bulb.md" },
+                { text: "Light Fixture", link: "/Light_Fixture.md" },
+              ],
+            },
+          ],
+        },
+      ],
+      "/more-blocks": [
+        {
+          text: "More Blocks",
+          base: "/more-blocks/",
+          items: [
+            { text: "Index", link: "/" },
+            { text: "Blocks", items: [{ text: "Layer", link: "./Layer.md" }] },
+          ],
+        },
+      ],
+      "/more-pumpkins": [
+        {
+          text: "More Pumpkins",
+          base: "/more-pumpkins/",
+          items: [
+            { text: "Index", link: "/" },
+            {
+              text: "Blocks",
+              collapsed: true,
+              items: [
+                { text: "Carved Pumpkin", link: "./Carved_Pumpkin.md" },
+                { text: "Jack o'Lantern", link: "./Jack_o_Lantern.md" },
+                {
+                  text: "Soul Jack o'Lantern",
+                  link: "./Soul_Jack_o_Lantern.md",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      "/more-nbt": [
         {
           text: "morenbt",
-          base: "/morenbt/",
+          base: "/more-nbt/",
           items: [
             { text: "Index", link: "/" },
             { text: "Config", link: "/config" },
@@ -740,245 +1075,10 @@ export default defineConfig({
           ],
         },
       ],
-      "/recordapi": [
-        {
-          text: "recordapi",
-          base: "/recordapi/",
-          items: [
-            { text: "Index", link: "/" },
-            { text: "Creeper Loot", link: "/creeper-loot" },
-            { text: "Custom Model Data", link: "/custom-model-data" },
-            { text: "Item NBT", link: "/item-nbt" },
-            // { text: "Music Disc Studio", link: "/music-disc-studio" },
-          ],
-        },
-      ],
-      "/lightning-bolt-glass": [
-        {
-          text: "Lightning Bolt Glass",
-          base: "/lightning-bolt-glass/",
-          items: [
-            { text: "Index", link: "/" },
-            { text: "Fulgurite", link: "/fulgurite" },
-            { text: "Legacy Format", link: "/legacy-format" },
-            { text: "Examples", link: "/example-fulgurites" },
-          ],
-        },
-      ],
-      "/rcore": [
-        {
-          text: "LPS Rcore API",
-          base: "/rcore/",
-          items: [
-            { text: "Index", link: "/" },
-            {
-              text: "Upcoming Features",
-              collapsed: true,
-              items: [
-                { text: "Crafting Table", link: "/crafting-table" },
-                { text: "Items", link: "/items" },
-                { text: "Item Types", link: "/item-types" },
-                { text: "Recipes", link: "/recipes" },
-                { text: "Recipe Types", link: "/recipe-types" },
-                { text: "Tables", link: "/tables" },
-                { text: "Events", link: "/events" },
-                { text: "utils", link: "/utils" },
-                {
-                  text: "Examples",
-                  collapsed: true,
-                  items: [
-                    { text: "Items", link: "/example-items" },
-                    { text: "Item Types", link: "/example-item-types" },
-                    { text: "Recipes", link: "/example-recipes" },
-                    { text: "Recipe Types", link: "/example-recipe-types" },
-                    { text: "Tables", link: "/example-tables" },
-                  ],
-                },
-              ],
-            },
-            { text: "Generator", link: "/generator" },
-          ],
-        },
-      ],
-      "/poses": [
-        {
-          text: "Armor Stand Poses",
-          base: "/poses/",
-          items: [
-            { text: "Index", link: "/" },
-            { text: "Data-Driven", link: "/data-driven" },
-            { text: "Pose Format", link: "/pose-format" },
-            { text: "Built-in Poses", link: "/builtin-poses" },
-            { text: "Generator", link: "/generator" },
-          ],
-        },
-      ],
-      "/spawner-craft": [
-        {
-          text: "Spawner Craft",
-          base: "/spawner-craft/",
-          items: [
-            { text: "Index", link: "/" },
-            { text: "Hostile", link: "/hostile" },
-            { text: "Friendly", link: "/friendly" },
-            { text: "Underwater", link: "/underwater" },
-            { text: "Nether", link: "/nether" },
-            { text: "Misc", link: "/misc" },
-          ],
-        },
-      ],
-      "/magnet": [
-        {
-          text: "Simple Magnets",
-          base: "/magnet/",
-          items: [
-            { text: "Index", link: "/" },
-            {
-              text: "Blocks",
-              collapsed: true,
-              items: [
-                { text: "Iron Magnet Block", link: "./Magnet_Block.md#iron" },
-                { text: "Gold Magnet Block", link: "./Magnet_Block.md#gold" },
-                {
-                  text: "Copper Magnet Block",
-                  link: "./Magnet_Block.md#copper",
-                },
-                {
-                  text: "Diamond Magnet Block",
-                  link: "./Magnet_Block.md#diamond",
-                },
-                {
-                  text: "Netherite Magnet Block",
-                  link: "./Magnet_Block.md#netherite",
-                },
-              ],
-            },
-            {
-              text: "Items",
-              collapsed: true,
-              items: [
-                { text: "Iron Magnet", link: "./Magnet.md#iron" },
-                { text: "Gold Magnet", link: "./Magnet.md#gold" },
-                { text: "Copper Magnet", link: "./Magnet.md#copper" },
-                { text: "Diamond Magnet", link: "./Magnet.md#diamond" },
-                { text: "Netherite Magnet", link: "./Magnet.md#netherite" },
-              ],
-            },
-          ],
-        },
-      ],
-      "/breaker": [
-        {
-          text: "Ultimate Block Breaker",
-          base: "/breaker/",
-          items: [
-            { text: "Index", link: "/" },
-            {
-              text: "Blocks",
-              collapsed: true,
-              items: [
-                {
-                  text: "Wooden Breaker Block",
-                  link: "./Block_Breaker.md#wooden",
-                },
-                {
-                  text: "Stone Breaker Block",
-                  link: "./Block_Breaker.md#stone",
-                },
-                { text: "Iron Breaker Block", link: "./Block_Breaker.md#iron" },
-                { text: "Gold Breaker Block", link: "./Block_Breaker.md#gold" },
-                {
-                  text: "Diamond Breaker Block",
-                  link: "./Block_Breaker.md#diamond",
-                },
-                {
-                  text: "Netherite Breaker Block",
-                  link: "./Block_Breaker.md#netherite",
-                },
-              ],
-            },
-            {
-              text: "Items",
-              collapsed: true,
-              items: [
-                {
-                  text: "Stone Breaker Upgrade",
-                  link: "./Breaker_Upgrade.md#stone",
-                },
-                {
-                  text: "Iron Breaker Upgrade",
-                  link: "./Breaker_Upgrade.md#iron",
-                },
-                {
-                  text: "Gold Breaker Upgrade",
-                  link: "./Breaker_Upgrade.md#gold",
-                },
-                {
-                  text: "Diamond Breaker Upgrade",
-                  link: "./Breaker_Upgrade.md#diamond",
-                },
-                {
-                  text: "Netherite Breaker Upgrade",
-                  link: "./Breaker_Upgrade.md#netherite",
-                },
-              ],
-            },
-          ],
-        },
-      ],
-      "/moreblocks": [
-        {
-          text: "More Blocks",
-          base: "/moreblocks/",
-          items: [
-            { text: "Index", link: "/" },
-            { text: "Blocks", items: [{ text: "Layer", link: "./Layer.md" }] },
-          ],
-        },
-      ],
-      "/morepumpkin": [
-        {
-          text: "More Pumpkins",
-          base: "/morepumpkin/",
-          items: [
-            { text: "Index", link: "/" },
-            {
-              text: "Blocks",
-              collapsed: true,
-              items: [
-                { text: "Carved Pumpkin", link: "./Carved_Pumpkin.md" },
-                { text: "Jack o'Lantern", link: "./Jack_o_Lantern.md" },
-                {
-                  text: "Soul Jack o'Lantern",
-                  link: "./Soul_Jack_o_Lantern.md",
-                },
-              ],
-            },
-          ],
-        },
-      ],
-      "/barked": [
-        {
-          text: "Barked",
-          base: "/barked/",
-          items: [
-            { text: "Index", link: "/" },
-            {
-              text: "Items",
-              collapsed: true,
-              items: [
-                { text: "Bark", link: "./Bark.md" },
-                { text: "Stipe", link: "./Stipe.md" },
-                { text: "Sheath", link: "./Sheath.md" },
-              ],
-            },
-          ],
-        },
-      ],
-      "/morehoney": [
+      "/more-honey": [
         {
           text: "More Honey",
-          base: "/morehoney/",
+          base: "/more-honey/",
           items: [
             { text: "Index", link: "/" },
             {
@@ -1014,10 +1114,10 @@ export default defineConfig({
           ],
         },
       ],
-      "/moregold": [
+      "/more-gold": [
         {
           text: "More Gold",
-          base: "/moregold/",
+          base: "/more-gold/",
           items: [
             { text: "Index", link: "/" },
             {
@@ -1035,10 +1135,10 @@ export default defineConfig({
           ],
         },
       ],
-      "/morefood": [
+      "/more-food": [
         {
           text: "Lot's More Food",
-          base: "/morefood/",
+          base: "/more-food/",
           items: [
             { text: "Index", link: "/" },
             // { text: "Blocks", link: "/Blocks" },
@@ -1072,56 +1172,70 @@ export default defineConfig({
           ],
         },
       ],
-      "/bandage": [
+      // Blockbench Plugins
+      "/tweaks_n_stuff": [
         {
-          text: "Bandage",
-          base: "/bandage/",
-          items: [
-            { text: "Index", link: "/" },
-            { text: "Item Format", link: "/item-format" },
-            {
-              text: "Items",
-              collapsed: true,
-              items: [{ text: "Bandage", link: "/Bandage.md" }],
-            },
-          ],
-        },
-      ],
-      "/canned": [
-        {
-          text: "Canned",
-          base: "/canned/",
+          text: "Tweaks & Stuff",
+          base: "/tweaks_n_stuff/",
           items: [
             { text: "Index", link: "/" },
             {
-              text: "Items",
-              collapsed: true,
-              items: [{ text: "Can Opener", link: "/Can_Opener.md" }],
+              text: "Tweaks",
+              collapsed: false,
+              items: [
+                { text: "Header Color", link: "/header_color" },
+                { text: "Wrap Tabs", link: "/wrap_tabs" },
+                { text: "Close Actions", link: "/close_actions" },
+              ],
             },
             {
-              text: "Blocks",
-              collapsed: true,
-              items: [{ text: "Can", link: "/Can.md" }],
-            },
-          ],
-        },
-      ],
-      "/bright": [
-        {
-          text: "Bright",
-          base: "/bright/",
-          items: [
-            { text: "Index", link: "/" },
-            {
-              text: "Blocks",
+              text: "Documentation",
+              base: "/tweaks_n_stuff/docs/",
               collapsed: true,
               items: [
-                { text: "Candle Stick", link: "/Candle_Stick.md" },
-                { text: "Ceiling Light", link: "/Ceiling_Light.md" },
-                { text: "Floor Light", link: "/Floor_Light.md" },
-                { text: "Light Bulb", link: "/Light_Bulb.md" },
-                { text: "Light Fixture", link: "/Light_Fixture.md" },
+                { text: "Getting Started", link: "/getting-started" },
+                { text: "Creating a Tweak", link: "/tweak" },
               ],
+            },
+            {
+              text: "API Reference",
+              base: "/tweaks_n_stuff/api/",
+              collapsed: true,
+              items: [
+                { text: "Tweak", link: "/Tweak" },
+                { text: "SelectTweak", link: "/SelectTweak" },
+                { text: "EditTweak", link: "/EditTweak" },
+                { text: "ToggleTweak", link: "/ToggleTweak" },
+              ],
+            },
+          ],
+        },
+      ],
+      "/ai_bench": [
+        {
+          text: "AI Bench",
+          base: "/ai_bench/",
+          items: [
+            { text: "Index", link: "/" },
+            {
+              text: "Services",
+              collapsed: false,
+              items: [{ text: "Ollama", link: "/ollama" }],
+            },
+            {
+              text: "Documentation",
+              base: "/ai_bench/docs/",
+              collapsed: true,
+              items: [
+                { text: "Getting Started", link: "/getting-started" },
+                { text: "Creating a Service", link: "/service" },
+              ],
+            },
+            {
+              text: "API Reference",
+              base: "/ai_bench/api/",
+              collapsed: true,
+              items: [{ text: "Service", link: "/Service" }],
             },
           ],
         },
@@ -1189,38 +1303,17 @@ export default defineConfig({
           ],
         },
       ],
-      "/tweaks_n_stuff": [
+      "/calculators": [
         {
-          text: "Tweaks & Stuff",
-          base: "/tweaks_n_stuff/",
+          text: "Calculators",
+          base: "/calculators/",
           items: [
             { text: "Index", link: "/" },
-            {
-              text: "Tweaks",
-              collapsed: false,
-              items: [
-                { text: "Header Color", link: "/header_color" },
-                { text: "Wrap Tabs", link: "/wrap_tabs" },
-                { text: "Image Exporter", link: "/image_exporter" },
-                { text: "Close Actions", link: "/close_actions" },
-              ],
-            },
-            {
-              text: "Documentation",
-              base: '/tweaks_n_stuff/docs/',
-              collapsed: false,
-              items: [
-                { text: "Creating a Tweak", link: "/tweak" },
-              ],
-            },
-            {
-              text: "API Reference",
-              base: '/tweaks_n_stuff/api/',
-              collapsed: false,
-              items: [
-                { text: "Tweak", link: "/Tweak" },
-              ],
-            },
+            // { text: "ArmorStandGenerator", link: "/ArmorStandGenerator" },
+            { text: "MCExtractCLI", link: "/MCExtractCLI" },
+            // { text: "MultiloaderGradleGenerator", link: "/MultiloaderGradleGenerator" },
+            // { text: "MusicDiscStudio", link: "/MusicDiscStudio" },
+            // { text: "RcoreGenerator", link: "/RcoreGenerator" },
           ],
         },
       ],

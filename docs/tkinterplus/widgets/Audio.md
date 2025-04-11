@@ -41,6 +41,58 @@ This widget is experimental
 - [configure](#configure)
 - [bind](#bind)
 
+### `update_time`
+
+UNDOCUMENTED
+
+### `open`
+
+UNDOCUMENTED
+
+### `volume_up`
+
+UNDOCUMENTED
+
+### `volume_down`
+
+UNDOCUMENTED
+
+### `volume_mute`
+
+UNDOCUMENTED
+
+### `play`
+
+UNDOCUMENTED
+
+### `stop`
+
+UNDOCUMENTED
+
+### `pause`
+
+UNDOCUMENTED
+
+### `unpause`
+
+UNDOCUMENTED
+
+### `seek`
+
+UNDOCUMENTED
+
+### `toggle`
+
+UNDOCUMENTED
+
+### `configure`
+
+UNDOCUMENTED
+
+### `bind`
+
+UNDOCUMENTED
+
 ## Example
 
 ```py

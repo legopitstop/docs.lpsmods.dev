@@ -1,4 +1,4 @@
 ---
 title: Redirecting…
-redirect: ./Layer#stone
+redirect: /more-blocks/Layer#stone
 ---

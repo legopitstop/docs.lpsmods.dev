@@ -6,7 +6,7 @@ keywords: legopitstop,python,minecraft,pypi,geysermc,pythonpackage
 
 # Functions
 
-## get_bedrock_link
+## `get_bedrock_link`
 
 Get a linked Java account from Bedrock xuid
 
@@ -16,7 +16,7 @@ Get a linked Java account from Bedrock xuid
 | ------ | ---- | ------------ |
 | `xuid` | int  | Bedrock xuid |
 
-## get_java_link
+## `get_java_link`
 
 Get linked Bedrock account from Java UUID
 
@@ -26,19 +26,19 @@ Get linked Bedrock account from Java UUID
 | ------ | ---- | ----------- |
 | `uuid` | str  | Java UUID   |
 
-## verify_online_link
+## `verify_online_link`
 
 undocumented
 
-## get_all_stats
+## `get_all_stats`
 
 Get all publicly available Global API statistics
 
-## get_gamertag_batch
+## `get_gamertag_batch`
 
 undocumented
 
-## get_gamertag
+## `get_gamertag`
 
 Get the gamertag from a xuid
 
@@ -48,7 +48,7 @@ Get the gamertag from a xuid
 | ------ | ---- | ------------------------------ |
 | `xuid` | int  | The xuid of the Bedrock player |
 
-## get_xuid
+## `get_xuid`
 
 Get the xuid from a gamertag
 
@@ -58,11 +58,11 @@ Get the xuid from a gamertag
 | ---------- | ---- | ---------------------------------- |
 | `gamertag` | str  | The gamertag of the Bedrock player |
 
-## get_recent_uploads
+## `get_recent_uploads`
 
 Get a list of the most recently uploaded skins
 
-## get_skin
+## `get_skin`
 
 Get the most recently converted skin of a Bedrock player
 
@@ -72,11 +72,11 @@ Get the most recently converted skin of a Bedrock player
 | ------ | ---- | ------------ |
 | `xuid` | int  | Bedrock xuid |
 
-## get_project_news
+## `get_project_news`
 
 undocumented
 
-## get_bedrock_or_java_uuid
+## `get_bedrock_or_java_uuid`
 
 Utility endpoint to get either a Java UUID or a Bedrock xuid
 
@@ -87,15 +87,15 @@ Utility endpoint to get either a Java UUID or a Bedrock xuid
 | `username` | str  | The username of the Minecraft player                      |
 | `prefix`   | str  | The prefix used in your Floodgate config, defaults to "." |
 
-## get_openapi
+## `get_openapi`
 
 undocumented
 
-## get_projects
+## `get_projects`
 
 Gets a list of all available projects.
 
-## get_project
+## `get_project`
 
 Gets information about a project.
 
@@ -105,7 +105,7 @@ Gets information about a project.
 | --------- | ---- | ----------------------- |
 | `project` | str  | The project identifier. |
 
-## get_version
+## `get_version`
 
 Gets information about a version.
 
@@ -116,7 +116,7 @@ Gets information about a version.
 | `project` | str  | The project identifier.                         |
 | `version` | str  | A version of the project., defaults to "latest" |
 
-## get_version_builds
+## `get_version_builds`
 
 Gets all available builds for a project's version.
 
@@ -127,7 +127,7 @@ Gets all available builds for a project's version.
 | `project` | str  | The project identifier.                         |
 | `version` | str  | A version of the project., defaults to "latest" |
 
-## get_build
+## `get_build`
 
 Gets information related to a specific build.
 
@@ -139,7 +139,7 @@ Gets information related to a specific build.
 | `version` | str  | A version of the project., defaults to "latest" |
 | `build`   | str  | A build of the version., defaults to "latest"   |
 
-## get_download
+## `get_download`
 
 Downloads the given file from a build's data.
 
@@ -152,7 +152,7 @@ Downloads the given file from a build's data.
 | `version`  | str  | A version of the project., defaults to "latest" |
 | `build`    | int  | str                                             | A build of the version., defaults to "latest" |
 
-## get_raw_texture
+## `get_raw_texture`
 
 get_raw_texture
 

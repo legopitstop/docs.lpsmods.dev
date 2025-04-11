@@ -23,7 +23,7 @@ keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 - [set](#set)
 - [configure](#configure)
 
-### callback
+### `callback`
 
 #### Parameters
 
@@ -31,11 +31,11 @@ keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 | ---- | ------------- | ----------- |
 | `e`  | tkinter.Event |             |
 
-### listen
+### `listen`
 
-### get
+### `get`
 
-### set
+### `set`
 
 #### Parameters
 
@@ -43,7 +43,7 @@ keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 | ------- | ---- | ----------- |
 | `value` | str  |             |
 
-### configure
+### `configure`
 
 ## Example
 

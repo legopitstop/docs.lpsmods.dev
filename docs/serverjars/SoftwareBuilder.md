@@ -24,17 +24,9 @@ keywords: legopitstop,python,java,api,minecraft,pypi,bedrock,servers,pythonpacka
 - [get_stability](#get_stability)
 - [build](#build)
 
-### available_versions
+### `available_versions`
 
-### get_version
-
-#### Parameters
-
-| Name      | Type | Description |
-| --------- | ---- | ----------- |
-| `version` | str  |             |
-
-### get_meta
+### `get_version`
 
 #### Parameters
 
@@ -42,7 +34,7 @@ keywords: legopitstop,python,java,api,minecraft,pypi,bedrock,servers,pythonpacka
 | --------- | ---- | ----------- |
 | `version` | str  |             |
 
-### get_hash
+### `get_meta`
 
 #### Parameters
 
@@ -50,7 +42,7 @@ keywords: legopitstop,python,java,api,minecraft,pypi,bedrock,servers,pythonpacka
 | --------- | ---- | ----------- |
 | `version` | str  |             |
 
-### get_download
+### `get_hash`
 
 #### Parameters
 
@@ -58,7 +50,7 @@ keywords: legopitstop,python,java,api,minecraft,pypi,bedrock,servers,pythonpacka
 | --------- | ---- | ----------- |
 | `version` | str  |             |
 
-### get_built
+### `get_download`
 
 #### Parameters
 
@@ -66,7 +58,7 @@ keywords: legopitstop,python,java,api,minecraft,pypi,bedrock,servers,pythonpacka
 | --------- | ---- | ----------- |
 | `version` | str  |             |
 
-### get_stability
+### `get_built`
 
 #### Parameters
 
@@ -74,7 +66,15 @@ keywords: legopitstop,python,java,api,minecraft,pypi,bedrock,servers,pythonpacka
 | --------- | ---- | ----------- |
 | `version` | str  |             |
 
-### build
+### `get_stability`
+
+#### Parameters
+
+| Name      | Type | Description |
+| --------- | ---- | ----------- |
+| `version` | str  |             |
+
+### `build`
 
 #### Parameters
 

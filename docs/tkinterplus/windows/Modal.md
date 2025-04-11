@@ -43,7 +43,7 @@ Construct a modal widget with the parent MASTER."
 - [wm_overridedirect](#wm_overridedirect)
 - [destroy](#destroy)
 
-### moveto
+### `moveto`
 
 Move the modal to a diffrent place. `int` the pos on the screen. `CENTER` center on the screen. `None` keep in the same pos.
 
@@ -55,29 +55,29 @@ Move the modal to a diffrent place. `int` the pos on the screen. `CENTER` center
 | `y`     | int  |             |
 | `error` | bool |             |
 
-### update
+### `update`
 
 Update with widgets properties
 
-### show
+### `show`
 
 Shows the modal
 
-### hide
+### `hide`
 
 Closes the modal
 
-### configure
+### `configure`
 
-### winfo_height
+### `winfo_height`
 
-### winfo_width
+### `winfo_width`
 
-### winfo_x
+### `winfo_x`
 
-### winfo_y
+### `winfo_y`
 
-### bind
+### `bind`
 
 Bind to this widget at event SEQUENCE a call to function FUNC.
 
@@ -89,7 +89,7 @@ Bind to this widget at event SEQUENCE a call to function FUNC.
 | `func`     | Callable |             |
 | `add`      | bool     |             |
 
-### unbind
+### `unbind`
 
 Unbind for this widget for event SEQUENCE the function identified with FUNCID.
 
@@ -100,7 +100,7 @@ Unbind for this widget for event SEQUENCE the function identified with FUNCID.
 | `sequence` | str  |             |
 | `funcid`   | str  |             |
 
-### wm_maxsize
+### `wm_maxsize`
 
 Set max WIDTH and HEIGHT for this widget. If the window is gridded the values are given in grid units. Return the current values if None is given.
 
@@ -111,7 +111,7 @@ Set max WIDTH and HEIGHT for this widget. If the window is gridded the values ar
 | `width`  | int  |             |
 | `height` | int  |             |
 
-## wm_minsize
+## `wm_minsize`
 
 Set min WIDTH and HEIGHT for this widget. If the window is gridded the values are given in grid units. Return the current values if None is given.
 
@@ -122,7 +122,7 @@ Set min WIDTH and HEIGHT for this widget. If the window is gridded the values ar
 | `width`  | int  |             |
 | `height` | int  |             |
 
-### wm_geometry
+### `wm_geometry`
 
 Set geometry to NEWGEOMETRY of the form =widthxheight+x+y. Return current value if None is given.
 
@@ -132,7 +132,7 @@ Set geometry to NEWGEOMETRY of the form =widthxheight+x+y. Return current value 
 | ------------- | ---- | ----------- |
 | `newGeometry` | str  |             |
 
-### wm_iconbitmap
+### `wm_iconbitmap`
 
 Set bitmap for the iconified widget to BITMAP. Return the bitmap if None is given.
 
@@ -142,7 +142,7 @@ Set bitmap for the iconified widget to BITMAP. Return the bitmap if None is give
 | -------- | ---- | ----------- |
 | `bitmap` | str  |             |
 
-### wm_protocol
+### `wm_protocol`
 
 Bind function FUNC to command NAME for this widget. Return the function bound to NAME if None is given. NAME could be e.g. "WM_SAVE_YOURSELF" or "WM_DELETE_WINDOW".
 
@@ -153,7 +153,7 @@ Bind function FUNC to command NAME for this widget. Return the function bound to
 | `name` | str      |             |
 | `func` | Callable |             |
 
-### wm_title
+### `wm_title`
 
 Set the title of this widget.
 
@@ -163,9 +163,9 @@ Set the title of this widget.
 | -------- | ---- | ----------- |
 | `string` | str  |             |
 
-### focus_set
+### `focus_set`
 
-### wm_overridedirect
+### `wm_overridedirect`
 
 #### Parameters
 
@@ -173,7 +173,7 @@ Set the title of this widget.
 | --------- | ---- | ----------- |
 | `boolean` | bool |             |
 
-### destroy
+### `destroy`
 
 Destroy this and all descendant widgets.
 

@@ -1,6 +1,6 @@
 ---
-title: functions
+title: Functions
 description: Read and write to .lang files.
 ---
 
-# functions
+# Functions

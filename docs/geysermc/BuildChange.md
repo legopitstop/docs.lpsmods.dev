@@ -18,4 +18,6 @@ keywords: legopitstop,python,minecraft,pypi,geysermc,pythonpackage
 
 - [from_json](#from_json)
 
-### from_json
+### `from_json`
+
+UNDOCUMENTED

@@ -32,6 +32,50 @@ This widget is experimental
 - [tagconfigure](#tagconfigure)
 - [configure](#configure)
 
+### `remove`
+
+UNDOCUMENTED
+
+### `tab`
+
+UNDOCUMENTED
+
+### `insert`
+
+UNDOCUMENTED
+
+### `add`
+
+UNDOCUMENTED
+
+### `move`
+
+UNDOCUMENTED
+
+### `delete`
+
+UNDOCUMENTED
+
+### `set`
+
+UNDOCUMENTED
+
+### `show_tab`
+
+UNDOCUMENTED
+
+### `hide_tab`
+
+UNDOCUMENTED
+
+### `tagconfigure`
+
+UNDOCUMENTED
+
+### `configure`
+
+UNDOCUMENTED
+
 ## Example
 
 ```py

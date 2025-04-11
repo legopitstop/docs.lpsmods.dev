@@ -23,17 +23,29 @@ General storage class. Allows you to store key/values in the user folder. Sub-cl
 - [exist](#exist)
 - [show](#show)
 
-### getItem
+### `getItem`
 
-### removeItem
+UNDOCUMENTED
 
-### clear
+### `removeItem`
 
-### key
+UNDOCUMENTED
 
-### exist
+### `clear`
 
-### show
+UNDOCUMENTED
+
+### `key`
+
+UNDOCUMENTED
+
+### `exist`
+
+UNDOCUMENTED
+
+### `show`
+
+UNDOCUMENTED
 
 ## Example
 

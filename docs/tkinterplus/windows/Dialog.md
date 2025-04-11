@@ -23,6 +23,34 @@ keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 - [validate](#validate)
 - [apply](#apply)
 
+### `destroy`
+
+UNDOCUMENTED
+
+### `body`
+
+UNDOCUMENTED
+
+### `buttonbox`
+
+UNDOCUMENTED
+
+### `ok`
+
+UNDOCUMENTED
+
+### `cancel`
+
+UNDOCUMENTED
+
+### `validate`
+
+UNDOCUMENTED
+
+### `apply`
+
+UNDOCUMENTED
+
 ## Example
 
 ```py
