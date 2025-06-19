@@ -8,6 +8,187 @@
   ],
   "items": [
     {
+      "id": "minecraft:music_disc_tears",
+      "name": "&eMusic Disc",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAG1BMVEUAAABUVFTo5+f5+fmfw8O129tXeHiKiIg4ODgZlQNyAAAAAXRSTlMAQObYZgAAAExJREFUeNqdjzEOADEIwyjQS/7/4pORKnWuF4gVBuKVBXdKOG5SZRVuMnt3YzGL2fvbmBFMGhRHKDnCZmpFhCUlSHKAbYHtOBie3/oBtEYBj5VJ3HUAAAAASUVORK5CYII=",
+      "lore": ["&7Amos Roddy - Tears"]
+    },
+    {
+      "id": "minecraft:dried_ghast",
+      "name": "Dried Ghast",
+      "texture": "data:image/png;base64,UklGRlIBAABXRUJQVlA4TEUBAAAvH8AHEHegoG0jN3Z73z2AVxxJUpo7N5wvKGjbyI3d3ncP4Oc/AMD/f0TITG5OmzI3xaVaqVuihYb29vPes2cBbq1ta5svzJxs4gVwAPrCDGa7T3r6VbnU94fUGVYQHA8Q6pVPx21AWoKCA0T0fwLgv+59zkbrsWnPROk5+qPBs2Evps66bruzQX3LNnXWH9id9WmeY9rGAz+w2wjoMpu6zcy7hQCFPOfx8dWtr574moIkO8w7BQzQiKjjeY1VRAxQTom6jQKGNAUJogoi5vI+TVLHl8bYcUj7ksqYxPxJgEJSUTcwhdnMLAB0FHHWlhuxFC4fjACAJkVLpfV8AvMIAZ2upArmV9Ih6pkqKgvL8UTBB+5dRxVrmXQKR31vzk5HUiWdwBHw08Zw/05spk9GIHii77jna4URCG++5bXKKETdgF8MAA=="
+    },
+    {
+      "id": "minecraft:happy_ghast_spawn_egg",
+      "name": "Happy Ghast Spawn Egg",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGFBMVEUAAABzbW2zqqrYzMzw8PD///+Xj49eWlqFjn3KAAAAAXRSTlMAQObYZgAAAF1JREFUeNpVjkEOxDAMAmOGlv//eKWEdlVuM8LI62RmZu2UsZkv15Svy7Y1j/Bmk7cANkBa8NmoGDphRM4ClLWF3IYrkA6rJ8LIFrwNzH2DpPwfdwvbBDZmPUmS4g8dgQJpbuXvKgAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "minecraft:bundle",
+      "name": "Bundle",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEUAAADfw423mWPNe0amVyyBVjR9QDRiMiBPKxBCHgFdKJCFAAAAAXRSTlMAQObYZgAAAFtJREFUeNp1j0cOgDAQA2GLy/8/jEBAEgl8m5G8ZfsJKS1ctCVPImmDi6niEB0EOSpAxx7dL1cmoiEPzowmZ1HVoPxsyEvhEahb3B0RdQbvEIkAyOlQnbE//z4AeVsC+phl1NIAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:white_bundle",
+      "name": "White Bundle",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEX////////m5ubP1tbfw428ycm3mWOMoqJ0hYWBVjQabQyOAAAAAXRSTlMAQObYZgAAAFtJREFUeNp1z1EOgDAIA1Chlpb7X9hopnOJ8teXFML2M6S05KQt+QVBG1wkkxO6CHJWgK69up+cEaiGPHNENfmGzAbl+0JchBuQA0ZHRJ6DZ4lEABx5kCT78+8DLiMCUNxkDs4AAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:light_gray_bundle",
+      "name": "Light Gray Bundle",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEX////fw43HwLKxrKO3mWOChH1rbGiBVjRcXlhOUEjDcTpFAAAAAXRSTlMAQObYZgAAAFtJREFUeNp1z1EOgDAIA1AFWtr7X9hopnOJ8teXFML2M6S05KQt+QVBG1wkkxO6CHJWgK69up+cEaiGPHNENfmGzAbl+0JchBuQA0ZHRJ6DZ4lEABx5kCT78+8DXq8CvQpkyzQAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:gray_bundle",
+      "name": "Gray Bundle",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEX////fw423mWN+kJpse4NZamyBVjRJWVo/UFI7R0hHSEgjAAAAAXRSTlMAQObYZgAAAFtJREFUeNp1z1EOgDAIA1AFStv7X9hopnOJ8teXFML2M6S05KIt+QVJG1ykihM6CHJWgI49up9cmYiGPHNmNPmGqgbl+0JehBtQA0ZHRJ2DZ4lEABx5kCT78+8DdZgC7/cnk3wAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:black_bundle",
+      "name": "Black Bundle",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEX////fw423mWOBVjRMSWY4Nk8qKUQhIDUaGCcREBYgXj2GAAAAAXRSTlMAQObYZgAAAFtJREFUeNp1j0cOgDAQA2GLy/8/jEBAEgl8m5G8ZfsJKS3ctCVPomiDi+nmEBkEOSpAxh6ZL3cVIiEProokZ9GdoPxsqEvhEehb3B0RfQbvEIkAyOlQnbE//z4Ag/oDFa083qwAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:brown_bundle",
+      "name": "Brown Bundle",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEUAAABZNx6SXjixcUHRilnqpHOBVjS3mWPfw414RyJjZgY/AAAAAXRSTlMAQObYZgAAAFtJREFUeNp1j0kOgEAQAgV6kf9/2GjUmUmUW1VCL9tPSHvhIGBjEklAXEwEh6imyFGRqveuejky1SVjcGYXOYuIEo1nQ15Kj1Dc4u6YijN6h9iURE6H+gzw+fcBAigCGSFoa8QAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:red_bundle",
+      "name": "Red Bundle",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEUAAABmEhKbIBu1MSnSOC7oQjiBVjS3mWPfw42IHBth8HjLAAAAAXRSTlMAQObYZgAAAFtJREFUeNp1j0kOgEAQAgV6kf9/2GjUmUmUW1VCL9tPSHvhIGBjEklAXEwEh6imyFGRqveuejky1SVjcGYXOYuIEo1nQ15Kj1Dc4u6YijN6h9iURE6H+gzw+fcBAigCGSFoa8QAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:orange_bundle",
+      "name": "Orange Bundle",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEX////fw43/slr7kyC3mWPhbw/BWQeBVjSqSgSRPgJb/z8pAAAAAXRSTlMAQObYZgAAAFtJREFUeNp1z1EOgDAIA1AFWtr7X9hopnOJ8teXFML2M6S05KQt+QVBG1wkkxO6CHJWgK69up+cEaiGPHNENfmGzAbl+0JchBuQA0ZHRJ6DZ4lEABx5kCT78+8DXq8CvQpkyzQAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:yellow_bundle",
+      "name": "Yellow Bundle",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEX/////5Xvfw43yxwXfnhO3mWPHhBS7bBSBVjSPThVyJkWGAAAAAXRSTlMAQObYZgAAAFtJREFUeNp1z1EOgDAIA1CR0tL7X9hopnOJ8teXFML2M6S05KQt+QVBG1wkkxO6CHJWgK69up+cEaiGPHNENfmGzAbl+0JchBuQA0ZHRJ6DZ4lEABx5kCT78+8DTpwClL7dkJYAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:lime_bundle",
+      "name": "Lime Bundle",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEX///+19Fvfw42b3zm3mWN3vxlVnBhLiBKBVjQ5awk8An4xAAAAAXRSTlMAQObYZgAAAFtJREFUeNp1z1EOgDAIA1AR2tL7X9hopnOJ8teXFML2M6S05KQt+QVBG1wkkxO6CHJWgK69up+cEaiGPHNENfmGzAbl+0JchBuQA0ZHRJ6DZ4lEABx5kCT78+8DU2kCoQMO4g8AAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:green_bundle",
+      "name": "Green Bundle",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEX////fw42Nxhe3mWN3oRlggRaBVjRKYxM/UxIyQg5YWlX7AAAAAXRSTlMAQObYZgAAAFtJREFUeNp1z1EOgDAIA1AFStv7X9hopnOJ8teXFML2M6S05KIt+QVBG1ykihM6CXJWgM49u59cEciGPHNENvmGqgbl+0JchBtQA0ZHRJ2DZ4lEABx5kCT78+8Db3YC4MEzfcMAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:cyan_bundle",
+      "name": "Cyan Bundle",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEX////fw40S2Nu3mWMUtLQRkJCBVjQPeHgPaWgMVFSDrXcFAAAAAXRSTlMAQObYZgAAAFtJREFUeNp1z1EOgDAIA1AFStv7X9hopnOJ8teXFML2M6S05KIt+QVBG1ykihM6CXJWgM49u59cEciGPHNENvmGqgbl+0JchBtQA0ZHRJ2DZ4lEABx5kCT78+8Db3YC4MEzfcMAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:light_blue_bundle",
+      "name": "Light Blue Bundle",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEX////fw41wy/e3mWMwr+Ulj78ge7SBVjQZbagcW4ezOVy4AAAAAXRSTlMAQObYZgAAAFtJREFUeNp1z1EOgDAIA1AFWtr7X9hopnOJ8teXFML2M6S05KIt+QVBG1ykihM6CXJWgM49u59cEciGPHNENvmGqgbl+0JchBtQA0ZHRJ2DZ4lEABx5kCT78+8DZUACzVKlLkMAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:blue_bundle",
+      "name": "Blue Bundle",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEX////fw423mWNZh9xFc8dFWr6BVjQ6TaUxQZAqOHugYj90AAAAAXRSTlMAQObYZgAAAFtJREFUeNp1z1EOgDAIA1AFStv7X9hopnOJ8teXFML2M6S05KIt+QVJG1ykihM6CHJWgI49up9cmYiGPHNmNPmGqgbl+0JehBtQA0ZHRJ2DZ4lEABx5kCT78+8DdZgC7/cnk3wAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:purple_bundle",
+      "name": "Purple Bundle",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEX////fw423mWOvPuWBVjSUKsp6HsJqH6hcHJFQFn1/E+8+AAAAAXRSTlMAQObYZgAAAFtJREFUeNp1j0cOgDAQA2GLy/8/jEBAEgl8m5G8ZfsJKS3ctCVPImmDi+nmEBUEOSpAxR5VL3cmoiAPzowiZ9FdoPxsyEvhEehb3B0RfQbvEIkAyOlQnbE//z4AfuIDCP1SISYAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:magenta_bundle",
+      "name": "Magenta Bundle",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEX////fw423mWPcY8rMSbmyOaiBVjSZKJCCHnhvGmjRUPW7AAAAAXRSTlMAQObYZgAAAFtJREFUeNp1z1EOgDAIA1AFStv7X9hopnOJ8teXFML2M6S05KIt+QVJG1ykihM6CHJWgI49up9cmYiGPHNmNPmGqgbl+0JehBtQA0ZHRJ2DZ4lEABx5kCT78+8DdZgC7/cnk3wAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:pink_bundle",
+      "name": "Pink Bundle",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEUAAAD+xtTfw434pr31faK3mWPeZZS+R3SBVjSWPFs/5bZEAAAAAXRSTlMAQObYZgAAAFtJREFUeNp1z1EOgDAIA1CR0tL7X9hopnOJ8teXFML2M6S05KQt+QVBG1wkkxO6CHJWgK69up+cEaiGPHNENfmGzAbl+0JchBuQA0ZHRJ6DZ4lEABx5kCT78+8DTpwClL7dkJYAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:white_harness",
+      "name": "White Harness",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAADt7e3Q6unQ0NCoqKiXl5dvmqS9cUhxcXFXeoGcXTteXl59Til3RyddNhpOLBM4IRB24pWyAAAAAXRSTlMAQObYZgAAAHdJREFUeNp1j1EOwjAMQxOabSZdY9//tKirBEwCf0R6T/6I7V9I3jFzkDccmbkUsHDekcPQ4o1HFg0ecWEeB1myOiVkRoRY7LDS4ylE2zpZaDDTvkvyrRdBhxmkWSpUcAlvs3RGNArXH2aS0NzV7RO4A/YtgN+zX7DYBo4C503qAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "minecraft:light_gray_harness",
+      "name": "Light Gray Harness",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAADQ6umoqKhvmqSNj4i9cUh7fXdxcXFXeoGcXTtmZ2ZeXl59Til3RyddNhpOLBM4IRBqtApXAAAAAXRSTlMAQObYZgAAAHlJREFUeNp1j0EOw0AIAykhUNgs9v9fW20jtY3U+IA0I3Ow3AXAFTMncMGZmafSOHHdmVPK9YN7NqRM9Y2570BT+iAjU1WJxihpPp4MdR9Ah5cIt42k+WgErESKXKWOVpzCfJUOVQdLRGq9keVmHPJNmVXIr6j6P/sFnhoGj0uyMT8AAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:gray_harness",
+      "name": "Gray Harness",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAADQ6umoqKhvmqS9cUhxcXFXeoGcXTtZa3FeXl5RXmF9Til3RydGTk9dNhpOLBM4IRDuyMkgAAAAAXRSTlMAQObYZgAAAHlJREFUeNp1j1EOwjAMQ0O2krSrY9//tKhMAiYxf0R6T86H7S4krxgxyQvOiDiVtxPXnTENwz+4R9GQ7m+MfSdLVofUItxdLHZY6fFU84FOVhsw07ZJSvRiY8IM0ipVK+cpcqzS4T4omBnWm4SRqW7fIBPNfgXwf/YLi48Gq+2GDsQAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:black_harness",
+      "name": "Black Harness",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAADQ6umoqKhvmqS9cUhxcXFXeoGcXTteXl59Til3RyddNho4NkdOLBMqKTs4IRAaGCOuZmOYAAAAAXRSTlMAQObYZgAAAHlJREFUeNp1j1EOwjAMQ0O2kq6Ja9//tKhMAiYxf0R6T86H7S4ArhgxgAuOiDiVtxPXHTFM0z+4R8JU7m+MfQeSlgfZItydSHRZ8vFk86kOZJsy47aRLPVEQ8lM5CplS8cpaq7S4T5BmZnWG6lZxW7fqErNfoX0f/YLZCUGmu+HtUQAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:brown_harness",
+      "name": "Brown Harness",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAADQ6umoqKjRillvmqS9cUixcUFxcXFXeoGcXTteXl59Til9SiV3RyddNhpOLBM4IRDdchk3AAAAAXRSTlMAQObYZgAAAHlJREFUeNp1j1EOwjAMQ0OytaRzY9//tKhMAiYxf0R6T86H7S4kr5g5yQvOzDyV9xPXnTkNzT+4Z9EQ7m/MfSdLVofUM91dLA5Y6fFU94ZBVm8w07ZJCoxiZ8AM0ipVL+cpoq3S4d4omBnWm4QWoWHfIALdfgXwf/YLqp4Gsox5dlYAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:red_harness",
+      "name": "Red Harness",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAADQ6umoqKhvmqS9cUhxcXFXeoGcXTvSPy5eXl59Tim1MSl3RyddNhp9Gy9OLBM4IRCdN2RAAAAAAXRSTlMAQObYZgAAAHlJREFUeNp1j1EOwjAMQ0O2knRtbN//tKhMAiYxf0R6T86H7S4krxgxyQvOiDiVtxPXnTENwz+4R9GQ7m+MfSdLVofUItxdLHZY6fFU84FOVhsw07ZJSvRiY8IM0ipVK+cpcqzS4T4omBnWm4SRqW7fIBPNfgXwf/YLjwMGuQDw2QsAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:orange_harness",
+      "name": "Orange Harness",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAADQ6un8mi2oqKhvmqTlbg+9cUhxcXFXeoGcXTu/SR9eXl59Til3RyddNhpOLBM4IRCQhQ+fAAAAAXRSTlMAQObYZgAAAHlJREFUeNp1j1EOwjAMQ0OyrsRdY9//tKhMAiYxf0R6T86H7S4kr5g5yQvOzDxV9BPXnTkNLT64Z9HgEW/MfSdLVofUMyNCLA5Y6fFUj4ZBVm8w07ZJcoxip8MM0ipVr+ApvK3SEdEomBnWm4TmrmHfwB3dfgXwf/YLotIGkW+R3EcAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:yellow_harness",
+      "name": "Yellow Harness",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAADQ6un932SoqKjipRFvmqS9cUiwZxNxcXFXeoGcXTteXl59Til3RyddNhpOLBM4IRDS7lxgAAAAAXRSTlMAQObYZgAAAHlJREFUeNp1j1EOwjAMQ0PSzSVdY9//tKhMAiYxf0R6T86H7S4kr5g5yQvOzDxV9BPXnTkNLT64Z9HgEW/MfSdLVofUMyNCLA5Y6fFUj4ZBVm8w07ZJcoxip8MM0ipVr+ApvK3SEdEomBnWm4TmrmHfwB3dfgXwf/YLpUIGeFNmTBQAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:lime_harness",
+      "name": "Lime Harness",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAADQ6umcyTKoqKhvmqRmqRi9cUhxcXFXeoGcXTteXl49dTR9Til3RyddNhpOLBM4IRDswaEgAAAAAXRSTlMAQObYZgAAAHlJREFUeNp1j1EOwjAMQ0OyrqReY9//tKhMAiYxf0R6T86H7S4kr5g5yQvOzDxV9BPXnTkNLT64Z9HgEW/MfSdLVofUMyNCLA5Y6fFUj4ZBVm8w07ZJcoxip8MM0ipVr+ApvK3SEdEomBnWm4TmrmHfwB3dfgXwf/YLp4kGoCFyUikAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:green_harness",
+      "name": "Green Harness",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAADQ6umoqKhvmqS9cUhwhR1xcXFXeoGcXTtXdRReXl59Til3RyczUiRdNhpOLBM4IRC+OAXHAAAAAXRSTlMAQObYZgAAAHlJREFUeNp1j1EOwjAMQ0O2lLSrY9//tKhMAiYxf0R6T86H7S4kr5g5yQvOzDyVtxPXnTkN3T+4Z9EQ7m/MfSdLVofUMt1dLA5Y6fFU845BVusw07ZJCoxiY8AM0ipVK+cpoq/S4d4pmBnWm4QeoWHfIALNfgXwf/YLmI4GsJqYNEcAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:cyan_harness",
+      "name": "Cyan Harness",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAADQ6umoqKhvmqQrq6S9cUhxcXFXeoESlJOcXTteXl59Til3RycRZXZdNhpOLBM4IRDJd/cvAAAAAXRSTlMAQObYZgAAAHlJREFUeNp1j1EOwjAMQ0OWlaarY9//tKhMAiYxf0R6T86H7S4kr5g5yQvOzDyVtxPXnTkN3T+4Z9EQ7m/MfSdLVofUMt1dLA5Y6fFU845BVusw07ZJCoxiY8AM0ipVK+cpoq/S4d4pmBnWm4QeoWHfIALNfgXwf/YLp3kGvT8OTMMAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:light_blue_harness",
+      "name": "Light Blue Harness",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAADQ6umoqKg0ss9vmqS9cUgpldVxcXFXeoGcXTteXl4uY6N9Til3RyddNhpOLBM4IRB0WN04AAAAAXRSTlMAQObYZgAAAHlJREFUeNp1j1EOwjAMQ0OytaReY9//tKhMAiYxf0R6T86H7S4kr5g5yQvOzDyV9xPXnTkNzT+4Z9EQ7m/MfSdLVofUM91dLA5Y6fFU94ZBVm8w07ZJCoxiZ8AM0ipVL+cpoq3S4d4omBnWm4QWoWHfIALdfgXwf/YLpR8GocYYQ+QAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:blue_harness",
+      "name": "Blue Harness",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAADQ6umoqKhvmqS9cUhxcXFXeoGcXTtBcbBFWr5eXl59Til3RyddNhoyOXpOLBM4IRBezftpAAAAAXRSTlMAQObYZgAAAHlJREFUeNp1j1EOwjAMQ0O2krRrbN//tKhMAiYxf0R6T86H7S4krxgxyQvOiDiVtxPXnTEN3T+4R9GQ7m+MfSdLVofUItxdLA5Y6fFU845BVusw07ZJSoxiY8IM0ipVK+cpsq/S4d4pmBnWm4SeqWHfIBPNfgXwf/YLjIUGsyKcImAAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:purple_harness",
+      "name": "Purple Harness",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAADQ6umoqKhvmqS9cUiqSs9xcXFXeoGcXTteXl6FMbp9Til3RydaKYxdNhpOLBM4IRCJkL5VAAAAAXRSTlMAQObYZgAAAHlJREFUeNp1j1EOwjAMQ0O2lLSrY9//tKhMAiYxf0R6T86H7S4kr5g5yQvOzDyVtxPXnTkNwz+4Z9EQ7m/MfSdLVofUMt1dLHZY6fFU84FOVhsw07ZJCvRiY8AM0ipVK+cpYqzS4T4omBnWm4QRoW7fIALNfgXwf/YLmWkGssUmUOwAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:magenta_harness",
+      "name": "Magenta Harness",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAADQ6umoqKhvmqTRWqe9cUhxcXFXeoG9Oq+cXTteXl59Til9NIh3RyddNhpOLBM4IRBlYPaWAAAAAXRSTlMAQObYZgAAAHlJREFUeNp1j1EOwjAMQ0OWlaZzY9//tKhMAiYxf0R6T86H7S4kr5g5yQvOzDyVtxPXnTkN3T+4Z9EQ7m/MfSdLVofUMt1dLA5Y6fFU845BVusw07ZJCoxiY8AM0ipVK+cpoq/S4d4pmBnWm4QeoWHfIALNfgXwf/YLrOgGuj/8ET8AAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:pink_harness",
+      "name": "Pink Harness",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAADQ6unyj62oqKjocpVvmqS9cUhxcXG/S2hXeoGcXTteXl59Til3RyddNhpOLBM4IRCEON0+AAAAAXRSTlMAQObYZgAAAHlJREFUeNp1j1EOwjAMQ0PSrSZdY9//tKhMAiYxf0R6T86H7S4kr5g5yQvOzDxV9BPXnTkNLT64Z9HgEW/MfSdLVofUMyNCLA5Y6fFUj4ZBVm8w07ZJcoxip8MM0ipVr+ApvK3SEdEomBnWm4TmrmHfwB3dfgXwf/YLqF8GhLkMtW0AAAAASUVORK5CYII="
+    },
+    {
       "id": "minecraft:leaf_litter",
       "name": "Leaf Litter",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAD9QTFRFAAAAdU44hVo8lW1MakY4q4JPSy8ma0QunG1Bi146XDwyg1hBqHlJk2ZGf1QxmWpDYD0nuZRbgFc6cUs1kGlJA4F0XgAAABV0Uk5TAP//////////////////////////ULD6LwAAAKNJREFUeJxNz+sOgjAMhuH3mwMJEOfp/q+QKAiSqGPaaaLuV/e0azshaeF3hHu+xROh4CFwZChTXN8qRX1r63mNv6KWiZo5UxO9G7VJBtHPK6iI5SjCgC9NpNQ4xk8P77j/xkLKkVVanAw2g0xad7F0GPJiYXgaMNXxrqDM9N9GW+04s+33J7v7vI4tVpzhoM5TzpYVbznS2aNdWib9/ZywTLwA+As6N2Fz7B0AAAAASUVORK5CYII="
@@ -231,48 +412,43 @@
       "id": "minecraft:water_bottle",
       "name": "Water Bottle",
       "texture": "data:image/png;base64,UklGRrAAAABXRUJQVlA4TKQAAAAvD8ADEH+gJpIk5eSdo5P5OUPKEZMNJQEAJJziPSfcbQHJXWkkScpR+hfdO5KvXjF/1fwHAOBxG1KnVeRpwawIxWgr+f/bd3r/KdVC9HAR1JwRVHCTbdtSfUgAIngINt3YCKE1SOCawmUjAzMV5JwEhkaI6P8EwJPjfPT+oAfTckQKcAMBfEdwqborNH3AAcDVjGjn6bazq62k2gk5r8JeUfCDQw==",
-      "lore": ["\u00c2\u00a77No Effects"]
+      "lore": ["&7No Effects"]
     },
     {
       "id": "minecraft:music_disc_creator",
-      "name": "\u00c2\u00a7bMusic Disc",
+      "name": "&bMusic Disc",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAACdQTFRFAAAALU1ATJSEU6F4WbKSbsWfr7J39sht/92Z/6hR//fSNmBSITgvGEq8FAAAAA10Uk5TAP///////////////y0EQa0AAACESURBVHictdFhDYQwDAXgh4RnoRaGBLAwC1hAAlo4CSBhZ6EWnoXr9vNSfrI0y/olbbN0wt+Z3gP2S48QGbv4sARoMlARTlcCpFEWJbqL5MqgOBZS+qB8lYGRXhbEG1GRwbn3norBzqMmgLae2PoHDtRrRgJoQFjFBcxIAcNGhkd4e3M/ntdcIR/plOQAAAAASUVORK5CYII=",
-      "lore": ["\u00c2\u00a77Lena Raine - Creator"]
+      "lore": ["&7Lena Raine - Creator"]
     },
     {
       "id": "minecraft:music_disc_creator_music_box",
-      "name": "\u00c2\u00a7bMusic Disc",
+      "name": "&bMusic Disc",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAACRQTFRFAAAAajYlwmtM1ntb5ohu25hc9sht/92Z/6hR//fSikkzTScbL20CUwAAAAx0Uk5TAP//////////////CcRQJgAAAH9JREFUeJy10VENhDAQhOEfCWOhFs4CWMBCLSABC1jAAmcBC7UwFm7LyyV3yyOTpsl8SbtNOvCT4TlQ33wL+oJTkKLLwu7rHxRxiTM+iyMZlMYY6Del5SC118h53ZnCtvTJVnTWmgDHvLH0p6/UfSIBDgir7DCRApddjVt4+uc+/nRYIVdkQEcAAAAASUVORK5CYII=",
-      "lore": ["\u00c2\u00a77Lena Raine - Creator (Music Box)"]
+      "lore": ["&7Lena Raine - Creator (Music Box)"]
     },
     {
       "id": "minecraft:music_disc_precipice",
-      "name": "\u00c2\u00a7bMusic Disc",
+      "name": "&bMusic Disc",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAADZQTFRFAAAAQEU/Y2xtdndvhYN644Jszo2DereZwmtMTJSEbsWfTScbITgv1ntbWbKSTTwyoqOPKT8sumEdvQAAABJ0Uk5TAP//////////////////////XsGGPgAAAJ9JREFUeJzVkt0KwyAMhU/UsdFe7P2fcjdC2/3UHRNpYRTMLhsxiZ4PiVFBx+RkwJ6WvwE5BIobEJVsFo1FRfN9QCANWRE1ezEPKtfhAwJFUI5YcON6VmR1AiMmPbguEmOkHFqJA7IL+OCpLbFtadcDroQ9ADBSmpm8t1ZfKCUWma2BXaAiiX7iHJoH25X3J+wCZvet1Mfvh3ECx3YK4AvNc1QhCVmgtQAAAABJRU5ErkJggg==",
-      "lore": ["\u00c2\u00a77Aaron Cherof - Precipice"]
+      "lore": ["&7Aaron Cherof - Precipice"]
     },
     {
       "id": "minecraft:mace",
-      "name": "\u00c2\u00a7dMace",
+      "name": "&dMace",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAACdQTFRFAAAAQkdSmaGuv87nVVxpHiIpLjM7fISRZmx6UGOQeoLEI0JptaXKHkYrLQAAAA10Uk5TAP///////////////y0EQa0AAACISURBVHicfc5RDQMhEIThOQljAQtY4CRgoRZOQyWgYSzUAhawsBa63LVJm7C3L+T/EmA3fIeweWwhkBxWuoVApsFEUwTeiWISAvDuD3FkKoLDl3oNIDOAKTIUqkSAmp9nK4LmW6l6I4BG7nVeQAAt2+7vQgjg6s+s4K8XQP/zp1dwdOEWKnAPbyDjVXX+cO0IAAAAAElFTkSuQmCC",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1.6 Attack Speed",
-        "\u00c2\u00a72\t7 Attack Damage"
-      ]
+      "lore": ["", "&7When in main hand:", "&2\t1.6 Attack Speed", "&2\t7 Attack Damage"]
     },
     {
       "id": "minecraft:netherite_upgrade",
       "name": "Smithing Template",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAABtQTFRFAAAAZSgocjIyhUJCNA4OURUVIJq4YOjoS8nJJuPm6wAAAAl0Uk5TAP//////////NwKb1AAAAIJJREFUeJx90VENxDAMA1APgimUQiiUwlAehVAIhVIwhaU73c9pXj8q+alK0vbA3zoegb8kA+RXxCUDY4c+jpHPMFdvkXwFTaqgsNCZrJxyUJ17/spwsIgT+EDDgcQYqwQLPfoEkisc1G7a7xdywL667uoGWpCdui4M7KZ3goW3378AI91oId7vDwYAAAAASUVORK5CYII=",
       "lore": [
-        "\u00c2\u00a77Netherite Upgrade",
+        "&7Netherite Upgrade",
         "",
-        "\u00c2\u00a77Applies to:",
-        "\u00c2\u00a79\tDiamond Equipment",
-        "\u00c2\u00a77Ingredients:",
-        "\u00c2\u00a79\tNetherite Ingot"
+        "&7Applies to:",
+        "&9\tDiamond Equipment",
+        "&7Ingredients:",
+        "&9\tNetherite Ingot"
       ]
     },
     {
@@ -288,136 +464,133 @@
     {
       "id": "minecraft:arrow_of_fire_resistance",
       "name": "Arrow of Fire Resistance",
-      "lore": ["\u00c2\u00a79Fire Resistance (0:22)"],
+      "lore": ["&9Fire Resistance (0:22)"],
       "texture": "data:image/png;base64,UklGRqIAAABXRUJQVlA4TJYAAAAvD8ADEG+gNJKk6P47fhQSTSTknwWSdNRGskGJjAb+5GrRfwUiRUiUNJIkFV9P69/Cd/hyAo7PfwCwO+b61qczz8cyi8YMoxuMKHH3eHfBTW3bUrOZof8tNYsOATMKkIAEdMRA2nSxkHKyETuThIj+pz9vMTifYlytLReb0Ch35igGAZgjIABzdFS412R498ArATpKHwA="
     },
     {
       "id": "minecraft:arrow_of_harming",
       "name": "Arrow of Harming",
-      "lore": ["\u00c2\u00a7cInstant Damage"],
+      "lore": ["&cInstant Damage"],
       "texture": "data:image/png;base64,UklGRqAAAABXRUJQVlA4TJMAAAAvD8ADEG+goI0k5eD5FTD6ev8ayIeSAEAbvrwOhyPF+tdYFLVt20j53ypl2tv7VrnNDpj/AAD1+rex6jj7+W7Gk8tis7AQVkH/2e8Ks+Cmtm2p2cx4+NQsSgxMEpCADQxQU8VC2r/iY46mSUJE/9Of5xTsW4qTS8dhFlrVQkxSEICYAAGIyVrj0ZDjOgDvDOipfAAA"
     },
     {
       "id": "minecraft:arrow_of_healing",
       "name": "Arrow of Healing",
-      "lore": ["\u00c2\u00a79Instant Health"],
+      "lore": ["&9Instant Health"],
       "texture": "data:image/png;base64,UklGRpoAAABXRUJQVlA4TI4AAAAvD8ADEG+gJpIU5gkdCnKNKvzPYEhNACBtnA0FwBXAFP6iOJIMaA8vIlBiF6Ak1PwHAObW389+0hMkTabpCFDgkOixfe4tXw1uatt2ok0OFj4tixYJSEAGBuiZZGHqMZB9pHr8JAkR/U9/7mMwTzF2bh2LXmjlA5coBgG4REAALtFY4NWQ4H4E3jVwIPcB"
     },
     {
       "id": "minecraft:arrow_of_infestation",
       "name": "Arrow of Infestation",
-      "lore": ["\u00c2\u00a7cInfested (0:22)"],
+      "lore": ["&cInfested (0:22)"],
       "texture": "data:image/png;base64,UklGRq4AAABXRUJQVlA4TKEAAAAvH8AHEG/AIADAMrNtV3vhB1QaSZJy6OBfo/4kPv+YsEptG0nKYfQYMTSOrc5/AABvmmIncyzNnZgja1YIz4dHmFFV/9++9a3SgCFtu5GeQhSiEIUqjEIUqlCFKoxCFEahNLN1A4jo/wSw1XzqEC819/MKGkXpU4EEod4lw8E9BKXHewg/f4UwJoQxIeClX7sEIHVrV7Pb+z9rxhgMII8YDAA="
     },
     {
       "id": "minecraft:arrow_of_invisibility",
       "name": "Arrow of Invisibility",
-      "lore": ["\u00c2\u00a79Invisibility (0:22)"],
+      "lore": ["&9Invisibility (0:22)"],
       "texture": "data:image/png;base64,UklGRqAAAABXRUJQVlA4TJMAAAAvD8ADEG+gJpIk5fxb5KfsI2YfiiNJSi7/kC4fh5c7KIokxUEH5lGEDH68Mlyomv8AADX7Ncbd1+ytJNNrqtnlqBIJ+QQR/fuZMbipbdtR9uRcTj/dSKBFABUaEIAEJCDh95SxjRqinyQhov/pz74Bk3mD0WbLYO19lK0IXQPeQOiANxC6ZYLpnQqLGzBrgROZDwAA"
     },
     {
       "id": "minecraft:arrow_of_leaping",
       "name": "Arrow of Leaping",
-      "lore": ["\u00c2\u00a7cJump Boost (0:22)"],
+      "lore": ["&cJump Boost (0:22)"],
       "texture": "data:image/png;base64,UklGRqYAAABXRUJQVlA4TJoAAAAvD8ADEG+gJpIk5aKrM8DwGfl39NGLeCOKIklqLgICcvijBf8Sogg+SiNJUo4caXKX1uVfX5/F/AcAGEPPnv4fZ35bV/XAXllxlgwaRk7cdd574Ka2banZzND/lppFh4AZBUhAAjpiIG26WEg52YidSUJE/9OftxicTzGu1paLTWiUO3MUgwDMERCAOToq3GsyvHvglQAdpQ8A"
     },
     {
       "id": "minecraft:arrow_of_luck",
       "name": "Arrow of Luck",
-      "lore": ["\u00c2\u00a79Luck (0:37)"],
+      "lore": ["&9Luck (0:37)"],
       "texture": "data:image/png;base64,UklGRqAAAABXRUJQVlA4TJMAAAAvD8ADEG+gKJKk5vL7jqAEHWjkiSUcRENqAgBp2OviIwaRiWEkaxiJJOXuHQnQJCceFZDzHwBok79Lr1dL7kipFFKCMeaO9dq4tf+Bm9i2XWX9nOo/30MgSEACMjBAny1QPxwgIPZYwE6SENH/9OcpAutVhKNzx8Zc38oXhDgCPRBioAdCvCzwnJDgfQVeDXAh9wEA"
     },
     {
       "id": "minecraft:arrow_of_night_vision",
       "name": "Arrow of Night_Vision",
-      "lore": ["\u00c2\u00a79Night Vision (0:22)"],
+      "lore": ["&9Night Vision (0:22)"],
       "texture": "data:image/png;base64,UklGRqQAAABXRUJQVlA4TJgAAAAvD8ADEG+gJpLcRpVGBHLqhMe4zMycTERRI0nK7h4zk4J7nfFTqSaSrebnQG6pcYMJ/Fugmv8AAHPr9ct3x3lfzYZTsFZYTSgYSfb442e7/4Kj2radZtPxwPpTFkMEVAlIwEYMZJxRLMRETwz8FU9NQkT/05+nFOx3KY7eHQeL0KpWYpKCAMQECEBMthr3hhznAXhlQE/lAw=="
     },
     {
       "id": "minecraft:arrow_of_oozing",
       "name": "Arrow of Oozing",
-      "lore": ["\u00c2\u00a7cOozing (0:22)"],
+      "lore": ["&cOozing (0:22)"],
       "texture": "data:image/png;base64,UklGRrIAAABXRUJQVlA4TKYAAAAvH8AHEG+gJpLcRpVGBHIqhcesDM2gTERx2zZO6jO5+soEVwe/IQ9QHElSGj3j5e68CIb5DwAwQ99//ehOX6pmbI6nwFKAIkiVd5+I5b4PDGnbjfQUohCFKFRhFKJQhSpUYRRGoQqhma0bQET/J4Ct5lOHeKm5n1fQKEqfCiQI9S4ZDu4hKD3eQ/j5K4QxIYwJAS/92iUAqVu7mt3e/1kzxmAAecRg"
     },
     {
       "id": "minecraft:arrow_of_poison",
       "name": "Arrow of Poison",
-      "lore": ["\u00c2\u00a7cPoison (0:05)"],
+      "lore": ["&cPoison (0:05)"],
       "texture": "data:image/png;base64,UklGRpwAAABXRUJQVlA4TJAAAAAvD8ADEG+gtpGk5m1oIfKl0S09Ko4kA9rF7/qTgCjkH5UqtY0kNe8dLianbcqhKLL5DwC429ovfY6dX6vGPGSmyCTK1NiX5901eoOb2ralZjPj4VOzKDEwSUACNjBATRULaf+KjzmaJgkR/U9/nlOwbylOLh2HWWhVCzFJQQBiAgQgJmuNR0OO6wC8M6Cn8gE="
     },
     {
       "id": "minecraft:arrow_of_regeneration",
       "name": "Arrow of Regeneration",
-      "lore": ["\u00c2\u00a7cRegeneration (0:05)"],
+      "lore": ["&cRegeneration (0:05)"],
       "texture": "data:image/png;base64,UklGRqIAAABXRUJQVlA4TJUAAAAvD8ADEG+gKJKk5iLJQX7iDSkIzkoURZLUXD5+OSrAAKpxyE9tI0lt+m3knwwRQTnMfwCAduyPTw9j3SuMxebk6/C1kQp2Nf4R9zbfB0e1bTvNpuOB9acshgioEpCAjRjIOKNYiImeGPgrnpqEiP6nP08p2O9SHL07DhahVa3EJAUBiAkQgJhsNe4NOc4D8MqAnsoHAAA="
     },
     {
       "id": "minecraft:arrow_of_slow_falling",
       "name": "Arrow of Slow Falling",
-      "lore": ["\u00c2\u00a7cSlow Falling (0:11)"],
+      "lore": ["&cSlow Falling (0:11)"],
       "texture": "data:image/png;base64,UklGRqAAAABXRUJQVlA4TJQAAAAvD8ADEG+gJpIk5eAhYub4/Zt7K4raSIH2tRi4MYAW/KOHKGgjSbm7Z2Yy8Dbev5R3Mf8BAHfcUZf+4O1n8NQegiY5qhSFJKdF+heMOuCmtm2p2czQ/5KeRYeBWQESkICOGEibLhZiYo6mSUJE/9OflxgcDzHOlpaTVWiUG1MUgwBMERCAKdorPGoyXHvgnQAdpQ8A"
     },
     {
       "id": "minecraft:arrow_of_slowness",
       "name": "Arrow of Slowness",
-      "lore": ["\u00c2\u00a7cSlowness (0:11)"],
+      "lore": ["&cSlowness (0:11)"],
       "texture": "data:image/png;base64,UklGRqAAAABXRUJQVlA4TJQAAAAvD8ADEG+gto0kNXn3FDIzVftqIklhSF2sXwEicIxIRlEkSc3lO+CZcYECBODfAzbmP4DAnFL/ocFeX64X6ZWpTmfHVAlzab+C7d8DR7VtO82m44H1pyyGCKgSkICNGMg4o1iIiZ4Y+CuemoSI/qc/TynY71IcvTsOFqFVrcQkBQGICRCAmGw17g05zgPwyoCeygcA"
     },
     {
       "id": "minecraft:arrow_of_splashing",
       "name": "Arrow of Splashing",
-      "lore": ["\u00c2\u00a77No Effects"],
+      "lore": ["&7No Effects"],
       "texture": "data:image/png;base64,UklGRqIAAABXRUJQVlA4TJYAAAAvD8ADEG+gqJEkZfFQAT9P1vk3wErUNJIC3fF5QAElCvCA/44OGYojSUrucHcNgR85ERe5zn8AQC/7/zHaWHfF6Kwn3ivvFQnHFMI+c76UG9zUti01mxkPn5pFiYFJAhKwgQFqqlhI+1d8zNE0SYjof/rznIJ9S3Fy6TjMQqtaiEkKAhATIAAxWWs8GnJcB+CdAT2VDwA="
     },
     {
       "id": "minecraft:arrow_of_strength",
       "name": "Arrow of Strength",
-      "lore": ["\u00c2\u00a79Strength (0:22)"],
+      "lore": ["&9Strength (0:22)"],
       "texture": "data:image/png;base64,UklGRp4AAABXRUJQVlA4TJIAAAAvD8ADEG+gJgCQhv6luOhAg416bYMoaiRJWfTvZtcQHBnAh2E2kvpfgEU4f4VDOInTmP8AgL5n8y/Vqc5YeLDvYK+pyyPQjrQHN7Ftu8r6ObVfQEQCBlCABCQg4dVUCKBj8JBDiwfsJAkR/U9/tjWYL2rMbPZ01o4H6YrQ1OAIhAY4AqFZJnjeKPDeAa8K2JL6AA=="
     },
     {
       "id": "minecraft:arrow_of_swiftness",
       "name": "Arrow of Swiftness",
-      "lore": ["\u00c2\u00a79Speed (0:22)"],
+      "lore": ["&9Speed (0:22)"],
       "texture": "data:image/png;base64,UklGRp4AAABXRUJQVlA4TJIAAAAvD8ADEG+gGADQKH+MOC6VXncBbCRqGkmBztIhHgOIIZS0v5oAQBO60pEWnoF5AT3mPwAg5X+//b+mu+ruZvFKlAT4WDDVEN6gIbipte1NbnqZI6BLiIEoiIRIwAOHnR0LdUVDHzHUJET0P/1Z5WCccgzea2orh4144VXm4AC8SuAAvMo5wnlPhusOuBTAltgHAA=="
     },
     {
       "id": "minecraft:arrow_of_the_turtle_master",
       "name": "Arrow of The Turtle Master",
-      "lore": [
-        "\u00c2\u00a7cSlowness IV (0:07)",
-        "\u00c2\u00a79Resistance III (0:07)"
-      ],
+      "lore": ["&cSlowness IV (0:07)", "&9Resistance III (0:07)"],
       "texture": "data:image/png;base64,UklGRpwAAABXRUJQVlA4TI8AAAAvD8ADEG+gtpGk5l1kcwelUT41qYkkhSGVsX0FqMC/KYZRHElSco49nTTIwNIk1/kPIHAnlV8WSHvLmswzz8ajYVVizr/n7VeY4Ka2banZzHj41CxKDEwSkIANDFBTxULav+JjjqZJQkT/05/nFOxbipNLx2EWWtVCTFIQgJgAAYjJWuPRkOM6AO8M6Kl8AAA="
     },
     {
       "id": "minecraft:arrow_of_water_breathing",
       "name": "Arrow of Water Breathing",
-      "lore": ["\u00c2\u00a79Water Breathing (0:22)"],
+      "lore": ["&9Water Breathing (0:22)"],
       "texture": "data:image/png;base64,UklGRp4AAABXRUJQVlA4TJEAAAAvD8ADEG+goI0k5VjA3TMZeYUv9v0ojiQpOf0JbhHwI3CiVBAAQBnMtnvAJc1/AADn6hMXndqdTy2VW5BTkiNRpkyZ/5h+pvc/OKpt22k2HQ+sP2UxRECVgARsxEDGGcVCTPTEwF/x1CRE9D/9eUrBfpfi6N1xsAitaiUmKQhATIAAxGSrcW/IcR6AVwb0VD4AAA=="
     },
     {
       "id": "minecraft:arrow_of_weakness",
       "name": "Arrow of Weakness",
-      "lore": ["\u00c2\u00a7cWeakness (0:22)"],
+      "lore": ["&cWeakness (0:22)"],
       "texture": "data:image/png;base64,UklGRpgAAABXRUJQVlA4TIwAAAAvD8ADEG+gqJEkNbgMBz8+cacmANAEhx9mYax/qSkNAKRhQycNPd3fPMPm/AcAGJlLPR23iGBmNAL/z80QESLy3vX3cVeBm9i2XWX9/A0kD1nCl4AEDCAAAfRZA+1DSKpwlCRE9D/9eY3Abhvh4tayN+sqxUKII9ABIQY6IMSrEq+eBPcN8M6BNYUPAA=="
     },
     {
       "id": "minecraft:arrow_of_weaving",
       "name": "Arrow of Weaving",
-      "lore": ["\u00c2\u00a7cWeaving (0:22)"],
+      "lore": ["&cWeaving (0:22)"],
       "texture": "data:image/png;base64,UklGRq4AAABXRUJQVlA4TKIAAAAvH8AHEG+gqJEkZRn/e2Du/Js4HWoCAGlY3+YDzWL/WCqNJCm6/1NXJ9HkTUQERGHmPwDA3Bn+nNniN80vNbSltkJMRNjv673jngUMaduN9BSiEIUqRGEUolCFKlRhFKIwCqWZrRtARP8ngK3mU4Z4qbmfV5AoQp8KJAjxLhkO7qEIPd5D+fkrlDGhjAkFL/3apQCpW7ua3d7/WTPGYAB5xGA="
     },
     {
       "id": "minecraft:arrow_of_wind_charging",
       "name": "Arrow of Wind_Charging",
-      "lore": ["\u00c2\u00a7cWind Charging (0:22)"],
+      "lore": ["&cWind Charging (0:22)"],
       "texture": "data:image/png;base64,UklGRrQAAABXRUJQVlA4TKcAAAAvH8AHEG+gOJKk5ATn5Q5v8s+PPBRFktRcBl45K0AL/v9YURNJUnTRH7+AERzhFCt4IJn/AAD32uo3H7/3HvOPNpYQXa4tlSIVKWM/XPMMYEjbbqSnEIUoRCEKVRiFKFShClUYhVEozWzdACL6PwFsNZ86JErN/aKCelH6VCCBa3TJcHB3Qenx7sLPXy6McWGMC0Tp1y4BSN3a1ez2/s+aMQYDyCMGAwA="
     },
     {
       "id": "minecraft:tipped_arrow",
       "name": "Tipped Arrow",
-      "lore": ["\u00c2\u00a77No Effects"],
+      "lore": ["&7No Effects"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABVUlEQVR4XmMYBSM+BBhpHQLS0j3/QXawskqArXrxogNM//hxBWw300BHAQu1HSAhUQP2MRubPNhoRkaIFb9/v8Bq1YCHAMlpAOZDdnZlsI8ePkxEMYODQwccAvVxv8Hy03eUgOlXryaixD0sOAZvGpCXnw/2CboPX7xoAftYSCjmP7ZIhfl84Y4nYOlfvx7iTWYDHwKwfPr0aQlKXH77dh6vy9+9W4Kivj1NHRwiMJ/fePQVLM/BsQEsDsv36IYOvVyA7gNcPie2fBm6IUCpzwdNOUBySUgtnw+9ECDkc/Ra8NGjVKJCd/Dmgrt374JLsOfPn4OjKyXKHUzDSjhc+RxWR6CXlLjUD77aEN3nkpKSYMeLKRhDQ+AQSXUEoRJx8KUBOzs7cNzPnz8f7PjExEQwfejQIZq0oAc8BHBGESgkYKGBLx5B7QlYm4KBDDB4Q4BhpAAArc+FW53AjosAAAAASUVORK5CYII="
     },
     {
@@ -2243,12 +2416,7 @@
     {
       "id": "minecraft:diamond_axe",
       "name": "Diamond Axe",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t0.8 Attack Speed",
-        "\u00c2\u00a72\t9 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t0.8 Attack Speed", "&2\t9 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFUlEQVR4XmMY8YCRWiHAZ2f6H9msT4dOE2U200BHAcUhAPO5yqopKH65E5YD5hMKiQEPARZyowDd519PnAcbxSwqRJKRQy8EcPkc5u2/r9+BmVbfH4BpeV85cO6YufkR1vQ29ELg1/PXKHEMi3OYz7/fuAeWv1/dDKYf5BXjTRNDtxzgUFVAKfkcBL6i+BwWEpwaSmDxh6UdYPrH7QcoaWHolgMwn3iYioJDQl6CEyXOOSf1ElUeDN00APO5vSGk5Fu44wnYxzcefQXHMXoaQY97WPAMvRBAj/ODF9+i+JyBRDB0QoDaPh86aYBQamegEAzeNECrOEcPsMEXArSO88EfAhpy3Cj1PKxsZ6ARGPA0wDDiAQDKRHBhSeyTvQAAAABJRU5ErkJggg=="
     },
     {
@@ -2274,12 +2442,7 @@
     {
       "id": "minecraft:diamond_hoe",
       "name": "Diamond Hoe",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1 Attack Speed",
-        "\u00c2\u00a72\t1 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t1 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA+ElEQVR4XmMY8YCR3BDgszP9j03vp0OnSTKTaaCjgOQQgPlcZdUUsNt/3H2I4ocnld1gPrEhMfRCAOZdDlUFlDQg310BlmIWFQLTsJCw+v4AzJeX4ATTMzc/Qgn1oRsC6IkXFiKwkIDJJ2zrBzMX7ngCpm88+jpMQwDmYw9TUXDaeDRhKljo7+t3YPphaQeY/nH7wTANAZjPYan94MW3YB8/YBfF6nNYiA39XADzub2hEN7UzoADDN0QwBXn6PmcgQAYeiFAaZyjB8jQCQFqxfnQCwFqx/nQCQFaxfngDwFax/ngDwENOW6U1i6pZTsDiWDAS0KGEQ8AkxNoK8WFTckAAAAASUVORK5CYII="
     },
     {
@@ -2300,34 +2463,19 @@
     {
       "id": "minecraft:diamond_pickaxe",
       "name": "Diamond Pickaxe",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1.2 Attack Speed",
-        "\u00c2\u00a72\t5 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1.2 Attack Speed", "&2\t5 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABF0lEQVR4XmMYBSM+BBhJDQE+O9P/xOj5dOg0UWYzDXQUEB0CMJ+rrJoCdvOPuw/B9N/X71D8wCwqBOY/qewG01bfH4BpeQlOMD1z8yMUO4dOCMC8CQuJX89fY409+e4KFPGEbf1g/sIdT8D0jUdfh3gIMBAAHqai4FzyaMJUsEpYGnlY2gHm/7j9YJiGAMznsNR+8OJbsI//T+oF07DccS+hDCUkBjwXsDBQCGA+tzcUwpraOUo7wGkCPXfArB26IYAe57jyOaEAHnohQCjOcfkYlgvQ5YdOCFAa5xzK8lgDZ/DXhuTGObp3OVQVwOXB0KkLcJXt6PU5pSXp4EsD1IpzYkNm8IWAhhw3Sruf2nE+6EpChhEPAD3DcUoIKZ2/AAAAAElFTkSuQmCC"
     },
     {
       "id": "minecraft:diamond_shovel",
       "name": "Diamond Shovel",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1 Attack Speed",
-        "\u00c2\u00a72\t5.5 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t5.5 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA9klEQVR4XmMYBSM+BBhpFQJ8dqb/kc3+9fw1mPvj9gMUO5kGOgqoHgIwn6usmoLit68nzoP5D0s7UEJiwEOAhVpRgO7zH3cfgo3++/odmOa2MMRq1dAPAUI+ZxYVwhvIwycXeJiKgvP9/epmsI9hPudQlgfzr9mGo6R+WLAM/RCA+dzeEBLXC3c8AXuO69Q+vD4f+iGAy+c3Hn0Fl64cqgrgNIFe9qNniaGXBmA+l5fgBHvm4MW3YBrmcwYSwdAJAUJxzkAmGPwhQO04H/y5AOZjmEvRSzhyUzuuJDJ42wO09vngrws05LhR2vXUjvtBEwIMIx4AAOMHZRo+FfJ4AAAAAElFTkSuQmCC"
     },
     {
       "id": "minecraft:diamond_sword",
       "name": "Diamond Sword",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1.6 Attack Speed",
-        "\u00c2\u00a72\t7 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1.6 Attack Speed", "&2\t7 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABUklEQVR4XmNkoBPgszP9j80qJoYBBjQPAZjPp+zZgeLVNG1jMH/AQ4CFVjGA7vOO03vBVlWYOqNYOfzSACGfw+L+x+0H4PQ3fEIAl885lOXBcX7NNhxMw3wOSwhDPwTI9fngDQH0MvvTodNYS0uYOpVVUyBxe/chmCYU5+jlzuAtCdlVIKmXj4EBXIvBQoJaPh80aQCjLoD7FOpzAS9HsGN/PX8NDglYnL9ZsBYsLpIQjDefMxAAg7ccgMU1LARgHvl+6x6YKdtWSpHPB00aINgigoUELFf8vPMQlibANHrZzkAiGLxpwMNUFJzq5SU4wX5aeAPiVjZJURQ/AnMHRSEx+EpCmM/tDYUgPt/xBOLDR19h6QWlfY8UImBxUtPEwIcAeu0nz/8Sxec3ED7HFdf/GSgAgycNwPL5wsOv0eMcr/+GfDnAAsvHMJqBzmDA0wAAw0aY1sBerGsAAAAASUVORK5CYII="
     },
     {
@@ -2763,12 +2911,7 @@
     {
       "id": "minecraft:golden_axe",
       "name": "Golden Axe",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t0.8 Attack Speed",
-        "\u00c2\u00a72\t7 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t0.8 Attack Speed", "&2\t7 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABF0lEQVR4XmMY8YCRWiHQECP2H9mshiWviDKbaaCjgIVSB8B8XrUgHs2oheAQIRQSQzcE0H3+ZvMCcAgw2jiSFKgDHgIk5wJcPkf3dlIbREReghPMmLn5EVa7hl4I2OnygVP3nvPpYJ+9ff8QTP8/sh9Mf376D0zzSkP85pT/Dcy/8ejrMAkBWFzDQgLG5+JgBzPnVTFgDYmIup9g8UOXP6GExNAtB2A+8TAVBacJWGp3yn8L9um+iVxElQdDLxfAvAXzub2hEFho4Y4nKKkdPY2gxz3MnKEXAuhxfvDiW7z5nFBCGDohQG2fD500QCi1M1AIBm8aoFWcowfY4AsBWsf54A8BDTlulB4OrpYMA5XAgKcBhhEPAIKtbcRtzO4hAAAAAElFTkSuQmCC"
     },
     {
@@ -2794,12 +2937,7 @@
     {
       "id": "minecraft:golden_hoe",
       "name": "Golden Hoe",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1 Attack Speed",
-        "\u00c2\u00a72\t1 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t1 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA+ElEQVR4XmMY8YCR3BBoiBH7j01vw5JXJJnJNNBRwEKqA2A+r1oQD9b69v1DNCMOgEOG2JAY8BAgOw3Y6fKhpIEVTezgkGC0cQTTMwsPgOkTNyHK5CU4IeKbH6HYOXRDAD3twEIEFhIw+YXbhcDMhTuegOkbj74O0xCA+djDVBQc6fO3QdLC/yP7wVIRdT/B9KHLn4ZpCMB8Dkvt1x98QEkm6D6HSQ79XADzub0h/tTOgAMM3RBAj/ODF99izecMBMDQCwFK4xw9QIZOCFArzodeCFA7zodOCNAqzgd/CNA6zgd/CGjIcaO0dtHbcAxUBgNeEjKMeAAAqHpnI5GdyioAAAAASUVORK5CYII="
     },
     {
@@ -2815,34 +2953,19 @@
     {
       "id": "minecraft:golden_pickaxe",
       "name": "Golden Pickaxe",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1.2 Attack Speed",
-        "\u00c2\u00a72\t2 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1.2 Attack Speed", "&2\t2 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABF0lEQVR4XmMYBSM+BBhJDYGGGLH/xOhpWPKKKLOZBjoKWIh1AMznVQviwVrevn8Ipv8f2Y9iBKONI5R/ABxSJ25CAkxeghMsPnPzI5SQGfAQIDsN7Lv4A2vgrWhiRxFfuF0IzF+44wmYvvHo6xAPAUJpxsNUFBzp87c5oqSRiLqfYP6hy5+GaQjAfA5L7QcvvgX7eN9ELjANyx3hTjtQQmLolAO44h7mc3tD7Kk9oo4ZnCZWNO3HasTQDQH0OMeVzwnlmqEXAoTiHJePEXXEDhQlQycEKI1zYUH5wZkLGIkt23HlcwYigZ0uH7g8GDp1Aa6yHb0+Z6AQDL4WEbn5nNyAGHwhoCHHjdLup3aco4fUgIcAw4gHAGo5ceKL2yPbAAAAAElFTkSuQmCC"
     },
     {
       "id": "minecraft:golden_shovel",
       "name": "Golden Shovel",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1 Attack Speed",
-        "\u00c2\u00a72\t2.5 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t2.5 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABA0lEQVR4XmMYBSM+BBhpFQINMWL/kc3ed/EHmHvo8icUO5kGOgqoHgIwn1ctiEfx25vNC8D8iLqfKCEx4CHAQq0oQPf52/cPwUb/P7IfTIv4JkCsqpuJYuXQDwFCPme0ccQbyMMnF3iYioLz/bwqiIdhPhcWlAcLuBjOREn9sGAZ+mkA5nN7QyGwp5zyn4DpS/fw+3zQhADZJSG6zxfugPj8xqOvYDPtdPnAaQK97EfPEkMvF8B8Li/BCfbMwYtvwTTM5wwkgqETAoTinIFMMPhDgNpxPvhzAczHMJfCSjj0fM5AJTB46wJa+xwWgIM3F2jIcaO068kt6QgllQEPAYYRDwAZA2VYk/PTpQAAAABJRU5ErkJggg=="
     },
     {
       "id": "minecraft:golden_sword",
       "name": "Golden Sword",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1.6 Attack Speed",
-        "\u00c2\u00a72\t4 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1.6 Attack Speed", "&2\t4 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABVUlEQVR4XmNkoBNoiBH7j80qJoYBBjQPAZjPaxY8Q/Gqk6EQmD/gIcBCqxhA9/nr91Fgq0QFl6FYOfzSACGfw+L+0OVP4PQ3fNIALp8LC8qD4xzd57CEMPTTACGfuxjOBHsWFufouW7whQB6md2w5BXW0hKmrmpBPNhTb98/BNOwOCfk80GTBnCWhJEWf6GOhNRisJCgls8Hfy6A+TQtGFKNR9T9BDt6z/l0MP1m8wIwLeKbAKaJjfNBlwuIrg1XNLGDHX9/xjwwrZiRRJHPB38agLkQlhZguWL5CWaw1L6LP8A0rhKOgUgweOsCD1NRcPKXl+AE++X6gw9g2kmfA8VvlIbE4GsPwHxuD221LtzxBOzjG4++wuoElPY9UoiAxUlNEwMfAui13/OPkDjG4nNcqf4/AwVg8KQBWD5PnfkBPc7x+m/IlwMssHy87yLDgIABTwMA/0KWoy8MpssAAAAASUVORK5CYII="
     },
     {
@@ -3053,12 +3176,7 @@
     {
       "id": "minecraft:iron_axe",
       "name": "Iron Axe",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t0.8 Attack Speed",
-        "\u00c2\u00a72\t9 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t0.8 Attack Speed", "&2\t9 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABG0lEQVR4XmMY8YCRWiHg7Oz8H9msvXv3EmU200BHAcUhAPP5zp07Ufzi7u4O5hMKiQEPARZyowDd54cPHwYbJSYmRpKRQy8EcPkc5u1Xr16BmayfLoHpdF85cO6YufkR1vQ29HKBhIQE2EdPnjwB+/DmzZtgGubzq1evgvna2tpgOjPeB0zfePR1mIQALK5hIQHjG8j+BTPLu1aBafSQiIyMBIu/ePECJSSGbjkA84mHqSg4TchLcKLE+fSFW4gqD4ZuXQDzub2hENinC3c8QUnt6GkEPe5hwTP0QgA9zg9efIs3nxNKCEMnBKjt86GTBgildgYKweBNA7SKc/QAG3whQOs4H/whoCHHjdLDwdWSYaASGPA0wDDiAQAlNXT/x7QmbgAAAABJRU5ErkJggg=="
     },
     {
@@ -3089,12 +3207,7 @@
     {
       "id": "minecraft:iron_hoe",
       "name": "Iron Hoe",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t3 Attack Speed",
-        "\u00c2\u00a72\t1 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t3 Attack Speed", "&2\t1 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA60lEQVR4XmMY8YCR3BBwdnb+j03v3r17STKTaaCjgOQQgPl8586dYLffvHkTxQ95eXlgPrEhMfRCAOZdCQkJlDSwfPlysJSYmBiYhoUE66dLYL68BCeYnrn5EUqoD90QQE+8sBCBhQRM/sTyDDBz4qaPYPrFixfDNARgPvYwFQWnjd4FB8BCr169AtORkZHDPARgPoel9o2nf6EkE/S4h0kO/VwA87m9oRDe1M6AAwzdEMAV57jieviEAKVxjh4SQycNUCvOh14IUDvOh04I0CrOB38I0DrOB38IoLd2SS3bGUgEA14SMox4AAAiQ2crgnz69wAAAABJRU5ErkJggg=="
     },
     {
@@ -3125,34 +3238,19 @@
     {
       "id": "minecraft:iron_pickaxe",
       "name": "Iron Pickaxe",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1.2 Attack Speed",
-        "\u00c2\u00a72\t4 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1.2 Attack Speed", "&2\t4 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABF0lEQVR4XmMYBSM+BBhJDQFnZ+f/xOjZu3cvUWYzDXQUEB0CMJ/v3LkT7OabN2+C6VevXqH4QUxMDMzPy8sD06yfLoFpeQlOMD1z8yMUO4dOCMC8CQuJq1evYo295cuXo4ifWJ4B5i/c8QRM33j0dYiHAAMB4GEqCs4lvQsOgFXC0khkZCSY/+LFi2EaAjCfw1L7wYtvwT6evnALmIblDmAaQgmJAc8FLAwUApjP7Q2FsKZ2YNyD0wR67oBZO3RDAD3OceVzQgE89EKAUJzj8jEsF6DLD50QoDTO1dXVsQbO4K8NyY1zdO9KSEiAy4OhUxfgKtvR63NKS9LBlwaoFefEhszgCwENOW6Udj+143zQlYQMIx4AAMrocWbe9sCAAAAAAElFTkSuQmCC"
     },
     {
       "id": "minecraft:iron_shovel",
       "name": "Iron Shovel",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1 Attack Speed",
-        "\u00c2\u00a72\t4.5 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t4.5 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA+ElEQVR4XmMYBSM+BBhpFQLOzs7/kc2+evUqmPvixQsUO5kGOgqoHgIwn+/cuRPFb4cPHwbzIyMjUUJiwEOAhVpRgO7zmzdvgo1+9eoVmLa1tcVq1dAPAUI+FxMTwxvIwycXeJiKgvN9edcqsI9hPldXVwfzZWRkUFI/LFiGfgjAfG5vKAT21MIdT8D0lXsf8fp86IcALp/fePQVXLpKSEiA0wR62Y+eJYZeGoD5XF6CE+yZgxffgmmYzxlIBEMnBAjFOQOZYPCHALXjfPDnApiPYS5FL+HITe24ksjgbQ/Q2uewEBm8uUBDjhulXU/tuB80IcAw4gEAoR9mEeUmFW8AAAAASUVORK5CYII="
     },
     {
       "id": "minecraft:iron_sword",
       "name": "Iron Sword",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1.6 Attack Speed",
-        "\u00c2\u00a72\t6 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1.6 Attack Speed", "&2\t6 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABXElEQVR4XmNkoBNwdnb+j80qJoYBBjQPAZjPd+7cieJVGRkZMH/AQ4CFVjGA7vMDBw6ArXJwcECxcvilAUI+h8X9ixcvwOlv+KQBXD6XlJQExzm6z2EJYeinAUI+B8qDPQuLc/RcN/hCAL3M3rt3L9bSEqZu0qRJYE89f/4cTMPinJDPB00awFkSqqurwxwJrsVgIUEtnw/eEECKc7DPAwMDwY69evUqmA+L8/3794PFHR0dwTSxcT74cwHMhbC4hoUATPzatWtgZnZ2NkU+HzRpgGCLCBYSsFxx8+ZNWJoA07hKOAYiweCtCzxMRcGpXl6CE+yXjad/gWltbW0UvwFzB0UhMfjaAzCf2xsKgX22cMcTqA+/wtILSvseKUTA4qSmiYEPAfTaT57rNorPbzz6ipJTsPjwPwMFYPCkAVg+X7fuKnqc4/Xf0C8HJCQksMYhpT4jNlkMeBoAANpqmENrT8qGAAAAAElFTkSuQmCC"
     },
     {
@@ -3617,99 +3715,99 @@
     },
     {
       "id": "minecraft:music_disc_11",
-      "name": "\u00c2\u00a7bMusic Disc 11",
+      "name": "&bMusic Disc 11",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABfUlEQVR4XmMYBaMhMOJDgJHYEFBTU/uPT+2tW7cYyQlNpoGOAhZ0B+DyqaSkJFipoKAgipb379/D+OAQgoUEujm4QmjAQwAebzAXw3wK8xbMx2ZmZmChU6dOYY01WEg8f/4cLA8z58uXL2D+58+fwTR6SAx8GkD3OXocw7y7c+dOMPPq1atYQ0BeXh7F5+jmwEIAXfPAh8C7d+9QXA6LS1jcwVz88OFDMBPmUx4eHjAfFucweW1tbbA4zBxYSMDMExERAeeWN2/egNPfwIcAzCXAuAW7DN2HMB/AfIwrDcBCCuZTmHpYSMD4gy8NwOIE3efoaQAWEjY2NmBPHDlyBEzDQhDJZ1hDEt08mPrBkwaALsLrclw+gPnE2NgYrP/s2bOw0hVr7YkeYoOnNkRyGYrL0dMGAwEACwlYuYAljaCYMPjaA7hSNbrHcflMVlYWrBSp3EAp+dDNGXwhQKxP0dXB4hzmc1y16qALAbJasvgyAqxkhakZ9LmAYcQDAMlEm/GkVjjSAAAAAElFTkSuQmCC",
-      "lore": ["\u00c2\u00a77C418 - 11"]
+      "lore": ["&7C418 - 11"]
     },
     {
       "id": "minecraft:music_disc_13",
-      "name": "\u00c2\u00a7bMusic Disc 13",
+      "name": "&bMusic Disc 13",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABHklEQVR4XmMYBaMhMOJDgJHYEFBUVPxPjNr79+8zkhKqTAMdBSzoDsDlUzk5OWLdijWkcIXM4AkBmM8J+VRQUBAcEu/fvwfTMD4RwQMOGfSQGPAQYMTlc3SfwXy8d9pBrJ51zrJHEUcPKZjko0ePwExYSAy+XIDL5eg+1wpUA/vk2rVrYHrvXogfnZ2dsaYRWAiiB9/gCwH01A3jw+J4L9SrUI/DPQTzOa60gyuXDJ5cwMrKCnakpKQkVsfi8hmuNINuyPPnz8FCv3//Hly5AF5zAX0CLqlERUWxhgCukMHlU3Tx169fw3IHSm05eHIBMLXDXEZUvc+AA8B8ii6NZD6K1MDnAgYiASyNEFKOy6e49A14CDCMgtEQGPEhAAArn2gbDjGRYQAAAABJRU5ErkJggg==",
-      "lore": ["\u00c2\u00a77C418 - 13"]
+      "lore": ["&7C418 - 13"]
     },
     {
       "id": "minecraft:music_disc_5",
-      "name": "\u00c2\u00a7bMusic Disc 5",
+      "name": "&bMusic Disc 5",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABjUlEQVR4nO2TQUsCQRTH31ZCRArlQago1hCJaKODWXTpUle/RNCH6Cv0ZTx36VbmIdqIEMGlqEDQglUiqNz+Js+hmZbdS80K+wd/jxlm5v2QtwZpTiwQC4yOgGVteiiBse2L0G/2E/rwvwn4Ncpm58DgNBpPoBo/MWVTmwA3DmqUTqdBona7DYo1h/flsJgsMlxoE/BrLD9crV6DRM7DHUj0VtoDiSbLJyCRubAEEqVS0yBRPm+CqpAsol9gZt70UGnVNEFxsVZzQCLX7YJq4+WjY5CofnAIEk3Z56C/CL934wzqy6NjoERAYHy35KHS9kcHFJEvyiKv1haoNi4U1kARvs85m0iCRJ+nZQMlAgKJlQ0PlXqZRdBfRA4PFw8rrzmtlguKcOOx5j1I9H57aaBEQAC/7/AwujkLxEFzcIFTrA8+n6BUcj8/557TATGUdRsUw8cZLrQLcFhETnd/B8Rft14ERRJXFVBtJEduzFE2tQv4JTmb+VVMTue5GfrNfkIf1i7wV4kFYgHtAl/y6hYwFEbi9QAAAABJRU5ErkJggg==",
-      "lore": ["\u00c2\u00a77Samuel \u00c3\u2026berg - 5"]
+      "lore": ["&7Samuel \u00c3\u2026berg - 5"]
     },
     {
       "id": "minecraft:music_disc_blocks",
-      "name": "\u00c2\u00a7bMusic Disc Blocks",
+      "name": "&bMusic Disc Blocks",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFUlEQVR4XmMYBaMhMOJDgJHYEFBUVPxPjNr79+8zkhKqTAMdBSzoDsDlUzk5OWLdijWkcIXM4AkBmM8J+VRQUBAcEu/fvwfTMD4RwQMOGfSQGPAQYMTlc3SfwXy8QOQ3Vs8mvGFFEUcPKZjko0ePwExYSAy+XIDL5eg+d7/8BuyTnboiYBomDwsJ9DQC46MH3+ALAVwuh/kM5lOYz2E+gsnjSju4csngyQWsrJBULCkpidWxuHyGK82gG/L8+XOw0O/fvwdXLoDXXECfgEsqUVFRrCGAK2Rw+RRd/PXr12AhYBpDqS0HTy5AchlR9T6uVA3zKbo8us9h8gOfCxiIBLA0Qkg5Lp/i0jfgIcAwCkZDYMSHAACJ8GgD2Y2dIgAAAABJRU5ErkJggg==",
-      "lore": ["\u00c2\u00a77C418 - Blocks"]
+      "lore": ["&7C418 - Blocks"]
     },
     {
       "id": "minecraft:music_disc_cat",
-      "name": "\u00c2\u00a7bMusic Disc Cat",
+      "name": "&bMusic Disc Cat",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABG0lEQVR4XmMYBaMhMOJDgJHYEFBUVPxPjNr79+8zkhKqTAMdBSzoDsDlUzk5OWLdijWkcIXM4AkBmM8J+VRQUBAcEu/fvwfTMD4RwQMOGfSQGPAQYMTlc3SfwXzMs/cgVs9+cbZHEUcPKZjko0ePwExYSAy+XIDL5TCfX8mG+IV9vxqY8dPxFpjWgYYMLCTQ0wiMjx58gy8EcLkc5jMdeBq4heIZmDyutIMrlwyeXMDKygp2pKSkJFbH4vIZrjSDbsjz58/BQr9//x5cuQBecwF9Ai6pREVFsYYArpDB5VN08devX4OFgGkMpbYcPLkAyWVE1fu4UjXMp+jy6D6HyQ98LmAgEsDSCCHluHyKS9+AhwDDKBgNgREfAgB9J2liVoQpIgAAAABJRU5ErkJggg==",
-      "lore": ["\u00c2\u00a77C418 - Cat"]
+      "lore": ["&7C418 - Cat"]
     },
     {
       "id": "minecraft:music_disc_chirp",
-      "name": "\u00c2\u00a7bMusic Disc",
+      "name": "&bMusic Disc",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABI0lEQVR4XmMYBaMhMOJDgJHYEFBUVPxPjNr79+8zkhKqTAMdBSzoDsDlUzk5OWLdijWkcIXM4AkBmM8J+VRQUBAcEu/fvwfTMD4RwQMOGfSQGPAQYMTlc3SfwXy89+BRsGebGP6hePqgvS0KHz2kYJKPHj0CM2EhMfhyAS6X2x88DPUExM0r1FTA/Gu37kFCBCoPCwn0NALjo6eVwRcCuFwO81kT1KcRt+6ghAhMHlfawZVLBk8uYGVlBTtSUlISq2Nx+QxXmkE35Pnz52Ch379/D65cAK+5gD4Bl1SioqJYQwBXyODyKbr469evwULANIZSWw6eXIDkMqLqfQYcAOZTdGl0n8PkBz4XMBAJYGmEkHJcPsWlb8BDgGEUjIbAiA8BAKtebCEVEkONAAAAAElFTkSuQmCC",
-      "lore": ["\u00c2\u00a77C418 - Chirp"]
+      "lore": ["&7C418 - Chirp"]
     },
     {
       "id": "minecraft:music_disc_far",
-      "name": "\u00c2\u00a7bMusic Disc",
+      "name": "&bMusic Disc",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABHUlEQVR4XmMYBaMhMOJDgJHYEFBUVPxPjNr79+8zkhKqTAMdBSzoDsDlUzk5OWLdijWkcIXM4AkBmM8J+VRQUBAcEu/fvwfTMD4RwQMOGfSQGPAQYMTlc3SfwXxcuvcg2LM+DH1gegtDEZjudrZHCQT0kIJJPnr0CMyEhcTgywW4XI7uczWtGZCQuAYNib2oIYGeRmB89LQy+EIAl8thcbwF6lOfa9jTAK60gyuXDJ5cwMrKCnakpKQkVsfi8hmuNINuyPPnz8FCv3//Hly5AF5zAX0CLqlERUWxhgCukMHlU3Tx169fg4WAaQylthw8uQDJZUTV+7hSNcyn6PLoPofJD3wuYCASwNIIIeW4fIpL34CHAMMoGA2BER8CAPl8bDFrpb39AAAAAElFTkSuQmCC",
-      "lore": ["\u00c2\u00a77C418 - Far"]
+      "lore": ["&7C418 - Far"]
     },
     {
       "id": "minecraft:music_disc_mall",
-      "name": "\u00c2\u00a7bMusic Disc",
+      "name": "&bMusic Disc",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABIklEQVR4XmMYBaMhMOJDgJHYEFBUVPxPjNr79+8zkhKqTAMdBSzoDsDlUzk5OWLdijWkcIXM4AkBmM8J+VRQUBAcEu/fvwfTMD4RwQMOGfSQGPgQwOVzdJ/BfOyhsgarZ5efdkYRRw8ppJBFCYnBlwvQXQ7zVqTpXjBzfQ9E5L6aFpiheOsamI4sgcjDQgI9jcD46ME3+EIAl8thPoP5lIHhGopnYPK40g6uXDLgIcAIywWsrKxgR0pKSmJ1LC6f4Uoz6IY8f/4cLPT7928wDSsPBj4EYC4F+gScP0VFRbGGAK6QweVTdPHXr1+DhYBpDKW2HDy5AMllRNX7DDgAzKfo0ug+h8kPnjTAQADA0gghdbh8ikvfgIcAwygYDYERHwIAkWVoG131lz4AAAAASUVORK5CYII=",
-      "lore": ["\u00c2\u00a77C418 - Mall"]
+      "lore": ["&7C418 - Mall"]
     },
     {
       "id": "minecraft:music_disc_mellohi",
-      "name": "\u00c2\u00a7bMusic Disc",
+      "name": "&bMusic Disc",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABKklEQVR4XmMYBaMhMOJDgJHYEFBUVPxPjNr79+8zkhKqTAMdBSzoDsDlUzk5OWLdijWkcIXM4AkBmM8J+VRQUBAcEu/fvwfTMD4RwQMOGfSQGPAQYMTlc3SfwXxceHAv2LM+fyB+3gJNRf32ziiBgB5SMMlHjx6BmbCQGHy5AJfL9+6F+BzmYy0tLbBPuhiugWmYvLOzM9Y0AgtB9LQy+EIAPXXD+DCfFTJAQuLaNYjPYSECk8eVdnDlksGTC1hZWcGOlJSUxOpYXD7DlWbQDXn+/DlY6Pfv34MrF8BrLqBPwCWVqKgo1hDAFTK4fIou/vr1a1juQKktB08uAKZ2mMuIqvdxpWqYT9HlkcxHkRr4XMBAJIClEULKcfkUl74BDwGGUTAaAiM+BACrA2rQzODEtwAAAABJRU5ErkJggg==",
-      "lore": ["\u00c2\u00a77C418 - Mellohi"]
+      "lore": ["&7C418 - Mellohi"]
     },
     {
       "id": "minecraft:music_disc_otherside",
-      "name": "\u00c2\u00a7bMusic Disc",
+      "name": "&bMusic Disc",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABSElEQVR4nO2UMUrFQBCGZ9EUKQ0IQZImgq3XsLHzCiKewMbaQ3gEOxU7sfQWhgdJES2iVgEDxj8+JqsThqR5b/MgX/EvO+zsfASyhhwzC8wCmyMQRVGDZZA8z0ff2TL68NoEtEFJkiCHSdMU2UcT6xWdCfDgoUFBECCJyrJE2j3DdQmLtSJN0+wYY96xdSOApcNog7WLP04fkJa312sk0cHdLdLC/dzHSJHpCWiNu1dPSKLHmyMkzt2/IHHueB9JdH65hyR6PlnQX+R90xdgZCPzeRYiiQ6T//XFxRfS9jGyfzICWZZt4Vf87gQ8z0MSxXGM7KNdzHXea2Agkqiua+TyC+A92HYqgMU+RL7v/4qE4fITSzQxCQ+SFEWBJKqqqpvZ0m2cCzAsItHEJDxIIgczvaJzAQ1NTKIN0hh92LnAqpgFZgHnAj9FNvgiv1YcHAAAAABJRU5ErkJggg==",
-      "lore": ["\u00c2\u00a77Lena Raine - Otherside"]
+      "lore": ["&7Lena Raine - Otherside"]
     },
     {
       "id": "minecraft:music_disc_pigstep",
-      "name": "\u00c2\u00a7bMusic Disc",
+      "name": "&bMusic Disc",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABVElEQVR4XmMYBaMhMOJDgJHYEAhTVPxPjNpV9+8zkhKqTAMdBRiuxeVTIRYWsFs5eXiwuvn7ly9g8Xd//mCVxxUygycEYD4n5FMhAQGITz98ANMwPszb76DiMD56yKCHxMCHAC6fo/tMUPor2FNp0zSwxvGsrBtg8btXf6OEDCxEcIXEgIcAC8w7sNSNHscw+fKNumDmm67tYDpjNsTtM1L/gflJwbxguvoqP5h+h5ZG3sEMQksjgycEYA7EcDnUxbA4hvl0TZkNWMufvUfA9Ly1ItC450ZJI+i5ggENDJ5c8OPbN7DblKWkGLABXPkdV5pBN+Pus2dgIQ4uLjANKw8GT0koz84Oru30oSUdug9whQwun6KLX4SmpYc/f6LUP4MnF8Bd9uEDUfU+Aw5wES2fw5Sh+xwmPvjaA7h8BksjDAQALp/i0jbgIcAwCkZDYMSHAACiMH2Tue7+xAAAAABJRU5ErkJggg==",
-      "lore": ["\u00c2\u00a77Lena Raine - Pigstep"]
+      "lore": ["&7Lena Raine - Pigstep"]
     },
     {
       "id": "minecraft:music_disc_relic",
-      "name": "\u00c2\u00a7bMusic Disc",
+      "name": "&bMusic Disc",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAABaElEQVRYhe2UMUsDQRBGX9RCTDghEtBIwEYCFkYQo50WETtbsbW1ELTxJ9goWIidrdjaCRZaCJojYLQQsRGCUQgIHolYKGcRN3KbG1wLuQPvdTvMzO737c5CRMR/J2aaODeccU3yju4qxj0BOn6T/Bd06QFJ6WhmwLSnb73kTHgcUMp/UjpoxQF4cBqedQu53oV2JwJ3ICYp15VVs2MAJFe2fBs9b68C4NpnnnrllOKq8gh8OxG4A21TIJ2870v57s4NANPHiwCcFvYBSE5uAlCwpzz1Uj9F+ByQTq7uWCkdWb4E4Pq8OfazF2sApLW3IylXBO5AawrmJ7IA3D85von6VJjesWKo3wLg0L4FQjQFrV9pPJ1yAZZmcgD0xDsBSCSaz6RYrhk1zOdSANTr7wC8Nj4A2DspA1Cq1kL2E+oB5YTO+kIeAKu32xN3Xt48642Dou9GunJF+ByQkJzRkZRKBO5ARETEJ7vDc2l7IfyhAAAAAElFTkSuQmCC",
-      "lore": ["\u00c2\u00a77Aaron Cherof - Relic"]
+      "lore": ["&7Aaron Cherof - Relic"]
     },
     {
       "id": "minecraft:music_disc_stal",
-      "name": "\u00c2\u00a7bMusic Disc",
+      "name": "&bMusic Disc",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFklEQVR4XmMYBaMhMOJDgJHYEFBUVPxPjNr79+8zkhKqTAMdBSzoDsDlUzk5OWLdijWkcIXM4AkBmM8J+VRQUBAcEu/fvwfTMD4RwQMOGfSQGPAQYMTlc3SfwXx88OBBrJ61t7dHEUcPKZjko0ePwExYSAy+XIDL5eg+V1NTA/vk1q1bYBomDwsJ9DQC46MH3+ALAVwuh/kM5lOYz2E+gsnjSju4csngyQWsrKxgR0pKSmJ1LC6f4Uoz6IY8f/4cLPT79+/BlQvgNRfQJ+CSSlRUFGsI4AoZXD5FF3/9+jVYCJjGUGrLwZMLkFxGVL2PK1XDfIouj+5zmPzA5wIGIgEsjRBSjsunuPQNeAgwjILREBjxIQAAkK5pl2uWtp4AAAAASUVORK5CYII=",
-      "lore": ["\u00c2\u00a77C418 - Stal"]
+      "lore": ["&7C418 - Stal"]
     },
     {
       "id": "minecraft:music_disc_strad",
-      "name": "\u00c2\u00a7bMusic Disc",
+      "name": "&bMusic Disc",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFklEQVR4XmMYBaMhMOJDgJHYEFBUVPxPjNr79+8zkhKqTAMdBSzoDsDlUzk5OWLdijWkcIXM4AkBmM8J+VRQUBAcEu/fvwfTMD4RwQMOGfSQGPAQYMTlc3SfwXy8d+9erJ51dnZGEUcPKZjko0ePwExYSAy+XIDL5eg+19LSAvvk2rVrYBomDwsJ9DQC46MH3+ALAVwuh/kM5lOYz2E+gsnjSju4csngyQWsrKxgR0pKSmJ1LC6f4Uoz6IY8f/4cLPT79+/BlQvgNRfQJ+CSSlRUFGsI4AoZXD5FF3/9+jVYCJjGUGrLwZMLkFxGVL2PK1XDfIouj+5zmPzA5wIGIgEsjRBSjsunuPQNeAgwjILREBjxIQAAJE5piwF1nNIAAAAASUVORK5CYII=",
-      "lore": ["\u00c2\u00a77C418 - Strad"]
+      "lore": ["&7C418 - Strad"]
     },
     {
       "id": "minecraft:music_disc_wait",
-      "name": "\u00c2\u00a7bMusic Disc",
+      "name": "&bMusic Disc",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABLUlEQVR4XmMYBaMhMOJDgJHYEFBUVPxPjNr79+8zkhKqTAMdBSzoDsDlUzk5OWLdijWkcIXM4AkBmM8J+VRQUBAcEu/fvwfTMD4RwQMOGfSQGPgQwOVzdJ/BfCxkUwn2rL60GJh+/PQVmL67uQwlENBDCilkUUJi8OUCdJfDvOWQsQDMPHHmEpjeOzkbTGuE1IJpmPyBGQlY0wgsBNHTyoCHACOhNIDucmXfLrAnZHGkAVxpB+bzR48egZmw3DB4QoCVlRXsMklJSQZsAJfPcKUZdDOeP38OFvr9+/cgCwGYS4E+AedPUVFRrCGAK2Rw+RRd/PXr12AhYJpCqS0HTzmA5DKi6n0GHADmU3RpdJ/D5Ac+FzAQCWBphJByXD7FpW/AQ4BhFIyGwIgPAQAkPnAw95fc8wAAAABJRU5ErkJggg==",
-      "lore": ["\u00c2\u00a77C418 - Wait"]
+      "lore": ["&7C418 - Wait"]
     },
     {
       "id": "minecraft:music_disc_ward",
-      "name": "\u00c2\u00a7bMusic Disc",
+      "name": "&bMusic Disc",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABGElEQVR4XmMYBaMhMOJDgJHYEFBUVPxPjNr79+8zkhKqTAMdBSzoDsDlUzk5OWLdijWkcIXM4AkBmM8J+VRQUBAcEu/fvwfTMD4RwQMOGfSQGPAQYMTlc3SfwXx8UFscq2ftr75EEUcPKZjko0ePwExYSAy+XIDL5eg+V9tzAeyTtHm3UHy+udoeaxqBhSB68A2+EEBP3TA+LI59Ww9CPBHFgNXnuNIOrlwyeHIBKysr2JGSkpJYHYvLZ7jSDLohz58/Bwv9/v17cOUCeM0F9Am4pBIVFcUaArhCBpdP0cVfv34NFgKmKZTacvDkAiSXEVXv40rVMJ+iy6P7HCY/8LmAgUgASyOElOPy6aAtBxhGwWgIjPgQAAAAn2Zg4agE/AAAAABJRU5ErkJggg==",
-      "lore": ["\u00c2\u00a77C418 - Ward"]
+      "lore": ["&7C418 - Ward"]
     },
     {
       "id": "minecraft:mutton",
@@ -3734,12 +3832,7 @@
     {
       "id": "minecraft:netherite_axe",
       "name": "Netherite Axe",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t0.8 Attack Speed",
-        "\u00c2\u00a72\t10 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t0.8 Attack Speed", "&2\t10 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABKUlEQVR4XmMY8YCRWiHgqWn/H9ms7dcPEmU200BHAQulDoD53DrQFd0ocIgQComhGwLoPj91cCdaCBDntwEPAZJzAcznarYGYB/fv3oOazLik5IHizPfuwqmF549j9WuoZcGbj2/DPaRGoMBXp9/evYQLH/17kO8GW3opQGYd5QFhFBKPktXL7AUzOeP37wC82VFxCAhcRWSFu5+eIeSFoZuOQDziZ6iEjgkYKkdFufa2toMxIChmwZgPndRVgB7dOOZC2AaFjLoaQQ97mGhM/RCAOZzQyF+sCeOQPM5Lh8SSgdDJwRgPheRg8T5w4uocc5AJhj8IQDzOY+4BNiPL2/cQEntDBSCwRsCtIpz9AAbfCFAqIRjoDIYfCFAbBlOrYAY8BBgGPEAAKJgaEEFznGBAAAAAElFTkSuQmCC"
     },
     {
@@ -3765,12 +3858,7 @@
     {
       "id": "minecraft:netherite_hoe",
       "name": "Netherite Hoe",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t4 Attack Speed",
-        "\u00c2\u00a72\t1 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t4 Attack Speed", "&2\t1 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABCElEQVR4XmMY8YCR3BDw1LT9j03v9uuHSTKTaaCjgIVUB8B8bh3ojksrOGSIDYkBDwGy04C0iChKGggJigKHiKiIKJheu3YxmP776zeYNhTiB9MLz55HsXPohgB6AoCFiKMjJG0ICwqDlTDfuwymV16A0E/fvB5cIcBCrWwI89mlM8fAaUPPxAps9Kfvv/FaMXzSgJ6iEtjnsNS+5+ETFJ+jxz1McuiHAMznLsoKeFM7roQwdEMAV5zjiuvhEwKUxjl6SAydNADzuYgcJLXfvIq9bCe1ZB38IQDzOY+4BNhzD+/cBtOkpvahlwtoFeeDPxdQO58TyhWDLxegt3apldoHbS5gGPEAAMWhYqMWn5ZCAAAAAElFTkSuQmCC"
     },
     {
@@ -3786,12 +3874,7 @@
     {
       "id": "minecraft:netherite_pickaxe",
       "name": "Netherite Pickaxe",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1.2 Attack Speed",
-        "\u00c2\u00a72\t6 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1.2 Attack Speed", "&2\t6 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABNUlEQVR4XmMYBSM+BBhJDQFPTfv/xOjZfv0gUWYzDXQUEB0CMJ9bB7pidfPrN6/B4m/fv4XQVx6jqHv6A8K/dP8eip0DHgIsxEYBUpyC08Ct55exatXW1gaLC+vIg2mx98/A9K0zH7CqHzohAHM+odTN/ewpOIQUYBqk5KGsC4MzBEguB3ClGT1FJbDPDYX4wUqO3H0IpmFpgg8aEsd3bwOL3/3wDmz30EsD6CEA87mLMiTWN565gOJDhqtXwSHjo200ONMA0eUALp/D4hzD52gaREVEh0kIEIxzBtLA0MkFMJ/ziEuAvUgozokNh8HfHoD5XEQOks8fXkTL50R6VVlACFwewEpAmLbBGwLocf7yxg3UEo6BOmDwhQC18zmhcBp8IQBLrTCXo6daBiqDAQ8BhhEPAP7Qa9ospxJJAAAAAElFTkSuQmCC"
     },
     {
@@ -3802,23 +3885,13 @@
     {
       "id": "minecraft:netherite_shovel",
       "name": "Netherite Shovel",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1 Attack Speed",
-        "\u00c2\u00a72\t6.5 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t6.5 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABA0lEQVR4XmMYBSM+BBhpFQKemvb/sZm9/fpBFDuZBjoKWKjtAJjPrQNdsRp96/llcMjc/fAOHBLDJwTQfX7j9g2UEBAWFMYaIkM/BGA+V7M1APsQ5vNPzx6C+XxS8niT2YCHANXKAT1FJXDqVpCSRvE5LO63rFoMFoelfliwDP00APO5i7IC2FMbz1wA0z7aRmAal88HTQiQnQZw+RwWx8oCQiglHq6sMPRyAcznhkL8YE8dufsQa+pmIBIMnRCA+ZxHXALst5c3blDk86GTC2jl88EbAjAfw1woIgcp4R5evECVOEfPHIO3LkAv29FrMQYqgcFbDsDKcphHh20IMIx4AACA3VtSjapZpQAAAABJRU5ErkJggg=="
     },
     {
       "id": "minecraft:netherite_sword",
       "name": "Netherite Sword",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1.6 Attack Speed",
-        "\u00c2\u00a72\t8 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1.6 Attack Speed", "&2\t8 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABeElEQVR4XmNkoBPw1LT/j80qJoYBBjQPAZjPrQNdUbw6f1ofmD/gIcBCqxhA9/nrN6/BVomKiKJYOfzSALrPz5w8Cfaxibk5mIbF/d0P78Dpb/iEAMznarYGYJ8+vHsPTMsrK4HpLasWg2mYz2EJYeiHAMznwjqyYE99efcRTPMI8YPp47u3YfX54A0B9DJ7+/WDWEtLmDp2KT5InD+5BaZlRcTA9NWrV/H6fNCEAM6SEBanngyQWgwWEtTy+eDPBej5+tbhC2BHswr9A9OP37wiK84Z0MDQqQ1hJdyhgzuo4vPBnwZgLsRV0l0+e5SofM5AAAzeukBPUQncijWElulH7j4E+0VbWxslF3x6+ZqikBh8uQDmcxdlBbDPNp65gOrDq1dR2vd84pA2njIDA1gcvb4f/GkAvfb7yP8b7OiXN24QFbfKAkIoITLkQgBeG7749wLs4083SEvVpPoYPU0MfDkgxiECjkNejn8ojqPUZwxEggEPAQAVyp305HusJgAAAABJRU5ErkJggg=="
     },
     {
@@ -4794,12 +4867,7 @@
     {
       "id": "minecraft:stone_axe",
       "name": "Stone Axe",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t0.8 Attack Speed",
-        "\u00c2\u00a72\t9 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t0.8 Attack Speed", "&2\t9 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFUlEQVR4XmMY8YCRWiHg4eHxH9msHTt2EGU200BHAQulDoD5PCAgAN0ocIgQComhGwLoPn/27Bk4BDg5OUkK1AEPAZJzAS6fo3v71PbpYCF5CUiIzNz8CKtdQy8NXLhwAewzWKqHxfn379/B4m/fvgXTZp6ZYHrVgl68aWLopQGYdyQkJFBKPgPZvyg+h4WEsLAwWHzWrFlg+sWLFyhpYeiWAzCfeJiKgkMCltphcR6WUExUeTB00wDM5/aGQmCfLtzxBEzfePQVHMfoaQQ97mHBMwRLQrQ4P3jxLYrPGUgEQycEPKjs86GTBgildgYKweBNA7SKc/QAG3whQOs4H/whoCHHjVLPw8p2BhqBAU8DDCMeAACT3WoqZuBOjQAAAABJRU5ErkJggg=="
     },
     {
@@ -4810,45 +4878,25 @@
     {
       "id": "minecraft:stone_hoe",
       "name": "Stone Hoe",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t2 Attack Speed",
-        "\u00c2\u00a72\t1 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t2 Attack Speed", "&2\t1 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA8klEQVR4XmMY8YCR3BDw8PD4j03vjh07SDKTaaCjgIVUB8B8HhAQANb6/v17dCPAIUNsSAx4CJCdBiQkJFDSQFpaGjgkODk5wfTBgwchIfP2LJiWl4CIz9z8CMXOoRsC6BEPCxFYSMDkOV+sBDMnbvoIpl+8eDG4QoCFWtkQ5rNT26eD04Z9UBHY6O8S4VArZmG1avikAQ9TUbDPYal94+lfKD5Gj3uY5NAPAZjP7Q2F8KZ2XGlt6IYArjjHFdfDJwQojXP0kBg6aYBacT70QoDacT50QoBWcT74Q4DWcT74QwC9tUtq2U5qC2vAS0KGEQ8A+9djwLdVyZYAAAAASUVORK5CYII="
     },
     {
       "id": "minecraft:stone_pickaxe",
       "name": "Stone Pickaxe",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1.2 Attack Speed",
-        "\u00c2\u00a72\t3 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1.2 Attack Speed", "&2\t3 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFUlEQVR4XmMYBSM+BBhJDQEPD4//xOjZsWMHUWYzDXQUsBDrAJjPAwICwFrev38Ppr9//45iBCcnJ4wPCam3Z8F8eQmI+MzNj1BCZsBDgOw0cOHCBayBl5aWhhoiL1aC+Qt3PAHTNx59HeIhQCjNeJiKguPePqgIJY3MmjULzH/x4sUwDQGYz2Gp/eDFt2AfhyUUg2lY7pg4cSJKSAydcgBX3MPj3FAIa2oHxj04TaDnDph5QzcE0OMcVz4nlGuGXggQinNcPkaqI1CUDKHaEFrCwfI5qXEuKCiINXAGf21Ibpyje1dCQgJcHgydugBX2Y5enzNQCAZfGqBWnBMbMIMvBDTkuFHa/dSOc/SQGfAQYBjxAABcXm6841tI7wAAAABJRU5ErkJggg=="
     },
     {
       "id": "minecraft:stone_shovel",
       "name": "Stone Shovel",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1 Attack Speed",
-        "\u00c2\u00a72\t3.5 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t3.5 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA9UlEQVR4XmMYBSM+BBhpFQIeHh7/kc2+cOECmPvixQsUO5kGOgqoHgIwnwcEBKD47dmzZ2D+rFmzUEJiwEOAhVpRgO7z9+/fg43+/v07mJaSksJq1dAPAUI+5+TkxBvIwycXeJiKgvO9mWcm2McwnwsKCoL5DQ0NKKkfFixDPwRgPrc3FAJ7auGOJ2C6oKoXr8+Hfgjg8vmNR1/BpauEhAQ4TaCX/ehZYuilAZjP5SUg+fvgxbdgT8F8zkAiGDohQCjOGcgEgz8EqB3ngz8XwHwMcyl6CUduaseVRAZve4DWPh/8dYGGHDdKu57acT9oQoBhxAMAww9j+xsh5tsAAAAASUVORK5CYII="
     },
     {
       "id": "minecraft:stone_sword",
       "name": "Stone Sword",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1.6 Attack Speed",
-        "\u00c2\u00a72\t5 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1.6 Attack Speed", "&2\t5 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABTElEQVR4XmNkoBPw8PD4j80qJoYBBjQPAZjPvd2dwV6VU1AC0wVFJWB6wEOAhVYxgMvnjx7cQ7Fy+KUBQj7vmzQNHAL3798Hp7/hEwKk+hyWEIZ+CJDr80ETAhjlAHqZvWPHDqylJUydvp4eSgkHy+foqR1XeTN4S0JBQUGwo2E+hYUEus+tLM3B6o4dPwmmV61ejZLPCZW0gzcXoPsU5rOw0FCwp2QkRcH0k+evyfL54M0FuOIM5vNHjx+jKCE1ztHNH/wlISwtwHLF+/fvwZ64efMmSakdV8gO4lxgKgpuxcpLcIIdv+sKM5hWV1dH8QylITH4SkIPqM/tDYXAPl244wkkrh99hdUJKO17pBABi8NaOgxEgoEPAfTaT571GorPbyB8jivV/2egAAyeNADL57tOMKPHOV7/kRrn6IYNfAjA8jHDAIEBDwEAvZiPaL8QAk0AAAAASUVORK5CYII="
     },
     {
@@ -5025,12 +5073,7 @@
       "id": "minecraft:trident",
       "name": "Trident",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABGElEQVR4XmMY8YCRWiEwZcqU/yCzMjIywEaysLAQZTbTQEcBC6UOQPf5zZs3UYy8evUqOGTU1dWxhszQDQFcPtfW1gbHPbrPZ8yYgTWwh34agMU5IZ/n5ORgzRVDNwSuXbsGjtOZJ3eDaVxxDvM5rtwwdEPg8OenYJ9r2dmC6YiOKjCdbu4KpnH5PC8vDyU3DP1c8OLuHbCPhKQl8aYJmM+nTZuGkhsGPARIrg3F3CzAZbumkQHYx9fPXUCJ0xAVI6wlHrrPYYqGTgjoxvqDfQ6La5jPX+06QVGbYvCHAMznsPy+f/UacPRR6vPBnwZo7fPBGwL08vngCwF6+3zwhACtSjgGIsHAtwdevnwJdiuMplYJN2RCAADevYYOT9nwLQAAAABJRU5ErkJggg==",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1.1 Attack Speed",
-        "\u00c2\u00a72\t9 Attack Damage"
-      ]
+      "lore": ["", "&7When in main hand:", "&2\t1.1 Attack Speed", "&2\t9 Attack Damage"]
     },
     {
       "id": "minecraft:tropical_fish",
@@ -5210,56 +5253,31 @@
     {
       "id": "minecraft:wooden_axe",
       "name": "Wooden Axe",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t0.8 Attack Speed",
-        "\u00c2\u00a72\t7 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t0.8 Attack Speed", "&2\t7 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFUlEQVR4XmMY8YCRWiFgpinwH9msU9c/EGU200BHAQulDoD53M9aDN0ocIgQComhGwLoPn/25ic4BLjYSfPTgIcAybkAl8/RE8C9p9/AQvISnGB65uZHWO0aemng1ftfKJ6Fxfm3n//A4u8+QeSVpLnA/H3n3uDNaEMvDcC8oyDBhVLyachyg6VgPoeFhBAfG1h824nXYPrBi28oaWHolgMwn3iYioJDApbaYXHuZCTCQAwYuiEA87m9oRDYowt3PAHTNx59Bcfxj1//UdIIetzDQmfo5QL0OD948S2KzxlIBEMnBKjt86GTBgildgYKweBNA7SKc/QAG3whQOs4H/whoCHHjVKGw8p2BhqBAU8DDCMeAACEqGpusb6LNQAAAABJRU5ErkJggg=="
     },
     {
       "id": "minecraft:wooden_hoe",
       "name": "Wooden Hoe",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1 Attack Speed",
-        "\u00c2\u00a72\t1 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t1 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA70lEQVR4XmMY8YCR3BAw0xT4j03vqesfSDKTaaCjgIVUB8B8HmgrBtb69uNvdCPAIUNsSAx4CJCdBhQkuFDSgJeFKDgkuNghfjp06T2YL8TDCqblJTjB9MzNj1DsHLohgB7xsBCBhQRMXlaMHeLzTU/A9IMX3wZXCLBQKxvCfHbv6Tdw2tBR4gEb/fjVT7xWDJ804GEqCvY5LLXvPP0GxefocQ+THPohAPO5vaEg3tSOKyEM3RDAFee44nr4hAClcY4eEkMnDVArzodeCFA7zodOCNAqzgd/CNA6zgd/CKC3dkkt20ltYQ14Scgw4gEArX5gRHR5hkQAAAAASUVORK5CYII="
     },
     {
       "id": "minecraft:wooden_pickaxe",
       "name": "Wooden Pickaxe",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1.2 Attack Speed",
-        "\u00c2\u00a72\t2 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1.2 Attack Speed", "&2\t2 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABK0lEQVR4XmMYBSM+BBhJDQEzTYH/xOg5df0DUWYzDXQUsBDrAJjPA2zEwFreffoNpr/++ItiBDcHM4wPDikhHlYwX1GKE0xP3/gIJWQGPATITgOv3v/CGnie5iIo4rJiHGD+op1PwfSNR18HVwgQnQZg3iKUuu8/+w6Oex0lHrCWx69+gOkfv7BnnqGXBhhwAA9TUbAXYal9//m3YJWOhsJgGpY71hx8CeY/ePENnBaGTjlAyOd2BoJgJeipHRj34JBBzx0w84ZuCKDHOa58zkAADL0QgPkcV5zj8jBSHYGiZOiEAKVxLsTHijVwBn9JSG6co3tXQYILXB7ASsBBUw4wEirh0Mt29PqcgUIw+NIAteKc2IAZfCGgIceN0nShdpyjh8yAhwDDiAcApmRtXKdbyC4AAAAASUVORK5CYII="
     },
     {
       "id": "minecraft:wooden_shovel",
       "name": "Wooden Shovel",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1 Attack Speed",
-        "\u00c2\u00a72\t2.5 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t2.5 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA8klEQVR4XmMYBSM+BBhpFQJmmgL/kc1+9f4XmPvgxTcUO5kGOgqoHgIwn/tZi6H47dmbn2D+thOvUUJiwEOAhVpRgO7zD59/g43+9vMfmJYSYcdq1dAPAUI+52LH78fhkws8TEXB+V5Jmgsc1zCfC/CygvlztjwZpuUAzOf2hkJgHy7cAfFpjJs0Xp/DssTQTQO4fH7j0Vdw6aogwQVOE+hlP3phMPRCAOZzeQlOsGcOXnwLpmE+J7VkHTohQCjOya1TBn8IUDvOB38ugPkY5lL0Eo7c1I4rjQze9gCtfT746wINOW6Udj21437QhADDiAcA3WBimBKeZYIAAAAASUVORK5CYII="
     },
     {
       "id": "minecraft:wooden_sword",
       "name": "Wooden Sword",
-      "lore": [
-        "",
-        "\u00c2\u00a77When in main hand:",
-        "\u00c2\u00a72\t1.6 Attack Speed",
-        "\u00c2\u00a72\t4 Attack Damage"
-      ],
+      "lore": ["", "&7When in main hand:", "&2\t1.6 Attack Speed", "&2\t4 Attack Damage"],
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABQklEQVR4XmNkoBMw0xT4j80qJoYBBjQPAZjP7fQEwV4V4GUF03O2PAHTAx4CLLSKAVw+//D5N4qVwy8NEPL5moMvwSHw4MU3cPobPiFAqs9hCWHohwC5Ph80IYBRDqCX2aeuf8BaWsLUKUlyopRwsHyOntpxlTeDtyQU4IEEDsynsJBA97mOEi/Yc1fufQbTJ659RMnnhErawZsL0H0K85mFFj/YUzKiHGD6yesfZPl88OYCXHEG8/k7tNqM1DhHN3/wl4SwtADLFR++/AF74tX7XySldlwhO3hDwMNUFNyKlZeAlHQ7T78Be0JMkA3FM5SGxOArCWE+tzcUAvt04Y4n6HGN0r5HChGwOKylw0AkGPgQQK/9YHEO8/mNR19RakMsPvzPQAEY+FyAns9vPf5Glfw9dNIALB/DaAY6gwFPAwBUVJFaZfj16QAAAABJRU5ErkJggg=="
     },
     {

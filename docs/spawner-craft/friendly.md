@@ -5,6 +5,14 @@ description: This mod adds new recipes that make all of the spawn eggs craftable
 
 # Friendly Recipes
 
+## Happy Ghast Spawn Egg
+
+<ShapedRecipe
+a1="" b1="dried_ghast" c1=""
+a2="ghast_tear" b2="egg" c2="ghast_tear"
+a3="" b3="gold_ingot" c3=""
+output="happy_ghast_spawn_egg"/>
+
 ## Armadillo Spawn Egg
 
 <ShapedRecipe
