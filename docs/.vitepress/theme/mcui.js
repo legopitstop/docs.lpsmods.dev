@@ -40,7 +40,7 @@ export function renderFormatting(e) {
         .toString()
         .replace("\n", "")
         .replace("\t", "&nbsp;")
-        .split("§")
+        .split(/[&§]/)
         .map((e, t) => {
           if (0 === t) return e;
           const r = e.charAt(0),
