@@ -1,0 +1,13 @@
+[
+   { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Items",
+    "collapsed": true,
+    "items": [{ "text": "Can Opener", "link": "/Can_Opener.md" }]
+  },
+  {
+    "text": "Blocks",
+    "collapsed": true,
+    "items": [{ "text": "Can", "link": "/Can.md" }]
+  }
+]

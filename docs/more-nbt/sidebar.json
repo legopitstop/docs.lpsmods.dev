@@ -1,0 +1,63 @@
+[
+   { "text": "Getting Started", "link": "/getting-started" },
+  { "text": "Config", "link": "/config" },
+  {
+    "text": "Block",
+    "collapsed": false,
+    "items": [{ "text": "Tags", "link": "/block/tags" }]
+  },
+  {
+    "text": "Entity",
+    "collapsed": false,
+    "items": [{ "text": "Tags", "link": "/entity/tags" }]
+  },
+  {
+    "text": "Item",
+    "collapsed": true,
+    "items": [
+      { "text": "Animation", "link": "/item/animation" },
+      { "text": "BlockTag", "link": "/item/block-tag" },
+      { "text": "CustomBlock", "link": "/item/custom-block" },
+      { "text": "DamageTool", "link": "/item/damage-tool" },
+      { "text": "DebugLog", "link": "/item/debugLog" },
+      { "text": "Durability", "link": "/item/durability" },
+      { "text": "Food", "link": "/item/food" },
+      { "text": "Inventory", "link": "/item/Inventory" },
+      { "text": "MoreNBT", "link": "/item/moreNbt" },
+      { "text": "New UI", "link": "/item/new-ui" },
+      { "text": "Shooter", "link": "/item/shooter" },
+      { "text": "Simple", "link": "/item/simple" },
+      { "text": "Throwable", "link": "/item/throwable" },
+      {
+        "text": "Trigger Events",
+        "link": "/item/trigger-events"
+      },
+      {
+        "text": "Event Conditions",
+        "link": "/item/event-conditions"
+      },
+      { "text": "Events", "link": "/item/events" }
+    ]
+  },
+  {
+    "text": "Examples",
+    "collapsed": true,
+    "items": [
+      { "text": "Cave Light", "link": "/example-cave-light" },
+      {
+        "text": "Carrot Thrower",
+        "link": "/example-carrot-thrower"
+      },
+      { "text": "Foods", "link": "/example-foods" },
+      { "text": "New UI", "link": "/example-new-ui" },
+      {
+        "text": "Pocket Ender Chest",
+        "link": "/example-pocket-ender-chest"
+      },
+      {
+        "text": "Sea Treasure Loot",
+        "link": "/example-sea-treasure-loot"
+      }
+    ]
+  }
+]

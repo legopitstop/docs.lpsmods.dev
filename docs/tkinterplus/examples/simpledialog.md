@@ -4,4 +4,4 @@ title: SimpleDialog Example | TkinterPlus
 
 # SimpleDialog Example
 
-<<< @/public/examples/simpledialog.py
+<<< @/public/examples/tkinterplus/simpledialog.py

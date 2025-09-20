@@ -1,7 +1,6 @@
 ---
 title: Recipes | LPS Rcore API Documentation
 description: We are currently working on changing up the entire API system. Hopefully, it will be released soon! For now you can see the up-coming changes to the API.
-keywords: legopitstop,minecraft,mod,datapack,resroucepack,morenbt,nbt,data
 ---
 
 # Recipes
@@ -19,10 +18,10 @@ Recipes are stored in `rcore:register recipes`.
 
 ## Recipe Schema
 
-| Name   | Type                                  | Description                                                                              |
-| ------ | ------------------------------------- | ---------------------------------------------------------------------------------------- |
-| `id`   | String                                | ID of the recipe. should be unique between recipes                                       |
-| `tags` | Array[String]                         | List of table tags that this recipe should work for                                      |
+| Name   | Type                            | Description                                                                              |
+| ------ | ------------------------------- | ---------------------------------------------------------------------------------------- |
+| `id`   | String                          | ID of the recipe. should be unique between recipes                                       |
+| `tags` | Array[String]                   | List of table tags that this recipe should work for                                      |
 | `type` | [RecipeType](./recipe-types.md) | `shaped` All items need to be in these exact slots. `shapeless` - Any item in this table |
 
 ## Minecraft Recipes

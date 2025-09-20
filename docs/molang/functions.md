@@ -1,7 +1,6 @@
 ---
 title: Functions | molang Documentation
 description: Molang to Python Translator & interpreter written in pure Python.
-keywords: legopitstop,language,minecraft,bedrock,molang
 ---
 
 # Functions

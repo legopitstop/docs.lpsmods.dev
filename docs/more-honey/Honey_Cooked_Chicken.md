@@ -23,20 +23,20 @@ output="morehoney:honey_cooked_chicken"/>
 
 Bedrock Edition:
 
-| Name                             | Namespaced ID                   | Translation Key                      |
-| -------------------------------- | ------------------------------- | ------------------------------------ |
+| Name                              | Namespaced ID                    | Translation Key                       |
+| --------------------------------- | -------------------------------- | ------------------------------------- |
 | Honey Cooked Chicken (#morehoney) | `morehoney:honey_cooked_chicken` | `item.morehoney:honey_cooked_chicken` |
 
 Data pack Edition:
 
-| Name                 | Namespaced ID                                                            | Translation Key                      |
-| -------------------- | ------------------------------------------------------------------------ | ------------------------------------ |
+| Name                 | Namespaced ID                                                             | Translation Key                       |
+| -------------------- | ------------------------------------------------------------------------- | ------------------------------------- |
 | Honey Cooked Chicken | Internal:<br>`morehoney:honey_cooked_chicken`<br>In-game:<br>`minecraft:` | `item.morehoney.honey_cooked_chicken` |
 
 Forge-Fabric Edition:
 
-| Name                 | Namespaced ID                   | Translation Key                      |
-| -------------------- | ------------------------------- | ------------------------------------ |
+| Name                 | Namespaced ID                    | Translation Key                       |
+| -------------------- | -------------------------------- | ------------------------------------- |
 | Honey Cooked Chicken | `morehoney:honey_cooked_chicken` | `item.morehoney.honey_cooked_chicken` |
 
 ## History

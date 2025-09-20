@@ -1,26 +1,43 @@
 ---
 title: multicraft Documentation Documentation
-description: Interact with your Minecraft server from hosts that use Multicraft using Python
-keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
+description: Python module for interacting with Multicraft-hosted Minecraft servers.
+layout: home
+
+hero:
+  name: multicraft
+  text: Python module for interacting with Multicraft-hosted Minecraft servers.
+  tagline: Manage servers with ease
+  actions:
+    - theme: brand
+      text: Getting Started
+      link: ./getting-started
+    - theme: alt
+      text: Download
+      link: https://github.com/legopitstop/multicraft-py/releases
+    - theme: alt
+      text: PyPI
+      link: https://pypi.org/project/multicraft/
+    - theme: alt
+      text: Source Code
+      link: https://github.com/legopitstop/multicraft-py
+
+features:
+  - icon: ⚙️
+    title: Server Management
+    details: Start, stop, restart, and monitor server status programmatically.
+  - icon: 📋
+    title: Player & Command Handling
+    details: List players, send chat messages, and execute server commands.
+  - icon: 🧪
+    title: Database Access
+    details: Interact with MySQL databases associated with your servers.
+  - icon: 🔐
+    title: Secure API Access
+    details: Utilize API keys for authenticated interactions with the Multicraft panel.
+  - icon: 📦
+    title: Simple Installation
+    details: Install via pip with `pip install multicraft` for quick setup.
+  - icon: 🛠️
+    title: Open-Source
+    details: Fully open-source with accessible documentation and source code.
 ---
-
-# multicraft
-
-Interact with your Minecraft server from hosts that use [Multicraft](https://www.multicraft.org/) using Python
-
-## Links
-
-- :pie: [PyPI](https://pypi.org/project/multicraft)
-- :file_folder: [Download](https://github.com/legopitstop/multicraft-py/releases)
-- :gear: [Source Code](https://github.com/legopitstop/multicraft-py)
-- :book: [Multicraft API Reference](https://www.multicraft.org/site/docs/api)
-
-## Installation
-
-Install the module with pip:
-
-```bat
-pip3 install multicraft
-```
-
-Update existing installation: `pip3 install multicraft --upgrade`

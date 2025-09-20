@@ -1,0 +1,28 @@
+[
+  { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "API Reference",
+    "collapsed": true,
+    "items": [
+      { "text": "Globals", "link": "/globals" },
+      {
+        "text": "Classes",
+        "items": [
+          { "text": "Bedrock", "link": "/Bedrock" },
+          { "text": "Java", "link": "/Java" },
+          { "text": "Preview", "link": "/Preview" },
+          { "text": "Education", "link": "/Education" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "text": "Legacy (1.1.0)",
+    "base": "/mcpath/legacy",
+    "items": [
+      { "text": "globals", "link": "/globals" },
+      { "text": "MCPath", "link": "/MCPath" }
+    ]
+  }
+]

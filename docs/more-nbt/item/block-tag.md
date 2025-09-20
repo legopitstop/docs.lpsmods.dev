@@ -1,7 +1,6 @@
 ---
 title: BlockTag | More NBT Tags Documentation
 description: Add new NBT Tags to make customization easier!
-keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # BlockTag
@@ -16,7 +15,7 @@ BlockTag - The root tag.
  | ├ ignore_gamemode: (boolean) when true the loot will drop no matter what game mode the player is in. default: false.
  | ├ type: (enum) types: `loot` will use the table. `this` will drop the custom block.
  | └ table: (string) needed if type=loot. references a loot_table.
- └ on_destory: (obj) when the block has been broken. Event Trigger
+ └ on_destroy: (obj) when the block has been broken. Event Trigger
 ```
 
 ## Example
@@ -31,7 +30,7 @@ BlockTag - The root tag.
       type: "minecraft:loot",
       table: "<the loot-table to use>"
     },
-    on_destory: {}
+    on_destroy: {}
   }
 }
 ```

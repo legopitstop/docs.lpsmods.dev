@@ -1,0 +1,32 @@
+[
+  { "text": "Getting Started", "link": "/getting-started" },
+  { "text": "Known Hosts", "link": "/Known_Hosts" },
+  {
+    "text": "API Reference",
+    "collapsed": true,
+    "items": [
+      { "text": "Constants", "link": "/constants" },
+      { "text": "Functions", "link": "/functions" },
+      {
+        "text": "Classes",
+        "items": [
+          { "text": "MulticraftAPI", "link": "/MulticraftAPI" },
+          { "text": "Backup", "link": "/Backup" },
+          { "text": "ChatMessage", "link": "/ChatMessage" },
+          { "text": "Command", "link": "/Command" },
+          { "text": "Database", "link": "/DataBase" },
+          { "text": "Hosts", "link": "/hosts" },
+          { "text": "Player", "link": "/Player" },
+          { "text": "Schedule", "link": "/Schedule" },
+          {
+            "text": "ServerResources",
+            "link": "/ServerResources"
+          },
+          { "text": "ServerStatus", "link": "/ServerStatus" },
+          { "text": "Server", "link": "/Server" },
+          { "text": "User", "link": "/User" }
+        ]
+      }
+    ]
+  }
+]

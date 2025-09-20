@@ -9,7 +9,7 @@
       "sizes": "256x256"
     }
   ],
-	"start_url": "./index.html",
+  "start_url": "./index.html",
   "theme_color": "#ff8800",
   "background_color": "#1b1b1f",
   "display": "standalone"

@@ -1,7 +1,6 @@
 ---
 title: Syntax | Update Checker Documentation
 description: Check to see if you have the latest version of a pack installed.
-keywords: legopitstop,minecraft,website,updatechecker,updater,customizable,free,premium,json
 ---
 
 # Syntax
@@ -42,11 +41,11 @@ Additional Properties for premium users
 
 ### theme
 
-| Name        | Type                                | Description                                                                                                              |
-| ----------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Name        | Type                                | Description                                                                                                                    |
+| ----------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | `type`      | enum[url, preset, base64, animated] | The type to use. for type 'base64' you can use this [converter](https://emn178.github.io/online-tools/base64_encode_file.html) |
-| `animation` | [animation](#animation)             | Create an animated background.                                                                                           |
-| `value`     | string                              | The value to use.                                                                                                        |
+| `animation` | [animation](#animation)             | Create an animated background.                                                                                                 |
+| `value`     | string                              | The value to use.                                                                                                              |
 
 #### animation
 

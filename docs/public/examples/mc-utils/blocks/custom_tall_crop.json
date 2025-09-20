@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_tall_crop",
+      "states": {
+        "mcutils:growth": [0, 1, 2, 3, 4, 5, 6, 7],
+        "mcutils:half": ["bottom", "top"]
+      }
+    },
+    "components": {
+      "mcutils:crop": {
+        "growth_state": "mcutils:growth",
+        "max_stage": 7
+      },
+      "mcutils:fertilizable": {
+        "growth_state": "mcutils:growth",
+        "max_stage": 7
+      },
+      "mcutils:multiblock": {
+        "part_state": "mcutils:half",
+        "parts": ["bottom,0,0,0", "top,0,1,0"],
+        "sync_states": true
+      }
+    }
+  }
+}

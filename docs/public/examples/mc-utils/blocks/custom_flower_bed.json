@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_flower_bed",
+      "states": {
+        "mcutils:flowers": [1, 2, 3, 4]
+      }
+    },
+    "components": {
+      "mcutils:flower_bed": {
+        "flowers_state": "mcutils:flowers",
+        "max_flowers": 4
+      }
+    }
+  }
+}

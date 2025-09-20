@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_powder_snow",
+      "states": {
+        "mcutils:solid": [false, true]
+      }
+    },
+    "components": {
+      "minecraft:tick": {
+        "interval_range": [0, 0]
+      },
+      "mcutils:powder_snow": {
+        "fog_identifier": "wiki:fog_powder_snow",
+        "solid_state": "mcutils:solid"
+      }
+    }
+  }
+}

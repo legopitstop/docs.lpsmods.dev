@@ -23,20 +23,20 @@ output="morehoney:honey_lemon_tea"/>
 
 Bedrock Edition:
 
-| Name                        | Namespaced ID              | Translation Key                 |
-| --------------------------- | -------------------------- | ------------------------------- |
+| Name                         | Namespaced ID               | Translation Key                  |
+| ---------------------------- | --------------------------- | -------------------------------- |
 | Honey Lemon Tea (#morehoney) | `morehoney:honey_lemon_tea` | `item.morehoney:honey_lemon_tea` |
 
 Data pack Edition:
 
-| Name            | Namespaced ID                                                       | Translation Key                 |
-| --------------- | ------------------------------------------------------------------- | ------------------------------- |
+| Name            | Namespaced ID                                                        | Translation Key                  |
+| --------------- | -------------------------------------------------------------------- | -------------------------------- |
 | Honey Lemon Tea | Internal:<br>`morehoney:honey_lemon_tea`<br>In-game:<br>`minecraft:` | `item.morehoney.honey_lemon_tea` |
 
 Forge-Fabric Edition:
 
-| Name            | Namespaced ID              | Translation Key                 |
-| --------------- | -------------------------- | ------------------------------- |
+| Name            | Namespaced ID               | Translation Key                  |
+| --------------- | --------------------------- | -------------------------------- |
 | Honey Lemon Tea | `morehoney:honey_lemon_tea` | `item.morehoney.honey_lemon_tea` |
 
 ## History

@@ -1,0 +1,77 @@
+[
+  {
+    "text": "Guide",
+    "collapsed": true,
+    "items": [
+      { "text": "Getting Started", "link": "/guide/getting-started" },
+      { "text": "Custom Components", "link": "/guide/custom-components" }
+    ]
+  },
+  { "text": "Script API", "collapsed": true, "items": [{ "text": "UNDOCUMENTED" }] },
+  {
+    "text": "Block Components",
+    "collapsed": true,
+    "items": [
+      { "text": "Block Components List", "link": "/blockcomponents" },
+      { "text": "mcutils:bush", "link": "/blockcomponents/bush" },
+      { "text": "mcutils:button", "link": "/blockcomponents/button" },
+      { "text": "mcutils:cake", "link": "/blockcomponents/cake" },
+      { "text": "mcutils:candle", "link": "/blockcomponents/candle" },
+      { "text": "mcutils:candle_cake", "link": "/blockcomponents/candle_cake" },
+      { "text": "mcutils:cauldron", "link": "/blockcomponents/cauldron" },
+      { "text": "mcutils:concrete_powder", "link": "/blockcomponents/concrete_powder" },
+      { "text": "mcutils:copper_bulb", "link": "/blockcomponents/copper_bulb" },
+      { "text": "mcutils:coral", "link": "/blockcomponents/coral" },
+      { "text": "mcutils:crop", "link": "/blockcomponents/crop" },
+      { "text": "mcutils:cross_collision", "link": "/blockcomponents/cross_collision" },
+      { "text": "mcutils:debug", "link": "/blockcomponents/debug" },
+      { "text": "mcutils:falling_block", "link": "/blockcomponents/falling_block" },
+      { "text": "mcutils:farmland", "link": "/blockcomponents/farmland" },
+      { "text": "mcutils:fence_gate", "link": "/blockcomponents/fence_gate" },
+      { "text": "mcutils:fertilizable", "link": "/blockcomponents/fertilizable" },
+      { "text": "mcutils:flower_bed", "link": "/blockcomponents/flower_bed" },
+      { "text": "mcutils:frosted_ice", "link": "/blockcomponents/frosted_ice" },
+      { "text": "mcutils:height", "link": "/blockcomponents/height" },
+      { "text": "mcutils:lava_cauldron", "link": "/blockcomponents/lava_cauldron" },
+      { "text": "mcutils:layered_cauldron", "link": "/blockcomponents/layered_cauldron" },
+      { "text": "mcutils:leaves", "link": "/blockcomponents/leaves" },
+      { "text": "mcutils:multiblock", "link": "/blockcomponents/multiblock" },
+      { "text": "mcutils:oxidizable", "link": "/blockcomponents/oxidizable" },
+      { "text": "mcutils:potted_flower", "link": "/blockcomponents/potted_flower" },
+      { "text": "mcutils:powder_snow", "link": "/blockcomponents/powder_snow" },
+      { "text": "mcutils:pressure_plate", "link": "/blockcomponents/pressure_plate" },
+      { "text": "mcutils:redstone_lamp", "link": "/blockcomponents/redstone_lamp" },
+      { "text": "mcutils:sapling", "link": "/blockcomponents/sapling" },
+      { "text": "mcutils:scrape_oxidization", "link": "/blockcomponents/scrape_oxidization" },
+      { "text": "mcutils:scrape_wax", "link": "/blockcomponents/scrape_wax" },
+      { "text": "mcutils:sittable", "link": "/blockcomponents/sittable" },
+      { "text": "mcutils:slab", "link": "/blockcomponents/slab" },
+      { "text": "mcutils:sponge", "link": "/blockcomponents/sponge" },
+      { "text": "mcutils:stairs", "link": "/blockcomponents/stairs" },
+      { "text": "mcutils:strippable", "link": "/blockcomponents/strippable" },
+      { "text": "mcutils:tile_entity", "link": "/blockcomponents/tile_entity" },
+      { "text": "mcutils:time_detector", "link": "/blockcomponents/time_detector" },
+      { "text": "mcutils:toggleable", "link": "/blockcomponents/toggleable" },
+      { "text": "mcutils:vertical_slab", "link": "/blockcomponents/vertical_slab" },
+      { "text": "mcutils:viscosity", "link": "/blockcomponents/viscosity" },
+      { "text": "mcutils:wall", "link": "/blockcomponents/wall" },
+      { "text": "mcutils:waxable", "link": "/blockcomponents/waxable" }
+    ]
+  },
+  {
+    "text": "Item Components",
+    "collapsed": true,
+    "items": [
+      { "text": "Item Components List", "link": "/itemcomponents" },
+      { "text": "mcutils:axe", "link": "/itemcomponents/axe" },
+      { "text": "mcutils:flint_and_steel", "link": "/itemcomponents/flint_and_steel" },
+      { "text": "mcutils:guide_book", "link": "/itemcomponents/guide_book" },
+      { "text": "mcutils:hoe", "link": "/itemcomponents/hoe" },
+      { "text": "mcutils:info_book", "link": "/itemcomponents/info_book" },
+      { "text": "mcutils:pottable", "link": "/itemcomponents/pottable" },
+      { "text": "mcutils:shovel", "link": "/itemcomponents/shovel" },
+      { "text": "mcutils:tool", "link": "/itemcomponents/tool" },
+      { "text": "mcutils:writable_book", "link": "/itemcomponents/writable_book" }
+    ]
+  }
+]

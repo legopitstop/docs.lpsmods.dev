@@ -1,0 +1,6 @@
+[
+   { "text": "Getting Started", "link": "/getting-started" },
+  { "text": "Creeper Loot", "link": "/creeper-loot" },
+  { "text": "Custom Model Data", "link": "/custom-model-data" },
+  { "text": "Item NBT", "link": "/item-nbt" }
+]

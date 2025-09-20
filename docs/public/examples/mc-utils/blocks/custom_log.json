@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_log",
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": ["minecraft:block_face"]
+        }
+      }
+    },
+    "components": {
+      "mcutils:strippable": {
+        "block": "wiki:stripped_log",
+        "sound_event": "dig.wood"
+      }
+    }
+  }
+}

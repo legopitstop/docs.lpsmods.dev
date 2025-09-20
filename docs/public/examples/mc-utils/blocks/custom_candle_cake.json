@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_candle_cake",
+      "states": {
+        "mcutils:lit": [false, true]
+      }
+    },
+    "components": {
+      "minecraft:tick": {
+        "interval_range": [0, 0]
+      },
+      "mcutils:candle_cake": {
+        "candle": "minecraft:candle",
+        "block": "wiki:cake",
+        "lit_state": "mcutils:lit",
+        "slice_state": "mcutils:slice",
+        "flame_position": [0, 16, 0],
+        "flame_particle": "minecraft:candle_flame_particle"
+      }
+    }
+  }
+}

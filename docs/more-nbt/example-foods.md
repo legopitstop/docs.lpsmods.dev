@@ -1,12 +1,11 @@
 ---
 title: Example Foods | More NBT Tags Documentation
 description: Add new NBT Tags to make customization easier!
-keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # Example Foods
 
-- Glow Berrie's item will simply give you the glowing effect when consumed. `on_consume`
+- Glow Berries item will simply give you the glowing effect when consumed. `on_consume`
 - Milk Carton item will give you a glass bottle with NBT data when you consume the item. `using_converts_to`
 
 ## Give Function

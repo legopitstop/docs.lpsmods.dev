@@ -1,6 +1,5 @@
 ---
 title: Constants | mojangskin Documentation
-keywords: legopitstop,python,minecraft,skin,images,pypi,pillow,mojang,pythonpackage
 ---
 
 # Constants

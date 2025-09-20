@@ -1,0 +1,18 @@
+---
+title: "Item Components | @lpsmods/mc-utils Documentation"
+description: desc
+---
+
+# Item Components
+
+| Item Components                                 | Description |
+| ----------------------------------------------- | ----------- |
+| [mcutils:axe](./axe.md)                         |             |
+| [mcutils:flint_and_steel](./flint_and_steel.md) |             |
+| [mcutils:guide_book](./guide_book.md)           |             |
+| [mcutils:hoe](./hoe.md)                         |             |
+| [mcutils:info_book](./info_book.md)             |             |
+| [mcutils:pottable](./pottable.md)               |             |
+| [mcutils:shovel](./shovel.md)                   |             |
+| [mcutils:tool](./tool.md)                       |             |
+| [mcutils:writable_book](./writable_book.md)     |             |

@@ -1,7 +1,6 @@
 ---
 title: Example Fulgurites | Lightning Bolt Glass Documentation
 description: What is Lightning Bolt Glass? Whenever lightning hits sand it turns into glass.
-keywords: legopitstop,fulgurite,minecraft,fabricmc,mod,datapack,datadriven,customizable
 ---
 
 # Example Fulgurites
@@ -21,7 +20,7 @@ When lightning hits any log type it will create a root system of coal blocks rep
 }
 ```
 
-## Rplace Single Block
+## Replace Single Block
 
 When lightning hits Orange Concrete Powder it will replace it with Orange Stained Glass.
 

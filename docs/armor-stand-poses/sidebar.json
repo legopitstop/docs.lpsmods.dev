@@ -1,0 +1,24 @@
+[
+  { "text": "Getting Started", "link": "/getting-started" },
+  { "text": "Built-in", "link": "/builtin-poses" },
+  { "text": "Generator", "link": "/generator" },
+  {
+    "text": "Mod",
+    "collapsed": false,
+    "base": "/armor-stand-poses/mod",
+    "items": [
+      { "text": "Custom Poses", "link": "/custom-poses" },
+      { "text": "Armor Stand Data", "link": "/armor-stand-data" },
+      { "text": "Pose Format", "link": "/pose-format" }
+    ]
+  },
+  {
+    "text": "Data Pack",
+    "collapsed": false,
+    "base": "/armor-stand-poses/data-pack",
+    "items": [
+      { "text": "Custom Poses", "link": "/custom-poses" },
+      { "text": "Pose Format", "link": "/pose-format" }
+    ]
+  }
+]

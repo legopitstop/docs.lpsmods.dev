@@ -1,0 +1,13 @@
+[
+  { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "API Reference",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Classes",
+        "items": [{ "text": "LPSModsClient", "link": "/LPSModsClient" }]
+      }
+    ]
+  }
+]

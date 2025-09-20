@@ -1,44 +1,37 @@
 ---
 title: mcpath Documentation
-description: Get paths to Minecraft Java, Bedrock, Preview, and Education Edition folders.
-keywords: legopitstop,python,pypi,minecraft,paths,java,bedrock,preview,education,world,screenshots,resourcepacks,behaviorpacks
+description: Python module for retrieving paths to Minecraft folders across editions.
+layout: home
+
+hero:
+  name: mcpath
+  text: Python module for retrieving paths to Minecraft folders across editions.
+  tagline: Simplify Minecraft path retrieval
+  actions:
+    - theme: brand
+      text: Getting Started
+      link: ./getting-started
+    - theme: alt
+      text: Download
+      link: https://github.com/legopitstop/mcpath/releases
+    - theme: alt
+      text: PyPI
+      link: https://pypi.org/project/mcpath/
+    - theme: alt
+      text: Source Code
+      link: https://github.com/legopitstop/mcpath
+
+features:
+  - icon: 🧭
+    title: Cross-Edition Support
+    details: Retrieve paths for Java, Bedrock, Preview, and Education Editions.
+  - icon: 🧱
+    title: Platform Compatibility
+    details: Works on Windows, Linux, and macOS; Android and iOS support varies.
+  - icon: 📦
+    title: Simple Installation
+    details: Install via pip with `pip install mcpath` for quick setup.
+  - icon: 🛠️
+    title: Open-Source
+    details: Fully open-source with accessible documentation and source code.
 ---
-
-# mcpath
-
-Get paths to Minecraft Java, Bedrock, Preview, and Education Edition folders.
-
-## Links
-
-- :pie: [PyPI](https://pypi.org/project/mcpath)
-- :file_folder: [Download](https://github.com/legopitstop/mcpath/releases)
-- :gear: [Source Code](https://github.com/legopitstop/mcpath)
-
-## Installation
-
-Install the module with pip:
-
-```bat
-pip3 install mcpath
-```
-
-Update existing installation: `pip3 install mcpath --upgrade`
-
-## Supported Platforms
-
-|             | Java | Bedrock | Preview/Beta | Education |
-| ----------- | ---- | ------- | ------------ | --------- |
-| **Android** | ❌   | ✅      | ❌           | ❌        |
-| **Darwin**  | ✅   | ✅      | ❌           | ❌        |
-| **iOS**     | ❌   | ✅      | ✅           | ✅        |
-| **Linux**   | ✅   | ✅      | ❌           | ❌        |
-| **Windows** | ✅   | ✅      | ✅           | ✅        |
-
-## Examples
-
-```Python
-import mcpath
-
-print(mcpath.java.get_saves_dir())
-# C:\Users\USER\AppData\Roaming\.minecraft\saves
-```

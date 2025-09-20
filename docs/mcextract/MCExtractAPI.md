@@ -1,6 +1,5 @@
 ---
 title: MCExtractAPI | mcextract Documentation
-keywords: legopitstop,python,java,minecraft,data,assets,pypi,jar,reports,pythonpackage,customtkinter,serverjars,userfolder
 ---
 
 # MCExtractAPI

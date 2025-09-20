@@ -1,31 +1,39 @@
 ---
 title: Basalt Blocks Mod Wiki
-description: Three basalt blocks not enough to decorate? What if there were more basalt blocks, slabs?
-keywords: legopitstop,minecraft,mod,fabricmc,forge,neoforge,basalt blocks
+description: Expands Minecraft's basalt options with new decorative blocks and variants.
+layout: home
+
+hero:
+  name: Basalt Blocks
+  text: Expands Minecraft's basalt options with new decorative blocks and variants.
+  tagline: More basalt for your builds
+  image:
+    src: /images/basalt-blocks/icon.png
+  actions:
+    - theme: brand
+      text: Getting Started
+      link: ./getting-started
+    - theme: alt
+      text: Source Code
+      link: https://github.com/lpsmods/basalt-blocks
+    - theme: alt
+      text: CurseForge
+      link: https://www.curseforge.com/minecraft/mc-mods/basalt-blocks
+    - theme: alt
+      text: Modrinth
+      link: https://modrinth.com/mod/basalt-blocks
+
+features:
+  - icon: 🧱
+    title: Expanded Block Set
+    details: Adds polished, cobbled, and brick variants of basalt, plus slabs, stairs, walls, buttons, and pressure plates.
+  - icon: 🔨
+    title: Consistent Recipes
+    details: Utilizes standard crafting and stonecutter recipes for easy integration.
+  - icon: 🌐
+    title: Multi-Loader Support
+    details: Compatible with Add-On, Fabric, Forge, and NeoForge loaders.
+  - icon: 🛠️
+    title: Open-Source
+    details: Fully open-source with accessible documentation and source code.
 ---
-
-# Basalt Blocks
-
-Three basalt blocks not enough to decorate? What if there were more basalt blocks, slabs?
-
-## Technical Info
-
-| Key           | Value                                  |
-| ------------- | -------------------------------------- |
-| namespace     | `basaltblocks`                         |
-| resource UUID | `2660f6c8-4130-4745-a6f9-75366d9c1c11` |
-| behavior UUID | `d627db6d-5e48-425f-88d5-40f0ff30427f` |
-| slug          | `basalt-blocks`                        |
-
-## Loaders
-
-- Add-On
-- Fabric
-- Forge
-- NeoForge
-
-## Links
-
-- :fire: [Curseforge](https://www.curseforge.com/minecraft/mc-mods/basalt-blocks)
-- :wrench: [Modrinth](https://modrinth.com/mod/basalt-blocks)
-- :gear: [Source Code](https://github.com/lpsmods/basalt-blocks)

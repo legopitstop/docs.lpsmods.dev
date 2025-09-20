@@ -1,7 +1,6 @@
 ---
 title: Fulgurite | Lightning Bolt Glass Documentation
 description: What is Lightning Bolt Glass? Whenever lightning hits sand it turns into glass.
-keywords: legopitstop,fulgurite,minecraft,fabricmc,mod,datapack,datadriven,customizable
 ---
 
 # Fulgurite

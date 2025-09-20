@@ -1,55 +1,43 @@
 ---
 title: mcextract Documentation
-description: Extract assets and data from the Minecraft jar.
-keywords: legopitstop,python,java,minecraft,data,assets,pypi,jar,reports,pythonpackage,customtkinter,serverjars,userfolder
+description: Python tool for extracting and mapping Minecraft assets and data.
+layout: home
+
+hero:
+  name: mcextract
+  text: Python tool for extracting and mapping Minecraft assets and data.
+  tagline: Simplify asset extraction
+  actions:
+    - theme: brand
+      text: Getting Started
+      link: ./getting-started
+    - theme: alt
+      text: Download
+      link: https://github.com/legopitstop/mcextract/releases
+    - theme: alt
+      text: PyPI
+      link: https://pypi.org/project/mcextract/
+    - theme: alt
+      text: Source Code
+      link: https://github.com/legopitstop/mcextract
+
+features:
+  - icon: 🧰
+    title: Asset Extraction
+    details: Extract assets and data from Minecraft JAR files.
+  - icon: 🗺️
+    title: Asset Mapping
+    details: Map assets to a specific version for compatibility.
+  - icon: ⚙️
+    title: Version Generation
+    details: Generate assets for specific Minecraft versions.
+  - icon: 🛠️
+    title: Command-Line Interface
+    details: Use the CLI for quick and efficient operations.
+  - icon: 📦
+    title: Simple Installation
+    details: Install via pip with `pip install mcextract` for quick setup.
+  - icon: 🛠️
+    title: Open-Source
+    details: Fully open-source with accessible documentation and source code.
 ---
-
-# mcextract
-
-Extract assets and data from the Minecraft jar.
-
-## Links
-
-- :pie: [PyPI](https://pypi.org/project/mcextract)
-- :file_folder: [Download](https://github.com/legopitstop/mcextract/releases)
-- :gear: [Source Code](https://github.com/legopitstop/mcextract)
-
-## Installation
-
-Install the module with pip:
-
-```bat
-pip3 install mcextract
-```
-
-Update existing installation: `pip3 install mcextract --upgrade`
-
-## Examples
-
-### Run using the API
-
-```py
-import mcextract
-
-api = mcextract.MCExtractAPI()
-api.extract("1.20.4/1.20.4.jar", True, True, accept_eula=False)
-api.map("16.json", accept_eula=True)
-api.generate("1.20.6", ['--client', '--server', '--reports'], accept_eula=True)
-```
-
-### Run using CLI
-
-```sh
-mcextract extract 1.20.4/1.20.4.jar --assets --data -eula
-mcextract map 16.json -eula
-mcextract generate 1.20.6 --client --server --reports -eula
-```
-
-::: tip
-You can queue multiple commands by separating them using a semicolon (`;`)
-
-```sh
-echo First; echo Second; echo Last
-```
-
-:::

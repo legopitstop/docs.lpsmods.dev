@@ -1,46 +1,39 @@
 ---
 title: Assets+ Documentation
-description: This is a resource pack library that adds all the vanilla Minecraft block ids use better IDs.
-keywords: legopitstop,assetsplus,resourcepack
+description: A resource pack library upgrading vanilla Minecraft with better texture IDs and new dev textures.
+layout: home
+
+hero:
+  name: Assets+
+  text: A resource pack library upgrading vanilla Minecraft with better texture IDs and new dev textures.
+  tagline: Enhanced vanilla textures & IDs
+  image:
+    src: /images/assets-plus/icon.png
+  actions:
+    - theme: brand
+      text: Getting Started
+      link: ./getting-started
+    - theme: alt
+      text: Source Code
+      link: https://github.com/lpsmods/assets-plus
+    - theme: alt
+      text: CurseForge
+      link: https://www.curseforge.com/minecraft-bedrock/addons/assets-plus
+    - theme: alt
+      text: MCPEDL
+      link: https://mcpedl.com/assets-plus
+
+features:
+  - icon: 🖼️
+    title: Better IDs
+    details: Use more descriptive, consistent vanilla block and item IDs.
+  - icon: 🎨
+    title: Dev & Debug Textures
+    details: Adds Java Edition’s debug textures and developer-focused visuals.
+  - icon: 🔗
+    title: Resource Pack Library
+    details: Doesn’t duplicate vanilla assets, it layers on top.
+  - icon: 🛠️
+    title: Open-Source
+    details: Fully open-source with accessible documentation and source code.
 ---
-
-# Assets+
-
-This is a resource pack library that adds all the vanilla Minecraft block ids use better IDs to use these just add the `minecraft` namespace before the texture for example: `minecraft:lime_concrete` to use the lime concrete texture. This resource pack also adds a few new textures like Java Edition’s debug textures
-
-::: info
-This resource pack library does not contain vanilla Minecraft assets. It will use vanilla Minecraft, or the highest-tier resource pack, textures.
-:::
-
-## Technical Info
-
-| Key           | Value                                  |
-| ------------- | -------------------------------------- |
-| namespace     | `assets`                               |
-| resource UUID | `c86dd7d9-e84e-456f-a84f-1993e353da4c` |
-| slug          | `assets-plus`                          |
-
-## Loaders
-
-- Bedrock
-
-## Links
-
-- :fire: [Curseforge](https://www.curseforge.com/minecraft-bedrock/addons/assets-plus)
-- :wrench: [MCPEDL](https://mcpedl.com/assets-plus-pack-1/)
-- :gear: [Source Code](https://github.com/lpsmods/assets-plus)
-
-## Dependencies
-
-In your Behavior packs dependencies append the following code:
-
-```json
-{
-  "uuid": "c86dd7d9-e84e-456f-a84f-1993e353da4c",
-  "version": [1, 6, 0]
-}
-```
-
-## Planned Features
-
-Common block models, stairs, slabs, torches, etc

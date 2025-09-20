@@ -1,7 +1,6 @@
 ---
 title: Modal Class | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
-keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
 # Modal Class
@@ -45,7 +44,7 @@ Construct a modal widget with the parent MASTER."
 
 ### `moveto`
 
-Move the modal to a diffrent place. `int` the pos on the screen. `CENTER` center on the screen. `None` keep in the same pos.
+Move the modal to a different place. `int` the pos on the screen. `CENTER` center on the screen. `None` keep in the same pos.
 
 #### Parameters
 

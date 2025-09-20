@@ -45,7 +45,7 @@ var generator = new SaplingGenerator(
   new ConfiguredFeature("morefoodtree:apple_tree"),
   undefined,
   undefined,
-  undefined
+  undefined,
 );
 new SaplingComponent(generator, "stage");
 ```

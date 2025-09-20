@@ -1,7 +1,6 @@
 ---
 title: Functions | TkinterPlus Documentation
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
-keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
 # Functions
@@ -17,7 +16,7 @@ keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 
 ## `winfo_geometry_manager`
 
-Returns with the geoemtry type [GRID, PACK, PLACE, None]
+Returns with the geometry type [GRID, PACK, PLACE, None]
 
 ### Parameters
 

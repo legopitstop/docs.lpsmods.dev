@@ -1,13 +1,12 @@
 ---
 title: CustomModelData | Record API Documentation
 description: This wiki contains all the added custom nbt. Everything inside this wiki is free to use. If you have any ideas for custom NBT tags feel free to leave a feature suggestion.
-keywords: legopitstop,minecraft,datapack,resourcepack,record,music,sounds,api,customizable,creeper,nbt
 ---
 
 # Location
 
 ```txt
-<resroucepack>/assets/record/modals/item/(DISC)_(DATA).json
+<resourcepack>/assets/record/modals/item/(DISC)_(DATA).json
 ```
 
 ## Disc
@@ -38,7 +37,7 @@ The CustomModalData value (Between 1-500). By default, all models reference the 
 Location This is using `music_disc_11` with a CustomModelData of `15`
 
 ```txt
-<resroucepack>/assets/record/modals/item/music_disc_11_15.json
+<resourcepack>/assets/record/modals/item/music_disc_11_15.json
 ```
 
 Model

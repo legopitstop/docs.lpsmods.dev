@@ -1,28 +1,36 @@
 ---
 title: Simple Magnets Mod Wiki
-description: This Minecraft mod adds simple magnet items and blocks to make gathering dropped items easier. Upgrade your magnet to make it reach further out. Use the magnet blocks to gather items from your mob farm instead of using tons of hoppers!
-keywords: legopitstop,minecraft,mod,add-on,simple magnets,magnets
+description: Adds magnets and demagnetization coils to attract or repel items and experience.
+layout: home
+
+hero:
+  name: Simple Magnets
+  text: Adds magnets and demagnetization coils to attract or repel items and experience.
+  tagline: Simplify item collection in Minecraft
+  image:
+    src: /images/simple-magnets/icon.png
+  actions:
+    - theme: brand
+      text: Getting Started
+      link: ./getting-started
+    - theme: alt
+      text: CurseForge
+      link: https://www.curseforge.com/minecraft/mc-mods/simple-magnets2
+    - theme: alt
+      text: Modrinth
+      link: https://modrinth.com/mod/magnets
+    - theme: alt
+      text: Source Code
+      link: https://github.com/lpsmods/simple-magnets
+
+features:
+  - icon: 🧲
+    title: Magnet
+    details: Upgradeable magnet that attracts items and experience within a 5-block radius.
+  - icon: ⚙️
+    title: Multi-Loader Compatibility
+    details: Supports Add-On, Fabric, Forge, and NeoForge environments.
+  - icon: 🛠️
+    title: Open-Source
+    details: Fully open-source with accessible documentation and source code.
 ---
-
-# Simple Magnets
-
-This Minecraft mod adds simple magnet items and blocks to make gathering dropped items easier. Upgrade your magnet to make it reach further out. Use the magnet blocks to gather items from your mob farm instead of using tons of hoppers!
-
-## Technical Info
-
-| Key           | Value                                  |
-| ------------- | -------------------------------------- |
-| namespace     | `magnet`                               |
-| resource UUID | `16a46bd0-f937-4f63-88f3-c70280f6ffac` |
-| behavior UUID | `c626559c-6a9e-4851-9b97-0213a2650294` |
-| slug      | `simple-magnets` |
-
-## Loaders
-
-- Add-On
-
-## Links
-
-- :fire: [Curseforge](https://www.curseforge.com/minecraft-bedrock/addons/simple-magnets)
-- :wrench: [MCPEDL](https://mcpedl.com/simple-magnets/)
-- :gear: [Source Code](https://github.com/lpsmods/simple-magnets)

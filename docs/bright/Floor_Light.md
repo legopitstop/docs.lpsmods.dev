@@ -53,14 +53,14 @@ To turn on or off a floor light, use the "Use Item/Place Block" control (right-c
 
 Bedrock Edition:
 
-| Name                    | Namespaced ID           | Translation Key              |
-| ----------------------- | ----------------------- | ---------------------------- |
+| Name                  | Namespaced ID         | Translation Key            |
+| --------------------- | --------------------- | -------------------------- |
 | Floor Light (#bright) | `bright:_floor_light` | `item.bright:_floor_light` |
 
 Forge-Fabric Edition:
 
-| Name        | Namespaced ID           | Translation Key              |
-| ----------- | ----------------------- | ---------------------------- |
+| Name        | Namespaced ID         | Translation Key            |
+| ----------- | --------------------- | -------------------------- |
 | Floor Light | `bright:_floor_light` | `item.bright._floor_light` |
 
 ## History

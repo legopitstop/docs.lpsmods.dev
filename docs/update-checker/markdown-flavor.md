@@ -1,7 +1,6 @@
 ---
 title: Markdown Flavor | Update Checker Documentation
 description: Check to see if you have the latest version of a pack installed.
-keywords: legopitstop,minecraft,website,updatechecker,updater,customizable,free,premium,json
 ---
 
 # Markdown Flavor
@@ -21,7 +20,7 @@ Changelogs inside the JSON support [Markdown](https://www.markdownguide.org/). P
 | [Ordered Lists](https://www.markdownguide.org/basic-syntax#ordered-lists)                               |   Yes   |                                                                                                                                   |
 | [Unordered Lists](https://www.markdownguide.org/basic-syntax#unordered-lists)                           |   Yes   |                                                                                                                                   |
 | [Code](https://www.markdownguide.org/basic-syntax#code)                                                 |   Yes   |                                                                                                                                   |
-| [Horizonal Rules](https://www.markdownguide.org/basic-syntax/#horizontal-rules)                         |   Yes   |                                                                                                                                   |
+| [Horizontal Rules](https://www.markdownguide.org/basic-syntax/#horizontal-rules)                        |   Yes   |                                                                                                                                   |
 | [Links](https://www.markdownguide.org/basic-syntax/#links)                                              |   Yes   |                                                                                                                                   |
 | [Images](https://www.markdownguide.org/basic-syntax/#images-1)                                          |   Yes   |                                                                                                                                   |
 | [Tables](https://www.markdownguide.org/extended-syntax/#tables)                                         |   Yes   |                                                                                                                                   |

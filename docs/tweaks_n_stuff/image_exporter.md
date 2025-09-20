@@ -13,6 +13,6 @@ Export your image project as an image file. You can disable this tweak in `Setti
 
 ![image exporter](/images/tweaks_n_stuff/image_exporter.webp)
 
-Formats vary from browser to browser. Electon supports PNG, JPEG, and WEBP formats.
+Formats vary from browser to browser. Electron supports PNG, JPEG, and WEBP formats.
 
 ![image exporter dialog](/images/tweaks_n_stuff/image_exporter_dialog.webp)

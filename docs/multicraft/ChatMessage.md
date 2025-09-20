@@ -1,10 +1,9 @@
 ---
-title: ChatMessage | multicraft Documentation
+title: ChatMessage class | multicraft Documentation
 description: Interact with your Minecraft server from hosts that use Multicraft using Python
-keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---
 
-# ChatMessage
+# `ChatMessage` class
 
 ## Parameters
 
@@ -20,4 +19,10 @@ keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,py
 
 ### `from_json`
 
-UNDOCUMENTED
+**Return Type**: ChatMessage
+
+#### Parameters
+
+| name   | type | description |
+| ------ | ---- | ----------- |
+| `data` | dict |             |

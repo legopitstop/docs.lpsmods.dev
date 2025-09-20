@@ -1,10 +1,9 @@
 ---
-title: Database | multicraft Documentation
+title: Database class | multicraft Documentation
 description: Interact with your Minecraft server from hosts that use Multicraft using Python
-keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---
 
-# Database
+# `Database` class
 
 ## Parameters
 
@@ -23,8 +22,14 @@ keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,py
 
 ### `from_json`
 
-UNDOCUMENTED
+**Return Type**: Database
+
+#### Parameters
+
+| name   | type | description |
+| ------ | ---- | ----------- |
+| `data` | dict |             |
 
 ### `delete`
 
-UNDOCUMENTED
+NOT IMPLEMENTED

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_oxidized_copper_bulb",
+      "states": {
+        "mcutils:powered": [false, true],
+        "mcutils:lit": [false, true]
+      }
+    },
+    "components": {
+      "minecraft:tick": {
+        "interval_range": [0, 0],
+        "looping": true
+      },
+      "mcutils:waxable": {
+        "block": "wiki:waxed_weathered_copper_bulb",
+        "items": ["honeycomb"]
+      },
+      "mcutils:scrape_oxidization": {
+        "block": "wiki:weathered_copper_bulb"
+      },
+      "mcutils:copper_bulb": {
+        "lit_state": "mcutils:lit",
+        "powered_state": "mcutils:powered"
+      }
+    }
+  }
+}

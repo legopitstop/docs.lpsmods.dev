@@ -1,10 +1,9 @@
 ---
-title: Command | multicraft Documentation
+title: Command class | multicraft Documentation
 description: Interact with your Minecraft server from hosts that use Multicraft using Python
-keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---
 
-# Command
+# `Command` class
 
 ## Parameters
 
@@ -28,12 +27,18 @@ keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,py
 
 ### `from_json`
 
-UNDOCUMENTED
+**Return Type**: Command
+
+#### Parameters
+
+| name   | type | description |
+| ------ | ---- | ----------- |
+| `data` | dict |             |
 
 ### `delete`
 
-UNDOCUMENTED
+NOT IMPLEMENTED
 
 ### `run`
 
-UNDOCUMENTED
+NOT IMPLEMENTED

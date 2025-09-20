@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_vertical_slab",
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:cardinal_direction"]
+        }
+      },
+      "states": { "mcutils:double": [false, true] }
+    },
+    "components": {
+      "mcutils:vertical_slab": {
+        "double_state": "mcutils:double",
+        "direction_state": "minecraft:cardinal_direction"
+      }
+    }
+  }
+}

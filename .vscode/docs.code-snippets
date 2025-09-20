@@ -1,4 +1,9 @@
 {
+  "Icon": {
+    "scope": "md,markdown",
+    "prefix": "Icon",
+    "body": ["<Icon name=\"$0\" />"],
+  },
   "VersionTable": {
     "scope": "md,markdown",
     "prefix": "table-version",
@@ -9,42 +14,28 @@
       "| Official Name     | $3      |",
       "| Minecraft Version | $4      |",
       "| Release Date      | $5      |",
-      "| Download          | $0      |"
-    ]
+      "| Download          | $0      |",
+    ],
   },
   "Doc": {
     "scope": "md,markdown",
     "prefix": "doc",
-    "body": [
-      "---",
-      "title: $1",
-      "description: ${0:desc}",
-      "---",
-      "",
-      "# $1",
-      ""
-    ]
+    "body": ["---", "title: $1", "description: ${0:desc}", "---", "", "# $1", ""],
   },
   "Redirect": {
     "scope": "md,markdown",
     "prefix": "redirect",
-    "body": [
-      "---",
-      "title: Redirecting…",
-      "redirect: ./${0}",
-      "---",
-      ""
-    ]
+    "body": ["---", "title: Redirecting…", "redirect: ./${0}", "---", ""],
   },
   "Class": {
     "scope": "md,markdown",
     "prefix": "doc.class",
     "body": [
       "---",
-      "title: $0",
+      "title: \"$0 class\"",
       "---",
       "",
-      "# $0",
+      "# `$0` class",
       "",
       "## Parameters",
       "",
@@ -58,6 +49,10 @@
       "",
       "### `name`",
       "",
+      "desc",
+      "",
+      "**Return Type**: None",
+      "",
       "#### Parameters",
       "",
       "| Name   | Type | Description |",
@@ -68,8 +63,8 @@
       "",
       "```py",
       "",
-      "```"
-    ]
+      "```",
+    ],
   },
   "Functions": {
     "scope": "md,markdown",
@@ -94,67 +89,38 @@
       "",
       "```py",
       "",
-      "```"
-    ]
+      "```",
+    ],
   },
   "Undocumented": {
     "scope": "md,markdown",
     "prefix": "undocumented",
-    "body": [
-      "---",
-      "title: $0",
-      "---",
-      "",
-      "# $0",
-      "",
-      "undocumented",
-      ""
-    ]
+    "body": ["---", "title: $0", "---", "", "# $0", "", "undocumented", ""],
   },
   "ContainerInfo": {
     "scope": "md,markdown",
     "prefix": "container.info",
-    "body": [
-      "::: info",
-      "$0",
-      ":::"
-    ]
+    "body": ["::: info", "$0", ":::"],
   },
   "ContainerTip": {
     "scope": "md,markdown",
     "prefix": "container.tip",
-    "body": [
-      "::: tip",
-      "$0",
-      ":::"
-    ]
+    "body": ["::: tip", "$0", ":::"],
   },
   "ContainerWarning": {
     "scope": "md,markdown",
     "prefix": "container.warning",
-    "body": [
-      "::: warning",
-      "$0",
-      ":::"
-    ]
+    "body": ["::: warning", "$0", ":::"],
   },
   "ContainerDanger": {
     "scope": "md,markdown",
     "prefix": "container.danger",
-    "body": [
-      "::: danger",
-      "$0",
-      ":::"
-    ]
+    "body": ["::: danger", "$0", ":::"],
   },
   "ContainerDetails": {
     "scope": "md,markdown",
     "prefix": "container.details",
-    "body": [
-      "::: details",
-      "$0",
-      ":::"
-    ]
+    "body": ["::: details", "$0", ":::"],
   },
   "ContainerOutdated": {
     "scope": "md,markdown",
@@ -162,45 +128,33 @@
     "body": [
       "::: tip This page describes content that exists only in outdated versions of *${0:Lot's More Food}*.",
       "This feature used to be in the game but has since been removed.",
-      ":::"
-    ]
+      ":::",
+    ],
   },
   "BadgeInfo": {
     "scope": "md,markdown",
     "prefix": "badge.info",
-    "body": [
-      "<Badge type=\"info\" text=\"$0\" />"
-    ]
+    "body": ["<Badge type=\"info\" text=\"$0\" />"],
   },
   "BadgeTip": {
     "scope": "md,markdown",
     "prefix": "badge.tip",
-    "body": [
-      "<Badge type=\"tip\" text=\"$0\" />"
-    ]
+    "body": ["<Badge type=\"tip\" text=\"$0\" />"],
   },
   "BadgeWarning": {
     "scope": "md,markdown",
     "prefix": "badge.warning",
-    "body": [
-      "<Badge type=\"warning\" text=\"$0\" />"
-    ]
+    "body": ["<Badge type=\"warning\" text=\"$0\" />"],
   },
   "BadgeDanger": {
     "scope": "md,markdown",
     "prefix": "badge.danger",
-    "body": [
-      "<Badge type=\"danger\" text=\"$0\" />"
-    ]
+    "body": ["<Badge type=\"danger\" text=\"$0\" />"],
   },
   "BrewingRecipe": {
     "scope": "md,markdown",
     "prefix": "recipe.brewing",
-    "body": [
-      "<BrewingRecipe",
-      "input=\"$1\"",
-      "output=\"$0\"/>"
-    ]
+    "body": ["<BrewingRecipe", "input=\"$1\"", "output=\"$0\"/>"],
   },
   "ShapedRecipe": {
     "scope": "md,markdown",
@@ -211,56 +165,33 @@
       "a2=\"$4\" b2=\"$5\" c2=\"$6\"",
       "a3=\"$7\" b3=\"$8\" c3=\"$9\"",
       "output=\"$10\"",
-      ":count=\"${0:1}\"/>"
-    ]
+      ":count=\"${0:1}\"/>",
+    ],
   },
   "ShapelessRecipe": {
     "scope": "md,markdown",
     "prefix": "recipe.shapeless",
-    "body": [
-      "<ShapelessRecipe",
-      ":ingredients=\"[$1]\"",
-      "output=\"$2\"",
-      ":count=\"${0:1}\"/>"
-    ]
+    "body": ["<ShapelessRecipe", ":ingredients=\"[$1]\"", "output=\"$2\"", ":count=\"${0:1}\"/>"],
   },
   "SmeltingRecipe": {
     "scope": "md,markdown",
     "prefix": "recipe.smelting",
-    "body": [
-      "<SmeltingRecipe",
-      "input=\"$1\"",
-      "output=\"$2\"",
-      "fuel=\"${0:coal}\"/>"
-    ]
+    "body": ["<SmeltingRecipe", "input=\"$1\"", "output=\"$2\"", "fuel=\"${0:coal}\"/>"],
   },
   "SmithingRecipe": {
     "scope": "md,markdown",
     "prefix": "recipe.smithing",
-    "body": [
-      "<SmithingRecipe",
-      "template=\"$1\"",
-      "base=\"$2\"",
-      "addition=\"$3\"",
-      "output=\"$0\"/>"
-    ]
+    "body": ["<SmithingRecipe", "template=\"$1\"", "base=\"$2\"", "addition=\"$3\"", "output=\"$0\"/>"],
   },
   "StonecutterRecipe": {
     "scope": "md,markdown",
     "prefix": "recipe.stonecutter",
-    "body": [
-      "<StonecutterRecipe",
-      "input=\"$1\"",
-      "output=\"$2\"",
-      ":count=\"${0:1}\"/>"
-    ]
+    "body": ["<StonecutterRecipe", "input=\"$1\"", "output=\"$2\"", ":count=\"${0:1}\"/>"],
   },
   "InvSlot": {
     "scope": "md,markdown",
     "prefix": "invslot",
-    "body": [
-      "<InvSlot id=\"$1\" :count=\"${0:1}\"/>"
-    ]
+    "body": ["<InvSlot id=\"$1\" :count=\"${0:1}\"/>"],
   },
   "Function": {
     "scope": "md,markdown",
@@ -275,8 +206,8 @@
       "| Name | Type | Description |",
       "| ---- | ---- | ----------- |",
       "| `$0`   |      |             |",
-      ""
-    ]
+      "",
+    ],
   },
   "Parameters": {
     "scope": "md,markdown",
@@ -287,28 +218,18 @@
       "| Name | Type | Description |",
       "| ---- | ---- | ----------- |",
       "| `$0`   |      |             |",
-      ""
-    ]
+      "",
+    ],
   },
   "ImportCodeSnippet": {
     "scope": "md,markdown",
     "prefix": "importCodeSnippet",
-    "body": [
-      "<<< @/filepath"
-    ]
+    "body": ["<<< @/filepath"],
   },
   "CodeGroup": {
     "scope": "md,markdown",
     "prefix": "codegroup",
-    "body": [
-      "::: code-group",
-      "",
-      "```$1",
-      "$0",
-      "```",
-      "",
-      ":::"
-    ]
+    "body": ["::: code-group", "", "```$1", "$0", "```", "", ":::"],
   },
   "mc-item": {
     "scope": "md,markdown",
@@ -371,8 +292,8 @@
       "",
       "|                 | Fabric Edition |",
       "| --------------- | -------------- |",
-      "| Initial release | Added ${1}     |"
-    ]
+      "| Initial release | Added ${1}     |",
+    ],
   },
   "Variants": {
     "scope": "md,markdown",
@@ -386,7 +307,7 @@
       "",
       "${2}",
       "",
-      ":::"
-    ]
-  }
+      ":::",
+    ],
+  },
 }

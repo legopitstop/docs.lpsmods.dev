@@ -1,0 +1,19 @@
+[
+  { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "API Reference",
+    "collapsed": true,
+    "items": [
+      { "text": "globals", "link": "/globals" },
+      { "text": "Exceptions", "link": "/Exceptions" },
+      {
+        "text": "Classes",
+        "items": [
+          { "text": "Lang", "link": "/Lang" },
+          { "text": "LANGEncoder", "link": "/LANGEncoder" },
+          { "text": "LANGDecoder", "link": "/LANGDecoder" }
+        ]
+      }
+    ]
+  }
+]

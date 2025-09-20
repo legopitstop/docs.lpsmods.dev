@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "wiki:custom_axe"
+    },
+    "components": {
+      "mcutils:axe": {
+        "size": 1,
+        "sound_event": "use.gravel",
+        "interactions": [{ "block": "log", "converted_block": "stripped_log" }]
+      }
+    }
+  }
+}

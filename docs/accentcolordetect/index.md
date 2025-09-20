@@ -1,39 +1,43 @@
 ---
 title: accentcolordetect Documentation
-description: The main application of this package is to detect the accent color from your GUI Python application and apply the needed adjustments to your interface.
-keywords: legopitstop,python,windows,gui,darwin,pypi,tkinter,colordetect,pythonpackage
+description: Auto-detect and apply your system's accent color in Python GUIs.
+layout: home
+
+hero:
+  name: accentcolordetect
+  text: Auto-detect and apply your system's accent color in Python GUIs.
+  tagline: Accent colors made easy for Python GUIs.
+  actions:
+    - theme: brand
+      text: Get Started
+      link: ./getting-started
+    - theme: alt
+      text: Download
+      link: https://github.com/legopitstop/accentcolordetect/releases
+    - theme: alt
+      text: PyPI
+      link: https://pypi.org/project/accentcolordetect
+    - theme: alt
+      text: GitHub
+      link: https://github.com/legopitstop/accentcolordetect
+
+features:
+  - icon: 🖥️
+    title: System Integration
+    details: Reads your OS accent color directly (Windows 10+).
+  - icon: 🐍
+    title: Python Friendly
+    details: Works smoothly with Tkinter, PyQt, and other GUI libraries.
+  - icon: 🎨
+    title: Color Formats
+    details: Returns both RGB tuples and HEX strings for flexibility.
+  - icon: 🪶
+    title: Lightweight
+    details: No heavy dependencies, just pure Python.
+  - icon: 📦
+    title: Simple Installation
+    details: Install via pip with `pip install accentcolordetect` for quick setup.
+  - icon: 🛠️
+    title: Open-Source
+    details: Fully open-source with accessible documentation and source code.
 ---
-
-# accentcolordetect
-
-This package allows you to detect the user's accent color on:
-
-- macOS (untested)
-- Windows 10+
-
-The main application of this package is to detect the accent color from your GUI Python application and apply the needed adjustments to your interface. Inspired by the [darkdetect](https://pypi.org/project/darkdetect/) package by [Alberto Sottile](https://pypi.org/user/albertosottile/)
-
-## Links
-
-- :pie: [PyPI](https://pypi.org/project/accentcolordetect)
-- :file_folder: [Download](https://github.com/legopitstop/accentcolordetect/releases)
-- :gear: [Source Code](https://github.com/legopitstop/accentcolordetect)
-
-## Installation
-
-Install the module with pip:
-
-```bat
-pip3 install accentcolordetect
-```
-
-Update existing installation: `pip3 install accentcolordetect --upgrade`
-
-## Usage
-
-```python
-import accentcolordetect
-
->>> accentcolordetect.accent()
-((255, 140, 0), '#ff8c00')
-```

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_chest"
+    },
+    "components": {
+      "mcutils:tile_entity": {
+        "entity": "wiki:chest"
+      }
+    }
+  }
+}

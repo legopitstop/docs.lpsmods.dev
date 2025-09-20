@@ -1,7 +1,6 @@
 ---
 title: ShowProgress Class | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
-keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
 # ShowProgress Class
@@ -50,7 +49,7 @@ Increments the value option by amount.
 
 ### `get`
 
-Returns the currrent value
+Returns the current value
 
 ## Example
 

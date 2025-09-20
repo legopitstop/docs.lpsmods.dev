@@ -1,0 +1,53 @@
+[
+   { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Blocks",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Wooden Breaker Block",
+        "link": "/Block_Breaker.md#wooden"
+      },
+      {
+        "text": "Stone Breaker Block",
+        "link": "/Block_Breaker.md#stone"
+      },
+      { "text": "Iron Breaker Block", "link": "/Block_Breaker.md#iron" },
+      { "text": "Gold Breaker Block", "link": "/Block_Breaker.md#gold" },
+      {
+        "text": "Diamond Breaker Block",
+        "link": "/Block_Breaker.md#diamond"
+      },
+      {
+        "text": "Netherite Breaker Block",
+        "link": "/Block_Breaker.md#netherite"
+      }
+    ]
+  },
+  {
+    "text": "Items",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Stone Breaker Upgrade",
+        "link": "/Breaker_Upgrade.md#stone"
+      },
+      {
+        "text": "Iron Breaker Upgrade",
+        "link": "/Breaker_Upgrade.md#iron"
+      },
+      {
+        "text": "Gold Breaker Upgrade",
+        "link": "/Breaker_Upgrade.md#gold"
+      },
+      {
+        "text": "Diamond Breaker Upgrade",
+        "link": "/Breaker_Upgrade.md#diamond"
+      },
+      {
+        "text": "Netherite Breaker Upgrade",
+        "link": "/Breaker_Upgrade.md#netherite"
+      }
+    ]
+  }
+]

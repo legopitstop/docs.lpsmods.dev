@@ -1,7 +1,6 @@
 ---
 title: Entity Tags | More NBT Tags Documentation
 description: Add new NBT Tags to make customization easier!
-keywords: legopitstop,minecraft,datapack,customizable,mod
 ---
 
 # Entity Tags
@@ -53,7 +52,7 @@ minecraft:entity - The root tag.
                 "conditions": [...]
             },
             {
-                "type": "minecraft:item_in_invetory",
+                "type": "minecraft:item_in_inventory",
                 "item": "minecraft:paper",
                 "custom_item": false,
                 "slot": 0,

@@ -1,6 +1,8 @@
 :root {
   --vp-c-brand-1: #fb6e07;
   --vp-c-brand-2: #be5406;
+  --vp-button-brand-bg: #fb6e07;
+  --vp-button-brand-hover-bg: #be5406;
   --docsearch-primary-color: #fb6e07;
 }
 

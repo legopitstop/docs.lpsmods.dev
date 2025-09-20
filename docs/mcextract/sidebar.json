@@ -1,0 +1,14 @@
+[
+  { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "API Reference",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Classes",
+        "items": [{ "text": "MCExtractAPI", "link": "/MCExtractAPI" }]
+      }
+    ]
+  },
+  { "text": "CLI", "link": "/cli" }
+]

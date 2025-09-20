@@ -1,7 +1,6 @@
 ---
 title: Functions | accentcolordetect Documentation
 description: The main application of this package is to detect the accent color from your GUI Python application and apply the needed adjustments to your interface.
-keywords: legopitstop,python,windows,gui,darwin,pypi,tkinter,colordetect,pythonpackage
 ---
 
 # Functions

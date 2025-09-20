@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "wiki:guide_book"
+    },
+    "components": {
+      "wiki:guide_book": {
+        "developer_mode": true,
+        "default": "home",
+        "translation_pattern": "guide.{NAMESPACE}:{KEY}",
+        "mcutils:search": {
+          "include_titles": true,
+          "include_buttons": true
+        },
+        "back_button": {
+          "icon": "textures/ui/arrowLeft.png"
+        }
+      }
+    }
+  }
+}

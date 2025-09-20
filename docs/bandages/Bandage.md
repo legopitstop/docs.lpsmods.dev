@@ -1,5 +1,5 @@
 ---
-title: Bandage | Bandage Mod Wiki
+title: Bandage | Bandages Mod Wiki
 description: A Bandage is an item used to give the player positive effects.
 ---
 

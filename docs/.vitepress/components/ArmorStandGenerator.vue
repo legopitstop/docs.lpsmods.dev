@@ -1,35 +1,17 @@
 <!-- WARN: Not ready for production!! -->
-<!-- TODO: Make the render a seperate component. "ModelRenderer" with multiple options to configure for most needs. -->
+<!-- TODO: Make the render a separate component. "ModelRenderer" with multiple options to configure for most needs. -->
 
 <template>
   <div class="armor-stand-generator">
     <div class="poses-options">
       <label for="id">ID: </label>
-      <input
-        type="text"
-        id="id"
-        name="id"
-        v-model="identifier"
-        @change="onChange"
-      />
+      <input type="text" id="id" name="id" v-model="identifier" @change="onChange" />
       <br />
       <label for="power">Power: </label>
-      <input
-        type="number"
-        id="power"
-        name="power"
-        v-model="power"
-        @change="onChange"
-      />
+      <input type="number" id="power" name="power" v-model="power" @change="onChange" />
       <br />
       <label for="displayname">Display Name: </label>
-      <input
-        type="text"
-        id="displayname"
-        name="displayname"
-        v-model="displayName"
-        @change="onChange"
-      />
+      <input type="text" id="displayname" name="displayname" v-model="displayName" @change="onChange" />
       <br />
 
       <label for="edition">Edition: </label>
@@ -61,9 +43,8 @@
     <br />
     <button @click="downloadPack">Download pack</button>
 
-    <div :class="'language-'+ language +' p-adaptive-theme'">
-      <button title="Copy Code" class="copy"></button
-      ><span class="lang">{{ language }}</span>
+    <div :class="'language-' + language + ' p-adaptive-theme'">
+      <button title="Copy Code" class="copy"></button><span class="lang">{{ language }}</span>
       <div v-html="output"></div>
     </div>
   </div>
@@ -78,7 +59,7 @@ import JSZip from "jszip";
 import FileSaver from "file-saver";
 import { Identifier } from "../classes/Identifier.js";
 import { v4 as uuid4 } from "uuid";
-import { codeToHtml } from 'shiki';
+import { codeToHtml } from "shiki";
 
 // https://threejs.org/docs/#manual/en/introduction/Installation
 export default {
@@ -98,12 +79,7 @@ export default {
     init: function () {
       let container = document.getElementById("renderer");
       this.scene = new THREE.Scene();
-      this.camera = new THREE.PerspectiveCamera(
-        75,
-        container.clientWidth / container.clientHeight,
-        0.1,
-        1000
-      );
+      this.camera = new THREE.PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000);
       this.renderer = new THREE.WebGLRenderer();
       this.renderer.setSize(container.clientWidth, container.clientHeight);
       container.appendChild(this.renderer.domElement);
@@ -124,7 +100,7 @@ export default {
           // console.log(myGroup)
         },
         undefined,
-        undefined
+        undefined,
       );
 
       // Lights
@@ -155,14 +131,7 @@ export default {
       const lightBottom = new THREE.DirectionalLight(0xffffff, -0.02);
       lightBottom.position.set(0, -100, 0);
 
-      this.lightGroup.add(
-        lightNorth,
-        lightSouth,
-        lightEast,
-        lightWest,
-        lightTop,
-        lightBottom
-      );
+      this.lightGroup.add(lightNorth, lightSouth, lightEast, lightWest, lightTop, lightBottom);
       this.scene.add(this.lightGroup);
 
       // this.drawAxes();
@@ -205,7 +174,7 @@ export default {
             { x: 0, y: 0, z: 0 },
             { x: 0, y: 0, z: 0 },
             { x: 0, y: 0, z: 0 },
-            { x: 0, y: 0, z: 0 }
+            { x: 0, y: 0, z: 0 },
           );
         case "default":
           return this.setPose(
@@ -214,7 +183,7 @@ export default {
             { x: -10, y: 0, z: -10 },
             { x: -1, y: 0, z: -1 },
             { x: -15, y: 0, z: 10 },
-            { x: 1, y: 0, z: 1 }
+            { x: 1, y: 0, z: 1 },
           );
         case "athena":
           return this.setPose(
@@ -223,7 +192,7 @@ export default {
             { x: 10, y: 0, z: -5 },
             { x: -3, y: -3, z: -3 },
             { x: -60, y: 20, z: -10 },
-            { x: 3, y: 3, z: 3 }
+            { x: 3, y: 3, z: 3 },
           );
         case "brandish":
           return this.setPose(
@@ -232,7 +201,7 @@ export default {
             { x: 20, y: 0, z: -10 },
             { x: 5, y: -3, z: -3 },
             { x: -110, y: 50, z: 0 },
-            { x: -5, y: 3, z: 3 }
+            { x: -5, y: 3, z: 3 },
           );
         case "can_can_a":
           return this.setPose(
@@ -241,7 +210,7 @@ export default {
             { x: 8, y: 0, z: -114 },
             { x: -111, y: 55, z: 0 },
             { x: 0, y: 84, z: 111 },
-            { x: 0, y: 23, z: -13 }
+            { x: 0, y: 23, z: -13 },
           );
         case "can_can_b":
           return this.setPose(
@@ -250,7 +219,7 @@ export default {
             { x: 0, y: 0, z: -112 },
             { x: 0, y: 0, z: 13 },
             { x: 0, y: 90, z: 111 },
-            { x: -119, y: -42, z: 0 }
+            { x: -119, y: -42, z: 0 },
           );
         case "entertain":
           return this.setPose(
@@ -259,7 +228,7 @@ export default {
             { x: -110, y: -35, z: 0 },
             { x: 5, y: -3, z: -3 },
             { x: -110, y: 35, z: 0 },
-            { x: -5, y: 3, z: 3 }
+            { x: -5, y: 3, z: 3 },
           );
         case "hero":
           return this.setPose(
@@ -268,7 +237,7 @@ export default {
             { x: 16, y: 32, z: -8 },
             { x: 0, y: -75, z: -8 },
             { x: -99, y: 63, z: 0 },
-            { x: 4, y: 63, z: 8 }
+            { x: 4, y: 63, z: 8 },
           );
         case "honor":
           return this.setPose(
@@ -277,7 +246,7 @@ export default {
             { x: -110, y: 35, z: 0 },
             { x: 5, y: -3, z: -3 },
             { x: -110, y: -35, z: 0 },
-            { x: -5, y: 3, z: 3 }
+            { x: -5, y: 3, z: 3 },
           );
         case "riposte":
           return this.setPose(
@@ -286,7 +255,7 @@ export default {
             { x: 4, y: 8, z: 237 },
             { x: -14, y: -18, z: -16 },
             { x: 246, y: 0, z: 89 },
-            { x: 8, y: 20, z: 4 }
+            { x: 8, y: 20, z: 4 },
           );
         case "salute":
           return this.setPose(
@@ -295,7 +264,7 @@ export default {
             { x: 10, y: 0, z: -5 },
             { x: -1, y: 0, z: -1 },
             { x: -70, y: -40, z: 0 },
-            { x: 1, y: 0, z: 1 }
+            { x: 1, y: 0, z: 1 },
           );
         case "solemn":
           return this.setPose(
@@ -304,7 +273,7 @@ export default {
             { x: -30, y: 15, z: 15 },
             { x: -1, y: 0, z: -1 },
             { x: -60, y: -20, z: -10 },
-            { x: 1, y: 0, z: 1 }
+            { x: 1, y: 0, z: 1 },
           );
         case "zombie":
           return this.setPose(
@@ -313,7 +282,7 @@ export default {
             { x: -105, y: 0, z: 0 },
             { x: 7, y: 0, z: 0 },
             { x: -100, y: 0, z: 0 },
-            { x: -46, y: 0, z: 0 }
+            { x: -46, y: 0, z: 0 },
           );
       }
     },
@@ -323,7 +292,7 @@ export default {
       leftArm = { x: 0, y: 0, z: 0 },
       leftLeg = { x: 0, y: 0, z: 0 },
       rightArm = { x: 0, y: 0, z: 0 },
-      rightLeg = { x: 0, y: 0, z: 0 }
+      rightLeg = { x: 0, y: 0, z: 0 },
     ) {
       this.headX.setValue(head.x);
       this.headY.setValue(head.y);
@@ -381,9 +350,7 @@ export default {
       this.rightLegY = rightLegFolder.add(this.pose.RightLeg, "y");
       this.rightLegZ = rightLegFolder.add(this.pose.RightLeg, "z");
       this.gui.onChange((event) => {
-        var name = event.controller.parent._title
-          .replace(/\s/gm, "")
-          .toLowerCase();
+        var name = event.controller.parent._title.replace(/\s/gm, "").toLowerCase();
         this.rotateBone(name, event.object);
       });
       this.gui.open();
@@ -403,9 +370,9 @@ export default {
     toList(obj) {
       return [obj.x, obj.y, obj.z];
     },
-    translationKey(seperator = ".") {
+    translationKey(separator = ".") {
       var id = Identifier.fromString(this.identifier);
-      return `pose.${id.namespace}${seperator}${id.path}`;
+      return `pose.${id.namespace}${separator}${id.path}`;
     },
     genFabric() {
       var pose = {
@@ -426,9 +393,7 @@ export default {
       };
     },
     genDatapack() {
-      var displayName = `{"translate": "${this.translationKey()}", "fallback": "${
-        this.displayName
-      }"}`;
+      var displayName = `{"translate": "${this.translationKey()}", "fallback": "${this.displayName}"}`;
       var head = `[${this.pose.Head.x}f,${this.pose.Head.y}f,${this.pose.Head.z}f]`;
       var body = `[${this.pose.Body.x}f,${this.pose.Body.y}f,${this.pose.Body.z}f]`;
       var leftArm = `[${this.pose.LeftArm.x}f,${this.pose.LeftArm.y}f,${this.pose.LeftArm.z}f]`;
@@ -441,26 +406,10 @@ export default {
     genBedrock() {
       var head = [this.pose.Head.x, this.pose.Head.y, this.pose.Head.z];
       var body = [this.pose.Body.x, this.pose.Body.y, this.pose.Body.z];
-      var leftArm = [
-        this.pose.LeftArm.x,
-        this.pose.LeftArm.y,
-        this.pose.LeftArm.z,
-      ];
-      var leftLeg = [
-        this.pose.LeftLeg.x,
-        this.pose.LeftLeg.y,
-        this.pose.LeftLeg.z,
-      ];
-      var rightArm = [
-        this.pose.RightArm.x,
-        this.pose.RightArm.y,
-        this.pose.RightArm.z,
-      ];
-      var rightLeg = [
-        this.pose.RightLeg.x,
-        this.pose.RightLeg.y,
-        this.pose.RightLeg.z,
-      ];
+      var leftArm = [this.pose.LeftArm.x, this.pose.LeftArm.y, this.pose.LeftArm.z];
+      var leftLeg = [this.pose.LeftLeg.x, this.pose.LeftLeg.y, this.pose.LeftLeg.z];
+      var rightArm = [this.pose.RightArm.x, this.pose.RightArm.y, this.pose.RightArm.z];
+      var rightLeg = [this.pose.RightLeg.x, this.pose.RightLeg.y, this.pose.RightLeg.z];
       var animation = {
         format_version: "1.8.0",
         animations: {
@@ -514,21 +463,17 @@ export default {
       switch (this.edition) {
         case "fabric":
           zip.file("pack.mcmeta", JSON.stringify(mcmeta));
-          zip.file(
-            `data/${id.namespace}/poses/${id.path}.json`,
-            JSON.stringify(this.genFabric())
-          );
+          zip.file(`data/${id.namespace}/poses/${id.path}.json`, JSON.stringify(this.genFabric()));
           break;
         case "datapack":
           zip.file("pack.mcmeta", JSON.stringify(mcmeta));
           zip.file(
             `data/poses/tags/function/register_poses.json`,
-            JSON.stringify({ values: [id.namespace + ":register_poses"] })
+            JSON.stringify({ values: [id.namespace + ":register_poses"] }),
           );
           zip.file(
             `data/${id.namespace}/function/register_poses.mcfunction`,
-            "# Generated using https://docs.lpsmods.dev/poses/generator\n\n" +
-              this.genDatapack()
+            "# Generated using https://docs.lpsmods.dev/poses/generator\n\n" + this.genDatapack(),
           );
           break;
         case "bedrock":
@@ -550,10 +495,7 @@ export default {
             ],
           };
           zip.file("manifest.json", JSON.stringify(manifest));
-          zip.file(
-            `animations/armor_stand.${id.namespace}.json`,
-            JSON.stringify(this.genBedrock())
-          );
+          zip.file(`animations/armor_stand.${id.namespace}.json`, JSON.stringify(this.genBedrock()));
 
           break;
       }

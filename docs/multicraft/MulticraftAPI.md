@@ -1,14 +1,13 @@
 ---
-title: MulticraftAPI | multicraft Documentation
+title: MulticraftAPI class | multicraft Documentation
 description: Interact with your Minecraft server from hosts that use Multicraft using Python
-keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---
 
-# MulticraftAPI
+# `MulticraftAPI` class
 
 ## Parameters
 
-| name         | type | default value                                                | description |
+| Name         | Type | Default Value                                                | Description |
 | ------------ | ---- | ------------------------------------------------------------ | ----------- |
 | `url`        | str  |                                                              |             |
 | `user`       | str  |                                                              |             |
@@ -23,17 +22,21 @@ Set the User-Agent string to be used for all requests.
 
 #### Parameters
 
-| Name  | Type | Description                               |
-| ----- | ---- | ----------------------------------------- |
-| `str` |      | A string specifying the User-Agent header |
+| Name                | Type | Description                               |
+| ------------------- | ---- | ----------------------------------------- |
+| `user_agent_string` | str  | A string specifying the User-Agent header |
 
 ### `get_current_user`
 
 Get the current user
 
+**Return Type**: [User](./User.md)
+
 ### `get_user_role`
 
 Get the users role
+
+**Return Type**: [Role](./Role.md) (optional)
 
 #### Parameters
 
@@ -58,6 +61,8 @@ Sets the users role
 
 Get the users ftp access
 
+**Return Type**: [Mode](./Mode.md) (optional)
+
 #### Parameters
 
 | Name        | Type | Description                                    |
@@ -81,6 +86,8 @@ Sets the users ftp access
 
 Get the users id from name
 
+**Return Type**: int
+
 #### Parameters
 
 | Name   | Type | Description          |
@@ -99,6 +106,8 @@ Get the users id from name
 
 Get a list of all players
 
+**Return Type**: dict[str, str]
+
 #### Parameters
 
 | Name        | Type | Description          |
@@ -109,6 +118,8 @@ Get a list of all players
 
 Get the player from id
 
+**Return Type**: [Player](./Player.md)
+
 #### Parameters
 
 | Name        | Type | Description                 |
@@ -118,6 +129,8 @@ Get the player from id
 ### `find_players`
 
 Get player from field-value
+
+**Return Type**: dict[str,str]
 
 #### Parameters
 
@@ -142,6 +155,8 @@ Update this player
 ### `create_player`
 
 Create a new player
+
+**Return Type**: [Player](./Player.md)
 
 #### Parameters
 
@@ -176,6 +191,8 @@ Assign a player to a user
 
 Get a list of all commands
 
+**Return Type**: dict[str,str]
+
 #### Parameters
 
 | Name        | Type | Description          |
@@ -185,6 +202,8 @@ Get a list of all commands
 ### `find_commands`
 
 Get command from field-value
+
+**Return Type**: dict[int, str]
 
 #### Parameters
 
@@ -197,6 +216,8 @@ Get command from field-value
 ### `get_command`
 
 Get the command from id
+
+**Return Type**: [Command](./Command.md)
 
 #### Parameters
 
@@ -220,16 +241,18 @@ Update this command
 
 Create a new command
 
+**Return Type**: [Command](./Command.md)
+
 #### Parameters
 
-| Name        | Type | Description                                    |
-| ----------- | ---- | ---------------------------------------------- | ------------------ |
-| `server_id` | int  | The id of the server to create the command for |
-| `name`      | str  | The name of the command                        |
-| `role`      | Role | The role of the command                        |
-| `chat`      | str  | The chat command to run                        |
-| `response`  | str  | The response text                              |
-| `run`       |      | str                                            | The command to run |
+| Name        | Type           | Description                                    |
+| ----------- | -------------- | ---------------------------------------------- |
+| `server_id` | int            | The id of the server to create the command for |
+| `name`      | str            | The name of the command                        |
+| `role`      | [Role](./Role) | The role of the command                        |
+| `chat`      | str            | The chat command to run                        |
+| `response`  | str            | The response text                              |
+| `run`       | str            | The command to run                             |
 
 ### `delete_command`
 
@@ -244,6 +267,8 @@ Remove a command
 ### `list_servers_by_owner`
 
 Get a list of all servers that this user owns
+
+**Return Type**: dict[str,str]
 
 #### Parameters
 
@@ -352,6 +377,8 @@ Clear the server chat history
 
 Get the server from id
 
+**Return Type**: [Server](./Server.md)
+
 #### Parameters
 
 | Name        | Type | Description                 |
@@ -361,6 +388,8 @@ Get the server from id
 ### `get_server_status`
 
 Get the server's status
+
+**Return Type**: [ServerStatus](./ServerStatus.md)
 
 #### Parameters
 
@@ -373,6 +402,8 @@ Get the server's status
 
 Get the server's log
 
+**Return Type**: list[str]
+
 #### Parameters
 
 | Name        | Type | Description          |
@@ -383,6 +414,8 @@ Get the server's log
 
 Get the server's chat
 
+**Return Type**: list[[ChatMessage](./ChatMessage.md)]
+
 #### Parameters
 
 | Name        | Type | Description          |
@@ -392,6 +425,8 @@ Get the server's chat
 ### `get_server_resources`
 
 Get the server's resources
+
+**Return Type**: [ServerResources](./ServerResources.md)
 
 #### Parameters
 
@@ -412,6 +447,8 @@ Get a list of all schedules
 ### `find_schedules`
 
 Get schedule from field-value
+
+**Return Type**: dict[str,str]
 
 #### Parameters
 
@@ -437,15 +474,19 @@ Update this schedule
 
 Get the schedule from id
 
+**Return Type**: [Schedule](./Schedule.md)
+
 #### Parameters
 
 | Name          | Type | Description                   |
 | ------------- | ---- | ----------------------------- |
-| `scheudle_id` | int  | The id of the schedule to get |
+| `schedule_id` | int  | The id of the schedule to get |
 
 ### `create_schedule`
 
 Create a new schedule
+
+**Return Type**: [Schedule](./Schedule.md)
 
 #### Parameters
 
@@ -473,6 +514,8 @@ Remove a schedule
 
 Get info about the database
 
+**Return Type**: [Database](./Database.md)
+
 #### Parameters
 
 | Name        | Type | Description                                   |
@@ -482,6 +525,8 @@ Get info about the database
 ### `create_database`
 
 Create a new database (Limit of one database per server)
+
+**Return Type**: [Database](./Database.md)
 
 #### Parameters
 
@@ -494,6 +539,8 @@ Create a new database (Limit of one database per server)
 ### `change_database_password`
 
 Change the database password
+
+**Return Type**: [Database](./Database)
 
 #### Parameters
 
@@ -527,6 +574,8 @@ Starts a backup of the server
 ### `get_server_backup_status`
 
 Get the backup status of the server
+
+**Return Type**: [Backup](./Backup.md)
 
 #### Parameters
 

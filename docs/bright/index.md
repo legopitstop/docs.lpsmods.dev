@@ -1,31 +1,39 @@
 ---
 title: Bright Mod Wiki
-description: This Minecraft mod is the only light mod that you'll ever need! Bright Includes 5 unique lighting blocks to light up your world!
-keywords: legopitstop,minecraft,mod,add-on,fabricmc,forge,neoforge
+description: Illuminate your world with five versatile lighting blocks.
+layout: home
+
+hero:
+  name: Bright
+  text: Illuminate your world with five versatile lighting blocks.
+  tagline: Light up your builds
+  image:
+    src: /images/bright/icon.png
+  actions:
+    - theme: brand
+      text: Getting Started
+      link: ./getting-started
+    - theme: alt
+      text: CurseForge
+      link: https://www.curseforge.com/minecraft/mc-mods/bright
+    - theme: alt
+      text: Modrinth
+      link: https://modrinth.com/mod/bright
+    - theme: alt
+      text: Source Code
+      link: https://github.com/lpsmods/bright
+
+features:
+  - icon: 💡
+    title: 5 Unique Light Blocks
+    details: Includes light bulbs, floor lights, ceiling lights, light fixtures, and candlesticks.
+  - icon: 🔌
+    title: Powered Lighting
+    details: Lights emit when powered, integrating seamlessly with redstone.
+  - icon: ⚙️
+    title: Multi-Loader Compatibility
+    details: Supports Add-On, Fabric, Forge, and NeoForge environments.
+  - icon: 🛠️
+    title: Open-Source
+    details: Fully open-source with accessible documentation and source code.
 ---
-
-# Bright
-
-This Minecraft mod is the only light mod that you'll ever need! Bright Includes 5 unique lighting blocks to light up your world!
-
-## Technical Info
-
-| Key           | Value                                  |
-| ------------- | -------------------------------------- |
-| namespace     | `bright`                               |
-| resource UUID | `a9667f51-351b-47b6-bf2b-cedaa45cd884` |
-| behavior UUID | `2fe12920-6843-4f14-aa89-c4c1e14f4b9f` |
-| slug          | `bright`                               |
-
-## Loaders
-
-- Add-On
-- Fabric
-- Forge
-- NeoForge
-
-## Links
-
-- :fire: [Curseforge](https://www.curseforge.com/minecraft/mc-mods/bright)
-- :wrench: [Modrinth](https://modrinth.com/mod/bright)
-- :gear: [Source Code](https://github.com/lpsmods/bright)

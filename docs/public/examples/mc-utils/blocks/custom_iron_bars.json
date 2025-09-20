@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_iron_bars",
+      "states": {
+        "mcutils:north": [false, true],
+        "mcutils:south": [false, true],
+        "mcutils:east": [false, true],
+        "mcutils:west": [false, true]
+      }
+    },
+    "components": {
+      "minecraft:tick": {
+        "interval_range": [0, 0],
+        "looping": true
+      },
+      "mcutils:cross_collision": {
+        "north_state": "mcutils:north",
+        "east_state": "mcutils:east",
+        "south_state": "mcutils:south",
+        "west_state": "mcutils:west"
+      }
+    }
+  }
+}

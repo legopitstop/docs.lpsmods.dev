@@ -1,0 +1,29 @@
+{
+  "/assets-plus/": { "favicon": "/images/assets-plus/favicon.ico" },
+  "/bandages/": { "favicon": "/images/bandages/favicon.ico" },
+  "/barked/": { "favicon": "/images/barked/favicon.ico" },
+  "/basalt-blocks/": { "favicon": "/images/basalt-blocks/favicon.ico" },
+  "/ultimate-block-breaker/": {
+    "favicon": "/images/ultimate-block-breaker/favicon.ico"
+  },
+  "/bright/": { "favicon": "/images/bright/favicon.ico" },
+  "/canned/": { "favicon": "/images/canned/favicon.ico" },
+  "/lightning-bolt-glass/": {
+    "favicon": "/images/lightning-bolt-glass/favicon.ico"
+  },
+  "/simple-magnets/": { "favicon": "/images/simple-magnets/favicon.ico" },
+  "/more-blocks/": { "favicon": "/images/more-blocks/favicon.ico" },
+  "/more-food/": { "favicon": "/images/more-food/favicon.ico" },
+  "/more-gold/": { "favicon": "/images/more-gold/favicon.ico" },
+  "/more-honey/": { "favicon": "/images/more-honey/favicon.ico" },
+  "/more-pumpkins/": { "favicon": "/images/more-pumpkins/favicon.ico" },
+  "/more-stairs-and-slabs/": {
+    "favicon": "/images/more-stairs-and-slabs/favicon.ico"
+  },
+  "/armor-stand-poses/": { "favicon": "/images/armor-stand-poses/favicon.ico" },
+  "/lps-recipe-core/": { "favicon": "/images/lps-recipe-core/favicon.ico" },
+  "/record-api/": { "favicon": "/images/record-api/favicon.ico" },
+  "/spawner-craft/": { "favicon": "/images/spawner-craft/favicon.ico" },
+  "/tweaks_n_stuff/": { "favicon": "/images/tweaks_n_stuff/favicon.ico" },
+  "/ai_bench/": { "favicon": "/images/ai_bench/favicon.ico" }
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "wiki:custom_hoe"
+    },
+    "components": {
+      "mcutils:hoe": {
+        "size": 1,
+        "block": "farmland"
+      }
+    }
+  }
+}

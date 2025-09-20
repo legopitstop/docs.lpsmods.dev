@@ -1,0 +1,19 @@
+[
+  { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "API Reference",
+    "collapsed": true,
+    "items": [
+      { "text": "Constants", "link": "/constants" },
+      {
+        "text": "Classes",
+        "items": [
+          { "text": "MojangSkin", "link": "/MojangSkin" },
+          { "text": "SkinAnimation", "link": "/SkinAnimation" },
+          { "text": "SkinCanvas", "link": "/SkinCanvas" },
+          { "text": "Skin", "link": "/Skin" }
+        ]
+      }
+    ]
+  }
+]

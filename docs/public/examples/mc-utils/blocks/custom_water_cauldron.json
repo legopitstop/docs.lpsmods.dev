@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_water_cauldron",
+      "states": {
+        "mcutils:level": [3, 2, 1]
+      }
+    },
+    "components": {
+      "mcutils:layered_cauldron": {
+        "block": "wiki:cauldron",
+        "level_state": "mcutils:level",
+        "max_level": 3,
+        "interactions": ["bucket->water_bucket,-3", "glass_bottle->potion,-1", "potion->glass_bottle,+1"]
+      }
+    }
+  }
+}

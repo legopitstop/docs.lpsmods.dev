@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_tall_block",
+      "states": {
+        "mcutils:half": ["lower", "upper"]
+      }
+    },
+    "components": {
+      "mcutils:multiblock": {
+        "part_state": "mcutils:half",
+        "parts": ["lower,0,0,0", "upper,0,1,0"],
+        "sync_states": true
+      }
+    }
+  }
+}

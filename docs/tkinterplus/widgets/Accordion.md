@@ -1,12 +1,11 @@
 ---
-title: Accordian Widget | TkinterPlus
+title: Accordion Widget | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
-keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
 <!-- TODO: Add type & desc from  https://github.com/legopitstop/tkinterplus/tree/main/tkinterplus/widgets -->
 
-# Accordian Widget
+# Accordion Widget
 
 ## Parameters
 

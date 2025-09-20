@@ -1,7 +1,6 @@
 ---
 title: IgnoreFilter | gitfiles Documentation
 description: Load, filter and match .gitingore files.
-keywords: legopitstop,python,minecraft,pypi,gitignore,pythonpackage
 ---
 
 # IgnoreFilter class

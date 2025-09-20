@@ -1,0 +1,25 @@
+[
+  { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "API Reference",
+    "collapsed": true,
+    "items": [
+      { "text": "Functions", "link": "/functions" },
+      {
+        "text": "Classes",
+        "collapsed": false,
+        "items": [
+          { "text": "Cache", "link": "/Cache" },
+          { "text": "Config", "link": "/Config" },
+          { "text": "User", "link": "/User" },
+          { "text": "ConfigDialog", "link": "/ConfigDialog" },
+          { "text": "CTkConfigDialog", "link": "/CTkConfigDialog" },
+          { "text": "localStorage", "link": "/localStorage" },
+          { "text": "sessionStorage", "link": "/sessionStorage" },
+          { "text": "Storage", "link": "/Storage" },
+          { "text": "TrackEvent", "link": "/TrackEvent" }
+        ]
+      }
+    ]
+  }
+]

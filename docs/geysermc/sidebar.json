@@ -1,0 +1,36 @@
+[
+  { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "API Reference",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Functions",
+        "link": "/functions"
+      },
+      {
+        "text": "Classes",
+        "items": [
+          { "text": "BuildChange", "link": "/BuildChange" },
+          { "text": "BuildList", "link": "/BuildList" },
+          { "text": "Build", "link": "/Build" },
+          { "text": "ConvertedSkin", "link": "/ConvertedSkin" },
+          { "text": "Download", "link": "/Download" },
+          { "text": "Link", "link": "/Link" },
+          { "text": "OpenAPI", "link": "/OpenAPI" },
+          { "text": "Path", "link": "/Path" },
+          { "text": "ProjectVersion", "link": "/ProjectVersion" },
+          { "text": "Project", "link": "/Project" },
+          {
+            "text": "RecentConvertedSkinList",
+            "link": "/RecentConvertedSkinList"
+          },
+          { "text": "Schema", "link": "/Schema" },
+          { "text": "Server", "link": "/Server" },
+          { "text": "Statistics", "link": "/Statistics" },
+          { "text": "UsernameProfile", "link": "/UsernameProfile" }
+        ]
+      }
+    ]
+  }
+]

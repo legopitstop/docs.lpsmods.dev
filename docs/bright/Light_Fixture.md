@@ -53,14 +53,14 @@ To turn on or off a light fixture, use the "Use Item/Place Block" control (right
 
 Bedrock Edition:
 
-| Name                      | Namespaced ID             | Translation Key                |
-| ------------------------- | ------------------------- | ------------------------------ |
+| Name                    | Namespaced ID           | Translation Key              |
+| ----------------------- | ----------------------- | ---------------------------- |
 | Light Fixture (#bright) | `bright:_light_fixture` | `item.bright:_light_fixture` |
 
 Forge-Fabric Edition:
 
-| Name          | Namespaced ID             | Translation Key                |
-| ------------- | ------------------------- | ------------------------------ |
+| Name          | Namespaced ID           | Translation Key              |
+| ------------- | ----------------------- | ---------------------------- |
 | Light Fixture | `bright:_light_fixture` | `item.bright._light_fixture` |
 
 ## History

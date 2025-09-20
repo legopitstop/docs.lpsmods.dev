@@ -19,3 +19,4 @@ title: Python Documentations
 - :wrench: [multicraft](./multicraft/index.md)
 - :jar: [serverjars](./serverjars/index.md)
 - :speech_balloon: [mclang](./mclang/index.md)
+- :computer: [lpsmods-api](./lpsmods-api/index.md)

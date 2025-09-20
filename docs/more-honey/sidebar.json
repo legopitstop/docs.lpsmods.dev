@@ -1,0 +1,33 @@
+[
+   { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Blocks",
+    "collapsed": true,
+    "items": [{ "text": "Honey Press", "link": "/Honey_Press.md" }]
+  },
+  {
+    "text": "Items",
+    "collapsed": true,
+    "items": [
+      { "text": "Honey Cooked Beef", "link": "/Honey_Cooked_Beef.md" },
+      {
+        "text": "Honey Cooked Chicken",
+        "link": "/Honey_Cooked_Chicken.md"
+      },
+      {
+        "text": "Honey Cooked Mutton",
+        "link": "/Honey_Cooked_Mutton.md"
+      },
+      {
+        "text": "Honey Cooked Porkchop",
+        "link": "/Honey_Cooked_Porkchop.md"
+      },
+      { "text": "Honey Cookie", "link": "/Honey_Cookie.md" },
+      { "text": "Honey Lemon Tea", "link": "/Honey_Lemon_Tea.md" },
+      { "text": "Honey Pancakes", "link": "/Honey_Pancakes.md" },
+      { "text": "Honey Sandwich", "link": "/Honey_Sandwich.md" },
+      { "text": "Honey Toastie", "link": "/Honey_Toastie.md" },
+      { "text": "Honey Waffle", "link": "/Honey_Waffle.md" }
+    ]
+  }
+]
