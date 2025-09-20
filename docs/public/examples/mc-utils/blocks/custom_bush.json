@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_bush",
+      "states": {
+        "mcutils:growth": [0, 1, 2, 3]
+      }
+    },
+    "components": {
+      "minecraft:tick": {
+        "interval_range": [0, 0]
+      },
+      "mcutils:bush": {
+        "growth_state": "mcutils:growth",
+        "loot_tables": ["2,lpsmods/harvest/bush_2", "3,lpsmods/harvest/bush_3"]
+      },
+      "mcutils:crop": {
+        "growth_state": "mcutils:growth",
+        "max_stage": 3
+      },
+      "mcutils:fertilizable": {
+        "growth_state": "mcutils:growth",
+        "max_stage": 3
+      },
+      "mcutils:viscosity": {
+        "value":-5
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+[
+   { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Blocks",
+    "collapsed": true,
+    "items": [
+      { "text": "Candle Stick", "link": "/Candle_Stick.md" },
+      { "text": "Ceiling Light", "link": "/Ceiling_Light.md" },
+      { "text": "Floor Light", "link": "/Floor_Light.md" },
+      { "text": "Light Bulb", "link": "/Light_Bulb.md" },
+      { "text": "Light Fixture", "link": "/Light_Fixture.md" }
+    ]
+  }
+]

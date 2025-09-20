@@ -45,12 +45,7 @@ export default {
     init: function () {
       let container = document.getElementById("model-renderer");
       this.scene = new THREE.Scene();
-      this.camera = new THREE.PerspectiveCamera(
-        75,
-        container.clientWidth / container.clientHeight,
-        0.1,
-        1000
-      );
+      this.camera = new THREE.PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000);
       this.renderer = new THREE.WebGLRenderer();
       this.renderer.setSize(container.clientWidth, container.clientHeight);
       container.appendChild(this.renderer.domElement);
@@ -66,7 +61,7 @@ export default {
           scene.add(e.scene);
         },
         undefined,
-        undefined
+        undefined,
       );
 
       // Sun
@@ -96,14 +91,7 @@ export default {
       const lightBottom = new THREE.DirectionalLight(0xffffff, -0.02);
       lightBottom.position.set(0, -100, 0);
 
-      this.lightGroup.add(
-        lightNorth,
-        lightSouth,
-        lightEast,
-        lightWest,
-        lightTop,
-        lightBottom
-      );
+      this.lightGroup.add(lightNorth, lightSouth, lightEast, lightWest, lightTop, lightBottom);
       this.scene.add(this.lightGroup);
 
       if (this.axis) {
@@ -116,11 +104,7 @@ export default {
 
       // Controls
       this.scene.position.set(0, -13, 0);
-      this.camera.position.set(
-        this.cameraPos[0],
-        this.cameraPos[1],
-        this.cameraPos[2]
-      );
+      this.camera.position.set(this.cameraPos[0], this.cameraPos[1], this.cameraPos[2]);
       const controls = new OrbitControls(this.camera, this.renderer.domElement);
       controls.enablePan = this.pan;
       controls.enableZoom = this.zoom;

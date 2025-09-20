@@ -1,0 +1,14 @@
+[
+   { "text": "Getting Started", "link": "/getting-started" },
+  { "text": "Schema", "link": "/schema" },
+  { "text": "Syntax", "link": "/syntax" },
+  { "text": "Background Options", "link": "/background-options" },
+  { "text": "Markdown Flavor", "link": "/markdown-flavor" },
+  {
+    "text": "Examples",
+    "items": [
+      { "text": "Example", "link": "/example" },
+      { "text": "Premium Example", "link": "/premium-example" }
+    ]
+  }
+]

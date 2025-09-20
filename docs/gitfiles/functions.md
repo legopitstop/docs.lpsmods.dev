@@ -1,7 +1,6 @@
 ---
 title: Functions | gitfiles Documentation
 description: All functions in the gitfiles module.
-keywords: legopitstop,python,minecraft,pypi,gitignore,pythonpackage
 ---
 
 # Functions

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_potted_flower"
+    },
+    "components": {
+      "mcutils:potted_flower": {
+        "item": "mcutils:flower",
+        "block": "minecraft:flower_pot"
+      }
+    }
+  }
+}

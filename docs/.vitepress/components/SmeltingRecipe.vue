@@ -9,9 +9,7 @@
         <InvSlot :id="fuel" :count="fuel_count" />
       </span>
       <span class="mcui-arrow"><br /></span>
-      <span class="mcui-output">
-        <InvSlot :id="output" :count="output_count" large
-      /></span>
+      <span class="mcui-output"> <InvSlot :id="output" :count="output_count" large /></span>
     </span>
   </div>
 </template>

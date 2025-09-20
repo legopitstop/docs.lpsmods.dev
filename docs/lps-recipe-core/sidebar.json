@@ -1,0 +1,29 @@
+[
+   { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Upcoming Features",
+    "collapsed": true,
+    "items": [
+      { "text": "Crafting Table", "link": "/crafting-table" },
+      { "text": "Items", "link": "/items" },
+      { "text": "Item Types", "link": "/item-types" },
+      { "text": "Recipes", "link": "/recipes" },
+      { "text": "Recipe Types", "link": "/recipe-types" },
+      { "text": "Tables", "link": "/tables" },
+      { "text": "Events", "link": "/events" },
+      { "text": "utils", "link": "/utils" },
+      {
+        "text": "Examples",
+        "collapsed": true,
+        "items": [
+          { "text": "Items", "link": "/example-items" },
+          { "text": "Item Types", "link": "/example-item-types" },
+          { "text": "Recipes", "link": "/example-recipes" },
+          { "text": "Recipe Types", "link": "/example-recipe-types" },
+          { "text": "Tables", "link": "/example-tables" }
+        ]
+      }
+    ]
+  },
+  { "text": "Generator", "link": "/generator" }
+]

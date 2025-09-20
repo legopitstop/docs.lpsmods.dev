@@ -1,0 +1,33 @@
+[
+  { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "API Reference",
+    "collapsed": true,
+    "items": [
+      { "text": "Functions", "link": "/functions" },
+      { "text": "Constants", "link": "/constants" },
+      {
+        "text": "Classes",
+        "items": [
+          { "text": "Item", "link": "/Item" },
+          { "text": "ItemComponent", "link": "/ItemComponent" },
+          { "text": "Block", "link": "/Block" },
+          { "text": "BlockComponent", "link": "/BlockComponent" },
+          { "text": "GeometryPart", "link": "/GeometryPart" },
+          { "text": "CullingRule", "link": "/CullingRule" },
+          { "text": "BlockCullingRules", "link": "/BlockCullingRules" },
+          { "text": "CameraPreset", "link": "/CameraPreset" },
+          { "text": "Event", "link": "/Event" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "text": "Examples",
+    "items": [
+      { "text": "Item", "link": "/example-items" },
+      { "text": "Block", "link": "/example-blocks" }
+    ]
+  }
+]

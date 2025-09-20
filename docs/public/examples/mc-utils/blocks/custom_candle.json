@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_candle",
+      "states": {
+        "mcutils:candles": [1, 2, 3, 4],
+        "mcutils:lit": [false, true]
+      }
+    },
+    "components": {
+      "minecraft:tick": {
+        "interval_range": [0, 0]
+      },
+      "mcutils:candle": {
+        "item": "wiki:candle",
+        "candles_state": "mcutils:candles",
+        "lit_state": "mcutils:lit",
+        "max_candles": 4,
+        "flame_positions": [
+          "1,0,8,0",
+          "2,2,8,-1",
+          "2,-2,7,0",
+          "3,1,8,-1",
+          "3,-2,7,0",
+          "3,0,5,2",
+          "4,1,8,-2",
+          "4,-2,7,-2",
+          "4,2,7,1",
+          "4,-1,5,1"
+        ],
+        "flame_particle": "minecraft:candle_flame_particle"
+      }
+    }
+  }
+}

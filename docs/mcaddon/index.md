@@ -1,52 +1,43 @@
 ---
 title: mcaddon Documentation
-description: Utility functions for creating Minecraft Bedrock Add-Ons.
-keywords: legopitstop,python,minecraft,json,pypi,resourcepack,development-kit,add-on,bedrock-edition,mcpack,pythonpackage,behaviorpack,mcaddon
+description: Python module for creating Minecraft Bedrock Add-Ons with ease.
+layout: home
+
+hero:
+  name: mcaddon
+  text: Python module for creating Minecraft Bedrock Add-Ons with ease.
+  tagline: Simplify Bedrock Add-On development
+  actions:
+    - theme: brand
+      text: Getting Started
+      link: ./getting-started
+    - theme: alt
+      text: Download
+      link: https://github.com/legopitstop/mcaddon/releases
+    - theme: alt
+      text: PyPI
+      link: https://pypi.org/project/mcaddon/
+    - theme: alt
+      text: Source Code
+      link: https://github.com/legopitstop/mcaddon
+
+features:
+  - icon: 🧱
+    title: Block Creation
+    details: Define custom blocks with components like interactions and properties.
+  - icon: 🛠️
+    title: Item Configuration
+    details: Configure items by adding components such as fuel value, stack size, and display name.
+  - icon: ⚙️
+    title: Component-Based Design
+    details: Utilize a modular approach to add various components to blocks and items.
+  - icon: 💾
+    title: JSON Output
+    details: Save configurations as JSON files for easy integration into Minecraft.
+  - icon: 📦
+    title: Simple Installation
+    details: Install via pip with `pip install mcaddon` for quick setup.
+  - icon: 🛠️
+    title: Open-Source
+    details: Fully open-source with accessible documentation and source code.
 ---
-
-# mcaddon
-
-Utility functions for creating Minecraft Bedrock Add-Ons.
-
-## Links
-
-- :pie: [PyPI](https://pypi.org/project/mcaddon)
-- :file_folder: [Download](https://github.com/legopitstop/mcaddon/releases)
-- :gear: [Source Code](https://github.com/legopitstop/mcaddon)
-
-## Installation
-
-Install the module with pip:
-
-```bat
-pip3 install mcaddon
-```
-
-Update existing installation: `pip3 install mcaddon --upgrade`
-
-## Examples
-
-### Block
-
-```Python
-from mcaddon import *
-
-blk = Block('test:on_interact_change_state_block')
-blk.add_component(OnInteractComponent(event='test_event'))
-blk.add_event('test_event', SetBlockProperty({'custom:direction': "1"}))
-blk.save('block.json')
-```
-
-### Item
-
-```Python
-from mcaddon import *
-
-blk = Item('minecraft:blaze_rod')
-blk.add_component(FuelComponent(12.0))
-blk.add_component(MaxStackSizeComponent(64))
-blk.add_component(IconComponent('blaze_rod'))
-blk.add_component(HandEquippedComponent(True))
-blk.add_component(DisplayNameComponent('Blaze Rod'))
-blk.save('item.json')
-```

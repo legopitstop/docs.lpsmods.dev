@@ -211,8 +211,8 @@ ttk_scale.grid(row=4, column=1)
 ttk_scrollbar = ttk.Scrollbar(TTK)
 ttk_scrollbar.grid(row=0, column=2)
 
-ttk_seperator = ttk.Separator(TTK)
-ttk_seperator.grid(row=1, column=2)
+ttk_separator = ttk.Separator(TTK)
+ttk_separator.grid(row=1, column=2)
 
 ttk_sizegrip = ttk.Sizegrip(TTK)
 ttk_sizegrip.grid(row=2, column=2)

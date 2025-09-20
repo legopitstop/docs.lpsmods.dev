@@ -1,30 +1,36 @@
 ---
 title: More Gold Mod Wiki
-description: Ever thought that Minecraft needed more golden food? Then this is your mod! This mod adds more than 5+ gold foods. Use it to replenish those health and hunger points and have some good buffs.
-keywords: legopitstop,minecraft,mod,datapack,resourcepack,add-on,fabricmc,moregold,more gold
+description: Adds over five new golden foods to Minecraft for enhanced buffs and nourishment.
+layout: home
+
+hero:
+  name: More Gold
+  text: Adds over five new golden foods to Minecraft for enhanced buffs and nourishment.
+  tagline: Enrich your game with golden treats
+  image:
+    src: /images/more-gold/icon.png
+  actions:
+    - theme: brand
+      text: Getting Started
+      link: ./getting-started
+    - theme: alt
+      text: Modrinth
+      link: https://modrinth.com/mod/more-gold
+    - theme: alt
+      text: CurseForge
+      link: https://www.curseforge.com/minecraft/mc-mods/more-gold
+    - theme: alt
+      text: MCPEDL
+      link: https://mcpedl.com/more-gold/
+
+features:
+  - icon: 🍯
+    title: Gold-Based Foods
+    details: Introduces over 5 new golden foods like Golden Strawberries and Golden Oranges.
+  - icon: ⚙️
+    title: Multi-Loader Compatibility
+    details: Supports Add-On, Fabric, Forge, and NeoForge environments.
+  - icon: 🛠️
+    title: Open-Source
+    details: Fully open-source with accessible documentation and source code.
 ---
-
-# More Gold
-
-Ever thought that Minecraft needed more golden food? Then this is your mod! This mod adds more than 5+ gold foods. Use it to replenish those health and hunger points and have some good buffs.
-
-## Technical Info
-
-| Key           | Value                                  |
-| ------------- | -------------------------------------- |
-| namespace     | `moregold`                             |
-| resource UUID | `ebe601a9-616a-4d6e-9150-2c918c7c96f4` |
-| behavior UUID | `8878bd80-768e-4b36-acee-5271216c02e7` |
-| slug      | `more-gold` |
-
-## Loaders
-
-- Data Pack & Resource Pack
-- Fabric
-- Add-On
-
-## Links
-
-- :fire: [Curseforge](https://www.curseforge.com/minecraft-bedrock/addons/more-gold)
-- :wrench: [MCPEDL](https://mcpedl.com/more-gold/)
-- :gear: [Source Code](https://github.com/lpsmods/more-gold)

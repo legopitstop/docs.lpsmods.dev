@@ -19,8 +19,7 @@
 
       <div v-else>
         <div class="language-text vp-adaptive-theme">
-          <button title="Copy Code" class="copy"></button
-          ><span class="lang">text</span>
+          <button title="Copy Code" class="copy"></button><span class="lang">text</span>
           <div v-html="output"></div>
         </div>
       </div>
@@ -60,9 +59,7 @@ export default {
     onChange(ele) {
       if (ele.target.id != "version") return;
       console.log(ele.target.value);
-      var version = this.manifest.versions.find(
-        (v) => v.id === ele.target.value
-      );
+      var version = this.manifest.versions.find((v) => v.id === ele.target.value);
       this.getFormats(version.url);
     },
     getLabel(versionId) {

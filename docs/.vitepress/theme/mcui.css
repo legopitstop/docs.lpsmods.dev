@@ -113,8 +113,7 @@ video {
   position: relative;
   background-color: var(--mcui-bg);
   border: 2px solid;
-  border-color: var(--mcui-border-light) var(--mcui-border-dark) var(--mcui-border-dark)
-    var(--mcui-border-light);
+  border-color: var(--mcui-border-light) var(--mcui-border-dark) var(--mcui-border-dark) var(--mcui-border-light);
   padding: 6px;
   text-align: left;
   white-space: nowrap;
@@ -175,8 +174,7 @@ video {
 .invslot:not(.invslot-noformat):not(.invslot-large):not(.invslot-plain) {
   background: var(--mcui-slot) no-repeat center center / 32px 32px;
   border: 2px solid;
-  border-color: var(--mcui-border-dark) var(--mcui-border-light) var(--mcui-border-light)
-    var(--mcui-border-dark);
+  border-color: var(--mcui-border-dark) var(--mcui-border-light) var(--mcui-border-light) var(--mcui-border-dark);
   width: 36px;
   height: 36px;
 }
@@ -199,8 +197,7 @@ video {
 .invslot-large {
   background: var(--mcui-slot) no-repeat center center / 32px 32px;
   border: 2px solid;
-  border-color: var(--mcui-border-dark) var(--mcui-border-light) var(--mcui-border-light)
-    var(--mcui-border-dark);
+  border-color: var(--mcui-border-dark) var(--mcui-border-light) var(--mcui-border-light) var(--mcui-border-dark);
   width: 56px;
   height: 56px;
   padding: 10px;
@@ -315,8 +312,7 @@ img {
   background-color: #100010;
   background-color: rgba(16, 0, 16, 0.94);
   padding: 0.375em;
-  font-family: Minecraft, "WenQuanYi Bitmap Song", SimSun, Unifont, NISC18030, Beijing, Courier,
-    sans-serif;
+  font-family: Minecraft, "WenQuanYi Bitmap Song", SimSun, Unifont, NISC18030, Beijing, Courier, sans-serif;
   font-size: 16px;
   word-spacing: 4px;
   white-space: nowrap;
@@ -331,98 +327,153 @@ img {
   -o-border-image: var(--mcui-image-bg) 4 fill repeat;
   border-image: var(--mcui-image-bg) 4 fill repeat;
 }
-.format-0 {
-  color: #000;
-  text-shadow: 0.125em 0.125em 0 #000;
+
+/* COLOR CODES */
+
+.format-0,
+.format-black {
+  color: #000000;
+  text-shadow: 0.125em 0.125em 0 #000000;
 }
-.format-1 {
-  color: #00a;
+.format-1,
+.format-dark_blue {
+  color: #0000aa;
   text-shadow: 0.125em 0.125em 0 #00002a;
 }
-.format-2 {
-  color: #0a0;
+.format-2,
+.format-dark_green {
+  color: #00aa00;
   text-shadow: 0.125em 0.125em 0 #002a00;
 }
-.format-3 {
-  color: #0aa;
+.format-3,
+.format-dark_aqua {
+  color: #00aaaa;
   text-shadow: 0.125em 0.125em 0 #002a2a;
 }
-.format-4 {
-  color: #a00;
+.format-4,
+.format-dark_red {
+  color: #aa0000;
   text-shadow: 0.125em 0.125em 0 #2a0000;
 }
-.format-5 {
-  color: #a0a;
+.format-5,
+.format-dark_purple {
+  color: #aa00aa;
   text-shadow: 0.125em 0.125em 0 #2a002a;
 }
-.format-6 {
-  color: #fa0;
-  text-shadow: 0.125em 0.125em 0 #2a2a00;
+.format-6,
+.format-gold {
+  color: #ffaa00;
+  text-shadow: 0.125em 0.125em 0 #3e2a00;
 }
-.format-7 {
-  color: #aaa;
+.format-7,
+.format-gray {
+  color: #aaaaaa;
   text-shadow: 0.125em 0.125em 0 #2a2a2a;
 }
-.format-8 {
-  color: #555;
+.format-7-alt,
+.format-gray-alt {
+  color: #c6c6c6;
+  text-shadow: 0.125em 0.125em 0 #313131;
+}
+.format-8,
+.format-dark_gray {
+  color: #555555;
   text-shadow: 0.125em 0.125em 0 #151515;
 }
-.format-9 {
-  color: #55f;
+.format-9,
+.format-blue {
+  color: #5555ff;
   text-shadow: 0.125em 0.125em 0 #15153f;
 }
-.format-a {
-  color: #5f5;
+.format-a,
+.format-green {
+  color: #55ff55;
   text-shadow: 0.125em 0.125em 0 #153f15;
 }
-.format-b {
-  color: #5ff;
+.format-b,
+.format-aqua {
+  color: #55ffff;
   text-shadow: 0.125em 0.125em 0 #153f3f;
 }
-.format-c {
-  color: #f55;
+.format-c,
+.format-red {
+  color: #ff5555;
   text-shadow: 0.125em 0.125em 0 #3f1515;
 }
-.format-d {
-  color: #f5f;
+.format-d,
+.format-light_purple {
+  color: #ff55ff;
   text-shadow: 0.125em 0.125em 0 #3f153f;
 }
-.format-e {
-  color: #ff5;
+.format-e,
+.format-yellow {
+  color: #ffff55;
   text-shadow: 0.125em 0.125em 0 #3f3f15;
 }
-/* TODO */
-.format-g {
-  color: #efce16;
-  text-shadow: 0.125em 0.125em 0 #3f3f15;
+.format-f,
+.format-white {
+  color: #ffffff;
+  text-shadow: 0.125em 0.125em 0 #3f3f3f;
 }
-.format-j {
-  color: #44393a;
-  text-shadow: 0.125em 0.125em 0 #3f3f15;
+.format-g,
+.format-minecoin_gold {
+  color: #ddd605;
+  text-shadow: 0.125em 0.125em 0 #373501;
 }
-.format-p {
-  color: #deb02c;
-  text-shadow: 0.125em 0.125em 0 #3f3f15;
+.format-h,
+.format-material_quartz {
+  color: #e3d4d1;
+  text-shadow: 0.125em 0.125em 0 #383534;
 }
-.format-q {
-  color: #119f36;
-  text-shadow: 0.125em 0.125em 0 #3f3f15;
+.format-i,
+.format-material_iron {
+  color: #cecaca;
+  text-shadow: 0.125em 0.125em 0 #333232;
 }
-.format-t {
-  color: #20487a;
-  text-shadow: 0.125em 0.125em 0 #3f3f15;
+.format-j,
+.format-material_netherite {
+  color: #443a3b;
+  text-shadow: 0.125em 0.125em 0 #110e0e;
 }
-.format-u {
-  color: #9a5cc5;
-  text-shadow: 0.125em 0.125em 0 #3f3f15;
+.format-m-alt,
+.format-material_redstone {
+  color: #971607;
+  text-shadow: 0.125em 0.125em 0 #250501;
 }
-.format-v {
-  color: #ea7113;
-  text-shadow: 0.125em 0.125em 0 #3f3f15;
-}
-.format-n-alt {
+.format-n-alt,
+.format-material_copper {
   color: #b4684d;
-  text-shadow: 0.125em 0.125em 0 #3f3f15;
+  text-shadow: 0.125em 0.125em 0 #2d1a13;
+}
+.format-p,
+.format-material_gold {
+  color: #deb12d;
+  text-shadow: 0.125em 0.125em 0 #372c0b;
+}
+.format-q,
+.format-material_emerald {
+  color: #119f36;
+  text-shadow: 0.125em 0.125em 0 #04280d;
+}
+.format-s,
+.format-material_diamond {
+  color: #2cbaa8;
+  text-shadow: 0.125em 0.125em 0 #0b2e2a;
+}
+.format-t,
+.format-material_lapis {
+  color: #21497b;
+  text-shadow: 0.125em 0.125em 0 #08121e;
+}
+.format-u,
+.format-material_amethyst {
+  color: #9a5cc6;
+  text-shadow: 0.125em 0.125em 0 #261731;
+}
+.format-v,
+.format-material_resin {
+  color: #eb7114;
+  text-shadow: 0.125em 0.125em 0 #3b1d05;
 }
 
 .format-f,
@@ -430,6 +481,9 @@ img {
   color: #fff;
   text-shadow: 0.125em 0.125em 0 #3f3f3f;
 }
+
+/* FORMAT CODES */
+
 .format-l {
   font-weight: bold;
   letter-spacing: 0.125em;

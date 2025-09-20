@@ -4,4 +4,4 @@ title: Accordion Example | TkinterPlus
 
 # Accordion Example
 
-<<< @/public/examples/accordion.py
+<<< @/public/examples/tkinterplus/accordion.py

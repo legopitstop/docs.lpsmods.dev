@@ -1,0 +1,18 @@
+[
+  { "text": "Getting Started", "link": "/getting-started" },
+  { "text": "Block Textures", "link": "/block-textures" },
+  { "text": "Item Textures", "link": "/item-textures" },
+  { "text": "Models", "link": "/models" },
+  {
+    "text": "Entity Models",
+    "collapsed": true,
+    "base": "/assets-plus/models/entity",
+    "items": [{ "text": "Empty", "link": "/empty" }]
+  },
+  {
+    "text": "Block Models",
+    "collapsed": true,
+    "base": "/assets-plus/models/blocks",
+    "items": [{ "text": "Example", "link": "/example" }]
+  }
+]

@@ -4,4 +4,4 @@ title: Form Example | TkinterPlus
 
 # Form Example
 
-<<< @/public/examples/form.py
+<<< @/public/examples/tkinterplus/form.py

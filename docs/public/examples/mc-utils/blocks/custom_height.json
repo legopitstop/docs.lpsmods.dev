@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_height",
+      "states": {
+        "mcutils:layers": [1, 2, 3, 4, 5, 6, 7, 8]
+      },
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": ["minecraft:vertical_half"]
+        }
+      }
+    },
+    "components": {
+      "mcutils:height": {
+        "layers_state": "mcutils:layers",
+        "max_layers": 8
+      }
+    }
+  }
+}

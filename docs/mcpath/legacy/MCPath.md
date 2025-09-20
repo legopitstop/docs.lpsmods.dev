@@ -4,7 +4,7 @@ description: desc
 ---
 
 ::: tip
-This page describes content that exists only in outdated versions of *mcpath*.
+This page describes content that exists only in outdated versions of _mcpath_.
 :::
 
 # MCPath Class

@@ -10,6 +10,7 @@ import StonecutterRecipe from "../components/StonecutterRecipe.vue";
 import SmithingRecipe from "../components/SmithingRecipe.vue";
 import Inventory from "../components/Inventory.vue";
 import InvSlot from "../components/InvSlot.vue";
+import Icon from "../components/Icon.vue";
 
 import PackFormat from "../components/PackFormat.vue";
 import MCExtractCLI from "../components/MCExtractCLI.vue";
@@ -34,11 +35,13 @@ import items9 from "../data/ultimate_block_breaker.json";
 import items10 from "../data/bright.json";
 import items11 from "../data/canned.json";
 import items12 from "../data/simple_magnets.json";
+import items13 from "../data/basalt_blocks.json";
 
 export default {
   extends: DefaultTheme,
   setup: setup,
   enhanceApp({ app: e }) {
+    e.component("Icon", Icon);
     e.component("ShapedRecipe", ShapedRecipe);
     e.component("ShapelessRecipe", ShapelessRecipe);
     e.component("SmeltingRecipe", SmeltingRecipe);
@@ -66,5 +69,6 @@ export default {
     registerFile(items10);
     registerFile(items11);
     registerFile(items12);
+    registerFile(items13);
   },
 };

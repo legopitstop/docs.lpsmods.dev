@@ -32,11 +32,7 @@
           <button @click="state = 'welcome'">Welcome</button>
           <a href="https://discord.gg/JbyTHWW" target="_blank">Discord</a>
           <hr />
-          <a
-            href="https://github.com/legopitstop/docs.lpsmods.dev/issues"
-            target="_blank"
-            >Issues</a
-          >
+          <a href="https://github.com/legopitstop/docs.lpsmods.dev/issues" target="_blank">Issues</a>
           <a
             href="https://github.com/legopitstop/docs.lpsmods.dev/tree/main/docs/.vitepress/components/MusicDiscStudio.vue"
             target="_blank"
@@ -48,12 +44,7 @@
       </div>
     </div>
     <div id="tabs" v-if="state == 'item' || state == 'project'">
-      <div
-        class="tab"
-        v-for="item in project.items"
-        :id="item.uuid"
-        @click="selectItem(item.uuid)"
-      >
+      <div class="tab" v-for="item in project.items" :id="item.uuid" @click="selectItem(item.uuid)">
         <div>
           {{ item.name }}
           <button class="close" @click="removeItem(item.uuid)">X</button>
@@ -79,37 +70,17 @@
         <input type="text" id="namespace" v-model="project.namespace" />
 
         <label for="icon">Icon</label>
-        <img
-          class="preview"
-          :src="project.icon.source"
-          alt="preview"
-          id="iconpreview"
-        />
-        <input
-          type="file"
-          id="icon"
-          accept="image/*"
-          @change="selectImage($event, 'icon', 128, 128)"
-        />
+        <img class="preview" :src="project.icon.source" alt="preview" id="iconpreview" />
+        <input type="file" id="icon" accept="image/*" @change="selectImage($event, 'icon', 128, 128)" />
 
         <label for="descriptiontype">Description Type</label>
-        <select
-          name="descriptiontype"
-          id="descriptiontype"
-          v-model="project.descriptionType"
-        >
+        <select name="descriptiontype" id="descriptiontype" v-model="project.descriptionType">
           <option value="string">String</option>
           <option value="text">Text</option>
         </select>
 
         <label for="description">Description</label>
-        <textarea
-          name="description"
-          id="description"
-          cols="30"
-          rows="10"
-          v-model="project.description"
-        ></textarea>
+        <textarea name="description" id="description" cols="30" rows="10" v-model="project.description"></textarea>
       </div>
       <div id="item" v-if="state == 'item' && project.selected != undefined">
         <label for="name">Name</label>
@@ -122,11 +93,7 @@
         <input id="id" type="text" v-model="project.selected.id" />
 
         <label for="powerlevel">Power Level</label>
-        <input
-          id="powerlevel"
-          type="number"
-          v-model="project.selected.powerLevel"
-        />
+        <input id="powerlevel" type="number" v-model="project.selected.powerLevel" />
 
         <label for="obtain">Obtain</label>
         <select name="obtain" id="obtain" v-model="project.selected.obtain">
@@ -135,18 +102,8 @@
         </select>
 
         <label for="texture">Texture</label>
-        <img
-          class="preview"
-          :src="project.selected.texture.source"
-          alt="preview"
-          id="texturepreview"
-        />
-        <input
-          id="texture"
-          type="file"
-          accept="image/*"
-          @change="selectImage($event, 'texture', 16, 16)"
-        />
+        <img class="preview" :src="project.selected.texture.source" alt="preview" id="texturepreview" />
+        <input id="texture" type="file" accept="image/*" @change="selectImage($event, 'texture', 16, 16)" />
 
         <label for="sound">Sound</label>
         <audio src="/test.ogg" controls></audio>
@@ -194,18 +151,7 @@ class Resource {
 }
 
 class Item {
-  constructor(
-    uuid,
-    name,
-    artest,
-    id,
-    powerLevel,
-    customModelData,
-    obtain,
-    texture,
-    nbt,
-    sound
-  ) {
+  constructor(uuid, name, artest, id, powerLevel, customModelData, obtain, texture, nbt, sound) {
     this.uuid = uuid;
     this.name = name;
     this.artest = artest;
@@ -241,7 +187,7 @@ class Item {
           id: data.id,
           powerLevel: data.power_level,
           customModelData: data.custom_model_data,
-          obtain: data.obtain==0 ? 'none' : 'creeper',
+          obtain: data.obtain == 0 ? "none" : "creeper",
           nbt: data.nbt,
           texture: Resource.fromJSON(data.texture),
           sound: Resource.fromJSON(data.sound),

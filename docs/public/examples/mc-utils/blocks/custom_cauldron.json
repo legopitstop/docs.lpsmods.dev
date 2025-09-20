@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_cauldron"
+    },
+    "components": {
+      "mcutils:cauldron": {
+        "interactions": [
+          "potion->wiki:water_cauldron[mcutils:level=1]->glass_bottle",
+          "water_bucket->wiki:water_cauldron[mcutils:level=3]->bucket",
+          "lava_bucket->wiki:lava_cauldron->bucket"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+[
+   { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Blocks",
+    "collapsed": true,
+    "items": [
+      { "text": "Carved Pumpkin", "link": "/Carved_Pumpkin.md" },
+      { "text": "Jack o'Lantern", "link": "/Jack_o_Lantern.md" },
+      {
+        "text": "Soul Jack o'Lantern",
+        "link": "/Soul_Jack_o_Lantern.md"
+      }
+    ]
+  }
+]

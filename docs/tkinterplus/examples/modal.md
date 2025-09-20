@@ -4,4 +4,4 @@ title: Modal Example | TkinterPlus
 
 # Modal Example
 
-<<< @/public/examples/modal.py
+<<< @/public/examples/tkinterplus/modal.py

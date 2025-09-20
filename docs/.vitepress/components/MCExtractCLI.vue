@@ -10,18 +10,8 @@
       <div v-if="manifest" class="content">
         <div>
           <label for="version">Minecraft Version:</label>
-          <select
-            name="version"
-            id="version"
-            @change="onChange"
-            v-model="version"
-          >
-            <option
-              v-for="v in versions"
-              :key="v.id"
-              :value="v.id"
-              :selected="v.id == manifest.latest.release"
-            >
+          <select name="version" id="version" @change="onChange" v-model="version">
+            <option v-for="v in versions" :key="v.id" :value="v.id" :selected="v.id == manifest.latest.release">
               {{ v.id }}{{ getLabel(v.id) }}
             </option>
           </select>
@@ -29,40 +19,21 @@
 
         <div>
           <label for="snapshots">Show Snapshots</label>
-          <input
-            type="checkbox"
-            name="snapshots"
-            id="snapshots"
-            @change="onChange"
-            v-model="snapshots"
-          />
+          <input type="checkbox" name="snapshots" id="snapshots" @change="onChange" v-model="snapshots" />
         </div>
 
         <div>
           <label for="client">Client Files:</label>
-          <input
-            type="checkbox"
-            name="client"
-            id="client"
-            @change="onChange"
-            v-model="client"
-          />
+          <input type="checkbox" name="client" id="client" @change="onChange" v-model="client" />
         </div>
 
         <div>
           <label for="server">Server Files:</label>
-          <input
-            type="checkbox"
-            name="server"
-            id="server"
-            @change="onChange"
-            v-model="server"
-          />
+          <input type="checkbox" name="server" id="server" @change="onChange" v-model="server" />
         </div>
 
         <div class="language-sh vp-adaptive-theme">
-          <button title="Copy Code" class="copy"></button
-          ><span class="lang">sh</span>
+          <button title="Copy Code" class="copy"></button><span class="lang">sh</span>
           <div v-html="output"></div>
         </div>
       </div>
@@ -123,9 +94,7 @@ export default {
         return v.type != "snapshot";
       });
 
-      var versionManifest = this.manifest.versions.find(
-        (v) => v.id == this.version
-      );
+      var versionManifest = this.manifest.versions.find((v) => v.id == this.version);
       this.cachedFetch(versionManifest.url).then((data) => {
         this.updateCLI(data);
       });
@@ -134,9 +103,7 @@ export default {
       var jar = `${versionData.id}/${versionData.id}.jar`;
       return `mcextract extract ${jar} ${this.client ? "--assets " : ""}${
         this.server ? "--data " : ""
-      }-eula\nmcextract map ${
-        versionData.assets
-      }.json -eula\nmcextract generate ${versionData.id} ${
+      }-eula\nmcextract map ${versionData.assets}.json -eula\nmcextract generate ${versionData.id} ${
         this.client ? "--client " : ""
       }${this.server ? "--server " : ""}--reports -eula`;
     },
@@ -150,9 +117,7 @@ export default {
     },
   },
   mounted() {
-    this.cachedFetch(
-      "https://launchermeta.mojang.com/mc/game/version_manifest.json"
-    ).then((manifest) => {
+    this.cachedFetch("https://launchermeta.mojang.com/mc/game/version_manifest.json").then((manifest) => {
       this.manifest = manifest;
       this.version = manifest.latest.release;
       this.init();

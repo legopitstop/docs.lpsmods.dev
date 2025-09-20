@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_wall",
+      "states": {
+        "mcutils:north": ["none", "low", "tall"],
+        "mcutils:south": ["none", "low", "tall"],
+        "mcutils:east": ["none", "low", "tall"],
+        "mcutils:west": ["none", "low", "tall"],
+        "mcutils:up": [true, false]
+      }
+    },
+    "components": {
+      "minecraft:tick": {
+        "interval_range": [0, 0],
+        "looping": true
+      },
+      "mcutils:wall": {
+        "north_state": "mcutils:north",
+        "east_state": "mcutils:east",
+        "south_state": "mcutils:south",
+        "west_state": "mcutils:west",
+        "up_state": "mcutils:up"
+      }
+    }
+  }
+}

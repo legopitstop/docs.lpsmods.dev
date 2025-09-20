@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_crop",
+      "states": {
+        "mcutils:growth": [0, 1, 2, 3, 4, 5, 6, 7]
+      }
+    },
+    "components": {
+      "mcutils:crop": {
+        "growth_state": "mcutils:growth",
+        "max_stage": 7
+      },
+      "mcutils:fertilizable": {
+        "growth_state": "mcutils:growth",
+        "max_stage": 7
+      }
+    }
+  }
+}

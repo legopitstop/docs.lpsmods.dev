@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_cake",
+      "states": {
+        "mcutils:slice": [0, 1, 2, 3, 4, 5, 6]
+      }
+    },
+    "components": {
+      "mcutils:cake": {
+        "slice_state": "mcutils:slice",
+        "max_slices": 6,
+        "interactions": ["candle->wiki:candle_cake"]
+      }
+    }
+  }
+}

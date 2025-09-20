@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_lever",
+      "states": {
+        "mcutils:powered": [false, true]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:facing_direction"]
+        }
+      }
+    },
+    "components": {
+      "minecraft:tick": {
+        "interval_range": [0, 0]
+      },
+      "mcutils:toggleable": {
+        "toggled_by_redstone": false,
+        "toggle_state": "mcutils:powered",
+        "true_sound_event": "random.lever_click",
+        "false_sound_event": "random.lever_click"
+      }
+    }
+  }
+}

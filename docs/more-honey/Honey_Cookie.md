@@ -23,20 +23,20 @@ output="morehoney:honey_cookie"/>
 
 Bedrock Edition:
 
-| Name                     | Namespaced ID           | Translation Key              |
-| ------------------------ | ----------------------- | ---------------------------- |
+| Name                      | Namespaced ID            | Translation Key               |
+| ------------------------- | ------------------------ | ----------------------------- |
 | Honey Cookie (#morehoney) | `morehoney:honey_cookie` | `item.morehoney:honey_cookie` |
 
 Data pack Edition:
 
-| Name         | Namespaced ID                                                    | Translation Key              |
-| ------------ | ---------------------------------------------------------------- | ---------------------------- |
+| Name         | Namespaced ID                                                     | Translation Key               |
+| ------------ | ----------------------------------------------------------------- | ----------------------------- |
 | Honey Cookie | Internal:<br>`morehoney:honey_cookie`<br>In-game:<br>`minecraft:` | `item.morehoney.honey_cookie` |
 
 Forge-Fabric Edition:
 
-| Name         | Namespaced ID           | Translation Key              |
-| ------------ | ----------------------- | ---------------------------- |
+| Name         | Namespaced ID            | Translation Key               |
+| ------------ | ------------------------ | ----------------------------- |
 | Honey Cookie | `morehoney:honey_cookie` | `item.morehoney.honey_cookie` |
 
 ## History

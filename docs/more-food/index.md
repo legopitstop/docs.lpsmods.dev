@@ -1,30 +1,39 @@
 ---
 title: Lot's More Food Documentation
-keywords: legopitstop,minecraft,mod,lotsmorefood,morefood,datapack,resourcepack,fabricmc,forge,add-on
+description: Adds over 200 new foods, tools, and items to enhance your Minecraft experience.
+layout: home
+
+hero:
+  name: Lot's More Food
+  text: Adds over 200 new foods, tools, and items to enhance your Minecraft experience.
+  tagline: Expand your culinary adventures
+  image:
+    src: /images/more-food/icon.png
+  actions:
+    - theme: brand
+      text: Getting Started
+      link: ./getting-started
+    - theme: alt
+      text: CurseForge
+      link: https://www.curseforge.com/minecraft/mc-mods/lots-more-food
+    - theme: alt
+      text: Add-On
+      link: https://www.curseforge.com/minecraft-bedrock/addons/morefood
+    - theme: alt
+      text: Source Code
+      link: https://github.com/lpsmods/more-food
+
+features:
+  - icon: 🧱
+    title: Over 200 New Foods
+    details: Grow, craft, and consume a vast variety of new food items to diversify your diet.
+  - icon: 🌱
+    title: New Crops & Plants
+    details: Introduces new crops, saplings, bushes, and more to enhance the farming experience.
+  - icon: ⚙️
+    title: Multi-Loader Compatibility
+    details: Supports Data Pack, Add-On, Fabric, Forge, and NeoForge environments.
+  - icon: 🛠️
+    title: Open-Source
+    details: Fully open-source with accessible documentation and source code.
 ---
-
-# Lot's More Food
-
-Adds over 200+ foods, tools, and items!
-
-## Technical Info
-
-| Key           | Value                                  |
-| ------------- | -------------------------------------- |
-| namespace     | `morefood`                             |
-| resource UUID | `4e098d16-f6b4-11e9-802a-5aa538984bd8` |
-| behavior UUID | `ee649bcf-256c-4013-9068-6a802b89d756` |
-| slug      | `more-food` |
-
-## Loaders
-
-- Data Pack & Resource Pack
-- Add-On
-- Fabric
-- Forge
-
-## Links
-
-- :fire: [Curseforge](https://www.curseforge.com/minecraft/mc-mods/lots-more-food-fabric)
-- :wrench: [Modrinth](https://modrinth.com/mod/lots-more-food)
-- :gear: [Source Code](https://github.com/lpsmods/more-food)

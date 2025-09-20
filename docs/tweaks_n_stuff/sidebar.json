@@ -1,0 +1,32 @@
+[
+   { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Tweaks",
+    "collapsed": false,
+    "items": [
+      { "text": "Header Color", "link": "/header_color" },
+      { "text": "Wrap Tabs", "link": "/wrap_tabs" },
+      { "text": "Close Actions", "link": "/close_actions" }
+    ]
+  },
+  {
+    "text": "Documentation",
+    "base": "/tweaks_n_stuff/docs/",
+    "collapsed": true,
+    "items": [
+      { "text": "Getting Started", "link": "/getting-started" },
+      { "text": "Creating a Tweak", "link": "/tweak" }
+    ]
+  },
+  {
+    "text": "API Reference",
+    "base": "/tweaks_n_stuff/api/",
+    "collapsed": true,
+    "items": [
+      { "text": "Tweak", "link": "/Tweak" },
+      { "text": "SelectTweak", "link": "/SelectTweak" },
+      { "text": "EditTweak", "link": "/EditTweak" },
+      { "text": "ToggleTweak", "link": "/ToggleTweak" }
+    ]
+  }
+]

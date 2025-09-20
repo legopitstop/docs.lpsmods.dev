@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_sponge"
+    },
+    "components": {
+      "mcutils:sponge": {
+        "block": "minecraft:wet_sponge",
+        "liquid_block": "minecraft:water",
+        "air_block": "minecraft:air",
+        "size": 7
+      }
+    }
+  }
+}

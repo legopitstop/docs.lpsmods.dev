@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_farmland",
+      "states": {
+        "mcutils:moisture": { "values": { "min": 0, "max": 7 } }
+      }
+    },
+    "components": {
+      "mcutils:farmland": {
+        "moisture_state": "mcutils:moisture"
+      }
+    }
+  }
+}

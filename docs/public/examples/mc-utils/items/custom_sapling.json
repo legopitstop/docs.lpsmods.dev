@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "wiki:custom_sapling"
+    },
+    "components": {
+      "mcutils:pottable": {
+        "block": "wiki:potted_sapling",
+        "flower_pot": "minecraft:flower_pot"
+      }
+    }
+  }
+}

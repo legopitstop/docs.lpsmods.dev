@@ -53,14 +53,14 @@ To turn on or off a light bulb, use the "Use Item/Place Block" control (right-cl
 
 Bedrock Edition:
 
-| Name                   | Namespaced ID          | Translation Key             |
-| ---------------------- | ---------------------- | --------------------------- |
+| Name                 | Namespaced ID        | Translation Key           |
+| -------------------- | -------------------- | ------------------------- |
 | Light Bulb (#bright) | `bright:_light_bulb` | `item.bright:_light_bulb` |
 
 Forge-Fabric Edition:
 
-| Name       | Namespaced ID          | Translation Key             |
-| ---------- | ---------------------- | --------------------------- |
+| Name       | Namespaced ID        | Translation Key           |
+| ---------- | -------------------- | ------------------------- |
 | Light Bulb | `bright:_light_bulb` | `item.bright._light_bulb` |
 
 ## History

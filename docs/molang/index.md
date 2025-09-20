@@ -1,29 +1,37 @@
 ---
 title: molang Documentation
-description: Molang to Python Translator & interpreter written in pure Python.
-keywords: legopitstop,language,minecraft,bedrock,molang
+description: Python module for interpreting and translating Minecraft Molang expressions.
+layout: home
+
+hero:
+  name: molang
+  text: Python module for interpreting and translating Minecraft Molang expressions.
+  tagline: Bridge Molang to Python
+  actions:
+    - theme: brand
+      text: Getting Started
+      link: ./getting-started
+    - theme: alt
+      text: Download
+      link: https://github.com/legopitstop/molang/releases
+    - theme: alt
+      text: PyPI
+      link: https://pypi.org/project/molang/
+    - theme: alt
+      text: Source Code
+      link: https://github.com/legopitstop/molang
+
+features:
+  - icon: 🧮
+    title: Molang Expression Parsing
+    details: Interpret Molang expressions within Python scripts.
+  - icon: 🔄
+    title: JSON Integration
+    details: Seamlessly integrate Molang expressions into Minecraft JSON files.
+  - icon: 📦
+    title: Simple Installation
+    details: Install via pip with `pip install molang` for quick setup.
+  - icon: 🛠️
+    title: Open-Source
+    details: Fully open-source with accessible documentation and source code.
 ---
-
-# molang
-
-::: warning
-This package is still in development
-:::
-
-Molang to Python Translator & interpreter written in pure Python.
-
-## Links
-
-- :pie: [PyPI](https://pypi.org/project/molang)
-- :file_folder: [Download](https://github.com/legopitstop/molang/releases)
-- :gear: [Source Code](https://github.com/legopitstop/molang)
-
-## Installation
-
-Install the module with pip:
-
-```bat
-pip3 install molang
-```
-
-Update existing installation: `pip3 install molang --upgrade`

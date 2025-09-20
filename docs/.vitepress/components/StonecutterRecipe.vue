@@ -5,14 +5,9 @@
         <InvSlot :id="input" />
       </span>
       <span class="mcui-stonecutterArrow">
-        <InvSlot
-          class="invslot-plain mcui-stonecutterSprite"
-          :id="output"
-        />
+        <InvSlot class="invslot-plain mcui-stonecutterSprite" :id="output" />
       </span>
-      <span class="mcui-output">
-        <InvSlot :id="output" :count="count" large
-      /></span>
+      <span class="mcui-output"> <InvSlot :id="output" :count="count" large /></span>
     </span>
   </div>
 </template>

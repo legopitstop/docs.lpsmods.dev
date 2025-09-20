@@ -23,20 +23,20 @@ output="morehoney:honey_pancakes"/>
 
 Bedrock Edition:
 
-| Name                       | Namespaced ID             | Translation Key                |
-| -------------------------- | ------------------------- | ------------------------------ |
+| Name                        | Namespaced ID              | Translation Key                 |
+| --------------------------- | -------------------------- | ------------------------------- |
 | Honey Pancakes (#morehoney) | `morehoney:honey_pancakes` | `item.morehoney:honey_pancakes` |
 
 Data pack Edition:
 
-| Name           | Namespaced ID                                                      | Translation Key                |
-| -------------- | ------------------------------------------------------------------ | ------------------------------ |
+| Name           | Namespaced ID                                                       | Translation Key                 |
+| -------------- | ------------------------------------------------------------------- | ------------------------------- |
 | Honey Pancakes | Internal:<br>`morehoney:honey_pancakes`<br>In-game:<br>`minecraft:` | `item.morehoney.honey_pancakes` |
 
 Forge-Fabric Edition:
 
-| Name           | Namespaced ID             | Translation Key                |
-| -------------- | ------------------------- | ------------------------------ |
+| Name           | Namespaced ID              | Translation Key                 |
+| -------------- | -------------------------- | ------------------------------- |
 | Honey Pancakes | `morehoney:honey_pancakes` | `item.morehoney.honey_pancakes` |
 
 ## History

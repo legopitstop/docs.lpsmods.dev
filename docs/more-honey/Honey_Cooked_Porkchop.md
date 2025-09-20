@@ -23,20 +23,20 @@ output="morehoney:honey_cooked_porkchop"/>
 
 Bedrock Edition:
 
-| Name                              | Namespaced ID                    | Translation Key                       |
-| --------------------------------- | -------------------------------- | ------------------------------------- |
+| Name                               | Namespaced ID                     | Translation Key                        |
+| ---------------------------------- | --------------------------------- | -------------------------------------- |
 | Honey Cooked Porkchop (#morehoney) | `morehoney:honey_cooked_porkchop` | `item.morehoney:honey_cooked_porkchop` |
 
 Data pack Edition:
 
-| Name                  | Namespaced ID                                                             | Translation Key                       |
-| --------------------- | ------------------------------------------------------------------------- | ------------------------------------- |
+| Name                  | Namespaced ID                                                              | Translation Key                        |
+| --------------------- | -------------------------------------------------------------------------- | -------------------------------------- |
 | Honey Cooked Porkchop | Internal:<br>`morehoney:honey_cooked_porkchop`<br>In-game:<br>`minecraft:` | `item.morehoney.honey_cooked_porkchop` |
 
 Forge-Fabric Edition:
 
-| Name                  | Namespaced ID                    | Translation Key                       |
-| --------------------- | -------------------------------- | ------------------------------------- |
+| Name                  | Namespaced ID                     | Translation Key                        |
+| --------------------- | --------------------------------- | -------------------------------------- |
 | Honey Cooked Porkchop | `morehoney:honey_cooked_porkchop` | `item.morehoney.honey_cooked_porkchop` |
 
 ## History

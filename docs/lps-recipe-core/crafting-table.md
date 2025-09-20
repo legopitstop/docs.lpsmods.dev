@@ -1,7 +1,6 @@
 ---
 title: Crafting Table | LPS Rcore API Documentation
 description: We are currently working on changing up the entire API system. Hopefully, it will be released soon! For now you can see the up-coming changes to the API.
-keywords: legopitstop,minecraft,mod,datapack,resroucepack,morenbt,nbt,data
 ---
 
 # Crafting Table
@@ -29,7 +28,7 @@ The Marker entity contains custom NBT data stored in the `data` field. These fie
 | `tags`        | Array[String] | List of recipe tags that this table uses                                            |
 | `last_recipe` | String        | The last recipe that was crafted. default: `null`                                   |
 | `format`      | Integer       | Format version of this table. Used for upgrading tables in the future. default: `1` |
-| `custom`      | Object        | Custom NBT data copied from [tables](./tables.md)                             |
+| `custom`      | Object        | Custom NBT data copied from [tables](./tables.md)                                   |
 
 ## Item Display
 

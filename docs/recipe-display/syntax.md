@@ -1,7 +1,6 @@
 ---
 title: Syntax | Recipe Display Documentation
 description: Easily create a webpage that will display all your recipes!
-keywords: legopitstop,minecraft,website,customizable,recipes,display
 ---
 
 # Syntax
@@ -21,7 +20,7 @@ Below you can find the syntax for the JSON recipe.
 | Name          | Required | Type                        | Description                                                      |
 | ------------- | -------- | --------------------------- | ---------------------------------------------------------------- |
 | `description` | No       | [Description](#description) | Data that may be needed.                                         |
-| `resources`   | No       | [Resources](#resources)     | A list of resrouce locations for tags, textures, and lang files. |
+| `resources`   | No       | [Resources](#resources)     | A list of resource locations for tags, textures, and lang files. |
 | `recipes`     | Yes      | Array[Recipes](#recipes)    | A list of recipes to add to the document.                        |
 
 ### Description
@@ -50,7 +49,7 @@ Where to get different resources depending on the item namespace ID.
 
 ```json
 {
-  "resrouces": {
+  "resources": {
     "textures": {
       "minecraft": {
         "type": "spritesheet",
@@ -73,10 +72,10 @@ Where to get different resources depending on the item namespace ID.
 
 A map of the namespace id and the file location/url to grab the texture from
 
-| Name          | Default                                                                                         | Type                          | Description                       |
-| ------------- | ----------------------------------------------------------------------------------------------- | ----------------------------- | --------------------------------- |
-| `minecraft`   | `"file":"https://cdn.jsdelivr.net/gh/legopitstop/Javascript/libs/Sprite/minecraft/sprite.json"` | Object or [String](#varables) | Built-in location to get textures |
-| `<namespace>` |                                                                                                 | Object or [String](#varables) | The location to get the textures  |
+| Name          | Default                                                                                         | Type                           | Description                       |
+| ------------- | ----------------------------------------------------------------------------------------------- | ------------------------------ | --------------------------------- |
+| `minecraft`   | `"file":"https://cdn.jsdelivr.net/gh/legopitstop/Javascript/libs/Sprite/minecraft/sprite.json"` | Object or [String](#Variables) | Built-in location to get textures |
+| `<namespace>` |                                                                                                 | Object or [String](#Variables) | The location to get the textures  |
 
 #### Examples
 
@@ -97,10 +96,10 @@ A map of the namespace id and the file location/url to grab the texture from
 
 A map of the namespace id and the file location/url to grab the lang from.
 
-| Name          | Default                                              | Type                | Description                    |
-| ------------- | ---------------------------------------------------- | ------------------- | ------------------------------ |
-| `minecraft`   | `/assets/1.17/assets/${NAMESPACEID}/lang/en_us.json` | [String](#varables) | Built-in location to get langs |
-| `<namespace>` |                                                      | [String](#varables) | The location to get the langs  |
+| Name          | Default                                              | Type                 | Description                    |
+| ------------- | ---------------------------------------------------- | -------------------- | ------------------------------ |
+| `minecraft`   | `/assets/1.17/assets/${NAMESPACEID}/lang/en_us.json` | [String](#Variables) | Built-in location to get langs |
+| `<namespace>` |                                                      | [String](#Variables) | The location to get the langs  |
 
 #### Examples
 
@@ -118,10 +117,10 @@ A map of the namespace id and the file location/url to grab the lang from.
 
 A map of the namespace id and the file location/url to link to.
 
-| Name          | Default                                 | Type                | Description                    |
-| ------------- | --------------------------------------- | ------------------- | ------------------------------ |
-| `minecraft`   | `https://minecraft.wiki/w/${NAME.WIKI}` | [String](#varables) | Built-in location to get langs |
-| `<namespace>` |                                         | [String](#varables) | The location to get the langs  |
+| Name          | Default                                 | Type                 | Description                    |
+| ------------- | --------------------------------------- | -------------------- | ------------------------------ |
+| `minecraft`   | `https://minecraft.wiki/w/${NAME.WIKI}` | [String](#Variables) | Built-in location to get langs |
+| `<namespace>` |                                         | [String](#Variables) | The location to get the langs  |
 
 #### Examples
 
@@ -135,11 +134,11 @@ A map of the namespace id and the file location/url to link to.
 
 ---
 
-### Varables
+### Variables
 
 A list of variables that will get replaced in the string.
 
-| Varable        | Description                                           | Example        |
+| Variable       | Description                                           | Example        |
 | -------------- | ----------------------------------------------------- | -------------- |
 | `${NAME}`      | The name of the item                                  | `stone_bricks` |
 | `${NAMESPACE}` | The namespace of the item                             | `minecraft`    |
@@ -152,12 +151,12 @@ A list of variables that will get replaced in the string.
 
 Recipe schema is similar to Minecraft Java Edition's
 
-| Required | Name        | Default | Type                 | Description                                                                                                        |
-| -------- | ----------- | ------- | -------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| No       | description |         | String               | The description of the recipe. Supports markdown formatting!                                                       |
-| Yes      | identifier  |         | String               | It is recomnded to include an id for your recipe, It can be useful for debuging if you are missing a required key. |
-| Yes      | type        |         | [Enum](#recipe-type) | The type of recipe to use.                                                                                         |
-| No       | group       |         | String               | The group to place this recipe in.                                                                                 |
+| Required | Name        | Default | Type                 | Description                                                                                                         |
+| -------- | ----------- | ------- | -------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| No       | description |         | String               | The description of the recipe. Supports markdown formatting!                                                        |
+| Yes      | identifier  |         | String               | It is recomnded to include an id for your recipe, It can be useful for debugging if you are missing a required key. |
+| Yes      | type        |         | [Enum](#recipe-type) | The type of recipe to use.                                                                                          |
+| No       | group       |         | String               | The group to place this recipe in.                                                                                  |
 
 ### Recipe Type
 
@@ -250,7 +249,7 @@ Additional properties
 | Yes      | identifier           |         | String                                                    | The id of the recipe                                    |
 | No       | description          |         | [RAW JSON](https://minecraft.wiki/w/Raw_JSON_text_format) | The description of the recipe                           |
 | Yes      | [ingredients](#item) |         | Object                                                    | A list of ingredients                                   |
-| No       | experience           | `0.1`   | Number                                                    | The amount of experiance you get from smelting an item. |
+| No       | experience           | `0.1`   | Number                                                    | The amount of experience you get from smelting an item. |
 | No       | cookingtime          | `200`   | Number                                                    | The number of ticks it takes to cook this item.         |
 | Yes      | [result](#item)      |         | Object                                                    | The resulting recipe.                                   |
 
@@ -281,7 +280,7 @@ Additional properties
 | Yes      | identifier           |         | String                                                    | The id of the recipe                                    |
 | No       | description          |         | [RAW JSON](https://minecraft.wiki/w/Raw_JSON_text_format) | The description of the recipe                           |
 | Yes      | [ingredients](#item) |         | Object                                                    | A list of ingredients                                   |
-| No       | experience           | `0.1`   | Number                                                    | The amount of experiance you get from smelting an item. |
+| No       | experience           | `0.1`   | Number                                                    | The amount of experience you get from smelting an item. |
 | No       | cookingtime          | `200`   | Number                                                    | The number of ticks it takes to cook this item.         |
 | Yes      | [result](#item)      |         | Object                                                    | The resulting recipe.                                   |
 
@@ -312,7 +311,7 @@ Additional properties
 | Yes      | identifier           |         | String                                                    | The id of the recipe                                    |
 | No       | description          |         | [RAW JSON](https://minecraft.wiki/w/Raw_JSON_text_format) | The description of the recipe                           |
 | Yes      | [ingredients](#item) |         | Object                                                    | A list of ingredients                                   |
-| No       | experience           | `0.1`   | Number                                                    | The amount of experiance you get from smelting an item. |
+| No       | experience           | `0.1`   | Number                                                    | The amount of experience you get from smelting an item. |
 | No       | cookingtime          | `200`   | Number                                                    | The number of ticks it takes to cook this item.         |
 | Yes      | [result](#item)      |         | Object                                                    | The resulting recipe.                                   |
 
@@ -343,7 +342,7 @@ Additional properties
 | Yes      | identifier           |         | String                                                    | The id of the recipe                                    |
 | No       | description          |         | [RAW JSON](https://minecraft.wiki/w/Raw_JSON_text_format) | The description of the recipe                           |
 | Yes      | [ingredients](#item) |         | Object                                                    | A list of ingredients                                   |
-| No       | experience           | `0.1`   | Number                                                    | The amount of experiance you get from smelting an item. |
+| No       | experience           | `0.1`   | Number                                                    | The amount of experience you get from smelting an item. |
 | No       | cookingtime          | `200`   | Number                                                    | The number of ticks it takes to cook this item.         |
 | Yes      | [result](#item)      |         | Object                                                    | The resulting recipe.                                   |
 

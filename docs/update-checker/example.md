@@ -1,7 +1,6 @@
 ---
 title: Example | Update Checker Documentation
 description: Check to see if you have the latest version of a pack installed.
-keywords: legopitstop,minecraft,website,updatechecker,updater,customizable,free,premium,json
 ---
 
 # Example
@@ -28,8 +27,8 @@ keywords: legopitstop,minecraft,website,updatechecker,updater,customizable,free,
     "1.4.0": "* 1.16.5-1.4.0"
   },
   "promos": {
-    "1.17-recommended": "1.7.0", // The recomended mod version for mc 1.17
-    "1.17-latest": "1.7.0", // Note that right now (v1.0.0) of Update Checker does not use '-latest' but may be used in the future, for now just use '-recomended'
+    "1.17-recommended": "1.7.0", // The recommended mod version for mc 1.17
+    "1.17-latest": "1.7.0", // Note that right now (v1.0.0) of Update Checker does not use '-latest' but may be used in the future, for now just use '-recommended'
     "1.16-recommended": "1.5.0",
     "1.16-latest": "1.5.0"
   }

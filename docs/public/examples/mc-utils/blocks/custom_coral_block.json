@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_coral_block"
+    },
+    "components": {
+      "minecraft:tick": {
+        "interval_range": [0, 0],
+        "looping": true
+      },
+      "mcutils:coral": {
+        "block": "wiki:dead_coral_block",
+        "delay": 60
+      }
+    }
+  }
+}

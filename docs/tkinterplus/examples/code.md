@@ -4,4 +4,4 @@ title: Code Example | TkinterPlus
 
 # Code Example
 
-<<< @/public/examples/code.py
+<<< @/public/examples/tkinterplus/code.py

@@ -1,14 +1,34 @@
 <template>
   <span class="invslot" v-bind:class="large ? 'invslot-large' : ''">
-    <span v-if="useItem != undefined" class="invslot-item invslot-item-image" :data-minetip-title="useItem.getMinetip()"
-      @mouseenter="minetipMouseover" @mouseleave="minetipMouseout" @mousemove="minetipMousemove">
-      <a :href="editable ? '#' : useItem.getLink()" :target="item.getLinkTarget()" rel="nofollow noreferrer"
-        @click="selectItem">
-        <img :alt="item.name" :src="item.texture" class="nozoom" decoding="async" loading="lazy" width="32" height="32"
-          data-relevant="0" /></a>
+    <span
+      v-if="useItem != undefined"
+      class="invslot-item invslot-item-image"
+      :data-minetip-title="useItem.getMinetip()"
+      @mouseenter="minetipMouseover"
+      @mouseleave="minetipMouseout"
+      @mousemove="minetipMousemove"
+    >
+      <a
+        :href="editable ? '#' : useItem.getLink()"
+        :target="item.getLinkTarget()"
+        rel="nofollow noreferrer"
+        @click="selectItem"
+      >
+        <img
+          :alt="item.name"
+          :src="item.texture"
+          class="nozoom"
+          decoding="async"
+          loading="lazy"
+          @error="onError"
+          width="32"
+          height="32"
+          data-relevant="0"
+      /></a>
 
-      <a v-if="count > 1" target="_blank" rel="nofollow noreferrer" class="external text"
-        :href="useItem.getLink()"><span class="invslot-stacksize">{{ count }}</span></a>
+      <a v-if="count > 1" target="_blank" rel="nofollow noreferrer" class="external text" :href="useItem.getLink()"
+        ><span class="invslot-stacksize">{{ count }}</span></a
+      >
     </span>
   </span>
 </template>
@@ -17,6 +37,7 @@
 import { useData } from "vitepress";
 import { registerItems, registerLinks, getItem } from "../theme/mcui.js";
 import { Item } from "../classes/Item.js";
+import { MISSING_TEXTURE } from "../classes/constants.js";
 
 // command: execute if block ~ ~ ~ dropper{Items:[{Slot:0b,Count:1b,id:"minecraft:acacia_sign",tag:{}}]} unless block ~ ~ ~ dropper{Items:[{Slot:1b}]} unless block ~ ~ ~ dropper{Items:[{Slot:2b}]} unless block ~ ~ ~ dropper{Items:[{Slot:3b}]} unless block ~ ~ ~ dropper{Items:[{Slot:4b}]} unless block ~ ~ ~ dropper{Items:[{Slot:5b}]} unless block ~ ~ ~ dropper{Items:[{Slot:6b}]} unless block ~ ~ ~ dropper{Items:[{Slot:7b}]} unless block ~ ~ ~ dropper{Items:[{Slot:8b}]} run function rcore_recipes:recipe/here
 
@@ -92,6 +113,7 @@ export default {
     this.parseFrontmatter;
   },
   methods: {
+    onError: (e) => (e.target.src != MISSING_TEXTURE ? (e.target.src = MISSING_TEXTURE) : null),
     selectItem() {
       if (this.editable) {
         console.log("edit");
@@ -121,14 +143,8 @@ export default {
         posX = e.pageX;
         posY = e.pageY;
       } else if (e.clientX || e.clientY) {
-        posX =
-          event.clientX +
-          document.documentElement.scrollLeft +
-          document.body.scrollLeft;
-        posY =
-          event.clientY +
-          document.documentElement.scrollTop +
-          document.body.scrollTop;
+        posX = event.clientX + document.documentElement.scrollLeft + document.body.scrollLeft;
+        posY = event.clientY + document.documentElement.scrollTop + document.body.scrollTop;
       }
       o.style.position = "absolute";
       o.style.top = posY + y + "px";

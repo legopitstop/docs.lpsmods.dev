@@ -1,0 +1,34 @@
+[
+   { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Blocks",
+    "collapsed": true,
+    "items": [
+      { "text": "Iron Magnet Block", "link": "/Magnet_Block.md#iron" },
+      { "text": "Gold Magnet Block", "link": "/Magnet_Block.md#gold" },
+      {
+        "text": "Copper Magnet Block",
+        "link": "/Magnet_Block.md#copper"
+      },
+      {
+        "text": "Diamond Magnet Block",
+        "link": "/Magnet_Block.md#diamond"
+      },
+      {
+        "text": "Netherite Magnet Block",
+        "link": "/Magnet_Block.md#netherite"
+      }
+    ]
+  },
+  {
+    "text": "Items",
+    "collapsed": true,
+    "items": [
+      { "text": "Iron Magnet", "link": "/Magnet.md#iron" },
+      { "text": "Gold Magnet", "link": "/Magnet.md#gold" },
+      { "text": "Copper Magnet", "link": "/Magnet.md#copper" },
+      { "text": "Diamond Magnet", "link": "/Magnet.md#diamond" },
+      { "text": "Netherite Magnet", "link": "/Magnet.md#netherite" }
+    ]
+  }
+]

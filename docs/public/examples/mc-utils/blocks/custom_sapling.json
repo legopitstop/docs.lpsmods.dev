@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_sapling",
+      "states": {
+        "mcutils:age_bit": [0, 1]
+      }
+    },
+    "components": {
+      "mcutils:sapling": {
+        "feature": "minecraft:oak_tree_feature"
+      },
+      "mcutils:fertilizable": {
+        "growth_state": "mcutils:age_bit",
+        "max_stage": 1
+      }
+    }
+  }
+}

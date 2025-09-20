@@ -1,0 +1,4 @@
+[
+  { "text": "Guide", "collapsed": true, "items": [{ "text": "Getting Started", "link": "/guide/getting-started" }] },
+  { "text": "Script API", "collapsed": true, "items": [{ "text": "UNDOCUMENTED" }] }
+]

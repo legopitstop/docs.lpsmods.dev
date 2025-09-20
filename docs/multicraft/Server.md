@@ -1,10 +1,9 @@
 ---
-title: Server | multicraft Documentation
+title: Server class | multicraft Documentation
 description: Interact with your Minecraft server from hosts that use Multicraft using Python
-keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---
 
-# Server
+# `Server` class
 
 ## Parameters
 
@@ -28,4 +27,10 @@ keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,py
 
 ### `from_json`
 
-UNDOCUMENTED
+**Return Type**: Server
+
+#### Parameters
+
+| name   | type | description |
+| ------ | ---- | ----------- |
+| `data` | dict |             |

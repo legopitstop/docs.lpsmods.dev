@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "wiki:custom_flint_and_steel"
+    },
+    "components": {
+      "mcutils:flint_and_steel": {
+        "size": 1,
+        "block": "fire"
+      }
+    }
+  }
+}

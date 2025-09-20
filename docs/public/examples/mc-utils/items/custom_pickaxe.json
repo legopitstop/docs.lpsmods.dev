@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "wiki:custom_pickaxe"
+    },
+    "components": {
+      "mcutils:tool": {
+        "damage_when_mined": true
+      }
+    }
+  }
+}

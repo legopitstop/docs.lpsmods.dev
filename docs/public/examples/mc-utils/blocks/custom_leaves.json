@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_leaves",
+      "states": {
+        "mcutils:distance": [1, 2, 3, 4, 5, 6, 7],
+        "mcutils:persistent": [false, true]
+      },
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": ["minecraft:vertical_half"]
+        }
+      }
+    },
+    "components": {
+      "minecraft:tick": {
+        "interval_range": [0, 0],
+        "looping": true
+      },
+      "mcutils:leaves": {
+        "distance_state": "mcutils:distance",
+        "persistent_state": "mcutils:persistent",
+        "delay": 60
+      }
+    }
+  }
+}

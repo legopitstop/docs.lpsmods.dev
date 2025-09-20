@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_trapdoor",
+      "states": {
+        "mcutils:open": [false, true]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:cardinal_direction"]
+        },
+        "minecraft:placement_position": {
+          "enabled_states": ["minecraft:vertical_half"]
+        }
+      }
+    },
+    "components": {
+      "minecraft:tick": {
+        "interval_range": [0, 0]
+      },
+      "mcutils:toggleable": {
+        "toggle_state": "mcutils:open",
+        "open_sound_event": "open.wooden_trapdoor",
+        "close_sound_event": "close.wooden_trapdoor"
+      }
+    }
+  }
+}

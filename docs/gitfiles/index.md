@@ -1,54 +1,44 @@
 ---
 title: gitfiles Documentation
-description: Load, filter and match .gitingore files.
-keywords: legopitstop,python,minecraft,pypi,gitignore,pythonpackage
+description: Python module for loading, filtering, and matching .gitignore patterns.
+
 prev:
   text: GeyserMC
   link: /geysermc/
 next:
   text: TkinterPlus
   link: /tkinterplus/
+layout: home
+
+hero:
+  name: gitfiles
+  text: Python module for loading, filtering, and matching .gitignore patterns.
+  tagline: Simplify Git ignore handling
+  actions:
+    - theme: brand
+      text: Getting Started
+      link: ./getting-started
+    - theme: alt
+      text: Download
+      link: https://github.com/legopitstop/gitfiles/releases
+    - theme: alt
+      text: PyPI
+      link: https://pypi.org/project/gitfiles/
+    - theme: alt
+      text: Source Code
+      link: https://github.com/legopitstop/gitfiles
+
+features:
+  - icon: 📄
+    title: Load .gitignore
+    details: Easily load .gitignore files to manage ignored files.
+  - icon: 🔍
+    title: Match Patterns
+    details: Test if filenames match ignore patterns, considering case sensitivity.
+  - icon: 📦
+    title: Simple Installation
+    details: Install via pip with `pip install mclang` for quick setup.
+  - icon: 🛠️
+    title: Open-Source
+    details: Fully open-source with accessible documentation and source code.
 ---
-
-# gitfiles
-
-Load, filter and match `.gitingore` files.
-
-## Links
-
-- :pie: [PyPI](https://pypi.org/project/gitfiles)
-- :file_folder: [Download](https://github.com/legopitstop/gitfiles/releases)
-- :gear: [Source Code](https://github.com/legopitstop/gitfiles)
-
-## Installation
-
-Install the module with pip:
-
-```bat
-pip3 install gitfiles
-```
-
-Update existing installation: `pip3 install gitfiles --upgrade`
-
-## Examples
-
-```Python
-import gitfiles
-
-gitfiles.load_gitignore()
-
-print(gitfiles.match('file.so'))
-```
-
-```Python
-import gitfiles
-
-gitfiles.load_gitignore()
-
-files = [
-    '.venv',
-    '.env',
-    'app.py'
-]
-print(gitfiles.filter(files))
-```

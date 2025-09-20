@@ -8,6 +8,12 @@
   ],
   "items": [
     {
+      "id": "minecraft:music_disc_lava_chicken",
+      "name": "&eMusic Disc",
+      "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIVBMVEUAAAD///m1tbX2hYXeHR1RUVFAQEA4ODhWFBQmJiYhISH9Gx3hAAAAAXRSTlMAQObYZgAAAFBJREFUeNqdj0EOACEIAwGhdv3/gzfFmHh2LmQm6QF7ZYnbIE5rK1Spba/C8ACqy9LN/LooELuMHtGMCY1UgaSpZMgqUq7CGe4ek7TDFM9v/Y5NAsz389trAAAAAElFTkSuQmCC",
+      "lore": ["&7Hyper Potions - Lava Chicken"]
+    },
+    {
       "id": "minecraft:music_disc_tears",
       "name": "&eMusic Disc",
       "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAG1BMVEUAAABUVFTo5+f5+fmfw8O129tXeHiKiIg4ODgZlQNyAAAAAXRSTlMAQObYZgAAAExJREFUeNqdjzEOADEIwyjQS/7/4pORKnWuF4gVBuKVBXdKOG5SZRVuMnt3YzGL2fvbmBFMGhRHKDnCZmpFhCUlSHKAbYHtOBie3/oBtEYBj5VJ3HUAAAAASUVORK5CYII=",

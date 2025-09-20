@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "wiki:custom_shovel"
+    },
+    "components": {
+      "mcutils:shovel": {
+        "size": 1,
+        "block": "grass_path"
+      }
+    }
+  }
+}

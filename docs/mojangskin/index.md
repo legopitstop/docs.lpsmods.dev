@@ -1,29 +1,37 @@
 ---
 title: mojangskin Documentation
-description: Get Minecraft player skins from the Mojang API.
-keywords: legopitstop,python,minecraft,skin,images,pypi,pillow,mojang,pythonpackage
+description: Python module for retrieving Minecraft player skins via the Mojang API.
+layout: home
+
+hero:
+  name: mojangskin
+  text: Python module for retrieving Minecraft player skins via the Mojang API.
+  tagline: Access Minecraft player skins
+  actions:
+    - theme: brand
+      text: Getting Started
+      link: ./getting-started
+    - theme: alt
+      text: Download
+      link: https://github.com/legopitstop/mojangskin/releases
+    - theme: alt
+      text: PyPI
+      link: https://pypi.org/project/mojangskin/
+    - theme: alt
+      text: Source Code
+      link: https://github.com/legopitstop/mojangskin
+
+features:
+  - icon: 🧑‍💻
+    title: Retrieve Player Skins
+    details: Fetch Minecraft player skins using Mojang's API.
+  - icon: 🎨
+    title: Skin Customization
+    details: Access and modify skin textures for personalization.
+  - icon: 📦
+    title: Simple Installation
+    details: Install via pip with `pip install mojangskin` for quick setup.
+  - icon: 🛠️
+    title: Open-Source
+    details: Fully open-source with accessible documentation and source code.
 ---
-
-# mojangskin
-
-Get Minecraft player skins from the Mojang API.
-
-::: warning
-This package is still in development
-:::
-
-## Links
-
-- :pie: [PyPI](https://pypi.org/project/mojangskin)
-- :file_folder: [Download](https://github.com/legopitstop/mojangskin/releases)
-- :gear: [Source Code](https://github.com/legopitstop/mojangskin)
-
-## Installation
-
-Install the module with pip:
-
-```bat
-pip3 install mojangskin
-```
-
-Update existing installation: `pip3 install mojangskin --upgrade`

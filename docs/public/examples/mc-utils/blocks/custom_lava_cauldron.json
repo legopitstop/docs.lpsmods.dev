@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_lava_cauldron"
+    },
+    "components": {
+      "mcutils:lava_cauldron": {
+        "block": "wiki:cauldron",
+        "interactions": ["bucket->lava_bucket"]
+      }
+    }
+  }
+}

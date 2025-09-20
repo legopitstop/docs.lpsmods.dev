@@ -1,7 +1,6 @@
 ---
 title: Command Line Interface | mcextract Documentation
 description: Extract assets and data from the Minecraft jar.
-keywords: legopitstop,python,java,minecraft,data,assets,pypi,jar,reports,pythonpackage,customtkinter,serverjars,userfolder
 ---
 
 # Command Line Interface

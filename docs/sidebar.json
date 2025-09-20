@@ -1,0 +1,8 @@
+[
+  { "text": "Python", "link": "/python-docs" },
+  { "text": "Minecraft", "link": "/minecraft-docs" },
+  { "text": "Misc", "link": "/misc-docs" },
+  { "text": "Tutorials", "link": "/tutorials" },
+  { "text": "Blockbench Plugins", "link": "/blockbench-plugins" },
+  { "text": "Node", "link": "/node" }
+]

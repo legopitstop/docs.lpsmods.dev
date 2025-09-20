@@ -1,0 +1,27 @@
+[
+   { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Components",
+    "base": "/morefood/component/",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "PottedFlowerComponent",
+        "link": "/PottedFlowerComponent"
+      },
+      { "text": "PottableComponent", "link": "/PottableComponent" },
+      { "text": "MintyComponent", "link": "/MintyComponent" },
+      { "text": "MREComponent", "link": "/MREComponent" },
+      { "text": "PourableComponent", "link": "/PourableComponent" },
+      { "text": "BushComponent", "link": "/BushComponent" },
+      { "text": "CakeComponent", "link": "/CakeComponent" },
+      { "text": "CandleCakeComponent", "link": "/CandleCakeComponent" },
+      { "text": "CauldronComponent", "link": "/CauldronComponent" },
+      { "text": "CropComponent", "link": "/CropComponent" },
+      { "text": "HangingComponent", "link": "/HangingComponent" },
+      { "text": "SaplingComponent", "link": "/SaplingComponent" },
+      { "text": "SpileComponent", "link": "/SpileComponent" },
+      { "text": "TallCropComponent", "link": "/TallCropComponent" }
+    ]
+  }
+]

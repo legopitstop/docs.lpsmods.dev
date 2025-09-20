@@ -1,7 +1,8 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
+title: "Legopitstop Docs"
+description: "Documentation for all Legopitstop's projects."
 layout: home
-keywords: legopitstop,documentation,docs,python,minecraft,misc,projects
 
 hero:
   name: "Legopitstop"

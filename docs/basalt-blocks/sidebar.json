@@ -1,0 +1,17 @@
+[
+   { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Blocks",
+    "collapsed": true,
+    "items": [
+      { "text": "Basalt", "link": "/Basalt.md" },
+      { "text": "Smooth Basalt", "link": "/Smooth_Basalt.md" },
+      { "text": "Polished Basalt", "link": "/Polished_Basalt.md" },
+      {
+        "text": "Polished Basalt Bricks",
+        "link": "/Polished_Basalt_Bricks.md"
+      },
+      { "text": "Cobbled Basalt", "link": "/Cobbled_Basalt.md" }
+    ]
+  }
+]

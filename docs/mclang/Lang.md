@@ -24,7 +24,7 @@ A list of all comments.
 - [translate](#translate)
 - [insert_comment](#insert_comment)
 - [remove_comment](#remove_comment)
-- [clear_commnets](#clear_comments)
+- [clear_comments](#clear_comments)
 - `__setitem__`
 - `__getitem__`
 

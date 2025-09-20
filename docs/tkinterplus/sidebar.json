@@ -1,0 +1,125 @@
+[
+  { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "API Reference",
+    "collapsed": true,
+    "items": [
+      { "text": "Constants", "link": "/constants" },
+      { "text": "Functions", "link": "/functions" },
+      { "text": "util", "link": "/util" },
+      {
+        "text": "Classes",
+        "collapsed": true,
+        "items": [
+          { "text": "Animation", "link": "/Animation" },
+          { "text": "FX", "link": "/FX" },
+          { "text": "Sprite", "link": "/Sprite" },
+          { "text": "SpriteSheet", "link": "/SpriteSheet" },
+          { "text": "Tween", "link": "/Tween" }
+        ]
+      },
+      {
+        "text": "Widgets",
+        "collapsed": true,
+        "base": "/tkinterplus/widgets",
+        "items": [
+          { "text": "Accordion", "link": "/Accordion" },
+          {
+            "text": "Audio <Badge type=\"warning\" text=\"Experimental\" />",
+            "link": "/Audio"
+          },
+          {
+            "text": "BaseWidgetPlus",
+            "link": "/BaseWidgetPlus"
+          },
+          { "text": "BindButton", "link": "/BindButton" },
+          {
+            "text": "CanvasPlus",
+            "link": "/CanvasPlus"
+          },
+          { "text": "Canvas3d", "link": "/Canvas3d" },
+          { "text": "CodeBlock", "link": "/CodeBlock" },
+          {
+            "text": "ContextMenu",
+            "link": "/ContextMenu"
+          },
+          { "text": "Footer", "link": "/Footer" },
+          { "text": "Form", "link": "/Form" },
+          {
+            "text": "FormattedText",
+            "link": "/FormattedText"
+          },
+          { "text": "Input", "link": "/Input" },
+          {
+            "text": "Notification",
+            "link": "/Notification"
+          },
+          {
+            "text": "OwlCarousel",
+            "link": "/OwlCarousel"
+          },
+          { "text": "Paragraph", "link": "/Paragraph" },
+          { "text": "Picture", "link": "/Picture" },
+          {
+            "text": "ScrolledFrame",
+            "link": "/ScrolledFrame"
+          },
+          { "text": "Slideshow", "link": "/Slideshow" },
+          { "text": "TabView", "link": "/TabView" },
+          { "text": "Tooltip", "link": "/Tooltip" },
+          { "text": "Webframe", "link": "/WebFrame" }
+        ]
+      },
+      {
+        "text": "Windows",
+        "base": "/tkinterplus/windows",
+        "collapsed": true,
+        "items": [
+          { "text": "Format", "link": "/Format" },
+          { "text": "AskEnum", "link": "/askenum" },
+          { "text": "Config", "link": "/Config" },
+          {
+            "text": "DeveloperTools",
+            "link": "/DeveloperTools"
+          },
+          { "text": "Dialog", "link": "/Dialog" },
+          { "text": "Message", "link": "/Message" },
+          { "text": "Modal", "link": "/Modal" },
+          { "text": "Geometry", "link": "/Geometry" },
+          { "text": "modalbox", "link": "/ModalBox" },
+          {
+            "text": "ModalDialog",
+            "link": "/ModalDialog"
+          },
+          {
+            "text": "ShowProgress",
+            "link": "/showprogress"
+          },
+          {
+            "text": "SimpleModal",
+            "link": "/SimpleModal"
+          },
+          { "text": "TextEditor", "link": "/TextEditor" }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Examples",
+    "base": "/tkinterplus/examples",
+    "collapsed": true,
+    "items": [
+      { "text": "Accordion", "link": "/accordion" },
+      { "text": "Buttons", "link": "/buttons" },
+      { "text": "Code", "link": "/code" },
+      { "text": "Console", "link": "/console" },
+      { "text": "Developer Tools", "link": "/developer_tools" },
+      { "text": "Footer", "link": "/footer" },
+      { "text": "Form", "link": "/form" },
+      { "text": "Modal", "link": "/modal" },
+      { "text": "PictureBox", "link": "/picturebox" },
+      { "text": "ScrolledFrame", "link": "/scrolledframe" },
+      { "text": "SimpleDialog", "link": "/simpledialog" }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+<template>
+  <!-- GitHub powered comments -->
+  <script
+    src="https://giscus.app/client.js"
+    data-repo="legopitstop/docs.lpsmods.dev"
+    data-repo-id="R_kgDOL-TnNQ"
+    data-category="General"
+    data-category-id="DIC_kwDOL-TnNc4Cp-dN"
+    data-mapping="title"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    crossorigin="anonymous"
+    async
+  ></script>
+</template>

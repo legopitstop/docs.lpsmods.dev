@@ -13,11 +13,19 @@ There are 6 variants of smooth basalt:
 
 ::: details Show all variants
 
-- Smooth Basalt
-- Smooth Basalt Stairs
-- Smooth Basalt Slab
-- Smooth Basalt Wall
-- Smooth Basalt Pressure Plate
-- Smooth Basalt Button
+- [Smooth Basalt Stairs](./Smooth_Basalt_Stairs.md)
+- [Smooth Basalt Slab](./Smooth_Basalt_Slab.md)
+- [Smooth Basalt Wall](./Smooth_Basalt_Wall.md)
+- [Smooth Basalt Pressure Plate](./Smooth_Basalt_Pressure_Plate.md)
+- [Smooth Basalt Button](./Smooth_Basalt_Button.md)
 
 :::
+
+## Obtaining
+
+### Smelting
+
+<SmeltingRecipe
+input="basalt"
+output="smooth_basalt"
+fuel="coal"/>

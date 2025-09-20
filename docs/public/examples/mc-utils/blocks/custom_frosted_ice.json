@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_frosted_ice",
+      "states": {
+        "mcutils:age": [0, 1, 2, 3]
+      }
+    },
+    "components": {
+      "mcutils:frosted_ice": {
+        "age_state": "mcutils:age",
+        "max_age": 3,
+        "converts_to": "water"
+      }
+    }
+  }
+}

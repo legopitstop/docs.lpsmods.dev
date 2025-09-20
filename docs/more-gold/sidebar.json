@@ -1,0 +1,15 @@
+[
+   { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Items",
+    "collapsed": true,
+    "items": [
+      { "text": "Golden Banana", "link": "/Golden_Banana.md" },
+      { "text": "Golden Fruit Seeds", "link": "/Golden_Fruit_Seeds.md" },
+      { "text": "Golden Grape", "link": "/Golden_Grape.md" },
+      { "text": "Golden Lemon", "link": "/Golden_Lemon.md" },
+      { "text": "Golden Orange", "link": "/Golden_Orange.md" },
+      { "text": "Golden Strawberry", "link": "/Golden_Strawberry.md" }
+    ]
+  }
+]

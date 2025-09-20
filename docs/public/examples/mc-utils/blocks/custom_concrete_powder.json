@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_concrete_powder"
+    },
+    "components": {
+      "minecraft:tick": {
+        "interval_range": [0, 0],
+        "looping": true
+      },
+      "mcutils:concrete_powder": {},
+      "mcutils:falling_block": {
+        "entity": "wiki:falling_block"
+      }
+    }
+  }
+}

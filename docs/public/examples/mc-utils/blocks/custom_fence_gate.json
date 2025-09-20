@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_fence_gate",
+      "states": {
+        "mcutils:open": [false, true],
+        "mcutils:in_wall": [false, true]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:cardinal_direction"]
+        }
+      }
+    },
+    "components": {
+      "minecraft:tick": {
+        "interval_range": [0, 0],
+        "looping": true
+      },
+      "mcutils:fence_gate": {
+        "toggle_state": "mcutils:open",
+        "in_wall_state": "mcutils:in_wall",
+        "direction_state": "minecraft:cardinal_direction",
+        "true_sound_event": "open.fence_gate",
+        "false_sound_event": "close.fence_gate"
+      }
+    }
+  }
+}

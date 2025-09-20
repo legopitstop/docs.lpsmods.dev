@@ -1,0 +1,20 @@
+[
+   { "text": "Getting Started", "link": "/getting-started" },
+  { "text": "Frontmatter Config", "link": "/frontmatter-config" },
+  { "text": "Markdown Extensions", "link": "/markdown" },
+  {
+    "text": "Components",
+    "base": "/lpsmods-docs/components/",
+    "items": [
+      { "text": "ShapedRecipe", "link": "/ShapedRecipe" },
+      { "text": "ShapelessRecipe", "link": "/ShapelessRecipe" },
+      { "text": "SmeltingRecipe", "link": "/SmeltingRecipe" },
+      { "text": "BrewingRecipe", "link": "/BrewingRecipe" },
+      { "text": "StonecutterRecipe", "link": "/StonecutterRecipe" },
+      { "text": "SmithingRecipe", "link": "/SmithingRecipe" },
+      { "text": "Inventory", "link": "/Inventory" },
+      { "text": "InvSlot", "link": "/InvSlot" },
+      { "text": "Icon", "link": "/Icon" }
+    ]
+  }
+]

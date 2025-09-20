@@ -23,20 +23,20 @@ output="morehoney:honey_toastie"/>
 
 Bedrock Edition:
 
-| Name                      | Namespaced ID            | Translation Key               |
-| ------------------------- | ------------------------ | ----------------------------- |
+| Name                       | Namespaced ID             | Translation Key                |
+| -------------------------- | ------------------------- | ------------------------------ |
 | Honey Toastie (#morehoney) | `morehoney:honey_toastie` | `item.morehoney:honey_toastie` |
 
 Data pack Edition:
 
-| Name          | Namespaced ID                                                     | Translation Key               |
-| ------------- | ----------------------------------------------------------------- | ----------------------------- |
+| Name          | Namespaced ID                                                      | Translation Key                |
+| ------------- | ------------------------------------------------------------------ | ------------------------------ |
 | Honey Toastie | Internal:<br>`morehoney:honey_toastie`<br>In-game:<br>`minecraft:` | `item.morehoney.honey_toastie` |
 
 Forge-Fabric Edition:
 
-| Name          | Namespaced ID            | Translation Key               |
-| ------------- | ------------------------ | ----------------------------- |
+| Name          | Namespaced ID             | Translation Key                |
+| ------------- | ------------------------- | ------------------------------ |
 | Honey Toastie | `morehoney:honey_toastie` | `item.morehoney.honey_toastie` |
 
 ## History

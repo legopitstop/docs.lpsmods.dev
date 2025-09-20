@@ -1,7 +1,6 @@
 ---
 title: BindButton Widget | TkinterPlus
 description: TkinterPlus is a Python UI library that adds more widgets to Tkinter
-keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 ---
 
 # BindButton Widget
@@ -12,7 +11,7 @@ keywords: legopitstop,python,pypi,widgets,pillow,pygame,tkinter,pythonpackage
 | ----------- | ----------------- | ----------- |
 | `master`    | tkinter.Tk        |             |
 | `variable`  | tkinter.StringVar |             |
-| `seperator` | str               |             |
+| `separator` | str               |             |
 | `command`   | Callable          |             |
 
 ## Methods

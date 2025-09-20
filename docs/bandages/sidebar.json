@@ -1,0 +1,18 @@
+[
+  { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Items",
+    "collapsed": true,
+    "items": [{ "text": "Bandage", "link": "/Bandage.md" }]
+  },
+  {
+    "text": "Data Pack",
+    "base": "/bandages/data-pack/",
+    "items": [{ "text": "Item Format", "link": "/item-format" }]
+  },
+  {
+    "text": "Bedrock",
+    "base": "/bandages/bedrock/",
+    "items": [{ "text": "Item Format", "link": "/item-format" }]
+  }
+]

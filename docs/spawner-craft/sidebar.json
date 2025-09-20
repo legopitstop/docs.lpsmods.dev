@@ -1,0 +1,13 @@
+[
+   { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Recipes",
+    "items": [
+      { "text": "Hostile", "link": "/hostile" },
+      { "text": "Friendly", "link": "/friendly" },
+      { "text": "Underwater", "link": "/underwater" },
+      { "text": "Nether", "link": "/nether" },
+      { "text": "Misc", "link": "/misc" }
+    ]
+  }
+]

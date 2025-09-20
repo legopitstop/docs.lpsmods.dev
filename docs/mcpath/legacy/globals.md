@@ -6,7 +6,7 @@ description: List of global variables.
 # globals
 
 ::: tip
-This page describes content that exists only in outdated versions of *mcpath*.
+This page describes content that exists only in outdated versions of _mcpath_.
 :::
 
 List of global variables.

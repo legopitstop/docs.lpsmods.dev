@@ -53,14 +53,14 @@ To turn on or off a ceiling light, use the "Use Item/Place Block" control (right
 
 Bedrock Edition:
 
-| Name                      | Namespaced ID             | Translation Key                |
-| ------------------------- | ------------------------- | ------------------------------ |
+| Name                    | Namespaced ID           | Translation Key              |
+| ----------------------- | ----------------------- | ---------------------------- |
 | Ceiling Light (#bright) | `bright:_ceiling_light` | `item.bright:_ceiling_light` |
 
 Forge-Fabric Edition:
 
-| Name          | Namespaced ID             | Translation Key                |
-| ------------- | ------------------------- | ------------------------------ |
+| Name          | Namespaced ID           | Translation Key              |
+| ------------- | ----------------------- | ---------------------------- |
 | Ceiling Light | `bright:_ceiling_light` | `item.bright._ceiling_light` |
 
 ## History

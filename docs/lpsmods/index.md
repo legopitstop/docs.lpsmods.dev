@@ -1,13 +1,13 @@
 ---
 title: lpsmods.dev Documentation
-description: desc
+description: Documentation for all lpsmods projects
 ---
 
-# lpsmods.dev Docs
+# lpsmods.dev
 
-Documentation for all my projects
+Documentation for all lpsmods projects
 
 ## Links
 
-- :computer: [Website](https://docs.lpsmods.dev)
-- :gear: [Source Code](https://github.com/legopitstop/docs.lpsmods.dev)
+- <Icon name="menu_book" /> [docs](/lpsmods-docs/)
+- <Icon name="code" /> [api](/lpsmods-api/)

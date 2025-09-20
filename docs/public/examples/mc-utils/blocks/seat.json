@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:seat",
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:cardinal_direction"],
+          "y_rotation_offset": 180.0
+        }
+      }
+    },
+    "components": {
+      "mcutils:sittable": {
+        "seat_position": [0, 8, 0],
+        "seat_animations": ["animation.player.sit"]
+      }
+    }
+  }
+}

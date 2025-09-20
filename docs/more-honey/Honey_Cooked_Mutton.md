@@ -23,20 +23,20 @@ output="morehoney:honey_cooked_mutton"/>
 
 Bedrock Edition:
 
-| Name                            | Namespaced ID                  | Translation Key                     |
-| ------------------------------- | ------------------------------ | ----------------------------------- |
+| Name                             | Namespaced ID                   | Translation Key                      |
+| -------------------------------- | ------------------------------- | ------------------------------------ |
 | Honey Cooked Mutton (#morehoney) | `morehoney:honey_cooked_mutton` | `item.morehoney:honey_cooked_mutton` |
 
 Data pack Edition:
 
-| Name                | Namespaced ID                                                           | Translation Key                     |
-| ------------------- | ----------------------------------------------------------------------- | ----------------------------------- |
+| Name                | Namespaced ID                                                            | Translation Key                      |
+| ------------------- | ------------------------------------------------------------------------ | ------------------------------------ |
 | Honey Cooked Mutton | Internal:<br>`morehoney:honey_cooked_mutton`<br>In-game:<br>`minecraft:` | `item.morehoney.honey_cooked_mutton` |
 
 Forge-Fabric Edition:
 
-| Name                | Namespaced ID                  | Translation Key                     |
-| ------------------- | ------------------------------ | ----------------------------------- |
+| Name                | Namespaced ID                   | Translation Key                      |
+| ------------------- | ------------------------------- | ------------------------------------ |
 | Honey Cooked Mutton | `morehoney:honey_cooked_mutton` | `item.morehoney.honey_cooked_mutton` |
 
 ## History

@@ -1,12 +1,11 @@
 ---
 title: throwable | More NBT Tags Documentation
-description: Add new NBT Tags to make customization easier! 
-keywords: legopitstop,minecraft,datapack,customizable,mod
+description: Add new NBT Tags to make customization easier!
 ---
 
 # throwable
 
-Throwable item componet. Throwable items, such as a snowball. Right now it is a bit buggy. This is planned to change. Only on `minecraft:carrot_on_a_stick` and `minecraft:warped_fungus_on_a_stick`.
+Throwable item component. Throwable items, such as a snowball. Right now it is a bit buggy. This is planned to change. Only on `minecraft:carrot_on_a_stick` and `minecraft:warped_fungus_on_a_stick`.
 
 ## Parameters
 

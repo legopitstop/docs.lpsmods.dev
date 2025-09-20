@@ -1,5 +1,5 @@
 ---
-title: Items | Bandage Mod Wiki
+title: Items | Bandages Mod Wiki
 description: A list of all items that Bandage adds.
 ---
 

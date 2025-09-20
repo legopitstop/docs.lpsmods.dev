@@ -1,0 +1,32 @@
+[
+  { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "API Reference",
+    "collapsed": true,
+    "items": [
+      { "text": "Constants", "link": "/constants" },
+      { "text": "Functions", "link": "/functions" },
+      {
+        "text": "Classes",
+        "items": [
+          { "text": "SoftwareBuilder", "link": "/SoftwareBuilder" },
+          { "text": "SoftwareFile", "link": "/SoftwareFile" },
+          { "text": "SoftwareFileSize", "link": "/SoftwareFileSize" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "text": "Examples",
+    "collapsed": true,
+    "items": [
+      { "text": "fetch_types", "link": "/example-fetch_types" },
+      { "text": "fetch_all", "link": "/example-fetch_all" },
+      { "text": "fetch_all_types", "link": "/example-fetch_all_types" },
+      { "text": "fetch_details", "link": "/example-fetch_details" },
+      { "text": "fetch_jar", "link": "/example-fetch_jar" },
+      { "text": "fetch_latest", "link": "/example-fetch_latest" }
+    ]
+  }
+]

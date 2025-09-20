@@ -1,29 +1,39 @@
 ---
 title: More Blocks Mod Wiki
-description: This Minecraft mod adds new variants of blocks! One block variant that you can find in the mod is "Layer" blocks, these blocks are like the Top Snow. increasing the height of the block.
-keywords: legopitstop,minecraft,mod,add-on,fabricmc,more blocks
+description: Adds new variants and decorative blocks to enhance Minecraft builds.
+layout: home
+
+hero:
+  name: More Blocks
+  text: Adds new variants and decorative blocks to enhance Minecraft builds.
+  tagline: Expand your building possibilities
+  image:
+    src: /images/more-blocks/icon.png
+  actions:
+    - theme: brand
+      text: Getting Started
+      link: ./getting-started
+    - theme: alt
+      text: CurseForge
+      link: https://www.curseforge.com/minecraft-bedrock/addons/more-blocks
+    - theme: alt
+      text: MCPEDL
+      link: https://mcpedl.com/more-blocks/
+    - theme: alt
+      text: Source Code
+      link: https://github.com/lpsmods/more-blocks
+
+features:
+  - icon: 🧱
+    title: Layer Blocks
+    details: Adds "Layer" blocks that function like Top Snow, increasing block height for more detailed builds.
+  - icon: 🎨
+    title: Decorative Variants
+    details: Introduces new decorative blocks to enhance architectural designs and creative builds.
+  - icon: ⚙️
+    title: Multi-Loader Compatibility
+    details: Supports Add-On, Fabric, Forge, and NeoForge environments.
+  - icon: 🛠️
+    title: Open-Source
+    details: Fully open-source with accessible documentation and source code.
 ---
-
-# More Blocks
-
-This Minecraft mod adds new variants of blocks! One block variant that you can find in the mod is "Layer" blocks, these blocks are like the Top Snow. increasing the height of the block.
-
-## Technical Info
-
-| Key           | Value                                  |
-| ------------- | -------------------------------------- |
-| namespace     | `moreblocks`                           |
-| resource UUID | `4791d53e-88de-49f6-846b-a2cbe7508032` |
-| behavior UUID | `bf24499d-0163-4ccb-a485-2c091c51317b` |
-| slug          | `more-blocks`                          |
-
-## Loaders
-
-- Add-On
-- Fabric
-
-## Links
-
-- :fire: [Curseforge](https://www.curseforge.com/minecraft-bedrock/addons/more-blocks)
-- :wrench: [MCPEDL](https://mcpedl.com/more-blocks/)
-- :gear: [Source Code](https://github.com/lpsmods/more-blocks)

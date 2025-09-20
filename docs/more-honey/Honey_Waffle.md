@@ -23,20 +23,20 @@ output="morehoney:honey_waffle"/>
 
 Bedrock Edition:
 
-| Name                     | Namespaced ID           | Translation Key              |
-| ------------------------ | ----------------------- | ---------------------------- |
+| Name                      | Namespaced ID            | Translation Key               |
+| ------------------------- | ------------------------ | ----------------------------- |
 | Honey Waffle (#morehoney) | `morehoney:honey_waffle` | `item.morehoney:honey_waffle` |
 
 Data pack Edition:
 
-| Name         | Namespaced ID                                                    | Translation Key              |
-| ------------ | ---------------------------------------------------------------- | ---------------------------- |
+| Name         | Namespaced ID                                                     | Translation Key               |
+| ------------ | ----------------------------------------------------------------- | ----------------------------- |
 | Honey Waffle | Internal:<br>`morehoney:honey_waffle`<br>In-game:<br>`minecraft:` | `item.morehoney.honey_waffle` |
 
 Forge-Fabric Edition:
 
-| Name         | Namespaced ID           | Translation Key              |
-| ------------ | ----------------------- | ---------------------------- |
+| Name         | Namespaced ID            | Translation Key               |
+| ------------ | ------------------------ | ----------------------------- |
 | Honey Waffle | `morehoney:honey_waffle` | `item.morehoney.honey_waffle` |
 
 ## History

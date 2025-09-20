@@ -1,10 +1,9 @@
 ---
-title: Backup | multicraft Documentation
+title: Backup class | multicraft Documentation
 description: Interact with your Minecraft server from hosts that use Multicraft using Python
-keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,pythonpackage
 ---
 
-# Backup
+# `Backup` class
 
 ## Parameters
 
@@ -14,7 +13,7 @@ keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,py
 | `ftp`     | str               |             |
 | `message` | str               |             |
 | `file`    | str               |             |
-| `time`    | datatime.datetime |             |
+| `time`    | datetime.datetime |             |
 
 ## Methods
 
@@ -22,4 +21,10 @@ keywords: legopitstop,python,minecraft,server,pypi,multicraft,minecraftserver,py
 
 ### `from_json`
 
-UNDOCUMENTED
+**Return Type**: Backup
+
+#### Parameters
+
+| name   | type | description |
+| ------ | ---- | ----------- |
+| `data` | dict |             |

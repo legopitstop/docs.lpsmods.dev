@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_stairs",
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:cardinal_direction"],
+          "y_rotation_offset": 180.0
+        },
+        "minecraft:placement_position": {
+          "enabled_states": ["minecraft:vertical_half"]
+        }
+      },
+      "states": {
+        "mcutils:shape": ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+      }
+    },
+    "components": {
+      "minecraft:tick": {
+        "interval_range": [0, 0],
+        "looping": true
+      },
+      "mcutils:stairs": {
+        "direction_state": "minecraft:cardinal_direction",
+        "half_state": "minecraft:vertical_half",
+        "shape_state": "mcutils:shape"
+      }
+    }
+  }
+}

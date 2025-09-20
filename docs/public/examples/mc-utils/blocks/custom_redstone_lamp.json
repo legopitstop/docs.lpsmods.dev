@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wiki:custom_redstone_lamp",
+      "states": {
+        "mcutils:lit": [false, true]
+      }
+    },
+    "components": {
+      "minecraft:tick": {
+        "interval_range": [0, 0],
+        "looping": true
+      },
+      "mcutils:redstone_lamp": {
+        "lit_state": "mcutils:lit",
+        "delay": 60
+      }
+    }
+  }
+}

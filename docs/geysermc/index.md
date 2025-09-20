@@ -1,52 +1,51 @@
 ---
 title: GeyserMC Documentation
-description: The unofficial Python wrapper for geysermc.org
-keywords: legopitstop,python,minecraft,pypi,geysermc,pythonpackage
+description: Bridge Minecraft Bedrock Edition clients to Java Edition servers seamlessly.
+
 next:
   text: gitfiles
   link: /gitfiles/
+
+layout: home
+
+hero:
+  name: GeyserMC
+  text: Bridge Minecraft Bedrock Edition clients to Java Edition servers seamlessly.
+  tagline: Crossplay made easy
+  actions:
+    - theme: brand
+      text: Getting Started
+      link: ./getting-started
+    - theme: alt
+      text: Download
+      link: https://github.com/legopitstop/geysermc/releases
+    - theme: alt
+      text: PyPI
+      link: https://pypi.org/project/geysermc/
+    - theme: alt
+      text: GitHub
+      link: https://github.com/legopitstop/GeyserMC
+    - theme: alt
+      text: GeyserMC
+      link: https://geysermc.org/
+
+features:
+  - icon: 🌉
+    title: Cross-Platform Play
+    details: Connect Bedrock clients (Windows, iOS, Android, consoles) to Java servers.
+  - icon: 🔄
+    title: Seamless Translation
+    details: Converts Bedrock packets to Java format and vice versa for smooth gameplay.
+  - icon: 🧩
+    title: Plugin & Standalone Support
+    details: Operates as a plugin or standalone proxy, compatible with various server types.
+  - icon: 🔐
+    title: Floodgate Integration
+    details: Allows Xbox Live-authenticated Bedrock users to join without a Java account.
+  - icon: 📦
+    title: Simple Installation
+    details: Install via pip with `pip install geysermc` for quick setup.
+  - icon: 🛠️
+    title: Open-Source
+    details: Fully open-source with accessible documentation and source code.
 ---
-
-# GeyserMC
-
-The unofficial Python wrapper for [geysermc.org](https://geysermc.org)
-
-## Links
-
-- :pie: [PyPI](https://pypi.org/project/geysermc)
-- :file_folder: [Download](https://github.com/legopitstop/geysermc/releases)
-- :gear: [Source Code](https://github.com/legopitstop/geysermc)
-- :book: [GeyserMC Global API](https://api.geysermc.org/docs)
-
-## Installation
-
-Install the module with pip:
-
-```bat
-pip3 install geysermc
-```
-
-Update existing installation: `pip3 install geysermc --upgrade`
-
-## Examples
-
-Show bedrock player skin
-
-```Python
-import geysermc
-
-xuid = geysermc.get_xuid('legopitstop')
-skin = geysermc.get_skin(xuid)
-image = geysermc.get_raw_texture(skin.texture_id)
-image.show()
-```
-
-Download Geyser plugin
-
-```Python
-import geysermc
-
-with open('geyser-spigot.jar', 'wb') as fd:
-    data = geysermc.get_download('geyser', 'spigot')
-    fd.write(data)
-```

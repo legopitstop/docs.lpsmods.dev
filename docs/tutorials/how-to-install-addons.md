@@ -65,7 +65,7 @@ If you're opening a .mcpack, a pop-up notification will alert you that you've su
 
 ![step6](/images/3ab1fe98-81b5-4213-8996-b5b36dab4543.png)
 
-1. Now you need to activate the addon by navigating to your server's world folder and create 2 seperate files. One called "world_behavior_packs.json" and the other called "world_resource_packs.json"
+1. Now you need to activate the addon by navigating to your server's world folder and create 2 separate files. One called "world_behavior_packs.json" and the other called "world_resource_packs.json"
 
 ![step7](/images/9ba5e811-6d62-4e8f-a086-683172640d5d.png)
 
