@@ -7,20 +7,15 @@ description: Guide book item behavior.
 
 Guide book item behavior.
 
-## Registering
+## Scripting
 
-Before you can use this component you need to register it.
+You can use `setup` to give new players your guide book.
 
 ```js
 import { system } from "@minecraft/server";
 import { GuideBookComponent } from "@lpsmods/mc-utils";
 
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(GuideBookComponent.typeId, new GuideBookComponent());
-
-  // Gives all players the book when they first enter the world.
-  GuideBookComponent.setup("wiki:guide_book");
-});
+GuideBookComponent.setup("wiki:guide_book");
 ```
 
 ## Component

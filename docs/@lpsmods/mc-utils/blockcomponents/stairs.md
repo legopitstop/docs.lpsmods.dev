@@ -7,19 +7,6 @@ description: Vanilla stairs block behavior.
 
 Vanilla stairs block behavior.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { StairsComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(StairsComponent.typeId, new StairsComponent());
-});
-```
-
 ## Requirements
 
 - [minecraft:tick](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/blockreference/examples/blockcomponents/minecraftblock_tick)

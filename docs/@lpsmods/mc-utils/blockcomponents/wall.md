@@ -7,19 +7,6 @@ description: Vanilla wall block behavior.
 
 Vanilla wall block behavior.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { WallComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(WallComponent.typeId, new WallComponent());
-});
-```
-
 ## Requirements
 
 - [minecraft:tick](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/blockreference/examples/blockcomponents/minecraftblock_tick)

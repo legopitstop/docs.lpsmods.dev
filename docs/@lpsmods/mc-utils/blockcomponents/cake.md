@@ -7,19 +7,6 @@ description: Vanilla cake block behavior.
 
 Vanilla cake block behavior.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { CakeComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(CakeComponent.typeId, new CakeComponent());
-});
-```
-
 ## Component
 
 ### Options

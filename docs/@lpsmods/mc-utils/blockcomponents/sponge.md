@@ -7,19 +7,6 @@ description: Vanilla sponge block behavior.
 
 Vanilla sponge block behavior.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { SpongeComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(SpongeComponent.typeId, new SpongeComponent());
-});
-```
-
 ## Component
 
 ### Options

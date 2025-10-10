@@ -7,19 +7,6 @@ description: Makes this item flatten dirt like a shovel.
 
 Makes this item flatten dirt like a shovel.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { ShovelComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(ShovelComponent.typeId, new ShovelComponent());
-});
-```
-
 ## Component
 
 ### Options

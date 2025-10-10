@@ -7,19 +7,6 @@ description: Vanilla pressure plate block behavior.
 
 Vanilla pressure plate block behavior.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { PressurePlateComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(PressurePlateComponent.typeId, new PressurePlateComponent());
-});
-```
-
 ## Requirements
 
 - [minecraft:tick](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/blockreference/examples/blockcomponents/minecraftblock_tick)

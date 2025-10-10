@@ -7,27 +7,14 @@ description: Vanilla crop block behavior.
 
 Vanilla crop block behavior.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { CropComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(CropComponent.typeId, new CropComponent());
-});
-```
-
 ## Component
 
 ### Options
 
-| Name           | Type   | Default | Description |
-| -------------- | ------ | ------- | ----------- |
-| `growth_state` | string |         |             |
-| `max_stage`    | number | `7`     |             |
+| Name           | Type   | Default          | Description |
+| -------------- | ------ | ---------------- | ----------- |
+| `growth_state` | string | `mcutils:growth` |             |
+| `max_stage`    | number | `7`              |             |
 
 ## Examples
 

@@ -7,19 +7,6 @@ description: Makes this item pottable.
 
 Makes this item pottable.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { PottableComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(PottableComponent.typeId, new PottableComponent());
-});
-```
-
 ## Component
 
 ### Options

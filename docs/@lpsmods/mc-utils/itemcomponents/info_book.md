@@ -7,19 +7,6 @@ description: A simple UI guide book for add-ons.
 
 A simple UI guide book for add-ons.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { InfoBookComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(InfoBookComponent.typeId, new InfoBookComponent());
-});
-```
-
 ## Component
 
 ### Options

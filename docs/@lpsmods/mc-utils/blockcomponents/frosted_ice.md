@@ -7,28 +7,15 @@ description: Vanilla frosted ice block behavior.
 
 Vanilla frosted ice block behavior.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { FrostedIceComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(FrostedIceComponent.typeId, new FrostedIceComponent());
-});
-```
-
 ## Component
 
 ### Options
 
-| Name          | Type   | Default | Description |
-| ------------- | ------ | ------- | ----------- |
-| `age_state`   | string |         |             |
-| `max_age`     | number | `7`     |             |
-| `converts_to` | string | `water` |             |
+| Name          | Type   | Default       | Description |
+| ------------- | ------ | ------------- | ----------- |
+| `age_state`   | string | `mcutils:age` |             |
+| `max_age`     | number | `7`           |             |
+| `converts_to` | string | `water`       |             |
 
 ## Examples
 

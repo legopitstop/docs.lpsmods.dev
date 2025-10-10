@@ -7,19 +7,6 @@ description: Vanilla "water" cauldron block behavior.
 
 Vanilla "water" cauldron block behavior.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { LayeredCauldronComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(LayeredCauldronComponent.typeId, new LayeredCauldronComponent());
-});
-```
-
 ## Component
 
 ### Options

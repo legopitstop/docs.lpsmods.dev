@@ -7,19 +7,6 @@ description: Vanilla coral block behavior.
 
 Vanilla coral block behavior.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { CoralComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(CoralComponent.typeId, new CoralComponent());
-});
-```
-
 ## Requirements
 
 - [minecraft:tick](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/blockreference/examples/blockcomponents/minecraftblock_tick)

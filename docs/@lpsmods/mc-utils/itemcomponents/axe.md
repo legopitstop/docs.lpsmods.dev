@@ -7,19 +7,6 @@ description: Makes this item strip logs like an axe.
 
 Makes this item strip logs like an axe.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { AxeComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(AxeComponent.typeId, new AxeComponent());
-});
-```
-
 ## Component
 
 ### Options

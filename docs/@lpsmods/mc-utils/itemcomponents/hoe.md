@@ -7,19 +7,6 @@ description: Makes this item till dirt like a hoe.
 
 Makes this item till dirt like a hoe.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { HoeComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(HoeComponent.typeId, new HoeComponent());
-});
-```
-
 ## Component
 
 ### Options

@@ -7,19 +7,6 @@ description: Vertical slab block behavior.
 
 Vertical slab block behavior.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { VerticalSlabComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(VerticalSlabComponent.typeId, new VerticalSlabComponent());
-});
-```
-
 ## Component
 
 ### Options
