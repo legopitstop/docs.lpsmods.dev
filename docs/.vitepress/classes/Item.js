@@ -6,7 +6,7 @@ export class Item {
     (this.id = A),
       (this.name = t),
       (this.link = e),
-      (this.texture = i || MISSING_TEXTURE),
+      (this.icon = i || MISSING_TEXTURE),
       (this.lore = n),
       (this.properties = p);
   }
@@ -20,7 +20,7 @@ export class Item {
   }
 
   static fromJson(A) {
-    return new Item(Identifier.fromString(A.id), A.name, A.texture, A.link, A.lore, A.properties);
+    return new Item(Identifier.fromString(A.id), A.name, A.icon, A.link, A.lore, A.properties);
   }
 
   match(A) {
