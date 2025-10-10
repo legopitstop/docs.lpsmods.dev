@@ -4,10 +4,21 @@
     "collapsed": false,
     "items": [
       { "text": "Getting Started", "link": "/guide/getting-started" },
-      { "text": "Custom Components", "link": "/guide/custom-components" }
+      { "text": "Custom Components", "link": "/guide/custom-components" },
+      { "text": "Custom Effect", "link": "/guide/custom-effect" },
+      { "text": "Custom Enchantment", "link": "/guide/custom-enchantment" }
     ]
   },
   { "text": "Script API", "collapsed": true, "items": [{ "text": "UNDOCUMENTED" }] },
+  {
+    "text": "Commands",
+    "collapsed": true,
+    "items": [
+      { "text": "Command List", "link": "/commands" },
+      { "text": "custom-effect", "link": "/commands/custom_effect" },
+      { "text": "custom-enchant", "link": "/commands/custom_enchant" }
+    ]
+  },
   {
     "text": "Block Components",
     "collapsed": true,

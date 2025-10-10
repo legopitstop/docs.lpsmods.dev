@@ -1,6 +1,6 @@
 ---
 title: "Item Components | @lpsmods/mc-utils Documentation"
-description: desc
+description: All custom item components in @lpsmods/mc-utils.
 ---
 
 # Item Components
