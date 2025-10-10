@@ -6,13 +6,7 @@ title: Getting Started | mcpath Documentation
 
 ## Installation
 
-Install the module with pip:
-
-```bat
-pip3 install mcpath
-```
-
-Update existing installation: `pip3 install mcpath --upgrade`
+<PythonInstallation project="mcpath" />
 
 ## Supported Platforms
 

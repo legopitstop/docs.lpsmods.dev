@@ -1,4 +1,14 @@
 {
+  "PythonInstallation": {
+    "scope": "md,markdown",
+    "prefix": "PythonInstallation",
+    "body": ["<PythonInstallation project=\"$0\" />"],
+  },
+  "NodeInstallation": {
+    "scope": "md,markdown",
+    "prefix": "NodeInstallation",
+    "body": ["<NodeInstallation package=\"$0\" />"],
+  },
   "Icon": {
     "scope": "md,markdown",
     "prefix": "Icon",

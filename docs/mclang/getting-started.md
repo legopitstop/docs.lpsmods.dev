@@ -6,13 +6,7 @@ title: Getting Started | mclang Documentation
 
 ## Installation
 
-Install the module with pip:
-
-```bat
-pip3 install mclang
-```
-
-Update existing installation: `pip3 install mclang --upgrade`
+<PythonInstallation project="mclang" />
 
 ## Features
 

@@ -6,13 +6,7 @@ title: Getting Started | mcextract Documentation
 
 ## Installation
 
-Install the module with pip:
-
-```bat
-pip3 install mcextract
-```
-
-Update existing installation: `pip3 install mcextract --upgrade`
+<PythonInstallation project="mcextract" />
 
 ## Examples
 

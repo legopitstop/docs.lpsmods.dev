@@ -6,13 +6,7 @@ title: Getting Started | serverjars Documentation
 
 ## Installation
 
-Install the module with pip:
-
-```bat
-pip3 install serverjars-api
-```
-
-Update existing installation: `pip3 install serverjars-api --upgrade`
+<PythonInstallation project="serverjars" />
 
 ## Supported Jars
 

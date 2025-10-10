@@ -6,13 +6,7 @@ title: Getting Started | userfolder Documentation
 
 ## Installation
 
-Install the module with pip:
-
-```bat
-pip3 install UserFolder
-```
-
-Update existing installation: `pip3 install UserFolder --upgrade`
+<PythonInstallation project="userfolder" />
 
 ## Examples
 
