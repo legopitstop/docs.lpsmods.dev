@@ -4,7 +4,9 @@ description: How to register and use custom components from @lpsmods/mc-utils.
 prev:
   text: Getting Started
   link: ./getting-started
-next: false
+next:
+  text: Custom Effect
+  link: ./custom-effect
 ---
 
 # Custom Components

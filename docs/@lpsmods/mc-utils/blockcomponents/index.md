@@ -1,6 +1,6 @@
 ---
 title: "Block Components | @lpsmods/mc-utils Documentation"
-description: desc
+description: All custom block components in @lpsmods/mc-utils.
 ---
 
 # Block Components
