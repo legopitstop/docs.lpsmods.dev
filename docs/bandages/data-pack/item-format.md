@@ -51,6 +51,6 @@ give @s minecraft:bow{bandage:[{effect:"speed", duration:2, amplifier:1}]}
 
 ## History
 
-|       | Data pack Edition                                             |
-| ----- | ------------------------------------------------------------- |
+|       | Data pack Edition                                              |
+| ----- | -------------------------------------------------------------- |
 | 1.4.0 | Added custom data to create your own [Bandages](../Bandage.md) |
