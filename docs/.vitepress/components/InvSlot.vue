@@ -16,7 +16,7 @@
       >
         <img
           :alt="item.name"
-          :src="item.texture"
+          :src="item.icon"
           class="nozoom"
           decoding="async"
           loading="lazy"
