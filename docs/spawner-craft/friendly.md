@@ -5,6 +5,18 @@ description: This mod adds new recipes that make all of the spawn eggs craftable
 
 # Friendly Recipes
 
+## Copper Golem Spawn Egg
+
+<ShapedRecipe
+a1="" b1="carved_pumpkin" c1=""
+a2="egg" b2="copper_block" c2="gold_ingot"
+a3="" b3="" c3=""
+output="copper_golem_spawn_egg"/>
+
+<ShapelessRecipe
+:ingredients="['copper_golem_statue', 'egg', 'gold_ingot']"
+output="copper_golem_spawn_egg"/>
+
 ## Happy Ghast Spawn Egg
 
 <ShapedRecipe

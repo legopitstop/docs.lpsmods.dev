@@ -6,13 +6,7 @@ title: Getting Started | accentcolordetect Documentation
 
 ## Installation
 
-Install the module with pip:
-
-```bat
-pip3 install accentcolordetect
-```
-
-Update existing installation: `pip3 install accentcolordetect --upgrade`
+<PythonInstallation project="accentcolordetect" />
 
 ## Usage
 

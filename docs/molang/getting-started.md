@@ -6,10 +6,4 @@ title: Getting Started | molang Documentation
 
 ## Installation
 
-Install the module with pip:
-
-```bat
-pip3 install molang
-```
-
-Update existing installation: `pip3 install molang --upgrade`
+<PythonInstallation project="molang" />

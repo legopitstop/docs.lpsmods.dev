@@ -6,13 +6,7 @@ title: Getting Started | gitfiles Documentation
 
 ## Installation
 
-Install the module with pip:
-
-```bat
-pip3 install gitfiles
-```
-
-Update existing installation: `pip3 install gitfiles --upgrade`
+<PythonInstallation project="gitfiles" />
 
 ## Examples
 

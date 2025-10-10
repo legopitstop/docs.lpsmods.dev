@@ -7,19 +7,6 @@ description: Vanilla farmland block behavior.
 
 Vanilla farmland block behavior.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { FarmlandComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(FarmlandComponent.typeId, new FarmlandComponent());
-});
-```
-
 ## Component
 
 ### Options

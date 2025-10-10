@@ -7,19 +7,6 @@ description: Vanilla slab block behavior.
 
 Vanilla slab block behavior.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { SlabComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(SlabComponent.typeId, new SlabComponent());
-});
-```
-
 ## Component
 
 ### Options

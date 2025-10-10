@@ -9,11 +9,7 @@ next: false
 
 ## Installation
 
-You can install `@lpsmods/mcaddon-bridge` using any Node package manager.
-
-```bash
-npm install @lpsmods/mcaddon-bridge
-```
+<NodeInstallation package="@lpsmods/mcaddon-bridge" />
 
 ## Using it in your project
 

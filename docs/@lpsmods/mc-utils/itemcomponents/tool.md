@@ -7,19 +7,6 @@ description: Deals damage to the item when you break a block or hit an entity.
 
 Deals damage to the item when you break a block or hit an entity.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { ToolComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(ToolComponent.typeId, new ToolComponent());
-});
-```
-
 ## Component
 
 ### Options

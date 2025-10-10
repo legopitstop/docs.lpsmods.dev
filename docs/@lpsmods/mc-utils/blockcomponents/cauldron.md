@@ -7,19 +7,6 @@ description: Vanilla cauldron block behavior.
 
 Vanilla cauldron block behavior.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { CauldronComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(CauldronComponent.typeId, new CauldronComponent());
-});
-```
-
 ## Component
 
 ### Options

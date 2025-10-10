@@ -11,7 +11,8 @@ import SmithingRecipe from "../components/SmithingRecipe.vue";
 import Inventory from "../components/Inventory.vue";
 import InvSlot from "../components/InvSlot.vue";
 import Icon from "../components/Icon.vue";
-
+import PythonInstallation from "../components/PythonInstallation.vue";
+import NodeInstallation from "../components/NodeInstallation.vue";
 import PackFormat from "../components/PackFormat.vue";
 import MCExtractCLI from "../components/MCExtractCLI.vue";
 import ModelRenderer from "../components/ModelRenderer.vue";
@@ -41,22 +42,24 @@ export default {
   extends: DefaultTheme,
   setup: setup,
   enhanceApp({ app: e }) {
-    e.component("Icon", Icon);
-    e.component("ShapedRecipe", ShapedRecipe);
-    e.component("ShapelessRecipe", ShapelessRecipe);
-    e.component("SmeltingRecipe", SmeltingRecipe);
-    e.component("BrewingRecipe", BrewingRecipe);
-    e.component("StonecutterRecipe", StonecutterRecipe);
-    e.component("SmithingRecipe", SmithingRecipe);
-    e.component("Inventory", Inventory);
-    e.component("InvSlot", InvSlot);
-    e.component("MCExtractCLI", MCExtractCLI);
-    e.component("ModelRenderer", ModelRenderer);
-    e.component("ArmorStandGenerator", ArmorStandGenerator);
-    e.component("RcoreGenerator", RcoreGenerator);
-    e.component("MusicDiscStudio", MusicDiscStudio);
-    e.component("MultiloaderGradleGenerator", MultiloaderGradleGenerator);
-    e.component("PackFormat", PackFormat);
+    e.component(Icon.name, Icon);
+    e.component(ShapedRecipe.name, ShapedRecipe);
+    e.component(ShapelessRecipe.name, ShapelessRecipe);
+    e.component(SmeltingRecipe.name, SmeltingRecipe);
+    e.component(BrewingRecipe.name, BrewingRecipe);
+    e.component(StonecutterRecipe.name, StonecutterRecipe);
+    e.component(SmithingRecipe.name, SmithingRecipe);
+    e.component(Inventory.name, Inventory);
+    e.component(InvSlot.name, InvSlot);
+    e.component(MCExtractCLI.name, MCExtractCLI);
+    e.component(ModelRenderer.name, ModelRenderer);
+    e.component(ArmorStandGenerator.name, ArmorStandGenerator);
+    e.component(RcoreGenerator.name, RcoreGenerator);
+    e.component(MusicDiscStudio.name, MusicDiscStudio);
+    e.component(MultiloaderGradleGenerator.name, MultiloaderGradleGenerator);
+    e.component(PackFormat.name, PackFormat);
+    e.component(PythonInstallation.name, PythonInstallation);
+    e.component(NodeInstallation.name, NodeInstallation);
     registerFile(items1);
     registerFile(items2);
     registerFile(items3);

@@ -29,7 +29,7 @@ features:
     details: Utilize Wooden, Stone, Iron, Gold, Diamond, and Netherite Breakers for varying efficiencies.
   - icon: 🔧
     title: Upgrade System
-    details: Enhance Breakers with upgrade items to increase range and performance.    
+    details: Enhance Breakers with upgrade items to increase range and performance.
   - icon: ⚙️
     title: Multi-Loader Compatibility
     details: Supports Add-On, Fabric, Forge, and NeoForge environments.

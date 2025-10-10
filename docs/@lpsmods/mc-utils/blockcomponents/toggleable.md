@@ -7,19 +7,6 @@ description: Toggleable block state behavior. (like; doors, trapdoors)
 
 Toggleable block state behavior. (like; doors, trapdoors)
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { ToggleableComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(ToggleableComponent.typeId, new ToggleableComponent());
-});
-```
-
 ## Component
 
 ### Options

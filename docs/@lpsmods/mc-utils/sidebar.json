@@ -1,7 +1,7 @@
 [
   {
     "text": "Guide",
-    "collapsed": true,
+    "collapsed": false,
     "items": [
       { "text": "Getting Started", "link": "/guide/getting-started" },
       { "text": "Custom Components", "link": "/guide/custom-components" }

@@ -7,19 +7,6 @@ description: Vanilla candle block behavior.
 
 Vanilla candle block behavior.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { CandleComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(CandleComponent.typeId, new CandleComponent());
-});
-```
-
 ## Requirements
 
 - [minecraft:tick](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/blockreference/examples/blockcomponents/minecraftblock_tick)
@@ -30,9 +17,9 @@ system.beforeEvents.startup.subscribe((event) => {
 
 | Name             | Type     | Default                           | Description |
 | ---------------- | -------- | --------------------------------- | ----------- |
-| `candles_state`  | string   |                                   |             |
-| `lit_state`      | number   |                                   |             |
-| `max_candles`    | string   |                                   |             |
+| `candles_state`  | string   | `mcutils:candles`                 |             |
+| `lit_state`      | number   | `mcutils:lit`                     |             |
+| `max_candles`    | string   | `4`                               |             |
 | `item`           | string   |                                   |             |
 | `flame_particle` | string   | `minecraft:candle_flame_particle` |             |
 | `fame_positions` | string[] | `[]`                              |             |

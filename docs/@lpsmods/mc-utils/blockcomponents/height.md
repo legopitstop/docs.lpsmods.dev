@@ -7,19 +7,6 @@ description: Vanilla snow layer block behavior.
 
 Vanilla snow layer block behavior.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { HeightComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(HeightComponent.typeId, new HeightComponent());
-});
-```
-
 ## Component
 
 ### Options

@@ -18,8 +18,8 @@ import { system } from "@minecraft/server";
 import { BushComponent, AxeComponent } from "@lpsmods/mc-utils";
 
 system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(BushComponent.typeId, new BushComponent());
+  event.blockComponentRegistry.registerCustomComponent(BushComponent.componentId, new BushComponent());
 
-  event.itemComponentRegistry.registerCustomComponent(AxeComponent.typeId, new AxeComponent());
+  event.itemComponentRegistry.registerCustomComponent(AxeComponent.componentId, new AxeComponent());
 });
 ```

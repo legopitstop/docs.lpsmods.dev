@@ -7,19 +7,6 @@ description: Vanilla scrape wax block behavior.
 
 Vanilla scrape wax block behavior.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { ScrapeWaxComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(ScrapeWaxComponent.typeId, new ScrapeWaxComponent());
-});
-```
-
 ## Component
 
 ### Options

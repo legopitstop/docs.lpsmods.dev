@@ -7,19 +7,6 @@ description: Vanilla multiblock behavior. (like; doors, tall grass, beds)
 
 Vanilla multiblock behavior. (like; doors, tall grass, beds)
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { MutliblockComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(MutliblockComponent.typeId, new MutliblockComponent());
-});
-```
-
 ## Component
 
 ### Options

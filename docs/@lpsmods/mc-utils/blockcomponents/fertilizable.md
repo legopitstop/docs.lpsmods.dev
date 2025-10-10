@@ -7,28 +7,15 @@ description: Vanilla fertilizable block behavior.
 
 Vanilla fertilizable block behavior.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { FertilizableComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(FertilizableComponent.typeId, new FertilizableComponent());
-});
-```
-
 ## Component
 
 ### Options
 
-| Name           | Type     | Default         | Description |
-| -------------- | -------- | --------------- | ----------- |
-| `growth_state` | string   |                 |             |
-| `max_stage`    | number   | `7`             |             |
-| `items`        | string[] | `["bone_meal"]` |             |
+| Name           | Type     | Default          | Description |
+| -------------- | -------- | ---------------- | ----------- |
+| `growth_state` | string   | `mcutils:growth` |             |
+| `max_stage`    | number   | `7`              |             |
+| `items`        | string[] | `["bone_meal"]`  |             |
 
 ## Examples
 

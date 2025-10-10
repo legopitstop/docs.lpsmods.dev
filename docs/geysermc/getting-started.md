@@ -6,13 +6,7 @@ title: Getting Started | GeyserMC Documentation
 
 ## Installation
 
-Install the module with pip:
-
-```bat
-pip3 install geysermc
-```
-
-Update existing installation: `pip3 install geysermc --upgrade`
+<PythonInstallation project="geysermc" />
 
 ## Examples
 

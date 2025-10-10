@@ -7,19 +7,6 @@ description: Makes this item place fire like a flint and steel.
 
 Makes this item place fire like a flint and steel.
 
-## Registering
-
-Before you can use this component you need to register it.
-
-```js
-import { system } from "@minecraft/server";
-import { FlintAndSteelComponent } from "@lpsmods/mc-utils";
-
-system.beforeEvents.startup.subscribe((event) => {
-  event.blockComponentRegistry.registerCustomComponent(FlintAndSteelComponent.typeId, new FlintAndSteelComponent());
-});
-```
-
 ## Component
 
 ### Options

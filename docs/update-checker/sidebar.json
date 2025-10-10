@@ -1,5 +1,5 @@
 [
-   { "text": "Getting Started", "link": "/getting-started" },
+  { "text": "Getting Started", "link": "/getting-started" },
   { "text": "Schema", "link": "/schema" },
   { "text": "Syntax", "link": "/syntax" },
   { "text": "Background Options", "link": "/background-options" },

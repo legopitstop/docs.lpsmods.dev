@@ -11,7 +11,7 @@ import icon from "./icon.json";
 import { sidebar } from "./sidebar.js";
 import { nav } from "./nav.js";
 
-function getIcon(path, icons) {
+function getIcon(path: string, icons) {
   const s = "/" + path.replace("\\", "/");
   for (const [key, value] of Object.entries(icons)) {
     if (s.includes(key)) {

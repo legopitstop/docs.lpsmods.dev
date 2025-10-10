@@ -6,13 +6,7 @@ title: Getting Started | mcaddon Documentation
 
 ## Installation
 
-Install the module with pip:
-
-```bat
-pip3 install mcaddon
-```
-
-Update existing installation: `pip3 install mcaddon --upgrade`
+<PythonInstallation project="mcaddon" />
 
 ## Examples
 
