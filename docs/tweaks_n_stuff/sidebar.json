@@ -6,7 +6,8 @@
     "items": [
       { "text": "Header Color", "link": "/header_color" },
       { "text": "Wrap Tabs", "link": "/wrap_tabs" },
-      { "text": "Close Actions", "link": "/close_actions" }
+      { "text": "Close Actions", "link": "/close_actions" },
+      { "text": "Pin Tab", "link": "/pin_tab" }
     ]
   },
   {
