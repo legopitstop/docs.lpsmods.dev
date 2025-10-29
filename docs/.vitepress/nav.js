@@ -14,6 +14,8 @@ export const nav = [
     text: "Tools",
     items: [
       { text: "Formatting Codes", link: "/formatting-codes" },
+      { text: "requirements.txt", link: "/requirements_txt" },
+      { text: "package.json", link: "/package_json" },
       //   { text: "Develop Multiloader", link: "/develop-multiloader" },
     ],
   },
