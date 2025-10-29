@@ -20,7 +20,8 @@
 }
 
 select,
-input {
+input,
+textarea {
   appearance: none;
   -webkit-appearance: none;
   padding: 0 10px 0 12px;
@@ -32,8 +33,16 @@ input {
   border: 1px solid transparent;
 }
 select:focus,
-input:focus {
+input:focus,
+textarea:focus {
   border: 1px solid var(--docsearch-primary-color);
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  min-height: 2em;
+  height: 8em;
 }
 
 input[type="checkbox"] {
@@ -76,3 +85,18 @@ input[type="checkbox"]:disabled {
 .error {
   color: red;
 }
+
+.loader {
+  margin: auto;
+  margin-top: .5em;
+  width: fit-content;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 30px;
+  clip-path: inset(0 3ch 0 0);
+  animation: l4 1s steps(4) infinite;
+}
+.loader:before {
+  content:"Loading..."
+}
+@keyframes l4 {to{clip-path: inset(0 -1ch 0 0)}}

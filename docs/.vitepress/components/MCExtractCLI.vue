@@ -18,7 +18,7 @@
         </div>
 
         <div>
-          <label for="snapshots">Show Snapshots</label>
+          <label for="snapshots">Show Snapshots:</label>
           <input type="checkbox" name="snapshots" id="snapshots" @change="onChange" v-model="snapshots" />
         </div>
 

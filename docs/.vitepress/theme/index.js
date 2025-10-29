@@ -19,6 +19,8 @@ import ModelRenderer from "../components/ModelRenderer.vue";
 import ArmorStandGenerator from "../components/ArmorStandGenerator.vue";
 import RcoreGenerator from "../components/RcoreGenerator.vue";
 import MultiloaderGradleGenerator from "../components/MultiloaderGradleGenerator.vue";
+import PythonRequirements from "../components/PythonRequirements.vue";
+import NodePackage from "../components/NodePackage.vue";
 import "./mcui.css";
 import "./custom.css";
 import MusicDiscStudio from "../components/MusicDiscStudio.vue";
@@ -60,6 +62,8 @@ export default {
     e.component(PackFormat.name, PackFormat);
     e.component(PythonInstallation.name, PythonInstallation);
     e.component(NodeInstallation.name, NodeInstallation);
+    e.component(PythonRequirements.name, PythonRequirements);
+    e.component(NodePackage.name, NodePackage);
     registerFile(items1);
     registerFile(items2);
     registerFile(items3);
