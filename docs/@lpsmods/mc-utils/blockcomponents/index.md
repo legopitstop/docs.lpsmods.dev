@@ -24,6 +24,7 @@ description: All custom block components in @lpsmods/mc-utils.
 | [mcutils:fence_gate](./fence_gate.md)                 |             |
 | [mcutils:fertilizable](./fertilizable.md)             |             |
 | [mcutils:flower_bed](./flower_bed.md)                 |             |
+| [mcutils:food](./food.md)                             |             |
 | [mcutils:frosted_ice](./frosted_ice.md)               |             |
 | [mcutils:height](./height.md)                         |             |
 | [mcutils:lava_cauldron](./lava_cauldron.md)           |             |
@@ -31,7 +32,6 @@ description: All custom block components in @lpsmods/mc-utils.
 | [mcutils:leaves](./leaves.md)                         |             |
 | [mcutils:multiblock](./multiblock.md)                 |             |
 | [mcutils:oxidizable](./oxidizable.md)                 |             |
-| [mcutils:potted_flower](./potted_flower.md)           |             |
 | [mcutils:powder_snow](./powder_snow.md)               |             |
 | [mcutils:pressure_plate](./pressure_plate.md)         |             |
 | [mcutils:redstone_lamp](./redstone_lamp.md)           |             |
@@ -50,3 +50,9 @@ description: All custom block components in @lpsmods/mc-utils.
 | [mcutils:viscosity](./viscosity.md)                   |             |
 | [mcutils:wall](./wall.md)                             |             |
 | [mcutils:waxable](./waxable.md)                       |             |
+
+## Legacy
+
+| Item Components                             | Description |
+| ------------------------------------------- | ----------- |
+| [mcutils:potted_flower](./potted_flower.md) |             |

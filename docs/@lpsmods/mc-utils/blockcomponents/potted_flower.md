@@ -7,6 +7,10 @@ description: Vanilla flower pot behavior.
 
 Vanilla flower pot behavior.
 
+::: warning
+This component has been removed in `0.0.6` in favor of [`minecraft:flower_pottable`](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/blockreference/examples/blockcomponents/minecraftblock_flower_pottable?view=minecraft-bedrock-experimental)
+:::
+
 ## Component
 
 ### Options
