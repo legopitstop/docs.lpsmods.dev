@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.100",
+  "format_version": "1.21.120",
   "minecraft:block": {
     "description": {
       "identifier": "wiki:custom_cake",
@@ -11,6 +11,8 @@
       "mcutils:cake": {
         "slice_state": "mcutils:slice",
         "max_slices": 6,
+        "nutrition": 2,
+        "saturation_modifier": 0.4,
         "interactions": ["candle->wiki:candle_cake"]
       }
     }

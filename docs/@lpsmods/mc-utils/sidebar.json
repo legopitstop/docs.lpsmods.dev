@@ -41,6 +41,7 @@
       { "text": "mcutils:fence_gate", "link": "/blockcomponents/fence_gate" },
       { "text": "mcutils:fertilizable", "link": "/blockcomponents/fertilizable" },
       { "text": "mcutils:flower_bed", "link": "/blockcomponents/flower_bed" },
+      { "text": "mcutils:food", "link": "/blockcomponents/food" },
       { "text": "mcutils:frosted_ice", "link": "/blockcomponents/frosted_ice" },
       { "text": "mcutils:height", "link": "/blockcomponents/height" },
       { "text": "mcutils:lava_cauldron", "link": "/blockcomponents/lava_cauldron" },
@@ -48,7 +49,6 @@
       { "text": "mcutils:leaves", "link": "/blockcomponents/leaves" },
       { "text": "mcutils:multiblock", "link": "/blockcomponents/multiblock" },
       { "text": "mcutils:oxidizable", "link": "/blockcomponents/oxidizable" },
-      { "text": "mcutils:potted_flower", "link": "/blockcomponents/potted_flower" },
       { "text": "mcutils:powder_snow", "link": "/blockcomponents/powder_snow" },
       { "text": "mcutils:pressure_plate", "link": "/blockcomponents/pressure_plate" },
       { "text": "mcutils:redstone_lamp", "link": "/blockcomponents/redstone_lamp" },
@@ -66,7 +66,9 @@
       { "text": "mcutils:vertical_slab", "link": "/blockcomponents/vertical_slab" },
       { "text": "mcutils:viscosity", "link": "/blockcomponents/viscosity" },
       { "text": "mcutils:wall", "link": "/blockcomponents/wall" },
-      { "text": "mcutils:waxable", "link": "/blockcomponents/waxable" }
+      { "text": "mcutils:waxable", "link": "/blockcomponents/waxable" },
+
+      { "text": "mcutils:potted_flower [legacy]", "link": "/blockcomponents/potted_flower" }
     ]
   },
   {
@@ -79,10 +81,11 @@
       { "text": "mcutils:guide_book", "link": "/itemcomponents/guide_book" },
       { "text": "mcutils:hoe", "link": "/itemcomponents/hoe" },
       { "text": "mcutils:info_book", "link": "/itemcomponents/info_book" },
-      { "text": "mcutils:pottable", "link": "/itemcomponents/pottable" },
       { "text": "mcutils:shovel", "link": "/itemcomponents/shovel" },
       { "text": "mcutils:tool", "link": "/itemcomponents/tool" },
-      { "text": "mcutils:writable_book", "link": "/itemcomponents/writable_book" }
+      { "text": "mcutils:writable_book", "link": "/itemcomponents/writable_book" },
+
+      { "text": "mcutils:pottable [legacy]", "link": "/itemcomponents/pottable" }
     ]
   }
 ]
