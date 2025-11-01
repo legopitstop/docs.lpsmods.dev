@@ -1,0 +1,41 @@
+name: Docs Build
+
+on:
+  push:
+    paths:
+      - 'docs/**'
+      - '**.md'
+      - 'mkdocs.yml'
+      - '.github/**'
+  pull_request:
+    paths:
+      - 'docs/**'
+      - '**.md'
+      - 'mkdocs.yml'
+      - '.github/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install JS deps (npm)
+        if: ${{ steps.check.outputs.has_package_json == 'true' }}
+        run: |
+          npm ci
+      - name: Build (npm)
+        if: ${{ steps.check.outputs.has_package_json == 'true' }}
+        run: |
+          npm run build --if-present
+      - name: Build MkDocs
+        if: ${{ steps.check.outputs.has_mkdocs == 'true' }}
+        run: |
+          python -m pip install --upgrade mkdocs
+          mkdocs build
+
+      - name: Confirm files exist
+        run: ls -la
