@@ -7,6 +7,105 @@
   ],
   "items": [
     {
+      "id": "minecraft:copper_nautilus_armor",
+      "name": "Copper Nautilus Armor",
+      "lore": ["", "&7When equipped:", "&9\t+4 Armor"],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAFVBMVEUAAACEQim2XD3WbUj8mYLnfFb91MtuXgYIAAAAAXRSTlMAQObYZgAAAFpJREFUeNp1z0EKA0EMA0GpLc3/n5yDJywJrMGHanyxXgf+mMAPz7npy11bEs1liiU5bZbcAO0pMGPJrkMPzIBl7NYNsxc22H4uJHuGhmF9UwCvN5XLJ718/QH6pwG43VSX4gAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "minecraft:iron_nautilus_armor",
+      "name": "Iron Nautilus Armor",
+      "lore": ["", "&7When equipped:", "&9\t+5 Armor"],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAAnRSTlMAAHaTzTgAAABgSURBVHjadc9BDQNBDENRkzKVzyE4zMaMhk0PmWrVShsph/eVS/Q68McWfnjOTV/u2pJILxssyU265AZIToAZS3ZccmAGLGMnTpm9sMH2cyHZM6QM65sKeL0pXD7p5esPubVCP7aCz2wAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:golden_nautilus_armor",
+      "name": "Golden Nautilus Armor",
+      "lore": ["", "&7When equipped:", "&9\t+7 Armor"],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAFVBMVEUAAACXVQ69fhHUlxPu4Ffsy0X9/3brGfdBAAAAAXRSTlMAQObYZgAAAFpJREFUeNp1z0EKA0EMA0GpLc3/n5yDJywJrMGHanyxXgf+mMAPz7npy11bEs1liiU5bZbcAO0pMGPJrkMPzIBl7NYNsxc22H4uJHuGhmF9UwCvN5XLJ718/QH6pwG43VSX4gAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "minecraft:diamond_nautilus_armor",
+      "name": "Diamond Nautilus Armor",
+      "lore": ["", "&7When equipped:", "&9\t+11 Armor", "&9\t+2 Armor Toughness"],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAFVBMVEUAAAAUfnoZm5Eet6uh++hD3sn///9/H2ICAAAAAXRSTlMAQObYZgAAAFpJREFUeNp1z0EKA0EMA0GpLc3/n5yDJywJrMGHanyxXgf+mMAPz7npy11bEs1liiU5bZbcAO0pMGPJrkMPzIBl7NYNsxc22H4uJHuGhmF9UwCvN5XLJ718/QH6pwG43VSX4gAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "minecraft:netherite_nautilus_armor",
+      "name": "Netherite Nautilus Armor",
+      "lore": ["", "&7When equipped:", "&9\t+19 Armor", "&9\t+3 Armor Toughness", "&9\t+1 Knockback Resistance"],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAFVBMVEUAAAAdDQ8uHiA0LC5RRE47OTtwZ3D1pVG2AAAAAXRSTlMAQObYZgAAAFpJREFUeNp1z0EKA0EMA0GpLc3/n5yDJywJrMGHanyxXgf+mMAPz7npy11bEs1liiU5bZbcAO0pMGPJrkMPzIBl7NYNsxc22H4uJHuGhmF9UwCvN5XLJ718/QH6pwG43VSX4gAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "minecraft:netherite_horse_armor",
+      "name": "Netherite Horse Armor",
+      "lore": ["", "&7When equipped:", "&9\t+19 Armor", "&9\t+3 Armor Toughness", "&9\t+1 Knockback Resistance"],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAG1BMVEUAAADRfQB2ana4UABdVl1RRE6UKQZJOT8yJyeb0LNvAAAAAXRSTlMAQObYZgAAAEtJREFUeNpjIARY4Ax3KMOFpQBMs6qEFEBlOhoYGJScjU0qgDym0EJBiQ6QcHijoUVIAFBhRbOwRSlQLXt5WVpGOVCEowMEGrBYBwAMoQ/X7gFPmgAAAABJRU5ErkJggg=="
+    },
+
+    {
+      "id": "minecraft:wooden_spear",
+      "name": "Wooden Spear",
+      "lore": ["", "&7When in Main Hand:", "&2\t1 Attack Damage", "&2\t1.54 Attack Speed"],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEUAAAA3KRBJNhWJZydHNhSGZSZ1WCFZQxm6XzSjSyJBGAVnKQtoTh4oHgsgGAqCkLyCAAAAAXRSTlMAQObYZgAAAEBJREFUeNp9yykCwDAMA0GprdNb/39uQEAsgywbsLBIOlvI2OLQ5GnGMPNRjC1IKvn7VQxI7vzva7/V1+O+3ajuCbkB6k/ONecAAAAASUVORK5CYII="
+    },
+    {
+      "id": "minecraft:stone_spear",
+      "name": "Stone Spear",
+      "lore": ["", "&7When in Main Hand:", "&2\t2 Attack Damage", "&2\t1.33 Attack Speed"],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAMFBMVEUAAABERERJNhV4d3dnKQtBGAWjSyJoTh66XzSVkY2zsa9ra2tJSUmJZycoHgsYGBjNXKayAAAAAXRSTlMAQObYZgAAAEFJREFUeNqFyysCACEMA9F0/3QLuf9tEQhIDeOeGEhmpixOYfGfk6cYw7EeyTg8Irj4bRTXBpDi2d5X9nerHzWyO3h9AnecAnzjAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "minecraft:copper_spear",
+      "name": "Copper Spear",
+      "lore": ["", "&7When in Main Hand:", "&2\t2 Attack Damage", "&2\t1.18 Attack Speed"],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAABfLBxJNhXTb1JnKQtBGAWjSyK6XzRoTh7qhmv8mYL91MvBWjacTjGJZycoHgtCHBEbHZ+WAAAAAXRSTlMAQObYZgAAAEdJREFUeNqFy0sSgDAIA9DQ+gPEcv/TOq5KujG7l0xAERGmeVaq+Z2T3bQY0r896kPZaB5Ri3aNJD8DyCTP/Htbfe7sg43VL5LdAqDd8+FYAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "minecraft:iron_spear",
+      "name": "Iron Spear",
+      "lore": ["", "&7When in Main Hand:", "&2\t3 Attack Damage", "&2\t1.05 Attack Speed"],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAABERERJNhWFhYVnKQtBGAWjSyJoTh66XzSxsbHY2Nj///9ra2tUV1iJZycoHgsYGBiCCeb1AAAAAXRSTlMAQObYZgAAAEdJREFUeNqFy0sSgDAIA9DQ+gPEcv/TOq5KujG7l0xAERGmeVaq+Z2T3bQY0r896kPZaB5Ri3aOJD8DyCTP/Htbfe3sg43VL5J9AqCUooXYAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "minecraft:golden_spear",
+      "name": "Golden Spear",
+      "lore": ["", "&7When in Main Hand:", "&2\t1 Attack Damage", "&2\t1.05 Attack Speed"],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAMFBMVEUAAAA/Lg4oHguJZyfclhP020n////9/3bpsRVoTh66XzSjSyJBGAVnKQtJNhWCXRbAzQmKAAAAAXRSTlMAQObYZgAAAEdJREFUeNqFyzkSwCAMA0CZ4CMX/v9vM6mwaFC30giUzGS6SaW6qUyGazEy/r3Xh1pUY3j0WoyzCflogAh5Zu939fWwbzZWf1YwAiuFUWPjAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "minecraft:diamond_spear",
+      "name": "Diamond Spear",
+      "lore": ["", "&7When in Main Hand:", "&2\t4 Attack Damage", "&2\t0.95 Attack Speed"],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAMFBMVEUAAAAIJSAoHguJZyceincz68vy//2k/fArx6y6XzRoTh6jSyJBGAVnKQtJNhUOPzZI1cKBAAAAAXRSTlMAQObYZgAAAEdJREFUeNqFyzkSwCAMA0CZ4CMX/v9vM6mwaFC30giUzGS6SaW6qUyGazEy/r3Xh1pUY3j0WoyrCflogAh5Zu939fmwbzZWf1aQAisoA8WXAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "minecraft:netherite_spear",
+      "name": "Netherite Spear",
+      "lore": ["", "&7When in Main Hand:", "&2\t5 Attack Damage", "&2\t0.87 Attack Speed"],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAKlBMVEUAAAAjEBJzRUMxKSo8MjKGe4ZdVl1YTlZDQENgNDI7OTtLP0ZKKUAvISIldkaIAAAAAXRSTlMAQObYZgAAAEJJREFUeNqdyzEWgDAMAlAwJlGb3v+66mToKNuHByRVpQxnZ4bv/Dgim1Hj3a0/Uo3pZr2YJyneHpBq4L+PxZcaq28j+AHGLGqbIwAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "minecraft:camel_husk_spawn_egg",
+      "name": "Camel Husk Spawn Egg",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEUAAAAaFxQ4MSdUSTcuKCFHPC1iVkRaTz11Z1IkIBy91YQVAAAAAXRSTlMAQObYZgAAAHFJREFUeNo9igEOxDAMwgqEdPz/w6ds7VmKFCyvjyRZh/lCmTm/lHDLYuZfoYrdWxJLxFpg1C3JxOwxfQusIeopbBL/vW2ZLFxhknOf2C0OVzxSzaiiXuFHQRVCncI2kypO8Zq2q4qaPQSeqIB1AYAzf99/Az9E1xntAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "minecraft:nautilus_spawn_egg",
+      "name": "Nautilus Spawn Egg",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAOVBMVEUAAABmRS65noLh183/a1QvRXo1Wos+dqNLmMRjyf+shGasKCRZHBt1JSPDtJnUyLbbWkGzQTKAVzktOAFXAAAAAXRSTlMAQObYZgAAAHpJREFUeNpNi1sCwyAIBF2MRpuHwP0PW8Cmcf52GNJEjbSgwiy6bKJxD9L3vm3MS6OasxVD8dsjqwulD55A/UUJIS7GprcXguOMD+QpCOQJkAfYAMVPuQSAFwDkLCaYBYFIiCo8sX0UF3t79l5rSWF676232EYtf2pKX/5XB9/lcxS7AAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "minecraft:parched_spawn_egg",
+      "name": "Parched Spawn Egg",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAMFBMVEUAAABXTTWsmGvOtoZ+bEd0bmZUVEhmZlpKRz2HfnaQiXrdw47AqHI2MipAPTVwY0QNymeZAAAAAXRSTlMAQObYZgAAAGlJREFUeNp1j0EOgzAMBMk6u3ZSQv7/20bUUkGCuc3IPuz2wlzc3KxqXh0exPw7I2CGI8NBYV+ukQf4LPZOxchgBlejNPKjddIvoTlP5BmidS4ao/yCR8hdEbVsWUipYnlSKoD0LCfPu78CrgOPxDj/xgAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "minecraft:zombie_nautilus_spawn_egg",
+      "name": "Zombie Nautilus Spawn Egg",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAP1BMVEUAAADk6dEvRXo1WosKERQkNCs3RzM+dqNLmMRjyf8YJiOasyKJf1srgCgylADFxqp8ng1hVjPZ2r+npoR3bElqgOvmAAAAAXRSTlMAQObYZgAAAIFJREFUeNpNilkWgzAMA7MCKZBYtu5/1qZJWeZLM09uwo57QdNmfLvfdzE+Lt6k6l1I77WaEn9XT69NaQeuA1Wa0IB5gKdIMxoOzKCU2pTnDAkqqNYU54nkXEgZ6NsUQE6hh2XJGOQ8QszLpPsn/MK6Xb7GGNwopZStbMM7MdxE577/BQjc8ivY7wAAAABJRU5ErkJggg=="
+    },
+    {
       "id": "minecraft:copper_golem_spawn_egg",
       "name": "Copper Golem Spawn Egg",
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAFVBMVEUAAADjgmzIdFasXkSQSTF4MhlZIQ3iWfiFAAAAAXRSTlMAQObYZgAAAE5JREFUeNqNjTkOADEIA/HF/5+8UoqFdJnOA7LrkEMNAYBLUGLqNncOmOy7gTirk7LV8wCQkntGBVgaQYNb2Aad/EK0k+moNqWVq/pQb3zVOAGKIg3W9AAAAABJRU5ErkJggg=="
@@ -54,31 +153,31 @@
     {
       "id": "minecraft:copper_sword",
       "name": "Copper Sword",
-      "lore": ["", "&7When in main hand:", "&2\t1.6 Attack Speed", "&2\t5 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1.6 Attack Speed", "&2\t5 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAJFBMVEUAAABfLBz91MuAOSEoHgtoTh5JNhWJZyecTjHjgmz8mYJCHBErrComAAAAAXRSTlMAQObYZgAAAExJREFUeNp9zVEOgDAIA1DKNkV6//uaGSP2Y+OHvBLApACo3am+nHvnws9lZM3RIDZDMGO6gmiva0l8DAL8+exGfgkw+uyspzQpUoMb9sgB/CdGlcMAAAAASUVORK5CYII="
     },
     {
       "id": "minecraft:copper_pickaxe",
       "name": "Copper Pickaxe",
-      "lore": ["", "&7When in main hand:", "&2\t1.2 Attack Speed", "&2\t3 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1.2 Attack Speed", "&2\t3 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAHlBMVEUAAAD8mYLjgmzWbUiJZydoTh5fLBxJNhVCHBEoHguwLIRwAAAAAXRSTlMAQObYZgAAAERJREFUeNpjwArS0hLANJuQsVopmJXRYewJlSyygNDskUYNYEbJhOYGiAADkAEWYGhqgAgwNDZABBg4oAJQLVDGTDSbARrnDxW7QxrCAAAAAElFTkSuQmCC"
     },
     {
       "id": "minecraft:copper_axe",
       "name": "Copper Axe",
-      "lore": ["", "&7When in main hand:", "&2\t0.8 Attack Speed", "&2\t9 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t0.8 Attack Speed", "&2\t9 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAIVBMVEUAAAD8mYLjgmzWbUiJZyecTjFoTh5fLBxJNhVCHBEoHgu9s2uzAAAAAXRSTlMAQObYZgAAAD9JREFUeNpjQAHsBVBGoThUQFgdKmBskQBmTFQOXgBmcM4wtYTItS2GMDi8OCdABIAqwAJZUONacAkwrGJABQBt3Qx8gJn71AAAAABJRU5ErkJggg=="
     },
     {
       "id": "minecraft:copper_shovel",
       "name": "Copper Shovel",
-      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t3.5 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1 Attack Speed", "&2\t3.5 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZUlEQVQ4y2NgGFIgXkfmPwg7yQj+J0vzn5lNYHwt14M0Q2CaHzflgDWD2EQbgK4ZRJNkAAh4molSprkzXf2/hhw3ZZpBfJI1Z/jJwTWTBNBtJlkzWTaDNFJsM9maYQCkmSIDyAEAHONoaJoJJloAAAAASUVORK5CYII="
     },
     {
       "id": "minecraft:copper_hoe",
       "name": "Copper Hoe",
-      "lore": ["", "&7When in main hand:", "&2\t2 Attack Speed", "&2\t1 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t2 Attack Speed", "&2\t1 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZElEQVQ4jWNgoCWI15H5D8Nkaf4zs+n/46YcMCbLECcZwf8gfC3XA26Ip5no/ww/OdIMgxkCwp3p6v815LhJdw3IZpArQIaADCRZM8jZIJvJ0kyRs2E2k6V51GYSAUgj2ZopAQDrD1tEUXU7lAAAAABJRU5ErkJggg=="
     },
     {
@@ -811,7 +910,7 @@
       "id": "minecraft:mace",
       "name": "&dMace",
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAACdQTFRFAAAAQkdSmaGuv87nVVxpHiIpLjM7fISRZmx6UGOQeoLEI0JptaXKHkYrLQAAAA10Uk5TAP///////////////y0EQa0AAACISURBVHicfc5RDQMhEIThOQljAQtY4CRgoRZOQyWgYSzUAhawsBa63LVJm7C3L+T/EmA3fIeweWwhkBxWuoVApsFEUwTeiWISAvDuD3FkKoLDl3oNIDOAKTIUqkSAmp9nK4LmW6l6I4BG7nVeQAAt2+7vQgjg6s+s4K8XQP/zp1dwdOEWKnAPbyDjVXX+cO0IAAAAAElFTkSuQmCC",
-      "lore": ["", "&7When in main hand:", "&2\t1.6 Attack Speed", "&2\t7 Attack Damage"]
+      "lore": ["", "&7When in Main Hand:", "&2\t1.6 Attack Speed", "&2\t7 Attack Damage"]
     },
     {
       "id": "minecraft:netherite_upgrade",
@@ -2796,7 +2895,7 @@
     {
       "id": "minecraft:diamond_axe",
       "name": "Diamond Axe",
-      "lore": ["", "&7When in main hand:", "&2\t0.8 Attack Speed", "&2\t9 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t0.8 Attack Speed", "&2\t9 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFUlEQVR4XmMY8YCRWiHAZ2f6H9msT4dOE2U200BHAcUhAPO5yqopKH65E5YD5hMKiQEPARZyowDd519PnAcbxSwqRJKRQy8EcPkc5u2/r9+BmVbfH4BpeV85cO6YufkR1vQ29ELg1/PXKHEMi3OYz7/fuAeWv1/dDKYf5BXjTRNDtxzgUFVAKfkcBL6i+BwWEpwaSmDxh6UdYPrH7QcoaWHolgMwn3iYioJDQl6CEyXOOSf1ElUeDN00APO5vSGk5Fu44wnYxzcefQXHMXoaQY97WPAMvRBAj/ODF9+i+JyBRDB0QoDaPh86aYBQamegEAzeNECrOEcPsMEXArSO88EfAhpy3Cj1PKxsZ6ARGPA0wDDiAQDKRHBhSeyTvQAAAABJRU5ErkJggg=="
     },
     {
@@ -2822,7 +2921,7 @@
     {
       "id": "minecraft:diamond_hoe",
       "name": "Diamond Hoe",
-      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t1 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1 Attack Speed", "&2\t1 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA+ElEQVR4XmMY8YCR3BDgszP9j03vp0OnSTKTaaCjgOQQgPlcZdUUsNt/3H2I4ocnld1gPrEhMfRCAOZdDlUFlDQg310BlmIWFQLTsJCw+v4AzJeX4ATTMzc/Qgn1oRsC6IkXFiKwkIDJJ2zrBzMX7ngCpm88+jpMQwDmYw9TUXDaeDRhKljo7+t3YPphaQeY/nH7wTANAZjPYan94MW3YB8/YBfF6nNYiA39XADzub2hEN7UzoADDN0QwBXn6PmcgQAYeiFAaZyjB8jQCQFqxfnQCwFqx/nQCQFaxfngDwFax/ngDwENOW6U1i6pZTsDiWDAS0KGEQ8AkxNoK8WFTckAAAAASUVORK5CYII="
     },
     {
@@ -2843,19 +2942,19 @@
     {
       "id": "minecraft:diamond_pickaxe",
       "name": "Diamond Pickaxe",
-      "lore": ["", "&7When in main hand:", "&2\t1.2 Attack Speed", "&2\t5 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1.2 Attack Speed", "&2\t5 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABF0lEQVR4XmMYBSM+BBhJDQE+O9P/xOj5dOg0UWYzDXQUEB0CMJ+rrJoCdvOPuw/B9N/X71D8wCwqBOY/qewG01bfH4BpeQlOMD1z8yMUO4dOCMC8CQuJX89fY409+e4KFPGEbf1g/sIdT8D0jUdfh3gIMBAAHqai4FzyaMJUsEpYGnlY2gHm/7j9YJiGAMznsNR+8OJbsI//T+oF07DccS+hDCUkBjwXsDBQCGA+tzcUwpraOUo7wGkCPXfArB26IYAe57jyOaEAHnohQCjOcfkYlgvQ5YdOCFAa5xzK8lgDZ/DXhuTGObp3OVQVwOXB0KkLcJXt6PU5pSXp4EsD1IpzYkNm8IWAhhw3Sruf2nE+6EpChhEPAD3DcUoIKZ2/AAAAAElFTkSuQmCC"
     },
     {
       "id": "minecraft:diamond_shovel",
       "name": "Diamond Shovel",
-      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t5.5 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1 Attack Speed", "&2\t5.5 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA9klEQVR4XmMYBSM+BBhpFQJ8dqb/kc3+9fw1mPvj9gMUO5kGOgqoHgIwn6usmoLit68nzoP5D0s7UEJiwEOAhVpRgO7zH3cfgo3++/odmOa2MMRq1dAPAUI+ZxYVwhvIwycXeJiKgvP9/epmsI9hPudQlgfzr9mGo6R+WLAM/RCA+dzeEBLXC3c8AXuO69Q+vD4f+iGAy+c3Hn0Fl64cqgrgNIFe9qNniaGXBmA+l5fgBHvm4MW3YBrmcwYSwdAJAUJxzkAmGPwhQO04H/y5AOZjmEvRSzhyUzuuJDJ42wO09vngrws05LhR2vXUjvtBEwIMIx4AAOMHZRo+FfJ4AAAAAElFTkSuQmCC"
     },
     {
       "id": "minecraft:diamond_sword",
       "name": "Diamond Sword",
-      "lore": ["", "&7When in main hand:", "&2\t1.6 Attack Speed", "&2\t7 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1.6 Attack Speed", "&2\t7 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABUklEQVR4XmNkoBPgszP9j80qJoYBBjQPAZjPp+zZgeLVNG1jMH/AQ4CFVjGA7vOO03vBVlWYOqNYOfzSACGfw+L+x+0H4PQ3fEIAl885lOXBcX7NNhxMw3wOSwhDPwTI9fngDQH0MvvTodNYS0uYOpVVUyBxe/chmCYU5+jlzuAtCdlVIKmXj4EBXIvBQoJaPh80aQCjLoD7FOpzAS9HsGN/PX8NDglYnL9ZsBYsLpIQjDefMxAAg7ccgMU1LARgHvl+6x6YKdtWSpHPB00aINgigoUELFf8vPMQlibANHrZzkAiGLxpwMNUFJzq5SU4wX5aeAPiVjZJURQ/AnMHRSEx+EpCmM/tDYUgPt/xBOLDR19h6QWlfY8UImBxUtPEwIcAeu0nz/8Sxec3ED7HFdf/GSgAgycNwPL5wsOv0eMcr/+GfDnAAsvHMJqBzmDA0wAAw0aY1sBerGsAAAAASUVORK5CYII="
     },
     {
@@ -3291,7 +3390,7 @@
     {
       "id": "minecraft:golden_axe",
       "name": "Golden Axe",
-      "lore": ["", "&7When in main hand:", "&2\t0.8 Attack Speed", "&2\t7 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t0.8 Attack Speed", "&2\t7 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABF0lEQVR4XmMY8YCRWiHQECP2H9mshiWviDKbaaCjgIVSB8B8XrUgHs2oheAQIRQSQzcE0H3+ZvMCcAgw2jiSFKgDHgIk5wJcPkf3dlIbREReghPMmLn5EVa7hl4I2OnygVP3nvPpYJ+9ff8QTP8/sh9Mf376D0zzSkP85pT/Dcy/8ejrMAkBWFzDQgLG5+JgBzPnVTFgDYmIup9g8UOXP6GExNAtB2A+8TAVBacJWGp3yn8L9um+iVxElQdDLxfAvAXzub2hEFho4Y4nKKkdPY2gxz3MnKEXAuhxfvDiW7z5nFBCGDohQG2fD500QCi1M1AIBm8aoFWcowfY4AsBWsf54A8BDTlulB4OrpYMA5XAgKcBhhEPAIKtbcRtzO4hAAAAAElFTkSuQmCC"
     },
     {
@@ -3317,7 +3416,7 @@
     {
       "id": "minecraft:golden_hoe",
       "name": "Golden Hoe",
-      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t1 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1 Attack Speed", "&2\t1 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA+ElEQVR4XmMY8YCR3BBoiBH7j01vw5JXJJnJNNBRwEKqA2A+r1oQD9b69v1DNCMOgEOG2JAY8BAgOw3Y6fKhpIEVTezgkGC0cQTTMwsPgOkTNyHK5CU4IeKbH6HYOXRDAD3twEIEFhIw+YXbhcDMhTuegOkbj74O0xCA+djDVBQc6fO3QdLC/yP7wVIRdT/B9KHLn4ZpCMB8Dkvt1x98QEkm6D6HSQ79XADzub0h/tTOgAMM3RBAj/ODF99izecMBMDQCwFK4xw9QIZOCFArzodeCFA7zodOCNAqzgd/CNA6zgd/CGjIcaO0dtHbcAxUBgNeEjKMeAAAqHpnI5GdyioAAAAASUVORK5CYII="
     },
     {
@@ -3333,19 +3432,19 @@
     {
       "id": "minecraft:golden_pickaxe",
       "name": "Golden Pickaxe",
-      "lore": ["", "&7When in main hand:", "&2\t1.2 Attack Speed", "&2\t2 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1.2 Attack Speed", "&2\t2 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABF0lEQVR4XmMYBSM+BBhJDYGGGLH/xOhpWPKKKLOZBjoKWIh1AMznVQviwVrevn8Ipv8f2Y9iBKONI5R/ABxSJ25CAkxeghMsPnPzI5SQGfAQIDsN7Lv4A2vgrWhiRxFfuF0IzF+44wmYvvHo6xAPAUJpxsNUFBzp87c5oqSRiLqfYP6hy5+GaQjAfA5L7QcvvgX7eN9ELjANyx3hTjtQQmLolAO44h7mc3tD7Kk9oo4ZnCZWNO3HasTQDQH0OMeVzwnlmqEXAoTiHJePEXXEDhQlQycEKI1zYUH5wZkLGIkt23HlcwYigZ0uH7g8GDp1Aa6yHb0+Z6AQDL4WEbn5nNyAGHwhoCHHjdLup3aco4fUgIcAw4gHAGo5ceKL2yPbAAAAAElFTkSuQmCC"
     },
     {
       "id": "minecraft:golden_shovel",
       "name": "Golden Shovel",
-      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t2.5 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1 Attack Speed", "&2\t2.5 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABA0lEQVR4XmMYBSM+BBhpFQINMWL/kc3ed/EHmHvo8icUO5kGOgqoHgIwn1ctiEfx25vNC8D8iLqfKCEx4CHAQq0oQPf52/cPwUb/P7IfTIv4JkCsqpuJYuXQDwFCPme0ccQbyMMnF3iYioLz/bwqiIdhPhcWlAcLuBjOREn9sGAZ+mkA5nN7QyGwp5zyn4DpS/fw+3zQhADZJSG6zxfugPj8xqOvYDPtdPnAaQK97EfPEkMvF8B8Li/BCfbMwYtvwTTM5wwkgqETAoTinIFMMPhDgNpxPvhzAczHMJfCSjj0fM5AJTB46wJa+xwWgIM3F2jIcaO068kt6QgllQEPAYYRDwAZA2VYk/PTpQAAAABJRU5ErkJggg=="
     },
     {
       "id": "minecraft:golden_sword",
       "name": "Golden Sword",
-      "lore": ["", "&7When in main hand:", "&2\t1.6 Attack Speed", "&2\t4 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1.6 Attack Speed", "&2\t4 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABVUlEQVR4XmNkoBNoiBH7j80qJoYBBjQPAZjPaxY8Q/Gqk6EQmD/gIcBCqxhA9/nr91Fgq0QFl6FYOfzSACGfw+L+0OVP4PQ3fNIALp8LC8qD4xzd57CEMPTTACGfuxjOBHsWFufouW7whQB6md2w5BXW0hKmrmpBPNhTb98/BNOwOCfk80GTBnCWhJEWf6GOhNRisJCgls8Hfy6A+TQtGFKNR9T9BDt6z/l0MP1m8wIwLeKbAKaJjfNBlwuIrg1XNLGDHX9/xjwwrZiRRJHPB38agLkQlhZguWL5CWaw1L6LP8A0rhKOgUgweOsCD1NRcPKXl+AE++X6gw9g2kmfA8VvlIbE4GsPwHxuD221LtzxBOzjG4++wuoElPY9UoiAxUlNEwMfAui13/OPkDjG4nNcqf4/AwVg8KQBWD5PnfkBPc7x+m/IlwMssHy87yLDgIABTwMA/0KWoy8MpssAAAAASUVORK5CYII="
     },
     {
@@ -3556,7 +3655,7 @@
     {
       "id": "minecraft:iron_axe",
       "name": "Iron Axe",
-      "lore": ["", "&7When in main hand:", "&2\t0.8 Attack Speed", "&2\t9 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t0.8 Attack Speed", "&2\t9 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABG0lEQVR4XmMY8YCRWiHg7Oz8H9msvXv3EmU200BHAcUhAPP5zp07Ufzi7u4O5hMKiQEPARZyowDd54cPHwYbJSYmRpKRQy8EcPkc5u1Xr16BmayfLoHpdF85cO6YufkR1vQ29HKBhIQE2EdPnjwB+/DmzZtgGubzq1evgvna2tpgOjPeB0zfePR1mIQALK5hIQHjG8j+BTPLu1aBafSQiIyMBIu/ePECJSSGbjkA84mHqSg4TchLcKLE+fSFW4gqD4ZuXQDzub2hENinC3c8QUnt6GkEPe5hwTP0QgA9zg9efIs3nxNKCEMnBKjt86GTBgildgYKweBNA7SKc/QAG3whQOs4H/whoCHHjdLDwdWSYaASGPA0wDDiAQAlNXT/x7QmbgAAAABJRU5ErkJggg=="
     },
     {
@@ -3587,7 +3686,7 @@
     {
       "id": "minecraft:iron_hoe",
       "name": "Iron Hoe",
-      "lore": ["", "&7When in main hand:", "&2\t3 Attack Speed", "&2\t1 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t3 Attack Speed", "&2\t1 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA60lEQVR4XmMY8YCR3BBwdnb+j03v3r17STKTaaCjgOQQgPl8586dYLffvHkTxQ95eXlgPrEhMfRCAOZdCQkJlDSwfPlysJSYmBiYhoUE66dLYL68BCeYnrn5EUqoD90QQE+8sBCBhQRM/sTyDDBz4qaPYPrFixfDNARgPvYwFQWnjd4FB8BCr169AtORkZHDPARgPoel9o2nf6EkE/S4h0kO/VwA87m9oRDe1M6AAwzdEMAV57jieviEAKVxjh4SQycNUCvOh14IUDvOh04I0CrOB38I0DrOB38IoLd2SS3bGUgEA14SMox4AAAiQ2crgnz69wAAAABJRU5ErkJggg=="
     },
     {
@@ -3618,19 +3717,19 @@
     {
       "id": "minecraft:iron_pickaxe",
       "name": "Iron Pickaxe",
-      "lore": ["", "&7When in main hand:", "&2\t1.2 Attack Speed", "&2\t4 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1.2 Attack Speed", "&2\t4 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABF0lEQVR4XmMYBSM+BBhJDQFnZ+f/xOjZu3cvUWYzDXQUEB0CMJ/v3LkT7OabN2+C6VevXqH4QUxMDMzPy8sD06yfLoFpeQlOMD1z8yMUO4dOCMC8CQuJq1evYo295cuXo4ifWJ4B5i/c8QRM33j0dYiHAAMB4GEqCs4lvQsOgFXC0khkZCSY/+LFi2EaAjCfw1L7wYtvwT6evnALmIblDmAaQgmJAc8FLAwUApjP7Q2FsKZ2YNyD0wR67oBZO3RDAD3OceVzQgE89EKAUJzj8jEsF6DLD50QoDTO1dXVsQbO4K8NyY1zdO9KSEiAy4OhUxfgKtvR63NKS9LBlwaoFefEhszgCwENOW6Udj+143zQlYQMIx4AAMrocWbe9sCAAAAAAElFTkSuQmCC"
     },
     {
       "id": "minecraft:iron_shovel",
       "name": "Iron Shovel",
-      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t4.5 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1 Attack Speed", "&2\t4.5 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA+ElEQVR4XmMYBSM+BBhpFQLOzs7/kc2+evUqmPvixQsUO5kGOgqoHgIwn+/cuRPFb4cPHwbzIyMjUUJiwEOAhVpRgO7zmzdvgo1+9eoVmLa1tcVq1dAPAUI+FxMTwxvIwycXeJiKgvN9edcqsI9hPldXVwfzZWRkUFI/LFiGfgjAfG5vKAT21MIdT8D0lXsf8fp86IcALp/fePQVXLpKSEiA0wR62Y+eJYZeGoD5XF6CE+yZgxffgmmYzxlIBEMnBAjFOQOZYPCHALXjfPDnApiPYS5FL+HITe24ksjgbQ/Q2uewEBm8uUBDjhulXU/tuB80IcAw4gEAoR9mEeUmFW8AAAAASUVORK5CYII="
     },
     {
       "id": "minecraft:iron_sword",
       "name": "Iron Sword",
-      "lore": ["", "&7When in main hand:", "&2\t1.6 Attack Speed", "&2\t6 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1.6 Attack Speed", "&2\t6 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABXElEQVR4XmNkoBNwdnb+j80qJoYBBjQPAZjPd+7cieJVGRkZMH/AQ4CFVjGA7vMDBw6ArXJwcECxcvilAUI+h8X9ixcvwOlv+KQBXD6XlJQExzm6z2EJYeinAUI+B8qDPQuLc/RcN/hCAL3M3rt3L9bSEqZu0qRJYE89f/4cTMPinJDPB00awFkSqqurwxwJrsVgIUEtnw/eEECKc7DPAwMDwY69evUqmA+L8/3794PFHR0dwTSxcT74cwHMhbC4hoUATPzatWtgZnZ2NkU+HzRpgGCLCBYSsFxx8+ZNWJoA07hKOAYiweCtCzxMRcGpXl6CE+yXjad/gWltbW0UvwFzB0UhMfjaAzCf2xsKgX22cMcTqA+/wtILSvseKUTA4qSmiYEPAfTaT57rNorPbzz6ipJTsPjwPwMFYPCkAVg+X7fuKnqc4/Xf0C8HJCQksMYhpT4jNlkMeBoAANpqmENrT8qGAAAAAElFTkSuQmCC"
     },
     {
@@ -4212,7 +4311,7 @@
     {
       "id": "minecraft:netherite_axe",
       "name": "Netherite Axe",
-      "lore": ["", "&7When in main hand:", "&2\t0.8 Attack Speed", "&2\t10 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t0.8 Attack Speed", "&2\t10 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABKUlEQVR4XmMY8YCRWiHgqWn/H9ms7dcPEmU200BHAQulDoD53DrQFd0ocIgQComhGwLoPj91cCdaCBDntwEPAZJzAcznarYGYB/fv3oOazLik5IHizPfuwqmF549j9WuoZcGbj2/DPaRGoMBXp9/evYQLH/17kO8GW3opQGYd5QFhFBKPktXL7AUzOeP37wC82VFxCAhcRWSFu5+eIeSFoZuOQDziZ6iEjgkYKkdFufa2toMxIChmwZgPndRVgB7dOOZC2AaFjLoaQQ97mGhM/RCAOZzQyF+sCeOQPM5Lh8SSgdDJwRgPheRg8T5w4uocc5AJhj8IQDzOY+4BNiPL2/cQEntDBSCwRsCtIpz9AAbfCFAqIRjoDIYfCFAbBlOrYAY8BBgGPEAAKJgaEEFznGBAAAAAElFTkSuQmCC"
     },
     {
@@ -4238,7 +4337,7 @@
     {
       "id": "minecraft:netherite_hoe",
       "name": "Netherite Hoe",
-      "lore": ["", "&7When in main hand:", "&2\t4 Attack Speed", "&2\t1 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t4 Attack Speed", "&2\t1 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABCElEQVR4XmMY8YCR3BDw1LT9j03v9uuHSTKTaaCjgIVUB8B8bh3ojksrOGSIDYkBDwGy04C0iChKGggJigKHiKiIKJheu3YxmP776zeYNhTiB9MLz55HsXPohgB6AoCFiKMjJG0ICwqDlTDfuwymV16A0E/fvB5cIcBCrWwI89mlM8fAaUPPxAps9Kfvv/FaMXzSgJ6iEtjnsNS+5+ETFJ+jxz1McuiHAMznLsoKeFM7roQwdEMAV5zjiuvhEwKUxjl6SAydNADzuYgcJLXfvIq9bCe1ZB38IQDzOY+4BNhzD+/cBtOkpvahlwtoFeeDPxdQO58TyhWDLxegt3apldoHbS5gGPEAAMWhYqMWn5ZCAAAAAElFTkSuQmCC"
     },
     {
@@ -4254,7 +4353,7 @@
     {
       "id": "minecraft:netherite_pickaxe",
       "name": "Netherite Pickaxe",
-      "lore": ["", "&7When in main hand:", "&2\t1.2 Attack Speed", "&2\t6 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1.2 Attack Speed", "&2\t6 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABNUlEQVR4XmMYBSM+BBhJDQFPTfv/xOjZfv0gUWYzDXQUEB0CMJ9bB7pidfPrN6/B4m/fv4XQVx6jqHv6A8K/dP8eip0DHgIsxEYBUpyC08Ct55exatXW1gaLC+vIg2mx98/A9K0zH7CqHzohAHM+odTN/ewpOIQUYBqk5KGsC4MzBEguB3ClGT1FJbDPDYX4wUqO3H0IpmFpgg8aEsd3bwOL3/3wDmz30EsD6CEA87mLMiTWN565gOJDhqtXwSHjo200ONMA0eUALp/D4hzD52gaREVEh0kIEIxzBtLA0MkFMJ/ziEuAvUgozokNh8HfHoD5XEQOks8fXkTL50R6VVlACFwewEpAmLbBGwLocf7yxg3UEo6BOmDwhQC18zmhcBp8IQBLrTCXo6daBiqDAQ8BhhEPAP7Qa9ospxJJAAAAAElFTkSuQmCC"
     },
     {
@@ -4265,13 +4364,13 @@
     {
       "id": "minecraft:netherite_shovel",
       "name": "Netherite Shovel",
-      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t6.5 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1 Attack Speed", "&2\t6.5 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABA0lEQVR4XmMYBSM+BBhpFQKemvb/sZm9/fpBFDuZBjoKWKjtAJjPrQNdsRp96/llcMjc/fAOHBLDJwTQfX7j9g2UEBAWFMYaIkM/BGA+V7M1APsQ5vNPzx6C+XxS8niT2YCHANXKAT1FJXDqVpCSRvE5LO63rFoMFoelfliwDP00APO5i7IC2FMbz1wA0z7aRmAal88HTQiQnQZw+RwWx8oCQiglHq6sMPRyAcznhkL8YE8dufsQa+pmIBIMnRCA+ZxHXALst5c3blDk86GTC2jl88EbAjAfw1woIgcp4R5evECVOEfPHIO3LkAv29FrMQYqgcFbDsDKcphHh20IMIx4AACA3VtSjapZpQAAAABJRU5ErkJggg=="
     },
     {
       "id": "minecraft:netherite_sword",
       "name": "Netherite Sword",
-      "lore": ["", "&7When in main hand:", "&2\t1.6 Attack Speed", "&2\t8 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1.6 Attack Speed", "&2\t8 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABeElEQVR4XmNkoBPw1LT/j80qJoYBBjQPAZjPrQNdUbw6f1ofmD/gIcBCqxhA9/nrN6/BVomKiKJYOfzSALrPz5w8Cfaxibk5mIbF/d0P78Dpb/iEAMznarYGYJ8+vHsPTMsrK4HpLasWg2mYz2EJYeiHAMznwjqyYE99efcRTPMI8YPp47u3YfX54A0B9DJ7+/WDWEtLmDp2KT5InD+5BaZlRcTA9NWrV/H6fNCEAM6SEBanngyQWgwWEtTy+eDPBej5+tbhC2BHswr9A9OP37wiK84Z0MDQqQ1hJdyhgzuo4vPBnwZgLsRV0l0+e5SofM5AAAzeukBPUQncijWElulH7j4E+0VbWxslF3x6+ZqikBh8uQDmcxdlBbDPNp65gOrDq1dR2vd84pA2njIDA1gcvb4f/GkAvfb7yP8b7OiXN24QFbfKAkIoITLkQgBeG7749wLs4083SEvVpPoYPU0MfDkgxiECjkNejn8ojqPUZwxEggEPAQAVyp305HusJgAAAABJRU5ErkJggg=="
     },
     {
@@ -5247,7 +5346,7 @@
     {
       "id": "minecraft:stone_axe",
       "name": "Stone Axe",
-      "lore": ["", "&7When in main hand:", "&2\t0.8 Attack Speed", "&2\t9 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t0.8 Attack Speed", "&2\t9 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFUlEQVR4XmMY8YCRWiHg4eHxH9msHTt2EGU200BHAQulDoD5PCAgAN0ocIgQComhGwLoPn/27Bk4BDg5OUkK1AEPAZJzAS6fo3v71PbpYCF5CUiIzNz8CKtdQy8NXLhwAewzWKqHxfn379/B4m/fvgXTZp6ZYHrVgl68aWLopQGYdyQkJFBKPgPZvyg+h4WEsLAwWHzWrFlg+sWLFyhpYeiWAzCfeJiKgkMCltphcR6WUExUeTB00wDM5/aGQmCfLtzxBEzfePQVHMfoaQQ97mHBMwRLQrQ4P3jxLYrPGUgEQycEPKjs86GTBgildgYKweBNA7SKc/QAG3whQOs4H/whoCHHjVLPw8p2BhqBAU8DDCMeAACT3WoqZuBOjQAAAABJRU5ErkJggg=="
     },
     {
@@ -5258,25 +5357,25 @@
     {
       "id": "minecraft:stone_hoe",
       "name": "Stone Hoe",
-      "lore": ["", "&7When in main hand:", "&2\t2 Attack Speed", "&2\t1 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t2 Attack Speed", "&2\t1 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA8klEQVR4XmMY8YCR3BDw8PD4j03vjh07SDKTaaCjgIVUB8B8HhAQANb6/v17dCPAIUNsSAx4CJCdBiQkJFDSQFpaGjgkODk5wfTBgwchIfP2LJiWl4CIz9z8CMXOoRsC6BEPCxFYSMDkOV+sBDMnbvoIpl+8eDG4QoCFWtkQ5rNT26eD04Z9UBHY6O8S4VArZmG1avikAQ9TUbDPYal94+lfKD5Gj3uY5NAPAZjP7Q2F8KZ2XGlt6IYArjjHFdfDJwQojXP0kBg6aYBacT70QoDacT50QoBWcT74Q4DWcT74QwC9tUtq2U5qC2vAS0KGEQ8A+9djwLdVyZYAAAAASUVORK5CYII="
     },
     {
       "id": "minecraft:stone_pickaxe",
       "name": "Stone Pickaxe",
-      "lore": ["", "&7When in main hand:", "&2\t1.2 Attack Speed", "&2\t3 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1.2 Attack Speed", "&2\t3 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFUlEQVR4XmMYBSM+BBhJDQEPD4//xOjZsWMHUWYzDXQUsBDrAJjPAwICwFrev38Ppr9//45iBCcnJ4wPCam3Z8F8eQmI+MzNj1BCZsBDgOw0cOHCBayBl5aWhhoiL1aC+Qt3PAHTNx59HeIhQCjNeJiKguPePqgIJY3MmjULzH/x4sUwDQGYz2Gp/eDFt2AfhyUUg2lY7pg4cSJKSAydcgBX3MPj3FAIa2oHxj04TaDnDph5QzcE0OMcVz4nlGuGXggQinNcPkaqI1CUDKHaEFrCwfI5qXEuKCiINXAGf21Ibpyje1dCQgJcHgydugBX2Y5enzNQCAZfGqBWnBMbMIMvBDTkuFHa/dSOc/SQGfAQYBjxAABcXm6841tI7wAAAABJRU5ErkJggg=="
     },
     {
       "id": "minecraft:stone_shovel",
       "name": "Stone Shovel",
-      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t3.5 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1 Attack Speed", "&2\t3.5 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA9UlEQVR4XmMYBSM+BBhpFQIeHh7/kc2+cOECmPvixQsUO5kGOgqoHgIwnwcEBKD47dmzZ2D+rFmzUEJiwEOAhVpRgO7z9+/fg43+/v07mJaSksJq1dAPAUI+5+TkxBvIwycXeJiKgvO9mWcm2McwnwsKCoL5DQ0NKKkfFixDPwRgPrc3FAJ7auGOJ2C6oKoXr8+Hfgjg8vmNR1/BpauEhAQ4TaCX/ehZYuilAZjP5SUg+fvgxbdgT8F8zkAiGDohQCjOGcgEgz8EqB3ngz8XwHwMcyl6CUduaseVRAZve4DWPh/8dYGGHDdKu57acT9oQoBhxAMAww9j+xsh5tsAAAAASUVORK5CYII="
     },
     {
       "id": "minecraft:stone_sword",
       "name": "Stone Sword",
-      "lore": ["", "&7When in main hand:", "&2\t1.6 Attack Speed", "&2\t5 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1.6 Attack Speed", "&2\t5 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABTElEQVR4XmNkoBPw8PD4j80qJoYBBjQPAZjPvd2dwV6VU1AC0wVFJWB6wEOAhVYxgMvnjx7cQ7Fy+KUBQj7vmzQNHAL3798Hp7/hEwKk+hyWEIZ+CJDr80ETAhjlAHqZvWPHDqylJUydvp4eSgkHy+foqR1XeTN4S0JBQUGwo2E+hYUEus+tLM3B6o4dPwmmV61ejZLPCZW0gzcXoPsU5rOw0FCwp2QkRcH0k+evyfL54M0FuOIM5vNHjx+jKCE1ztHNH/wlISwtwHLF+/fvwZ64efMmSakdV8gO4lxgKgpuxcpLcIIdv+sKM5hWV1dH8QylITH4SkIPqM/tDYXAPl244wkkrh99hdUJKO17pBABi8NaOgxEgoEPAfTaT571GorPbyB8jivV/2egAAyeNADL57tOMKPHOV7/kRrn6IYNfAjA8jHDAIEBDwEAvZiPaL8QAk0AAAAASUVORK5CYII="
     },
     {
@@ -5453,7 +5552,7 @@
       "id": "minecraft:trident",
       "name": "Trident",
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABGElEQVR4XmMY8YCRWiEwZcqU/yCzMjIywEaysLAQZTbTQEcBC6UOQPf5zZs3UYy8evUqOGTU1dWxhszQDQFcPtfW1gbHPbrPZ8yYgTWwh34agMU5IZ/n5ORgzRVDNwSuXbsGjtOZJ3eDaVxxDvM5rtwwdEPg8OenYJ9r2dmC6YiOKjCdbu4KpnH5PC8vDyU3DP1c8OLuHbCPhKQl8aYJmM+nTZuGkhsGPARIrg3F3CzAZbumkQHYx9fPXUCJ0xAVI6wlHrrPYYqGTgjoxvqDfQ6La5jPX+06QVGbYvCHAMznsPy+f/UacPRR6vPBnwZo7fPBGwL08vngCwF6+3zwhACtSjgGIsHAtwdevnwJdiuMplYJN2RCAADevYYOT9nwLQAAAABJRU5ErkJggg==",
-      "lore": ["", "&7When in main hand:", "&2\t1.1 Attack Speed", "&2\t9 Attack Damage"]
+      "lore": ["", "&7When in Main Hand:", "&2\t1.1 Attack Speed", "&2\t9 Attack Damage"]
     },
     {
       "id": "minecraft:tropical_fish",
@@ -5633,31 +5732,31 @@
     {
       "id": "minecraft:wooden_axe",
       "name": "Wooden Axe",
-      "lore": ["", "&7When in main hand:", "&2\t0.8 Attack Speed", "&2\t7 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t0.8 Attack Speed", "&2\t7 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFUlEQVR4XmMY8YCRWiFgpinwH9msU9c/EGU200BHAQulDoD53M9aDN0ocIgQComhGwLoPn/25ic4BLjYSfPTgIcAybkAl8/RE8C9p9/AQvISnGB65uZHWO0aemng1ftfKJ6Fxfm3n//A4u8+QeSVpLnA/H3n3uDNaEMvDcC8oyDBhVLyachyg6VgPoeFhBAfG1h824nXYPrBi28oaWHolgMwn3iYioJDApbaYXHuZCTCQAwYuiEA87m9oRDYowt3PAHTNx59Bcfxj1//UdIIetzDQmfo5QL0OD948S2KzxlIBEMnBKjt86GTBgildgYKweBNA7SKc/QAG3whQOs4H/whoCHHjVKGw8p2BhqBAU8DDCMeAACEqGpusb6LNQAAAABJRU5ErkJggg=="
     },
     {
       "id": "minecraft:wooden_hoe",
       "name": "Wooden Hoe",
-      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t1 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1 Attack Speed", "&2\t1 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA70lEQVR4XmMY8YCR3BAw0xT4j03vqesfSDKTaaCjgIVUB8B8HmgrBtb69uNvdCPAIUNsSAx4CJCdBhQkuFDSgJeFKDgkuNghfjp06T2YL8TDCqblJTjB9MzNj1DsHLohgB7xsBCBhQRMXlaMHeLzTU/A9IMX3wZXCLBQKxvCfHbv6Tdw2tBR4gEb/fjVT7xWDJ804GEqCvY5LLXvPP0GxefocQ+THPohAPO5vaEg3tSOKyEM3RDAFee44nr4hAClcY4eEkMnDVArzodeCFA7zodOCNAqzgd/CNA6zgd/CKC3dkkt20ltYQ14Scgw4gEArX5gRHR5hkQAAAAASUVORK5CYII="
     },
     {
       "id": "minecraft:wooden_pickaxe",
       "name": "Wooden Pickaxe",
-      "lore": ["", "&7When in main hand:", "&2\t1.2 Attack Speed", "&2\t2 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1.2 Attack Speed", "&2\t2 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABK0lEQVR4XmMYBSM+BBhJDQEzTYH/xOg5df0DUWYzDXQUsBDrAJjPA2zEwFreffoNpr/++ItiBDcHM4wPDikhHlYwX1GKE0xP3/gIJWQGPATITgOv3v/CGnie5iIo4rJiHGD+op1PwfSNR18HVwgQnQZg3iKUuu8/+w6Oex0lHrCWx69+gOkfv7BnnqGXBhhwAA9TUbAXYal9//m3YJWOhsJgGpY71hx8CeY/ePENnBaGTjlAyOd2BoJgJeipHRj34JBBzx0w84ZuCKDHOa58zkAADL0QgPkcV5zj8jBSHYGiZOiEAKVxLsTHijVwBn9JSG6co3tXQYILXB7ASsBBUw4wEirh0Mt29PqcgUIw+NIAteKc2IAZfCGgIceN0nShdpyjh8yAhwDDiAcApmRtXKdbyC4AAAAASUVORK5CYII="
     },
     {
       "id": "minecraft:wooden_shovel",
       "name": "Wooden Shovel",
-      "lore": ["", "&7When in main hand:", "&2\t1 Attack Speed", "&2\t2.5 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1 Attack Speed", "&2\t2.5 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA8klEQVR4XmMYBSM+BBhpFQJmmgL/kc1+9f4XmPvgxTcUO5kGOgqoHgIwn/tZi6H47dmbn2D+thOvUUJiwEOAhVpRgO7zD59/g43+9vMfmJYSYcdq1dAPAUI+52LH78fhkws8TEXB+V5Jmgsc1zCfC/CygvlztjwZpuUAzOf2hkJgHy7cAfFpjJs0Xp/DssTQTQO4fH7j0Vdw6aogwQVOE+hlP3phMPRCAOZzeQlOsGcOXnwLpmE+J7VkHTohQCjOya1TBn8IUDvOB38ugPkY5lL0Eo7c1I4rjQze9gCtfT746wINOW6Udj21437QhADDiAcA3WBimBKeZYIAAAAASUVORK5CYII="
     },
     {
       "id": "minecraft:wooden_sword",
       "name": "Wooden Sword",
-      "lore": ["", "&7When in main hand:", "&2\t1.6 Attack Speed", "&2\t4 Attack Damage"],
+      "lore": ["", "&7When in Main Hand:", "&2\t1.6 Attack Speed", "&2\t4 Attack Damage"],
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABQklEQVR4XmNkoBMw0xT4j80qJoYBBjQPAZjP7fQEwV4V4GUF03O2PAHTAx4CLLSKAVw+//D5N4qVwy8NEPL5moMvwSHw4MU3cPobPiFAqs9hCWHohwC5Ph80IYBRDqCX2aeuf8BaWsLUKUlyopRwsHyOntpxlTeDtyQU4IEEDsynsJBA97mOEi/Yc1fufQbTJ659RMnnhErawZsL0H0K85mFFj/YUzKiHGD6yesfZPl88OYCXHEG8/k7tNqM1DhHN3/wl4SwtADLFR++/AF74tX7XySldlwhO3hDwMNUFNyKlZeAlHQ7T78Be0JMkA3FM5SGxOArCWE+tzcUAvt04Y4n6HGN0r5HChGwOKylw0AkGPgQQK/9YHEO8/mNR19RakMsPvzPQAEY+FyAns9vPf5Glfw9dNIALB/DaAY6gwFPAwBUVJFaZfj16QAAAABJRU5ErkJggg=="
     },
     {
