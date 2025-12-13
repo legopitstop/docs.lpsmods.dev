@@ -5,6 +5,21 @@ description: This mod adds new recipes that make all of the spawn eggs craftable
 
 # Underwater Recipes
 
+## <Badge type="new" text="new" /> Nautilus Spawn Egg
+
+<ShapedRecipe
+a1="" b1="nautilus_shell" c1=""
+a2="water_bucket" b2="egg" c2="water_bucket"
+a3="" b3="gold_ingot" c3=""
+output="nautilus_spawn_egg"/>
+
+## <Badge type="new" text="new" /> Zombie Nautilus Spawn Egg
+
+<ShapelessRecipe
+:ingredients="['zombie_spawn_egg', 'nautilus_spawn_egg']"
+output="zombie_nautilus_spawn_egg"
+:count="2"/>
+
 ## Tropical Fish Spawn Egg
 
 <ShapedRecipe
