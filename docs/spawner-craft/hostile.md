@@ -5,6 +5,14 @@ description: This mod adds new recipes that make all of the spawn eggs craftable
 
 # Hostile Recipes
 
+## <Badge type="new" text="new" /> Parched Spawn Egg
+
+<ShapedRecipe
+a1="" b1="sand" c1=""
+a2="sand" b2="skeleton_spawn_egg" c2="sand"
+a3="" b3="gold_ingot" c3=""
+output="parched_spawn_egg"/>
+
 ## Creaking Spawn Egg
 
 <ShapedRecipe
