@@ -16,14 +16,17 @@ import { codeToHtml } from "shiki";
 
 export default {
   name: "PythonInstallation",
+  props: {
+    project: { type: String, default: "" },
+  },
   data() {
     return {
       name: "",
       cmd: "Loading...",
     };
   },
-  props: {
-    project: String,
+  mounted() {
+    this.init();
   },
   methods: {
     async init() {
@@ -36,9 +39,6 @@ export default {
         });
       });
     },
-  },
-  mounted() {
-    this.init();
   },
 };
 </script>

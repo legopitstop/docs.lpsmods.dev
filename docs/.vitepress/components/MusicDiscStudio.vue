@@ -43,8 +43,8 @@
         </div>
       </div>
     </div>
-    <div id="tabs" v-if="state == 'item' || state == 'project'">
-      <div class="tab" v-for="item in project.items" :id="item.uuid" @click="selectItem(item.uuid)">
+    <div v-if="state == 'item' || state == 'project'" id="tabs">
+      <div v-for="item in project.items" :id="item.uuid" :key="item.uuid" class="tab" @click="selectItem(item.uuid)">
         <div>
           {{ item.name }}
           <button class="close" @click="removeItem(item.uuid)">X</button>
@@ -52,57 +52,57 @@
       </div>
     </div>
     <div id="content">
-      <div id="about" v-if="state == 'about'">About</div>
-      <div id="welcome" v-if="state == 'welcome'">
+      <div v-if="state == 'about'" id="about">About</div>
+      <div v-if="state == 'welcome'" id="welcome">
         <h3>Welcome</h3>
         <h4>Start</h4>
         <button @click="newProject">New Project...</button>
         <button @click="openProject">Open Project...</button>
       </div>
-      <div id="project" v-if="state == 'project'">
+      <div v-if="state == 'project'" id="project">
         <label for="title">Title</label>
-        <input type="text" id="title" v-model="project.title" />
+        <input id="title" v-model="project.title" type="text" />
 
         <label for="version">Version</label>
-        <input type="text" id="version" v-model="project.version" />
+        <input id="version" v-model="project.version" type="text" />
 
         <label for="namespace">Namespace</label>
-        <input type="text" id="namespace" v-model="project.namespace" />
+        <input id="namespace" v-model="project.namespace" type="text" />
 
         <label for="icon">Icon</label>
-        <img class="preview" :src="project.icon.source" alt="preview" id="iconpreview" />
-        <input type="file" id="icon" accept="image/*" @change="selectImage($event, 'icon', 128, 128)" />
+        <img id="iconpreview" class="preview" :src="project.icon.source" alt="preview" />
+        <input id="icon" accept="image/*" type="file" @change="selectImage($event, 'icon', 128, 128)" />
 
         <label for="descriptiontype">Description Type</label>
-        <select name="descriptiontype" id="descriptiontype" v-model="project.descriptionType">
+        <select id="descriptiontype" v-model="project.descriptionType" name="descriptiontype">
           <option value="string">String</option>
           <option value="text">Text</option>
         </select>
 
         <label for="description">Description</label>
-        <textarea name="description" id="description" cols="30" rows="10" v-model="project.description"></textarea>
+        <textarea id="description" v-model="project.description" cols="30" rows="10" name="description"></textarea>
       </div>
-      <div id="item" v-if="state == 'item' && project.selected != undefined">
+      <div v-if="state == 'item' && project.selected != undefined" id="item">
         <label for="name">Name</label>
-        <input id="name" type="text" v-model="project.selected.name" />
+        <input id="name" v-model="project.selected.name" type="text" />
 
         <label for="artest">Artest</label>
-        <input id="artest" type="text" v-model="project.selected.artest" />
+        <input id="artest" v-model="project.selected.artest" type="text" />
 
         <label for="id">ID</label>
-        <input id="id" type="text" v-model="project.selected.id" />
+        <input id="id" v-model="project.selected.id" type="text" />
 
         <label for="powerlevel">Power Level</label>
-        <input id="powerlevel" type="number" v-model="project.selected.powerLevel" />
+        <input id="powerlevel" v-model="project.selected.powerLevel" type="number" />
 
         <label for="obtain">Obtain</label>
-        <select name="obtain" id="obtain" v-model="project.selected.obtain">
+        <select id="obtain" v-model="project.selected.obtain" name="obtain">
           <option value="none">None</option>
           <option value="creeper">Creeper</option>
         </select>
 
         <label for="texture">Texture</label>
-        <img class="preview" :src="project.selected.texture.source" alt="preview" id="texturepreview" />
+        <img id="texturepreview" :src="project.selected.texture.source" alt="preview" class="preview" />
         <input id="texture" type="file" accept="image/*" @change="selectImage($event, 'texture', 16, 16)" />
 
         <label for="sound">Sound</label>
@@ -258,20 +258,21 @@ class Project {
       items.push(item);
     }
     switch (data.format) {
-      case 3:
-        var project = new Project({
+      case 3: {
+        var project1 = new Project({
           title: data.title,
           version: data.version,
           namespace: data.namespace,
           icon: Resource.create(data.icon),
-          descriptionType: descType,
+          descriptionType: "descType",
           description: data.description,
         });
-        project.items = items;
-        return project;
-      case 2:
+        project1.items = items;
+        return project1;
+      }
+      case 2: {
         const descType = data.description_type == 0 ? "text" : "string";
-        var project = new Project({
+        var project2 = new Project({
           title: data.name,
           version: data.version,
           namespace: data.namespace,
@@ -279,15 +280,16 @@ class Project {
           description_type: descType,
           description: data.description,
         });
-        project.items = items;
-        return project;
+        project2.items = items;
+        return project2;
+      }
       default:
         return Project.create();
     }
   }
 
   static open(file) {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       var reader = new FileReader();
       reader.readAsText(file, "UTF-8");
       reader.onload = function (e) {
@@ -327,6 +329,9 @@ export default {
       state: "welcome",
       project: undefined,
     };
+  },
+  mounted() {
+    this.init();
   },
   methods: {
     init: function () {},
@@ -451,9 +456,6 @@ export default {
         return;
       }
     },
-  },
-  mounted() {
-    this.init();
   },
 };
 </script>

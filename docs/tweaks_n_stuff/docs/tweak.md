@@ -39,7 +39,7 @@ import { ToggleTweak } from "./base";
 
 class RandomizeHeightTweak extends ToggleTweak {
   constructor() {
-      super("height_randomizer", { author: "Wiki", category: "interface" });
+    super("height_randomizer", { author: "Wiki", category: "interface" });
   }
   onEnable() {
     var button = new Action("randomize_height", {
@@ -64,7 +64,6 @@ class RandomizeHeightTweak extends ToggleTweak {
 
 // Register your tweak.
 ToggleTweak.register(new CloseActionsTweak());
-
 ```
 
 ```json [ts/lang/en.json]

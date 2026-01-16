@@ -33,6 +33,8 @@ Makes this block behave like [Cake with Candles](https://minecraft.wiki/w/Cake#C
 ## Example
 
 ```js
+import { CandleCakeComponent } from "./block/CandleCakeComponent";
+
 new CandleCakeComponent("minecraft:candle", "minecraft:cake", "lit", "slice");
 ```
 

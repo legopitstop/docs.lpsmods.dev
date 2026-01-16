@@ -5,7 +5,7 @@
         <InvSlot :id="input" />
       </span>
       <span class="mcui-stonecutterArrow">
-        <InvSlot class="invslot-plain mcui-stonecutterSprite" :id="output" />
+        <InvSlot :id="output" class="invslot-plain mcui-stonecutterSprite" />
       </span>
       <span class="mcui-output"> <InvSlot :id="output" :count="count" large /></span>
     </span>
@@ -17,7 +17,11 @@ import { createRecipeId } from "../theme/mcui.js";
 
 export default {
   name: "StonecutterRecipe",
-  props: { input: String, output: String, count: { type: Number, default: 1 } },
+  props: {
+    input: { type: String, default: "" },
+    output: { type: String, default: "" },
+    count: { type: Number, default: 1 },
+  },
   computed: {
     recipeId() {
       return createRecipeId(this.output);

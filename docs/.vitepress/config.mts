@@ -1,4 +1,5 @@
 import { HeadConfig, defineConfig } from "vitepress";
+import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
 
 import gradleGrammar from "./theme/syntaxes/gradle.tmLanguage.json";
 import mcfunctionGrammar from "./theme/syntaxes/mcfunction.tmLanguage.json";
@@ -29,7 +30,7 @@ const year = new Date().getFullYear();
 // "SoftwareBuilder",
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Legopitstop Docs",
+  title: "LPSMODS Docs",
   description: "Documentation for all my projects",
   head: [
     // ["link", { rel: "shortcut icon", href: "/favicon.ico" }],
@@ -41,6 +42,23 @@ export default defineConfig({
         async: "",
         src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
       },
+    ],
+    // Google analytics
+    [
+      "script",
+      {
+        "data-ad-client": "pub-9949841791324306",
+        async: "",
+        src: "https://www.googletagmanager.com/gtag/js?id=G-E0RZP1KMQT",
+      },
+    ],
+    [
+      "script",
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-E0RZP1KMQT');`,
     ],
 
     // Material Icons
@@ -96,7 +114,6 @@ export default defineConfig({
     // Per-page SEO
     // Primary
     head.push(["meta", { property: "title", content: pageData.frontmatter?.title ?? "Untitled" }]);
-    head.push(["meta", { name: "keywords", content: pageData.frontmatter?.keywords ?? "" }]);
     // icons
     head.push([
       "link",
@@ -155,6 +172,9 @@ export default defineConfig({
     breaks: true,
     checkLinks: true,
     languages: [mcfunctionGrammar, snbtGrammar, langGrammar, molangGrammar, mcscriptGrammar, gradleGrammar],
+    config(md) {
+      md.use(tabsMarkdownPlugin);
+    },
   },
   sitemap: {
     hostname: "https://docs.lpsmods.dev/",
@@ -182,7 +202,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/legopitstop",
+        link: "https://github.com/lpsmods",
       },
       {
         icon: "twitter",

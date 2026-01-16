@@ -5,24 +5,24 @@
   <div class="armor-stand-generator">
     <div class="poses-options">
       <label for="id">ID: </label>
-      <input type="text" id="id" name="id" v-model="identifier" @change="onChange" />
+      <input id="id" v-model="identifier" type="text" name="id" @change="onChange" />
       <br />
       <label for="power">Power: </label>
-      <input type="number" id="power" name="power" v-model="power" @change="onChange" />
+      <input id="power" v-model="power" type="number" name="power" @change="onChange" />
       <br />
       <label for="displayname">Display Name: </label>
-      <input type="text" id="displayname" name="displayname" v-model="displayName" @change="onChange" />
+      <input id="displayname" v-model="displayName" type="text" name="displayname" @change="onChange" />
       <br />
 
       <label for="edition">Edition: </label>
-      <select name="edition" id="edition" v-model="edition" @change="onChange">
+      <select id="edition" v-model="edition" name="edition" @change="onChange">
         <option value="bedrock">Bedrock</option>
         <option value="fabric">Fabric</option>
         <option value="datapack">Datapack</option>
       </select>
       <br />
       <label for="preset">Preset: </label>
-      <select name="preset" id="preset" v-model="preset" @change="setPreset">
+      <select id="preset" v-model="preset" name="preset" @change="setPreset">
         <option value="none">None</option>
         <option value="default">Default</option>
         <option value="athena">Athena</option>
@@ -74,6 +74,10 @@ export default {
       output: "",
       language: "json",
     };
+  },
+  mounted() {
+    this.init();
+    this.animate();
   },
   methods: {
     init: function () {
@@ -520,10 +524,6 @@ export default {
         this.output = e;
       });
     },
-  },
-  mounted() {
-    this.init();
-    this.animate();
   },
 };
 </script>

@@ -22,6 +22,8 @@ Makes this block behave like a [Flower Pot](https://minecraft.wiki/w/Flower_Pot)
 ## Example
 
 ```js
+import { PottedFlowerComponent } from "./block/PottedFlowerComponent";
+
 new PottedFlowerComponent("minecraft:poppy", "minecraft:flower_pot");
 ```
 

@@ -21,6 +21,8 @@ Makes this block behave like a [Cauldron](https://minecraft.wiki/w/Cauldron)
 ## Example
 
 ```js
+import { CauldronComponent } from "./block/CauldronComponent";
+
 new CauldronComponent();
 ```
 

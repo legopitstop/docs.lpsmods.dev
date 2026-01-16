@@ -39,14 +39,6 @@ import { createRecipeId } from "../theme/mcui.js";
 
 export default {
   name: "ShapedRecipe",
-  data() {
-    return {};
-  },
-  computed: {
-    recipeId() {
-      return createRecipeId(this.output);
-    },
-  },
   props: {
     a1: { type: String, default: undefined },
     b1: { type: String, default: undefined },
@@ -57,11 +49,19 @@ export default {
     a3: { type: String, default: undefined },
     b3: { type: String, default: undefined },
     c3: { type: String, default: undefined },
-    output: String,
+    output: { type: String, default: "" },
     count: { type: Number, default: 1 },
     shapeless: {
       type: Boolean,
       default: false,
+    },
+  },
+  data() {
+    return {};
+  },
+  computed: {
+    recipeId() {
+      return createRecipeId(this.output);
     },
   },
 };

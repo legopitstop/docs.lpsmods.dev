@@ -9,6 +9,8 @@ next: false
 
 # Custom Enchantment
 
+![Example custom enchantment](/images/de7aff6d-1f63-4f5a-a436-8f8af02c7e36.png)
+
 ## Known Limitations
 
 - Enchanted items don't have a glint.
@@ -31,7 +33,6 @@ class ExampleEnchantment extends CustomEnchantment {
     super();
     this.onEnchant = this.onEnchant.bind(this);
     this.onDisenchant = this.onDisenchant.bind(this);
-    this.onEnchant = this.onEnchant.bind(this);
   }
 
   getDisplayName(): string {
@@ -50,7 +51,7 @@ class ExampleEnchantment extends CustomEnchantment {
 
   onUse(event: ItemUseAfterEvent): void {
     if (!(event.source instanceof Player)) return;
-    event.source.sendMessage("USE example enchant");
+    event.source.sendMessage("USED example enchant");
   }
 }
 ```
@@ -66,7 +67,26 @@ import { ExampleEnchantment } from "./enchantment/example.ts";
 customEnchantmentRegistry.register(ExampleEnchantment.enchantmentId, new ExampleEnchantment());
 ```
 
-## Register a Command
+## Applying Your Enchant
+
+You can add the enchantment to an item by using code or by registering and using the custom enchant command.
+
+### Code
+
+```ts
+import { ItemStack } from "@minecraft/server";
+import { CustomEnchantUtils } from "@lpsmods/mc-utils";
+
+const itemStack = new ItemStack("iron_sword");
+
+// Add enchantment
+CustomEnchantUtils.add(itemStack, "wiki:example", 1);
+
+// Remove enchantment
+CustomEnchantUtils.remove(itemStack, "wiki:example");
+```
+
+### Command
 
 Finally, to add your enchantment to an item you need to register the `/custom-enchant` command.
 
@@ -77,4 +97,8 @@ import { CustomEnchantCommand } from "@lpsmods/mc-utils";
 system.beforeEvents.startup.subscribe((event) => {
   CustomEnchantCommand.register(event.customCommandRegistry);
 });
+```
+
+```txt
+/custom-enchant @s wiki:example
 ```

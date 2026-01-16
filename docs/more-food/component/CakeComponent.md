@@ -31,6 +31,8 @@ Makes this block behave like [Cake](https://minecraft.wiki/w/Cake)
 ## Example
 
 ```js
+import { CakeComponent } from "./block/CakeComponent";
+
 var cake = new CakeComponent("slice", 6);
 cake.addCandleCake("minecraft:candle", "minecraft:candle_cake");
 ```

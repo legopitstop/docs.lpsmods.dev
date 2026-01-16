@@ -141,6 +141,11 @@
       ":::",
     ],
   },
+  "BadgeNew": {
+    "scope": "md,markdown",
+    "prefix": "badge.new",
+    "body": ["<Badge type=\"new\" text=\"new\" />"],
+  },
   "BadgeInfo": {
     "scope": "md,markdown",
     "prefix": "badge.info",

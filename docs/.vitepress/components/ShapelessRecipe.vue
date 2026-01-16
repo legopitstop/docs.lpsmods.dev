@@ -20,14 +20,14 @@ export default {
   name: "ShapelessRecipe",
   props: {
     ingredients: {
-      type: Array,
+      type: Array[String],
       default: [],
     },
     count: {
       type: Number,
       default: 1,
     },
-    output: String,
+    output: { type: String, default: "" },
   },
   computed: {
     useIngredients() {

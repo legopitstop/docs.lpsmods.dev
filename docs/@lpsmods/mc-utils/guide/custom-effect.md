@@ -11,6 +11,8 @@ next:
 
 # Custom Effect
 
+![Example custom effect](/images/47b79bdf-d43c-49f8-af4b-28301f512655.png)
+
 ## Known Limitations
 
 - Custom effects won't show up in the mob effects screen or on the side of the screen.
@@ -62,7 +64,23 @@ import { ExampleEffect } from "./effect/example.ts";
 customEffectRegistry.register(ExampleEffect.effectId, new ExampleEffect());
 ```
 
-## Register a Command
+## Applying Your Effect
+
+You can apply the effect through code or by registering and using the custom effect command.
+
+### Code
+
+```ts
+import { CustomEffectUtils } from "@lpsmods/mc-utils";
+
+// Give effect
+CustomEffectUtils.add(entity, "wiki:example", 20);
+
+// Clear effect
+CustomEffectUtils.add(entity, "wiki:example");
+```
+
+### Command
 
 Finally, to add your effect to entities you need to register the `/custom-effect` command.
 
@@ -73,4 +91,8 @@ import { CustomEffectCommand } from "@lpsmods/mc-utils";
 system.beforeEvents.startup.subscribe((event) => {
   CustomEffectCommand.register(event.customCommandRegistry);
 });
+```
+
+```txt
+/custom-effect give @s wiki:example 20 0 true
 ```

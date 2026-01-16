@@ -48,6 +48,8 @@ The custom behavior for Sweet Corn
 ## Example
 
 ```js
+import { TallCropComponent } from "./block/TallCropComponent";
+
 new TallCropComponent("stage", "half", 7);
 ```
 

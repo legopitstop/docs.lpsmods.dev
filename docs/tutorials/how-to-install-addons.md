@@ -9,22 +9,23 @@ description: Step-by-step instructions on how to install addons for Minecraft Be
 
 Step-by-step instructions on how to install addons for [Minecraft: Bedrock Edition](https://minecraft.wiki/w/Bedrock_Edition)
 
-## Windows
+:::tabs key:platform
+
+== Windows
 
 1. Navigate to the directory where you downloaded the file.
 1. Double click on the file and the add-on should open in Minecraft.
 
-::: info
-If you're opening a .mcpack, a pop-up notification will alert you that you've successfully imported the pack.
-:::
+> [!NOTE]
+> If you're opening a .mcpack, a pop-up notification will alert you that you've successfully imported the pack.
 
-## Realms/Console
+== Realms/Console
 
 1. You will need a Windows 10 or Windows 11 computer with Minecraft installed and, a subscription to Realms.
 1. On the computer, launch Minecraft and upload the world with add-ons active to your realm.
 1. Go to your console, launch Minecraft, and open the add-on enchanted world on the realm.
 
-## Android
+== Android
 
 <iframe width=auto height="auto" src="https://www.youtube.com/embed/I11vamzdrbU" title="How To Download Mods &amp; Addons For Minecraft Bedrock 1.20! (Android, IOS, Windows 11, Xbox, PS5)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 (Video by FryBry)
@@ -34,22 +35,20 @@ If you're opening a .mcpack, a pop-up notification will alert you that you've su
 1. Select the directory where you saved the file, usually "Download".
 1. Select the file and the add-on should open in Minecraft.
 
-::: warning
-If the downloaded file ends in `.zip` you will need to remove it by renaming it. For example: `LotsMoreFood.mcpack.zip` should be `LotsMoreFood.mcpack`
-:::
+> [!WARNING]
+> If the downloaded file ends in `.zip` you will need to remove it by renaming it. For example: `LotsMoreFood.mcpack.zip` should be `LotsMoreFood.mcpack`
 
-## iOS
+== iOS
 
 1. Launch Minecraft.
 1. Click on the world or add-on file you want to open.
 1. Your device will prompt you to open the file with Minecraft.
 1. Click `Open` in Minecraft; This will launch Minecraft with your selected file.
 
-::: info
-If you're opening a .mcpack, a pop-up notification will alert you that you've successfully imported pack.
-:::
+> [!NOTE]
+> If you're opening a .mcpack, a pop-up notification will alert you that you've successfully imported pack.
 
-## Dedicated Server
+== Dedicated Server
 
 1. Download the add-on that you want to install. It should be in a .mcpack or .mcaddon format.
 1. Rename the file extension to ".zip"
@@ -97,3 +96,5 @@ The final file should look something like this. Making note of commas to activat
 
 1. After activating the addon you can now start your server and you will have extra content added to your server!
    ![step8](/images/3f19aaeb-7eb6-48b3-81aa-2d8b3d770953.png)
+
+:::

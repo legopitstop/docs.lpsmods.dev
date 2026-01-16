@@ -12,7 +12,6 @@ Guide book item behavior.
 You can use `setup` to give new players your guide book.
 
 ```js
-import { system } from "@minecraft/server";
 import { GuideBookComponent } from "@lpsmods/mc-utils";
 
 GuideBookComponent.setup("wiki:guide_book");

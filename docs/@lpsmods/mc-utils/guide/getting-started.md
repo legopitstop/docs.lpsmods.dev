@@ -15,7 +15,7 @@ This project is still under heavy development. Features may be removed or change
 
 ## Installation
 
-<NodeInstallation package="@lpsmods/mc-utils" />
+<NodeInstallation packageName="@lpsmods/mc-utils" />
 
 ## Using it in your project
 

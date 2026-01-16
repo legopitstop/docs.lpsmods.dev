@@ -114,7 +114,7 @@ Set max WIDTH and HEIGHT for this widget. If the window is gridded the values ar
 
 Set min WIDTH and HEIGHT for this widget. If the window is gridded the values are given in grid units. Return the current values if None is given.
 
-#### Parameters
+### Parameters
 
 | Name     | Type | Description |
 | -------- | ---- | ----------- |

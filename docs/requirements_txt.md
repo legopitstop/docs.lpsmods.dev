@@ -1,10 +1,4 @@
 ---
-title: requirements.txt Generator
-description: An up-to-date requirements.txt for Python modules.
+title: Redirecting…
+redirect: ./tools/requirements_txt
 ---
-
-# `requirements.txt` Generator
-
-An up-to-date `requirements.txt` for Python modules.
-
-<PythonRequirements />

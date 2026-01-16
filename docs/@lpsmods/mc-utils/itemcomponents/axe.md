@@ -11,11 +11,11 @@ Makes this item strip logs like an axe.
 
 ### Options
 
-| Name           | Type                          | Default      | Description |
-| -------------- | ----------------------------- | ------------ | ----------- |
-| `size`         | number                        | `1`          |             |
-| `sound_event`  | string                        | `use.gravel` |             |
-| `interactions` | [Interaction](#interaction)[] | `[]`         |             |
+| Name           | Type                                  | Default      | Description |
+| -------------- | ------------------------------------- | ------------ | ----------- |
+| `size`         | number                                | `1`          |             |
+| `sound_event`  | string                                | `use.gravel` |             |
+| `interactions` | Array of [Interactions](#interaction) | `[]`         |             |
 
 #### Interaction
 

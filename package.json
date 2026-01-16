@@ -2,12 +2,23 @@
   "name": "@lpsmods/docs",
   "description": "Documentation for all Legopitstop's projects.",
   "devDependencies": {
-    "vitepress": "^1.6.3"
+    "@babel/eslint-parser": "^7.28.5",
+    "@eslint/js": "^9.39.1",
+    "@eslint/markdown": "^7.5.1",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-unused-imports": "^4.3.0",
+    "eslint-plugin-vue": "^10.5.1",
+    "globals": "^16.5.0",
+    "vitepress": "^1.6.3",
+    "vitepress-plugin-google-analytics": "^1.0.2",
+    "vitepress-plugin-tabs": "^0.7.3"
   },
   "scripts": {
     "dev": "vitepress dev docs --port 80",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "preview": "vitepress preview docs",
+    "lint": "eslint ."
   },
   "dependencies": {
     "cspell": "^9.1.1",
@@ -15,6 +26,7 @@
     "file-saver": "^2.0.5",
     "jszip": "^3.10.1",
     "medium-zoom": "^1.1.0",
+    "semver": "^7.7.3",
     "three": "^0.165.0",
     "uuid": "^10.0.0"
   }

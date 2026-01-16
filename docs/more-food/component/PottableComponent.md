@@ -22,6 +22,8 @@ Makes it so you can click on a flower pot to convert it to a potted flower
 ## Example
 
 ```js
+import { PottableComponent } from "./item/PottableComponent";
+
 new PottableComponent("wiki:potted_custom_flower", "minecraft:flower_pot");
 ```
 

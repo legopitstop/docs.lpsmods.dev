@@ -13,10 +13,11 @@ export const nav = [
   {
     text: "Tools",
     items: [
-      { text: "Formatting Codes", link: "/formatting-codes" },
-      { text: "requirements.txt", link: "/requirements_txt" },
-      { text: "package.json", link: "/package_json" },
-      //   { text: "Develop Multiloader", link: "/develop-multiloader" },
+      { text: "Formatting Codes", link: "/tools/formatting-codes" },
+      { text: "requirements.txt", link: "/tools/requirements_txt" },
+      { text: "package.json", link: "/tools/package_json" },
+      { text: "Translation Guide", link: "/tools/translation-guide" },
+      //   { text: "Develop Multiloader", link: "/tools/develop-multiloader" },
     ],
   },
   {
@@ -61,6 +62,19 @@ export const nav = [
       {
         text: "What In The Pack Format?",
         link: "/tutorials/what-in-the-pack-format",
+      },
+    ],
+  },
+  {
+    text: "Add-On Integration",
+    items: [
+      {
+        text: "Essentials",
+        link: "/addon-integration/ulkd_ess",
+      },
+      {
+        text: "Storage Drawers",
+        link: "/addon-integration/ftb_sd",
       },
     ],
   },

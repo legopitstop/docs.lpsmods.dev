@@ -4,7 +4,7 @@
 
     <div v-if="manifest" class="content">
       <label for="version">Minecraft Version:</label>
-      <select name="version" id="version" @change="onChange">
+      <select id="version" name="version" @change="onChange">
         <option
           v-for="version in manifest.versions"
           :key="version.id"
@@ -43,6 +43,9 @@ export default {
       manifest: null,
       output: "",
     };
+  },
+  mounted() {
+    this.init();
   },
   methods: {
     init() {
@@ -92,14 +95,11 @@ export default {
                   this.loading = null;
                 });
             })
-            .catch((error) => {
+            .catch(() => {
               this.error = "Error loading zip file";
             });
         });
     },
-  },
-  mounted() {
-    this.init();
   },
 };
 </script>
