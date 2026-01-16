@@ -38,6 +38,10 @@ Makes this block behave like a [Sapling](https://minecraft.wiki/w/Sapling)
 ## Example
 
 ```js
+import { SaplingComponent } from "./block/SaplingComponent";
+import { SaplingGenerator } from "./classes/SaplingGenerator";
+import { ConfiguredFeature } from "./classes/ConfiguredFeature";
+
 var generator = new SaplingGenerator(
   undefined,
   undefined,

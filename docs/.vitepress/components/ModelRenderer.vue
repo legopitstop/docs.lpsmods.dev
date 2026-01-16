@@ -10,9 +10,9 @@ import { BedrockGeoLoader } from "../classes/BedrockGeoLoader.js";
 export default {
   name: "ModelRenderer",
   props: {
-    geometry: String,
-    identifier: String,
-    texture: String,
+    geometry: { type: String, default: "" },
+    identifier: { type: String, default: "" },
+    texture: { type: String, default: "" },
     pan: {
       type: Boolean,
       default: false,
@@ -34,12 +34,16 @@ export default {
       default: false,
     },
     cameraPos: {
-      type: Array,
+      type: Array[String],
       default: [0, 0, 30],
     },
   },
   data() {
     return {};
+  },
+  mounted() {
+    this.init();
+    this.animate();
   },
   methods: {
     init: function () {
@@ -133,10 +137,6 @@ export default {
       this.lightGroup.quaternion.copy(this.camera.quaternion);
       this.renderer.render(this.scene, this.camera);
     },
-  },
-  mounted() {
-    this.init();
-    this.animate();
   },
 };
 </script>

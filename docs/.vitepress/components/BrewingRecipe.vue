@@ -17,8 +17,8 @@
 export default {
   name: "BrewingRecipe",
   props: {
-    input: String,
-    output: String,
+    input: { type: String, default: "" },
+    output: { type: String, default: "" },
   },
 };
 </script>

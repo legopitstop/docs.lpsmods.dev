@@ -15,6 +15,8 @@ Gives the consumer mint like effects
 ## Example
 
 ```js
+import { MintyComponent } from "./item/MintyComponent";
+
 new MintyComponent();
 ```
 

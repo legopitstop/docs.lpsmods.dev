@@ -6,7 +6,7 @@
       <div>
         <label for="version">Minecraft Version</label>
 
-        <select name="version" id="version" @change="onChange" v-model="options.mcversion">
+        <select id="version" v-model="options.mcversion" name="version" @change="onChange">
           <option v-for="v in versions" :key="v.id" :value="v.id" :selected="v.id == manifest.latest.release">
             {{ v.id }}{{ getLabel(v.id) }}
           </option>
@@ -15,32 +15,32 @@
 
       <div>
         <label for="parchment">Parchment MC</label>
-        <input type="checkbox" name="parchment" id="parchment" v-model="options.parchment" @change="onChange" />
+        <input id="parchment" v-model="options.parchment" type="checkbox" name="parchment" @change="onChange" />
       </div>
 
       <div>
         <label for="neoform">Neoform</label>
-        <input type="checkbox" name="neoform" id="neoform" v-model="options.neoform" @change="onChange" />
+        <input id="neoform" v-model="options.neoform" type="checkbox" name="neoform" @change="onChange" />
       </div>
 
       <div>
         <label for="fabric">Fabric</label>
-        <input type="checkbox" name="fabric" id="fabric" v-model="options.fabric" @change="onChange" />
+        <input id="fabric" v-model="options.fabric" type="checkbox" name="fabric" @change="onChange" />
       </div>
 
       <div>
         <label for="forge">Forge</label>
-        <input type="checkbox" name="forge" id="forge" v-model="options.forge" @change="onChange" />
+        <input id="forge" v-model="options.forge" type="checkbox" name="forge" @change="onChange" />
       </div>
 
       <div>
         <label for="neoforge">NeoForge</label>
-        <input type="checkbox" name="neoforge" id="neoforge" v-model="options.neoforge" @change="onChange" />
+        <input id="neoforge" v-model="options.neoforge" type="checkbox" name="neoforge" @change="onChange" />
       </div>
 
       <div>
         <label for="comments">Include Comments</label>
-        <input type="checkbox" name="comments" id="comments" v-model="options.comments" @change="onChange" />
+        <input id="comments" v-model="options.comments" type="checkbox" name="comments" @change="onChange" />
       </div>
 
       <div class="language-gradle vp-adaptive-theme">
@@ -109,6 +109,14 @@ export default {
         comments: true,
       },
     };
+  },
+  mounted() {
+    this.cachedFetch("https://launchermeta.mojang.com/mc/game/version_manifest.json").then((manifest) => {
+      this.manifest = manifest;
+      this.options.mcversion = manifest.latest.release;
+      this.init();
+      this.loading = false;
+    });
   },
   methods: {
     init: function () {
@@ -206,14 +214,6 @@ export default {
         this.output = e;
       });
     },
-  },
-  mounted() {
-    this.cachedFetch("https://launchermeta.mojang.com/mc/game/version_manifest.json").then((manifest) => {
-      this.manifest = manifest;
-      this.options.mcversion = manifest.latest.release;
-      this.init();
-      this.loading = false;
-    });
   },
 };
 </script>

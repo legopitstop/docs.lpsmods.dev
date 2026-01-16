@@ -1,11 +1,11 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-title: "Legopitstop Docs"
+title: "LPSMODS Docs"
 description: "Documentation for all Legopitstop's projects."
 layout: home
 
 hero:
-  name: "Legopitstop"
+  name: "LPSMODS"
   text: "Documentation for all my projects"
   actions:
     - theme: alt

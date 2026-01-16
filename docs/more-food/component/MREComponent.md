@@ -19,6 +19,8 @@ title: MREComponent | Lot's More Food Documentation
 ## Example
 
 ```js
+import { MREComponent } from "./item/MREComponent";
+
 new MREComponent("mre");
 ```
 

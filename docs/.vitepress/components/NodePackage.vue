@@ -2,18 +2,18 @@
   <div class="node_package">
     <div>
       <label for="preset">Preset:</label>
-      <select name="preset" id="preset" v-model="preset" @change="applyPreset">
-        <option :value="id" v-for="[id, preset] in Object.entries(allPresets)" :key="id">{{ preset.name }}</option>
+      <select id="preset" v-model="preset" name="preset" @change="applyPreset">
+        <option v-for="[id, v] in Object.entries(allPresets)" :key="id" :value="id">{{ v.name }}</option>
         <option value="custom">Custom</option>
       </select>
     </div>
     <div>
       <label for="devDependencies">Development Dependencies:</label>
-      <textarea name="devDependencies" id="devDependencies" v-model="devDependencies" @change="applyCustom"></textarea>
+      <textarea id="devDependencies" v-model="devDependencies" name="devDependencies" @change="applyCustom"></textarea>
     </div>
     <div>
       <label for="dependencies">Dependencies:</label>
-      <textarea name="dependencies" id="dependencies" v-model="dependencies" @change="applyCustom"></textarea>
+      <textarea id="dependencies" v-model="dependencies" name="dependencies" @change="applyCustom"></textarea>
     </div>
     <div class="language-json vp-adaptive-theme output">
       <button title="Copy Code" class="copy"></button><span class="lang">json</span>
@@ -88,6 +88,9 @@ export default {
       dependencies: "",
     };
   },
+  mounted() {
+    this.applyPreset();
+  },
   methods: {
     async resolveDeps(deps) {
       const result = {};
@@ -139,9 +142,6 @@ export default {
       this.preset = "custom";
       this.update();
     },
-  },
-  mounted() {
-    this.applyPreset();
   },
 };
 </script>

@@ -7,17 +7,8 @@
 <script>
 export default {
   name: "Icon",
-  data() {
-    return {
-      icon_map: {
-        curseforge: "whatshot",
-        modrinth: "build",
-        mcpedl: "build",
-      },
-    };
-  },
   props: {
-    name: String,
+    name: { type: String, default: "" },
     size: {
       type: String,
       default: undefined,
@@ -26,6 +17,15 @@ export default {
       type: String,
       default: undefined,
     },
+  },
+  data() {
+    return {
+      icon_map: {
+        curseforge: "whatshot",
+        modrinth: "build",
+        mcpedl: "build",
+      },
+    };
   },
   computed: {
     icon() {

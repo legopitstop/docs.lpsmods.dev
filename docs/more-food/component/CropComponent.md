@@ -41,6 +41,8 @@ Makes this block behave like [Crops](https://minecraft.wiki/w/Crops)
 ## Example
 
 ```js
+import { CropComponent } from "./block/CropComponent";
+
 new CropComponent("stage", 7);
 ```
 

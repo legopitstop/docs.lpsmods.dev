@@ -2,14 +2,14 @@
   <div :id="recipeId">
     <span class="mcui mcui-Furnace pixel-image">
       <span class="mcui-input">
-        <InvSlot :id="input" :count="input_count" />
+        <InvSlot :id="input" :count="inputCount" />
         <span class="mcui-fuel">
           <br />
         </span>
-        <InvSlot :id="fuel" :count="fuel_count" />
+        <InvSlot :id="fuel" :count="fuelCount" />
       </span>
       <span class="mcui-arrow"><br /></span>
-      <span class="mcui-output"> <InvSlot :id="output" :count="output_count" large /></span>
+      <span class="mcui-output"> <InvSlot :id="output" :count="outputCount" large /></span>
     </span>
   </div>
 </template>
@@ -20,12 +20,12 @@ import { createRecipeId } from "../theme/mcui.js";
 export default {
   name: "SmeltingRecipe",
   props: {
-    input: String,
-    output: String,
-    fuel: String,
-    input_count: { type: Number, default: 1 },
-    output_count: { type: Number, default: 1 },
-    fuel_count: { type: Number, default: 1 },
+    input: { type: String, default: "" },
+    output: { type: String, default: "" },
+    fuel: { type: String, default: "" },
+    inputCount: { type: Number, default: 1 },
+    outputCount: { type: Number, default: 1 },
+    fuelCount: { type: Number, default: 1 },
   },
   computed: {
     recipeId() {

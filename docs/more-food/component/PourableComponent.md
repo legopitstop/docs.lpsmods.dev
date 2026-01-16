@@ -26,6 +26,8 @@ title: PourableComponent | Lot's More Food Documentation
 ## Example
 
 ```js
+import { PourableComponent } from "./block/PourableComponent";
+
 new PourableComponent("minecraft:bucket", "minecraft:milk_bucket");
 ```
 

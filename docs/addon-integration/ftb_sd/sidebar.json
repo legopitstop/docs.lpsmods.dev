@@ -1,0 +1,5 @@
+[
+  { "text": "Getting Started", "link": "/" },
+  { "text": "Compacting Recipe", "link": "/compacting-recipe" },
+  { "text": "Drawer Manipulation", "link": "/drawer-manipulation" }
+]

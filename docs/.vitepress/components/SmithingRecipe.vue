@@ -18,7 +18,12 @@ import { createRecipeId } from "../theme/mcui.js";
 
 export default {
   name: "SmithingRecipe",
-  props: { template: String, base: String, addition: String, output: String },
+  props: {
+    template: { type: String, default: "" },
+    base: { type: String, default: "" },
+    addition: { type: String, default: "" },
+    output: { type: String, default: "" },
+  },
   computed: {
     recipeId() {
       return createRecipeId(this.output);

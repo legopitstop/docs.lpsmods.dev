@@ -22,24 +22,13 @@
 <script>
 export default {
   name: "Inventory",
+  props: {
+    items: { type: Array[String], default: [] },
+    rows: { type: Number, default: 1 },
+    title: { type: String, default: "Inventory" },
+  },
   data() {
     return {};
-  },
-  methods: {
-    chunkify(array, chunkSize) {
-      let chunks = [];
-      for (let i = 0; i < array.length; i += chunkSize) {
-        let chunk = array.slice(i, i + chunkSize);
-        chunks.push(chunk);
-      }
-      return chunks;
-    },
-    extendArray(array, maxSize, value) {
-      if (array.length < maxSize) {
-        array.push(...Array(maxSize - array.length).fill(value));
-      }
-      return array;
-    },
   },
   computed: {
     inventoryId() {
@@ -57,10 +46,21 @@ export default {
       return this.chunkify(this.items, 9);
     },
   },
-  props: {
-    items: Array,
-    rows: { type: Number, default: 1 },
-    title: { type: String, default: "Inventory" },
+  methods: {
+    chunkify(array, chunkSize) {
+      let chunks = [];
+      for (let i = 0; i < array.length; i += chunkSize) {
+        let chunk = array.slice(i, i + chunkSize);
+        chunks.push(chunk);
+      }
+      return chunks;
+    },
+    extendArray(array, maxSize, value) {
+      if (array.length < maxSize) {
+        array.push(...Array(maxSize - array.length).fill(value));
+      }
+      return array;
+    },
   },
 };
 </script>

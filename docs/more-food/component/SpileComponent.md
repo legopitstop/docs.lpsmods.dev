@@ -35,6 +35,8 @@ The custom behavior for Wooden Spile
 ## Example
 
 ```js
+import { SpileComponent } from "./block/SpileComponent";
+
 new SpileComponent("sap_level", 5, "minecraft:milk_bucket");
 ```
 

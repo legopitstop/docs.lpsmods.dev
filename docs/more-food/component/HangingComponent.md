@@ -30,6 +30,8 @@ Makes this block behave like [Crops](https://minecraft.wiki/w/Crops) and [Cave V
 ## Example
 
 ```js
+import { HangingComponent } from "./block/HangingComponent";
+
 new HangingComponent("minecraft:apple", "stage", 7);
 ```
 

@@ -1,15 +1,15 @@
 <template>
-  <span class="invslot" v-bind:class="large ? 'invslot-large' : ''">
+  <span class="invslot" :class="large ? 'invslot-large' : ''">
     <span
-      v-if="useItem != undefined"
+      v-if="useItem() != undefined"
       class="invslot-item invslot-item-image"
-      :data-minetip-title="useItem.getMinetip()"
+      :data-minetip-title="useItem().getMinetip()"
       @mouseenter="minetipMouseover"
       @mouseleave="minetipMouseout"
       @mousemove="minetipMousemove"
     >
       <a
-        :href="editable ? '#' : useItem.getLink()"
+        :href="editable ? '#' : useItem().getLink()"
         :target="item.getLinkTarget()"
         rel="nofollow noreferrer"
         @click="selectItem"
@@ -20,13 +20,13 @@
           class="nozoom"
           decoding="async"
           loading="lazy"
-          @error="onError"
           width="32"
           height="32"
           data-relevant="0"
+          @error="onError"
       /></a>
 
-      <a v-if="count > 1" target="_blank" rel="nofollow noreferrer" class="external text" :href="useItem.getLink()"
+      <a v-if="count > 1" target="_blank" rel="nofollow noreferrer" class="external text" :href="useItem().getLink()"
         ><span class="invslot-stacksize">{{ count }}</span></a
       >
     </span>
@@ -43,6 +43,21 @@ import { MISSING_TEXTURE } from "../classes/constants.js";
 
 export default {
   name: "InvSlot",
+  props: {
+    id: { type: String, default: "" },
+    large: {
+      type: Boolean,
+      default: false,
+    },
+    count: {
+      type: Number,
+      default: 1,
+    },
+    editable: {
+      type: Boolean,
+      default: false,
+    },
+  },
   data: function () {
     return {
       item: undefined,
@@ -51,7 +66,22 @@ export default {
       advancedTooltips: "modded",
     };
   },
-  computed: {
+  mounted() {
+    if (!document.getElementById("minetip-tooltip")) {
+      var tip = document.createElement("div");
+      tip.style.display = "none";
+      tip.id = "minetip-tooltip";
+      var title = document.createElement("span");
+      title.id = "minetip-text";
+      title.innerHTML = "Unknown";
+      tip.appendChild(title);
+      document.getElementById("app").appendChild(tip);
+    }
+    // Load fontmatter
+    // TODO: Should run once per page.
+    this.parseFrontmatter;
+  },
+  methods: {
     useItem() {
       // Inject recipeItems to cachedItems
       registerItems(this.pageItems);
@@ -96,23 +126,6 @@ export default {
       this.parsePageLinks;
       this.parsePageItems;
     },
-  },
-  mounted() {
-    if (!document.getElementById("minetip-tooltip")) {
-      var tip = document.createElement("div");
-      tip.style.display = "none";
-      tip.id = "minetip-tooltip";
-      var title = document.createElement("span");
-      title.id = "minetip-text";
-      title.innerHTML = "Unknown";
-      tip.appendChild(title);
-      document.getElementById("app").appendChild(tip);
-    }
-    // Load fontmatter
-    // TODO: Should run once per page.
-    this.parseFrontmatter;
-  },
-  methods: {
     onError: (e) => (e.target.src != MISSING_TEXTURE ? (e.target.src = MISSING_TEXTURE) : null),
     selectItem() {
       if (this.editable) {
@@ -149,21 +162,6 @@ export default {
       o.style.position = "absolute";
       o.style.top = posY + y + "px";
       o.style.left = posX + x + "px";
-    },
-  },
-  props: {
-    id: String,
-    large: {
-      type: Boolean,
-      default: false,
-    },
-    count: {
-      type: Number,
-      default: 1,
-    },
-    editable: {
-      type: Boolean,
-      default: false,
     },
   },
 };

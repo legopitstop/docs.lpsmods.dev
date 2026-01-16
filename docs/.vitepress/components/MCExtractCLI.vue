@@ -10,7 +10,7 @@
       <div v-if="manifest" class="content">
         <div>
           <label for="version">Minecraft Version:</label>
-          <select name="version" id="version" @change="onChange" v-model="version">
+          <select id="version" v-model="version" name="version" @change="onChange">
             <option v-for="v in versions" :key="v.id" :value="v.id" :selected="v.id == manifest.latest.release">
               {{ v.id }}{{ getLabel(v.id) }}
             </option>
@@ -19,17 +19,17 @@
 
         <div>
           <label for="snapshots">Show Snapshots:</label>
-          <input type="checkbox" name="snapshots" id="snapshots" @change="onChange" v-model="snapshots" />
+          <input id="snapshots" v-model="snapshots" type="checkbox" name="snapshots" @change="onChange" />
         </div>
 
         <div>
           <label for="client">Client Files:</label>
-          <input type="checkbox" name="client" id="client" @change="onChange" v-model="client" />
+          <input id="client" v-model="client" type="checkbox" name="client" @change="onChange" />
         </div>
 
         <div>
           <label for="server">Server Files:</label>
-          <input type="checkbox" name="server" id="server" @change="onChange" v-model="server" />
+          <input id="server" v-model="server" type="checkbox" name="server" @change="onChange" />
         </div>
 
         <div class="language-sh vp-adaptive-theme">
@@ -60,6 +60,13 @@ export default {
       manifest: null,
       snapshots: false,
     };
+  },
+  mounted() {
+    this.cachedFetch("https://launchermeta.mojang.com/mc/game/version_manifest.json").then((manifest) => {
+      this.manifest = manifest;
+      this.version = manifest.latest.release;
+      this.init();
+    });
   },
   methods: {
     init: function () {
@@ -115,13 +122,6 @@ export default {
         this.output = e;
       });
     },
-  },
-  mounted() {
-    this.cachedFetch("https://launchermeta.mojang.com/mc/game/version_manifest.json").then((manifest) => {
-      this.manifest = manifest;
-      this.version = manifest.latest.release;
-      this.init();
-    });
   },
 };
 </script>

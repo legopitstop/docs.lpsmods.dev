@@ -30,6 +30,8 @@ Makes this block behave like [Sweet Berries](https://minecraft.wiki/w/Sweet_Berr
 ## Example
 
 ```js
+import { BushComponent } from "./block/BushComponent";
+
 new BushComponent("minecraft:sweet_berries", "growth", 7);
 ```
 

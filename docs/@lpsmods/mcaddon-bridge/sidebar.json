@@ -1,4 +1,12 @@
 [
-  { "text": "Guide", "collapsed": true, "items": [{ "text": "Getting Started", "link": "/guide/getting-started" }] },
+  {
+    "text": "Guide",
+    "collapsed": true,
+    "items": [
+      { "text": "Getting Started", "link": "/guide/getting-started" },
+      { "text": "Creating Bridge", "link": "/guide/creating-bridge" },
+      { "text": "Integration", "link": "/guide/integration" }
+    ]
+  },
   { "text": "Script API", "collapsed": true, "items": [{ "text": "UNDOCUMENTED" }] }
 ]
