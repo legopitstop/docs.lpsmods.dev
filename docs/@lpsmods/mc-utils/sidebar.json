@@ -6,7 +6,8 @@
       { "text": "Getting Started", "link": "/guide/getting-started" },
       { "text": "Custom Components", "link": "/guide/custom-components" },
       { "text": "Custom Effect", "link": "/guide/custom-effect" },
-      { "text": "Custom Enchantment", "link": "/guide/custom-enchantment" }
+      { "text": "Custom Enchantment", "link": "/guide/custom-enchantment" },
+      { "text": "FAQ", "link": "/guide/faq" }
     ]
   },
   { "text": "Script API", "collapsed": true, "items": [{ "text": "UNDOCUMENTED" }] },
