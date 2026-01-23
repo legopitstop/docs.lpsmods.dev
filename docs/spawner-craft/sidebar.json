@@ -9,5 +9,6 @@
       { "text": "Nether", "link": "/nether" },
       { "text": "Misc", "link": "/misc" }
     ]
-  }
+  },
+  { "text": "FAQ", "link": "/faq" }
 ]

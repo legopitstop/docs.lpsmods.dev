@@ -20,5 +20,6 @@
       { "text": "Custom Poses", "link": "/custom-poses" },
       { "text": "Pose Format", "link": "/pose-format" }
     ]
-  }
+  },
+  { "text": "FAQ", "link": "/faq" }
 ]

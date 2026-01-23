@@ -25,5 +25,6 @@
       }
     ]
   },
-  { "text": "Generator", "link": "/generator" }
+  { "text": "Generator", "link": "/generator" },
+  { "text": "FAQ", "link": "/faq" }
 ]

@@ -9,5 +9,6 @@
     "text": "Blocks",
     "collapsed": true,
     "items": [{ "text": "Can", "link": "/Can.md" }]
-  }
+  },
+  { "text": "FAQ", "link": "/faq" }
 ]

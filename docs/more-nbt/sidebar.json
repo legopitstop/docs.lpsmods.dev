@@ -59,5 +59,6 @@
         "link": "/example-sea-treasure-loot"
       }
     ]
-  }
+  },
+  { "text": "FAQ", "link": "/faq" }
 ]

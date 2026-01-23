@@ -11,5 +11,6 @@
       { "text": "Golden Orange", "link": "/Golden_Orange.md" },
       { "text": "Golden Strawberry", "link": "/Golden_Strawberry.md" }
     ]
-  }
+  },
+  { "text": "FAQ", "link": "/faq" }
 ]

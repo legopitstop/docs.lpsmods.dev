@@ -23,5 +23,6 @@
       { "text": "SpileComponent", "link": "/SpileComponent" },
       { "text": "TallCropComponent", "link": "/TallCropComponent" }
     ]
-  }
+  },
+  { "text": "FAQ", "link": "/faq" }
 ]

@@ -10,5 +10,6 @@
       { "text": "Light Bulb", "link": "/Light_Bulb.md" },
       { "text": "Light Fixture", "link": "/Light_Fixture.md" }
     ]
-  }
+  },
+  { "text": "FAQ", "link": "/faq" }
 ]
