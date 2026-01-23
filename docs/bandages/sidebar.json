@@ -14,5 +14,6 @@
     "text": "Bedrock",
     "base": "/bandages/bedrock/",
     "items": [{ "text": "Item Format", "link": "/item-format" }]
-  }
+  },
+  { "text": "FAQ", "link": "/faq" }
 ]

@@ -1,8 +1,10 @@
 name: Lint
 description: Lint and build the project to check for errors.
 on:
-  - pull_request
-  - push
+  pull_request:
+    branches: [develop]
+  push:
+    branches: [develop]
 
 jobs:
   lint:

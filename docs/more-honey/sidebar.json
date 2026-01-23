@@ -29,5 +29,6 @@
       { "text": "Honey Toastie", "link": "/Honey_Toastie.md" },
       { "text": "Honey Waffle", "link": "/Honey_Waffle.md" }
     ]
-  }
+  },
+  { "text": "FAQ", "link": "/faq" }
 ]

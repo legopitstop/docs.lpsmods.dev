@@ -2,5 +2,6 @@
   { "text": "Getting Started", "link": "/getting-started" },
   { "text": "Fulgurite", "link": "/fulgurite" },
   { "text": "Legacy Format", "link": "/legacy-format" },
-  { "text": "Examples", "link": "/example-fulgurites" }
+  { "text": "Examples", "link": "/example-fulgurites" },
+  { "text": "FAQ", "link": "/faq" }
 ]

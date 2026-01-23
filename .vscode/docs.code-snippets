@@ -1,4 +1,9 @@
 {
+  "Tab": {
+    "scope": "md,markdown",
+    "prefix": "tabs",
+    "body": [":::tabs key:${1}", "", "== ${2}", "", "${0}", ":::"],
+  },
   "PythonInstallation": {
     "scope": "md,markdown",
     "prefix": "PythonInstallation",

@@ -1,5 +1,7 @@
 import root from "../sidebar.json";
 import lpsmodsMcUtils from "../@lpsmods/mc-utils/sidebar.json";
+import lpsmodsMcCommon from "../@lpsmods/mc-common/sidebar.json";
+import lpsmodsMcDev from "../@lpsmods/mc-dev/sidebar.json";
 import lpsmodsMcBridge from "../@lpsmods/mcaddon-bridge/sidebar.json";
 import accentcolordetect from "../accentcolordetect/sidebar.json";
 import armor_stand_poses from "../armor-stand-poses/sidebar.json";
@@ -58,6 +60,20 @@ export const sidebar = {
       text: "Storage Drawers",
       base: "/addon-integration/ftb_sd",
       items: ftb_sd,
+    },
+  ],
+  "/@lpsmods/mc-common": [
+    {
+      text: "@lpsmods/mc-common",
+      base: "/@lpsmods/mc-common/",
+      items: lpsmodsMcCommon,
+    },
+  ],
+  "/@lpsmods/mc-dev": [
+    {
+      text: "@lpsmods/mc-dev",
+      base: "/@lpsmods/mc-dev/",
+      items: lpsmodsMcDev,
     },
   ],
   "/@lpsmods/mc-utils": [

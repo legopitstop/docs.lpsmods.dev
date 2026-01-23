@@ -14,5 +14,6 @@
     "collapsed": true,
     "base": "/assets-plus/models/blocks",
     "items": [{ "text": "Example", "link": "/example" }]
-  }
+  },
+  { "text": "FAQ", "link": "/faq" }
 ]

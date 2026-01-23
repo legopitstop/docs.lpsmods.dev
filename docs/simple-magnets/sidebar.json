@@ -30,5 +30,6 @@
       { "text": "Diamond Magnet", "link": "/Magnet.md#diamond" },
       { "text": "Netherite Magnet", "link": "/Magnet.md#netherite" }
     ]
-  }
+  },
+  { "text": "FAQ", "link": "/faq" }
 ]
