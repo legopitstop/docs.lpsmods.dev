@@ -5,7 +5,7 @@ description: Add new NBT Tags to make customization easier!
 
 # Events
 
-These tags are held inside item trigger events. see [Trigger Events](/morenbt/item/trigger-events).
+These tags are held inside item trigger events. see [Trigger Events](./trigger-events).
 
 ## Parameters
 

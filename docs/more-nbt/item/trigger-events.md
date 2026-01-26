@@ -5,7 +5,7 @@ description: Add new NBT Tags to make customization easier!
 
 # Trigger Events
 
-Trigger events will run events depending on the trigger event you use. The following parameters hold the events that it will run. see [Item Events](/morenbt/item/events)
+Trigger events will run events depending on the trigger event you use. The following parameters hold the events that it will run. see [Item Events](./events)
 
 ## Parameters
 

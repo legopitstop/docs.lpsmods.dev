@@ -18,7 +18,6 @@ import gitfiles from "../gitfiles/sidebar.json";
 import jsonpack from "../jsonpack/sidebar.json";
 import lightning_bolt_glass from "../lightning-bolt-glass/sidebar.json";
 import lps_recipe_core from "../lps-recipe-core/sidebar.json";
-import lpsmods from "../lpsmods/sidebar.json";
 import lpsmods_api from "../lpsmods-api/sidebar.json";
 import lpsmods_docs from "../lpsmods-docs/sidebar.json";
 import mcaddon from "../mcaddon/sidebar.json";
@@ -361,13 +360,6 @@ export const sidebar = {
       text: "Update Checker",
       base: "/update-checker/",
       items: update_checker,
-    },
-  ],
-  "/lpsmods": [
-    {
-      text: "lpsmods",
-      base: "/lpsmods/",
-      items: lpsmods,
     },
   ],
   "/calculators": [

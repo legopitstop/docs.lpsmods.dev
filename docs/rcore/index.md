@@ -1,3 +1,0 @@
----
-redirect: /lps-recipe-core
----

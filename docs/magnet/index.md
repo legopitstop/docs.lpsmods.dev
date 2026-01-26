@@ -1,3 +1,0 @@
----
-redirect: /simple-magnets
----

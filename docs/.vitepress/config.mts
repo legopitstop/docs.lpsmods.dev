@@ -1,5 +1,6 @@
 import { HeadConfig, defineConfig } from "vitepress";
 import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
+import { routex } from "@itznotabug/routex";
 
 import gradleGrammar from "./theme/syntaxes/gradle.tmLanguage.json";
 import mcfunctionGrammar from "./theme/syntaxes/mcfunction.tmLanguage.json";
@@ -9,6 +10,7 @@ import molangGrammar from "./theme/syntaxes/molang.tmLanguage.json";
 import mcscriptGrammar from "./theme/syntaxes/mcscript.tmLanguage.json";
 
 import icon from "./icon.json";
+import redirects from "./redirects.json";
 import { sidebar } from "./sidebar.js";
 import { nav } from "./nav.js";
 
@@ -87,23 +89,6 @@ export default defineConfig({
   ],
   transformPageData(pageData) {
     pageData.titleTemplate = ":title";
-
-    if (pageData.frontmatter.redirect) {
-      const url = pageData.frontmatter.redirect.replace(".md", "");
-      pageData.title = "Redirecting…";
-      const head = [
-        "meta",
-        {
-          "http-equiv": "refresh",
-          content: `0; url=${url}`,
-        },
-      ];
-      if (!pageData.frontmatter.head) {
-        pageData.frontmatter.head = [head];
-      } else {
-        pageData.frontmatter.head.push(head);
-      }
-    }
   },
   transformHead: ({ pageData, siteConfig, page }) => {
     const head: HeadConfig[] = [];
@@ -178,6 +163,11 @@ export default defineConfig({
   },
   sitemap: {
     hostname: "https://docs.lpsmods.dev/",
+  },
+  vite: {
+    plugins: [
+      routex(redirects)
+    ]
   },
 
   // NOTE: This is a custom property used in transformHead
