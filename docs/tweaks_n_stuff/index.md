@@ -8,7 +8,7 @@ hero:
   text: A Blockbench plugin that adds utility features for enhanced modeling workflows.
   tagline: Streamline your modeling experience
   image:
-    src: /images/tweaks_n_stuff/icon.png
+    src: /images/tweaks_n_stuff/icon.webp
   actions:
     - theme: brand
       text: Getting Started

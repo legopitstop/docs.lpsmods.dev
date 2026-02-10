@@ -81,11 +81,11 @@ export default defineConfig({
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:url", content: "https://docs.lpsmods.dev/" }],
     ["meta", { property: "og:locale", content: "en" }],
-    ["meta", { property: "og:image", content: "/images/logo.png" }],
+    ["meta", { property: "og:image", content: "/images/logo.webp" }],
 
     ["meta", { property: "twitter:card", content: "summary_large_image" }],
     ["meta", { property: "twitter:url", content: "https://docs.lpsmods.dev/" }],
-    ["meta", { property: "twitter:image", content: "/images/logo.png" }],
+    ["meta", { property: "twitter:image", content: "/images/logo.webp" }],
   ],
   transformPageData(pageData) {
     pageData.titleTemplate = ":title";
@@ -176,7 +176,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     // externalLinkIcon: true, disabled because of InvSlot.vue
     lastUpdated: {},
-    logo: { src: "/images/logo.png", alt: "Logo" },
+    logo: { src: "/images/logo.webp", alt: "Logo" },
     footer: {
       copyright: year + " © Legopitstop",
       message: "Not associated with or approved by Mojang Studios or Microsoft",

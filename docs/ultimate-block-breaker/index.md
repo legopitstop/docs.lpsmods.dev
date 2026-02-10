@@ -8,7 +8,7 @@ hero:
   text: Automate block breaking in Minecraft with tiered, upgradable machines.
   tagline: Enhance your mining and farming efficiency
   image:
-    src: /images/ultimate-block-breaker/icon.png
+    src: /images/ultimate-block-breaker/icon.webp
   actions:
     - theme: brand
       text: Getting Started

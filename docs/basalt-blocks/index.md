@@ -8,7 +8,7 @@ hero:
   text: Expands Minecraft's basalt options with new decorative blocks and variants.
   tagline: More basalt for your builds
   image:
-    src: /images/basalt-blocks/icon.png
+    src: /images/basalt-blocks/icon.webp
   actions:
     - theme: brand
       text: Getting Started

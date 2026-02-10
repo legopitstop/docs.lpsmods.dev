@@ -8,7 +8,7 @@ hero:
   text: Adds over 200 carved pumpkins and jack o' lanterns to Minecraft.
   tagline: Enhance your world with festive decorations
   image:
-    src: /images/more-pumpkins/icon.png
+    src: /images/more-pumpkins/icon.webp
   actions:
     - theme: brand
       text: Getting Started

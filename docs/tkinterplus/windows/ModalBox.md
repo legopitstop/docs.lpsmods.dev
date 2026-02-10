@@ -63,4 +63,4 @@ tkinter.Button(root, text='Open Modal', command=callback).pack()
 root.mainloop()
 ```
 
-![example-modalbox](/images/example-modalbox.png)
+![example-modalbox](/images/example-modalbox.webp)

@@ -53,20 +53,20 @@ Step-by-step instructions on how to install addons for [Minecraft: Bedrock Editi
 1. Download the add-on that you want to install. It should be in a .mcpack or .mcaddon format.
 1. Rename the file extension to ".zip"
 
-![step2](/images/1967d4a4-70ad-4b69-bec5-454cf98586ca.png)
+![step2](/images/1967d4a4-70ad-4b69-bec5-454cf98586ca.webp)
 
 1. Extract all contents of the file
 
-![step3](/images/6463c400-8473-463d-a472-99aef2d48288.png)
+![step3](/images/6463c400-8473-463d-a472-99aef2d48288.webp)
 
 1. If the extracted file contains .mcpack files repeat steps 2 and 3 for these files.
 1. Upload these extracted folders to the appropriate places in your file manager. These folders typically have a prefix or suffix of RP (for resource_packs) and BP (for behavior_packs)
 
-![step6](/images/3ab1fe98-81b5-4213-8996-b5b36dab4543.png)
+![step6](/images/3ab1fe98-81b5-4213-8996-b5b36dab4543.webp)
 
 1. Now you need to activate the addon by navigating to your server's world folder and create 2 separate files. One called "world_behavior_packs.json" and the other called "world_resource_packs.json"
 
-![step7](/images/9ba5e811-6d62-4e8f-a086-683172640d5d.png)
+![step7](/images/9ba5e811-6d62-4e8f-a086-683172640d5d.webp)
 
 1. For each of the created files you will need to edit them and add the following content making sure to replace the pack_id value with the uuid located in the packs manifest.json along with the version.
 
@@ -95,6 +95,6 @@ The final file should look something like this. Making note of commas to activat
 ```
 
 1. After activating the addon you can now start your server and you will have extra content added to your server!
-   ![step8](/images/3f19aaeb-7eb6-48b3-81aa-2d8b3d770953.png)
+   ![step8](/images/3f19aaeb-7eb6-48b3-81aa-2d8b3d770953.webp)
 
 :::

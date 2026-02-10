@@ -13,7 +13,7 @@ hero:
   text: Add Bedrock-style, data-driven poses to Minecraft armor stands.
   tagline: Dynamic poses for armor stands
   image:
-    src: /images/armor-stand-poses/icon.png
+    src: /images/armor-stand-poses/icon.webp
   actions:
     - theme: brand
       text: Getting Started

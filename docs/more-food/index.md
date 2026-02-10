@@ -8,7 +8,7 @@ hero:
   text: Adds over 200 new foods, tools, and items to enhance your Minecraft experience.
   tagline: Expand your culinary adventures
   image:
-    src: /images/more-food/icon.png
+    src: /images/more-food/icon.webp
   actions:
     - theme: brand
       text: Getting Started

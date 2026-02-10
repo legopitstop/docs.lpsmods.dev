@@ -94,7 +94,7 @@ export default {
       loader.load(
         "/models/armor_stand.geo.json",
         "geometry.armor_stand",
-        "/textures/armor_stand.png",
+        "/textures/armor_stand.webp",
         function (e) {
           scene.add(e.scene);
           scene.translateY(-5);

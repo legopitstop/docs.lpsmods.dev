@@ -8,7 +8,7 @@ hero:
   text: Adds magnets and demagnetization coils to attract or repel items and experience.
   tagline: Simplify item collection in Minecraft
   image:
-    src: /images/simple-magnets/icon.png
+    src: /images/simple-magnets/icon.webp
   actions:
     - theme: brand
       text: Getting Started

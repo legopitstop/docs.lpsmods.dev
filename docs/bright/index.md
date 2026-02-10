@@ -8,7 +8,7 @@ hero:
   text: Illuminate your world with five versatile lighting blocks.
   tagline: Light up your builds
   image:
-    src: /images/bright/icon.png
+    src: /images/bright/icon.webp
   actions:
     - theme: brand
       text: Getting Started

@@ -104,4 +104,4 @@ widget.pack()
 root.mainloop()
 ```
 
-![example-Audio](/images/example-Audio.png)
+![example-Audio](/images/example-Audio.webp)

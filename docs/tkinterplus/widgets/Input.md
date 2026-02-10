@@ -41,4 +41,4 @@ widget6.pack()
 root.mainloop()
 ```
 
-![example-Input](/images/example-Input.png)
+![example-Input](/images/example-Input.webp)

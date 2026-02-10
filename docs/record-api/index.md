@@ -8,7 +8,7 @@ hero:
   text: A Minecraft datapack and resource pack API that enhances item customization with custom NBT tags.
   tagline: Unlock advanced item features
   image:
-    src: /images/record-api/icon.png
+    src: /images/record-api/icon.webp
   actions:
     - theme: brand
       text: Getting Started

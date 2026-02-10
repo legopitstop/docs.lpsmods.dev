@@ -8,7 +8,7 @@ hero:
   text: Adds over five new golden foods to Minecraft for enhanced buffs and nourishment.
   tagline: Enrich your game with golden treats
   image:
-    src: /images/more-gold/icon.png
+    src: /images/more-gold/icon.webp
   actions:
     - theme: brand
       text: Getting Started

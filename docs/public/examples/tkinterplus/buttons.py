@@ -29,7 +29,7 @@ button4 = BindButton(
     bind_all=True,
 )
 
-BUTTON1.set("C:/Users/1589l/Downloads/copper armor/copper_boots.png")
+BUTTON1.set("C:/Users/1589l/Downloads/copper armor/copper_boots.webp")
 BUTTON2.set("C:/Users/1589l/Downloads/copper armor")
 BUTTON3.set("SystemButtonFace")
 BUTTON4.set("<Control-s>")

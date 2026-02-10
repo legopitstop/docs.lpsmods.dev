@@ -14,7 +14,7 @@ def submit(data):
 widget = Form(root)
 widget.add_title("My Form")
 widget.add_dropdown("Choose your age", "1-18", "19-UP")
-widget.add_file("Choose a profile picture", [("Image", "*.png")])
+widget.add_file("Choose a profile picture", [("Image", "*.webp")])
 widget.add_paragraph("paragraph")
 widget.add_submit_button(submit)
 

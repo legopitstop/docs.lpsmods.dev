@@ -191,4 +191,4 @@ tkinter.Button(root, text='Open Modal', command=modal.show).pack()
 root.mainloop()
 ```
 
-![example-Modal](/images/example-Modal.png)
+![example-Modal](/images/example-Modal.webp)

@@ -46,4 +46,4 @@ widget.pack()
 root.mainloop()
 ```
 
-![example-Picture](/images/example-Picture.png)
+![example-Picture](/images/example-Picture.webp)
