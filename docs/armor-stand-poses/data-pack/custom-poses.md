@@ -7,6 +7,33 @@ description: This datapack adds poses to armor stands like Bedrock Edition. Reds
 
 Armor Stand Poses supports custom poses letting you create your own!
 
+:::tabs key:lpsm_asp_version
+
+== 1.6.0+
+
+
+1. First, you must create the function tag `data/lpsm_asp/tags/function/register_poses.json` in your datapack. This should link to your MCFUNCTION file that will contain all the armor stand poses that should be registered. In this example, we will name it "example:armor_stand_poses"
+
+   ```json
+   {
+     "values": ["example:armor_stand_poses"]
+   }
+   ```
+
+1. Now in the MCFUNCTION file that you just created you can add your armor stand poses.
+
+   ```mcfunction [armor_stand_poses.mcfunction]
+   data modify storage lpsm_asp:poses poses append value {power: 1, id: "example", display_name: '{"text": "Example Pose"}', Pose:{Body:[0f,0f,0f],Head:[0f,0f,0f],LeftArm:[-10f,0f,-10f],LeftLeg:[-1f,0f,-1f],RightArm:[-15f,0f,10f],RightLeg:[1f,0f,1f]}}
+   # Add multiple poses in the save file.
+   ```
+
+1. After you've added all your poses save the MCFUNCTION file and run `/reload` in-game to update the datapack. Now run `/function lpsm_asp:reload` to reload all poses.
+
+== Legacy
+
+> [!TIP] This page describes content that exists only in outdated versions of Armor Stand Poses
+> This feature used to be in the game but has since been removed.
+
 1. First, you must create the function tag `data/poses/tags/function/register_poses.json` in your datapack. This should link to your MCFUNCTION file that will contain all the armor stand poses that should be registered. In this example, we will name it "example:armor_stand_poses"
 
    ```json
@@ -17,29 +44,11 @@ Armor Stand Poses supports custom poses letting you create your own!
 
 1. Now in the MCFUNCTION file that you just created you can add your armor stand poses.
 
-   ::: code-group
-
    ```mcfunction [armor_stand_poses.mcfunction]
    data modify storage poses:poses poses append value {power: 1, id: "example", display_name: '{"text": "Example Pose"}', Pose:{Body:[0f,0f,0f],Head:[0f,0f,0f],LeftArm:[-10f,0f,-10f],LeftLeg:[-1f,0f,-1f],RightArm:[-15f,0f,10f],RightLeg:[1f,0f,1f]}}
    # Add multiple poses in the save file.
    ```
 
-   ```snbt [snbt]
-   {
-       power: 1,
-       id: "example",
-       display_name: '{"text": "Example Pose"}',
-       Pose: {
-           Body: [0f, 0f, 0f],
-           Head: [0f, 0f, 0f],
-           LeftArm: [-10f, 0f, -10f],
-           LeftLeg: [-1f, 0f, -1f],
-           RightArm: [-15f, 0f, 10f],
-           RightLeg: [1f, 0f, 1f]
-       }
-   }
-   ```
+1. After you've added all your poses save the MCFUNCTION file and run `/reload` in-game to update the datapack. Now run `/function poses:reload` to reload all poses.
 
-   :::
-
-1. After you've added all your poses save the MCFUNCTION file and run `/reload` in-game to update the datapack. Now run `/function armor_stand:reload` to reload all poses.
+:::

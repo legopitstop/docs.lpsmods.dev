@@ -27,26 +27,21 @@ description: This datapack adds poses to armor stands like Bedrock Edition. Reds
 
 ## Example
 
-::: code-group
+:::tabs key:lpsm_asp_version
+
+== 1.6.0+
+
+```mcfunction [defaults.mcfunction]
+data modify storage lpsm_asp:poses poses append value {id: "default", power: 1, display_name: '{"text": "Default"}', Pose:{Body:[0f,0f,0f],Head:[0f,0f,0f],LeftArm:[-10f,0f,-10f],LeftLeg:[-1f,0f,-1f],RightArm:[-15f,0f,10f],RightLeg:[1f,0f,1f]}}
+```
+
+== Legacy
+
+> [!TIP] This page describes content that exists only in outdated versions of Armor Stand Poses
+> This feature used to be in the game but has since been removed.
 
 ```mcfunction [defaults.mcfunction]
 data modify storage poses:poses poses append value {id: "default", power: 1, display_name: '{"text": "Default"}', Pose:{Body:[0f,0f,0f],Head:[0f,0f,0f],LeftArm:[-10f,0f,-10f],LeftLeg:[-1f,0f,-1f],RightArm:[-15f,0f,10f],RightLeg:[1f,0f,1f]}}
-```
-
-```snbt [default.snbt]
-{
-    id: "default",
-    power: 1,
-    display_name: '{"text": "Default"}',
-    Pose: {
-        Body: [0f, 0f, 0f],
-        Head: [0f, 0f, 0f],
-        LeftArm: [-10f, 0f, -10f],
-        LeftLeg: [-1f, 0f, -1f],
-        RightArm: [-15f,0f, 10f],
-        RightLeg: [1f, 0f, 1f]
-    }
-}
 ```
 
 :::
