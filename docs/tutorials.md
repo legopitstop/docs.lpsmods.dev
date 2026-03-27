@@ -7,7 +7,7 @@ title: Tutorials
 - :package: [How to extract Minecraft assets](/tutorials/how-to-extract-minecraft-assets.md)
 - :open_file_folder: [How to find .minecraft folder](/tutorials/how-to-find-minecraft-folder.md)
 - :open_file_folder: [How to find com.mojang folder](/tutorials/how-to-find-com.mojang-folder.md)
-- :hammer_and_wrench: [How to find pack validation](/tutorials/how-to-find-pack-validation.md)
+- :hammer_and_wrench: [How to find pack info](/tutorials/how-to-find-pack-info.md)
 - :heavy_plus_sign: [How to install Add-ons](/tutorials/how-to-install-addons.md)
 - :file_folder: [How to install Data Packs](/tutorials/how-to-install-data-packs.md)
 - :world_map: [How to install Maps](/tutorials/how-to-install-maps.md)
