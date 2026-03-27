@@ -46,4 +46,4 @@ widget.pack()
 root.mainloop()
 ```
 
-![example-Picture](/images/example-Picture.webp)
+![example-Picture](https://cdn.lpsmods.dev/data/docs/example-Picture.webp)

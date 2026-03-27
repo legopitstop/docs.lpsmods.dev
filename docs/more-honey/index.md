@@ -8,7 +8,7 @@ hero:
   text: Adds over five honey-based foods with buffs to Minecraft.
   tagline: Sweeten your survival experience
   image:
-    src: /images/more-honey/icon.webp
+    src: https://cdn.lpsmods.dev/data/more-honey/Thumbnail_400.webp
   actions:
     - theme: brand
       text: Getting Started

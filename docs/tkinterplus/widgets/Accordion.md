@@ -71,4 +71,4 @@ widget.pack()
 root.mainloop()
 ```
 
-![example-Accordion](/images/example-Accordion.webp)
+![example-Accordion](https://cdn.lpsmods.dev/data/docs/example-Accordion.webp)

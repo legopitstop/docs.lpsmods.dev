@@ -8,7 +8,7 @@ hero:
   text: A custom crafting system enabling NBT-based recipes in Minecraft.
   tagline: Craft items with custom data
   image:
-    src: /images/lps-recipe-core/icon.webp
+    src: https://cdn.lpsmods.dev/data/lps-recipe-api/Thumbnail_400.webp
   actions:
     - theme: brand
       text: Getting Started

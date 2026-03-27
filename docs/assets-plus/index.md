@@ -8,7 +8,7 @@ hero:
   text: A resource pack library upgrading vanilla Minecraft with better texture IDs and new dev textures.
   tagline: Enhanced vanilla textures & IDs
   image:
-    src: /images/assets-plus/icon.webp
+    src: https://cdn.lpsmods.dev/data/assets-plus/Thumbnail_400.webp
   actions:
     - theme: brand
       text: Getting Started

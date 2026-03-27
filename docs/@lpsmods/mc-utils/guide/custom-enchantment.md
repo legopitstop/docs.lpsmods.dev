@@ -9,7 +9,7 @@ next: false
 
 # Custom Enchantment
 
-![Example custom enchantment](/images/de7aff6d-1f63-4f5a-a436-8f8af02c7e36.webp)
+![Example custom enchantment](https://cdn.lpsmods.dev/data/docs/de7aff6d-1f63-4f5a-a436-8f8af02c7e36.webp)
 
 ## Known Limitations
 

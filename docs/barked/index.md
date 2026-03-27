@@ -8,7 +8,7 @@ hero:
   text: Adds a bark item when you strip logs, wood, stem, or hyphae blocks.
   tagline: Enhance your woodcutting experience
   image:
-    src: /images/barked/icon.webp
+    src: https://cdn.lpsmods.dev/data/barked/Thumbnail_400.webp
   actions:
     - theme: brand
       text: Getting Started

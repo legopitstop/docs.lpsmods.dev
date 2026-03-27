@@ -8,7 +8,7 @@ hero:
   text: Adds four types of bandage items that restore health and hunger with bonus effects.
   tagline: Heal, eat & buff
   image:
-    src: /images/bandages/icon.webp
+    src: https://cdn.lpsmods.dev/data/bandages/Thumbnail_400.webp
   actions:
     - theme: brand
       text: Getting Started
