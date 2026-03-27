@@ -3,6 +3,8 @@ import lpsmodsMcUtils from "../@lpsmods/mc-utils/sidebar.json";
 import lpsmodsMcCommon from "../@lpsmods/mc-common/sidebar.json";
 import lpsmodsMcDev from "../@lpsmods/mc-dev/sidebar.json";
 import lpsmodsMcBridge from "../@lpsmods/mcaddon-bridge/sidebar.json";
+import lpsmodsMcMixins from "../@lpsmods/mc-mixins/sidebar.json";
+import lpsmodsMcSuperstruct from "../@lpsmods/mc-superstruct/sidebar.json";
 import accentcolordetect from "../accentcolordetect/sidebar.json";
 import armor_stand_poses from "../armor-stand-poses/sidebar.json";
 import assets_plus from "../assets-plus/sidebar.json";
@@ -80,6 +82,20 @@ export const sidebar = {
       text: "@lpsmods/mc-utils",
       base: "/@lpsmods/mc-utils/",
       items: lpsmodsMcUtils,
+    },
+  ],
+  "/@lpsmods/mc-mixins": [
+    {
+      text: "@lpsmods/mc-mixins",
+      base: "/@lpsmods/mc-mixins/",
+      items: lpsmodsMcMixins,
+    },
+  ],
+  "/@lpsmods/mc-superstruct": [
+    {
+      text: "@lpsmods/mc-superstruct",
+      base: "/@lpsmods/mc-superstruct/",
+      items: lpsmodsMcSuperstruct,
     },
   ],
   "/@lpsmods/mcaddon-bridge": [

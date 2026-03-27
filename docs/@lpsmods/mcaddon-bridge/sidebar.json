@@ -5,7 +5,8 @@
     "items": [
       { "text": "Getting Started", "link": "/guide/getting-started" },
       { "text": "Creating Bridge", "link": "/guide/creating-bridge" },
-      { "text": "Integration", "link": "/guide/integration" }
+      { "text": "Integration", "link": "/guide/integration" },
+      { "text": "FAQ", "link": "/guide/faq" }
     ]
   },
   { "text": "Script API", "collapsed": true, "items": [{ "text": "UNDOCUMENTED" }] }
