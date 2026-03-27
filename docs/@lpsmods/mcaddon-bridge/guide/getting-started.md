@@ -1,6 +1,6 @@
 ---
 title: Getting Started | @lpsmods/mcaddon-bridge Documentation
-description: desc
+description: A package to communicate between Minecraft Add-Ons.
 prev: false
 next: false
 ---

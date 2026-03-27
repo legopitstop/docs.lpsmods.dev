@@ -1,6 +1,6 @@
 ---
 title: Getting Started | @lpsmods/mc-dev Documentation
-description: desc
+description: Debug utilities for Minecraft Bedrock Edition Add-On development.
 prev: false
 next:
   text: FAQ
