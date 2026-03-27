@@ -17,15 +17,15 @@ Below are answers to questions you might have.
 
 ## How do I report bugs or request features?
 
-You can submit a bug report or feature request via the [GitHub Repository](https://github.com/lpsmods/mc-dev/issues)
+You can submit a bug report or feature request via the [GitHub Repository](https://github.com/lpsmods/minecraft-scripting-libraries/issues)
 
 ## How do I contribute?
 
-See the [CONTRIBUTING.md](https://github.com/lpsmods/mc-dev/blob/main/CONTRIBUTING.md) file for more information about contributing.
+See the [CONTRIBUTING.md](https://github.com/lpsmods/minecraft-scripting-libraries/blob/main/CONTRIBUTING.md) file for more information about contributing.
 
-## How to I use this for my JavaScript project?
+## How do I use this for my JavaScript project?
 
-You can find the bundled JavaScript file via the [GitHub Releases](https://github.com/lpsmods/mc-dev/releases) page.
+You can find the bundled JavaScript file via the [GitHub Releases](https://github.com/lpsmods/minecraft-scripting-libraries/releases?q=mc-dev) page.
 
 ## Does this work for Minecraft: Java Edition?
 

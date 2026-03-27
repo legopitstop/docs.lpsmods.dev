@@ -15,7 +15,7 @@ hero:
       link: https://www.npmjs.com/package/@lpsmods/mcaddon-bridge
     - theme: alt
       text: Source Code
-      link: https://github.com/lpsmods/mcaddon-bridge
+      link: https://github.com/lpsmods/minecraft-scripting-libraries/tree/main/libraries/mcaddon-bridge
 
 features:
   - icon: 📡
