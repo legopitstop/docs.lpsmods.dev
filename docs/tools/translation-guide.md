@@ -94,4 +94,5 @@ skinpack.wiki=Wiki Skins
 
 ```lang
 chat.wiki:custom_message=Hello, World!
+itemGroup.name.wiki:custom=Custom
 ```
