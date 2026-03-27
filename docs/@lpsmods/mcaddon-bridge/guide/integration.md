@@ -9,6 +9,34 @@ Using an API bridge in a different Add-On.
 
 ## Code
 
+:::tabs key:mcaddon-bridge-version
+
+== v0.0.2
+
+```ts
+import { world } from "@minecraft/server";
+import { connect } from "@lpsmods/mcaddon-bridge";
+
+function worldLoad(): void {
+  // Connect to the api
+  const myPack = connect("creator_example");
+
+  console.warn(myPack.get("name"));
+  myPack.set("name", "Bob");
+  console.warn(myPack.get("name"));
+
+  console.warn(myPack.get("fullName"));
+  myPack.set("fullName", "Steve Black");
+  console.warn(myPack.get("fullName"));
+
+  myPack.call("greet", "Alex");
+}
+
+world.afterEvents.worldLoad.subscribe(worldLoad);
+```
+
+== v0.0.1
+
 ```ts
 import { world } from "@minecraft/server";
 import { connect } from "@lpsmods/mcaddon-bridge";
@@ -30,3 +58,5 @@ function worldLoad(): void {
 
 world.afterEvents.worldLoad.subscribe(worldLoad);
 ```
+
+:::
