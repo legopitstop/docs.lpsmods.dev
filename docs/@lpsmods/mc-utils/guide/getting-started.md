@@ -1,6 +1,6 @@
 ---
 title: Getting Started | @lpsmods/mc-utils Documentation
-description: desc
+description: Minecraft utility functions and components to help create add-ons.
 prev: false
 next:
   text: Custom Components

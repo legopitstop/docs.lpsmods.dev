@@ -8,7 +8,7 @@ hero:
   text: Illuminate your world with five versatile lighting blocks.
   tagline: Light up your builds
   image:
-    src: /images/bright/icon.png
+    src: https://cdn.lpsmods.dev/data/bright/Thumbnail_400.webp
   actions:
     - theme: brand
       text: Getting Started

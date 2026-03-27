@@ -7,6 +7,11 @@
   ],
   "items": [
     {
+      "id": "minecraft:golden_dandelion",
+      "name": "Golden Dandelion",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAHlBMVEUAAAD+/+b2+JLq7lfsy0XbohOyZBGRRAl1KAJUEgl2zlp3AAAAAXRSTlMAQObYZgAAADBJREFUeNpjoBwwKkAZoskQmjmlzQHCCk+FSnFOgNJtBVCRaR1QIfaZUBGOCQwMDAD5fAcBInOkRQAAAABJRU5ErkJggg=="
+    },
+    {
       "id": "minecraft:copper_nautilus_armor",
       "name": "Copper Nautilus Armor",
       "lore": ["", "&7When equipped:", "&9\t+4 Armor"],

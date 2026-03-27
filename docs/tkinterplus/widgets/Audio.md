@@ -104,4 +104,4 @@ widget.pack()
 root.mainloop()
 ```
 
-![example-Audio](/images/example-Audio.png)
+![example-Audio](https://cdn.lpsmods.dev/data/docs/example-Audio.webp)

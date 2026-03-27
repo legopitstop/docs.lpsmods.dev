@@ -39,15 +39,3 @@ recipeLinks:
     pattern: https://docs.lpsmods.dev/:name
 ---
 ```
-
-## redirect
-
-- Type: `String`
-
-Redirects from this page to a new one.
-
-```yaml
----
-redirect: /python-docs
----
-```

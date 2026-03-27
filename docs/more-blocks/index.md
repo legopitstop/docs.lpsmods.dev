@@ -8,7 +8,7 @@ hero:
   text: Adds new variants and decorative blocks to enhance Minecraft builds.
   tagline: Expand your building possibilities
   image:
-    src: /images/more-blocks/icon.png
+    src: https://cdn.lpsmods.dev/data/more-blocks/Thumbnail_400.webp
   actions:
     - theme: brand
       text: Getting Started

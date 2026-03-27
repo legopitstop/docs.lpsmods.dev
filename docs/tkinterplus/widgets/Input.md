@@ -41,4 +41,4 @@ widget6.pack()
 root.mainloop()
 ```
 
-![example-Input](/images/example-Input.png)
+![example-Input](https://cdn.lpsmods.dev/data/docs/example-Input.webp)

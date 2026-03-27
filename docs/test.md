@@ -21,7 +21,15 @@ advancedTooltips: always
 
 This page is for testing custom components.
 
-## Recipe
+## Components
+
+### BrewingRecipe
+
+<BrewingRecipe input="paper" output="paper" />
+
+### Icon
+
+<Icon name="home" size="64" color="red" />
 
 ### Inventory
 
@@ -29,24 +37,32 @@ This page is for testing custom components.
 title="Items"
 :rows="2"
 :items="[
-'copper_nautilus_armor',
-'iron_nautilus_armor',
-'golden_nautilus_armor',
-'diamond_nautilus_armor',
-'netherite_nautilus_armor',
-'netherite_horse_armor',
-'wooden_spear',
-'stone_spear',
-'copper_spear',
-'iron_spear',
-'golden_spear',
-'diamond_spear',
-'netherite_spear',
-'camel_husk_spawn_egg',
-'nautilus_spawn_egg',
-'parched_spawn_egg',
-'zombie_nautilus_spawn_egg',
+'golden_dandelion',
 ]"/>
+
+### InvSlot
+
+<InvSlot id="paper" count="32" />
+
+### MCExtractCLI
+
+<MCExtractCLI />
+
+### NodeInstallation
+
+<NodeInstallation packageName="prettier" />
+
+### NodePackage
+
+<NodePackage />
+
+### PythonInstallation
+
+<PythonInstallation project="black" />
+
+### PythonRequirements
+
+<PythonRequirements />
 
 ### ShapedRecipe
 
@@ -86,6 +102,10 @@ input="paper"
 output="wiki:custom"
 :count="2"/>
 
+### ModelRenderer
+
+<!-- <ModelRenderer geometry="/models/armor_stand.geo.json" identifier="geometry.armor_stand" texture="/textures/armor_stand.webp" rotate/> -->
+
 ## Custom Element Styling
 
 <label for="select">Select</label>
@@ -99,13 +119,3 @@ output="wiki:custom"
 <label for="input">Input</label>
 
 <input id="input" name="input" type="text">
-
-## Misc
-
-### ModelRenderer
-
-<ModelRenderer geometry="/models/armor_stand.geo.json" identifier="geometry.armor_stand" texture="/textures/armor_stand.png" rotate/>
-
-### ArmorStandGenerator
-
-### MusicDiscStudio

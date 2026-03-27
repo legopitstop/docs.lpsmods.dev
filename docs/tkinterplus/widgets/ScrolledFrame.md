@@ -105,4 +105,4 @@ widget.pack()
 root.mainloop()
 ```
 
-![example-ScrolledFrame](/images/example-ScrolledFrame.png)
+![example-ScrolledFrame](https://cdn.lpsmods.dev/data/docs/example-ScrolledFrame.webp)

@@ -69,7 +69,7 @@ Data pack Edition:
 
 Bandages have custom data associated with them that contains various properties.
 
-See [item-format](./item-format.md) for info about these properties.
+See [item-format](./data-pack/item-format.md) for info about these properties.
 
 ## History
 

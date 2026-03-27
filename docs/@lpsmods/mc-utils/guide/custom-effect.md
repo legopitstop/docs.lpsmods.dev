@@ -11,7 +11,7 @@ next:
 
 # Custom Effect
 
-![Example custom effect](/images/47b79bdf-d43c-49f8-af4b-28301f512655.png)
+![Example custom effect](https://cdn.lpsmods.dev/data/docs/47b79bdf-d43c-49f8-af4b-28301f512655.webp)
 
 ## Known Limitations
 

@@ -1,5 +1,6 @@
 import { HeadConfig, defineConfig } from "vitepress";
 import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
+import { routex } from "@itznotabug/routex";
 
 import gradleGrammar from "./theme/syntaxes/gradle.tmLanguage.json";
 import mcfunctionGrammar from "./theme/syntaxes/mcfunction.tmLanguage.json";
@@ -9,6 +10,7 @@ import molangGrammar from "./theme/syntaxes/molang.tmLanguage.json";
 import mcscriptGrammar from "./theme/syntaxes/mcscript.tmLanguage.json";
 
 import icon from "./icon.json";
+import redirects from "./redirects.json";
 import { sidebar } from "./sidebar.js";
 import { nav } from "./nav.js";
 
@@ -79,31 +81,14 @@ export default defineConfig({
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:url", content: "https://docs.lpsmods.dev/" }],
     ["meta", { property: "og:locale", content: "en" }],
-    ["meta", { property: "og:image", content: "/images/logo.png" }],
+    ["meta", { property: "og:image", content: "/images/logo.webp" }],
 
     ["meta", { property: "twitter:card", content: "summary_large_image" }],
     ["meta", { property: "twitter:url", content: "https://docs.lpsmods.dev/" }],
-    ["meta", { property: "twitter:image", content: "/images/logo.png" }],
+    ["meta", { property: "twitter:image", content: "/images/logo.webp" }],
   ],
   transformPageData(pageData) {
     pageData.titleTemplate = ":title";
-
-    if (pageData.frontmatter.redirect) {
-      const url = pageData.frontmatter.redirect.replace(".md", "");
-      pageData.title = "Redirecting…";
-      const head = [
-        "meta",
-        {
-          "http-equiv": "refresh",
-          content: `0; url=${url}`,
-        },
-      ];
-      if (!pageData.frontmatter.head) {
-        pageData.frontmatter.head = [head];
-      } else {
-        pageData.frontmatter.head.push(head);
-      }
-    }
   },
   transformHead: ({ pageData, siteConfig, page }) => {
     const head: HeadConfig[] = [];
@@ -179,6 +164,9 @@ export default defineConfig({
   sitemap: {
     hostname: "https://docs.lpsmods.dev/",
   },
+  vite: {
+    plugins: [routex(redirects)],
+  },
 
   // NOTE: This is a custom property used in transformHead
   icon: icon,
@@ -186,7 +174,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     // externalLinkIcon: true, disabled because of InvSlot.vue
     lastUpdated: {},
-    logo: { src: "/images/logo.png", alt: "Logo" },
+    logo: { src: "/images/logo.webp", alt: "Logo" },
     footer: {
       copyright: year + " © Legopitstop",
       message: "Not associated with or approved by Mojang Studios or Microsoft",

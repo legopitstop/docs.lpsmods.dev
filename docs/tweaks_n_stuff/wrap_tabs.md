@@ -7,4 +7,4 @@ description: Quickly navigate large workspaces using this tweak.
 
 Quickly navigate large workspaces.
 
-![wrap tabs](/images/tweaks_n_stuff/wrap_tabs.webp)
+![wrap tabs](https://cdn.lpsmods.dev/data/tweaks_n_stuff/Screenshot_2.webp)

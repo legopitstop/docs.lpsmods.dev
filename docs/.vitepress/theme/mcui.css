@@ -3,24 +3,24 @@
   --mcui-slot: #8b8b8b;
   --mcui-border-light: #dbdbdb;
   --mcui-border-dark: #5b5b5b;
-  --mcui-image-bg: url(/ui/Inventory_background.webp);
-  --mcui-image-arrow: url(/ui/arrow.webp);
-  --mcui-image-fire: url(/ui/lit_progress.webp);
-  --mcui-image-shapeless: url(/ui/shapeless.webp);
-  --mcui-image-stonecutter-arrow: url(/ui/stonecutter_arrow.webp);
-  --mcui-image-arrow-progress: url(/ui/burn_progress.webp);
+  --mcui-image-bg: url(https://cdn.lpsmods.dev/data/mcui/light/inventory_background.webp);
+  --mcui-image-arrow: url(https://cdn.lpsmods.dev/data/mcui/light/arrow.webp);
+  --mcui-image-fire: url(https://cdn.lpsmods.dev/data/mcui/light/lit_progress.webp);
+  --mcui-image-shapeless: url(https://cdn.lpsmods.dev/data/mcui/light/shapeless.webp);
+  --mcui-image-stonecutter-arrow: url(https://cdn.lpsmods.dev/data/mcui/light/stonecutter_arrow.webp);
+  --mcui-image-arrow-progress: url(https://cdn.lpsmods.dev/data/mcui/light/burn_progress.webp);
 }
 :root.dark {
   --mcui-bg: #535353;
   --mcui-slot: #333333;
   --mcui-border-light: #6b6b6b;
   --mcui-border-dark: #262626;
-  --mcui-image-bg: url(/dark_ui/Inventory_background.webp);
-  --mcui-image-arrow: url(/dark_ui/arrow.webp);
-  --mcui-image-fire: url(/dark_ui/lit_progress.webp);
-  --mcui-image-shapeless: url(/dark_ui/shapeless.webp);
-  --mcui-image-stonecutter-arrow: url(/dark_ui/stonecutter_arrow.webp);
-  --mcui-image-arrow-progress: url(/dark_ui/burn_progress.webp);
+  --mcui-image-bg: url(https://cdn.lpsmods.dev/data/mcui/dark/inventory_background.webp);
+  --mcui-image-arrow: url(https://cdn.lpsmods.dev/data/mcui/dark/arrow.webp);
+  --mcui-image-fire: url(https://cdn.lpsmods.dev/data/mcui/dark/lit_progress.webp);
+  --mcui-image-shapeless: url(https://cdn.lpsmods.dev/data/mcui/dark/shapeless.webp);
+  --mcui-image-stonecutter-arrow: url(https://cdn.lpsmods.dev/data/mcui/dark/stonecutter_arrow.webp);
+  --mcui-image-arrow-progress: url(https://cdn.lpsmods.dev/data/mcui/dark/burn_progress.webp);
 }
 @font-face {
   font-family: Minecraft;

@@ -68,4 +68,4 @@ root.configure(bg='white')
 root.mainloop()
 ```
 
-![example-Footer](/images/example-Footer.png)
+![example-Footer](https://cdn.lpsmods.dev/data/docs/example-Footer.webp)

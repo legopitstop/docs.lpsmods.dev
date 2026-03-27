@@ -1,6 +1,6 @@
 ---
 title: "@lpsmods/mc-dev Documentation"
-description: Debug utilities for MCBE Add-On development.
+description: Debug utilities for Minecraft Bedrock Edition Add-On development.
 layout: home
 
 hero:
@@ -15,7 +15,7 @@ hero:
       link: https://www.npmjs.com/package/@lpsmods/mc-dev
     - theme: alt
       text: Source Code
-      link: https://github.com/lpsmods/mc-dev
+      link: https://github.com/lpsmods/minecraft-scripting-libraries/tree/main/libraries/mc-dev
 
 features:
   - icon: 🧰

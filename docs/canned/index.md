@@ -8,7 +8,7 @@ hero:
   text: Store and display up to eight cans in a single block.
   tagline: Efficient food storage
   image:
-    src: /images/canned/icon.png
+    src: https://cdn.lpsmods.dev/data/canned/Thumbnail_400.webp
   actions:
     - theme: brand
       text: Getting Started

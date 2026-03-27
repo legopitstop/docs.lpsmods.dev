@@ -7,4 +7,4 @@ description: Adds "close others", "close to the right", "close saved", and "clos
 
 Adds `Close Others`, `Close to the Right`, `Close Saved`, and `Close All` to the project context menu, opened by right-clicking on a project tab.
 
-![close actions](/images/tweaks_n_stuff/close_actions.webp)
+![close actions](https://cdn.lpsmods.dev/data/tweaks_n_stuff/Screenshot_3.webp)

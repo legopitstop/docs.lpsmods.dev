@@ -8,7 +8,7 @@ hero:
   text: Craft spawn eggs and spawners to customize your mob farms and gameplay.
   tagline: Empower your world with spawners
   image:
-    src: /images/spawner-craft/icon.png
+    src: https://cdn.lpsmods.dev/data/spawner-craft/Thumbnail_400.webp
   actions:
     - theme: brand
       text: Getting Started

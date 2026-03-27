@@ -4,7 +4,7 @@ title: Getting Started | Bright! Mod Wiki
 
 # Getting Started
 
-[![requires_framework](https://api.lpsmods.dev/data/framework.png)](https://mrcrayfish.com/mods/framework)
+[![requires_framework](https://api.lpsmods.dev/data/framework.webp)](https://mrcrayfish.com/mods/framework)
 
 ## Maven
 

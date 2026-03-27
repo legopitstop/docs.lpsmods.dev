@@ -37,11 +37,6 @@
     "prefix": "doc",
     "body": ["---", "title: $1", "description: ${0:desc}", "---", "", "# $1", ""],
   },
-  "Redirect": {
-    "scope": "md,markdown",
-    "prefix": "redirect",
-    "body": ["---", "title: Redirecting…", "redirect: ./${0}", "---", ""],
-  },
   "Class": {
     "scope": "md,markdown",
     "prefix": "doc.class",
@@ -141,9 +136,8 @@
     "scope": "md,markdown",
     "prefix": "container.outdated",
     "body": [
-      "::: tip This page describes content that exists only in outdated versions of *${0:Lot's More Food}*.",
-      "This feature used to be in the game but has since been removed.",
-      ":::",
+      "> [!TIP] This page describes content that exists only in outdated versions of $0",
+      "> This feature used to be in the game but has since been removed.",
     ],
   },
   "BadgeNew": {

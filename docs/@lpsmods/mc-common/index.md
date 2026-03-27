@@ -15,7 +15,7 @@ hero:
       link: https://www.npmjs.com/package/@lpsmods/mc-common
     - theme: alt
       text: Source Code
-      link: https://github.com/lpsmods/mc-common
+      link: https://github.com/lpsmods/minecraft-scripting-libraries/tree/main/libraries/mc-common
 
 features:
   - icon: 💾

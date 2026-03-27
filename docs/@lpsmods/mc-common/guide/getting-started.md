@@ -1,6 +1,6 @@
 ---
 title: Getting Started | @lpsmods/mc-common Documentation
-description: desc
+description: Common utilities for @lpsmods packages.
 prev: false
 next:
   text: FAQ

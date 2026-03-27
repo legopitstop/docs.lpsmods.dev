@@ -8,7 +8,7 @@ hero:
   text: Transform sand into glass when struck by lightning.
   tagline: Nature's glassmaker
   image:
-    src: /images/lightning-bolt-glass/icon.png
+    src: https://cdn.lpsmods.dev/data/lightning-bolt-glass/Thumbnail_400.webp
   actions:
     - theme: brand
       text: Getting Started

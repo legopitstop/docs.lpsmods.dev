@@ -4,6 +4,7 @@
     "collapsed": false,
     "items": [
       { "text": "Getting Started", "link": "/guide/getting-started" },
+      { "text": "initialize Dev", "link": "/guide/initialize-dev" },
       { "text": "FAQ", "link": "/guide/faq" }
     ]
   },

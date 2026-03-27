@@ -64,4 +64,4 @@ tkinter.Button(root, text='Open Modal', command=callback).pack()
 root.mainloop()
 ```
 
-![example-showprogress](/images/example-showprogress.png)
+![example-showprogress](https://cdn.lpsmods.dev/data/docs/example-showprogress.webp)

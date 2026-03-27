@@ -1,5 +1,6 @@
 export const nav = [
   { text: "Home", link: "/" },
+  { text: "FAQ", link: "/faq" },
   {
     text: "Documentation",
     items: [
@@ -17,6 +18,7 @@ export const nav = [
       { text: "requirements.txt", link: "/tools/requirements_txt" },
       { text: "package.json", link: "/tools/package_json" },
       { text: "Translation Guide", link: "/tools/translation-guide" },
+      { text: "Add-On Scheme", link: "/tools/addon-scheme" },
       //   { text: "Develop Multiloader", link: "/tools/develop-multiloader" },
     ],
   },
@@ -36,8 +38,8 @@ export const nav = [
         link: "/tutorials/how-to-find-com.mojang-folder",
       },
       {
-        text: "How to Find Pack Validation",
-        link: "/tutorials/how-to-find-pack-validation",
+        text: "How to Find Pack Info",
+        link: "/tutorials/how-to-find-pack-info",
       },
       {
         text: "How to Install Add-Ons",
@@ -62,6 +64,10 @@ export const nav = [
       {
         text: "What In The Pack Format?",
         link: "/tutorials/what-in-the-pack-format",
+      },
+      {
+        text: "Submitting a good bug report",
+        link: "/tutorials/submitting-a-good-bug-report",
       },
     ],
   },

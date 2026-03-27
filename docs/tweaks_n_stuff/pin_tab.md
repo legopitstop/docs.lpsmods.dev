@@ -7,4 +7,4 @@ description: Adds 'Pin Tab' and 'Unpin Tab' to the project context menu, opened 
 
 Adds `Pin Tab` and `Unpin Tab` to the project context menu, opened by right-clicking on a project tab.
 
-![pin tabs](/images/tweaks_n_stuff/pin_tab.webp)
+![pin tabs](https://cdn.lpsmods.dev/data/tweaks_n_stuff/Screenshot_4.webp)
