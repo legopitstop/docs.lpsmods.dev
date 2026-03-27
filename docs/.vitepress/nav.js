@@ -18,7 +18,7 @@ export const nav = [
       { text: "requirements.txt", link: "/tools/requirements_txt" },
       { text: "package.json", link: "/tools/package_json" },
       { text: "Translation Guide", link: "/tools/translation-guide" },
-        { text: "Add-On Scheme", link: "/tools/addon-scheme" },
+      { text: "Add-On Scheme", link: "/tools/addon-scheme" },
       //   { text: "Develop Multiloader", link: "/tools/develop-multiloader" },
     ],
   },

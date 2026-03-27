@@ -11,7 +11,6 @@ Armor Stand Poses supports custom poses letting you create your own!
 
 == 1.6.0+
 
-
 1. First, you must create the function tag `data/lpsm_asp/tags/function/register_poses.json` in your datapack. This should link to your MCFUNCTION file that will contain all the armor stand poses that should be registered. In this example, we will name it "example:armor_stand_poses"
 
    ```json

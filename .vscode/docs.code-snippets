@@ -2,35 +2,22 @@
   "Tab": {
     "scope": "md,markdown",
     "prefix": "tabs",
-    "body": [
-      ":::tabs key:${1}",
-      "",
-      "== ${2}",
-      "",
-      "${0}",
-      ":::"
-    ],
+    "body": [":::tabs key:${1}", "", "== ${2}", "", "${0}", ":::"],
   },
   "PythonInstallation": {
     "scope": "md,markdown",
     "prefix": "PythonInstallation",
-    "body": [
-      "<PythonInstallation project=\"$0\" />"
-    ],
+    "body": ["<PythonInstallation project=\"$0\" />"],
   },
   "NodeInstallation": {
     "scope": "md,markdown",
     "prefix": "NodeInstallation",
-    "body": [
-      "<NodeInstallation package=\"$0\" />"
-    ],
+    "body": ["<NodeInstallation package=\"$0\" />"],
   },
   "Icon": {
     "scope": "md,markdown",
     "prefix": "Icon",
-    "body": [
-      "<Icon name=\"$0\" />"
-    ],
+    "body": ["<Icon name=\"$0\" />"],
   },
   "VersionTable": {
     "scope": "md,markdown",
@@ -48,15 +35,7 @@
   "Doc": {
     "scope": "md,markdown",
     "prefix": "doc",
-    "body": [
-      "---",
-      "title: $1",
-      "description: ${0:desc}",
-      "---",
-      "",
-      "# $1",
-      ""
-    ],
+    "body": ["---", "title: $1", "description: ${0:desc}", "---", "", "# $1", ""],
   },
   "Class": {
     "scope": "md,markdown",
@@ -126,113 +105,70 @@
   "Undocumented": {
     "scope": "md,markdown",
     "prefix": "undocumented",
-    "body": [
-      "---",
-      "title: $0",
-      "---",
-      "",
-      "# $0",
-      "",
-      "undocumented",
-      ""
-    ],
+    "body": ["---", "title: $0", "---", "", "# $0", "", "undocumented", ""],
   },
   "ContainerInfo": {
     "scope": "md,markdown",
     "prefix": "container.info",
-    "body": [
-      "::: info",
-      "$0",
-      ":::"
-    ],
+    "body": ["::: info", "$0", ":::"],
   },
   "ContainerTip": {
     "scope": "md,markdown",
     "prefix": "container.tip",
-    "body": [
-      "::: tip",
-      "$0",
-      ":::"
-    ],
+    "body": ["::: tip", "$0", ":::"],
   },
   "ContainerWarning": {
     "scope": "md,markdown",
     "prefix": "container.warning",
-    "body": [
-      "::: warning",
-      "$0",
-      ":::"
-    ],
+    "body": ["::: warning", "$0", ":::"],
   },
   "ContainerDanger": {
     "scope": "md,markdown",
     "prefix": "container.danger",
-    "body": [
-      "::: danger",
-      "$0",
-      ":::"
-    ],
+    "body": ["::: danger", "$0", ":::"],
   },
   "ContainerDetails": {
     "scope": "md,markdown",
     "prefix": "container.details",
-    "body": [
-      "::: details",
-      "$0",
-      ":::"
-    ],
+    "body": ["::: details", "$0", ":::"],
   },
   "ContainerOutdated": {
     "scope": "md,markdown",
     "prefix": "container.outdated",
     "body": [
       "> [!TIP] This page describes content that exists only in outdated versions of $0",
-      "> This feature used to be in the game but has since been removed."
+      "> This feature used to be in the game but has since been removed.",
     ],
   },
   "BadgeNew": {
     "scope": "md,markdown",
     "prefix": "badge.new",
-    "body": [
-      "<Badge type=\"new\" text=\"new\" />"
-    ],
+    "body": ["<Badge type=\"new\" text=\"new\" />"],
   },
   "BadgeInfo": {
     "scope": "md,markdown",
     "prefix": "badge.info",
-    "body": [
-      "<Badge type=\"info\" text=\"$0\" />"
-    ],
+    "body": ["<Badge type=\"info\" text=\"$0\" />"],
   },
   "BadgeTip": {
     "scope": "md,markdown",
     "prefix": "badge.tip",
-    "body": [
-      "<Badge type=\"tip\" text=\"$0\" />"
-    ],
+    "body": ["<Badge type=\"tip\" text=\"$0\" />"],
   },
   "BadgeWarning": {
     "scope": "md,markdown",
     "prefix": "badge.warning",
-    "body": [
-      "<Badge type=\"warning\" text=\"$0\" />"
-    ],
+    "body": ["<Badge type=\"warning\" text=\"$0\" />"],
   },
   "BadgeDanger": {
     "scope": "md,markdown",
     "prefix": "badge.danger",
-    "body": [
-      "<Badge type=\"danger\" text=\"$0\" />"
-    ],
+    "body": ["<Badge type=\"danger\" text=\"$0\" />"],
   },
   "BrewingRecipe": {
     "scope": "md,markdown",
     "prefix": "recipe.brewing",
-    "body": [
-      "<BrewingRecipe",
-      "input=\"$1\"",
-      "output=\"$0\"/>"
-    ],
+    "body": ["<BrewingRecipe", "input=\"$1\"", "output=\"$0\"/>"],
   },
   "ShapedRecipe": {
     "scope": "md,markdown",
@@ -249,50 +185,27 @@
   "ShapelessRecipe": {
     "scope": "md,markdown",
     "prefix": "recipe.shapeless",
-    "body": [
-      "<ShapelessRecipe",
-      ":ingredients=\"[$1]\"",
-      "output=\"$2\"",
-      ":count=\"${0:1}\"/>"
-    ],
+    "body": ["<ShapelessRecipe", ":ingredients=\"[$1]\"", "output=\"$2\"", ":count=\"${0:1}\"/>"],
   },
   "SmeltingRecipe": {
     "scope": "md,markdown",
     "prefix": "recipe.smelting",
-    "body": [
-      "<SmeltingRecipe",
-      "input=\"$1\"",
-      "output=\"$2\"",
-      "fuel=\"${0:coal}\"/>"
-    ],
+    "body": ["<SmeltingRecipe", "input=\"$1\"", "output=\"$2\"", "fuel=\"${0:coal}\"/>"],
   },
   "SmithingRecipe": {
     "scope": "md,markdown",
     "prefix": "recipe.smithing",
-    "body": [
-      "<SmithingRecipe",
-      "template=\"$1\"",
-      "base=\"$2\"",
-      "addition=\"$3\"",
-      "output=\"$0\"/>"
-    ],
+    "body": ["<SmithingRecipe", "template=\"$1\"", "base=\"$2\"", "addition=\"$3\"", "output=\"$0\"/>"],
   },
   "StonecutterRecipe": {
     "scope": "md,markdown",
     "prefix": "recipe.stonecutter",
-    "body": [
-      "<StonecutterRecipe",
-      "input=\"$1\"",
-      "output=\"$2\"",
-      ":count=\"${0:1}\"/>"
-    ],
+    "body": ["<StonecutterRecipe", "input=\"$1\"", "output=\"$2\"", ":count=\"${0:1}\"/>"],
   },
   "InvSlot": {
     "scope": "md,markdown",
     "prefix": "invslot",
-    "body": [
-      "<InvSlot id=\"$1\" :count=\"${0:1}\"/>"
-    ],
+    "body": ["<InvSlot id=\"$1\" :count=\"${0:1}\"/>"],
   },
   "Function": {
     "scope": "md,markdown",
@@ -325,22 +238,12 @@
   "ImportCodeSnippet": {
     "scope": "md,markdown",
     "prefix": "importCodeSnippet",
-    "body": [
-      "<<< @/filepath"
-    ],
+    "body": ["<<< @/filepath"],
   },
   "CodeGroup": {
     "scope": "md,markdown",
     "prefix": "codegroup",
-    "body": [
-      "::: code-group",
-      "",
-      "```$1",
-      "$0",
-      "```",
-      "",
-      ":::"
-    ],
+    "body": ["::: code-group", "", "```$1", "$0", "```", "", ":::"],
   },
   "mc-item": {
     "scope": "md,markdown",

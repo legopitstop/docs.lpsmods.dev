@@ -7,8 +7,8 @@ description: This datapack adds poses to armor stands like Bedrock Edition. Reds
 
 Armor Stand Poses comes with all poses that are in Bedrock Edition.
 
-| Preview                                                        | Power | ID          |                                    |
-| -------------------------------------------------------------- | ----- | ----------- | ---------------------------------- |
+| Preview                                                                 | Power | ID          |                               |
+| ----------------------------------------------------------------------- | ----- | ----------- | ----------------------------- |
 | ![Pose 1](https://cdn.lpsmods.dev/data/armor-stand-poses/Pose_0.webp)   | `01`  | `default`   | [Edit](./generator#default)   |
 | ![Pose 2](https://cdn.lpsmods.dev/data/armor-stand-poses/Pose_1.webp)   | `02`  | `none`      | [Edit](./generator#none)      |
 | ![Pose 3](https://cdn.lpsmods.dev/data/armor-stand-poses/Pose_2.webp)   | `03`  | `solemn`    | [Edit](./generator#solemn)    |

@@ -16,8 +16,8 @@ Schemas define the structure and validation rules for your data using `superstru
 ## Basic Example
 
 ```ts
-import { Struct, object, boolean, defaulted } from 'superstruct';
-import { isBlock } from '@lpsmods/mc-superstruct';
+import { Struct, object, boolean, defaulted } from "superstruct";
+import { isBlock } from "@lpsmods/mc-superstruct";
 
 const BlockPlacer: Struct<any, any> = object({
   block: isBlock,
@@ -35,15 +35,15 @@ This schema ensures:
 Superstruct can be useful for custom components where you may want defaulted options, or strict validation.
 
 ```ts
-import { system } from '@minecraft/server';
+import { system } from "@minecraft/server";
 
 system.beforeEvents.startup.subscribe((initEvent) => {
-    initEvent.blockComponentRegistry.registerCustomComponent('wiki:block_placer', {
-        onStepOn: (event, args) => {
-          // Input: {block: "minecraft:air"}
-          const options = BlockPlacer.create(args.params);
-          // Output: {block: "minecraft:air", waterlogged: true}
-        },
-    });
+  initEvent.blockComponentRegistry.registerCustomComponent("wiki:block_placer", {
+    onStepOn: (event, args) => {
+      // Input: {block: "minecraft:air"}
+      const options = BlockPlacer.create(args.params);
+      // Output: {block: "minecraft:air", waterlogged: true}
+    },
+  });
 });
 ```

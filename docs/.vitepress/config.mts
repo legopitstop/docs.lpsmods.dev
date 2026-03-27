@@ -165,9 +165,7 @@ export default defineConfig({
     hostname: "https://docs.lpsmods.dev/",
   },
   vite: {
-    plugins: [
-      routex(redirects)
-    ]
+    plugins: [routex(redirects)],
   },
 
   // NOTE: This is a custom property used in transformHead
