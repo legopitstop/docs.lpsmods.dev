@@ -6,11 +6,6 @@
   --docsearch-primary-color: #fb6e07;
 }
 
-.medium-zoom-overlay,
-.medium-zoom-image--opened {
-  z-index: 999;
-}
-
 .vp-doc {
   white-space: pre-wrap;
 }
