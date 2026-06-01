@@ -1,5 +1,6 @@
 {
   "name": "@lpsmods/docs",
+  "private": true,
   "description": "Documentation for all Legopitstop's projects.",
   "devDependencies": {
     "@babel/eslint-parser": "^7.28.5",
