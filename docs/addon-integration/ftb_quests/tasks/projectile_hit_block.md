@@ -20,6 +20,6 @@ Checks projectile, block, and optional impact window.
   "type": "ftb_quest:projectile_hit_block",
   "projectile_id": "minecraft:arrow",
   "block_id": "minecraft:target",
-  "required_hit_location": {"x": 0, "y": 0, "z": 0}
+  "required_hit_location": { "x": 0, "y": 0, "z": 0 }
 }
 ```

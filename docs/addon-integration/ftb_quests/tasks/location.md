@@ -20,6 +20,6 @@ At least one absolute pos or range is required.
 ```json
 {
   "type": "ftb_quest:location",
-  "absolute_position": {"x": 0, "y": 0, "z": 0}
+  "absolute_position": { "x": 0, "y": 0, "z": 0 }
 }
 ```

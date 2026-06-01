@@ -10,7 +10,7 @@ Construct a collapsible container with a clickable header. Child widgets are pla
 ## Parameters
 
 | Name                         | Type              | Description                                                |
-|------------------------------|-------------------|------------------------------------------------------------|
+| ---------------------------- | ----------------- | ---------------------------------------------------------- |
 | `master`                     | tkinter.Tk        | Parent widget.                                             |
 | `text`                       | str               | Text shown in the accordion header.                        |
 | `image`                      | str               | Optional image shown in the accordion header.              |

@@ -20,6 +20,6 @@ Checks entity, optional item and Y-level.
   "type": "ftb_quest:player_interact_with_entity",
   "entity_id": "minecraft:creeper",
   "required_item": "minecraft:paper",
-  "required_y_level": {"min": 64}
+  "required_y_level": { "min": 64 }
 }
 ```

@@ -151,12 +151,12 @@ A list of variables that will get replaced in the string.
 
 Recipe schema is similar to Minecraft Java Edition's
 
-| Required | Name        | Default | Type                 | Description                                                                                                         |
-| -------- | ----------- | ------- | -------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| No       | description |         | String               | The description of the recipe. Supports markdown formatting!                                                        |
+| Required | Name        | Default | Type                 | Description                                                                                                           |
+| -------- | ----------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| No       | description |         | String               | The description of the recipe. Supports markdown formatting!                                                          |
 | Yes      | identifier  |         | String               | It is recommended to include an ID for your recipe. It can be useful for debugging if you are missing a required key. |
-| Yes      | type        |         | [Enum](#recipe-type) | The type of recipe to use.                                                                                          |
-| No       | group       |         | String               | The group to place this recipe in.                                                                                  |
+| Yes      | type        |         | [Enum](#recipe-type) | The type of recipe to use.                                                                                            |
+| No       | group       |         | String               | The group to place this recipe in.                                                                                    |
 
 ### Recipe Type
 
@@ -502,11 +502,11 @@ Additional properties
 
 ### Msgbox
 
-| Required | Name     | Default | Type                                                      | Description                                     |
-| -------- | -------- | ------- | --------------------------------------------------------- | ----------------------------------------------- |
-| No       | icon     |         | String                                                    | The image to use as an icon.                    |
+| Required | Name     | Default | Type                                                      | Description                                      |
+| -------- | -------- | ------- | --------------------------------------------------------- | ------------------------------------------------ |
+| No       | icon     |         | String                                                    | The image to use as an icon.                     |
 | No       | color    |         | String                                                    | The color for the msgbox. Must be a 6-digit hex. |
-| Yes      | contents |         | [RAW JSON](https://minecraft.wiki/w/Raw_JSON_text_format) | The contents of the msgbox, supports RAW JSON   |
+| Yes      | contents |         | [RAW JSON](https://minecraft.wiki/w/Raw_JSON_text_format) | The contents of the msgbox, supports RAW JSON    |
 
 #### Examples
 

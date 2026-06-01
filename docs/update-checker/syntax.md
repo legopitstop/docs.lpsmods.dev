@@ -21,8 +21,8 @@ Additional properties for premium users.
 
 ## Promos
 
-| Name          | Type       | Description                                                              | Example                    |
-| ------------- | ---------- | ------------------------------------------------------------------------ | -------------------------- |
+| Name          | Type       | Description                                                                       | Example                    |
+| ------------- | ---------- | --------------------------------------------------------------------------------- | -------------------------- |
 | `<mcversion>` | modversion | `mcversion` must end in `-recommended`, such as `"1.13-recommended":"1.3.5-pre1"` | `{"1.20-latest": "1.0.0"}` |
 
 ## MCVersion
@@ -41,11 +41,11 @@ Additional properties for premium users.
 
 ### theme
 
-| Name        | Type                                | Description                                                                                                                    |
-| ----------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Name        | Type                                | Description                                                                                                                      |
+| ----------- | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | `type`      | enum[url, preset, base64, animated] | The type to use. For type `base64`, you can use this [converter](https://emn178.github.io/online-tools/base64_encode_file.html). |
-| `animation` | [animation](#animation)             | Create an animated background.                                                                                                 |
-| `value`     | string                              | The value to use.                                                                                                              |
+| `animation` | [animation](#animation)             | Create an animated background.                                                                                                   |
+| `value`     | string                              | The value to use.                                                                                                                |
 
 #### animation
 
@@ -80,10 +80,10 @@ Additional properties for premium users.
 
 ### favicon
 
-| Name    | Type                                | Description                                                                                                              |
-| ------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Name    | Type                                | Description                                                                                                                |
+| ------- | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | `type`  | enum[url, preset, base64, animated] | The type to use. For type `base64`, you can use this [converter](https://www.base64encoder.io/image-to-base64-converter/). |
-| `value` | string                              | The value to use.                                                                                                        |
+| `value` | string                              | The value to use.                                                                                                          |
 
 ## style
 

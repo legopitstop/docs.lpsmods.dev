@@ -16,9 +16,9 @@ A progress bar displays a visual indicator of progress above the player's hotbar
 ## Creating a progress bar
 
 ```ts
-import { ProgressBar } from '@lpsmods/mc-common';
+import { ProgressBar } from "@lpsmods/mc-common";
 
-const bar = new ProgressBar("wiki:example", {text: "Example"});
+const bar = new ProgressBar("wiki:example", { text: "Example" });
 bar.style.showPercent = true;
 bar.visible = false;
 ```

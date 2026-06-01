@@ -10,12 +10,12 @@ export class BedrockGeometry extends THREE.Group {
 }
 export class BedrockGeoLoader extends THREE.Loader {
   constructor(e) {
-    super(e), (this.textures = {});
+    (super(e), (this.textures = {}));
   }
   load(e, t, r, s, o, i) {
     const n = this,
       a = new THREE.FileLoader(n.manager);
-    a.setPath(n.path),
+    (a.setPath(n.path),
       a.setRequestHeader(n.requestHeader),
       a.setWithCredentials(n.withCredentials),
       a.load(
@@ -24,12 +24,12 @@ export class BedrockGeoLoader extends THREE.Loader {
           try {
             s(n.parse(JSON.parse(o), t, r));
           } catch (t) {
-            i && i(t), n.manager.itemError(e);
+            (i && i(t), n.manager.itemError(e));
           }
         },
         o,
         i,
-      );
+      ));
   }
   parse(e, t, r) {
     const s = this.getGeometry(e, t);
@@ -67,7 +67,7 @@ export class BedrockGeoLoader extends THREE.Loader {
       }
     const r = e.pivot ? new THREE.Vector3().fromArray(e.pivot) : new THREE.Vector3(0, 0, 0);
     for (const e of t.children) e.position.set(r.x, -r.y, -r.z);
-    return t.position.set(-r.x, r.y, r.z), t;
+    return (t.position.set(-r.x, r.y, r.z), t);
   }
   getUV(e, t) {
     if (Array.isArray(e.uv)) {
@@ -109,10 +109,10 @@ export class BedrockGeoLoader extends THREE.Loader {
     r.center = new THREE.Vector2(0, 0);
     var c = n / s,
       p = a / o;
-    r.repeat.set(c, p), (r.center = new THREE.Vector2(0, 1));
+    (r.repeat.set(c, p), (r.center = new THREE.Vector2(0, 1)));
     var E = u / s,
       d = -h / o;
-    return (r.offset = new THREE.Vector2(E, d)), r;
+    return ((r.offset = new THREE.Vector2(E, d)), r);
   }
   parseCube(e, t) {
     const r = new THREE.BoxGeometry(e.size[0], e.size[1], e.size[2]),
@@ -127,7 +127,7 @@ export class BedrockGeoLoader extends THREE.Loader {
       var c = e.size[0] / 2 - (e.origin[0] + e.size[0]),
         p = e.size[1] / 2 + e.origin[1],
         E = e.size[2] / 2 + e.origin[2];
-      return r.translate(c, p, E), h;
+      return (r.translate(c, p, E), h);
     }
   }
 }

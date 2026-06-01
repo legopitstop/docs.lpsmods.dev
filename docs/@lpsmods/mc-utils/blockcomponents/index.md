@@ -7,10 +7,10 @@ description: All custom block components in @lpsmods/mc-utils.
 
 ## Generic
 
-| Block Components                                      | Description |
-| ----------------------------------------------------- | ----------- |
-| [mcutils:cross_collision](./cross_collision.md)       |             |
-| [mcutils:viscosity](./viscosity.md)                   |             |
+| Block Components                                | Description |
+| ----------------------------------------------- | ----------- |
+| [mcutils:cross_collision](./cross_collision.md) |             |
+| [mcutils:viscosity](./viscosity.md)             |             |
 
 ## Special
 

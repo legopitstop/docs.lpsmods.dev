@@ -37,7 +37,7 @@ function showBasicModalForm(message: string, status?: number) {
     },
     onSubmit(event) {
       players[0].sendMessage(`Modal form results: ${JSON.stringify(event.formResult, undefined, 2)}`);
-    }
+    },
   };
 
   new ModalFormHandler(form).show(players[0]);

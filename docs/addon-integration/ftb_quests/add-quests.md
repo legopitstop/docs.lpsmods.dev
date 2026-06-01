@@ -20,7 +20,7 @@ Duplicate quest IDs inside a chapter are skipped with a warning.
 ## Quest
 
 | Name          | Type            | Note |
-|---------------|-----------------|------|
+| ------------- | --------------- | ---- |
 | `id`          | string          |      |
 | `name`        | string          |      |
 | `description` | string          |      |
@@ -30,7 +30,7 @@ Duplicate quest IDs inside a chapter are skipped with a warning.
 ## Tasks
 
 | Name    | Type                | Note               |
-|---------|---------------------|--------------------|
+| ------- | ------------------- | ------------------ |
 | `anyOf` | [TaskMap](#taskmap) | Match the any item |
 | `allOf` | [TaskMap](#taskmap) | Match all items    |
 

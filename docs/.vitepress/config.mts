@@ -1,6 +1,6 @@
 import { HeadConfig, defineConfig } from "vitepress";
 import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
-import lightbox from "vitepress-plugin-lightbox"
+import lightbox from "vitepress-plugin-lightbox";
 import { routex } from "@itznotabug/routex";
 
 import gradleGrammar from "./theme/syntaxes/gradle.tmLanguage.json";
