@@ -5,6 +5,15 @@ description: All custom block components in @lpsmods/mc-utils.
 
 # Block Components
 
+## Generic
+
+| Block Components                                      | Description |
+| ----------------------------------------------------- | ----------- |
+| [mcutils:cross_collision](./cross_collision.md)       |             |
+| [mcutils:viscosity](./viscosity.md)                   |             |
+
+## Special
+
 | Block Components                                      | Description |
 | ----------------------------------------------------- | ----------- |
 | [mcutils:bush](./bush.md)                             |             |
@@ -17,7 +26,6 @@ description: All custom block components in @lpsmods/mc-utils.
 | [mcutils:copper_bulb](./copper_bulb.md)               |             |
 | [mcutils:coral](./coral.md)                           |             |
 | [mcutils:crop](./crop.md)                             |             |
-| [mcutils:cross_collision](./cross_collision.md)       |             |
 | [mcutils:debug](./debug.md)                           |             |
 | [mcutils:falling_block](./falling_block.md)           |             |
 | [mcutils:farmland](./farmland.md)                     |             |
@@ -47,7 +55,6 @@ description: All custom block components in @lpsmods/mc-utils.
 | [mcutils:time_detector](./time_detector.md)           |             |
 | [mcutils:toggleable](./toggleable.md)                 |             |
 | [mcutils:vertical_slab](./vertical_slab.md)           |             |
-| [mcutils:viscosity](./viscosity.md)                   |             |
 | [mcutils:wall](./wall.md)                             |             |
 | [mcutils:waxable](./waxable.md)                       |             |
 
