@@ -142,8 +142,8 @@ A list of variables that will get replaced in the string.
 | -------------- | ----------------------------------------------------- | -------------- |
 | `${NAME}`      | The name of the item                                  | `stone_bricks` |
 | `${NAMESPACE}` | The namespace of the item                             | `minecraft`    |
-| `${WIKINAME}`  | The name of the itme in WIKI format                   | `Stone_Bricks` |
-| `${LANG}`      | The lang of the page `&lang=<lang>` at the end of url | `en_us`        |
+| `${WIKINAME}`  | The name of the item in WIKI format                   | `Stone_Bricks` |
+| `${LANG}`      | The lang of the page `&lang=<lang>` at the end of URL | `en_us`        |
 
 ---
 
@@ -154,7 +154,7 @@ Recipe schema is similar to Minecraft Java Edition's
 | Required | Name        | Default | Type                 | Description                                                                                                         |
 | -------- | ----------- | ------- | -------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | No       | description |         | String               | The description of the recipe. Supports markdown formatting!                                                        |
-| Yes      | identifier  |         | String               | It is recomnded to include an id for your recipe, It can be useful for debugging if you are missing a required key. |
+| Yes      | identifier  |         | String               | It is recommended to include an ID for your recipe. It can be useful for debugging if you are missing a required key. |
 | Yes      | type        |         | [Enum](#recipe-type) | The type of recipe to use.                                                                                          |
 | No       | group       |         | String               | The group to place this recipe in.                                                                                  |
 
@@ -504,8 +504,8 @@ Additional properties
 
 | Required | Name     | Default | Type                                                      | Description                                     |
 | -------- | -------- | ------- | --------------------------------------------------------- | ----------------------------------------------- |
-| No       | icon     |         | String                                                    | The image to use as a icon.                     |
-| No       | color    |         | String                                                    | The color for the msgbox. Must be a 6 digit hex |
+| No       | icon     |         | String                                                    | The image to use as an icon.                    |
+| No       | color    |         | String                                                    | The color for the msgbox. Must be a 6-digit hex. |
 | Yes      | contents |         | [RAW JSON](https://minecraft.wiki/w/Raw_JSON_text_format) | The contents of the msgbox, supports RAW JSON   |
 
 #### Examples

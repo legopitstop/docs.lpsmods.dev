@@ -28,7 +28,7 @@ features:
     title: Lightning-Activated
     details: Sand turns into glass when struck by lightning.
   - icon: 🧪
-    title: Data-Driven Fulgarites
+    title: Data-Driven Fulgurites
     details: Supports custom fulgurites via datapack configuration.
   - icon: ⚙️
     title: Multi-Loader Compatibility

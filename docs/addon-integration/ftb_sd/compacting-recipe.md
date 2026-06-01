@@ -10,7 +10,7 @@ This allows you to register a compacting recipe for the Compacting Drawer.
 > [!INFO]
 > Contents of this page are from the [FTB docs](https://docs.feed-the-beast.com/docs/marketplace/Addons/storage-drawers/API/compacting_recipe).
 
-To register a recipe send a scriptevent with id `ftb_sd:register_compacting_recipe` as json with data
+To register a recipe, send a script event with the ID `ftb_sd:register_compacting_recipe` as JSON with data.
 
 | Name              | Type   | Description                                                                                    |
 | ----------------- | ------ | ---------------------------------------------------------------------------------------------- |

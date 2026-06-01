@@ -13,7 +13,7 @@ The Pack Info menu can provide the following information:
 
 | Name            | Description                                                                                                   | Example                                |
 | --------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| `PACK ID`       | The packs unique id. All packs have a different id. If a pack as the same ID it will cause overriding errors. | `cb00feac-550e-4d01-a7bf-c6b4e23d622b` |
+| `PACK ID`       | The pack's unique ID. All packs have a different ID. If a pack has the same ID, it will cause overriding errors. | `cb00feac-550e-4d01-a7bf-c6b4e23d622b` |
 | `PACK VERSION`  | The installed version of the pack.                                                                            | `1.6.3`                                |
 | `FILE LOCATION` | The location of the pack on your device.                                                                      |                                        |
 | `ERROR LIST`    | A list of any errors the pack is having. If you see errors contact the dev of the pack.                       |                                        |

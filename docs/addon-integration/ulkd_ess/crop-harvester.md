@@ -1,11 +1,11 @@
 ---
 title: Crop Harvester | Essentials Integration
-description: To make your custom crop blocks compatible with the Essentials Add-on's Crop Harvester feature, you need to add a specific tags to your crop blocks.
+description: To make your custom crop blocks compatible with the Essentials Add-on's Crop Harvester feature, you need to add specific tags to your crop blocks.
 ---
 
 # Crop Harvester
 
-To make your custom crop blocks compatible with the Essentials Add-on's Crop Harvester feature, you need to add a specific tags to your crop blocks.
+To make your custom crop blocks compatible with the Essentials Add-on's Crop Harvester feature, you need to add specific tags to your crop blocks.
 
 > [!INFO]
 > Contents of this page are from the Unlinked discord.
@@ -54,6 +54,6 @@ For a wheat crop, you would add the following tags:
 For a custom crop, you would add the following tags:
 
 - `ulkd_ess:crop_block_wiki:my_crop` for `wiki:my_crop`
-- `ulkd_ess:crop_state_name_wiki:growthp` for `wiki:my_crop`
+- `ulkd_ess:crop_state_name_wiki:growth` for `wiki:my_crop`
 - `ulkd_ess:crop_state_value_7` for `wiki:my_crop`
 - `ulkd_ess:crop_seed_wiki:my_crop` for `wiki:my_seeds`

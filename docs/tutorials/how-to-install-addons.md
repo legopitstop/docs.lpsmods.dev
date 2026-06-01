@@ -21,7 +21,7 @@ Step-by-step instructions on how to install addons for [Minecraft: Bedrock Editi
 
 == Realms/Console
 
-1. You will need a Windows 10 or Windows 11 computer with Minecraft installed and, a subscription to Realms.
+1. You will need a Windows 10 or Windows 11 computer with Minecraft installed and a subscription to Realms.
 1. On the computer, launch Minecraft and upload the world with add-ons active to your realm.
 1. Go to your console, launch Minecraft, and open the add-on enchanted world on the realm.
 
@@ -46,7 +46,7 @@ Step-by-step instructions on how to install addons for [Minecraft: Bedrock Editi
 1. Click `Open` in Minecraft; This will launch Minecraft with your selected file.
 
 > [!NOTE]
-> If you're opening a .mcpack, a pop-up notification will alert you that you've successfully imported pack.
+> If you're opening a .mcpack, a pop-up notification will alert you that you've successfully imported the pack.
 
 == Dedicated Server
 
@@ -60,7 +60,7 @@ Step-by-step instructions on how to install addons for [Minecraft: Bedrock Editi
 ![step3](https://cdn.lpsmods.dev/data/docs/6463c400-8473-463d-a472-99aef2d48288.webp)
 
 1. If the extracted file contains .mcpack files repeat steps 2 and 3 for these files.
-1. Upload these extracted folders to the appropriate places in your file manager. These folders typically have a prefix or suffix of RP (for resource_packs) and BP (for behavior_packs)
+1. Upload these extracted folders to the appropriate places in your file manager. These folders typically have a prefix or suffix of RP (for resource_packs) and BP (for behavior_packs).
 
 ![step6](https://cdn.lpsmods.dev/data/docs/3ab1fe98-81b5-4213-8996-b5b36dab4543.webp)
 
