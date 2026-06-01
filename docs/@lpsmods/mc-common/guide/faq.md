@@ -2,8 +2,8 @@
 title: Frequently Asked Questions | @lpsmods/mc-common Documentation
 description: Frequently asked questions about @lpsmods/mc-common
 prev:
-  text: Getting Started
-  link: ./getting-started
+  text: Progress Bar
+  link: ./progress-bar
 next: false
 ---
 

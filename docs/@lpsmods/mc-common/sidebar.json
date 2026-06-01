@@ -4,6 +4,10 @@
     "collapsed": false,
     "items": [
       { "text": "Getting Started", "link": "/guide/getting-started" },
+      { "text": "Action Form", "link": "/guide/action-form" },
+      { "text": "Modal Form", "link": "/guide/modal-form" },
+      { "text": "Paged Action Form", "link": "/guide/paged-action-form" },
+      { "text": "Progress Bar", "link": "/guide/progress-bar" },
       { "text": "FAQ", "link": "/guide/faq" }
     ]
   },
