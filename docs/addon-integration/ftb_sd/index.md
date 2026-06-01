@@ -1,6 +1,6 @@
 ---
 title: Getting Started | Storage Drawers Integration
-description: Essential Additions to Minecraft! Say goodbye to doing boring chores!
+description: API for Storage Drawers Add-On by FTB.
 ---
 
 # Getting Started

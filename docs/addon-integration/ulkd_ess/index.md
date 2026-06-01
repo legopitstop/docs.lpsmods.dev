@@ -1,6 +1,6 @@
 ---
 title: Getting Started | Essentials Integration
-description: Essential Additions to Minecraft! Say goodbye to doing boring chores!
+description: API for Essentials Add-On by Unlinked.
 ---
 
 # Getting Started
