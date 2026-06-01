@@ -5,6 +5,8 @@ description: All custom item components in @lpsmods/mc-utils.
 
 # Item Components
 
+## Special
+
 | Item Components                                 | Description |
 | ----------------------------------------------- | ----------- |
 | [mcutils:axe](./axe.md)                         |             |

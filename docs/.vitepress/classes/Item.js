@@ -3,12 +3,12 @@ import { renderFormatting, getLink } from "../theme/mcui";
 import { MISSING_TEXTURE } from "./constants.js";
 export class Item {
   constructor(A, t, i, e, n = [], p = {}) {
-    (this.id = A),
+    ((this.id = A),
       (this.name = t),
       (this.link = e),
       (this.icon = i || MISSING_TEXTURE),
       (this.lore = n),
-      (this.properties = p);
+      (this.properties = p));
   }
 
   static unknown() {
@@ -44,11 +44,11 @@ export class Item {
   }
 
   cleanName() {
-    return this._cleanName || (this._cleanName = this.name.replace(/§./g, "")), this._cleanName;
+    return (this._cleanName || (this._cleanName = this.name.replace(/§./g, "")), this._cleanName);
   }
 
   getDisplayName() {
-    return this.displayName || (this.displayName = renderFormatting(this.name)), this.displayName;
+    return (this.displayName || (this.displayName = renderFormatting(this.name)), this.displayName);
   }
 
   getMinetip() {
@@ -56,7 +56,7 @@ export class Item {
       this.minetip = this.getDisplayName() + "<br>";
       var A = [];
       if (this.lore) for (const t of this.lore) A.push(renderFormatting(t));
-      A.push('<span class="format-8">' + this.id.toString() + "</span>"), (this.minetip += A.join("<br>"));
+      (A.push('<span class="format-8">' + this.id.toString() + "</span>"), (this.minetip += A.join("<br>")));
     }
     return this.minetip;
   }
@@ -71,7 +71,8 @@ export class Item {
 
   getLinkTarget() {
     return (
-      this.linkTarget || (this.linkTarget = this.getLink().startsWith("http") ? "_blank" : "_self"), this.linkTarget
+      this.linkTarget || (this.linkTarget = this.getLink().startsWith("http") ? "_blank" : "_self"),
+      this.linkTarget
     );
   }
 }

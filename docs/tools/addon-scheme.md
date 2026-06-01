@@ -7,6 +7,16 @@ description: Project scheme for Minecraft Bedrock Add-Ons.
 
 Project scheme for Minecraft Bedrock Add-Ons.
 
+<!-- Behavior Pack -->
+
+## Item Catalog
+
+```txt
+📁BP/
+└── 📁item_catalog/
+    └── 📃crafting_item_catalog.json
+```
+
 ## Biome
 
 ```txt
@@ -147,6 +157,20 @@ lpsm_tst:custom
 lpsm_tst:custom
 ```
 
+## Processor
+
+```txt
+📁BP/
+└── 📁worldgen/processors/[CREATOR]/[ABBR]/
+    └── 📃[NAME].json
+```
+
+- `[CREATOR]_[ABBR]:[NAME]`
+
+```txt
+lpsm_tst:custom
+```
+
 ## Recipe
 
 ```txt
@@ -241,6 +265,30 @@ lpsm_tst:custom
 ```txt
 lpsm_tst:custom
 ```
+
+## Spawn Group
+
+```txt
+📁BP/
+└── 📁spawn_groups/[CREATOR]/[ABBR]/
+    └── 📃[NAME].json
+```
+
+- `[CREATOR]_[ABBR]:[NAME]`
+
+```txt
+lpsm_tst:custom
+```
+
+## Structure
+
+```txt
+📁BP/
+└── 📁structures/[CREATOR]_[ABBR]/
+    └── 📃[NAME].mcstructure
+```
+
+<!-- Resource Pack -->
 
 ## Animation Controller
 
@@ -390,6 +438,7 @@ lpsm_tst:custom
 
 ```txt
 📁RP/
+├── 📃sounds.json
 └── 📁sounds/[CREATOR]/[ABBR]/
     ├── 📁item/
     │   └── 📃[NAME].ogg
@@ -417,17 +466,125 @@ lpsm_tst:entity.custom
 📁RP/
 └── 📁textures/[CREATOR]/[ABBR]/
     ├── 📁blocks/
-    │   └── 📃[NAME].png
+    │   ├── 📃[NAME].png
+    │   └── 📃[NAME].texture_set.json
     ├── 📁items/
-    │   └── 📃[NAME].png
+    │   ├── 📃[NAME].png
+    │   └── 📃[NAME].texture_set.json
     ├── 📁entity/
-    │   └── 📃[NAME].png
+    │   ├── 📃[NAME].png
+    │   └── 📃[NAME].texture_set.json
     ├── 📁models/armor/
-    │   └── 📃[NAME].png
+    │   ├── 📃[NAME].png
+    │   └── 📃[NAME].texture_set.json
     ├── 📁particles/
-    │   └── 📃[NAME].png
+    │   ├── 📃[NAME].png
+    │   └── 📃[NAME].texture_set.json
     └── 📁misc/
-        └── 📃[NAME].png
+        ├── 📃[NAME].png
+        └── 📃[NAME].texture_set.json
+```
+
+- `[CREATOR]_[ABBR]:[NAME]`
+
+```txt
+lpsm_tst:custom
+```
+
+## Material
+
+```txt
+📁RP/
+└── 📁material/
+    └── 📃entity.material
+```
+
+- `[CREATOR]_[ABBR]_[NAME]:[PARENT]`
+
+```txt
+lpsm_tst_custom:entity_alphatest
+```
+
+## Atmospherics
+
+```txt
+📁RP/
+└── 📁atmospherics/
+    └── 📃[NAME].json
+```
+
+- `[CREATOR]_[ABBR]:[NAME]`
+
+```txt
+lpsm_tst:custom
+```
+
+## Color Grading
+
+```txt
+📁RP/
+└── 📁color_grading/
+    └── 📃[NAME].json
+```
+
+- `[CREATOR]_[ABBR]:[NAME]`
+
+```txt
+lpsm_tst:custom
+```
+
+## Lighting
+
+```txt
+📁RP/
+└── 📁lighting/
+    └── 📃[NAME].json
+```
+
+- `[CREATOR]_[ABBR]:[NAME]`
+
+```txt
+lpsm_tst:custom
+```
+
+## Local Lighting
+
+```txt
+📁RP/
+└── 📁local_lighting/
+    └── 📃local_lighting.json
+```
+
+## PBR
+
+```txt
+📁RP/
+└── 📁pbr/
+    └── 📃global.json
+```
+
+## Point Light
+
+```txt
+📁RP/
+└── 📁point_lights/
+    └── 📃global.json
+```
+
+## Shadow
+
+```txt
+📁RP/
+└── 📁shadows/
+    └── 📃global.json
+```
+
+## Water
+
+```txt
+📁RP/
+└── 📁water/
+    └── 📃water.json
 ```
 
 - `[CREATOR]_[ABBR]:[NAME]`

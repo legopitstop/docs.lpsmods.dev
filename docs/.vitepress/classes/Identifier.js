@@ -1,6 +1,6 @@
 export class Identifier {
   constructor(t, e) {
-    (this.namespace = t), (this.path = e);
+    ((this.namespace = t), (this.path = e));
   }
   static fromString(t, e) {
     var i, n;

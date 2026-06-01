@@ -1,16 +1,16 @@
 ---
 title: Models | Assets+ Documentation
 aside: false
-description: This is a resource pack library that adds all the vanilla Minecraft block ids use better IDs.
+description: This is a resource pack library that gives all vanilla Minecraft block IDs better IDs.
 ---
 
 # Models
 
-This page describes all the texture additions in the resource pack. Use the below IDs inside your block’s material instance.
+This page describes all the texture additions in the resource pack. Use the IDs below inside your block's material instance.
 
 ```json
 {
-  // The model refrance
+  // The model reference
   "minecraft:geometry": "geometry.template_cake_with_candle",
 
   // Textures to display
@@ -30,11 +30,11 @@ This page describes all the texture additions in the resource pack. Use the belo
 
 ## Blocks
 
-The below table lists all the models that are included in this version of Assets Plus
+The table below lists all the models that are included in this version of Assets Plus.
 
 - `Name` The name of the model used in a block's geometry.
-- `Material Instances` If the model has any special material instances they will be defined here. If none is defined you can use the default instances (north, south, east, west, up, down, \*)
-- `Bones` A list of all bone names. All models should have the `bb_main` bone. Bones with other names typically will be used in the block. (For making certain parts invisible)
+- `Material Instances` If the model has any special material instances, they will be defined here. If none are defined, you can use the default instances (north, south, east, west, up, down, \*).
+- `Bones` A list of all bone names. All models should have the `bb_main` bone. Bones with other names are typically used in the block to make certain parts invisible.
 - `Path` The location of the model file
 
 | Name                                         | Material Instances                                                          | Bones                                                                                                                                | Path                                             |

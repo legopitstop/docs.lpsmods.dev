@@ -4,8 +4,8 @@ description: Add Bedrock-style, data-driven poses to Minecraft armor stands.
 prev: false
 next:
   text: Asset+
-  link: /assetsplus/  `
-logo: /images/poses/favicon.ico
+  link: /assetsplus/`
+logo: https://cdn.lpsmods.dev/data/armor-stand-poses/icons
 layout: home
 
 hero:

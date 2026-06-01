@@ -3,8 +3,8 @@ title: Getting Started | @lpsmods/mc-common Documentation
 description: Common utilities for @lpsmods packages.
 prev: false
 next:
-  text: FAQ
-  link: ./faq
+  text: Action Form
+  link: ./action-form
 ---
 
 # Getting Started

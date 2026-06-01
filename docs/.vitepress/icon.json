@@ -1,29 +1,29 @@
 {
-  "/assets-plus/": { "favicon": "/images/assets-plus/favicon.ico" },
-  "/bandages/": { "favicon": "/images/bandages/favicon.ico" },
-  "/barked/": { "favicon": "/images/barked/favicon.ico" },
-  "/basalt-blocks/": { "favicon": "/images/basalt-blocks/favicon.ico" },
+  "/assets-plus/": { "favicon": "https://cdn.lpsmods.dev/data/assets-plus/icons" },
+  "/bandages/": { "favicon": "https://cdn.lpsmods.dev/data/bandages/icons" },
+  "/barked/": { "favicon": "https://cdn.lpsmods.dev/data/barked/icons" },
+  "/basalt-blocks/": { "favicon": "https://cdn.lpsmods.dev/data/basalt-blocks/icons" },
   "/ultimate-block-breaker/": {
-    "favicon": "/images/ultimate-block-breaker/favicon.ico"
+    "favicon": "https://cdn.lpsmods.dev/data/ultimate-block-breaker/icons"
   },
-  "/bright/": { "favicon": "/images/bright/favicon.ico" },
-  "/canned/": { "favicon": "/images/canned/favicon.ico" },
+  "/bright/": { "favicon": "https://cdn.lpsmods.dev/data/bright/icons" },
+  "/canned/": { "favicon": "https://cdn.lpsmods.dev/data/canned/icons" },
   "/lightning-bolt-glass/": {
-    "favicon": "/images/lightning-bolt-glass/favicon.ico"
+    "favicon": "https://cdn.lpsmods.dev/data/lightning-bolt-glass/icons"
   },
-  "/simple-magnets/": { "favicon": "/images/simple-magnets/favicon.ico" },
-  "/more-blocks/": { "favicon": "/images/more-blocks/favicon.ico" },
-  "/more-food/": { "favicon": "/images/more-food/favicon.ico" },
-  "/more-gold/": { "favicon": "/images/more-gold/favicon.ico" },
-  "/more-honey/": { "favicon": "/images/more-honey/favicon.ico" },
-  "/more-pumpkins/": { "favicon": "/images/more-pumpkins/favicon.ico" },
+  "/simple-magnets/": { "favicon": "https://cdn.lpsmods.dev/data/simple-magnets/icons" },
+  "/more-blocks/": { "favicon": "https://cdn.lpsmods.dev/data/more-blocks/icons" },
+  "/more-food/": { "favicon": "https://cdn.lpsmods.dev/data/more-food/icons" },
+  "/more-gold/": { "favicon": "https://cdn.lpsmods.dev/data/more-gold/icons" },
+  "/more-honey/": { "favicon": "https://cdn.lpsmods.dev/data/more-honey/icons" },
+  "/more-pumpkins/": { "favicon": "https://cdn.lpsmods.dev/data/more-pumpkins/icons" },
   "/more-stairs-and-slabs/": {
-    "favicon": "/images/more-stairs-and-slabs/favicon.ico"
+    "favicon": "https://cdn.lpsmods.dev/data/more-stairs-and-slabs/icons"
   },
-  "/armor-stand-poses/": { "favicon": "/images/armor-stand-poses/favicon.ico" },
-  "/lps-recipe-core/": { "favicon": "/images/lps-recipe-core/favicon.ico" },
-  "/record-api/": { "favicon": "/images/record-api/favicon.ico" },
-  "/spawner-craft/": { "favicon": "/images/spawner-craft/favicon.ico" },
-  "/tweaks_n_stuff/": { "favicon": "/images/tweaks_n_stuff/favicon.ico" },
-  "/ai_bench/": { "favicon": "/images/ai_bench/favicon.ico" }
+  "/armor-stand-poses/": { "favicon": "https://cdn.lpsmods.dev/data/armor-stand-poses/icons" },
+  "/lps-recipe-core/": { "favicon": "https://cdn.lpsmods.dev/data/lps-recipe-core/icons" },
+  "/record-api/": { "favicon": "https://cdn.lpsmods.dev/data/record-api/icons" },
+  "/spawner-craft/": { "favicon": "https://cdn.lpsmods.dev/data/spawner-craft/icons" },
+  "/tweaks_n_stuff/": { "favicon": "https://cdn.lpsmods.dev/data/tweaks_n_stuff/icons" },
+  "/ai_bench/": { "favicon": "https://cdn.lpsmods.dev/data/ai_bench/icons" }
 }

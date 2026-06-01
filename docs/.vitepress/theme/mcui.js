@@ -51,7 +51,7 @@ export function renderFormatting(e) {
     : "";
 }
 export function registerFile(e) {
-  e.links && registerLinks(e.links), e.items && registerItems(e.items);
+  (e.links && registerLinks(e.links), e.items && registerItems(e.items));
 }
 export function createRecipeId(e) {
   return e instanceof Item ? e.id.path.replace(/_/g, "-") : Identifier.fromString(e).path.replace(/_/g, "-");

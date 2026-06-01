@@ -1,8 +1,8 @@
 import DefaultTheme from "vitepress/theme";
 import { enhanceAppWithTabs } from "vitepress-plugin-tabs/client";
+import Layout from "./Layout.vue";
 
 import { registerFile } from "./mcui.js";
-import { setup } from "./custom.js";
 
 import ShapedRecipe from "../components/ShapedRecipe.vue";
 import ShapelessRecipe from "../components/ShapelessRecipe.vue";
@@ -44,7 +44,7 @@ import items13 from "../data/basalt_blocks.json";
 
 export default {
   extends: DefaultTheme,
-  setup: setup,
+  Layout,
   enhanceApp({ app: e }) {
     enhanceAppWithTabs(e);
     e.component(Icon.name, Icon);

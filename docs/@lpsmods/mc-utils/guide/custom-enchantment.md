@@ -2,9 +2,11 @@
 title: Custom Enchantment | @lpsmods/mc-utils Documentation
 description: Create custom item enchantments using @lpsmods/mc-utils.
 prev:
-  text: Custom Effect
-  link: ./custom-effect
-next: false
+  text: Custom Events
+  link: ./custom-events
+next:
+  text: FAQ
+  link: ./faq
 ---
 
 # Custom Enchantment

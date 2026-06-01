@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: Source Code
       link: https://github.com/lpsmods/minecraft-scripting-libraries/tree/main/libraries/mc-utils
+    - theme: alt
+      text: FAQ
+      link: ./guide/faq
 
 features:
   - icon: 🧩

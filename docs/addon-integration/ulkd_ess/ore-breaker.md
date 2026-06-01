@@ -1,11 +1,11 @@
 ---
 title: Ore Breaker | Essentials Integration
-description: To make your custom ore blocks compatible with the Essentials Add-on's Ore Breaker feature, you need to add a specific tags to your ore blocks.
+description: To make your custom ore blocks compatible with the Essentials Add-on's Ore Breaker feature, you need to add specific tags to your ore blocks.
 ---
 
 # Ore Breaker
 
-To make your custom ore blocks compatible with the Essentials Add-on's Ore Breaker feature, you need to add a specific tags to your ore blocks.
+To make your custom ore blocks compatible with the Essentials Add-on's Ore Breaker feature, you need to add specific tags to your ore blocks.
 
 > [!INFO]
 > Contents of this page are from the Unlinked discord.

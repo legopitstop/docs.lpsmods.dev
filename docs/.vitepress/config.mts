@@ -1,5 +1,6 @@
 import { HeadConfig, defineConfig } from "vitepress";
 import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
+import lightbox from "vitepress-plugin-lightbox";
 import { routex } from "@itznotabug/routex";
 
 import gradleGrammar from "./theme/syntaxes/gradle.tmLanguage.json";
@@ -35,7 +36,6 @@ export default defineConfig({
   title: "LPSMODS Docs",
   description: "Documentation for all my projects",
   head: [
-    // ["link", { rel: "shortcut icon", href: "/favicon.ico" }],
     // Google AdSense
     [
       "script",
@@ -69,7 +69,6 @@ export default defineConfig({
       {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Material+Icons",
-        // href: "https://fonts.googleapis.com/icon?family=Material+Icons",
       },
     ],
 
@@ -94,31 +93,18 @@ export default defineConfig({
     const head: HeadConfig[] = [];
     // Per-page favicon
     var icon = getIcon(page, siteConfig.userConfig.icon);
-    var favicon = icon ? icon.favicon : "/favicon.ico";
+    var prefix = icon ? icon.favicon : "";
 
     // Per-page SEO
     // Primary
     head.push(["meta", { property: "title", content: pageData.frontmatter?.title ?? "Untitled" }]);
-    // icons
-    head.push([
-      "link",
-      {
-        rel: "apple-touch-icon",
-        type: "image/x-icon",
-        sizes: "256x256",
-        href: favicon,
-      },
-    ]);
-    head.push(["link", { rel: "icon", type: "image/x-icon", sizes: "256x256", href: favicon }]);
-    head.push([
-      "link",
-      {
-        rel: "shortcut icon",
-        type: "image/x-icon",
-        sizes: "256x256",
-        href: favicon,
-      },
-    ]);
+
+    // Icons
+    head.push(["link", { rel: "icon", type: "image/png", href: prefix + "/favicon-96x96.png", sizes: "96x96" }]);
+    head.push(["link", { rel: "icon", type: "image/png", href: prefix + "/favicon.svg" }]);
+    head.push(["link", { rel: "shortcut icon", href: prefix + "/favicon.ico" }]);
+    head.push(["link", { rel: "apple-touch-icon", sizes: "180x180", href: prefix + "/apple-touch-icon.png" }]);
+
     // Open Graph / Facebook
     head.push([
       "meta",
@@ -159,6 +145,7 @@ export default defineConfig({
     languages: [mcfunctionGrammar, snbtGrammar, langGrammar, molangGrammar, mcscriptGrammar, gradleGrammar],
     config(md) {
       md.use(tabsMarkdownPlugin);
+      md.use(lightbox, {});
     },
   },
   sitemap: {

@@ -7,6 +7,9 @@
       { "text": "Custom Components", "link": "/guide/custom-components" },
       { "text": "Custom Effect", "link": "/guide/custom-effect" },
       { "text": "Custom Enchantment", "link": "/guide/custom-enchantment" },
+      { "text": "Custom Events", "link": "/guide/custom-events" },
+      { "text": "Custom Tags", "link": "/guide/custom-tags" },
+      { "text": "Registry", "link": "/guide/registry" },
       { "text": "FAQ", "link": "/guide/faq" }
     ]
   },
