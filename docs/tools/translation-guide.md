@@ -7,6 +7,17 @@ description: Translation Schemas for Minecraft Bedrock Add-Ons.
 
 Translation Schemas for Minecraft Bedrock Add-Ons.
 
+## Language Files
+
+Minecraft reads translations from `texts/[locale].lang` files. Each pack should also include `texts/languages.json`, and `en_US.lang` is required as the fallback language.
+
+```txt
+BP/
+└── texts/
+    ├── languages.json
+    └── en_US.lang
+```
+
 ## Blocks
 
 - `tile.[namespace]:[path].name`
@@ -17,10 +28,12 @@ tile.wiki:custom_block.name=Custom Block
 
 ## Items
 
-- `item.[namespace]:[path]`
+- `item.[namespace]:[path]` (Custom item `minecraft:display_name` key)
+- `item.[path].name` (Vanilla item key)
 
 ```lang
 item.wiki:custom_item=Custom Item
+item.apple.name=Apple
 ```
 
 ## Entities
@@ -32,6 +45,7 @@ item.wiki:custom_item=Custom Item
 ```lang
 entity.wiki:custom_entity.name=Custom Entity
 action.interact.wiki:ignite=Ignite
+item.spawn_egg.entity.wiki:custom_entity.name=Custom Entity Spawn Egg
 ```
 
 ## Server UI
@@ -87,12 +101,20 @@ pack.description=Some awesome pack!
 skinpack.wiki=Wiki Skins
 ```
 
+## Item Group
+
+- `[namespace]:itemGroup.name.[path]` (Custom crafting item catalog group)
+- `minecraft:itemGroup.name.[path]` (Vanilla crafting item catalog group)
+
+```lang
+wiki:itemGroup.name.custom_group=Custom Group
+minecraft:itemGroup.name.planks=Planks
+```
+
 ## Misc
 
 - `chat.[namespace]:[path]` (Message sent in chat)
-- `itemGroup.name.[namespace]:[path]` (Creative item group)
 
 ```lang
 chat.wiki:custom_message=Hello, World!
-itemGroup.name.wiki:custom=Custom
 ```
