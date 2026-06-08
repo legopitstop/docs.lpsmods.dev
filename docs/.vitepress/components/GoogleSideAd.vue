@@ -8,15 +8,15 @@ const slot = import.meta.env.VITE_GOOGLE_AD_SLOT;
 const route = useRoute();
 const { frontmatter } = useData();
 const isHeroPage = computed(() => frontmatter.value.layout === "home" || Boolean(frontmatter.value.hero));
+const adScriptUrl = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${client}`;
 
 const loadAdScript = () => {
-  if (document.querySelector("script[data-google-adsense]")) return;
+  if (document.querySelector(`script[src="${adScriptUrl}"]`)) return;
 
   const script = document.createElement("script");
-  script.dataset.googleAdsense = "";
   script.async = true;
   script.crossOrigin = "anonymous";
-  script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${client}`;
+  script.src = adScriptUrl;
   document.head.appendChild(script);
 };
 
