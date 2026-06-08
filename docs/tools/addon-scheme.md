@@ -9,6 +9,17 @@ Project scheme for Minecraft Bedrock Add-Ons.
 
 <!-- Behavior Pack -->
 
+## Behavior Pack Files
+
+```txt
+📁BP/
+├── 📁texts/
+│   ├── 📃languages.json
+│   └── 📃en_US.lang
+├── 📃manifest.json
+└── 📃pack_icon.png
+```
+
 ## Item Catalog
 
 ```txt
@@ -290,6 +301,17 @@ lpsm_tst:custom
 
 <!-- Resource Pack -->
 
+## Resource Pack Files
+
+```txt
+📁RP/
+├── 📁texts/
+│   ├── 📃languages.json
+│   └── 📃en_US.lang
+├── 📃manifest.json
+└── 📃pack_icon.png
+```
+
 ## Animation Controller
 
 ```txt
@@ -464,25 +486,28 @@ lpsm_tst:entity.custom
 
 ```txt
 📁RP/
-└── 📁textures/[CREATOR]/[ABBR]/
-    ├── 📁blocks/
-    │   ├── 📃[NAME].png
-    │   └── 📃[NAME].texture_set.json
-    ├── 📁items/
-    │   ├── 📃[NAME].png
-    │   └── 📃[NAME].texture_set.json
-    ├── 📁entity/
-    │   ├── 📃[NAME].png
-    │   └── 📃[NAME].texture_set.json
-    ├── 📁models/armor/
-    │   ├── 📃[NAME].png
-    │   └── 📃[NAME].texture_set.json
-    ├── 📁particles/
-    │   ├── 📃[NAME].png
-    │   └── 📃[NAME].texture_set.json
-    └── 📁misc/
-        ├── 📃[NAME].png
-        └── 📃[NAME].texture_set.json
+└── 📁textures/
+    ├── 📃item_texture.json
+    ├── 📃terrain_texture.json
+    └── 📁[CREATOR]/[ABBR]/
+        ├── 📁blocks/
+        │   ├── 📃[NAME].png
+        │   └── 📃[NAME].texture_set.json
+        ├── 📁items/
+        │   ├── 📃[NAME].png
+        │   └── 📃[NAME].texture_set.json
+        ├── 📁entity/
+        │   ├── 📃[NAME].png
+        │   └── 📃[NAME].texture_set.json
+        ├── 📁models/armor/
+        │   ├── 📃[NAME].png
+        │   └── 📃[NAME].texture_set.json
+        ├── 📁particles/
+        │   ├── 📃[NAME].png
+        │   └── 📃[NAME].texture_set.json
+        └── 📁misc/
+            ├── 📃[NAME].png
+            └── 📃[NAME].texture_set.json
 ```
 
 - `[CREATOR]_[ABBR]:[NAME]`
@@ -495,7 +520,7 @@ lpsm_tst:custom
 
 ```txt
 📁RP/
-└── 📁material/
+└── 📁materials/
     └── 📃entity.material
 ```
 

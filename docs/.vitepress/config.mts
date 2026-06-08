@@ -36,15 +36,6 @@ export default defineConfig({
   title: "LPSMODS Docs",
   description: "Documentation for all my projects",
   head: [
-    // Google AdSense
-    [
-      "script",
-      {
-        "data-ad-client": "pub-9949841791324306",
-        async: "",
-        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
-      },
-    ],
     // Google analytics
     [
       "script",
