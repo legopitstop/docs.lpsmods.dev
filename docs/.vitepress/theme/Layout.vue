@@ -3,6 +3,7 @@ import DefaultTheme from "vitepress/theme";
 import { onMounted } from "vue";
 import { useRouter } from "vitepress";
 import mediumZoom from "medium-zoom";
+import GoogleSideAd from "../components/GoogleSideAd.vue";
 
 const { Layout } = DefaultTheme;
 const router = useRouter();
@@ -23,6 +24,7 @@ router.onAfterRouteChange = setupMediumZoom;
 
 <template>
   <Layout />
+  <GoogleSideAd />
 </template>
 
 <style>
