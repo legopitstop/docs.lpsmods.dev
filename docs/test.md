@@ -35,9 +35,39 @@ This page is for testing custom components.
 
 <Inventory
 title="Items"
-:rows="2"
+:rows="4"
 :items="[
-'golden_dandelion',
+'polished_sulfur_wall',
+'sulfur_spike',
+'music_disc_bounce',
+'sulfur_brick_slab',
+'polished_cinnabar',
+'potent_sulfur',
+'sulfur_bricks',
+'polished_cinnabar_stairs',
+'sulfur_brick_stairs',
+'sulfur_brick_wall',
+'sulfur_stairs',
+'cinnabar_brick_stairs',
+'polished_cinnabar_slab',
+'polished_sulfur_slab',
+'chiseled_cinnabar',
+'sulfur_cube_spawn_egg',
+'bucket_of_sulfur_cube',
+'cinnabar',
+'sulfur',
+'cinnabar_bricks',
+'polished_cinnabar_wall',
+'sulfur_slab',
+'cinnabar_brick_slab',
+'cinnabar_slab',
+'polished_sulfur',
+'cinnabar_brick_wall',
+'cinnabar_wall',
+'polished_sulfur_stairs',
+'sulfur_wall',
+'chiseled_sulfur',
+'cinnabar_stairs',
 ]"/>
 
 ### InvSlot

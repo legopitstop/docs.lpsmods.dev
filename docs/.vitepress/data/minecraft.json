@@ -7,6 +7,154 @@
   ],
   "items": [
     {
+      "id": "minecraft:polished_sulfur_wall",
+      "name": "Polished Sulfur Wall",
+      "icon": "https://cdn.lpsmods.dev/data/mc/polished_sulfur_wall.webp"
+    },
+    {
+      "id": "minecraft:sulfur_spike",
+      "name": "Sulfur Spike",
+      "icon": "https://cdn.lpsmods.dev/data/mc/sulfur_spike.webp"
+    },
+    {
+      "id": "minecraft:music_disc_bounce",
+      "name": "&eMusic Disc",
+      "lore": ["&7fingerspit - Bounce"],
+      "icon": "https://cdn.lpsmods.dev/data/mc/music_disc_bounce.webp"
+    },
+    {
+      "id": "minecraft:sulfur_brick_slab",
+      "name": "Sulfur Brick Slab",
+      "icon": "https://cdn.lpsmods.dev/data/mc/sulfur_brick_slab.webp"
+    },
+    {
+      "id": "minecraft:polished_cinnabar",
+      "name": "Polished Cinnabar",
+      "icon": "https://cdn.lpsmods.dev/data/mc/polished_cinnabar.webp"
+    },
+    {
+      "id": "minecraft:potent_sulfur",
+      "name": "Potent Sulfur",
+      "icon": "https://cdn.lpsmods.dev/data/mc/potent_sulfur.webp"
+    },
+    {
+      "id": "minecraft:sulfur_bricks",
+      "name": "Sulfur Bricks",
+      "icon": "https://cdn.lpsmods.dev/data/mc/sulfur_bricks.webp"
+    },
+    {
+      "id": "minecraft:polished_cinnabar_stairs",
+      "name": "Polished Cinnabar Stairs",
+      "icon": "https://cdn.lpsmods.dev/data/mc/polished_cinnabar_stairs.webp"
+    },
+    {
+      "id": "minecraft:sulfur_brick_stairs",
+      "name": "Sulfur Brick Stairs",
+      "icon": "https://cdn.lpsmods.dev/data/mc/sulfur_brick_stairs.webp"
+    },
+    {
+      "id": "minecraft:sulfur_brick_wall",
+      "name": "Sulfur Brick Wall",
+      "icon": "https://cdn.lpsmods.dev/data/mc/sulfur_brick_wall.webp"
+    },
+    {
+      "id": "minecraft:sulfur_stairs",
+      "name": "Sulfur Stairs",
+      "icon": "https://cdn.lpsmods.dev/data/mc/sulfur_stairs.webp"
+    },
+    {
+      "id": "minecraft:cinnabar_brick_stairs",
+      "name": "Cinnabar Brick Stairs",
+      "icon": "https://cdn.lpsmods.dev/data/mc/cinnabar_brick_stairs.webp"
+    },
+    {
+      "id": "minecraft:polished_cinnabar_slab",
+      "name": "Polished Cinnabar Slab",
+      "icon": "https://cdn.lpsmods.dev/data/mc/polished_cinnabar_slab.webp"
+    },
+    {
+      "id": "minecraft:polished_sulfur_slab",
+      "name": "Polished Sulfur Slab",
+      "icon": "https://cdn.lpsmods.dev/data/mc/polished_sulfur_slab.webp"
+    },
+    {
+      "id": "minecraft:chiseled_cinnabar",
+      "name": "Chiseled Cinnabar",
+      "icon": "https://cdn.lpsmods.dev/data/mc/chiseled_cinnabar.webp"
+    },
+    {
+      "id": "minecraft:sulfur_cube_spawn_egg",
+      "name": "Sulfur Cube Spawn Egg",
+      "icon": "https://cdn.lpsmods.dev/data/mc/sulfur_cube_spawn_egg.webp"
+    },
+    {
+      "id": "minecraft:bucket_of_sulfur_cube",
+      "name": "Bucket of Sulfur Cube",
+      "icon": "https://cdn.lpsmods.dev/data/mc/bucket_of_sulfur_cube.webp"
+    },
+    { "id": "minecraft:cinnabar", "name": "Cinnabar", "icon": "https://cdn.lpsmods.dev/data/mc/cinnabar.webp" },
+    { "id": "minecraft:sulfur", "name": "Sulfur", "icon": "https://cdn.lpsmods.dev/data/mc/sulfur.webp" },
+    {
+      "id": "minecraft:cinnabar_bricks",
+      "name": "Cinnabar Bricks",
+      "icon": "https://cdn.lpsmods.dev/data/mc/cinnabar_bricks.webp"
+    },
+    {
+      "id": "minecraft:polished_cinnabar_wall",
+      "name": "Polished Cinnabar Wall",
+      "icon": "https://cdn.lpsmods.dev/data/mc/polished_cinnabar_wall.webp"
+    },
+    {
+      "id": "minecraft:sulfur_slab",
+      "name": "Sulfur Slab",
+      "icon": "https://cdn.lpsmods.dev/data/mc/sulfur_slab.webp"
+    },
+    {
+      "id": "minecraft:cinnabar_brick_slab",
+      "name": "Cinnabar Brick Slab",
+      "icon": "https://cdn.lpsmods.dev/data/mc/cinnabar_brick_slab.webp"
+    },
+    {
+      "id": "minecraft:cinnabar_slab",
+      "name": "Cinnabar Slab",
+      "icon": "https://cdn.lpsmods.dev/data/mc/cinnabar_slab.webp"
+    },
+    {
+      "id": "minecraft:polished_sulfur",
+      "name": "Polished Sulfur",
+      "icon": "https://cdn.lpsmods.dev/data/mc/polished_sulfur.webp"
+    },
+    {
+      "id": "minecraft:cinnabar_brick_wall",
+      "name": "Cinnabar Brick Wall",
+      "icon": "https://cdn.lpsmods.dev/data/mc/cinnabar_brick_wall.webp"
+    },
+    {
+      "id": "minecraft:cinnabar_wall",
+      "name": "Cinnabar Wall",
+      "icon": "https://cdn.lpsmods.dev/data/mc/cinnabar_wall.webp"
+    },
+    {
+      "id": "minecraft:polished_sulfur_stairs",
+      "name": "Polished Sulfur Stairs",
+      "icon": "https://cdn.lpsmods.dev/data/mc/polished_sulfur_stairs.webp"
+    },
+    {
+      "id": "minecraft:sulfur_wall",
+      "name": "Sulfur Wall",
+      "icon": "https://cdn.lpsmods.dev/data/mc/sulfur_wall.webp"
+    },
+    {
+      "id": "minecraft:chiseled_sulfur",
+      "name": "Chiseled Sulfur",
+      "icon": "https://cdn.lpsmods.dev/data/mc/chiseled_sulfur.webp"
+    },
+    {
+      "id": "minecraft:cinnabar_stairs",
+      "name": "Cinnabar Stairs",
+      "icon": "https://cdn.lpsmods.dev/data/mc/cinnabar_stairs.webp"
+    },
+    {
       "id": "minecraft:golden_dandelion",
       "name": "Golden Dandelion",
       "icon": "https://cdn.lpsmods.dev/data/mc/golden_dandelion.webp"
