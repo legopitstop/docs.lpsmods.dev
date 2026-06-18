@@ -45,32 +45,8 @@ import tweaks_n_stuff from "../tweaks_n_stuff/sidebar.json";
 import ultimate_block_breaker from "../ultimate-block-breaker/sidebar.json";
 import update_checker from "../update-checker/sidebar.json";
 import userfolder from "../userfolder/sidebar.json";
-import ulkd_ess from "../addon-integration/ulkd_ess/sidebar.json";
-import ftb_sd from "../addon-integration/ftb_sd/sidebar.json";
-import ftb_quests from "../addon-integration/ftb_quests/sidebar.json";
 
 export const sidebar = {
-  "/addon-integration/ulkd_ess": [
-    {
-      text: "Essentials",
-      base: "/addon-integration/ulkd_ess",
-      items: ulkd_ess,
-    },
-  ],
-  "/addon-integration/ftb_sd": [
-    {
-      text: "Storage Drawers",
-      base: "/addon-integration/ftb_sd",
-      items: ftb_sd,
-    },
-  ],
-  "/addon-integration/ftb_quests": [
-    {
-      text: "FTB Quests",
-      base: "/addon-integration/ftb_quests",
-      items: ftb_quests,
-    },
-  ],
   "/@lpsmods/mc-common": [
     {
       text: "@lpsmods/mc-common",

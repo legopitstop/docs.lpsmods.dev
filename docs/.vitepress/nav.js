@@ -78,18 +78,6 @@ export const nav = [
         text: "Add-On Registry",
         link: "https://github.com/Bedrock-OSS/add-on-registry",
       },
-      {
-        text: "Essentials",
-        link: "/addon-integration/ulkd_ess",
-      },
-      {
-        text: "Storage Drawers",
-        link: "/addon-integration/ftb_sd",
-      },
-      {
-        text: "FTB Quests",
-        link: "/addon-integration/ftb_quests",
-      },
     ],
   },
 ];
