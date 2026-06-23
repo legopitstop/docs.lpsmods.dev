@@ -5,7 +5,7 @@ description: This mod adds new recipes that make all of the spawn eggs craftable
 
 # Friendly Recipes
 
-## <Badge type="new" text="new" /> Camel Husk Spawn Egg
+## Camel Husk Spawn Egg
 
 <ShapelessRecipe
 :ingredients="['camel_spawn_egg', 'husk_spawn_egg']"
