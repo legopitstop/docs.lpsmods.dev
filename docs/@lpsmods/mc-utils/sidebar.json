@@ -3,93 +3,1443 @@
     "text": "Guide",
     "collapsed": false,
     "items": [
-      { "text": "Getting Started", "link": "/guide/getting-started" },
-      { "text": "Custom Components", "link": "/guide/custom-components" },
-      { "text": "Custom Effect", "link": "/guide/custom-effect" },
-      { "text": "Custom Enchantment", "link": "/guide/custom-enchantment" },
-      { "text": "Custom Events", "link": "/guide/custom-events" },
-      { "text": "Custom Tags", "link": "/guide/custom-tags" },
-      { "text": "Registry", "link": "/guide/registry" },
-      { "text": "FAQ", "link": "/guide/faq" }
+      {
+        "text": "Getting Started",
+        "link": "/guide/getting-started"
+      },
+      {
+        "text": "Custom Components",
+        "link": "/guide/custom-components"
+      },
+      {
+        "text": "Custom Effect",
+        "link": "/guide/custom-effect"
+      },
+      {
+        "text": "Custom Enchantment",
+        "link": "/guide/custom-enchantment"
+      },
+      {
+        "text": "Custom Events",
+        "link": "/guide/custom-events"
+      },
+      {
+        "text": "Custom Tags",
+        "link": "/guide/custom-tags"
+      },
+      {
+        "text": "Registry",
+        "link": "/guide/registry"
+      },
+      {
+        "text": "FAQ",
+        "link": "/guide/faq"
+      }
     ]
   },
-  { "text": "Script API", "collapsed": true, "items": [{ "text": "UNDOCUMENTED" }] },
   {
     "text": "Commands",
     "collapsed": true,
     "items": [
-      { "text": "Command List", "link": "/commands" },
-      { "text": "custom-effect", "link": "/commands/custom_effect" },
-      { "text": "custom-enchant", "link": "/commands/custom_enchant" }
+      {
+        "text": "Command List",
+        "link": "/commands"
+      },
+      {
+        "text": "custom-effect",
+        "link": "/commands/custom_effect"
+      },
+      {
+        "text": "custom-enchant",
+        "link": "/commands/custom_enchant"
+      }
     ]
   },
   {
     "text": "Block Components",
     "collapsed": true,
     "items": [
-      { "text": "Block Components List", "link": "/blockcomponents" },
-      { "text": "mcutils:bush", "link": "/blockcomponents/bush" },
-      { "text": "mcutils:button", "link": "/blockcomponents/button" },
-      { "text": "mcutils:cake", "link": "/blockcomponents/cake" },
-      { "text": "mcutils:candle", "link": "/blockcomponents/candle" },
-      { "text": "mcutils:candle_cake", "link": "/blockcomponents/candle_cake" },
-      { "text": "mcutils:cauldron", "link": "/blockcomponents/cauldron" },
-      { "text": "mcutils:concrete_powder", "link": "/blockcomponents/concrete_powder" },
-      { "text": "mcutils:copper_bulb", "link": "/blockcomponents/copper_bulb" },
-      { "text": "mcutils:coral", "link": "/blockcomponents/coral" },
-      { "text": "mcutils:crop", "link": "/blockcomponents/crop" },
-      { "text": "mcutils:cross_collision", "link": "/blockcomponents/cross_collision" },
-      { "text": "mcutils:debug", "link": "/blockcomponents/debug" },
-      { "text": "mcutils:falling_block", "link": "/blockcomponents/falling_block" },
-      { "text": "mcutils:farmland", "link": "/blockcomponents/farmland" },
-      { "text": "mcutils:fence_gate", "link": "/blockcomponents/fence_gate" },
-      { "text": "mcutils:fertilizable", "link": "/blockcomponents/fertilizable" },
-      { "text": "mcutils:flower_bed", "link": "/blockcomponents/flower_bed" },
-      { "text": "mcutils:food", "link": "/blockcomponents/food" },
-      { "text": "mcutils:frosted_ice", "link": "/blockcomponents/frosted_ice" },
-      { "text": "mcutils:height", "link": "/blockcomponents/height" },
-      { "text": "mcutils:lava_cauldron", "link": "/blockcomponents/lava_cauldron" },
-      { "text": "mcutils:layered_cauldron", "link": "/blockcomponents/layered_cauldron" },
-      { "text": "mcutils:leaves", "link": "/blockcomponents/leaves" },
-      { "text": "mcutils:multiblock", "link": "/blockcomponents/multiblock" },
-      { "text": "mcutils:oxidizable", "link": "/blockcomponents/oxidizable" },
-      { "text": "mcutils:powder_snow", "link": "/blockcomponents/powder_snow" },
-      { "text": "mcutils:pressure_plate", "link": "/blockcomponents/pressure_plate" },
-      { "text": "mcutils:redstone_lamp", "link": "/blockcomponents/redstone_lamp" },
-      { "text": "mcutils:sapling", "link": "/blockcomponents/sapling" },
-      { "text": "mcutils:scrape_oxidization", "link": "/blockcomponents/scrape_oxidization" },
-      { "text": "mcutils:scrape_wax", "link": "/blockcomponents/scrape_wax" },
-      { "text": "mcutils:sittable", "link": "/blockcomponents/sittable" },
-      { "text": "mcutils:slab", "link": "/blockcomponents/slab" },
-      { "text": "mcutils:sponge", "link": "/blockcomponents/sponge" },
-      { "text": "mcutils:stairs", "link": "/blockcomponents/stairs" },
-      { "text": "mcutils:strippable", "link": "/blockcomponents/strippable" },
-      { "text": "mcutils:tile_entity", "link": "/blockcomponents/tile_entity" },
-      { "text": "mcutils:time_detector", "link": "/blockcomponents/time_detector" },
-      { "text": "mcutils:toggleable", "link": "/blockcomponents/toggleable" },
-      { "text": "mcutils:vertical_slab", "link": "/blockcomponents/vertical_slab" },
-      { "text": "mcutils:viscosity", "link": "/blockcomponents/viscosity" },
-      { "text": "mcutils:wall", "link": "/blockcomponents/wall" },
-      { "text": "mcutils:waxable", "link": "/blockcomponents/waxable" },
-
-      { "text": "mcutils:potted_flower [legacy]", "link": "/blockcomponents/potted_flower" }
+      {
+        "text": "Block Components List",
+        "link": "/blockcomponents"
+      },
+      {
+        "text": "mcutils:bush",
+        "link": "/blockcomponents/bush"
+      },
+      {
+        "text": "mcutils:button",
+        "link": "/blockcomponents/button"
+      },
+      {
+        "text": "mcutils:cake",
+        "link": "/blockcomponents/cake"
+      },
+      {
+        "text": "mcutils:candle",
+        "link": "/blockcomponents/candle"
+      },
+      {
+        "text": "mcutils:candle_cake",
+        "link": "/blockcomponents/candle_cake"
+      },
+      {
+        "text": "mcutils:cauldron",
+        "link": "/blockcomponents/cauldron"
+      },
+      {
+        "text": "mcutils:concrete_powder",
+        "link": "/blockcomponents/concrete_powder"
+      },
+      {
+        "text": "mcutils:copper_bulb",
+        "link": "/blockcomponents/copper_bulb"
+      },
+      {
+        "text": "mcutils:coral",
+        "link": "/blockcomponents/coral"
+      },
+      {
+        "text": "mcutils:crop",
+        "link": "/blockcomponents/crop"
+      },
+      {
+        "text": "mcutils:cross_collision",
+        "link": "/blockcomponents/cross_collision"
+      },
+      {
+        "text": "mcutils:debug",
+        "link": "/blockcomponents/debug"
+      },
+      {
+        "text": "mcutils:falling_block",
+        "link": "/blockcomponents/falling_block"
+      },
+      {
+        "text": "mcutils:farmland",
+        "link": "/blockcomponents/farmland"
+      },
+      {
+        "text": "mcutils:fence_gate",
+        "link": "/blockcomponents/fence_gate"
+      },
+      {
+        "text": "mcutils:fertilizable",
+        "link": "/blockcomponents/fertilizable"
+      },
+      {
+        "text": "mcutils:flower_bed",
+        "link": "/blockcomponents/flower_bed"
+      },
+      {
+        "text": "mcutils:food",
+        "link": "/blockcomponents/food"
+      },
+      {
+        "text": "mcutils:frosted_ice",
+        "link": "/blockcomponents/frosted_ice"
+      },
+      {
+        "text": "mcutils:height",
+        "link": "/blockcomponents/height"
+      },
+      {
+        "text": "mcutils:lava_cauldron",
+        "link": "/blockcomponents/lava_cauldron"
+      },
+      {
+        "text": "mcutils:layered_cauldron",
+        "link": "/blockcomponents/layered_cauldron"
+      },
+      {
+        "text": "mcutils:leaves",
+        "link": "/blockcomponents/leaves"
+      },
+      {
+        "text": "mcutils:multiblock",
+        "link": "/blockcomponents/multiblock"
+      },
+      {
+        "text": "mcutils:oxidizable",
+        "link": "/blockcomponents/oxidizable"
+      },
+      {
+        "text": "mcutils:powder_snow",
+        "link": "/blockcomponents/powder_snow"
+      },
+      {
+        "text": "mcutils:pressure_plate",
+        "link": "/blockcomponents/pressure_plate"
+      },
+      {
+        "text": "mcutils:redstone_lamp",
+        "link": "/blockcomponents/redstone_lamp"
+      },
+      {
+        "text": "mcutils:sapling",
+        "link": "/blockcomponents/sapling"
+      },
+      {
+        "text": "mcutils:scrape_oxidization",
+        "link": "/blockcomponents/scrape_oxidization"
+      },
+      {
+        "text": "mcutils:scrape_wax",
+        "link": "/blockcomponents/scrape_wax"
+      },
+      {
+        "text": "mcutils:sittable",
+        "link": "/blockcomponents/sittable"
+      },
+      {
+        "text": "mcutils:slab",
+        "link": "/blockcomponents/slab"
+      },
+      {
+        "text": "mcutils:sponge",
+        "link": "/blockcomponents/sponge"
+      },
+      {
+        "text": "mcutils:stairs",
+        "link": "/blockcomponents/stairs"
+      },
+      {
+        "text": "mcutils:strippable",
+        "link": "/blockcomponents/strippable"
+      },
+      {
+        "text": "mcutils:tile_entity",
+        "link": "/blockcomponents/tile_entity"
+      },
+      {
+        "text": "mcutils:time_detector",
+        "link": "/blockcomponents/time_detector"
+      },
+      {
+        "text": "mcutils:toggleable",
+        "link": "/blockcomponents/toggleable"
+      },
+      {
+        "text": "mcutils:vertical_slab",
+        "link": "/blockcomponents/vertical_slab"
+      },
+      {
+        "text": "mcutils:viscosity",
+        "link": "/blockcomponents/viscosity"
+      },
+      {
+        "text": "mcutils:wall",
+        "link": "/blockcomponents/wall"
+      },
+      {
+        "text": "mcutils:waxable",
+        "link": "/blockcomponents/waxable"
+      },
+      {
+        "text": "mcutils:potted_flower [legacy]",
+        "link": "/blockcomponents/potted_flower"
+      }
     ]
   },
   {
     "text": "Item Components",
     "collapsed": true,
     "items": [
-      { "text": "Item Components List", "link": "/itemcomponents" },
-      { "text": "mcutils:axe", "link": "/itemcomponents/axe" },
-      { "text": "mcutils:flint_and_steel", "link": "/itemcomponents/flint_and_steel" },
-      { "text": "mcutils:guide_book", "link": "/itemcomponents/guide_book" },
-      { "text": "mcutils:hoe", "link": "/itemcomponents/hoe" },
-      { "text": "mcutils:info_book", "link": "/itemcomponents/info_book" },
-      { "text": "mcutils:shovel", "link": "/itemcomponents/shovel" },
-      { "text": "mcutils:tool", "link": "/itemcomponents/tool" },
-      { "text": "mcutils:writable_book", "link": "/itemcomponents/writable_book" },
-
-      { "text": "mcutils:pottable [legacy]", "link": "/itemcomponents/pottable" }
+      {
+        "text": "Item Components List",
+        "link": "/itemcomponents"
+      },
+      {
+        "text": "mcutils:axe",
+        "link": "/itemcomponents/axe"
+      },
+      {
+        "text": "mcutils:flint_and_steel",
+        "link": "/itemcomponents/flint_and_steel"
+      },
+      {
+        "text": "mcutils:guide_book",
+        "link": "/itemcomponents/guide_book"
+      },
+      {
+        "text": "mcutils:hoe",
+        "link": "/itemcomponents/hoe"
+      },
+      {
+        "text": "mcutils:info_book",
+        "link": "/itemcomponents/info_book"
+      },
+      {
+        "text": "mcutils:shovel",
+        "link": "/itemcomponents/shovel"
+      },
+      {
+        "text": "mcutils:tool",
+        "link": "/itemcomponents/tool"
+      },
+      {
+        "text": "mcutils:writable_book",
+        "link": "/itemcomponents/writable_book"
+      },
+      {
+        "text": "mcutils:pottable [legacy]",
+        "link": "/itemcomponents/pottable"
+      }
     ]
+  },
+  {
+    "text": "Script API",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "Classes",
+        "items": [
+          {
+            "text": "Overview",
+            "link": "classes"
+          },
+          {
+            "text": "RectangleAreaDetector",
+            "link": "RectangleAreaDetector"
+          },
+          {
+            "text": "SphereAreaDetector",
+            "link": "SphereAreaDetector"
+          },
+          {
+            "text": "GatewayAreaDetector",
+            "link": "GatewayAreaDetector"
+          },
+          {
+            "text": "NeighborUpdateEvent",
+            "link": "NeighborUpdateEvent"
+          },
+          {
+            "text": "NearbyEntityBlockEvent",
+            "link": "NearbyEntityBlockEvent"
+          },
+          {
+            "text": "ScheduledBlockEvent",
+            "link": "ScheduledBlockEvent"
+          },
+          {
+            "text": "HarvestLootTable",
+            "link": "HarvestLootTable"
+          },
+          {
+            "text": "BushComponent",
+            "link": "BushComponent"
+          },
+          {
+            "text": "ButtonComponent",
+            "link": "ButtonComponent"
+          },
+          {
+            "text": "CakeInteraction",
+            "link": "CakeInteraction"
+          },
+          {
+            "text": "CakeComponent",
+            "link": "CakeComponent"
+          },
+          {
+            "text": "CandleCakeComponent",
+            "link": "CandleCakeComponent"
+          },
+          {
+            "text": "CandleFlamePosition",
+            "link": "CandleFlamePosition"
+          },
+          {
+            "text": "CandleComponent",
+            "link": "CandleComponent"
+          },
+          {
+            "text": "CauldronInteraction",
+            "link": "CauldronInteraction"
+          },
+          {
+            "text": "CauldronComponent",
+            "link": "CauldronComponent"
+          },
+          {
+            "text": "ClimbableComponent",
+            "link": "ClimbableComponent"
+          },
+          {
+            "text": "ConcretePowderComponent",
+            "link": "ConcretePowderComponent"
+          },
+          {
+            "text": "CopperBulbComponent",
+            "link": "CopperBulbComponent"
+          },
+          {
+            "text": "CoralComponent",
+            "link": "CoralComponent"
+          },
+          {
+            "text": "CropComponent",
+            "link": "CropComponent"
+          },
+          {
+            "text": "CrossCollisionComponent",
+            "link": "CrossCollisionComponent"
+          },
+          {
+            "text": "DebugBlockComponent",
+            "link": "DebugBlockComponent"
+          },
+          {
+            "text": "BlockPortalComponent",
+            "link": "BlockPortalComponent"
+          },
+          {
+            "text": "EntitySensorComponent",
+            "link": "EntitySensorComponent"
+          },
+          {
+            "text": "FallingBlockComponent",
+            "link": "FallingBlockComponent"
+          },
+          {
+            "text": "FarmlandComponent",
+            "link": "FarmlandComponent"
+          },
+          {
+            "text": "FenceGateComponent",
+            "link": "FenceGateComponent"
+          },
+          {
+            "text": "FertilizableComponent",
+            "link": "FertilizableComponent"
+          },
+          {
+            "text": "FlowerBedComponent",
+            "link": "FlowerBedComponent"
+          },
+          {
+            "text": "FoodBlockComponent",
+            "link": "FoodBlockComponent"
+          },
+          {
+            "text": "FrostedIceComponent",
+            "link": "FrostedIceComponent"
+          },
+          {
+            "text": "HeightComponent",
+            "link": "HeightComponent"
+          },
+          {
+            "text": "LavaCauldronInteraction",
+            "link": "LavaCauldronInteraction"
+          },
+          {
+            "text": "LavaCauldronComponent",
+            "link": "LavaCauldronComponent"
+          },
+          {
+            "text": "LayeredCauldronInteraction",
+            "link": "LayeredCauldronInteraction"
+          },
+          {
+            "text": "LayeredCauldronComponent",
+            "link": "LayeredCauldronComponent"
+          },
+          {
+            "text": "LeavesComponent",
+            "link": "LeavesComponent"
+          },
+          {
+            "text": "Part",
+            "link": "Part"
+          },
+          {
+            "text": "MultiBlockReceiveEvent",
+            "link": "MultiBlockReceiveEvent"
+          },
+          {
+            "text": "MultiblockComponent",
+            "link": "MultiblockComponent"
+          },
+          {
+            "text": "PowderSnowComponent",
+            "link": "PowderSnowComponent"
+          },
+          {
+            "text": "PressurePlateComponent",
+            "link": "PressurePlateComponent"
+          },
+          {
+            "text": "RedstoneLampComponent",
+            "link": "RedstoneLampComponent"
+          },
+          {
+            "text": "SaplingComponent",
+            "link": "SaplingComponent"
+          },
+          {
+            "text": "SittableBlockEvent",
+            "link": "SittableBlockEvent"
+          },
+          {
+            "text": "SittableComponent",
+            "link": "SittableComponent"
+          },
+          {
+            "text": "SlabComponent",
+            "link": "SlabComponent"
+          },
+          {
+            "text": "SpongeComponent",
+            "link": "SpongeComponent"
+          },
+          {
+            "text": "StairsComponent",
+            "link": "StairsComponent"
+          },
+          {
+            "text": "SupportCheckComponent",
+            "link": "SupportCheckComponent"
+          },
+          {
+            "text": "TileEntityComponent",
+            "link": "TileEntityComponent"
+          },
+          {
+            "text": "TimeDetectorComponent",
+            "link": "TimeDetectorComponent"
+          },
+          {
+            "text": "TntBlockComponent",
+            "link": "TntBlockComponent"
+          },
+          {
+            "text": "ToggleableComponent",
+            "link": "ToggleableComponent"
+          },
+          {
+            "text": "VerticalSlabComponent",
+            "link": "VerticalSlabComponent"
+          },
+          {
+            "text": "ViscosityComponent",
+            "link": "ViscosityComponent"
+          },
+          {
+            "text": "WallComponent",
+            "link": "WallComponent"
+          },
+          {
+            "text": "LRUCache",
+            "link": "LRUCache"
+          },
+          {
+            "text": "Chunk",
+            "link": "Chunk"
+          },
+          {
+            "text": "ChunkVolume",
+            "link": "ChunkVolume"
+          },
+          {
+            "text": "ChunkQueue",
+            "link": "ChunkQueue"
+          },
+          {
+            "text": "ChunkUtils",
+            "link": "ChunkUtils"
+          },
+          {
+            "text": "CustomEffectCommand",
+            "link": "CustomEffectCommand"
+          },
+          {
+            "text": "CustomEnchantCommand",
+            "link": "CustomEnchantCommand"
+          },
+          {
+            "text": "DataInspectorCommand",
+            "link": "DataInspectorCommand"
+          },
+          {
+            "text": "PlaceCommand",
+            "link": "PlaceCommand"
+          },
+          {
+            "text": "TestCommand",
+            "link": "TestCommand"
+          },
+          {
+            "text": "CustomCommandUtils",
+            "link": "CustomCommandUtils"
+          },
+          {
+            "text": "CooldownManager",
+            "link": "CooldownManager"
+          },
+          {
+            "text": "CustomEffectEvent",
+            "link": "CustomEffectEvent"
+          },
+          {
+            "text": "CustomEffectTickEvent",
+            "link": "CustomEffectTickEvent"
+          },
+          {
+            "text": "CustomEffectStartEvent",
+            "link": "CustomEffectStartEvent"
+          },
+          {
+            "text": "CustomEffectEndEvent",
+            "link": "CustomEffectEndEvent"
+          },
+          {
+            "text": "CustomEffectUtils",
+            "link": "CustomEffectUtils"
+          },
+          {
+            "text": "CustomEffects",
+            "link": "CustomEffects"
+          },
+          {
+            "text": "CustomEnchantmentEvent",
+            "link": "CustomEnchantmentEvent"
+          },
+          {
+            "text": "ItemCustomEnchantEvent",
+            "link": "ItemCustomEnchantEvent"
+          },
+          {
+            "text": "ItemCustomDisenchantEvent",
+            "link": "ItemCustomDisenchantEvent"
+          },
+          {
+            "text": "CustomEnchantmentUtils",
+            "link": "CustomEnchantmentUtils"
+          },
+          {
+            "text": "CustomEnchantments",
+            "link": "CustomEnchantments"
+          },
+          {
+            "text": "EntityHandler",
+            "link": "EntityHandler"
+          },
+          {
+            "text": "FallingBlockEvent",
+            "link": "FallingBlockEvent"
+          },
+          {
+            "text": "FallingBlockHandler",
+            "link": "FallingBlockHandler"
+          },
+          {
+            "text": "GuideBookEntityEvent",
+            "link": "GuideBookEntityEvent"
+          },
+          {
+            "text": "TurnPageEntityEvent",
+            "link": "TurnPageEntityEvent"
+          },
+          {
+            "text": "GuideBookEntity",
+            "link": "GuideBookEntity"
+          },
+          {
+            "text": "PlayerHandler",
+            "link": "PlayerHandler"
+          },
+          {
+            "text": "ArmorSetEvent",
+            "link": "ArmorSetEvent"
+          },
+          {
+            "text": "PlayerUtils",
+            "link": "PlayerUtils"
+          },
+          {
+            "text": "SpecificEntityHandler",
+            "link": "SpecificEntityHandler"
+          },
+          {
+            "text": "TextDisplayHandler",
+            "link": "TextDisplayHandler"
+          },
+          {
+            "text": "TileEntityEvent",
+            "link": "TileEntityEvent"
+          },
+          {
+            "text": "TileEntityTickEvent",
+            "link": "TileEntityTickEvent"
+          },
+          {
+            "text": "TileEntityHandler",
+            "link": "TileEntityHandler"
+          },
+          {
+            "text": "AreaEnterEvent",
+            "link": "AreaEnterEvent"
+          },
+          {
+            "text": "AreaLeaveEvent",
+            "link": "AreaLeaveEvent"
+          },
+          {
+            "text": "AreaTickEvent",
+            "link": "AreaTickEvent"
+          },
+          {
+            "text": "AreaEnterEventSignal",
+            "link": "AreaEnterEventSignal"
+          },
+          {
+            "text": "AreaLeaveEventSignal",
+            "link": "AreaLeaveEventSignal"
+          },
+          {
+            "text": "AreaTickEventSignal",
+            "link": "AreaTickEventSignal"
+          },
+          {
+            "text": "BlockNearbyEntityTickEvent",
+            "link": "BlockNearbyEntityTickEvent"
+          },
+          {
+            "text": "BlockNeighborUpdateEvent",
+            "link": "BlockNeighborUpdateEvent"
+          },
+          {
+            "text": "BlockNearbyEntityTickEventSignal",
+            "link": "BlockNearbyEntityTickEventSignal"
+          },
+          {
+            "text": "BlockNeighborUpdateEventSignal",
+            "link": "BlockNeighborUpdateEventSignal"
+          },
+          {
+            "text": "BlockEvents",
+            "link": "BlockEvents"
+          },
+          {
+            "text": "PlayerChunkLoadEvent",
+            "link": "PlayerChunkLoadEvent"
+          },
+          {
+            "text": "PlayerChunkUnloadEvent",
+            "link": "PlayerChunkUnloadEvent"
+          },
+          {
+            "text": "ChunkTickEvent",
+            "link": "ChunkTickEvent"
+          },
+          {
+            "text": "PlayerChunkLoadEventSignal",
+            "link": "PlayerChunkLoadEventSignal"
+          },
+          {
+            "text": "PlayerChunkUnloadEventSignal",
+            "link": "PlayerChunkUnloadEventSignal"
+          },
+          {
+            "text": "PlayerChunkTickEventSignal",
+            "link": "PlayerChunkTickEventSignal"
+          },
+          {
+            "text": "ChunkEvents",
+            "link": "ChunkEvents"
+          },
+          {
+            "text": "EntityMountEvent",
+            "link": "EntityMountEvent"
+          },
+          {
+            "text": "EntityDismountEvent",
+            "link": "EntityDismountEvent"
+          },
+          {
+            "text": "EntityMovedEvent",
+            "link": "EntityMovedEvent"
+          },
+          {
+            "text": "EntityFallOnEvent",
+            "link": "EntityFallOnEvent"
+          },
+          {
+            "text": "EntityTickEvent",
+            "link": "EntityTickEvent"
+          },
+          {
+            "text": "EntityStepOnEvent",
+            "link": "EntityStepOnEvent"
+          },
+          {
+            "text": "EntityStepOffEvent",
+            "link": "EntityStepOffEvent"
+          },
+          {
+            "text": "EntityEnterBlockEvent",
+            "link": "EntityEnterBlockEvent"
+          },
+          {
+            "text": "EntityLeaveBlockEvent",
+            "link": "EntityLeaveBlockEvent"
+          },
+          {
+            "text": "EntityInBlockTickEvent",
+            "link": "EntityInBlockTickEvent"
+          },
+          {
+            "text": "EntityMountEventSignal",
+            "link": "EntityMountEventSignal"
+          },
+          {
+            "text": "EntityDismountEventSignal",
+            "link": "EntityDismountEventSignal"
+          },
+          {
+            "text": "EntityMovedEventSignal",
+            "link": "EntityMovedEventSignal"
+          },
+          {
+            "text": "EntityTickEventSignal",
+            "link": "EntityTickEventSignal"
+          },
+          {
+            "text": "EntityFallOnEventSignal",
+            "link": "EntityFallOnEventSignal"
+          },
+          {
+            "text": "EntityStepOnEventSignal",
+            "link": "EntityStepOnEventSignal"
+          },
+          {
+            "text": "EntityStepOffEventSignal",
+            "link": "EntityStepOffEventSignal"
+          },
+          {
+            "text": "EntityEnterBlockEventSignal",
+            "link": "EntityEnterBlockEventSignal"
+          },
+          {
+            "text": "EntityLeaveBlockEventSignal",
+            "link": "EntityLeaveBlockEventSignal"
+          },
+          {
+            "text": "EntityInBlockTickEventSignal",
+            "link": "EntityInBlockTickEventSignal"
+          },
+          {
+            "text": "EntityEvents",
+            "link": "EntityEvents"
+          },
+          {
+            "text": "ItemEventSignal",
+            "link": "ItemEventSignal"
+          },
+          {
+            "text": "ItemHoldEvent",
+            "link": "ItemHoldEvent"
+          },
+          {
+            "text": "ItemReleaseHoldEvent",
+            "link": "ItemReleaseHoldEvent"
+          },
+          {
+            "text": "ItemHoldTickEvent",
+            "link": "ItemHoldTickEvent"
+          },
+          {
+            "text": "ItemHoldEventSignal",
+            "link": "ItemHoldEventSignal"
+          },
+          {
+            "text": "ItemReleaseHoldEventSignal",
+            "link": "ItemReleaseHoldEventSignal"
+          },
+          {
+            "text": "ItemHoldTickEventSignal",
+            "link": "ItemHoldTickEventSignal"
+          },
+          {
+            "text": "ItemStrippedEventSignal",
+            "link": "ItemStrippedEventSignal"
+          },
+          {
+            "text": "ItemScrapedWaxEventSignal",
+            "link": "ItemScrapedWaxEventSignal"
+          },
+          {
+            "text": "ItemScrapedOxidizationEventSignal",
+            "link": "ItemScrapedOxidizationEventSignal"
+          },
+          {
+            "text": "ItemEvents",
+            "link": "ItemEvents"
+          },
+          {
+            "text": "OpenScreenEvent",
+            "link": "OpenScreenEvent"
+          },
+          {
+            "text": "CloseScreenEvent",
+            "link": "CloseScreenEvent"
+          },
+          {
+            "text": "OpenScreenEventSignal",
+            "link": "OpenScreenEventSignal"
+          },
+          {
+            "text": "CloseScreenEventSignal",
+            "link": "CloseScreenEventSignal"
+          },
+          {
+            "text": "ScreenEvents",
+            "link": "ScreenEvents"
+          },
+          {
+            "text": "FeaturePlaceEvent",
+            "link": "FeaturePlaceEvent"
+          },
+          {
+            "text": "FeatureRulePlaceEvent",
+            "link": "FeatureRulePlaceEvent"
+          },
+          {
+            "text": "FeatureRuleCanPlaceEvent",
+            "link": "FeatureRuleCanPlaceEvent"
+          },
+          {
+            "text": "FeatureHandler",
+            "link": "FeatureHandler"
+          },
+          {
+            "text": "CustomFeatureRule",
+            "link": "CustomFeatureRule"
+          },
+          {
+            "text": "CustomFeature",
+            "link": "CustomFeature"
+          },
+          {
+            "text": "StructureTemplate",
+            "link": "StructureTemplate"
+          },
+          {
+            "text": "WeightedRandomFeature",
+            "link": "WeightedRandomFeature"
+          },
+          {
+            "text": "ExtendedFeature",
+            "link": "ExtendedFeature"
+          },
+          {
+            "text": "Image",
+            "link": "Image"
+          },
+          {
+            "text": "AxeComponent",
+            "link": "AxeComponent"
+          },
+          {
+            "text": "FlintAndSteelComponent",
+            "link": "FlintAndSteelComponent"
+          },
+          {
+            "text": "GuideBookComponent",
+            "link": "GuideBookComponent"
+          },
+          {
+            "text": "HoeComponent",
+            "link": "HoeComponent"
+          },
+          {
+            "text": "InfoBookComponent",
+            "link": "InfoBookComponent"
+          },
+          {
+            "text": "ShovelComponent",
+            "link": "ShovelComponent"
+          },
+          {
+            "text": "ToolComponent",
+            "link": "ToolComponent"
+          },
+          {
+            "text": "WritableBookComponent",
+            "link": "WritableBookComponent"
+          },
+          {
+            "text": "BlockLootHandler",
+            "link": "BlockLootHandler"
+          },
+          {
+            "text": "EntityLootHandler",
+            "link": "EntityLootHandler"
+          },
+          {
+            "text": "Parser",
+            "link": "Parser"
+          },
+          {
+            "text": "QueueJob",
+            "link": "QueueJob"
+          },
+          {
+            "text": "Queue",
+            "link": "Queue"
+          },
+          {
+            "text": "FlattenableBlockRegistry",
+            "link": "FlattenableBlockRegistry"
+          },
+          {
+            "text": "OxidizableBlocksRegistry",
+            "link": "OxidizableBlocksRegistry"
+          },
+          {
+            "text": "ShearableBlocksRegistry",
+            "link": "ShearableBlocksRegistry"
+          },
+          {
+            "text": "StrippableBlockRegistry",
+            "link": "StrippableBlockRegistry"
+          },
+          {
+            "text": "CustomItemTags",
+            "link": "CustomItemTags"
+          },
+          {
+            "text": "CustomBlockTags",
+            "link": "CustomBlockTags"
+          },
+          {
+            "text": "CustomTags",
+            "link": "CustomTags"
+          },
+          {
+            "text": "TillableBlockRegistry",
+            "link": "TillableBlockRegistry"
+          },
+          {
+            "text": "WaxableBlockRegistry",
+            "link": "WaxableBlockRegistry"
+          },
+          {
+            "text": "StateController",
+            "link": "StateController"
+          },
+          {
+            "text": "AttackUtils",
+            "link": "AttackUtils"
+          },
+          {
+            "text": "DynamicLight",
+            "link": "DynamicLight"
+          },
+          {
+            "text": "Random",
+            "link": "Random"
+          },
+          {
+            "text": "RandomUtils",
+            "link": "RandomUtils"
+          },
+          {
+            "text": "ConditionUtils",
+            "link": "ConditionUtils"
+          },
+          {
+            "text": "WorldBorder",
+            "link": "WorldBorder"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "text": "Interfaces",
+        "items": [
+          {
+            "text": "Overview",
+            "link": "interfaces"
+          },
+          {
+            "text": "AreaDetectorOptions",
+            "link": "AreaDetectorOptions"
+          },
+          {
+            "text": "Gateway",
+            "link": "Gateway"
+          },
+          {
+            "text": "SpawnEntityRotationOptions",
+            "link": "SpawnEntityRotationOptions"
+          },
+          {
+            "text": "ScheduledEvent",
+            "link": "ScheduledEvent"
+          },
+          {
+            "text": "BushOptions",
+            "link": "BushOptions"
+          },
+          {
+            "text": "ButtonOptions",
+            "link": "ButtonOptions"
+          },
+          {
+            "text": "CakeOptions",
+            "link": "CakeOptions"
+          },
+          {
+            "text": "CandleCakeOptions",
+            "link": "CandleCakeOptions"
+          },
+          {
+            "text": "CandleOptions",
+            "link": "CandleOptions"
+          },
+          {
+            "text": "CauldronOptions",
+            "link": "CauldronOptions"
+          },
+          {
+            "text": "ClimbableComponentOptions",
+            "link": "ClimbableComponentOptions"
+          },
+          {
+            "text": "ConcretePowderOptions",
+            "link": "ConcretePowderOptions"
+          },
+          {
+            "text": "CopperBulbOptions",
+            "link": "CopperBulbOptions"
+          },
+          {
+            "text": "CoralOptions",
+            "link": "CoralOptions"
+          },
+          {
+            "text": "CropOptions",
+            "link": "CropOptions"
+          },
+          {
+            "text": "CrossCollisionOptions",
+            "link": "CrossCollisionOptions"
+          },
+          {
+            "text": "BlockPortalOptions",
+            "link": "BlockPortalOptions"
+          },
+          {
+            "text": "EntitySensorOptions",
+            "link": "EntitySensorOptions"
+          },
+          {
+            "text": "FallingBlockOptions",
+            "link": "FallingBlockOptions"
+          },
+          {
+            "text": "FarmlandOptions",
+            "link": "FarmlandOptions"
+          },
+          {
+            "text": "FenceGateOptions",
+            "link": "FenceGateOptions"
+          },
+          {
+            "text": "FertilizableOptions",
+            "link": "FertilizableOptions"
+          },
+          {
+            "text": "FlowerBedOptions",
+            "link": "FlowerBedOptions"
+          },
+          {
+            "text": "FoodBlockOptions",
+            "link": "FoodBlockOptions"
+          },
+          {
+            "text": "FrostedIceOptions",
+            "link": "FrostedIceOptions"
+          },
+          {
+            "text": "HeightOptions",
+            "link": "HeightOptions"
+          },
+          {
+            "text": "LavaCauldronOptions",
+            "link": "LavaCauldronOptions"
+          },
+          {
+            "text": "LayeredCauldronOptions",
+            "link": "LayeredCauldronOptions"
+          },
+          {
+            "text": "LeavesOptions",
+            "link": "LeavesOptions"
+          },
+          {
+            "text": "MultiblockOptions",
+            "link": "MultiblockOptions"
+          },
+          {
+            "text": "PowderSnowOptions",
+            "link": "PowderSnowOptions"
+          },
+          {
+            "text": "PressurePlateOptions",
+            "link": "PressurePlateOptions"
+          },
+          {
+            "text": "RedstoneLampOptions",
+            "link": "RedstoneLampOptions"
+          },
+          {
+            "text": "SaplingOptions",
+            "link": "SaplingOptions"
+          },
+          {
+            "text": "SittableOptions",
+            "link": "SittableOptions"
+          },
+          {
+            "text": "SlabOptions",
+            "link": "SlabOptions"
+          },
+          {
+            "text": "SpongeOptions",
+            "link": "SpongeOptions"
+          },
+          {
+            "text": "StairsOptions",
+            "link": "StairsOptions"
+          },
+          {
+            "text": "TileEntityOptions",
+            "link": "TileEntityOptions"
+          },
+          {
+            "text": "TimeDetectorOptions",
+            "link": "TimeDetectorOptions"
+          },
+          {
+            "text": "TntBlockOptions",
+            "link": "TntBlockOptions"
+          },
+          {
+            "text": "ToggleableOptions",
+            "link": "ToggleableOptions"
+          },
+          {
+            "text": "VerticalSlabOptions",
+            "link": "VerticalSlabOptions"
+          },
+          {
+            "text": "ViscosityOptions",
+            "link": "ViscosityOptions"
+          },
+          {
+            "text": "WallOptions",
+            "link": "WallOptions"
+          },
+          {
+            "text": "LRUCacheOptions",
+            "link": "LRUCacheOptions"
+          },
+          {
+            "text": "CooldownData",
+            "link": "CooldownData"
+          },
+          {
+            "text": "CustomEffectUtilsOptions",
+            "link": "CustomEffectUtilsOptions"
+          },
+          {
+            "text": "CustomEffectInstance",
+            "link": "CustomEffectInstance"
+          },
+          {
+            "text": "CustomEnchantmentInstance",
+            "link": "CustomEnchantmentInstance"
+          },
+          {
+            "text": "GuideBookEntityOptions",
+            "link": "GuideBookEntityOptions"
+          },
+          {
+            "text": "ArmorSet",
+            "link": "ArmorSet"
+          },
+          {
+            "text": "PlayerEatOptions",
+            "link": "PlayerEatOptions"
+          },
+          {
+            "text": "ItemEventOptions",
+            "link": "ItemEventOptions"
+          },
+          {
+            "text": "ScreenEventOptions",
+            "link": "ScreenEventOptions"
+          },
+          {
+            "text": "CustomFeatureRuleOptions",
+            "link": "CustomFeatureRuleOptions"
+          },
+          {
+            "text": "CustomFeatureOptions",
+            "link": "CustomFeatureOptions"
+          },
+          {
+            "text": "StructureTemplateOptions",
+            "link": "StructureTemplateOptions"
+          },
+          {
+            "text": "AxeInteraction",
+            "link": "AxeInteraction"
+          },
+          {
+            "text": "AxeOptions",
+            "link": "AxeOptions"
+          },
+          {
+            "text": "FlintAndSteelOptions",
+            "link": "FlintAndSteelOptions"
+          },
+          {
+            "text": "HoeOptions",
+            "link": "HoeOptions"
+          },
+          {
+            "text": "InfoBookOptions",
+            "link": "InfoBookOptions"
+          },
+          {
+            "text": "ShovelOptions",
+            "link": "ShovelOptions"
+          },
+          {
+            "text": "ToolComponentOptions",
+            "link": "ToolComponentOptions"
+          },
+          {
+            "text": "WritableBookOptions",
+            "link": "WritableBookOptions"
+          },
+          {
+            "text": "QueueOptions",
+            "link": "QueueOptions"
+          },
+          {
+            "text": "FlattenableOptions",
+            "link": "FlattenableOptions"
+          },
+          {
+            "text": "OxidizableOptions",
+            "link": "OxidizableOptions"
+          },
+          {
+            "text": "ShearableOptions",
+            "link": "ShearableOptions"
+          },
+          {
+            "text": "StrippableOptions",
+            "link": "StrippableOptions"
+          },
+          {
+            "text": "TillableBlockOptions",
+            "link": "TillableBlockOptions"
+          },
+          {
+            "text": "WaxableBlockOptions",
+            "link": "WaxableBlockOptions"
+          },
+          {
+            "text": "Transitions",
+            "link": "Transitions"
+          },
+          {
+            "text": "State",
+            "link": "State"
+          },
+          {
+            "text": "AttackOptions",
+            "link": "AttackOptions"
+          },
+          {
+            "text": "AutosaveOptions",
+            "link": "AutosaveOptions"
+          },
+          {
+            "text": "MolangEnvironment",
+            "link": "MolangEnvironment"
+          },
+          {
+            "text": "WorldBorderOptions",
+            "link": "WorldBorderOptions"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "text": "Enums",
+        "items": [
+          {
+            "text": "Overview",
+            "link": "enums"
+          },
+          {
+            "text": "ExposedDirection",
+            "link": "ExposedDirection"
+          },
+          {
+            "text": "CommandMessage",
+            "link": "CommandMessage"
+          },
+          {
+            "text": "ScreenEventSource",
+            "link": "ScreenEventSource"
+          },
+          {
+            "text": "PlacementPass",
+            "link": "PlacementPass"
+          },
+          {
+            "text": "FacingDirection",
+            "link": "FacingDirection"
+          },
+          {
+            "text": "ImageFormat",
+            "link": "ImageFormat"
+          },
+          {
+            "text": "SamplerMethod",
+            "link": "SamplerMethod"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "text": "Type Aliases",
+        "items": [
+          {
+            "text": "Request",
+            "link": "Request"
+          },
+          {
+            "text": "UnitTestMap",
+            "link": "UnitTestMap"
+          },
+          {
+            "text": "Condition",
+            "link": "Condition"
+          }
+        ],
+        "collapsed": true
+      }
+    ],
+    "base": "/@lpsmods/mc-utils/scriptapi/"
   }
 ]

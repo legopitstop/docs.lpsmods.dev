@@ -23,6 +23,10 @@ This page is for testing custom components.
 
 ## Components
 
+### ShareButton
+
+<ShareButton />
+
 ### BrewingRecipe
 
 <BrewingRecipe input="paper" output="paper" />

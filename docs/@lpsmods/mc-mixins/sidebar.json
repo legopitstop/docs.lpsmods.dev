@@ -3,10 +3,59 @@
     "text": "Guide",
     "collapsed": false,
     "items": [
-      { "text": "Getting Started", "link": "/guide/getting-started" },
-      { "text": "Initialize", "link": "/guide/initialize" },
-      { "text": "FAQ", "link": "/guide/faq" }
+      {
+        "text": "Getting Started",
+        "link": "/guide/getting-started"
+      },
+      {
+        "text": "Initialize",
+        "link": "/guide/initialize"
+      },
+      {
+        "text": "FAQ",
+        "link": "/guide/faq"
+      }
     ]
   },
-  { "text": "Script API", "collapsed": true, "items": [{ "text": "UNDOCUMENTED" }] }
+  {
+    "text": "Script API",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "Interfaces",
+        "items": [
+          {
+            "text": "Overview",
+            "link": "interfaces"
+          },
+          {
+            "text": "ItemStack",
+            "link": "ItemStack"
+          },
+          {
+            "text": "ScoreboardObjective",
+            "link": "ScoreboardObjective"
+          },
+          {
+            "text": "Block",
+            "link": "Block"
+          },
+          {
+            "text": "Player",
+            "link": "Player"
+          },
+          {
+            "text": "Entity",
+            "link": "Entity"
+          },
+          {
+            "text": "String",
+            "link": "String"
+          }
+        ],
+        "collapsed": true
+      }
+    ],
+    "base": "/@lpsmods/mc-mixins/scriptapi/"
+  }
 ]

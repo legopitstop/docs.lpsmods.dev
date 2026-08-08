@@ -1,4 +1,47 @@
 [
-  { "text": "Getting Started", "link": "/getting-started" },
-  { "text": "API Reference", "collapsed": true, "items": [{ "text": "UNDOCUMENTED" }] }
+  {
+    "text": "Getting Started",
+    "link": "/getting-started"
+  },
+  {
+    "text": "API Reference",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "Classes",
+        "items": [
+          {
+            "text": "Overview",
+            "link": "classes"
+          },
+          {
+            "text": "rel",
+            "link": "rel"
+          },
+          {
+            "text": "summon",
+            "link": "summon"
+          },
+          {
+            "text": "setblock",
+            "link": "setblock"
+          },
+          {
+            "text": "fill",
+            "link": "fill"
+          },
+          {
+            "text": "give",
+            "link": "give"
+          },
+          {
+            "text": "NBTEncoder",
+            "link": "NBTEncoder"
+          }
+        ],
+        "collapsed": true
+      }
+    ],
+    "base": "/datapackutils/reference/"
+  }
 ]

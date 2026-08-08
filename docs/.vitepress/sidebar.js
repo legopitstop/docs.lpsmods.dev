@@ -1,4 +1,6 @@
 import root from "../sidebar.json";
+import lpsmodsDocsGenerator from "../@lpsmods/docs-generator/sidebar.json";
+import lpsmodsMcBuild from "../@lpsmods/mc-build/sidebar.json";
 import lpsmodsMcUtils from "../@lpsmods/mc-utils/sidebar.json";
 import lpsmodsMcCommon from "../@lpsmods/mc-common/sidebar.json";
 import lpsmodsMcDev from "../@lpsmods/mc-dev/sidebar.json";
@@ -47,6 +49,20 @@ import update_checker from "../update-checker/sidebar.json";
 import userfolder from "../userfolder/sidebar.json";
 
 export const sidebar = {
+  "/@lpsmods/mc-build": [
+    {
+      text: "@lpsmods/mc-build",
+      base: "/@lpsmods/mc-build/",
+      items: lpsmodsMcBuild,
+    },
+  ],
+  "/@lpsmods/docs-generator": [
+    {
+      text: "@lpsmods/docs-generator",
+      base: "/@lpsmods/docs-generator/",
+      items: lpsmodsDocsGenerator,
+    },
+  ],
   "/@lpsmods/mc-common": [
     {
       text: "@lpsmods/mc-common",

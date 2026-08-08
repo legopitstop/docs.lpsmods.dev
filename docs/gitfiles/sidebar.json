@@ -1,14 +1,27 @@
 [
-  { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Getting Started",
+    "link": "/getting-started"
+  },
   {
     "text": "API Reference",
-    "collapsed": true,
+    "collapsed": false,
     "items": [
-      { "text": "Functions", "link": "/functions" },
       {
         "text": "Classes",
-        "items": [{ "text": "IgnoreFilter", "link": "/IgnoreFilter" }]
+        "items": [
+          {
+            "text": "Overview",
+            "link": "classes"
+          },
+          {
+            "text": "IgnoreFilter",
+            "link": "IgnoreFilter"
+          }
+        ],
+        "collapsed": true
       }
-    ]
+    ],
+    "base": "/gitfiles/reference/"
   }
 ]

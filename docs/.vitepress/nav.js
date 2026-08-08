@@ -19,6 +19,7 @@ export const nav = [
       { text: "package.json", link: "/tools/package_json" },
       { text: "Translation Guide", link: "/tools/translation-guide" },
       { text: "Add-On Scheme", link: "/tools/addon-scheme" },
+      { text: "Minecraft Quick Reference", link: "/tools/minecraft-quick-reference" },
       //   { text: "Develop Multiloader", link: "/tools/develop-multiloader" },
     ],
   },

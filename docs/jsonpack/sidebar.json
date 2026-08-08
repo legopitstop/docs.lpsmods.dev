@@ -3,10 +3,7 @@
   {
     "text": "API Reference",
     "collapsed": true,
-    "items": [
-      { "text": "Functions", "link": "/functions" },
-      { "text": "Classes", "items": [] }
-    ]
+    "items": []
   },
   { "text": "Examples", "items": [] }
 ]
