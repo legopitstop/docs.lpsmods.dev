@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Guide",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "Getting Started",
+        "link": "/guide/getting-started"
+      },
+      {
+        "text": "FAQ",
+        "link": "/guide/faq"
+      }
+    ]
+  },
+  {
+    "text": "Script API",
+    "collapsed": false,
+    "items": [],
+    "base": "/@lpsmods/docs-generator/scriptapi/"
+  }
+]
