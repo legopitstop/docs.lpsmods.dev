@@ -2,7 +2,16 @@ import { generateRegistryPackage } from "@lpsmods/docs-generator";
 
 export async function build() {
   // npm packages
-  for (const name of ["mc-common", "mc-build", "mc-dev", "mc-mixins", "mc-superstruct", "mc-utils", "mcaddon-bridge", "docs-generator"]) {
+  for (const name of [
+    "mc-common",
+    "mc-build",
+    "mc-dev",
+    "mc-mixins",
+    "mc-superstruct",
+    "mc-utils",
+    "mcaddon-bridge",
+    "docs-generator",
+  ]) {
     await generateRegistryPackage({
       registry: "npm",
       package: `@lpsmods/${name}`,
