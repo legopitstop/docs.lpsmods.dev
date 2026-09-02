@@ -3,18 +3,7 @@
   {
     "text": "API Reference",
     "collapsed": true,
-    "items": [
-      { "text": "Constants", "link": "/constants" },
-      { "text": "Functions", "link": "/functions" },
-      {
-        "text": "Classes",
-        "items": [
-          { "text": "SoftwareBuilder", "link": "/SoftwareBuilder" },
-          { "text": "SoftwareFile", "link": "/SoftwareFile" },
-          { "text": "SoftwareFileSize", "link": "/SoftwareFileSize" }
-        ]
-      }
-    ]
+    "items": []
   },
 
   {

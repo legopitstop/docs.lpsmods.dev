@@ -1,19 +1,59 @@
 [
-  { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Getting Started",
+    "link": "/getting-started"
+  },
   {
     "text": "API Reference",
-    "collapsed": true,
+    "collapsed": false,
     "items": [
-      { "text": "Constants", "link": "/constants" },
       {
         "text": "Classes",
         "items": [
-          { "text": "MojangSkin", "link": "/MojangSkin" },
-          { "text": "SkinAnimation", "link": "/SkinAnimation" },
-          { "text": "SkinCanvas", "link": "/SkinCanvas" },
-          { "text": "Skin", "link": "/Skin" }
-        ]
+          {
+            "text": "Overview",
+            "link": "classes"
+          },
+          {
+            "text": "PlayerNotFoundError",
+            "link": "PlayerNotFoundError"
+          },
+          {
+            "text": "CapeNotFoundError",
+            "link": "CapeNotFoundError"
+          },
+          {
+            "text": "Bone",
+            "link": "Bone"
+          },
+          {
+            "text": "Face",
+            "link": "Face"
+          },
+          {
+            "text": "Model",
+            "link": "Model"
+          },
+          {
+            "text": "Skin",
+            "link": "Skin"
+          },
+          {
+            "text": "MojangSkin",
+            "link": "MojangSkin"
+          },
+          {
+            "text": "SkinCanvas",
+            "link": "SkinCanvas"
+          },
+          {
+            "text": "SkinAnimation",
+            "link": "SkinAnimation"
+          }
+        ],
+        "collapsed": true
       }
-    ]
+    ],
+    "base": "/mojangskin/reference/"
   }
 ]

@@ -1,14 +1,31 @@
 [
-  { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Getting Started",
+    "link": "/getting-started"
+  },
   {
     "text": "API Reference",
-    "collapsed": true,
+    "collapsed": false,
     "items": [
       {
         "text": "Classes",
-        "items": [{ "text": "MCExtractAPI", "link": "/MCExtractAPI" }]
+        "items": [
+          {
+            "text": "Overview",
+            "link": "classes"
+          },
+          {
+            "text": "MCExtractAPI",
+            "link": "MCExtractAPI"
+          }
+        ],
+        "collapsed": true
       }
-    ]
+    ],
+    "base": "/mcextract/reference/"
   },
-  { "text": "CLI", "link": "/cli" }
+  {
+    "text": "CLI",
+    "link": "/cli"
+  }
 ]

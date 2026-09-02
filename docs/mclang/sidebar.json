@@ -1,19 +1,47 @@
 [
-  { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Getting Started",
+    "link": "/getting-started"
+  },
   {
     "text": "API Reference",
-    "collapsed": true,
+    "collapsed": false,
     "items": [
-      { "text": "globals", "link": "/globals" },
-      { "text": "Exceptions", "link": "/Exceptions" },
       {
         "text": "Classes",
         "items": [
-          { "text": "Lang", "link": "/Lang" },
-          { "text": "LANGEncoder", "link": "/LANGEncoder" },
-          { "text": "LANGDecoder", "link": "/LANGDecoder" }
-        ]
+          {
+            "text": "Overview",
+            "link": "classes"
+          },
+          {
+            "text": "LANGDecoderError",
+            "link": "LANGDecoderError"
+          },
+          {
+            "text": "LangError",
+            "link": "LangError"
+          },
+          {
+            "text": "Comment",
+            "link": "Comment"
+          },
+          {
+            "text": "Lang",
+            "link": "Lang"
+          },
+          {
+            "text": "LANGDecoder",
+            "link": "LANGDecoder"
+          },
+          {
+            "text": "LANGEncoder",
+            "link": "LANGEncoder"
+          }
+        ],
+        "collapsed": true
       }
-    ]
+    ],
+    "base": "/mclang/reference/"
   }
 ]

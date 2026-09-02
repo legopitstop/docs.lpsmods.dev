@@ -44,7 +44,7 @@ export default [
   },
 
   {
-    ignores: ["node_modules/", "dist/", "docs/.vitepress/cache/", "docs/.vitepress/dist/"],
+    ignores: ["node_modules/", "dist/", "docs/.vitepress/cache/", "docs/.vitepress/dist/", ".docs-generator-cache/"],
   },
 
   prettier,

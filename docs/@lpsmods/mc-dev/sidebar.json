@@ -3,10 +3,139 @@
     "text": "Guide",
     "collapsed": false,
     "items": [
-      { "text": "Getting Started", "link": "/guide/getting-started" },
-      { "text": "initialize Dev", "link": "/guide/initialize-dev" },
-      { "text": "FAQ", "link": "/guide/faq" }
+      {
+        "text": "Getting Started",
+        "link": "/guide/getting-started"
+      },
+      {
+        "text": "initialize Dev",
+        "link": "/guide/initialize-dev"
+      },
+      {
+        "text": "FAQ",
+        "link": "/guide/faq"
+      }
     ]
   },
-  { "text": "Script API", "collapsed": true, "items": [{ "text": "UNDOCUMENTED" }] }
+  {
+    "text": "Script API",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "Classes",
+        "items": [
+          {
+            "text": "Overview",
+            "link": "classes"
+          },
+          {
+            "text": "DevCommand",
+            "link": "DevCommand"
+          },
+          {
+            "text": "MacroCommand",
+            "link": "MacroCommand"
+          },
+          {
+            "text": "DeveloperTools",
+            "link": "DeveloperTools"
+          },
+          {
+            "text": "AdvancedTooltipsTool",
+            "link": "AdvancedTooltipsTool"
+          },
+          {
+            "text": "DevToolSettings",
+            "link": "DevToolSettings"
+          },
+          {
+            "text": "BlockInfoTool",
+            "link": "BlockInfoTool"
+          },
+          {
+            "text": "ContentGeneratorTool",
+            "link": "ContentGeneratorTool"
+          },
+          {
+            "text": "DebugModeTool",
+            "link": "DebugModeTool"
+          },
+          {
+            "text": "EntityInfoTool",
+            "link": "EntityInfoTool"
+          },
+          {
+            "text": "ItemInfoTool",
+            "link": "ItemInfoTool"
+          },
+          {
+            "text": "MacroConfiguratorTool",
+            "link": "MacroConfiguratorTool"
+          },
+          {
+            "text": "PlayerInfoTool",
+            "link": "PlayerInfoTool"
+          },
+          {
+            "text": "Macros",
+            "link": "Macros"
+          },
+          {
+            "text": "ToggleGameModeIntent",
+            "link": "ToggleGameModeIntent"
+          },
+          {
+            "text": "RunCommandIntent",
+            "link": "RunCommandIntent"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "text": "Interfaces",
+        "items": [
+          {
+            "text": "Overview",
+            "link": "interfaces"
+          },
+          {
+            "text": "DeveloperToolsOptions",
+            "link": "DeveloperToolsOptions"
+          },
+          {
+            "text": "DevToolOptions",
+            "link": "DevToolOptions"
+          },
+          {
+            "text": "MacroData",
+            "link": "MacroData"
+          },
+          {
+            "text": "MacroIntentData",
+            "link": "MacroIntentData"
+          },
+          {
+            "text": "MacroIntentOptions",
+            "link": "MacroIntentOptions"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "text": "Enums",
+        "items": [
+          {
+            "text": "Overview",
+            "link": "enums"
+          },
+          {
+            "text": "DevCommandAction",
+            "link": "DevCommandAction"
+          }
+        ],
+        "collapsed": true
+      }
+    ],
+    "base": "/@lpsmods/mc-dev/scriptapi/"
+  }
 ]

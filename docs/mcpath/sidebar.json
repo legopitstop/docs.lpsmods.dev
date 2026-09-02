@@ -1,28 +1,249 @@
 [
-  { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Getting Started",
+    "link": "/getting-started"
+  },
   {
     "text": "API Reference",
-    "collapsed": true,
+    "collapsed": false,
     "items": [
-      { "text": "Globals", "link": "/globals" },
       {
         "text": "Classes",
         "items": [
-          { "text": "Bedrock", "link": "/Bedrock" },
-          { "text": "Java", "link": "/Java" },
-          { "text": "Preview", "link": "/Preview" },
-          { "text": "Education", "link": "/Education" }
-        ]
+          {
+            "text": "Overview",
+            "link": "classes"
+          },
+          {
+            "text": "Bedrock",
+            "link": "facades/Bedrock"
+          },
+          {
+            "text": "BedrockUWP",
+            "link": "facades/BedrockUWP"
+          },
+          {
+            "text": "BedrockGDK",
+            "link": "facades/BedrockGDK"
+          },
+          {
+            "text": "EducationUWP",
+            "link": "facades/EducationUWP"
+          },
+          {
+            "text": "EducationGDK",
+            "link": "facades/EducationGDK"
+          },
+          {
+            "text": "Java",
+            "link": "facades/Java"
+          },
+          {
+            "text": "PreviewUWP",
+            "link": "facades/PreviewUWP"
+          },
+          {
+            "text": "PreviewGDK",
+            "link": "facades/PreviewGDK"
+          },
+          {
+            "text": "JavaProtocol",
+            "link": "facades/JavaProtocol"
+          },
+          {
+            "text": "BedrockProtocol",
+            "link": "facades/BedrockProtocol"
+          },
+          {
+            "text": "BedrockUWPProtocol",
+            "link": "facades/BedrockUWPProtocol"
+          },
+          {
+            "text": "BedrockGDKProtocol",
+            "link": "facades/BedrockGDKProtocol"
+          },
+          {
+            "text": "PreviewUWPProtocol",
+            "link": "facades/PreviewUWPProtocol"
+          },
+          {
+            "text": "PreviewGDKProtocol",
+            "link": "facades/PreviewGDKProtocol"
+          },
+          {
+            "text": "EducationUWPProtocol",
+            "link": "facades/EducationUWPProtocol"
+          },
+          {
+            "text": "EducationGDKProtocol",
+            "link": "facades/EducationGDKProtocol"
+          },
+          {
+            "text": "AndroidBedrockGDK",
+            "link": "platforms/android/AndroidBedrockGDK"
+          },
+          {
+            "text": "AndroidBedrockUWP",
+            "link": "platforms/android/AndroidBedrockUWP"
+          },
+          {
+            "text": "AndroidEducationGDK",
+            "link": "platforms/android/AndroidEducationGDK"
+          },
+          {
+            "text": "AndroidEducationUWP",
+            "link": "platforms/android/AndroidEducationUWP"
+          },
+          {
+            "text": "AndroidJavaEdition",
+            "link": "platforms/android/AndroidJavaEdition"
+          },
+          {
+            "text": "AndroidPreviewGDK",
+            "link": "platforms/android/AndroidPreviewGDK"
+          },
+          {
+            "text": "AndroidPreviewUWP",
+            "link": "platforms/android/AndroidPreviewUWP"
+          },
+          {
+            "text": "iOSBedrockGDK",
+            "link": "platforms/ios/iOSBedrockGDK"
+          },
+          {
+            "text": "iOSBedrockUWP",
+            "link": "platforms/ios/iOSBedrockUWP"
+          },
+          {
+            "text": "iOSEducationGDK",
+            "link": "platforms/ios/iOSEducationGDK"
+          },
+          {
+            "text": "iOSEducationUWP",
+            "link": "platforms/ios/iOSEducationUWP"
+          },
+          {
+            "text": "iOSJavaEdition",
+            "link": "platforms/ios/iOSJavaEdition"
+          },
+          {
+            "text": "iOSPreviewGDK",
+            "link": "platforms/ios/iOSPreviewGDK"
+          },
+          {
+            "text": "iOSPreviewUWP",
+            "link": "platforms/ios/iOSPreviewUWP"
+          },
+          {
+            "text": "LinuxBedrockGDK",
+            "link": "platforms/linux/LinuxBedrockGDK"
+          },
+          {
+            "text": "LinuxBedrockUWP",
+            "link": "platforms/linux/LinuxBedrockUWP"
+          },
+          {
+            "text": "LinuxEducationGDK",
+            "link": "platforms/linux/LinuxEducationGDK"
+          },
+          {
+            "text": "LinuxEducationUWP",
+            "link": "platforms/linux/LinuxEducationUWP"
+          },
+          {
+            "text": "LinuxJavaEdition",
+            "link": "platforms/linux/LinuxJavaEdition"
+          },
+          {
+            "text": "LinuxPreviewGDK",
+            "link": "platforms/linux/LinuxPreviewGDK"
+          },
+          {
+            "text": "LinuxPreviewUWP",
+            "link": "platforms/linux/LinuxPreviewUWP"
+          },
+          {
+            "text": "OSXBedrockGDK",
+            "link": "platforms/macosx/OSXBedrockGDK"
+          },
+          {
+            "text": "OSXBedrockUWP",
+            "link": "platforms/macosx/OSXBedrockUWP"
+          },
+          {
+            "text": "OSXEducationGDK",
+            "link": "platforms/macosx/OSXEducationGDK"
+          },
+          {
+            "text": "OSXEducationUWP",
+            "link": "platforms/macosx/OSXEducationUWP"
+          },
+          {
+            "text": "OSXJavaEdition",
+            "link": "platforms/macosx/OSXJavaEdition"
+          },
+          {
+            "text": "OXSPreviewGDK",
+            "link": "platforms/macosx/OXSPreviewGDK"
+          },
+          {
+            "text": "OSXPreviewUWP",
+            "link": "platforms/macosx/OSXPreviewUWP"
+          },
+          {
+            "text": "WinBedrockGDK",
+            "link": "platforms/win/WinBedrockGDK"
+          },
+          {
+            "text": "WinBedrockUWP",
+            "link": "platforms/win/WinBedrockUWP"
+          },
+          {
+            "text": "WinEducationGDKEdition",
+            "link": "platforms/win/WinEducationGDKEdition"
+          },
+          {
+            "text": "WinEducationUWPEdition",
+            "link": "platforms/win/WinEducationUWPEdition"
+          },
+          {
+            "text": "WinJavaEdition",
+            "link": "platforms/win/WinJavaEdition"
+          },
+          {
+            "text": "WinPreviewGDKEdition",
+            "link": "platforms/win/WinPreviewGDKEdition"
+          },
+          {
+            "text": "WinPreviewUWPEdition",
+            "link": "platforms/win/WinPreviewUWPEdition"
+          },
+          {
+            "text": "Platform",
+            "link": "Platform"
+          },
+          {
+            "text": "Proxy",
+            "link": "Proxy"
+          }
+        ],
+        "collapsed": true
       }
-    ]
+    ],
+    "base": "/mcpath/reference/"
   },
-
   {
     "text": "Legacy (1.1.0)",
     "base": "/mcpath/legacy",
     "items": [
-      { "text": "globals", "link": "/globals" },
-      { "text": "MCPath", "link": "/MCPath" }
+      {
+        "text": "globals",
+        "link": "/globals"
+      },
+      {
+        "text": "MCPath",
+        "link": "/MCPath"
+      }
     ]
   }
 ]

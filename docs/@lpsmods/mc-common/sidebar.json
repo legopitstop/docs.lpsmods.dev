@@ -3,13 +3,421 @@
     "text": "Guide",
     "collapsed": false,
     "items": [
-      { "text": "Getting Started", "link": "/guide/getting-started" },
-      { "text": "Action Form", "link": "/guide/action-form" },
-      { "text": "Modal Form", "link": "/guide/modal-form" },
-      { "text": "Paged Action Form", "link": "/guide/paged-action-form" },
-      { "text": "Progress Bar", "link": "/guide/progress-bar" },
-      { "text": "FAQ", "link": "/guide/faq" }
+      {
+        "text": "Getting Started",
+        "link": "/guide/getting-started"
+      },
+      {
+        "text": "Action Form",
+        "link": "/guide/action-form"
+      },
+      {
+        "text": "Modal Form",
+        "link": "/guide/modal-form"
+      },
+      {
+        "text": "Paged Action Form",
+        "link": "/guide/paged-action-form"
+      },
+      {
+        "text": "Progress Bar",
+        "link": "/guide/progress-bar"
+      },
+      {
+        "text": "FAQ",
+        "link": "/guide/faq"
+      }
     ]
   },
-  { "text": "Script API", "collapsed": true, "items": [{ "text": "UNDOCUMENTED" }] }
+  {
+    "text": "Script API",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "Classes",
+        "items": [
+          {
+            "text": "Overview",
+            "link": "classes"
+          },
+          {
+            "text": "DataStorage",
+            "link": "DataStorage"
+          },
+          {
+            "text": "VersionedDataStorage",
+            "link": "VersionedDataStorage"
+          },
+          {
+            "text": "LocalStorage",
+            "link": "LocalStorage"
+          },
+          {
+            "text": "SessionStorage",
+            "link": "SessionStorage"
+          },
+          {
+            "text": "DecodeUtils",
+            "link": "DecodeUtils"
+          },
+          {
+            "text": "DynamicStorage",
+            "link": "DynamicStorage"
+          },
+          {
+            "text": "EncodeUtils",
+            "link": "EncodeUtils"
+          },
+          {
+            "text": "ReadDataEvent",
+            "link": "ReadDataEvent"
+          },
+          {
+            "text": "WriteDataEvent",
+            "link": "WriteDataEvent"
+          },
+          {
+            "text": "DeleteDataEvent",
+            "link": "DeleteDataEvent"
+          },
+          {
+            "text": "ReadDataEventSignal",
+            "link": "ReadDataEventSignal"
+          },
+          {
+            "text": "WriteDataEventSignal",
+            "link": "WriteDataEventSignal"
+          },
+          {
+            "text": "DeleteDataEventSignal",
+            "link": "DeleteDataEventSignal"
+          },
+          {
+            "text": "DataStorageEvents",
+            "link": "DataStorageEvents"
+          },
+          {
+            "text": "ErrorUtils",
+            "link": "ErrorUtils"
+          },
+          {
+            "text": "ValidationError",
+            "link": "ValidationError"
+          },
+          {
+            "text": "SystemEvents",
+            "link": "SystemEvents"
+          },
+          {
+            "text": "Identifier",
+            "link": "Identifier"
+          },
+          {
+            "text": "MathUtils",
+            "link": "MathUtils"
+          },
+          {
+            "text": "Settings",
+            "link": "Settings"
+          },
+          {
+            "text": "PlayerSettings",
+            "link": "PlayerSettings"
+          },
+          {
+            "text": "TextUtils",
+            "link": "TextUtils"
+          },
+          {
+            "text": "Typing",
+            "link": "Typing"
+          },
+          {
+            "text": "Hasher",
+            "link": "Hasher"
+          },
+          {
+            "text": "ActionFormEvent",
+            "link": "ActionFormEvent"
+          },
+          {
+            "text": "ActionFormShowEvent",
+            "link": "ActionFormShowEvent"
+          },
+          {
+            "text": "ActionFormHandler",
+            "link": "ActionFormHandler"
+          },
+          {
+            "text": "MessageBox",
+            "link": "MessageBox"
+          },
+          {
+            "text": "ModalFormEvent",
+            "link": "ModalFormEvent"
+          },
+          {
+            "text": "ModelFormShowEvent",
+            "link": "ModelFormShowEvent"
+          },
+          {
+            "text": "ModalFormOnSubmit",
+            "link": "ModalFormOnSubmit"
+          },
+          {
+            "text": "ModalFormHandler",
+            "link": "ModalFormHandler"
+          },
+          {
+            "text": "PagedActionFormEvent",
+            "link": "PagedActionFormEvent"
+          },
+          {
+            "text": "PlayerSettingsPage",
+            "link": "PlayerSettingsPage"
+          },
+          {
+            "text": "PagedActionForm",
+            "link": "PagedActionForm"
+          },
+          {
+            "text": "ProgressBar",
+            "link": "ProgressBar"
+          },
+          {
+            "text": "SimpleDialog",
+            "link": "SimpleDialog"
+          },
+          {
+            "text": "Dialog",
+            "link": "Dialog"
+          },
+          {
+            "text": "QueryDialog",
+            "link": "QueryDialog"
+          },
+          {
+            "text": "QueryInteger",
+            "link": "QueryInteger"
+          },
+          {
+            "text": "QueryFloat",
+            "link": "QueryFloat"
+          },
+          {
+            "text": "QueryString",
+            "link": "QueryString"
+          },
+          {
+            "text": "ConditionUtils",
+            "link": "ConditionUtils"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "text": "Interfaces",
+        "items": [
+          {
+            "text": "Overview",
+            "link": "interfaces"
+          },
+          {
+            "text": "DataStorageOptions",
+            "link": "DataStorageOptions"
+          },
+          {
+            "text": "VersionedDataSchema",
+            "link": "VersionedDataSchema"
+          },
+          {
+            "text": "ValidationIssue",
+            "link": "ValidationIssue"
+          },
+          {
+            "text": "EventListener",
+            "link": "EventListener"
+          },
+          {
+            "text": "SettingDescriptor",
+            "link": "SettingDescriptor"
+          },
+          {
+            "text": "SettingsOptions",
+            "link": "SettingsOptions"
+          },
+          {
+            "text": "PlayerSettingsOptions",
+            "link": "PlayerSettingsOptions"
+          },
+          {
+            "text": "RenderJsonOptions",
+            "link": "RenderJsonOptions"
+          },
+          {
+            "text": "ActionButton",
+            "link": "ActionButton"
+          },
+          {
+            "text": "ActionForm",
+            "link": "ActionForm"
+          },
+          {
+            "text": "ActionFormHandlerOptions",
+            "link": "ActionFormHandlerOptions"
+          },
+          {
+            "text": "ModalForm",
+            "link": "ModalForm"
+          },
+          {
+            "text": "ModalFormHandlerOptions",
+            "link": "ModalFormHandlerOptions"
+          },
+          {
+            "text": "PageButton",
+            "link": "PageButton"
+          },
+          {
+            "text": "PageData",
+            "link": "PageData"
+          },
+          {
+            "text": "BackButtonOptions",
+            "link": "BackButtonOptions"
+          },
+          {
+            "text": "SearchOptions",
+            "link": "SearchOptions"
+          },
+          {
+            "text": "PagedActionFormOptions",
+            "link": "PagedActionFormOptions"
+          },
+          {
+            "text": "PagedActionFormOptions",
+            "link": "PagedActionFormOptions-2"
+          },
+          {
+            "text": "ProgressBarStyle",
+            "link": "ProgressBarStyle"
+          },
+          {
+            "text": "ProgressBarColor",
+            "link": "ProgressBarColor"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "text": "Enums",
+        "items": [
+          {
+            "text": "Overview",
+            "link": "enums"
+          },
+          {
+            "text": "ChatColor",
+            "link": "ChatColor"
+          },
+          {
+            "text": "Environment",
+            "link": "Environment"
+          },
+          {
+            "text": "Oxidization",
+            "link": "Oxidization"
+          },
+          {
+            "text": "TextKey",
+            "link": "TextKey"
+          },
+          {
+            "text": "InputKey",
+            "link": "InputKey"
+          },
+          {
+            "text": "Emoji",
+            "link": "Emoji"
+          },
+          {
+            "text": "TypingTypes",
+            "link": "TypingTypes"
+          },
+          {
+            "text": "Icon",
+            "link": "Icon"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "text": "Type Aliases",
+        "items": [
+          {
+            "text": "PropertyValue",
+            "link": "PropertyValue"
+          },
+          {
+            "text": "Color",
+            "link": "Color"
+          },
+          {
+            "text": "DynamicObject",
+            "link": "DynamicObject"
+          },
+          {
+            "text": "Id",
+            "link": "Id"
+          },
+          {
+            "text": "Matrix3",
+            "link": "Matrix3"
+          },
+          {
+            "text": "FormResult",
+            "link": "FormResult"
+          },
+          {
+            "text": "TextOption",
+            "link": "TextOption"
+          },
+          {
+            "text": "DropdownOption",
+            "link": "DropdownOption"
+          },
+          {
+            "text": "SliderOption",
+            "link": "SliderOption"
+          },
+          {
+            "text": "ToggleOption",
+            "link": "ToggleOption"
+          },
+          {
+            "text": "DividerOption",
+            "link": "DividerOption"
+          },
+          {
+            "text": "LabelOption",
+            "link": "LabelOption"
+          },
+          {
+            "text": "HeaderOption",
+            "link": "HeaderOption"
+          },
+          {
+            "text": "ModalOptions",
+            "link": "ModalOptions"
+          },
+          {
+            "text": "Pages",
+            "link": "Pages"
+          }
+        ],
+        "collapsed": true
+      }
+    ],
+    "base": "/@lpsmods/mc-common/scriptapi/"
+  }
 ]

@@ -40,4 +40,4 @@ No, This package is for the Bedrock scripting API only.
 
 `@lpsmods/mc-common` will always support the latest scripting API version and will not work for older versions.
 
-<!--@include: @/common/marketplace-faq.md -->
+<!--@include: @/common/node-faq.md -->

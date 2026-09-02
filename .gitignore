@@ -3,3 +3,6 @@ docs/.vitepress/cache
 node_modules
 docs/.obsidian
 .env
+.docs-generator-cache
+reference/
+scriptapi/

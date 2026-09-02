@@ -1,11 +1,107 @@
 [
-  { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Getting Started",
+    "link": "/getting-started"
+  },
   {
     "text": "API Reference",
-    "collapsed": true,
+    "collapsed": false,
     "items": [
-      { "text": "Functions", "link": "/functions" },
-      { "text": "Classes", "items": [{ "text": "Molang", "link": "/Molang" }] }
-    ]
+      {
+        "text": "Classes",
+        "items": [
+          {
+            "text": "Overview",
+            "link": "classes"
+          },
+          {
+            "text": "Node",
+            "link": "core/Node"
+          },
+          {
+            "text": "Number",
+            "link": "core/Number"
+          },
+          {
+            "text": "Variable",
+            "link": "core/Variable"
+          },
+          {
+            "text": "Unary",
+            "link": "core/Unary"
+          },
+          {
+            "text": "Binary",
+            "link": "core/Binary"
+          },
+          {
+            "text": "Ternary",
+            "link": "core/Ternary"
+          },
+          {
+            "text": "Assign",
+            "link": "core/Assign"
+          },
+          {
+            "text": "Call",
+            "link": "core/Call"
+          },
+          {
+            "text": "MolangError",
+            "link": "core/MolangError"
+          },
+          {
+            "text": "MolangSyntaxError",
+            "link": "core/MolangSyntaxError"
+          },
+          {
+            "text": "Parser",
+            "link": "core/Parser"
+          },
+          {
+            "text": "MolangExpr",
+            "link": "MolangExpr"
+          },
+          {
+            "text": "ArrayNamespace",
+            "link": "ArrayNamespace"
+          },
+          {
+            "text": "VariableNamespace",
+            "link": "VariableNamespace"
+          },
+          {
+            "text": "MathNamespace",
+            "link": "MathNamespace"
+          },
+          {
+            "text": "QueryNamespace",
+            "link": "QueryNamespace"
+          },
+          {
+            "text": "MolangExpr",
+            "link": "MolangExpr-2"
+          },
+          {
+            "text": "VariableNamespace",
+            "link": "VariableNamespace-2"
+          },
+          {
+            "text": "ArrayNamespace",
+            "link": "ArrayNamespace-2"
+          },
+          {
+            "text": "MathNamespace",
+            "link": "MathNamespace-2"
+          },
+          {
+            "text": "QueryNamespace",
+            "link": "QueryNamespace-2"
+          }
+        ],
+        "collapsed": true
+      }
+    ],
+    "base": "/molang/reference/"
   }
 ]

@@ -2,34 +2,43 @@
   "name": "@lpsmods/docs",
   "private": true,
   "description": "Documentation for all Legopitstop's projects.",
+  "type": "module",
   "devDependencies": {
-    "@babel/eslint-parser": "^7.28.5",
+    "@babel/eslint-parser": "^7.29.7",
     "@eslint/js": "^9.39.1",
     "@eslint/markdown": "^7.5.1",
     "@itznotabug/routex": "^0.0.3",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.5",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-unused-imports": "^4.3.0",
-    "eslint-plugin-vue": "^10.5.1",
+    "eslint-plugin-unused-imports": "^4.4.1",
+    "eslint-plugin-vue": "^10.10.0",
     "globals": "^16.5.0",
-    "vitepress": "^1.6.3",
+    "vitepress": "^1.6.4",
     "vitepress-plugin-google-analytics": "^1.0.2",
     "vitepress-plugin-lightbox": "^1.0.3",
-    "vitepress-plugin-tabs": "^0.7.3"
+    "vitepress-plugin-tabs": "^0.9.1"
   },
   "scripts": {
     "dev": "vitepress dev docs --port 80 --host",
-    "build": "vitepress build docs",
+    "build": "node scripts/generate.js && vitepress build docs",
     "preview": "vitepress preview docs",
     "lint": "eslint ."
   },
   "dependencies": {
-    "cspell": "^9.1.1",
+    "@lpsmods/docs-generator": "^0.0.1-alpha.3",
+    "cspell": "^9.8.0",
     "file-dialog": "^0.0.8",
     "file-saver": "^2.0.5",
     "jszip": "^3.10.1",
-    "semver": "^7.7.3",
+    "semver": "^7.8.5",
     "three": "^0.165.0",
-    "uuid": "^10.0.0"
+    "uuid": "^14.0.1"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true,
+    "tree-sitter@0.21.1": true,
+    "tree-sitter-javascript@0.23.1": true,
+    "tree-sitter-python@0.21.0": true,
+    "tree-sitter-typescript@0.23.2": true
   }
 }

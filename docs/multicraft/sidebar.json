@@ -1,32 +1,95 @@
 [
-  { "text": "Getting Started", "link": "/getting-started" },
-  { "text": "Known Hosts", "link": "/Known_Hosts" },
+  {
+    "text": "Getting Started",
+    "link": "/getting-started"
+  },
+  {
+    "text": "Known Hosts",
+    "link": "/Known_Hosts"
+  },
   {
     "text": "API Reference",
-    "collapsed": true,
+    "collapsed": false,
     "items": [
-      { "text": "Constants", "link": "/constants" },
-      { "text": "Functions", "link": "/functions" },
       {
         "text": "Classes",
         "items": [
-          { "text": "MulticraftAPI", "link": "/MulticraftAPI" },
-          { "text": "Backup", "link": "/Backup" },
-          { "text": "ChatMessage", "link": "/ChatMessage" },
-          { "text": "Command", "link": "/Command" },
-          { "text": "Database", "link": "/DataBase" },
-          { "text": "Hosts", "link": "/hosts" },
-          { "text": "Player", "link": "/Player" },
-          { "text": "Schedule", "link": "/Schedule" },
+          {
+            "text": "Overview",
+            "link": "classes"
+          },
+          {
+            "text": "MulticraftException",
+            "link": "MulticraftException"
+          },
+          {
+            "text": "MulticraftAPI",
+            "link": "MulticraftAPI"
+          },
+          {
+            "text": "Status",
+            "link": "Status"
+          },
+          {
+            "text": "ScheduleStatus",
+            "link": "ScheduleStatus"
+          },
+          {
+            "text": "Role",
+            "link": "Role"
+          },
+          {
+            "text": "Mode",
+            "link": "Mode"
+          },
+          {
+            "text": "BackupStatus",
+            "link": "BackupStatus"
+          },
+          {
+            "text": "User",
+            "link": "User"
+          },
+          {
+            "text": "Server",
+            "link": "Server"
+          },
+          {
+            "text": "Command",
+            "link": "Command"
+          },
+          {
+            "text": "ServerStatus",
+            "link": "ServerStatus"
+          },
           {
             "text": "ServerResources",
-            "link": "/ServerResources"
+            "link": "ServerResources"
           },
-          { "text": "ServerStatus", "link": "/ServerStatus" },
-          { "text": "Server", "link": "/Server" },
-          { "text": "User", "link": "/User" }
-        ]
+          {
+            "text": "ChatMessage",
+            "link": "ChatMessage"
+          },
+          {
+            "text": "Player",
+            "link": "Player"
+          },
+          {
+            "text": "Schedule",
+            "link": "Schedule"
+          },
+          {
+            "text": "Database",
+            "link": "Database"
+          },
+          {
+            "text": "Backup",
+            "link": "Backup"
+          }
+        ],
+        "collapsed": true
       }
-    ]
+    ],
+    "base": "/multicraft/reference/"
   }
 ]

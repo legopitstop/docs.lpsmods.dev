@@ -12,12 +12,19 @@
     "statusBar.background": "#fb6e07",
     "statusBar.foreground": "#15202b",
     "statusBarItem.hoverBackground": "#cc5803",
-    "statusBarItem.remoteBackground": "#fb6e07",
+    "statusBarItem.remoteBackground": "#04fb6c",
     "statusBarItem.remoteForeground": "#15202b",
     "titleBar.activeBackground": "#fb6e07",
     "titleBar.activeForeground": "#15202b",
     "titleBar.inactiveBackground": "#fb6e0799",
-    "titleBar.inactiveForeground": "#15202b99"
+    "titleBar.inactiveForeground": "#15202b99",
+    "activityBarTop.activeBackground": "#fc8b39",
+    "activityBarTop.background": "#fc8b39",
+    "activityBarTop.foreground": "#15202b",
+    "activityBarTop.inactiveForeground": "#15202b99",
+    "commandCenter.foreground": "#15202b",
+    "statusBar.debuggingBackground": "#fb6e07",
+    "statusBar.debuggingForeground": "#15202b"
   },
   "peacock.color": "#fb6e07",
   "markdownlint.config": {
