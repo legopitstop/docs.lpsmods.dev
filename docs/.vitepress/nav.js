@@ -9,6 +9,7 @@ export const nav = [
       { text: "Misc", link: "/misc-docs" },
       { text: "Blockbench Plugins", link: "/blockbench-plugins" },
       { text: "Node", link: "/node" },
+      { text: "REST API", link: "/rest-api-docs" },
     ],
   },
   {

@@ -16,11 +16,5 @@
         "link": "/guide/faq"
       }
     ]
-  },
-  {
-    "text": "Script API",
-    "collapsed": false,
-    "items": [],
-    "base": "/@lpsmods/mc-superstruct/scriptapi/"
   }
 ]

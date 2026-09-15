@@ -6,3 +6,5 @@ docs/.obsidian
 .docs-generator-cache
 reference/
 scriptapi/
+docs/lpsmods-api/python
+docs/lpsmods-api/node
