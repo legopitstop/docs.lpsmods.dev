@@ -1,13 +1,335 @@
 [
-  { "text": "Getting Started", "link": "/getting-started" },
+  {
+    "text": "Getting Started",
+    "link": "/getting-started"
+  },
   {
     "text": "API Reference",
-    "collapsed": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "Overview",
+        "link": "index"
+      },
+      {
+        "text": "API",
+        "link": "api"
+      },
+      {
+        "text": "Health",
+        "link": "health"
+      },
+      {
+        "text": "Metadata",
+        "link": "metadata"
+      },
+      {
+        "text": "Projects",
+        "link": "projects"
+      },
+      {
+        "text": "Project Files",
+        "link": "project-files"
+      },
+      {
+        "text": "Project Gallery",
+        "link": "project-gallery"
+      },
+      {
+        "text": "Project Gallery Comparisons",
+        "link": "project-gallery-comparisons"
+      },
+      {
+        "text": "Project Contents",
+        "link": "project-contents"
+      },
+      {
+        "text": "Search",
+        "link": "search"
+      },
+      {
+        "text": "Static Data",
+        "link": "static-data"
+      },
+      {
+        "text": "Sponsors",
+        "link": "sponsors"
+      },
+      {
+        "text": "Feeds",
+        "link": "feeds"
+      },
+      {
+        "text": "Auth",
+        "link": "auth"
+      },
+      {
+        "text": "Admin",
+        "link": "admin"
+      }
+    ],
+    "base": "/lpsmods-api/reference/"
+  },
+  {
+    "text": "Node Wrapper",
+    "collapsed": false,
     "items": [
       {
         "text": "Classes",
-        "items": [{ "text": "LPSModsClient", "link": "/LPSModsClient" }]
+        "items": [
+          {
+            "text": "Overview",
+            "link": "classes"
+          },
+          {
+            "text": "LPSModsAPIError",
+            "link": "LPSModsAPIError"
+          },
+          {
+            "text": "LPSModsClient",
+            "link": "LPSModsClient"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "text": "Interfaces",
+        "items": [
+          {
+            "text": "Overview",
+            "link": "interfaces"
+          },
+          {
+            "text": "LPSModsClientOptions",
+            "link": "LPSModsClientOptions"
+          },
+          {
+            "text": "MutationOptions",
+            "link": "MutationOptions"
+          },
+          {
+            "text": "Info",
+            "link": "Info"
+          },
+          {
+            "text": "AuditEntry",
+            "link": "AuditEntry"
+          },
+          {
+            "text": "MCUI",
+            "link": "MCUI"
+          },
+          {
+            "text": "ProjectThumbnail",
+            "link": "ProjectThumbnail"
+          },
+          {
+            "text": "ProjectBanner",
+            "link": "ProjectBanner"
+          },
+          {
+            "text": "ProjectConnections",
+            "link": "ProjectConnections"
+          },
+          {
+            "text": "ProjectLinks",
+            "link": "ProjectLinks"
+          },
+          {
+            "text": "ProjectFile",
+            "link": "ProjectFile"
+          },
+          {
+            "text": "GalleryImage",
+            "link": "GalleryImage"
+          },
+          {
+            "text": "GalleryComparison",
+            "link": "GalleryComparison"
+          },
+          {
+            "text": "BaseContent",
+            "link": "BaseContent"
+          },
+          {
+            "text": "ItemContent",
+            "link": "ItemContent"
+          },
+          {
+            "text": "BlockContent",
+            "link": "BlockContent"
+          },
+          {
+            "text": "EntityContent",
+            "link": "EntityContent"
+          },
+          {
+            "text": "StructureContent",
+            "link": "StructureContent"
+          },
+          {
+            "text": "BiomeContent",
+            "link": "BiomeContent"
+          },
+          {
+            "text": "SkinContent",
+            "link": "SkinContent"
+          },
+          {
+            "text": "ContentParam",
+            "link": "ContentParam"
+          },
+          {
+            "text": "FunctionContent",
+            "link": "FunctionContent"
+          },
+          {
+            "text": "ContentMethod",
+            "link": "ContentMethod"
+          },
+          {
+            "text": "ClassContent",
+            "link": "ClassContent"
+          },
+          {
+            "text": "InterfaceContent",
+            "link": "InterfaceContent"
+          },
+          {
+            "text": "Project",
+            "link": "Project"
+          },
+          {
+            "text": "PaginationOptions",
+            "link": "PaginationOptions"
+          },
+          {
+            "text": "ProjectContentsOptions",
+            "link": "ProjectContentsOptions"
+          },
+          {
+            "text": "ProjectContentsResponse",
+            "link": "ProjectContentsResponse"
+          },
+          {
+            "text": "ProjectContentsBulkUpdate",
+            "link": "ProjectContentsBulkUpdate"
+          },
+          {
+            "text": "ProjectFilters",
+            "link": "ProjectFilters"
+          },
+          {
+            "text": "SearchOptions",
+            "link": "SearchOptions"
+          },
+          {
+            "text": "SearchResult",
+            "link": "SearchResult"
+          },
+          {
+            "text": "SearchResponse",
+            "link": "SearchResponse"
+          },
+          {
+            "text": "AuthUser",
+            "link": "AuthUser"
+          },
+          {
+            "text": "LogoutResponse",
+            "link": "LogoutResponse"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "text": "Type Aliases",
+        "items": [
+          {
+            "text": "QueryValue",
+            "link": "QueryValue"
+          },
+          {
+            "text": "Query",
+            "link": "Query"
+          },
+          {
+            "text": "HealthStatus",
+            "link": "HealthStatus"
+          },
+          {
+            "text": "ProjectTypeConfig",
+            "link": "ProjectTypeConfig"
+          },
+          {
+            "text": "ContentTypeConfig",
+            "link": "ContentTypeConfig"
+          },
+          {
+            "text": "ProjectType",
+            "link": "ProjectType"
+          },
+          {
+            "text": "ProjectEngine",
+            "link": "ProjectEngine"
+          },
+          {
+            "text": "Loader",
+            "link": "Loader"
+          },
+          {
+            "text": "SponsorImageStyle",
+            "link": "SponsorImageStyle"
+          },
+          {
+            "text": "ContentStatus",
+            "link": "ContentStatus"
+          },
+          {
+            "text": "DataType",
+            "link": "DataType"
+          },
+          {
+            "text": "ProjectConnectionUrls",
+            "link": "ProjectConnectionUrls"
+          },
+          {
+            "text": "ProjectContent",
+            "link": "ProjectContent"
+          },
+          {
+            "text": "ProjectSummary",
+            "link": "ProjectSummary"
+          }
+        ],
+        "collapsed": true
       }
-    ]
+    ],
+    "base": "/lpsmods-api/node/"
+  },
+  {
+    "text": "Python Wrapper",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "Classes",
+        "items": [
+          {
+            "text": "Overview",
+            "link": "classes"
+          },
+          {
+            "text": "LPSModsClient",
+            "link": "LPSModsClient"
+          },
+          {
+            "text": "Info",
+            "link": "Info"
+          }
+        ],
+        "collapsed": true
+      }
+    ],
+    "base": "/lpsmods-api/python/"
   }
 ]

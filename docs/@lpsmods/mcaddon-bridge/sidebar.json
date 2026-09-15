@@ -41,6 +41,30 @@
             "link": "Connection"
           },
           {
+            "text": "BridgeError",
+            "link": "BridgeError"
+          },
+          {
+            "text": "BridgeTimeoutError",
+            "link": "BridgeTimeoutError"
+          },
+          {
+            "text": "BridgeNotFoundError",
+            "link": "BridgeNotFoundError"
+          },
+          {
+            "text": "BridgeRemoteError",
+            "link": "BridgeRemoteError"
+          },
+          {
+            "text": "BridgeProtocolError",
+            "link": "BridgeProtocolError"
+          },
+          {
+            "text": "BridgeVersionError",
+            "link": "BridgeVersionError"
+          },
+          {
             "text": "PacketEvent",
             "link": "PacketEvent"
           },
@@ -87,12 +111,48 @@
             "link": "BridgeOptions"
           },
           {
+            "text": "ConnectionOptions",
+            "link": "ConnectionOptions"
+          },
+          {
+            "text": "AddonBridgePropertyDocs",
+            "link": "AddonBridgePropertyDocs"
+          },
+          {
+            "text": "AddonBridgeDocs",
+            "link": "AddonBridgeDocs"
+          },
+          {
+            "text": "GenerateAddonDocsOptions",
+            "link": "GenerateAddonDocsOptions"
+          },
+          {
+            "text": "PacketHeaders",
+            "link": "PacketHeaders"
+          },
+          {
+            "text": "PacketSendOptions",
+            "link": "PacketSendOptions"
+          },
+          {
+            "text": "PacketSyncOptions",
+            "link": "PacketSyncOptions"
+          },
+          {
             "text": "PacketReceiveEventOptions",
             "link": "PacketReceiveEventOptions"
           },
           {
             "text": "PacketResponseEventOptions",
             "link": "PacketResponseEventOptions"
+          },
+          {
+            "text": "BridgeRequest",
+            "link": "BridgeRequest"
+          },
+          {
+            "text": "BridgeResponse",
+            "link": "BridgeResponse"
           }
         ],
         "collapsed": true
@@ -107,6 +167,10 @@
           {
             "text": "PacketData",
             "link": "PacketData"
+          },
+          {
+            "text": "BridgeMethod",
+            "link": "BridgeMethod"
           }
         ],
         "collapsed": true
